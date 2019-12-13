@@ -4,5 +4,4 @@ This repository contains the [SUD](https://surfacesyntacticud.github.io/) versio
 
 See **UD** repo of the same corpus: [UD_French-GSD](https://github.com/UniversalDependencies/UD_French-GSD) for more details.
 
-
 Note that from December 2019, the corpus is developped in the SUD framework (this repo) and then converted to UD.
