@@ -24474,8 +24474,7 @@
 29	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_00887
-# text = Une deuxième antichambre servait de large dégagement pour les personnes de service (La première antichambre, l'autre salle d'attente étant
-la deuxième puisque l'on compte depuis la chambre desservie dans l'organisation de l'enfilade.
+# text = Une deuxième antichambre servait de large dégagement pour les personnes de service (La première antichambre, l'autre salle d'attente étant la deuxième puisque l'on compte depuis la chambre desservie dans l'organisation de l'enfilade.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	_
 3	antichambre	antichambre	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
