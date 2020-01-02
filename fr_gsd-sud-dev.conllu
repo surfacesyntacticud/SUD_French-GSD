@@ -33992,7 +33992,7 @@
 45	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 46	ajouté	ajouter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	comp:aux@tense	_	_
 47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
-48	jury	jury	NOUN	_	Gender=Masc|Number=Sing	46	comp:obj	_	_
+48	jury	jury	NOUN	_	Gender=Masc|Number=Sing	45	subj	_	_
 49	pour	pour	ADP	_	_	45	mod	_	_
 50	justifier	justifier	VERB	_	VerbForm=Inf	49	comp:obj	_	_
 51	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	52	det	_	_
@@ -37202,7 +37202,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 6	attachée	attacher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	titre	titre	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+8	titre	titre	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
 9	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	9	comp:obl	_	_
