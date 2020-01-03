@@ -5985,7 +5985,7 @@
 58	centaines	centaine	NOUN	_	Gender=Fem|Number=Plur	56	comp:obj	_	_
 59	de	de	ADP	_	_	58	udep	_	_
 60	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	59	comp:obj	_	_
-61	de	de	ADP	_	_	56	mod	_	_
+61	de	de	ADP	_	_	58	mod	_	_
 62	là	là	ADV	_	_	61	comp:obj	_	SpaceAfter=No
 63	.	.	PUNCT	_	_	44	punct	_	_
 
@@ -6226,7 +6226,7 @@
 14	beaucoup	beaucoup	ADV	_	_	13	comp:obj	_	_
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	salade	salade	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
-17	autour	autour	ADV	_	_	13	mod	_	SpaceAfter=No
+17	autour	autour	ADV	_	_	14	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -9361,7 +9361,7 @@
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	principalement	principalement	ADV	_	_	40	mod	_	_
 40-41	au	_	_	_	_	_	_	_	_
-40	à	à	ADP	_	_	29	mod	_	EXTPOS=ADV|Type=MWE
+40	à	à	ADP	_	_	31	mod	_	EXTPOS=ADV|Type=MWE
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det@fixed	_	_
 42	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj@fixed	_	_
 43-44	du	_	_	_	_	_	_	_	_

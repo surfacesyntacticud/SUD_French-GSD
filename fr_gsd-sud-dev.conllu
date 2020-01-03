@@ -10560,7 +10560,7 @@
 2	peu	peu	ADV	_	_	1	mod	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-5	après	après	ADV	_	_	3	mod	_	SpaceAfter=No
+5	après	après	ADV	_	_	2	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@pass	_	_
 8	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -13816,7 +13816,7 @@
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	principalement	principalement	ADV	_	_	40	mod	_	_
 40-41	au	_	_	_	_	_	_	_	_
-40	à	à	ADP	_	_	29	mod	_	EXTPOS=ADV|Type=MWE
+40	à	à	ADP	_	_	31	mod	_	EXTPOS=ADV|Type=MWE
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det@fixed	_	_
 42	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj@fixed	_	_
 43-44	du	_	_	_	_	_	_	_	_
@@ -15755,7 +15755,7 @@
 25	tant	tant	ADV	_	_	24	unk@fixed	_	_
 26	que	que	SCONJ	_	_	25	unk@fixed	_	_
 27	divers	divers	ADJ	_	Gender=Masc|Number=Plur	24	comp:obj	_	_
-28	droite	droite	NOUN	_	Gender=Fem|Number=Sing	24	mod	_	_
+28	droite	droite	NOUN	_	Gender=Fem|Number=Sing	27	mod	_	_
 29	alors	alors	ADV	_	_	17	mod	_	EXTPOS=SCONJ|Type=MWE
 30	que	que	SCONJ	_	_	29	unk@fixed	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -17707,7 +17707,7 @@
 20	ferme	ferme	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	courageuse	courageux	ADJ	_	Gender=Fem|Number=Sing	20	conj	_	_
-23	face	face	ADV	_	_	17	mod	_	_
+23	face	face	ADV	_	_	19	mod	_	_
 24	à	à	ADP	_	_	23	comp:obl	_	_
 25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
 26	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
@@ -18585,7 +18585,7 @@
 21	en	en	ADP	_	_	23	mod	_	_
 22	partie	partie	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 23-24	du	_	_	_	_	_	_	_	_
-23	de	de	ADP	_	_	14	mod	_	EXTPOS=ADV|Type=MWE
+23	de	de	ADP	_	_	16	mod	_	EXTPOS=ADV|Type=MWE
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det@fixed	_	_
 25	fait	fait	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj@fixed	_	_
 26	de	de	ADP	_	_	23	comp:obl	_	_
@@ -28427,7 +28427,7 @@
 14	de	de	ADP	_	_	13	udep	_	_
 15	Farge	Farge	PROPN	_	_	14	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	près	près	ADV	_	_	14	mod	_	_
+17	près	près	ADV	_	_	15	mod	_	_
 18	de	de	ADP	_	_	17	comp:obl	_	_
 19	Brême	Brême	PROPN	_	_	18	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
@@ -29197,7 +29197,7 @@
 20	Newington	Newington	PROPN	_	_	19	comp:obj	_	_
 21	Green	Green	PROPN	_	_	20	flat@name	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	près	près	ADV	_	_	19	mod	_	_
+23	près	près	ADV	_	_	20	mod	_	_
 24	de	de	ADP	_	_	23	comp:obl	_	_
 25	Londres	Londres	PROPN	_	_	24	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
@@ -29518,7 +29518,7 @@
 42	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
 43	Otan	Otan	PROPN	_	_	41	comp:obj	_	_
 44-45	aux	_	_	_	_	_	_	_	_
-44	à	à	ADP	_	_	34	mod	_	EXTPOS=ADV|Type=MWE
+44	à	à	ADP	_	_	36	mod	_	EXTPOS=ADV|Type=MWE
 45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det@fixed	_	_
 46	côtés	côté	NOUN	_	Gender=Masc|Number=Plur	44	comp:obj@fixed	_	_
 47-48	des	_	_	_	_	_	_	_	_
@@ -34320,7 +34320,7 @@
 21	cri	cri	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No
 23	alerte	alerte	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
-24	face	face	ADV	_	_	19	mod	_	_
+24	face	face	ADV	_	_	21	mod	_	_
 25-26	au	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	24	comp:obl	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
