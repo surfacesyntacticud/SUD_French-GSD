@@ -9968,7 +9968,7 @@
 20	Lingolsheim	Lingolsheim	PROPN	_	_	18	conj	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	11	punct	_	_
-23	en	en	ADP	_	_	6	conj	_	_
+23	en	en	ADP	_	_	6	mod	_	_
 24	Belgique	Belgique	PROPN	_	_	23	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26-27	au	_	_	_	_	_	_	_	_
