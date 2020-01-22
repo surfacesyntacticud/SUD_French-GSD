@@ -423,7 +423,7 @@
 31	traditionalisme	traditionalisme	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	et	et	CCONJ	_	_	34	cc	_	_
-34	réciproquement	réciproquement	ADV	_	_	21	conj	_	SpaceAfter=No
+34	réciproquement	réciproquement	ADV	_	_	25	conj:emb	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00013
@@ -666,7 +666,7 @@
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	rêves	rêve	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
-14	d'	de	ADP	_	_	10	udep	_	SpaceAfter=No
+14	d'	de	ADP	_	Shared=Yes	13	udep	_	SpaceAfter=No
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
@@ -1513,7 +1513,7 @@
 8	Ahmed	Ahmed	PROPN	_	_	6	flat@name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	deux	deux	NUM	_	_	11	det	_	_
-11	activistes	activiste	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
+11	activistes	activiste	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	6	appos	_	_
 12	pacifistes	pacifiste	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	11	udep	_	_
@@ -2349,13 +2349,13 @@
 64	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
 65	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	62	conj	_	_
 66-67	des	_	_	_	_	_	_	_	_
-66	de	de	ADP	_	_	62	udep	_	_
+66	de	de	ADP	_	Shared=Yes	65	udep	_	_
 67	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	68	det	_	_
 68	droits	droit	NOUN	_	Gender=Masc|Number=Plur	66	comp:obj	_	_
 69	de	de	ADP	_	_	68	udep	_	_
 70	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	_	SpaceAfter=No
 71	homme	homme	NOUN	_	Gender=Masc|Number=Sing	69	comp:obj	_	_
-72	dans	dans	ADP	_	_	62	udep	_	_
+72	dans	dans	ADP	_	Shared=Yes	65	udep	_	_
 73	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	74	det	_	_
 74	territoires	territoire	NOUN	_	Gender=Masc|Number=Plur	72	comp:obj	_	_
 75	sahraouis	sahraoui	ADJ	_	Gender=Masc|Number=Plur	74	mod	_	SpaceAfter=No
@@ -2774,13 +2774,13 @@
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	consolider	consolider	VERB	_	VerbForm=Inf	12	conj	_	_
 15	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
-16	relations	relation	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	_
+16	relations	relation	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	14	comp:obj	_	_
 17	bilatérales	bilatéral	ADJ	_	Gender=Fem|Number=Plur	16	mod	_	_
 18	entre	entre	ADP	_	_	16	udep	_	_
 19	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 20	deux	deux	NUM	_	_	21	det	_	_
 21	pays	pays	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
-22	dans	dans	ADP	_	_	12	mod	_	_
+22	dans	dans	ADP	_	Shared=Yes	14	mod	_	_
 23	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	avenir	avenir	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	_
@@ -3045,7 +3045,7 @@
 3	et	et	CCONJ	_	_	5	cc	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	exploitation	exploitation	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
-6	de	de	ADP	_	_	2	udep	_	_
+6	de	de	ADP	_	Shared=Yes	5	udep	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	salle	salle	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
@@ -3155,7 +3155,7 @@
 30	et	et	CCONJ	_	_	32	cc	_	_
 31	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	queues	queue	NOUN	_	Gender=Fem|Number=Plur	29	conj	_	_
-33	de	de	ADP	_	_	29	udep	_	_
+33	de	de	ADP	_	Shared=Yes	32	udep	_	_
 34	chat	chat	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	39	punct	_	_
 36	Ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	37	det	_	_
@@ -3755,10 +3755,10 @@
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	Tweetant	tweeter	VERB	_	Tense=Pres|VerbForm=Part	26	conj	_	_
 29	+	+	SYM	_	_	30	mod	_	EXTPOS=ADV|Type=Trans
-30	avec	avec	ADP	_	_	26	mod	_	_
+30	avec	avec	ADP	_	Shared=Yes	28	mod	_	_
 31	passion	passion	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	tout	tout	ADV	_	_	26	mod	_	EXTPOS=ADP|Type=MWE
+33	tout	tout	ADV	_	_	28	mod	_	EXTPOS=ADP|Type=MWE
 34	en	en	ADP	_	_	33	unk@fixed	_	_
 35	participant	participer	VERB	_	Tense=Pres|VerbForm=Part	33	comp:obj	_	_
 36	en	en	ADP	_	_	35	udep	_	_
@@ -4054,7 +4054,7 @@
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	tous	tout	ADJ	_	Gender=Masc|Number=Plur	25	mod	_	_
 25	deux	deux	NUM	_	_	27	mod	_	_
-26	sur	sur	ADP	_	_	18	udep	_	_
+26	sur	sur	ADP	_	Shared=Yes	21	udep	_	_
 27	Yamaha	Yamaha	PROPN	_	_	26	comp:obj	_	_
 28	M1	M1	PROPN	_	_	27	flat@name	_	_
 29	et	et	CCONJ	_	_	30	cc	_	_
@@ -4791,7 +4791,7 @@
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	détourne	détourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
-14	actualité	actualité	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
+14	actualité	actualité	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	12	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-test_00159
@@ -5304,7 +5304,7 @@
 23	Europe	Europe	PROPN	_	_	21	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	et	et	CCONJ	_	_	26	cc	_	_
-26	concernent	concerner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+26	concernent	concerner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj:emb	_	_
 27	moins	moins	ADV	_	_	26	mod	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	reste	reste	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
@@ -6089,13 +6089,13 @@
 14	à	à	ADP	_	_	13	udep	_	_
 15	tendance	tendance	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 16	hispanique	hispanique	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
-17	accompagnés	accompagner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	mod	_	_
+17	accompagnés	accompagner	VERB	_	Gender=Masc|Number=Plur|Shared=Yes|Tense=Past|VerbForm=Part	13	mod	_	_
 18	de	de	ADP	_	_	17	comp:obl	_	_
 19	vins	vin	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
 20	espagnols	espagnol	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	tout	tout	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
+23	tout	tout	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	13	appos	_	_
 24	sans	sans	ADP	_	_	23	udep	_	_
 25	chichis	chichi	NOUN	_	Gender=Masc|Number=Plur	24	comp:obj	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
@@ -7472,7 +7472,7 @@
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	dessert	dessert	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	sans	sans	ADP	_	_	11	udep	_	_
+19	sans	sans	ADP	_	Shared=Yes	17	udep	_	_
 20	alcool	alcool	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	19	punct	_	_
 22	!	!	PUNCT	_	_	2	punct	_	_
@@ -7897,7 +7897,7 @@
 12	sympa	sympa	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	cocktail	cocktail	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+15	cocktail	cocktail	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	11	appos	_	_
 16	idéal	idéal	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
 17	pour	pour	ADP	_	_	15	udep	_	_
 18	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
@@ -8229,7 +8229,7 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	Brésil	Brésil	PROPN	_	_	31	comp:obj	_	_
 34	et	et	CCONJ	_	_	35	cc	_	_
-35	de	de	ADP	_	_	31	conj	_	_
+35	de	de	ADP	_	_	33	conj:emb	_	_
 36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
 37	Australie	Australie	PROPN	_	_	35	comp:obj	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	12	punct	_	_
@@ -9069,7 +9069,7 @@
 6	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	vidéos	vidéo	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
-9	photos	photo	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
+9	photos	photo	NOUN	_	Gender=Fem|Number=Plur	7	conj:emb	_	_
 10	de	de	ADP	_	_	7	udep	_	_
 11	vos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det	_	_
 12	people	people	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
@@ -9530,7 +9530,7 @@
 40	4	4	NUM	_	_	36	mod	_	_
 41	et	et	CCONJ	_	_	42	cc	_	_
 42	5	5	NUM	_	_	40	conj	_	_
-43	mai	mai	NOUN	_	Gender=Masc|Number=Sing	40	mod	_	_
+43	mai	mai	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	42	mod	_	_
 44	1946	1946	NUM	_	_	43	mod	_	_
 45-46	au	_	_	_	_	_	_	_	_
 45	à	à	ADP	_	_	36	udep	_	_
@@ -9549,7 +9549,7 @@
 58	23	23	NUM	_	_	56	mod	_	_
 59	et	et	CCONJ	_	_	60	cc	_	_
 60	24	24	NUM	_	_	58	conj	_	_
-61	mai	mai	NOUN	_	Gender=Masc|Number=Sing	58	mod	_	_
+61	mai	mai	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	60	mod	_	_
 62	1940	1940	NUM	_	_	61	mod	_	_
 63-64	au	_	_	_	_	_	_	_	_
 63	à	à	ADP	_	_	56	udep	_	_
@@ -10164,7 +10164,7 @@
 17	par	par	ADP	_	_	16	orphan	_	_
 18	41,7	41,7	NUM	_	_	19	det	_	SpaceAfter=No
 19	%	%	SYM	_	_	17	comp:obj	_	EXTPOS=NOUN|Type=Trans
-20	alors	alors	ADV	_	_	3	mod	_	EXTPOS=SCONJ|Type=MWE
+20	alors	alors	ADV	_	_	16	mod	_	EXTPOS=SCONJ|Type=MWE
 21	que	que	SCONJ	_	_	20	unk@fixed	_	_
 22	2,3	2,3	NUM	_	_	23	det	_	SpaceAfter=No
 23	%	%	SYM	_	_	27	subj	_	EXTPOS=NOUN|Type=Trans
@@ -10489,7 +10489,7 @@
 17	68	68	NUM	_	_	18	det	_	SpaceAfter=No
 18	%	%	SYM	_	_	15	udep	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 19	)	)	PUNCT	_	_	18	punct	_	_
-20	que	que	SCONJ	_	_	8	mod	_	_
+20	que	que	SCONJ	_	Shared=Yes	15	mod	_	_
 21	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 22	autres	autre	ADJ	_	Gender=Fem|Number=Plur	23	mod	_	_
 23	fraises	fraise	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	SpaceAfter=No
@@ -10674,7 +10674,7 @@
 63	Dieu	Dieu	PROPN	_	_	62	comp:obj	_	SpaceAfter=No
 64	,	,	PUNCT	_	_	66	punct	_	_
 65	mais	mais	CCONJ	_	_	66	cc	_	_
-66	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	conj	_	_
+66	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	conj:emb	_	_
 67	simplement	simplement	ADV	_	_	66	mod	_	_
 68-69	du	_	_	_	_	_	_	_	_
 68	de	de	ADP	_	_	66	comp:obl	_	_
@@ -11146,7 +11146,7 @@
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	Gaulois	Gaulois	PROPN	_	_	20	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	attestant	attester	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	_
+24	attestant	attester	VERB	_	Shared=Yes|Tense=Pres|VerbForm=Part	15	mod	_	_
 25	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	existence	existence	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 27	d'	de	ADP	_	_	26	udep	_	SpaceAfter=No
@@ -11205,7 +11205,7 @@
 21	Saddam	Saddam	PROPN	_	_	20	comp:obj	_	_
 22	Hussein	Hussein	PROPN	_	_	21	flat@name	_	_
 23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	dans	dans	ADP	_	_	12	mod	_	_
+24	dans	dans	ADP	_	Shared=Yes	15	mod	_	_
 25	South	South	PROPN	_	_	24	comp:obj	_	_
 26	Park	Park	PROPN	_	_	25	flat@name	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
@@ -11426,7 +11426,7 @@
 35	de	de	ADP	_	_	34	udep	_	_
 36	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
 37	ordinateur	ordinateur	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	_
-38	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	_
+38	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
 39	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	comp:aux@tense	_	_
 40	plusieurs	plusieurs	DET	_	Gender=Fem|Number=Plur	41	det	_	_
 41	formes	forme	NOUN	_	Gender=Fem|Number=Plur	39	comp:obj	_	_
