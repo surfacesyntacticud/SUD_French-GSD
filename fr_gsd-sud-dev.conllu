@@ -6139,7 +6139,7 @@
 20	produit	produire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj:emb	_	_
 21	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	23	mod	_	_
 22	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	23	det	_	_
-23	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	_
+23	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	20	comp:obj	_	_
 24	depuis	depuis	ADP	_	_	17	udep	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	début	début	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
@@ -8340,7 +8340,7 @@
 21	ou	ou	CCONJ	_	_	22	cc	_	_
 22	Polequinen	Polequinen	PROPN	_	_	20	conj:emb	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	suivant	suivant	ADP	_	_	20	udep	_	_
+24	suivant	suivant	ADP	_	Shared=Yes	22	udep	_	_
 25	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	sources	source	NOUN	_	Gender=Fem|Number=Plur	24	comp:obj	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
@@ -8363,7 +8363,7 @@
 44	encore	encore	ADV	_	_	45	mod	_	_
 45	Jehanequin	Jehanequin	PROPN	_	_	35	conj:emb	_	SpaceAfter=No
 46	)	)	PUNCT	_	_	45	punct	_	_
-47	en	en	ADP	_	_	35	orphan	_	_
+47	en	en	ADP	_	Shared=Yes	45	orphan	_	_
 48	1388	1388	NUM	_	_	47	comp:obj	_	SpaceAfter=No
 49	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -11320,7 +11320,7 @@
 28	sans	sans	ADP	_	_	26	comp:pred	_	_
 29	étiquette	étiquette	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	organisés	organiser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	conj:emb	_	_
+31	organisés	organiser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	conj:emb	_	_
 32	en	en	ADP	_	_	31	udep	_	_
 33	groupements	groupement	NOUN	_	Gender=Masc|Number=Plur	32	comp:obj	_	_
 34	informels	informel	ADJ	_	Gender=Masc|Number=Plur	33	mod	_	SpaceAfter=No
@@ -12635,7 +12635,7 @@
 31	fixe	fixe	ADJ	_	Gender=Fem|Number=Sing	15	conj	_	_
 32	et	et	CCONJ	_	_	33	cc	_	_
 33	immuable	immuable	ADJ	_	Gender=Fem|Number=Sing	31	conj:emb	_	_
-34	pour	pour	ADP	_	_	31	mod	_	_
+34	pour	pour	ADP	_	Shared=Yes	33	mod	_	_
 35	imprimer	imprimer	VERB	_	VerbForm=Inf	34	comp:obj	_	_
 36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
@@ -21064,7 +21064,7 @@
 18	capitale	capitale	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 19	Pampelune	Pampelune	PROPN	_	_	18	appos	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
-21	appartient	appartenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:emb	_	_
+21	appartient	appartenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:emb	_	_
 22	à	à	ADP	_	_	21	comp:obl	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Merindad	Merindad	PROPN	_	_	22	comp:obj	_	_
@@ -23324,7 +23324,7 @@
 48	dédiées	dédier	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	47	mod	_	_
 49	(	(	PUNCT	_	_	51	punct	_	SpaceAfter=No
 50	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
-51	nouveauté	nouveauté	NOUN	_	Gender=Fem|Number=Sing	38	appos	_	_
+51	nouveauté	nouveauté	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	43	appos	_	_
 52	par	par	ADP	_	_	51	udep	_	_
 53	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	52	comp:obj	_	_
 54	à	à	ADP	_	_	53	udep	_	_
@@ -34582,7 +34582,7 @@
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	fromages	fromage	NOUN	_	Gender=Masc|Number=Plur	14	conj:emb	_	_
-18	locaux	local	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
+18	locaux	local	ADJ	_	Gender=Masc|Number=Plur|Shared=Yes	17	mod	_	_
 19	;	;	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_01247
@@ -37974,7 +37974,7 @@
 10	grand	grand	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 11	acrchidiacre	archidiacre	NOUN	_	Gender=Masc|Number=Sing	7	conj:emb	_	_
 12-13	du	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	7	udep	_	_
+12	de	de	ADP	_	Shared=Yes	11	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	diocèse	diocèse	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	de	de	ADP	_	_	14	udep	_	_

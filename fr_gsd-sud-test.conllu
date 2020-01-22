@@ -423,7 +423,7 @@
 31	traditionalisme	traditionalisme	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	et	et	CCONJ	_	_	34	cc	_	_
-34	réciproquement	réciproquement	ADV	_	_	25	conj:emb	_	SpaceAfter=No
+34	réciproquement	réciproquement	ADV	_	_	21	conj:emb	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00013
@@ -8229,7 +8229,7 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	Brésil	Brésil	PROPN	_	_	31	comp:obj	_	_
 34	et	et	CCONJ	_	_	35	cc	_	_
-35	de	de	ADP	_	_	33	conj:emb	_	_
+35	de	de	ADP	_	_	31	conj:emb	_	_
 36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
 37	Australie	Australie	PROPN	_	_	35	comp:obj	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	12	punct	_	_
@@ -9070,7 +9070,7 @@
 7	vidéos	vidéo	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	photos	photo	NOUN	_	Gender=Fem|Number=Plur	7	conj:emb	_	_
-10	de	de	ADP	_	_	7	udep	_	_
+10	de	de	ADP	_	Shared=Yes	9	udep	_	_
 11	vos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det	_	_
 12	people	people	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	préférés	préféré	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	SpaceAfter=No
