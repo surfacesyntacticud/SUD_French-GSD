@@ -10674,7 +10674,7 @@
 63	Dieu	Dieu	PROPN	_	_	62	comp:obj	_	SpaceAfter=No
 64	,	,	PUNCT	_	_	66	punct	_	_
 65	mais	mais	CCONJ	_	_	66	cc	_	_
-66	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	conj:emb	_	_
+66	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	conj	_	_
 67	simplement	simplement	ADV	_	_	66	mod	_	_
 68-69	du	_	_	_	_	_	_	_	_
 68	de	de	ADP	_	_	66	comp:obl	_	_

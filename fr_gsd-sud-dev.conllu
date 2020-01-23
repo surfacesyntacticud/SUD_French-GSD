@@ -6136,7 +6136,7 @@
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 18	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
 19	et	et	CCONJ	_	_	20	cc	_	_
-20	produit	produire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj:emb	_	_
+20	produit	produire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	_
 21	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	23	mod	_	_
 22	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	23	det	_	_
 23	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	20	comp:obj	_	_
@@ -15174,7 +15174,7 @@
 58	côtés	côté	NOUN	_	Gender=Masc|Number=Plur	56	comp:obj	_	_
 59	et	et	CCONJ	_	_	61	cc	_	_
 60	toutes	tout	DET	_	Gender=Fem|Number=Plur	61	det	_	_
-61	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	53	conj:emb	_	_
+61	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	53	conj	_	_
 62	qui	qui	PRON	_	PronType=Rel	63	subj	_	_
 63	subissent	subir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	mod@relcl	_	SpaceAfter=No
 64	,	,	PUNCT	_	_	66	punct	_	_
@@ -20726,9 +20726,9 @@
 16	de	de	ADP	_	_	13	conj	_	_
 17	Lacq	Lacq	PROPN	_	_	16	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	Lagor	Lagor	PROPN	_	_	17	conj:emb	_	_
+19	Lagor	Lagor	PROPN	_	_	17	conj	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
-21	Monein	Monein	PROPN	_	_	17	conj:emb	_	_
+21	Monein	Monein	PROPN	_	_	17	conj	_	_
 22	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	fusionné	fusionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
 24	pour	pour	ADP	_	_	22	mod	_	_
@@ -24819,7 +24819,7 @@
 31	Saint-Nazaire	Saint-Nazaire	PROPN	_	_	30	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	soixante	soixante	NUM	_	_	34	det	_	_
-34	kilomètres	kilomètre	NOUN	_	Gender=Masc|Number=Plur	26	conj:emb	_	_
+34	kilomètres	kilomètre	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	_
 35	de	de	ADP	_	_	34	udep	_	_
 36	Vannes	Vannes	PROPN	_	_	35	comp:obj	_	_
 37	et	et	CCONJ	_	_	38	cc	_	_
@@ -26693,7 +26693,7 @@
 21	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj@fixed	_	_
 22	enfant	enfant	NOUN	_	Gender=Fem|Number=Sing	18	comp:pred	_	_
 23	et	et	CCONJ	_	_	24	cc	_	_
-24	actrice	acteur	NOUN	_	Gender=Fem|Number=Sing	22	conj:emb	_	SpaceAfter=No
+24	actrice	acteur	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00967
@@ -26769,7 +26769,7 @@
 41	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	mod@relcl	_	_
 42	hors-jeu	hors-jeu	NOUN	_	Gender=Masc|Number=Sing	41	udep	_	_
 43	et	et	CCONJ	_	_	44	cc	_	_
-44	refusé	refuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj:emb	_	_
+44	refusé	refuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
 45	deux	deux	NUM	_	_	46	det	_	_
 46	penalties	penalty	NOUN	_	Gender=Masc|Number=Plur	44	comp:obj	_	_
 47	pour	pour	ADP	_	_	44	udep	_	_
@@ -38920,7 +38920,7 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	train	train	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
 34	et	et	CCONJ	_	_	35	cc	_	_
-35	jugés	juger	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	conj:emb	_	_
+35	jugés	juger	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	conj	_	_
 36	dans	dans	ADP	_	_	35	mod	_	_
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	capitale	capitale	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	SpaceAfter=No
@@ -39921,7 +39921,7 @@
 90	modernité	modernité	NOUN	_	Gender=Fem|Number=Sing	88	comp:obj	_	_
 91	et	et	CCONJ	_	_	93	cc	_	_
 92	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	93	det	_	_
-93	traditions	tradition	NOUN	_	Gender=Fem|Number=Plur	90	conj:emb	_	SpaceAfter=No
+93	traditions	tradition	NOUN	_	Gender=Fem|Number=Plur	90	conj	_	SpaceAfter=No
 94	.	.	PUNCT	_	_	39	punct	_	_
 
 # sent_id = fr-ud-dev_01436
