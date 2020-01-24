@@ -33983,7 +33983,7 @@
 36	à	à	ADP	_	_	35	comp:obl@x	_	_
 37	être	être	AUX	_	VerbForm=Inf	36	comp:obj	_	_
 38	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
-39	victimes	victime	NOUN	_	Gender=Fem|Number=Plur	33	comp:pred	_	_
+39	victimes	victime	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	37	comp:pred	_	_
 40	de	de	ADP	_	_	39	udep	_	_
 41	graves	grave	ADJ	_	Gender=Masc|Number=Plur	42	mod	_	_
 42	abus	abus	NOUN	_	Gender=Masc|Number=Plur	40	comp:obj	_	_
