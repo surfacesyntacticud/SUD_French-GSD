@@ -1341,7 +1341,7 @@
 
 # sent_id = fr-ud-test_00053
 # text = Elle était dans la petite cour du garage, capot ouvert.
-1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	dans	dans	ADP	_	_	2	comp:obl	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -1351,9 +1351,9 @@
 7	de	de	ADP	_	_	6	udep	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	garage	garage	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	3	punct	_	_
-11	capot	capot	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
-12	ouvert	ouvert	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	capot	capot	NOUN	_	Gender=Masc|Number=Sing	12	mod	_	_
+12	ouvert	ouvert	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00054
