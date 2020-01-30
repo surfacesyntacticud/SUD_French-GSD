@@ -527,7 +527,7 @@
 18	cela	cela	PRON	_	Number=Sing|PronType=Dem	20	subj	_	_
 19	n'	ne	ADV	_	Polarity=Neg	20	mod	_	SpaceAfter=No
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-21	jamais	jamais	ADV	_	Polarity=Neg	22	mod	_	_
+21	jamais	jamais	ADV	_	Polarity=Neg	20	mod	_	_
 22	empêché	empêcher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
@@ -1146,7 +1146,7 @@
 7	Mauritanie	Mauritanie	PROPN	_	_	9	subj	_	_
 8	n'	ne	ADV	_	Polarity=Neg	9	mod	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-10	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
+10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Maroc	Maroc	PROPN	_	_	9	comp:pred	_	_
 13	ou	ou	CCONJ	_	_	15	cc	_	_
@@ -1284,7 +1284,7 @@
 24	eau	eau	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 25	ne	ne	ADV	_	Polarity=Neg	26	mod	_	_
 26	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
-27	pas	pas	ADV	_	Polarity=Neg	29	mod	_	_
+27	pas	pas	ADV	_	Polarity=Neg	26	mod	_	_
 28	si	si	ADV	_	_	29	mod	_	_
 29	brillant	brillant	ADJ	_	Gender=Masc|Number=Sing	26	comp:pred	_	_
 30	que	que	SCONJ	_	_	26	mod	_	_
@@ -1674,7 +1674,7 @@
 # text = N'étant pas préparés pour recevoir plus de dix quinze mille personnes, les autorités, qui font tout ce qu'elles peuvent pour nourrir ce flux ininterrompu, craignent que la situation ne dégénère si l'aide internationale ne pointe pas plus vite le bout de son nez.
 1	N'	ne	ADV	_	Polarity=Neg	2	mod	_	SpaceAfter=No
 2	étant	être	AUX	_	Tense=Pres|VerbForm=Part	15	mod	_	_
-3	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
+3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4	préparés	préparer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 5	pour	pour	ADP	_	_	2	mod	_	_
 6	recevoir	recevoir	VERB	_	VerbForm=Inf	5	comp:obj	_	_
@@ -1856,7 +1856,7 @@
 5	conversion	conversion	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
+8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	changement	changement	NOUN	_	Gender=Masc|Number=Sing	7	comp:pred	_	_
 11	total	total	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	SpaceAfter=No
@@ -2381,7 +2381,7 @@
 16	qui	qui	PRON	_	PronType=Rel	18	subj	_	_
 17	n'	ne	ADV	_	Polarity=Neg	18	mod	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
-19	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
+19	pas	pas	ADV	_	Polarity=Neg	18	mod	_	_
 20	soi	soi	PRON	_	Number=Sing|Person=3	18	comp:pred	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	céder	céder	VERB	_	VerbForm=Inf	8	conj	_	_
@@ -3359,7 +3359,7 @@
 9	revendications	revendication	NOUN	_	Gender=Fem|Number=Plur	11	subj@pass	_	_
 10	n'	ne	ADV	_	Polarity=Neg	11	mod	_	SpaceAfter=No
 11	auront	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	comp:obj	_	_
-12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
+12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	_
 13	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 14	acceptées	accepter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	comp:aux@pass	_	_
 15	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3731,7 +3731,7 @@
 3	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	n'	ne	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	comp:obj	_	_
-6	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
+6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	seulement	seulement	ADV	_	_	6	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	plus	plus	ADV	_	_	10	mod	_	_
@@ -4170,7 +4170,7 @@
 18	situation	situation	NOUN	_	Gender=Fem|Number=Sing	20	subj	_	_
 19	n'	ne	ADV	_	Polarity=Neg	20	mod	_	SpaceAfter=No
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-21	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
+21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	même	même	ADJ	_	Gender=Fem|Number=Sing	20	comp:pred	_	_
 24	pour	pour	ADP	_	_	20	mod	_	_
@@ -4757,7 +4757,7 @@
 10	japonaise	japonais	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
 11	n'	ne	ADV	_	Polarity=Neg	12	mod	_	SpaceAfter=No
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
+13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 14	relevé	relever	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	classement	classement	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
@@ -5882,7 +5882,7 @@
 6	France	France	PROPN	_	_	5	flat@name	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
+9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
 10	à	à	ADP	_	_	8	comp:pred	_	_
 11	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
 12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
@@ -6690,7 +6690,7 @@
 17	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
 18	ne	ne	ADV	_	Polarity=Neg	19	mod	_	_
 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
-20	pas	pas	ADV	_	Polarity=Neg	21	mod	_	_
+20	pas	pas	ADV	_	Polarity=Neg	19	mod	_	_
 21	hors	hors	ADV	_	_	19	comp:pred	_	_
 22	de	de	ADP	_	_	21	comp:obl	_	_
 23	prix	prix	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
@@ -6977,7 +6977,7 @@
 13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj@pass	_	_
 14	n'	ne	ADV	_	Polarity=Neg	15	mod	_	SpaceAfter=No
 15	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
-16	pas	pas	ADV	_	Polarity=Neg	17	mod	_	_
+16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
 17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
 18	déçu	décevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@pass	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -7090,7 +7090,7 @@
 36	n'	ne	ADV	_	Polarity=Neg	37	mod	_	SpaceAfter=No
 37	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	parataxis	_	_
 38	même	même	ADV	_	_	39	mod	_	_
-39	pas	pas	ADV	_	Polarity=Neg	40	mod	_	_
+39	pas	pas	ADV	_	Polarity=Neg	37	mod	_	_
 40	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	comp:aux@tense	_	_
 41	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	comp:aux@pass	_	_
 42	derrière	derrière	ADP	_	_	37	udep	_	_
@@ -7183,7 +7183,7 @@
 9	ambiance	ambiance	NOUN	_	Gender=Fem|Number=Sing	11	subj	_	_
 10	n'	ne	ADV	_	Polarity=Neg	11	mod	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
+12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	_
 13	à	à	ADP	_	_	11	comp:pred	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
@@ -7602,7 +7602,7 @@
 10	réception	réception	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
+13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 14	aimable	aimable	ADJ	_	Gender=Fem|Number=Sing	12	comp:pred	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	ni	ni	CCONJ	_	_	17	cc	_	_
@@ -10164,7 +10164,7 @@
 17	par	par	ADP	_	_	16	orphan	_	_
 18	41,7	41,7	NUM	_	_	19	det	_	SpaceAfter=No
 19	%	%	SYM	_	_	17	comp:obj	_	EXTPOS=NOUN|Type=Trans
-20	alors	alors	ADV	_	_	16	mod	_	EXTPOS=SCONJ|Type=MWE
+20	alors	alors	ADV	_	_	3	mod	_	EXTPOS=SCONJ|Type=MWE
 21	que	que	SCONJ	_	_	20	unk@fixed	_	_
 22	2,3	2,3	NUM	_	_	23	det	_	SpaceAfter=No
 23	%	%	SYM	_	_	27	subj	_	EXTPOS=NOUN|Type=Trans
@@ -10379,7 +10379,7 @@
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
+4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	très	très	ADV	_	_	6	mod	_	_
 6	douée	doué	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 7	pour	pour	ADP	_	_	3	mod	_	_
