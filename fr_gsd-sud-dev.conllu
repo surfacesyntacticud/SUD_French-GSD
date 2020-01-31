@@ -1662,7 +1662,7 @@
 11	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	Trente	trente	NUM	_	_	14	det	_	_
-14	Ans	ans	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	SpaceAfter=No
+14	Ans	an	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00063
@@ -2048,7 +2048,7 @@
 22	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
-25	État	État	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
+25	État	état	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
 26	vue	vue	NOUN	_	Gender=Fem|Number=Sing	3	mod	_	_
 27	d'	de	ADP	_	_	26	udep	_	SpaceAfter=No
 28	améliorer	améliorer	VERB	_	VerbForm=Inf	27	comp:obj	_	_
@@ -2911,7 +2911,7 @@
 12	Mendelian	Mendelian	X	_	Foreign=Yes	3	appos	_	Foreign=en
 13	Inheritance	Inheritance	X	_	Foreign=Yes	12	flat@foreign	_	Foreign=en
 14	in	in	X	_	Foreign=Yes	12	flat@foreign	_	Foreign=en
-15	Man	man	X	_	Foreign=Yes	12	flat@foreign	_	Foreign=en|SpaceAfter=No
+15	Man	Man	X	_	Foreign=Yes	12	flat@foreign	_	Foreign=en|SpaceAfter=No
 16	)	)	PUNCT	_	_	12	punct	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -3448,7 +3448,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	balisant	baliser	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-10	Grande	grande	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
+10	Grande	grand	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 11	Passe	passe	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct	_	_
 13	plonge	plonger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6125,7 +6125,7 @@
 6	productrice	producteur	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	de	de	ADP	_	_	5	conj	_	_
-9	chanteuse	chanteur	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
+9	chanteuse	chanteuse	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	Carey	Carey	PROPN	_	_	12	subj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7009,7 +7009,7 @@
 8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-11	Cent	Cent	NUM	_	_	12	det	_	_
+11	Cent	cent	NUM	_	_	12	det	_	_
 12	Arpents	arpent	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	ferme	ferme	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
@@ -8224,7 +8224,7 @@
 6	conclusions	conclusion	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 7	dans	dans	ADP	_	_	2	mod	_	_
 8	quelques	quelque	DET	_	Gender=Fem|Number=Plur	9	det	_	_
-9	œuvres	œuvres	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	SpaceAfter=No
+9	œuvres	œuvre	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	18	punct	_	_
 11	parmi	parmi	ADP	_	_	18	udep	_	_
 12	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	11	comp:obj	_	_
@@ -10967,7 +10967,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	par	par	ADP	_	_	5	comp:obl@agent	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	anglophones	anglophones	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
+13	anglophones	anglophone	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	notamment	notamment	ADV	_	_	11	mod	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	5	punct	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11654,7 +11654,7 @@
 
 # sent_id = fr-ud-dev_00421
 # text = Trois minutes de soleil en plus est le troisième roman de Christophe Donner, publié aux éditions Gallimard Jeunesse, collection Page blanche en 1987.
-1	Trois	Trois	NUM	_	_	2	det	_	_
+1	Trois	trois	NUM	_	_	2	det	_	_
 2	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	7	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	soleil	soleil	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -11678,7 +11678,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	collection	collection	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	_
 23	Page	page	NOUN	_	Gender=Fem|Number=Sing	22	appos	_	_
-24	blanche	blanche	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	_
+24	blanche	blanc	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	_
 25	en	en	ADP	_	_	15	udep	_	_
 26	1987	1987	NUM	_	_	25	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	7	punct	_	_
@@ -14781,7 +14781,7 @@
 
 # sent_id = fr-ud-dev_00532
 # text = Deux frères du marquis d'Amfreville participent également à la bataille de la Hougue, aux commandes des vaisseaux L'Ardent et Le Vermandois.
-1	Deux	Deux	NUM	_	_	2	det	_	_
+1	Deux	deux	NUM	_	_	2	det	_	_
 2	frères	frère	NOUN	_	Gender=Masc|Number=Plur	8	subj	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
@@ -16561,7 +16561,7 @@
 3	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	certains	certain	DET	_	Gender=Masc|Number=Plur	6	det	_	_
-6	États	États	PROPN	_	_	4	comp:obj	_	_
+6	États	état	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 8	indiscutablement	indiscutablement	ADV	_	_	7	mod	_	_
 9	sur	sur	ADP	_	_	7	udep	_	_
@@ -19819,7 +19819,7 @@
 # text = Malheureusement, de nombreuses de ses parties se terminent par des nulles, ce qui l'empêche d'accéder à un plus haute niveau.
 1	Malheureusement	malheureusement	ADV	_	_	9	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	de	de	DET	_	_	4	det	_	_
+3	de	de	ADP	_	_	4	det	_	_
 4	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	9	subj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
@@ -20546,7 +20546,7 @@
 6	compagnies	compagnie	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 7	aériennes	aérien	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
 8	en	en	ADP	_	_	6	udep	_	_
-9	Grande	Grande	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
+9	Grande	grand	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 10	Bretagne	Bretagne	PROPN	_	_	8	comp:obj	_	_
 11	:	:	PUNCT	_	_	12	punct	_	_
 12	Virgin	Virgin	PROPN	_	_	6	appos	_	_
@@ -20963,7 +20963,7 @@
 
 # sent_id = fr-ud-dev_00760
 # text = Deux à trois jours sont nécessaires pour parcourir tout le littoral du désert.
-1	Deux	Deux	NUM	_	_	4	det	_	_
+1	Deux	deux	NUM	_	_	4	det	_	_
 2	à	à	ADP	_	_	1	udep	_	_
 3	trois	trois	NUM	_	_	2	comp:obj	_	_
 4	jours	jour	NOUN	_	Gender=Masc|Number=Plur	5	subj	_	_
@@ -21567,7 +21567,7 @@
 
 # sent_id = fr-ud-dev_00785
 # text = Trois petites bandes longitudinales rouge sont visibles sur le dos, au niveau des pattes arrières.
-1	Trois	Trois	NUM	_	_	3	det	_	_
+1	Trois	trois	NUM	_	_	3	det	_	_
 2	petites	petit	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
 3	bandes	bande	NOUN	_	Gender=Fem|Number=Plur	6	subj	_	_
 4	longitudinales	longitudinal	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
@@ -23223,7 +23223,7 @@
 13	poétique	poétique	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
 14	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 15	oracles	oracle	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
-16	composé	composé	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	_
+16	composé	composer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	_
 17	dans	dans	ADP	_	_	16	mod	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	contexte	contexte	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
@@ -24434,7 +24434,7 @@
 23	représentent	représenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
 24	bien	bien	ADV	_	_	23	mod	_	_
 25	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
-26	œuvres	œuvres	NOUN	_	Gender=Fem|Number=Plur	23	subj	_	_
+26	œuvres	œuvre	NOUN	_	Gender=Fem|Number=Plur	23	subj	_	_
 27	d'	de	ADP	_	_	26	udep	_	SpaceAfter=No
 28	Offenbach	Offenbach	PROPN	_	_	27	comp:obj	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	5	punct	_	_
@@ -24969,7 +24969,7 @@
 
 # sent_id = fr-ud-dev_00902
 # text = Issue des résultats des élections législatives françaises de 1986, qui pour la première fois sous la Cinquième république, se sont déroulées (partiellement) au scrutin proportionnel (listes départementales) à un seul tour.
-1	Issue	issue	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+1	Issue	issu	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 2-3	des	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -26948,7 +26948,7 @@
 22	11	11	NUM	_	_	23	det	_	_
 23	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	21	udep	_	_
 24	en	en	ADP	_	_	23	udep	_	_
-25	1re	premier	ADJ	_	Gender=Fem|Number=Sing	26	mod	_	_
+25	1re	1re	ADJ	_	Gender=Fem|Number=Sing	26	mod	_	_
 26	division	division	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	2	2	NUM	_	_	29	det	_	_
@@ -28530,7 +28530,7 @@
 
 # sent_id = fr-ud-dev_01026
 # text = M. Enzo a d'ailleurs envoyé paître une de mes collègues !
-1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 2	Enzo	Enzo	PROPN	_	_	1	flat@name	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	6	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
@@ -29308,7 +29308,7 @@
 
 # sent_id = fr-ud-dev_01055
 # text = M. Ping a précisé que l'UA avait entrepris d'organiser des négociations entre le Conseil national de transition à Benghazi et les autorités libyennes à Tripoli "pour qu'un cessez-le-feu immédiat soit instauré".
-1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 2	Ping	Ping	PROPN	_	_	1	flat@name	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	précisé	préciser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
@@ -29813,7 +29813,7 @@
 39	,	,	PUNCT	_	_	3	punct	_	_
 40	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 41	affirmé	affirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	comp:aux@tense	_	_
-42	M.	monsieur	PROPN	_	_	40	subj	_	_
+42	M.	M.	NOUN	_	_	40	subj	_	_
 43	Benjamin	Benjamin	PROPN	_	_	42	flat@name	_	_
 44	dans	dans	ADP	_	_	40	mod	_	_
 45	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
@@ -30623,13 +30623,13 @@
 # sent_id = fr-ud-dev_01106
 # text = Selon M. Ménard, la nomination de M. Parent sera « bien vue des communautés culturelles », puisqu'il a une sensibilité certaine sur ces questions.
 1	Selon	selon	ADP	_	_	10	mod	_	_
-2	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+2	M.	M.	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 3	Ménard	Ménard	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	nomination	nomination	NOUN	_	Gender=Fem|Number=Sing	10	subj@pass	_	_
 7	de	de	ADP	_	_	6	udep	_	_
-8	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
+8	M.	M.	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	Parent	Parent	PROPN	_	_	8	flat@name	_	_
 10	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 11	«	«	PUNCT	_	_	13	punct	_	_
@@ -32401,7 +32401,7 @@
 17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	implantés	implanter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	comp:aux@pass	_	_
 19	cinq	cinq	NUM	_	_	20	det	_	_
-20	tumuli	tumuli	NOUN	_	Gender=Masc|Number=Plur	17	subj@pass	_	SpaceAfter=No
+20	tumuli	tumulus	NOUN	_	Gender=Masc|Number=Plur	17	subj@pass	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-dev_01173
@@ -36505,10 +36505,10 @@
 9	série	série	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	Brigade	brigade	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	_
 11	volante	volant	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
-12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-13	The	the	DET	_	Definite=Def	14	det	_	_
-14	Bill	Bill	PROPN	_	_	10	appos	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	The	The	X	_	Foreign=Yes	10	appos	_	Foreign=en
+14	Bill	Bill	X	_	Foreign=Yes	13	flat@foreign	_	Foreign=en|SpaceAfter=No
+15	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01321
@@ -38150,7 +38150,7 @@
 8	1964	1964	NUM	_	_	7	comp:obj	_	_
 9	dans	dans	ADP	_	_	4	mod	_	_
 10	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	État	État	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
+11	État	état	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -38928,7 +38928,7 @@
 
 # sent_id = fr-ud-dev_01402
 # text = M. Sleimane doit clôturer mardi ces consultations avant de désigner un nouveau Premier ministre pour remplacer Saad Hariri, dont le gouvernement d'union s'est effondré le 12 janvier avec la démission des ministres du camp du Hezbollah.
-1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 2	Sleimane	Sleimane	PROPN	_	_	1	flat@name	_	_
 3	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	clôturer	clôturer	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
@@ -39281,7 +39281,7 @@
 2	King	King	PROPN	_	_	1	comp:obj	_	_
 3	Fish	Fish	PROPN	_	_	2	flat@name	_	_
 4	ou	ou	CCONJ	_	_	5	cc	_	_
-5	Mr.	monsieur	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+5	Mr.	Mr.	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
 6	Angel	Angel	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	Tim	Tim	PROPN	_	_	10	subj@pass	_	_
@@ -39592,7 +39592,7 @@
 3	étions	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	depuis	depuis	ADP	_	_	3	udep	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-6	premiers	premiers	NUM	_	_	7	det	_	_
+6	premiers	premier	NUM	_	Gender=Masc|Number=Plur	7	mod	_	_
 7	jours	jour	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
@@ -40655,7 +40655,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	secrétaire	secrétaire	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
-4	État	État	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
+4	État	état	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	soulignera	souligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 6	que	que	SCONJ	_	_	5	comp:obj	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No

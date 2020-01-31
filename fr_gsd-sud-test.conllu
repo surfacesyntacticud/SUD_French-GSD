@@ -543,7 +543,7 @@
 
 # sent_id = fr-ud-test_00017
 # text = Trois ans plus tard, il tient un discours sur la crise.
-1	Trois	Trois	NUM	_	_	2	det	_	_
+1	Trois	trois	NUM	_	_	2	det	_	_
 2	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	mod	_	_
 3	plus	plus	ADV	_	_	4	mod	_	_
 4	tard	tard	ADV	_	_	2	mod	_	SpaceAfter=No
@@ -1240,7 +1240,7 @@
 20	,	,	PUNCT	_	_	1	punct	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 22	8	8	NUM	_	_	23	det	_	_
-23	premiers	premiers	ADJ	_	_	24	mod	_	_
+23	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	24	mod	_	_
 24	épisodes	épisode	NOUN	_	Gender=Masc|Number=Plur	29	subj	_	_
 25	de	de	ADP	_	_	24	udep	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -2589,7 +2589,7 @@
 22	viscérale	viscéral	ADJ	_	Gender=Fem|Number=Sing	21	mod	_	_
 23	pour	pour	ADP	_	_	21	udep	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	République	rébuplique	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
+25	République	république	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 26	islamique	islamique	ADJ	_	Gender=Fem|Number=Sing	25	mod	_	_
 27	»	»	PUNCT	_	_	21	punct	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	10	punct	_	_
@@ -2693,7 +2693,7 @@
 38	Sahara	Sahara	PROPN	_	_	36	comp:obj	_	_
 39	occidental	occidental	ADJ	_	Gender=Masc|Number=Sing	38	mod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
-41	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
+41	M.	M.	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
 42	Christopher	Christopher	PROPN	_	_	41	flat@name	_	_
 43	Ross	Ross	PROPN	_	_	41	flat@name	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
@@ -2879,7 +2879,7 @@
 
 # sent_id = fr-ud-test_00098
 # text = M. Ross réussira-t-il à faire valoir le droit international dans ces négociations, Rabat bénéficiant du soutien, entre autres, d'un membre permanent du Conseil de sécurité de l'ONU, la France en l'occurrence.
-1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 2	Ross	Ross	PROPN	_	_	1	flat@name	_	_
 3	réussira	réussir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-t	t	PART	_	_	5	unk	_	SpaceAfter=No
@@ -3194,7 +3194,7 @@
 15	si	si	SCONJ	_	_	41	mod	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 17	32	32	NUM	_	_	18	det	_	_
-18	États	État	NOUN	_	Gender=Masc|Number=Plur	33	subj	_	_
+18	États	état	NOUN	_	Gender=Masc|Number=Plur	33	subj	_	_
 19	qui	qui	PRON	_	PronType=Rel	21	subj	_	_
 20	n'	ne	ADV	_	Polarity=Neg	21	mod	_	SpaceAfter=No
 21	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	mod@relcl	_	_
@@ -3204,7 +3204,7 @@
 25	de	de	ADP	_	_	24	udep	_	_
 26	80	80	NUM	_	_	27	det	_	_
 27	mg/100	mg/100	NOUN	_	_	25	comp:obj	_	_
-28	ml	millilitre	NOUN	_	Gender=Masc|Number=Sing	27	mod	_	_
+28	ml	ml	NOUN	_	Gender=Masc|Number=Sing	27	mod	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	1er	1er	NUM	_	_	21	udep	_	_
 31	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	30	mod	_	_
@@ -3375,7 +3375,7 @@
 # sent_id = fr-ud-test_00115
 # text = Après M. Karoubi, bloqué chez lui depuis jeudi par la police, c'est M. Moussavi qui a vu lundi matin son domicile encerclé et ses téléphones coupés, selon son site internet.
 1	Après	après	ADP	_	_	15	mod	_	_
-2	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+2	M.	M.	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 3	Karoubi	Karoubi	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
@@ -3389,7 +3389,7 @@
 13	,	,	PUNCT	_	_	1	punct	_	_
 14	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	subj	_	SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-16	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	15	comp:pred	_	_
+16	M.	M.	NOUN	_	Gender=Masc|Number=Sing	15	comp:pred	_	_
 17	Moussavi	Moussavi	PROPN	_	_	16	flat@name	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
@@ -3843,7 +3843,7 @@
 18	à	à	ADP	_	_	11	comp:obl	_	_
 19	40	40	NUM	_	_	20	det	_	SpaceAfter=No
 20	°	°	SYM	_	_	18	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
-21	C	Celsius	SYM	_	_	20	mod	_	EXTPOS=PROPN|Type=Trans
+21	C	C	SYM	_	_	20	mod	_	EXTPOS=PROPN|Type=Trans
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	que	que	SCONJ	_	_	4	conj	_	_
 24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -3856,7 +3856,7 @@
 31	de	de	ADP	_	_	30	udep	_	_
 32	60	60	NUM	_	_	33	det	_	SpaceAfter=No
 33	°	°	SYM	_	_	31	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
-34	C	Celsius	SYM	_	_	33	mod	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans
+34	C	C	SYM	_	_	33	mod	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	subj@expl	_	_
 37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
@@ -4596,7 +4596,7 @@
 2	endetté	endetter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	mod	_	_
 3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	160	160	NUM	_	_	5	det	_	_
-5	milliards	milliards	NUM	_	_	2	parataxis	_	_
+5	milliards	milliard	NUM	_	_	2	parataxis	_	_
 6	d'	de	ADP	_	_	5	udep	_	SpaceAfter=No
 7	euros	euro	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
 8	fin	fin	NOUN	_	Gender=Masc|Number=Plur	5	mod	_	_
@@ -5242,7 +5242,7 @@
 
 # sent_id = fr-ud-test_00175
 # text = M. Di Rupo, dont le parti avait remporté les élections de juin en Wallonie francophone, a émis l'espoir lundi "que la raison finira par l'emporter".
-1	M.	monsieur	PROPN	_	_	18	subj	_	_
+1	M.	M.	NOUN	_	Gende=Masc|Number=Sing	18	subj	_	_
 2	Di	Di	PROPN	_	_	1	flat@name	_	_
 3	Rupo	Rupo	PROPN	_	_	1	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
@@ -9055,7 +9055,7 @@
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 14	euros	euro	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
 15	par	par	ADP	_	_	9	comp:obl@agent	_	_
-16	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
+16	M.	M.	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 17	Blanc	Blanc	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -9200,7 +9200,7 @@
 10	trois	trois	NUM	_	_	11	det	_	_
 11	roses	rose	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
-13	gueules	gueule	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	SpaceAfter=No
+13	gueules	gueules	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-dev_01520
@@ -9892,8 +9892,8 @@
 # sent_id = fr-ud-dev_01542
 # text = Les Nations Unies mènent une campagne mondiale « Scellons l'accord !
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	Nations	Nations	PROPN	_	_	4	subj	_	_
-3	Unies	Unies	ADJ	_	_	2	mod	_	_
+2	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	4	subj	_	_
+3	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
 4	mènent	mener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	campagne	campagne	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
