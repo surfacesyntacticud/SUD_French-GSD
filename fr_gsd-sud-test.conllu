@@ -6752,7 +6752,7 @@
 
 # sent_id = fr-ud-test_00236
 # text = Il sont formés à vous arnaquer.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	2	subj	_	CorrectForm=Ils|CorrectNumber=Plur|wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	2	subj	_	CorrectNumber=Plur|wordform=ils
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	formés	former	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	à	à	ADP	_	_	3	comp:obl@x	_	_
@@ -7908,7 +7908,7 @@
 
 # sent_id = fr-ud-test_00289
 # text = Voila, j'espère que ce commentaire pourra prouver un peu que Mendes est un lycée où on travaille, où on apprend mais surtout un lycée où on découvre.
-1	Voila	voilà	VERB	_	Typo=Yes	4	parataxis	_	CorrectForm=Voilà|SpaceAfter=No|wordform=voila
+1	Voila	voilà	VERB	_	Typo=Yes	4	parataxis	_	SpaceAfter=No|wordform=voilà
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10660,7 +10660,7 @@
 49	et	et	CCONJ	_	_	50	cc	_	_
 50	que	que	SCONJ	_	_	34	conj	_	_
 51	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
-52	christ	christ	PROPN	_	Typo=Yes	54	subj	_	CorrectForm=Christ
+52	christ	Christ	PROPN	_	Typo=Yes	54	subj	_	CorrectForm=Christ
 53	n'	ne	ADV	_	Polarity=Neg	54	mod	_	SpaceAfter=No
 54	enseignait	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	50	comp:obj	_	_
 55	rien	rien	PRON	_	Number=Sing	54	comp:obj	_	_
