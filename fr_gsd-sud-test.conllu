@@ -1045,7 +1045,7 @@
 
 # sent_id = fr-ud-test_00041
 # text = Au regard du droit international, la question du Sahara Occidental est très claire.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	15	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	regard	regard	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -3238,7 +3238,7 @@
 
 # sent_id = fr-ud-test_00109
 # text = Du Vatican, dont le voile posé sur la vie privée du Cavaliere ne tient plus.
-1-2	Du	_	_	_	_	_	_	_	wordform=du
+1-2	Du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	0	root	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Vatican	Vatican	PROPN	_	_	1	comp:obj	_	SpaceAfter=No
@@ -3452,7 +3452,7 @@
 
 # sent_id = fr-ud-test_00117
 # text = Au sein de cette équipe professionnelle, chacun est important et a son rôle à jouer pour contribuer au rayonnement de la ville de Bayonne et de la culture basque.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	10	mod	_	EXTPOS=ADV|Type=MWE
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det@fixed	_	_
 3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj@fixed	_	_
@@ -6209,7 +6209,7 @@
 
 # sent_id = fr-ud-test_00207
 # text = Au menu, en entrée, du pas grand chose, avec beaucoup de salade autour, et une giclée de vinaigre balsamique.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	9	udep	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	menu	menu	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
@@ -6238,7 +6238,7 @@
 
 # sent_id = fr-ud-test_00208
 # text = Au sortir d'une séance de cinéma, nous avons découvert dans un quartier vivant, une adresse à retenir.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	11	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	sortir	sortir	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -8997,7 +8997,7 @@
 
 # sent_id = fr-ud-dev_01511
 # text = Au milieu du VIIIe siècle, un prédicateur de Bassora, Abdullah bin Yahya, parvient en Hadramaout, établit le rite Ibadhi.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	18	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_

@@ -4009,7 +4009,7 @@
 
 # sent_id = fr-ud-dev_00146
 # text = Au lycée, il publie déjà des articles de botanique et des inventaires de plantes, dont la Flora Femsionensis.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	6	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
@@ -4094,7 +4094,7 @@
 # text = C'est Au Bonheur du Jour qu'il faut aller : on trouve toujours quelque chose à offrir, pas commun, et qui fera plaisir !
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No|wordform=c'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3-4	Au	_	_	_	_	_	_	_	wordform=au
+3-4	Au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	2	comp:pred	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Bonheur	bonheur	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	wordform=bonheur
@@ -4499,7 +4499,7 @@
 
 # sent_id = fr-ud-dev_00166
 # text = Au fil des histoires, plusieurs seconds couteaux (et quelques grands héros) se sont greffés aux Vengeurs.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	18	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fil	fil	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -4528,7 +4528,7 @@
 
 # sent_id = fr-ud-dev_00167
 # text = Aux yeux des économistes interrogés par l'AFP, l'absence de solutions concrètes au G20 n'est pas une surprise.
-1-2	Aux	_	_	_	_	_	_	_	wordform=aux
+1-2	Aux	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	21	mod	_	_
 2	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
@@ -9234,7 +9234,7 @@
 
 # sent_id = fr-ud-dev_00333
 # text = Au printemps 1956, ce procédé est repris en Algérie, notamment en Kabylie, zone traditionnellement réputée hostile aux Arabophones.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	8	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	printemps	printemps	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -12235,7 +12235,7 @@
 
 # sent_id = fr-ud-dev_00443
 # text = Au niveau des sources hydrothermales, la production primaire est assurée par des micro-organismes chimiosynthètiques.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	12	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -12746,7 +12746,7 @@
 
 # sent_id = fr-ud-dev_00461
 # text = Du coup, si les statisticiens de la SGF considèrent ce militaire avec méfiance, les militaires inversement ne comprennent pas toujours cet officier qui déborde largement les missions que l'armée lui confie.
-1-2	Du	_	_	_	_	_	_	_	wordform=du
+1-2	Du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	21	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
@@ -12835,7 +12835,7 @@
 
 # sent_id = fr-ud-dev_00463
 # text = Aux élections de 1980, il améliora le nombre de sièges de son parti mais ne réussit pas à faire battre le parti Libéral conduit par Malcolm Fraser.
-1-2	Aux	_	_	_	_	_	_	_	wordform=aux
+1-2	Aux	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	8	mod	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	élections	élection	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
@@ -22513,7 +22513,7 @@
 
 # sent_id = fr-ud-dev_00817
 # text = Au lieu de ceci, Ruge décida que sa seule chance était de jouer la montre, d'immobiliser les Allemands jusqu'à ce que des renforts puissent arriver de France et du Royaume-Uni.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	8	mod	_	EXTPOS=ADV|Type=MWE
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det@fixed	_	_
 3	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj@fixed	_	_
@@ -24168,7 +24168,7 @@
 
 # sent_id = fr-ud-dev_00876
 # text = Aux élections générales du 9 mars 2008, elle se présente pour l'un des quatre sièges au Sénat dans la province de Pontevedra, et remporte plus de 223 000 voix, soit le quatrième meilleur résultat.
-1-2	Aux	_	_	_	_	_	_	_	wordform=aux
+1-2	Aux	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	13	mod	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	élections	élection	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
@@ -25017,7 +25017,7 @@
 
 # sent_id = fr-ud-dev_00903
 # text = Du 7 au 15 mai 1910, la grande semaine de Lyon-aviation va attirer en effet 100 000 visiteurs.
-1-2	Du	_	_	_	_	_	_	_	wordform=du
+1-2	Du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	15	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	7	7	NUM	_	_	1	comp:obj	_	_
@@ -26123,7 +26123,7 @@
 
 # sent_id = fr-ud-dev_00943
 # text = Au prochain repos du joueur, un homme vêtu de noir apparaîtra (Lucien Lachance) et lui proposera d'entrer dans la Guilde.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	14	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
@@ -27106,7 +27106,7 @@
 
 # sent_id = fr-ud-dev_00980
 # text = Au nom de quoi refuser telle pratique et autoriser telle autre ?
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	6	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	nom	nom	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -29850,7 +29850,7 @@
 
 # sent_id = fr-ud-dev_01076
 # text = Au cœur du bourg se trouve une plaza Mayor à arcades, ombragée et fleurie.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	8	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -29974,7 +29974,7 @@
 
 # sent_id = fr-ud-dev_01080
 # text = Au total le secteur éducatif a évolué en marge des objectifs pourtant clairement définis et des finalités qui lui ont été assignées.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	7	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	total	total	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -30024,7 +30024,7 @@
 
 # sent_id = fr-ud-dev_01082
 # text = Au début de sa première saison, les Bucks l'envoient en NBA Development League.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	12	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	début	début	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -30713,7 +30713,7 @@
 
 # sent_id = fr-ud-dev_01109
 # text = Au programme : François Grange, Michel Faubert, Ben Zimet, Muriel Bloch, Cie Barbaroque, Jean Larvego, Christian Jeanmart, Katia Ringger, Claire Bonneton.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	0	root	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	programme	programme	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -32279,7 +32279,7 @@
 
 # sent_id = fr-ud-dev_01169
 # text = Au recensement de 2011, il comptait 113 habitants.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	8	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	recensement	recensement	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -32878,7 +32878,7 @@
 
 # sent_id = fr-ud-dev_01191
 # text = Au Yémen, des dizaines de milliers de manifestants ont envahi Sanaa pour demander le départ du président Ali Abdallah Saleh, qui s'en est pris au président américain Barack Obama et a accusé Israël et les Etats-Unis de manipuler les Arabes.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	11	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Yémen	Yémen	PROPN	_	_	1	comp:obj	_	SpaceAfter=No
@@ -37861,7 +37861,7 @@
 
 # sent_id = fr-ud-dev_01365
 # text = Au second tour J. Chirac dépassait 60% des suffrages (60,4%).
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	7	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	second	second	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
@@ -38426,7 +38426,7 @@
 
 # sent_id = fr-ud-dev_01384
 # text = Au bord de la plage, on y mange bien et sans se ruiner
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	10	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	bord	bord	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -40603,7 +40603,7 @@
 
 # sent_id = fr-ud-dev_01459
 # text = Du studio au P5, de 2 à 8 personnes, vue mer, ou à 50 metres de la plage, nous sommes présent sur la rive droite comme sur la rive gauche du Grau du Roi.
-1-2	Du	_	_	_	_	_	_	_	wordform=du
+1-2	Du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	26	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	studio	studio	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -41164,7 +41164,7 @@
 
 # sent_id = fr-ud-dev_01478
 # text = Au sud, les deux micro-pays du Val d'Angoumois et du pays d'Aigre offrent des paysages de plaines et de forêt et font transition avec l'Angoumois.
-1-2	Au	_	_	_	_	_	_	_	wordform=au
+1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	19	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	sud	sud	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
