@@ -1571,7 +1571,7 @@
 
 # sent_id = fr-ud-test_00059
 # text = A chaque fois qu'il sent la pression, le Makhzen appelle quelqu'un à son secours.
-1	A	à	ADP	_	_	12	mod	_	wordform=a
+1	A	à	ADP	_	_	12	mod	_	wordform=à
 2	chaque	chaque	DET	_	Number=Sing	3	det	_	_
 3	fois	fois	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 4	qu'	que	SCONJ	_	_	3	udep	_	SpaceAfter=No
@@ -2209,7 +2209,7 @@
 12	deux	deux	NUM	_	_	13	det	_	_
 13	chefs	chef	NOUN	_	Gender=Masc|Number=Plur	16	subj	_	_
 14	d'	de	ADP	_	_	13	udep	_	SpaceAfter=No
-15	Etat	état	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	wordform=etat
+15	Etat	état	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	wordform=état
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	réitéré	réitérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
@@ -2739,7 +2739,7 @@
 
 # sent_id = fr-ud-test_00092
 # text = A aucun moment, du jour ou de la nuit s'il le faut.
-1	A	à	ADP	_	_	0	root	_	wordform=a
+1	A	à	ADP	_	_	0	root	_	wordform=à
 2	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	3	det	_	_
 3	moment	moment	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -5282,7 +5282,7 @@
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-5	Etats	état	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	wordform=etats
+5	Etats	état	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	wordform=états
 6	très	très	ADV	_	_	7	mod	_	_
 7	endettés	endetté	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5927,7 +5927,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Chef	chef	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	wordform=chef
 5	d'	de	ADP	_	_	4	udep	_	SpaceAfter=No
-6	Etat	état	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	wordform=etat
+6	Etat	état	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	wordform=état
 7	Major	major	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	wordform=major
 8	Soumaila	Soumaila	PROPN	_	_	4	appos	_	_
 9	Bagayoko	Bagayoko	PROPN	_	_	8	flat@name	_	_
@@ -6060,7 +6060,7 @@
 
 # sent_id = fr-ud-test_00201
 # text = A 5 minutes à pieds du métro.
-1	A	à	ADP	_	_	0	root	_	wordform=a
+1	A	à	ADP	_	_	0	root	_	wordform=à
 2	5	5	NUM	_	_	3	det	_	_
 3	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 4	à	à	ADP	_	_	3	udep	_	_

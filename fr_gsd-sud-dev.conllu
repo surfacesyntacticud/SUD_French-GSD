@@ -1791,7 +1791,7 @@
 
 # sent_id = fr-ud-dev_00068
 # text = Equipiers et adversaires sont sur la même longueur d'ondes.
-1	Equipiers	équipier	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	wordform=equipiers
+1	Equipiers	équipier	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	wordform=équipiers
 2	et	et	CCONJ	_	_	3	cc	_	_
 3	adversaires	adversaire	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2688,7 +2688,7 @@
 
 # sent_id = fr-ud-dev_00099
 # text = A noter que deux ateliers seront organisés à l'occasion de la conférence d'Alger.
-1	A	à	ADP	_	_	0	root	_	wordform=a
+1	A	à	ADP	_	_	0	root	_	wordform=à
 2	noter	noter	VERB	_	VerbForm=Inf	1	comp:obj	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	deux	deux	NUM	_	_	5	det	_	_
@@ -12149,7 +12149,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	Etats	état	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	wordform=etats
+19	Etats	état	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	wordform=états
 20	membres	membre	NOUN	_	Gender=Masc|Number=Plur	19	mod	_	_
 21	de	de	ADP	_	_	19	udep	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -13701,7 +13701,7 @@
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	suite	suite	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
-5	EP	EP	NOUN	_	Gender=Masc|Number=Sing	6	subj@pass	_	wordform=ep
+5	EP	EP	NOUN	_	Gender=Masc|Number=Sing	6	subj@pass	_	_
 6	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	compilé	compiler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 8	sur	sur	ADP	_	_	6	udep	_	_
@@ -19055,13 +19055,13 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	2	udep	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	A-module	A-module	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	wordform=a-module
-7	M	M	SYM	_	_	6	appos	_	EXTPOS=PROPN|Type=Trans|wordform=m
+6	A-module	A-module	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
+7	M	M	SYM	_	_	6	appos	_	EXTPOS=PROPN|Type=Trans
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	opération	opération	NOUN	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
 11	de	de	ADP	_	_	10	udep	_	_
-12	A	A	SYM	_	_	11	comp:obj	_	EXTPOS=PROPN|Type=Trans|wordform=a
+12	A	A	SYM	_	_	11	comp:obj	_	EXTPOS=PROPN|Type=Trans
 13	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	entre	entre	ADP	_	_	19	mod	_	_
@@ -19076,7 +19076,7 @@
 24	à	à	ADP	_	_	23	udep	_	_
 25	opérateurs	opérateur	NOUN	_	Gender=Masc|Number=Plur	24	comp:obj	_	_
 26	dans	dans	ADP	_	_	25	udep	_	_
-27	A	A	SYM	_	_	26	comp:obj	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans|wordform=a
+27	A	A	SYM	_	_	26	comp:obj	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans
 28	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-dev_00686
@@ -21460,17 +21460,17 @@
 
 # sent_id = fr-ud-dev_00779
 # text = RRE agit dans la régulation de VIH-1 pour retenir l'ARN non épissée ou partiellement épissée dans le noyau.
-1	RRE	RRE	NOUN	_	Gender=Masc|Number=Sing	2	subj	_	wordform=rre
+1	RRE	RRE	NOUN	_	Gender=Masc|Number=Sing	2	subj	_	_
 2	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dans	dans	ADP	_	_	2	comp:obl	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	régulation	régulation	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
-7	VIH-1	VIH-1	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	wordform=vih-1
+7	VIH-1	VIH-1	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	pour	pour	ADP	_	_	2	mod	_	_
 9	retenir	retenir	VERB	_	VerbForm=Inf	8	comp:obj	_	_
 10	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	ARN	ARN	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	wordform=arn
+11	ARN	ARN	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	non	non	ADV	_	Polarity=Neg	13	mod	_	_
 13	épissée	épisser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	_
 14	ou	ou	CCONJ	_	_	16	cc	_	_
@@ -26005,7 +26005,7 @@
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	thème	thème	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	A	à	ADP	_	_	19	appos	_	EXTPOS=PROPN|Type=Title|wordform=a
+21	A	à	ADP	_	_	19	appos	_	EXTPOS=PROPN|Type=Title|wordform=à
 22	crises	crise	NOUN	_	Gender=Fem|Number=Plur	21	comp:obj	_	INTITLE=Yes
 23	mondiales	mondial	ADJ	_	Gender=Fem|Number=Plur	22	mod	_	INTITLE=Yes|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	INTITLE=Yes
@@ -31525,9 +31525,9 @@
 24	présentant	présenter	VERB	_	Tense=Pres|VerbForm=Part	12	parataxis	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
-27	E	E	X	_	_	26	appos	_	SpaceAfter=No|wordform=e
+27	E	E	X	_	_	26	appos	_	SpaceAfter=No
 28	/	/	SYM	_	_	29	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Trans
-29	H	H	SYM	_	_	27	conj	_	wordform=h
+29	H	H	SYM	_	_	27	conj	_	_
 30	constant	conster	VERB	_	Tense=Pres|VerbForm=Part	26	mod	_	_
 31	qu'	que	ADV	_	_	32	mod	_	SpaceAfter=No
 32	à	à	ADP	_	_	30	mod	_	_
@@ -36901,15 +36901,15 @@
 26	terme	terme	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 27	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
-29	A1	A1	X	_	_	28	appos	_	wordform=a1
+29	A1	A1	X	_	_	28	appos	_	_
 30	et	et	CCONJ	_	_	32	cc	_	_
 31	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	_
-33	A104	A104	X	_	_	32	appos	_	wordform=a104
+33	A104	A104	X	_	_	32	appos	_	_
 34	à	à	ADP	_	_	24	comp:obl	_	_
 35	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
 36	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	34	comp:obj	_	_
-37	A15	A15	X	_	_	36	appos	_	SpaceAfter=No|wordform=a15
+37	A15	A15	X	_	_	36	appos	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = fr-ud-dev_01333
@@ -39708,7 +39708,7 @@
 18	un	un	PRON	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 19	éventuellement	éventuellement	ADV	_	_	17	mod	_	SpaceAfter=No
 20	...	...	PUNCT	_	_	21	punct	_	_
-21	A	à	ADP	_	_	4	udep	_	wordform=a
+21	A	à	ADP	_	_	4	udep	_	wordform=à
 22	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	23	det	_	_
 23	risques	risque	NOUN	_	Gender=Masc|Number=Plur	21	comp:obj	_	_
 24	et	et	CCONJ	_	_	25	cc	_	_
