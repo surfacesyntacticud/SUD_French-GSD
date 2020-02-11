@@ -345,7 +345,7 @@
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	29	udep	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-32	XXe	XXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	33	mod	_	wordform=xxe
+32	XXe	XXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	33	mod	_	_
 33	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	38	punct	_	_
 35	dont	dont	PRON	_	PronType=Rel	37	mod	_	_
@@ -499,7 +499,7 @@
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	6	comp:obl	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	XIXe	XIXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	10	mod	_	wordform=xixe
+9	XIXe	XIXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	10	mod	_	_
 10	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 11	avec	avec	ADP	_	_	5	mod	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -881,7 +881,7 @@
 2	cuisinières	cuisinière	NOUN	_	Gender=Fem|Number=Plur	3	subj	_	_
 3	apparaissent	apparaître	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	début	début	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
-5	XIXe	XIXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	6	mod	_	wordform=xixe
+5	XIXe	XIXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	6	mod	_	_
 6	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	4	mod	_	_
 7	avec	avec	ADP	_	_	3	mod	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -5023,7 +5023,7 @@
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	7	mod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	IIe	IIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	mod	_	wordform=iie
+10	IIe	IIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	mod	_	_
 11	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 12	par	par	ADP	_	_	7	comp:obl@agent	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -8493,7 +8493,7 @@
 13	même	même	ADV	_	_	14	mod	_	_
 14	si	si	SCONJ	_	_	6	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	XXe	XXe	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	wordform=xxe
+16	XXe	XXe	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	_
 17	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	_
 18	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	SpaceAfter=No
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
@@ -13060,7 +13060,7 @@
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	20	udep	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-23	XVIIIe	XVIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	24	mod	_	wordform=xviiie
+23	XVIIIe	XVIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	24	mod	_	_
 24	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	à	à	ADP	_	_	5	mod	_	_
@@ -13477,7 +13477,7 @@
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	23	udep	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-27	XVIIe	XVIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	28	mod	_	wordform=xviie
+27	XVIIe	XVIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	28	mod	_	_
 28	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 29	en	en	ADP	_	_	19	udep	_	_
 30	matière	matière	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
@@ -16323,7 +16323,7 @@
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	9	mod	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-13	XIXe	XIXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	14	mod	_	wordform=xixe
+13	XIXe	XIXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	14	mod	_	_
 14	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -17280,7 +17280,7 @@
 23-24	du	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-25	XIXe	XIXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	26	mod	_	wordform=xixe
+25	XIXe	XIXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	26	mod	_	_
 26	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -20368,7 +20368,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	XIIe	XIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	mod	_	wordform=xiie
+6	XIIe	XIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	mod	_	_
 7	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
@@ -20681,7 +20681,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	XIIe	XIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	mod	_	wordform=xiie
+6	XIIe	XIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	mod	_	_
 7	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -20694,7 +20694,7 @@
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	13	mod	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-18	XVIIe	XVIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	19	mod	_	wordform=xviie
+18	XVIIe	XVIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	19	mod	_	_
 19	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 20	deux	deux	NUM	_	_	21	det	_	_
 21	ailes	aile	NOUN	_	Gender=Fem|Number=Plur	13	subj@pass	_	_
@@ -23238,7 +23238,7 @@
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	26	udep	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-29	VIe	VIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	30	mod	_	wordform=vie
+29	VIe	VIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	30	mod	_	_
 30	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
 31	et	et	CCONJ	_	_	33	cc	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -23246,7 +23246,7 @@
 34-35	du	_	_	_	_	_	_	_	_
 34	de	de	ADP	_	_	33	udep	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-36	Ve	Ve	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	37	mod	_	wordform=ve
+36	Ve	Ve	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	37	mod	_	_
 37	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	34	comp:obj	_	_
 38	av.	avant	ADP	_	_	37	udep	_	_
 39	J.-C.	J.-C.	PROPN	_	_	38	comp:obj	_	SpaceAfter=No
@@ -24682,7 +24682,7 @@
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	7	mod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	IXe	IXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	mod	_	wordform=ixe
+10	IXe	IXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	mod	_	_
 11	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 12	à	à	ADP	_	_	7	mod	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -27458,7 +27458,7 @@
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-19	XXe	XXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	20	mod	_	wordform=xxe
+19	XXe	XXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	20	mod	_	_
 20	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -33568,7 +33568,7 @@
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	XIIIe	XIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	mod	_	wordform=xiiie
+10	XIIIe	XIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	mod	_	_
 11	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 12	de	de	ADP	_	_	7	udep	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -37208,7 +37208,7 @@
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	9	comp:obl	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-12	VIIe	VIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	mod	_	wordform=viie
+12	VIIe	VIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	mod	_	_
 13	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
@@ -37223,9 +37223,9 @@
 24-25	du	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	23	udep	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-26	Ve	Ve	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	29	mod	_	wordform=ve
+26	Ve	Ve	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	29	mod	_	_
 27	ou	ou	CCONJ	_	_	28	cc	_	_
-28	VIe	VIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	26	conj	_	wordform=vie
+28	VIe	VIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	26	conj	_	_
 29	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -38860,7 +38860,7 @@
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	9	udep	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-15	XVe	XVe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	16	mod	_	wordform=xve
+15	XVe	XVe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	16	mod	_	_
 16	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	dont	dont	PRON	_	PronType=Rel	20	mod	_	_
@@ -39834,7 +39834,7 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	XXIe	XXIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	mod	_	wordform=xxie
+7	XXIe	XXIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	mod	_	_
 8	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	2	punct	_	_
 10	notamment	notamment	ADV	_	_	11	mod	_	_
