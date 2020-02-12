@@ -5242,7 +5242,7 @@
 
 # sent_id = fr-ud-test_00175
 # text = M. Di Rupo, dont le parti avait remporté les élections de juin en Wallonie francophone, a émis l'espoir lundi "que la raison finira par l'emporter".
-1	M.	M.	NOUN	_	Gende=Masc|Number=Sing	18	subj	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	18	subj	_	_
 2	Di	Di	PROPN	_	_	1	flat@name	_	_
 3	Rupo	Rupo	PROPN	_	_	1	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
