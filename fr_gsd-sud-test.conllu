@@ -140,9 +140,9 @@
 20	OSCE	OSCE	PROPN	_	_	10	appos	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	20	punct	_	_
 22	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-23	jusqu'	jusque	ADV	_	_	24	mod	_	SpaceAfter=No
+23	jusqu'	jusque	ADP	_	_	6	udep	_	SpaceAfter=No
 24-25	au	_	_	_	_	_	_	_	_
-24	à	à	ADP	_	_	6	udep	_	_
+24	à	à	ADP	_	_	23	comp:obj	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	31	31	NUM	_	_	24	comp:obj	_	_
 27	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	26	mod	_	SpaceAfter=No
@@ -5963,9 +5963,9 @@
 37	)	)	PUNCT	_	_	36	punct	_	_
 38	militaires	militaire	NOUN	_	Gender=Masc|Number=Plur	44	subj	_	_
 39	armés	armer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	38	mod	_	_
-40	jusqu'	jusque	ADV	_	_	41	mod	_	SpaceAfter=No
+40	jusqu'	jusque	ADP	_	_	39	udep	_	SpaceAfter=No
 41-42	aux	_	_	_	_	_	_	_	_
-41	à	à	ADP	_	_	39	udep	_	_
+41	à	à	ADP	_	_	40	comp:obj	_	_
 42	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
 43	dents	dent	NOUN	_	Gender=Fem|Number=Plur	41	comp:obj	_	_
 44	attaquaient	attaquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -8357,8 +8357,8 @@
 1	Cela	cela	PRON	_	Number=Sing|PronType=Dem	2	subj	_	wordform=cela
 2	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	nécessaire	nécessaire	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
-4	jusqu'	jusque	ADV	_	_	5	mod	_	SpaceAfter=No
-5	à	à	ADP	_	_	2	mod	_	_
+4	jusqu'	jusque	ADP	_	_	2	mod	_	SpaceAfter=No
+5	à	à	ADP	_	_	4	comp:obj	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
@@ -11111,8 +11111,8 @@
 5	générations	génération	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	chartistes	chartiste	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
-8	jusqu'	jusque	ADV	_	_	9	mod	_	SpaceAfter=No
-9	à	à	ADP	_	_	2	mod	_	_
+8	jusqu'	jusque	ADP	_	_	2	mod	_	SpaceAfter=No
+9	à	à	ADP	_	_	8	comp:obj	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	retraite	retraite	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	en	en	ADP	_	_	11	udep	_	_
