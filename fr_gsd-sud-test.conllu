@@ -198,7 +198,7 @@
 32	Université	université	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	wordform=université
 33	Cheikh	Cheikh	PROPN	_	_	32	appos	_	_
 34	Anta	Anta	PROPN	_	_	33	flat@name	_	_
-35	Diop	Diop	PROPN	_	_	33	flat@name	_	_
+35	Diop	Diop	PROPN	_	_	34	flat@name	_	_
 36	de	de	ADP	_	_	32	udep	_	_
 37	Dakar	Dakar	PROPN	_	_	36	comp:obj	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	18	punct	_	_
@@ -1505,12 +1505,12 @@
 # text = Sidi M'hamed Deddeche et Amgid Sidi Ahmed, deux activistes pacifistes des territoires occupés comme Mme Haïder, s'étaient-ils fait arrêter mercredi dernier à l'entrée de Smara, la capitale spirituelle du Sahara occidental, parce qu'ils étaient des séquestrés qui s'étaient évadés des camps de Tindouf, sans documents de voyage ?
 1	Sidi	Sidi	PROPN	_	_	22	subj	_	_
 2	M'	M'	PROPN	_	_	1	flat@name	_	SpaceAfter=No
-3	hamed	hamed	PROPN	_	_	1	flat@name	_	_
-4	Deddeche	Deddeche	PROPN	_	_	1	flat@name	_	_
+3	hamed	hamed	PROPN	_	_	2	flat@name	_	_
+4	Deddeche	Deddeche	PROPN	_	_	3	flat@name	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	Amgid	Amgid	PROPN	_	_	1	conj	_	_
 7	Sidi	Sidi	PROPN	_	_	6	flat@name	_	_
-8	Ahmed	Ahmed	PROPN	_	_	6	flat@name	_	SpaceAfter=No
+8	Ahmed	Ahmed	PROPN	_	_	7	flat@name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	deux	deux	NUM	_	_	11	det	_	_
 11	activistes	activiste	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	6	appos	_	_
@@ -2013,8 +2013,8 @@
 # text = Mgr Velasio de Paolis n'est pas là pour aggraver une situation déjà très lourde.
 1	Mgr	Mgr	PROPN	_	_	6	subj	_	_
 2	Velasio	Velasio	PROPN	_	_	1	flat@name	_	_
-3	de	de	ADP	_	_	1	flat@name	_	_
-4	Paolis	Paolis	PROPN	_	_	1	flat@name	_	_
+3	de	de	ADP	_	_	2	flat@name	_	_
+4	Paolis	Paolis	PROPN	_	_	3	flat@name	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
@@ -2695,7 +2695,7 @@
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	M.	M.	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
 42	Christopher	Christopher	PROPN	_	_	41	flat@name	_	_
-43	Ross	Ross	PROPN	_	_	41	flat@name	_	SpaceAfter=No
+43	Ross	Ross	PROPN	_	_	42	flat@name	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
 45	en	en	ADP	_	_	20	udep	_	_
 46	présence	présence	NOUN	_	Gender=Fem|Number=Sing	45	comp:obj	_	_
@@ -3608,7 +3608,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	Charles	Charles	PROPN	_	_	8	subj	_	_
 6	Mwando	Mwando	PROPN	_	_	5	flat@name	_	_
-7	Nsimba	Nsimba	PROPN	_	_	5	flat@name	_	_
+7	Nsimba	Nsimba	PROPN	_	_	6	flat@name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	sollicité	solliciter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -3874,7 +3874,7 @@
 # text = Sean David Morton qui se fait appeler "le prophète de l'Amérique", a levé six millions de dollars en faisant croire aux investisseurs qu'il pouvait prédire l'évolution de la Bourse !
 1	Sean	Sean	PROPN	_	_	16	subj	_	_
 2	David	David	PROPN	_	_	1	flat@name	_	_
-3	Morton	Morton	PROPN	_	_	1	flat@name	_	_
+3	Morton	Morton	PROPN	_	_	2	flat@name	_	_
 4	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	7	comp:obj	_	_
 6	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
@@ -5244,7 +5244,7 @@
 # text = M. Di Rupo, dont le parti avait remporté les élections de juin en Wallonie francophone, a émis l'espoir lundi "que la raison finira par l'emporter".
 1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	18	subj	_	_
 2	Di	Di	PROPN	_	_	1	flat@name	_	_
-3	Rupo	Rupo	PROPN	_	_	1	flat@name	_	SpaceAfter=No
+3	Rupo	Rupo	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	dont	dont	PRON	_	PronType=Rel	7	mod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -7782,8 +7782,8 @@
 21	chez	chez	ADP	_	_	20	udep	_	_
 22	Bureau	Bureau	PROPN	_	_	21	comp:obj	_	_
 23	Vallée	Vallée	PROPN	_	_	22	flat@name	_	_
-24	Toulouse	Toulouse	PROPN	_	_	22	flat@name	_	_
-25	Montaudran	Montaudran	PROPN	_	_	22	flat@name	_	SpaceAfter=No
+24	Toulouse	Toulouse	PROPN	_	_	23	flat@name	_	_
+25	Montaudran	Montaudran	PROPN	_	_	24	flat@name	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = fr-ud-test_00283
@@ -9014,7 +9014,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	Abdullah	Abdullah	PROPN	_	_	10	appos	_	_
 15	bin	bin	PROPN	_	_	14	flat@name	_	_
-16	Yahya	Yahya	PROPN	_	_	14	flat@name	_	SpaceAfter=No
+16	Yahya	Yahya	PROPN	_	_	15	flat@name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
 18	parvient	parvenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	en	en	ADP	_	_	18	udep	_	_
@@ -9267,8 +9267,8 @@
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	US	US	PROPN	_	_	6	comp:obj	_	_
 9	Navy	Navy	PROPN	_	_	8	flat@name	_	_
-10	USS	USS	PROPN	_	_	8	flat@name	_	_
-11	O'Hare	O'Hare	PROPN	_	_	8	flat@name	_	_
+10	USS	USS	PROPN	_	_	9	flat@name	_	_
+11	O'Hare	O'Hare	PROPN	_	_	10	flat@name	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	DD-889	DD-889	NUM	_	_	8	appos	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	_
@@ -9497,8 +9497,8 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Tiếng	Tiếng	PROPN	_	_	4	comp:obj	_	_
 9	địch	địch	X	_	_	8	flat@name	_	_
-10	sông	sông	X	_	_	8	flat@name	_	_
-11	Ô	Ô	PROPN	_	_	8	flat@name	_	_
+10	sông	sông	X	_	_	9	flat@name	_	_
+11	Ô	Ô	PROPN	_	_	10	flat@name	_	_
 12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	wordform=le
 14	son	son	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
@@ -10071,7 +10071,7 @@
 5	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	BBox	BBox	PROPN	_	_	5	appos	_	_
 7	Bouygues	Bouygues	PROPN	_	_	6	flat@name	_	_
-8	Telecom	Telecom	PROPN	_	_	6	flat@name	_	_
+8	Telecom	Telecom	PROPN	_	_	7	flat@name	_	_
 9	Damien	Damien	PROPN	_	_	2	appos	_	_
 10	Gaudin	Gaudin	PROPN	_	_	9	flat@name	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10800,7 +10800,7 @@
 16	arabophone	arabophone	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
 17	Assahifa	Assahifa	PROPN	_	_	15	appos	_	_
 18	Al	Al	PROPN	_	_	17	flat@name	_	_
-19	Ousbouiya	Ousbouiya	PROPN	_	_	17	flat@name	_	SpaceAfter=No
+19	Ousbouiya	Ousbouiya	PROPN	_	_	18	flat@name	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01571

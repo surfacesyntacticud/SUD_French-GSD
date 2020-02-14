@@ -635,7 +635,7 @@
 7	tribu	tribu	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	Al	Al	PROPN	_	_	7	appos	_	_
 9	Bu	Bu	PROPN	_	_	8	flat@name	_	_
-10	Said	Said	PROPN	_	_	8	flat@name	_	SpaceAfter=No
+10	Said	Said	PROPN	_	_	9	flat@name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	dont	dont	PRON	_	PronType=Rel	14	comp:obl	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
@@ -645,7 +645,7 @@
 17	sultan	sultan	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
 18	Qabus	Qabus	PROPN	_	_	17	appos	_	_
 19	ibn	ibn	PROPN	_	_	18	flat@name	_	_
-20	Said	Said	PROPN	_	_	18	flat@name	_	SpaceAfter=No
+20	Said	Said	PROPN	_	_	19	flat@name	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00025
@@ -1367,7 +1367,7 @@
 23	Benicia	Benicia	PROPN	_	_	11	conj	_	SpaceAfter=No
 24	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	Martinez	Martinez	PROPN	_	_	23	flat@name	_	_
-26	Bridge	Bridge	PROPN	_	_	23	flat@name	_	_
+26	Bridge	Bridge	PROPN	_	_	25	flat@name	_	_
 27	emprunté	emprunter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	mod	_	_
 28	par	par	ADP	_	_	27	comp:obl@agent	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
@@ -1624,7 +1624,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	Corey	Corey	PROPN	_	_	3	comp:pred	_	_
 5	S.	S.	PROPN	_	_	4	flat@name	_	_
-6	Powell	Powell	PROPN	_	_	4	flat@name	_	SpaceAfter=No
+6	Powell	Powell	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00061
@@ -1735,10 +1735,10 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Hall	Hall	PROPN	_	_	5	comp:obj	_	_
 8	of	of	ADP	_	_	7	flat@name	_	_
-9	Famer	Famer	PROPN	_	_	7	flat@name	_	_
-10	Ricky	Ricky	PROPN	_	_	7	flat@name	_	_
-11	The	The	PROPN	_	_	7	flat@name	_	_
-12	Dragon	Dragon	PROPN	_	_	7	flat@name	_	_
+9	Famer	Famer	PROPN	_	_	8	flat@name	_	_
+10	Ricky	Ricky	PROPN	_	_	9	flat@name	_	_
+11	The	The	PROPN	_	_	10	flat@name	_	_
+12	Dragon	Dragon	PROPN	_	_	11	flat@name	_	_
 13	Steamboat	Steamboat	PROPN	_	_	7	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
@@ -2185,7 +2185,7 @@
 30	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
 31	IRT	IRT	PROPN	_	Gender=Masc|Number=Plur	29	comp:obj	_	_
 32	Flushing	Flushing	PROPN	_	_	31	flat@name	_	_
-33	Line	Line	PROPN	_	_	31	flat@name	_	SpaceAfter=No
+33	Line	Line	PROPN	_	_	32	flat@name	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	vers	vers	ADP	_	_	29	udep	_	_
 36	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
@@ -2359,7 +2359,7 @@
 36	sénatrice	sénatrice	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	_
 37	Kay	Kay	PROPN	_	_	36	appos	_	_
 38	Bailey	Bailey	PROPN	_	_	37	flat@name	_	_
-39	Hutchison	Hutchison	PROPN	_	_	37	flat@name	_	_
+39	Hutchison	Hutchison	PROPN	_	_	38	flat@name	_	_
 40-41	du	_	_	_	_	_	_	_	_
 40	de	de	ADP	_	_	37	udep	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
@@ -2761,7 +2761,7 @@
 # text = Juan José Lobato (de son nom complet Juan José Lobato del Valle), né le 30 décembre 1988, à Trebujena en Espagne) est un coureur cycliste espagnol, membre de l'équipe Andalucía-Caja Granada.
 1	Juan	Juan	PROPN	_	_	27	subj	_	_
 2	José	José	PROPN	_	_	1	flat@name	_	_
-3	Lobato	Lobato	PROPN	_	_	1	flat@name	_	_
+3	Lobato	Lobato	PROPN	_	_	2	flat@name	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	de	de	ADP	_	_	1	udep	_	_
 6	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
@@ -2769,9 +2769,9 @@
 8	complet	complet	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	Juan	Juan	PROPN	_	_	7	appos	_	_
 10	José	José	PROPN	_	_	9	flat@name	_	_
-11	Lobato	Lobato	PROPN	_	_	9	flat@name	_	_
-12	del	del	ADP	_	_	9	flat@name	_	_
-13	Valle	Valle	PROPN	_	_	9	flat@name	_	SpaceAfter=No
+11	Lobato	Lobato	PROPN	_	_	10	flat@name	_	_
+12	del	del	ADP	_	_	11	flat@name	_	_
+13	Valle	Valle	PROPN	_	_	12	flat@name	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	mod	_	_
@@ -2798,7 +2798,7 @@
 37	Andalucía	Andalucía	PROPN	_	_	36	appos	_	SpaceAfter=No
 38	-	-	PUNCT	_	_	39	punct	_	SpaceAfter=No
 39	Caja	Caja	PROPN	_	_	37	flat@name	_	_
-40	Granada	Granada	PROPN	_	_	37	flat@name	_	SpaceAfter=No
+40	Granada	Granada	PROPN	_	_	39	flat@name	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	27	punct	_	_
 
 # sent_id = fr-ud-dev_00102
@@ -2851,7 +2851,7 @@
 7	de	de	ADP	_	_	3	udep	_	_
 8	Johann	Johann	PROPN	_	_	7	comp:obj	_	_
 9	Sebastian	Sebastian	PROPN	_	_	8	flat@name	_	_
-10	Bach	Bach	PROPN	_	_	8	flat@name	_	_
+10	Bach	Bach	PROPN	_	_	9	flat@name	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	BWV	BWV	PROPN	_	_	3	appos	_	_
 13	1007	1007	NUM	_	_	12	mod	_	_
@@ -2923,7 +2923,7 @@
 24	par	par	ADP	_	_	23	comp:obl@agent	_	_
 25	Victor	Victor	PROPN	_	_	24	comp:obj	_	_
 26	A.	A.	PROPN	_	_	25	flat@name	_	_
-27	McKusick	McKusick	PROPN	_	_	25	flat@name	_	SpaceAfter=No
+27	McKusick	McKusick	PROPN	_	_	26	flat@name	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	et	et	CCONJ	_	_	31	cc	_	_
 30	qui	qui	PRON	_	PronType=Rel	31	subj	_	_
@@ -3757,7 +3757,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	Il	il	PROPN	_	_	8	subj	_	_
 6	Seminario	Seminario	PROPN	_	_	5	flat@name	_	_
-7	Musicale	Musicale	PROPN	_	_	5	flat@name	_	_
+7	Musicale	Musicale	PROPN	_	_	6	flat@name	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	en	en	ADP	_	_	8	comp:pred	_	_
 10	résidence	résidence	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
@@ -5063,7 +5063,7 @@
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	sir	sir	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
 21	Anthony	Anthony	PROPN	_	_	20	flat@name	_	_
-22	Strallan	Strallan	PROPN	_	_	20	flat@name	_	SpaceAfter=No
+22	Strallan	Strallan	PROPN	_	_	21	flat@name	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	qui	qui	PRON	_	PronType=Rel	25	subj	_	_
 25	révèle	révéler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
@@ -5579,7 +5579,7 @@
 31	et	et	CCONJ	_	_	32	cc	_	_
 32	Mac	Mac	PROPN	_	_	30	conj	_	_
 33	OS	OS	PROPN	_	_	32	flat@name	_	_
-34	X	X	PROPN	_	_	32	flat@name	_	SpaceAfter=No
+34	X	X	PROPN	_	_	33	flat@name	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00203
@@ -5726,7 +5726,7 @@
 21	franco-flamand	franco-flamand	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	Clemens	Clemens	PROPN	_	_	21	appos	_	_
 23	non	non	X	_	_	22	flat@name	_	_
-24	Papa	Papa	PROPN	_	_	22	flat@name	_	SpaceAfter=No
+24	Papa	Papa	PROPN	_	_	23	flat@name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	italiens	italien	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
@@ -5741,7 +5741,7 @@
 36	et	et	CCONJ	_	_	37	cc	_	_
 37	Cristóbal	Cristóbal	PROPN	_	_	34	conj	_	_
 38	de	de	ADP	_	_	37	flat@name	_	_
-39	Morales	Morales	PROPN	_	_	37	flat@name	_	SpaceAfter=No
+39	Morales	Morales	PROPN	_	_	38	flat@name	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00209
@@ -5845,7 +5845,7 @@
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	BBC	BBC	PROPN	_	_	3	appos	_	_
 6	Third	Third	PROPN	_	_	5	flat@name	_	_
-7	Programme	Programme	PROPN	_	_	5	flat@name	_	SpaceAfter=No
+7	Programme	Programme	PROPN	_	_	6	flat@name	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
@@ -7271,7 +7271,7 @@
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	Pierre	Pierre	PROPN	_	_	15	appos	_	_
 19	Mendès	Mendès	PROPN	_	_	18	flat@name	_	_
-20	France	France	PROPN	_	_	18	flat@name	_	SpaceAfter=No
+20	France	France	PROPN	_	_	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	8	punct	_	_
 22	réaliser	réaliser	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -7624,7 +7624,7 @@
 16	cote	cote	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 17	76	76	NUM	_	_	16	mod	_	_
 18	F	F	X	_	_	17	flat@name	_	_
-19	2	2	NUM	_	_	17	flat@name	_	SpaceAfter=No
+19	2	2	NUM	_	_	18	flat@name	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00272
@@ -8388,7 +8388,7 @@
 # text = Adriaan de Groot (Santpoort, 26 octobre 1914--Schiermonnikoog, 14 août 2006) est un psychologue néerlandais.
 1	Adriaan	Adriaan	PROPN	_	_	17	subj	_	_
 2	de	de	PROPN	_	_	1	flat@name	_	_
-3	Groot	Groot	PROPN	_	_	1	flat@name	_	_
+3	Groot	Groot	PROPN	_	_	2	flat@name	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	Santpoort	Santpoort	PROPN	_	_	1	appos	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -8556,8 +8556,8 @@
 20	et	et	CCONJ	_	_	21	cc	_	_
 21	universitas	universitas	PROPN	_	_	18	conj	_	_
 22	Vilnensis	Vilnensis	PROPN	_	_	21	flat@name	_	_
-23	societatis	societatis	PROPN	_	_	21	flat@name	_	_
-24	JESU	JESU	PROPN	_	_	21	flat@name	_	SpaceAfter=No
+23	societatis	societatis	PROPN	_	_	22	flat@name	_	_
+24	JESU	JESU	PROPN	_	_	23	flat@name	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	avec	avec	ADP	_	_	12	mod	_	_
@@ -8811,7 +8811,7 @@
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	Ottův	Ottův	PROPN	_	_	24	appos	_	_
 28	slovník	slovník	PROPN	_	_	27	flat@name	_	_
-29	naučný	naučný	PROPN	_	_	27	flat@name	_	SpaceAfter=No
+29	naučný	naučný	PROPN	_	_	28	flat@name	_	SpaceAfter=No
 30	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -8868,8 +8868,8 @@
 # text = Everton Ladies Football Club est un club anglais de football féminin basé à Liverpool.
 1	Everton	Everton	PROPN	_	_	5	subj	_	_
 2	Ladies	Ladies	PROPN	_	_	1	flat@name	_	_
-3	Football	Football	PROPN	_	_	1	flat@name	_	_
-4	Club	Club	PROPN	_	_	1	flat@name	_	_
+3	Football	Football	PROPN	_	_	2	flat@name	_	_
+4	Club	Club	PROPN	_	_	3	flat@name	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	club	club	NOUN	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
@@ -8886,8 +8886,8 @@
 # text = Otto Karl Robert Wernicke, né le 30 septembre 1893 à Osterode am Harz et décédé le 7 novembre 1965 à Munich, était un acteur allemand.
 1	Otto	Otto	PROPN	_	_	24	subj	_	_
 2	Karl	Karl	PROPN	_	_	1	flat@name	_	_
-3	Robert	Robert	PROPN	_	_	1	flat@name	_	_
-4	Wernicke	Wernicke	PROPN	_	_	1	flat@name	_	SpaceAfter=No
+3	Robert	Robert	PROPN	_	_	2	flat@name	_	_
+4	Wernicke	Wernicke	PROPN	_	_	3	flat@name	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -8897,7 +8897,7 @@
 11	à	à	ADP	_	_	6	comp:obl	_	_
 12	Osterode	Osterode	PROPN	_	_	11	comp:obj	_	_
 13	am	am	X	_	_	12	flat@name	_	_
-14	Harz	Harz	PROPN	_	_	12	flat@name	_	_
+14	Harz	Harz	PROPN	_	_	13	flat@name	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	décédé	décéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -10105,7 +10105,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	Gayoso	Gayoso	PROPN	_	_	8	subj	_	_
 6	de	de	ADP	_	_	5	flat@name	_	_
-7	Lemos	Lemos	PROPN	_	_	5	flat@name	_	_
+7	Lemos	Lemos	PROPN	_	_	6	flat@name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	établi	établir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -10463,8 +10463,8 @@
 13	depuis	depuis	ADP	_	_	8	udep	_	_
 14	I	I	PROPN	_	_	13	comp:obj	_	_
 15	Have	Have	PROPN	_	_	14	flat@name	_	_
-16	Never	Never	PROPN	_	_	14	flat@name	_	_
-17	Seen	Seen	PROPN	_	_	14	flat@name	_	_
+16	Never	Never	PROPN	_	_	15	flat@name	_	_
+17	Seen	Seen	PROPN	_	_	16	flat@name	_	_
 18	en	en	ADP	_	_	8	udep	_	_
 19	1998	1998	NUM	_	_	18	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
@@ -10787,7 +10787,7 @@
 # text = Henry de Lesquen a annoncé peu après la suppression de l'émission, suite au licenciement de Martin Peltier.
 1	Henry	Henry	PROPN	_	_	4	subj	_	_
 2	de	de	ADP	_	_	1	flat@name	_	_
-3	Lesquen	Lesquen	PROPN	_	_	1	flat@name	_	_
+3	Lesquen	Lesquen	PROPN	_	_	2	flat@name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	peu	peu	ADV	_	_	7	mod	_	_
@@ -11498,7 +11498,7 @@
 29	d'	de	ADP	_	_	28	udep	_	SpaceAfter=No
 30	Ali	Ali	PROPN	_	_	29	comp:obj	_	_
 31	Farka	Farka	PROPN	_	_	30	flat@name	_	_
-32	Touré	Touré	PROPN	_	_	30	flat@name	_	SpaceAfter=No
+32	Touré	Touré	PROPN	_	_	31	flat@name	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	folk	folk	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
@@ -11570,7 +11570,7 @@
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	Luise	Luise	PROPN	_	_	22	appos	_	_
 27	von	von	ADP	_	_	26	flat@name	_	_
-28	Göchhausen	Göchhausen	PROPN	_	_	26	flat@name	_	_
+28	Göchhausen	Göchhausen	PROPN	_	_	27	flat@name	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	1752-1807	1752-1807	NUM	_	_	26	mod	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
@@ -11702,7 +11702,7 @@
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	Ak	Ak	PROPN	_	_	13	comp:obj	_	_
 16	Bars	Bars	PROPN	_	_	15	flat@name	_	_
-17	Kazan	Kazan	PROPN	_	_	15	flat@name	_	SpaceAfter=No
+17	Kazan	Kazan	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00423
@@ -11770,7 +11770,7 @@
 7	général	général	NOUN	_	Gender=Masc|Number=Sing	11	subj	_	_
 8	Auguste	Auguste	PROPN	_	_	7	appos	_	_
 9	Julien	Julien	PROPN	_	_	8	flat@name	_	_
-10	Bigarré	Bigarré	PROPN	_	_	8	flat@name	_	_
+10	Bigarré	Bigarré	PROPN	_	_	9	flat@name	_	_
 11	sort	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	Ploërmel	Ploërmel	PROPN	_	_	12	comp:obj	_	_
@@ -13019,7 +13019,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	Collis	Collis	PROPN	_	_	6	conj	_	_
 10	P.	P.	PROPN	_	_	9	flat@name	_	_
-11	Huntington	Huntington	PROPN	_	_	9	flat@name	_	SpaceAfter=No
+11	Huntington	Huntington	PROPN	_	_	10	flat@name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	Leland	Leland	PROPN	_	_	9	conj	_	_
 14	Stanford	Stanford	PROPN	_	_	13	flat@name	_	_
@@ -14159,7 +14159,7 @@
 7	comte	comte	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	Gustaf	Gustaf	PROPN	_	_	7	appos	_	_
 9	Wathier	Wathier	PROPN	_	_	8	flat@name	_	_
-10	Hamilton	Hamilton	PROPN	_	_	8	flat@name	_	SpaceAfter=No
+10	Hamilton	Hamilton	PROPN	_	_	9	flat@name	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00510
@@ -15404,7 +15404,7 @@
 3	ou	ou	CCONJ	_	_	4	cc	_	_
 4	Active	Active	PROPN	_	_	2	conj	_	_
 5	Set	Set	PROPN	_	_	4	flat@name	_	_
-6	Update	Update	PROPN	_	_	4	flat@name	_	_
+6	Update	Update	PROPN	_	_	5	flat@name	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
@@ -15694,7 +15694,7 @@
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	ASM	ASM	PROPN	_	_	15	comp:obj	_	_
 18	Clermont	Clermont	PROPN	_	_	17	flat@name	_	_
-19	Auvergne	Auvergne	PROPN	_	_	17	flat@name	_	_
+19	Auvergne	Auvergne	PROPN	_	_	18	flat@name	_	_
 20	à	à	ADP	_	_	2	mod	_	EXTPOS=ADV|Type=MWE
 21	compter	compter	VERB	_	VerbForm=Inf	20	comp:obj@fixed	_	_
 22	de	de	ADP	_	_	20	comp:obl	_	_
@@ -16750,7 +16750,7 @@
 # text = Caius Atilius Regulus était un homme politique de la République romaine.
 1	Caius	Caius	PROPN	_	_	4	subj	_	_
 2	Atilius	Atilius	PROPN	_	_	1	flat@name	_	_
-3	Regulus	Regulus	PROPN	_	_	1	flat@name	_	_
+3	Regulus	Regulus	PROPN	_	_	2	flat@name	_	_
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	homme	homme	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
@@ -16841,7 +16841,7 @@
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	Alsacienne	Alsacienne	PROPN	_	_	6	conj	_	_
 15	Lorraine	Lorraine	PROPN	_	_	14	flat@name	_	_
-16	Paris	Paris	PROPN	_	_	14	flat@name	_	_
+16	Paris	Paris	PROPN	_	_	15	flat@name	_	_
 17	à	à	ADP	_	_	14	mod	_	EXTPOS=ADV|Type=MWE
 18	partir	partir	VERB	_	VerbForm=Inf	17	comp:obj@fixed	_	_
 19	de	de	ADP	_	_	17	comp:obl	_	_
@@ -17258,7 +17258,7 @@
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj@fixed	_	_
 3	Emma	Emma	PROPN	_	_	6	subj	_	_
 4	de	de	ADP	_	_	3	flat@name	_	_
-5	Rouillé	Rouillé	PROPN	_	_	3	flat@name	_	_
+5	Rouillé	Rouillé	PROPN	_	_	4	flat@name	_	_
 6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	épousé	épouser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -17405,7 +17405,7 @@
 16	felquiste	felquiste	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 17	Jean	Jean	PROPN	_	_	16	appos	_	_
 18	Denis	Denis	PROPN	_	_	17	flat@name	_	_
-19	Lamoureux	Lamoureux	PROPN	_	_	17	flat@name	_	SpaceAfter=No
+19	Lamoureux	Lamoureux	PROPN	_	_	18	flat@name	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00626
@@ -17447,7 +17447,7 @@
 11	programme	programme	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	School	School	PROPN	_	_	11	appos	_	_
 13	Year	Year	PROPN	_	_	12	flat@name	_	_
-14	Abroad	Abroad	PROPN	_	_	12	flat@name	_	_
+14	Abroad	Abroad	PROPN	_	_	13	flat@name	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	effectue	effectuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 17	également	également	ADV	_	_	16	mod	_	_
@@ -18415,8 +18415,8 @@
 12	mentor	mentor	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 13	Alain	Alain	PROPN	_	_	12	appos	_	_
 14	Senderens	Senderens	PROPN	_	_	13	flat@name	_	_
-15	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	flat@name	_	SpaceAfter=No|wordform=l'
-16	Archestrate	Archestrate	PROPN	_	_	13	flat@name	_	_
+15	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	flat@name	_	SpaceAfter=No|wordform=l'
+16	Archestrate	Archestrate	PROPN	_	_	15	flat@name	_	_
 17	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 18	trois	trois	NUM	_	_	19	det	_	_
 19	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur	8	appos	_	SpaceAfter=No
@@ -18532,7 +18532,7 @@
 30	de	de	ADP	_	_	29	udep	_	_
 31	Jean	Jean	PROPN	_	_	30	comp:obj	_	_
 32	Sébastien	Sébastien	PROPN	_	_	31	flat@name	_	_
-33	Bach	Bach	PROPN	_	_	31	flat@name	_	SpaceAfter=No
+33	Bach	Bach	PROPN	_	_	32	flat@name	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	_
 36	Final	Final	PROPN	_	_	22	conj	_	_
@@ -18540,7 +18540,7 @@
 38	et	et	CCONJ	_	_	39	cc	_	_
 39	Cry	Cry	PROPN	_	_	36	conj	_	_
 40	No	No	PROPN	_	_	39	flat@name	_	_
-41	More	More	PROPN	_	_	39	flat@name	_	SpaceAfter=No
+41	More	More	PROPN	_	_	40	flat@name	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00669
@@ -18572,7 +18572,7 @@
 7	prix	prix	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	Phi	Phi	PROPN	_	_	7	appos	_	_
 9	Beta	Beta	PROPN	_	_	8	flat@name	_	_
-10	Kappa	Kappa	PROPN	_	_	8	flat@name	_	_
+10	Kappa	Kappa	PROPN	_	_	9	flat@name	_	_
 11	de	de	ADP	_	_	7	udep	_	_
 12	Harvard-Radcliffe	Harvard-Radcliffe	PROPN	_	_	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
@@ -19926,7 +19926,7 @@
 10	parc	parc	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	Disney	Disney	PROPN	_	_	10	appos	_	_
 12	California	California	PROPN	_	_	11	flat@name	_	_
-13	Adventure	Adventure	PROPN	_	_	11	flat@name	_	_
+13	Adventure	Adventure	PROPN	_	_	12	flat@name	_	_
 14	dont	dont	PRON	_	PronType=Rel	17	comp:obl	_	_
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
@@ -20008,7 +20008,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	George	George	PROPN	_	_	9	subj	_	_
 7	W.	W.	PROPN	_	_	6	flat@name	_	_
-8	Bush	Bush	PROPN	_	_	6	flat@name	_	_
+8	Bush	Bush	PROPN	_	_	7	flat@name	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	nommé	nommer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	Bernanke	Bernanke	PROPN	_	_	10	comp:obj	_	_
@@ -20633,7 +20633,7 @@
 6	reine	reine	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	Catherine	Catherine	PROPN	_	_	6	appos	_	_
 8	de	de	ADP	_	_	7	flat@name	_	_
-9	Médicis	Médicis	PROPN	_	_	7	flat@name	_	SpaceAfter=No
+9	Médicis	Médicis	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
 12	inaugure	inaugurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21110,7 +21110,7 @@
 # text = Robert de Joly, découvreur de l'Aven d'Orgnac, y mènera par la suite plusieurs campagnes dans les années 1930 puis 1940.
 1	Robert	Robert	PROPN	_	_	13	subj	_	_
 2	de	de	ADP	_	_	1	flat@name	_	_
-3	Joly	Joly	PROPN	_	_	1	flat@name	_	SpaceAfter=No
+3	Joly	Joly	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	découvreur	découvreur	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 6	de	de	ADP	_	_	5	udep	_	_
@@ -21513,8 +21513,8 @@
 8	à	à	ADP	_	_	7	udep	_	_
 9	saint	saint	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	Jean	Jean	PROPN	_	_	9	flat@name	_	_
-11	de	de	ADP	_	_	9	flat@name	_	_
-12	Maurienne	Maurienne	PROPN	_	_	9	flat@name	_	SpaceAfter=No
+11	de	de	ADP	_	_	10	flat@name	_	_
+12	Maurienne	Maurienne	PROPN	_	_	11	flat@name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00782
@@ -21791,7 +21791,7 @@
 20	et	et	CCONJ	_	_	21	cc	_	_
 21	Gian	Gian	PROPN	_	_	18	conj	_	_
 22	Luca	Luca	PROPN	_	_	21	flat@name	_	_
-23	Giannotti	Giannotti	PROPN	_	_	21	flat@name	_	SpaceAfter=No
+23	Giannotti	Giannotti	PROPN	_	_	22	flat@name	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	12	punct	_	_
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 26	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	comp:aux@tense	_	_
@@ -21955,7 +21955,7 @@
 # text = Charles Auguste Frossard est le fils de Charles Frossard, capitaine du train d'artillerie de la Garde impériale, chevalier de la Légion d'honneur et de Saint-Louis, et de Marie Marguerite Bigot.
 1	Charles	Charles	PROPN	_	_	4	subj	_	_
 2	Auguste	Auguste	PROPN	_	_	1	flat@name	_	_
-3	Frossard	Frossard	PROPN	_	_	1	flat@name	_	_
+3	Frossard	Frossard	PROPN	_	_	2	flat@name	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	fils	fils	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
@@ -21989,7 +21989,7 @@
 33	de	de	ADP	_	_	7	conj	_	_
 34	Marie	Marie	PROPN	_	_	33	comp:obj	_	_
 35	Marguerite	Marguerite	PROPN	_	_	34	flat@name	_	_
-36	Bigot	Bigot	PROPN	_	_	34	flat@name	_	SpaceAfter=No
+36	Bigot	Bigot	PROPN	_	_	35	flat@name	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00800
@@ -23156,7 +23156,7 @@
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	Empire	Empire	PROPN	_	_	9	comp:obj	_	_
 12	State	State	PROPN	_	_	11	flat@name	_	_
-13	Building	Building	PROPN	_	_	11	flat@name	_	_
+13	Building	Building	PROPN	_	_	12	flat@name	_	_
 14	à	à	ADP	_	_	11	udep	_	_
 15	New	New	PROPN	_	_	14	comp:obj	_	_
 16	York	York	PROPN	_	_	15	flat@name	_	_
@@ -23662,7 +23662,7 @@
 # text = Steven P. Novella, né le 29 juillet 1964, est un professeur américain de neurologie.
 1	Steven	Steven	PROPN	_	_	11	subj	_	_
 2	P.	P.	PROPN	_	_	1	flat@name	_	_
-3	Novella	Novella	PROPN	_	_	1	flat@name	_	SpaceAfter=No
+3	Novella	Novella	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	mod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -23696,8 +23696,8 @@
 13	battant	battre	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
 14	Valéry	Valéry	PROPN	_	_	13	comp:obj	_	_
 15	Giscard	Giscard	PROPN	_	_	14	flat@name	_	_
-16	d'	d'	PROPN	_	_	14	flat@name	_	SpaceAfter=No
-17	Estaing	Estaing	PROPN	_	_	14	flat@name	_	SpaceAfter=No
+16	d'	d'	PROPN	_	_	15	flat@name	_	SpaceAfter=No
+17	Estaing	Estaing	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 20	occupait	occuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	mod@relcl	_	_
@@ -23746,7 +23746,7 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Primetime	Primetime	PROPN	_	_	4	comp:obj	_	_
 7	Emmy	Emmy	PROPN	_	_	6	flat@name	_	_
-8	Awards	Awards	PROPN	_	_	6	flat@name	_	SpaceAfter=No
+8	Awards	Awards	PROPN	_	_	7	flat@name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	mod	_	_
 11	par	par	ADP	_	_	10	comp:obl@agent	_	_
@@ -23919,8 +23919,8 @@
 10	WNBA	WNBA	PROPN	_	_	8	comp:obj	_	_
 11	All	All	PROPN	_	_	10	flat@name	_	SpaceAfter=No
 12	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	Star	Star	PROPN	_	_	10	flat@name	_	_
-14	Game	Game	PROPN	_	_	10	flat@name	_	SpaceAfter=No
+13	Star	Star	PROPN	_	_	11	flat@name	_	_
+14	Game	Game	PROPN	_	_	13	flat@name	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	avec	avec	ADP	_	_	3	mod	_	_
 17	15,7	15,7	NUM	_	_	18	det	_	_
@@ -24055,8 +24055,8 @@
 9	par	par	ADP	_	_	8	udep	_	_
 10	Gace	Gace	PROPN	_	_	9	comp:obj	_	_
 11	de	de	ADP	_	_	10	flat@name	_	_
-12	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	flat@name	_	wordform=la
-13	Bigne	Bigne	PROPN	_	_	10	flat@name	_	SpaceAfter=No
+12	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	flat@name	_	wordform=la
+13	Bigne	Bigne	PROPN	_	_	12	flat@name	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	_
 15	mentionne	mentionner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	dans	dans	ADP	_	_	15	mod	_	_
@@ -24395,7 +24395,7 @@
 18	Curtiss	Curtiss	PROPN	_	_	16	comp:obj	_	SpaceAfter=No
 19	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	Wright	Wright	PROPN	_	_	18	flat@name	_	_
-21	Corporation	Corporation	PROPN	_	_	18	flat@name	_	_
+21	Corporation	Corporation	PROPN	_	_	20	flat@name	_	_
 22	pour	pour	ADP	_	_	15	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	compte	compte	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
@@ -24403,9 +24403,9 @@
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	United	United	PROPN	_	_	25	comp:obj	_	_
 28	States	States	PROPN	_	_	27	flat@name	_	_
-29	Army	Army	PROPN	_	_	27	flat@name	_	_
-30	Air	Air	PROPN	_	_	27	flat@name	_	_
-31	Corps	Corps	PROPN	_	_	27	flat@name	_	_
+29	Army	Army	PROPN	_	_	28	flat@name	_	_
+30	Air	Air	PROPN	_	_	29	flat@name	_	_
+31	Corps	Corps	PROPN	_	_	30	flat@name	_	_
 
 # sent_id = fr-ud-dev_00885
 # text = Le théâtre musical s'installera lui aussi dans la deuxième moitié du siècle avec l'opérette et l'opéra comique que représentent bien les œuvres d'Offenbach.
@@ -24648,8 +24648,8 @@
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	San	San	PROPN	_	_	30	conj	_	_
 33	Pietro	Pietro	PROPN	_	_	32	flat@name	_	_
-34	al	al	ADP	_	_	32	flat@name	_	_
-35	Natisone	Natisone	PROPN	_	_	32	flat@name	_	SpaceAfter=No
+34	al	al	ADP	_	_	33	flat@name	_	_
+35	Natisone	Natisone	PROPN	_	_	34	flat@name	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	Prepotto	Prepotto	PROPN	_	_	32	conj	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
@@ -24661,12 +24661,12 @@
 44	,	,	PUNCT	_	_	45	punct	_	_
 45	San	San	PROPN	_	_	43	conj	_	_
 46	Giovanni	Giovanni	PROPN	_	_	45	flat@name	_	_
-47	al	al	ADP	_	_	45	flat@name	_	_
-48	Natisone	Natisone	PROPN	_	_	45	flat@name	_	_
+47	al	al	ADP	_	_	46	flat@name	_	_
+48	Natisone	Natisone	PROPN	_	_	47	flat@name	_	_
 49	et	et	CCONJ	_	_	50	cc	_	_
 50	Corno	Corno	PROPN	_	_	45	conj	_	_
 51	di	di	ADP	_	_	50	flat@name	_	_
-52	Rosazzo	Rosazzo	PROPN	_	_	50	flat@name	_	SpaceAfter=No
+52	Rosazzo	Rosazzo	PROPN	_	_	51	flat@name	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00893
@@ -24745,7 +24745,7 @@
 14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	Whole	Whole	PROPN	_	_	13	comp:obj	_	_
 16	Lotta	Lotta	PROPN	_	_	15	flat@name	_	_
-17	Love	Love	PROPN	_	_	15	flat@name	_	SpaceAfter=No
+17	Love	Love	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -25649,11 +25649,11 @@
 18	japonais	japonais	ADJ	_	Gender=Masc|Number=Plur	17	mod	_	_
 19	Pocket	pocket	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	wordform=pocket
 20	Monsters	monster	NOUN	_	Gender=Masc|Number=Plur	19	flat@name	_	wordform=monsters
-21	Kin	Kin	PROPN	_	_	19	flat@name	_	_
+21	Kin	Kin	PROPN	_	_	20	flat@name	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	Pocket	pocket	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	wordform=pocket
 24	Monsters	monster	NOUN	_	Gender=Masc|Number=Plur	23	flat@name	_	wordform=monsters
-25	Gin	Gin	PROPN	_	_	23	flat@name	_	SpaceAfter=No
+25	Gin	Gin	PROPN	_	_	24	flat@name	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00926
@@ -26295,7 +26295,7 @@
 # text = Hyacinthe de Cavallère est un des héros de la série de bandes dessinées Donjon écrite par Lewis Trondheim et Joann Sfar.
 1	Hyacinthe	Hyacinthe	PROPN	_	_	4	subj	_	_
 2	de	de	ADP	_	_	1	flat@name	_	_
-3	Cavallère	Cavallère	PROPN	_	_	1	flat@name	_	_
+3	Cavallère	Cavallère	PROPN	_	_	2	flat@name	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	PRON	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 6-7	des	_	_	_	_	_	_	_	_
@@ -26513,7 +26513,7 @@
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Naval	Naval	PROPN	_	_	14	comp:obj	_	_
 17	War	War	PROPN	_	_	16	flat@name	_	_
-18	College	College	PROPN	_	_	16	flat@name	_	_
+18	College	College	PROPN	_	_	17	flat@name	_	_
 19	à	à	ADP	_	_	16	udep	_	_
 20	Newport	Newport	PROPN	_	_	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
@@ -28153,7 +28153,7 @@
 26	grison	grison	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
 27	Richard	Richard	PROPN	_	_	26	appos	_	_
 28	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	flat@name	_	wordform=la
-29	Nicca	Nicca	PROPN	_	_	27	flat@name	_	_
+29	Nicca	Nicca	PROPN	_	_	28	flat@name	_	_
 30	de	de	ADP	_	_	23	udep	_	_
 31	détourner	détourner	VERB	_	VerbForm=Inf	30	comp:obj	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -28563,7 +28563,7 @@
 15	ou	ou	CCONJ	_	_	16	cc	_	_
 16	Light	Light	PROPN	_	_	14	conj	_	_
 17	From	From	PROPN	_	_	16	flat@name	_	_
-18	Above	Above	PROPN	_	_	16	flat@name	_	SpaceAfter=No
+18	Above	Above	PROPN	_	_	17	flat@name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	titre	titre	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
 21	éponyme	éponyme	ADJ	_	Gender=Masc|Number=Sing	20	mod	_	_
@@ -30040,7 +30040,7 @@
 13	en	en	ADP	_	_	12	udep	_	_
 14	NBA	NBA	PROPN	_	_	13	comp:obj	_	_
 15	Development	development	NOUN	_	Gender=Masc|Number=Sing	14	flat@name	_	wordform=development
-16	League	league	NOUN	_	Gender=Masc|Number=Sing	14	flat@name	_	SpaceAfter=No|wordform=league
+16	League	league	NOUN	_	Gender=Masc|Number=Sing	15	flat@name	_	SpaceAfter=No|wordform=league
 17	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_01083
@@ -30154,7 +30154,7 @@
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	Claude	Claude	PROPN	_	_	10	subj	_	_
 8	Auguste	Auguste	PROPN	_	_	7	flat@name	_	_
-9	Lamy	Lamy	PROPN	_	_	7	flat@name	_	_
+9	Lamy	Lamy	PROPN	_	_	8	flat@name	_	_
 10	identifie	identifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	isole	isoler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
@@ -30178,7 +30178,7 @@
 29	chimiste	chimiste	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
 30	Jules	Jules	PROPN	_	_	29	appos	_	_
 31	Frédéric	Frédéric	PROPN	_	_	30	flat@name	_	_
-32	Kuhlmann	Kuhlmann	PROPN	_	_	30	flat@name	_	SpaceAfter=No
+32	Kuhlmann	Kuhlmann	PROPN	_	_	31	flat@name	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_01087
@@ -30695,9 +30695,9 @@
 # text = Rupert Henry St.John Barker Moon est né le 1er février 1968 à Birmingham (Angleterre).
 1	Rupert	Rupert	PROPN	_	_	6	subj	_	_
 2	Henry	Henry	PROPN	_	_	1	flat@name	_	_
-3	St.John	St.John	PROPN	_	_	1	flat@name	_	_
-4	Barker	Barker	PROPN	_	_	1	flat@name	_	_
-5	Moon	Moon	PROPN	_	_	1	flat@name	_	_
+3	St.John	St.John	PROPN	_	_	2	flat@name	_	_
+4	Barker	Barker	PROPN	_	_	3	flat@name	_	_
+5	Moon	Moon	PROPN	_	_	4	flat@name	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -31180,8 +31180,8 @@
 2	Handball	Handball	PROPN	_	_	3	mod	_	_
 3	Club	Club	PROPN	_	_	7	subj	_	_
 4	Baník	Baník	PROPN	_	_	3	flat@name	_	_
-5	OKD	OKD	PROPN	_	_	3	flat@name	_	_
-6	Karviná	Karviná	PROPN	_	_	3	flat@name	_	_
+5	OKD	OKD	PROPN	_	_	4	flat@name	_	_
+6	Karviná	Karviná	PROPN	_	_	5	flat@name	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	club	club	NOUN	_	Gender=Masc|Number=Sing	7	comp:pred	_	_
@@ -31486,7 +31486,7 @@
 6	conservateur	conservateur	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 7	Karl	Karl	PROPN	_	_	3	appos	_	_
 8	Heinz	Heinz	PROPN	_	_	7	flat@name	_	_
-9	Hagen	Hagen	PROPN	_	_	7	flat@name	_	SpaceAfter=No
+9	Hagen	Hagen	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	politique	politique	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
@@ -31752,8 +31752,8 @@
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	Rowland	Rowland	PROPN	_	_	22	conj	_	_
 28	V.	V.	PROPN	_	_	27	flat@name	_	_
-29	Lee	Lee	PROPN	_	_	27	flat@name	_	_
-30	Ranch	Ranch	PROPN	_	_	27	flat@name	_	SpaceAfter=No
+29	Lee	Lee	PROPN	_	_	28	flat@name	_	_
+30	Ranch	Ranch	PROPN	_	_	29	flat@name	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_01146
@@ -32113,13 +32113,13 @@
 # text = Ekaterina Sergueïevna Andreïeva (russe : Екатерина Сергеевна Андреева), née le 27 novembre 1961 à Moscou, est une journaliste russe.
 1	Ekaterina	Ekaterina	PROPN	_	_	20	subj	_	_
 2	Sergueïevna	Sergueïevna	PROPN	_	_	1	flat@name	_	_
-3	Andreïeva	Andreïeva	PROPN	_	_	1	flat@name	_	_
+3	Andreïeva	Andreïeva	PROPN	_	_	2	flat@name	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	russe	russe	NOUN	_	Gender=Fem|Number=Sing	1	mod	_	_
 6	:	:	PUNCT	_	_	7	punct	_	_
 7	Екатерина	Екатерина	PROPN	_	_	5	appos	_	_
 8	Сергеевна	Сергеевна	PROPN	_	_	7	flat@name	_	_
-9	Андреева	Андреева	PROPN	_	_	7	flat@name	_	SpaceAfter=No
+9	Андреева	Андреева	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	mod	_	_
@@ -32866,7 +32866,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Kann	Kann	PROPN	_	_	4	comp:obj	_	_
 7	Al	Al	PROPN	_	_	6	flat@name	_	_
-8	Loar	Loar	PROPN	_	_	6	flat@name	_	SpaceAfter=No
+8	Loar	Loar	PROPN	_	_	7	flat@name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	à	à	ADP	_	_	4	conj	_	_
 11	Yaouank	Yaouank	PROPN	_	_	10	comp:obj	_	_
@@ -32902,7 +32902,7 @@
 20	président	président	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 21	Ali	Ali	PROPN	_	_	20	appos	_	_
 22	Abdallah	Abdallah	PROPN	_	_	21	flat@name	_	_
-23	Saleh	Saleh	PROPN	_	_	21	flat@name	_	SpaceAfter=No
+23	Saleh	Saleh	PROPN	_	_	22	flat@name	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	28	punct	_	_
 25	qui	qui	PRON	_	PronType=Rel	28	subj	_	_
 26	s'	se	PRON	_	Person=3|PronType=Prs	28	comp@fixed	_	SpaceAfter=No
@@ -33312,8 +33312,8 @@
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	Não	Não	PROPN	_	_	5	appos	_	_
 8	me	me	X	_	_	7	flat@name	_	_
-9	Deixe	Deixe	PROPN	_	_	7	flat@name	_	_
-10	Só	Só	PROPN	_	_	7	flat@name	_	SpaceAfter=No
+9	Deixe	Deixe	PROPN	_	_	8	flat@name	_	_
+10	Só	Só	PROPN	_	_	9	flat@name	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	7	punct	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
 13	connut	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	mod@relcl	_	_
@@ -34765,7 +34765,7 @@
 2	chaîne	chaîne	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
 3	BBC	BBC	PROPN	_	_	2	appos	_	_
 4	World	World	PROPN	_	_	3	flat@name	_	_
-5	News	News	PROPN	_	_	3	flat@name	_	_
+5	News	News	PROPN	_	_	4	flat@name	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	réputée	réputer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	pour	pour	ADP	_	_	6	udep	_	_
@@ -35274,7 +35274,7 @@
 24	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
 25	Pedro	Pedro	PROPN	_	_	24	comp:obj	_	_
 26	Santana	Santana	PROPN	_	_	25	flat@name	_	_
-27	Lopes	Lopes	PROPN	_	_	25	flat@name	_	SpaceAfter=No
+27	Lopes	Lopes	PROPN	_	_	26	flat@name	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	alors	alors	ADV	_	_	30	mod	_	_
 30	maire	maire	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
@@ -36079,7 +36079,7 @@
 4	sur	sur	ADP	_	_	3	udep	_	_
 5	Castrum	Castrum	PROPN	_	_	4	comp:obj	_	_
 6	Sancti	Sancti	PROPN	_	_	5	flat@name	_	_
-7	Clementis	Clementis	PROPN	_	_	5	flat@name	_	_
+7	Clementis	Clementis	PROPN	_	_	6	flat@name	_	_
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	de	de	ADP	_	_	8	comp:pred	_	_
 10	962	962	NUM	_	_	9	comp:obj	_	_
@@ -37080,7 +37080,7 @@
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Marshall	Marshall	PROPN	_	_	5	comp:obj	_	_
 8	JCM2000Dsl	JCM2000Dsl	PROPN	_	_	7	flat@name	_	_
-9	100	100	NUM	_	_	7	flat@name	_	SpaceAfter=No
+9	100	100	NUM	_	_	8	flat@name	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01339
@@ -38127,7 +38127,7 @@
 8	entomologiste	entomologiste	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	Carl	Carl	PROPN	_	_	8	appos	_	_
 10	von	von	PROPN	_	_	9	flat@name	_	_
-11	Linné	Linné	PROPN	_	_	9	flat@name	_	_
+11	Linné	Linné	PROPN	_	_	10	flat@name	_	_
 12	en	en	ADP	_	_	3	udep	_	_
 13	1758	1758	NUM	_	_	12	comp:obj	_	_
 14	sous	sous	ADP	_	_	3	udep	_	_
@@ -38160,8 +38160,8 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Mississippi	Mississippi	PROPN	_	_	21	subj	_	_
 18	Freedom	Freedom	PROPN	_	_	17	flat@name	_	_
-19	Democratic	Democratic	PROPN	_	_	17	flat@name	_	_
-20	Party	Party	PROPN	_	_	17	flat@name	_	_
+19	Democratic	Democratic	PROPN	_	_	18	flat@name	_	_
+20	Party	Party	PROPN	_	_	19	flat@name	_	_
 21	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	mod@relcl	_	_
 22	avec	avec	ADP	_	_	24	mod	_	_
 23	succès	succès	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
@@ -38771,18 +38771,18 @@
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	Jean	Jean	PROPN	_	_	14	subj	_	_
 9	François	François	PROPN	_	_	8	flat@name	_	_
-10	Sylvestre	Sylvestre	PROPN	_	_	8	flat@name	_	_
-11	Denis	Denis	PROPN	_	_	8	flat@name	_	_
-12	de	de	ADP	_	_	8	flat@name	_	_
-13	Trobriand	Trobriand	PROPN	_	_	8	flat@name	_	_
+10	Sylvestre	Sylvestre	PROPN	_	_	9	flat@name	_	_
+11	Denis	Denis	PROPN	_	_	10	flat@name	_	_
+12	de	de	ADP	_	_	11	flat@name	_	_
+13	Trobriand	Trobriand	PROPN	_	_	12	flat@name	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	fils	fils	NOUN	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	Jean	Jean	PROPN	_	_	17	comp:obj	_	_
 19	François	François	PROPN	_	_	18	flat@name	_	_
-20	Sylvestre	Sylvestre	PROPN	_	_	18	flat@name	_	_
-21	Denis	Denis	PROPN	_	_	18	flat@name	_	SpaceAfter=No
+20	Sylvestre	Sylvestre	PROPN	_	_	19	flat@name	_	_
+21	Denis	Denis	PROPN	_	_	20	flat@name	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	comte	comte	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
 24	de	de	ADP	_	_	23	udep	_	_
@@ -38793,12 +38793,12 @@
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	Jeanne	Jeanne	PROPN	_	_	18	conj	_	_
 31	Charlotte	Charlotte	PROPN	_	_	30	flat@name	_	_
-32	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	flat@name	_	wordform=le
-33	Gris	gris	NOUN	_	Gender=Masc|Number=Sing	30	flat@name	_	wordform=gris
+32	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	flat@name	_	wordform=le
+33	Gris	gris	NOUN	_	Gender=Masc|Number=Sing	32	flat@name	_	wordform=gris
 34-35	du	_	_	_	_	_	_	_	_
-34	de	de	ADP	_	_	30	flat@name	_	_
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	flat@name	_	_
-36	Clos	Clos	PROPN	_	_	30	flat@name	_	SpaceAfter=No
+34	de	de	ADP	_	_	33	flat@name	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	flat@name	_	_
+36	Clos	Clos	PROPN	_	_	35	flat@name	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-dev_01398
@@ -38847,7 +38847,7 @@
 # text = Bartolomeo de Benincà est un enlumineur et un peintre italien de miniatures du XVe siècle, dont l'œuvre se situe entre la fin de la période gothique et le début de la première Renaissance.
 1	Bartolomeo	Bartolomeo	PROPN	_	_	4	subj	_	_
 2	de	de	ADP	_	_	1	flat@name	_	_
-3	Benincà	Benincà	PROPN	_	_	1	flat@name	_	_
+3	Benincà	Benincà	PROPN	_	_	2	flat@name	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	enlumineur	enlumineur	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
@@ -39193,7 +39193,7 @@
 15	père	père	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 16	Antonio	Antonio	PROPN	_	_	15	appos	_	_
 17	de	de	ADP	_	_	16	flat@name	_	_
-18	Sedella	Sedella	PROPN	_	_	16	flat@name	_	SpaceAfter=No
+18	Sedella	Sedella	PROPN	_	_	17	flat@name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	mod	_	_
 21	d'	de	ADP	_	_	20	comp:obl	_	SpaceAfter=No
@@ -39356,7 +39356,7 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Birmingham	Birmingham	PROPN	_	_	13	comp:obj	_	_
 16	Repertory	Repertory	PROPN	_	_	15	flat@name	_	_
-17	Théâtre	Théâtre	PROPN	_	_	15	flat@name	_	SpaceAfter=No
+17	Théâtre	Théâtre	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01415
@@ -40122,7 +40122,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Walt	Walt	PROPN	_	_	9	comp:obj	_	_
 12	Disney	Disney	PROPN	_	_	11	flat@name	_	_
-13	Company	Company	PROPN	_	_	11	flat@name	_	_
+13	Company	Company	PROPN	_	_	12	flat@name	_	_
 14	dans	dans	ADP	_	_	8	mod	_	_
 15	plusieurs	plusieurs	PRON	_	Number=Plur	14	comp:obj	_	_
 16	de	de	ADP	_	_	15	udep	_	_
@@ -40253,7 +40253,7 @@
 5	album	album	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 6	Lovers	Lovers	PROPN	_	_	5	appos	_	_
 7	Leap	Leap	PROPN	_	_	6	flat@name	_	_
-8	Showcase	Showcase	PROPN	_	_	6	flat@name	_	SpaceAfter=No
+8	Showcase	Showcase	PROPN	_	_	7	flat@name	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01447
@@ -40447,7 +40447,7 @@
 # text = Craig Leo Stansberry (né le 8 mars 1982 à Dammam, Arabie saoudite) est un joueur américain de deuxième but au baseball qui a débuté une carrière en Ligues majeures en 2007.
 1	Craig	Craig	PROPN	_	_	16	subj	_	_
 2	Leo	Leo	PROPN	_	_	1	flat@name	_	_
-3	Stansberry	Stansberry	PROPN	_	_	1	flat@name	_	_
+3	Stansberry	Stansberry	PROPN	_	_	2	flat@name	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	mod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -40842,7 +40842,7 @@
 10	née	naître	VERB	_	Gender=Fem|Number=Sing|Shared=Yes|Tense=Past|VerbForm=Part	7	mod	_	_
 11	Margaret	Margaret	PROPN	_	_	10	comp:pred	_	_
 12	LaVelle	LaVelle	PROPN	_	_	11	flat@name	_	_
-13	Fitzpatrick	Fitzpatrick	PROPN	_	_	11	flat@name	_	_
+13	Fitzpatrick	Fitzpatrick	PROPN	_	_	12	flat@name	_	_
 14	à	à	ADP	_	_	10	comp:obl	_	_
 15	Birmingham	Birmingham	PROPN	_	_	14	comp:obj	_	_
 16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
