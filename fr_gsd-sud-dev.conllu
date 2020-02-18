@@ -9302,7 +9302,7 @@
 11	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det	_	_
 12	beaux-frères	beau-frère	NOUN	_	Gender=Masc|Number=Plur	14	subj	_	_
 13	ne	ne	ADV	_	Polarity=Neg	14	mod	_	_
-14	portèrent	porter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	mod@relcl	_	_
+14	portèrent	porter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	mod	_	_
 15	jusqu'	jusque	ADP	_	_	14	udep	_	SpaceAfter=No
 16	en	en	ADP	_	_	15	comp:obj	_	_
 17	1278	1278	NUM	_	_	16	comp:obj	_	_
