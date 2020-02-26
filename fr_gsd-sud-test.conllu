@@ -3232,7 +3232,7 @@
 6	show	show	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Mamma	Mamma	PROPN	_	_	6	appos	_	_
-9	Mia	Mia	X	_	_	8	mod	_	wordform=mia
+9	Mia	Mia	X	_	_	8	mod	_	_
 10	!	!	PUNCT	_	_	8	punct	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	8	punct	_	_
 
@@ -4151,7 +4151,7 @@
 # sent_id = fr-ud-test_00137
 # text = Si Moody's estime que leur note ne devrait pas baisser de plus d'un cran, la situation n'est pas la même pour la Société Générale, dont la dégradation pourrait atteindre deux crans.
 1	Si	si	SCONJ	_	_	20	mod	_	wordform=si
-2	Moody's	Moody's	X	_	_	3	subj	_	wordform=moody's
+2	Moody's	Moody's	X	_	_	3	subj	_	_
 3	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
@@ -8239,10 +8239,10 @@
 1	RADSL	RADSL	NOUN	_	Gender=Masc|Number=Sing	2	subj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	«	«	PUNCT	_	_	2	punct	_	_
-4	Rate-Adaptive	Rate-Adaptive	X	_	Foreign=Yes	2	comp:pred	_	Lang=en|wordform=rate-adaptive
-5	Digital	Digital	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en|wordform=digital
-6	Subscriber	Subscriber	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en|wordform=subscriber
-7	Line	Line	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en|wordform=line
+4	Rate-Adaptive	Rate-Adaptive	X	_	Foreign=Yes	2	comp:pred	_	Lang=en
+5	Digital	Digital	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
+6	Subscriber	Subscriber	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
+7	Line	Line	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
 8	»	»	PUNCT	_	_	4	punct	_	_
 9	soit	soit	ADV	_	_	14	mod	_	_
 10	en	en	ADP	_	_	14	udep	_	_

@@ -2070,12 +2070,12 @@
 5	Christ	Christ	PROPN	_	_	3	comp:obj	_	_
 6	Rédempteur	Rédempteur	ADJ	_	_	5	mod	_	wordform=rédempteur
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	Cathedral	Cathedral	X	_	Foreign=Yes	2	appos	_	Lang=en|wordform=cathedral
-9	Church	Church	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en|wordform=church
+8	Cathedral	Cathedral	X	_	Foreign=Yes	2	appos	_	Lang=en
+9	Church	Church	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	of	of	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
-11	Christ	Christ	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en|wordform=christ
+11	Christ	Christ	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 12	the	the	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
-13	Redeemer	Redeemer	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en|SpaceAfter=No|wordform=redeemer
+13	Redeemer	Redeemer	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en|SpaceAfter=No
 14	)	)	PUNCT	_	_	8	punct	_	_
 15	de	de	ADP	_	_	2	udep	_	_
 16	Dromore	Dromore	PROPN	_	_	15	comp:obj	_	_
@@ -2113,7 +2113,7 @@
 16	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	émission	émission	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	«	«	PUNCT	_	_	20	punct	_	_
-19	Absolutt	Absolutt	X	_	_	20	mod	_	wordform=absolutt
+19	Absolutt	Absolutt	X	_	_	20	mod	_	_
 20	underholdning	underholdning	X	_	_	17	appos	_	_
 21	»	»	PUNCT	_	_	20	punct	_	_
 22	diffusée	diffuser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	mod	_	_
@@ -2908,10 +2908,10 @@
 9	en	en	ADP	_	_	12	udep	_	_
 10	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	:	:	PUNCT	_	_	9	punct	_	_
-12	Mendelian	Mendelian	X	_	Foreign=Yes	3	appos	_	Lang=en|wordform=mendelian
-13	Inheritance	Inheritance	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en|wordform=inheritance
+12	Mendelian	Mendelian	X	_	Foreign=Yes	3	appos	_	Lang=en
+13	Inheritance	Inheritance	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en
 14	in	in	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en
-15	Man	Man	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en|SpaceAfter=No|wordform=man
+15	Man	Man	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en|SpaceAfter=No
 16	)	)	PUNCT	_	_	12	punct	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -6295,12 +6295,12 @@
 7	de	de	ADP	_	_	6	udep	_	_
 8	son	son	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	Academy	Academy	X	_	Foreign=Yes	2	appos	_	Lang=en|wordform=academy
-11	Award	Award	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en|wordform=award
+10	Academy	Academy	X	_	Foreign=Yes	2	appos	_	Lang=en
+11	Award	Award	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
 12	for	for	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
-13	Best	Best	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en|wordform=best
-14	Sound	Sound	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en|wordform=sound
-15	Mixing	Mixing	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en|SpaceAfter=No|wordform=mixing
+13	Best	Best	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
+14	Sound	Sound	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
+15	Mixing	Mixing	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en|SpaceAfter=No
 16	)	)	PUNCT	_	_	10	punct	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -6329,13 +6329,13 @@
 41	)	)	PUNCT	_	_	33	punct	_	_
 42	par	par	ADP	_	_	22	comp:obl@agent	_	_
 43	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
-44	Academy	Academy	X	_	Foreign=Yes	42	comp:obj	_	Lang=en|wordform=academy
+44	Academy	Academy	X	_	Foreign=Yes	42	comp:obj	_	Lang=en
 45	of	of	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en
-46	Motion	Motion	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en|wordform=motion
-47	Picture	Picture	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en|wordform=picture
-48	Arts	Arts	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en|wordform=arts
+46	Motion	Motion	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en
+47	Picture	Picture	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en
+48	Arts	Arts	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en
 49	and	and	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en
-50	Sciences	Sciences	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en|wordform=sciences
+50	Sciences	Sciences	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en
 51	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
 52	AMPAS	AMPAS	PROPN	_	_	44	appos	_	SpaceAfter=No
 53	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
@@ -7203,7 +7203,7 @@
 13	Hyapatia	Hyapatia	PROPN	_	_	12	appos	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	prononcé	prononcer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	mod	_	_
-16	high-a-PAY-sha	high-a-PAY-sha	X	_	_	15	udep	_	SpaceAfter=No|wordform=high-a-pay-sha
+16	high-a-PAY-sha	high-a-PAY-sha	X	_	_	15	udep	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	15	punct	_	_
 18	en	en	ADP	_	_	10	udep	_	_
 19	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
@@ -10348,7 +10348,7 @@
 6	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	SpaceAfter=No
 7	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	«	«	PUNCT	_	_	9	punct	_	_
-9	The	The	X	_	Foreign=Yes	7	comp:pred	_	Lang=en|wordform=the
+9	The	The	X	_	Foreign=Yes	7	comp:pred	_	Lang=en
 10	king	king	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
 11	of	of	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
 12	comedy	comedy	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
@@ -11152,8 +11152,8 @@
 29-30	des	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	28	udep	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
-31	Special	Special	X	_	Foreign=Yes	29	comp:obj	_	Lang=en|wordform=special
-32	Forces	Forces	X	_	Foreign=Yes	31	flat@foreign	_	Lang=en|wordform=forces
+31	Special	Special	X	_	Foreign=Yes	29	comp:obj	_	Lang=en
+32	Forces	Forces	X	_	Foreign=Yes	31	flat@foreign	_	Lang=en
 33	et	et	CCONJ	_	_	35	cc	_	_
 34	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det	_	_
 35	interprète	interprète	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
@@ -11188,7 +11188,7 @@
 11	ARN	ARN	PROPN	_	_	9	comp:pred	_	_
 12	messager	messager	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	ARNm	ARNm	X	_	_	11	appos	_	SpaceAfter=No|wordform=arnm
+14	ARNm	ARNm	X	_	_	11	appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	_
 16	qui	qui	PRON	_	PronType=Rel	17	subj@pass	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
@@ -13681,10 +13681,10 @@
 4	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 5	Inde	Inde	PROPN	_	_	4	comp:obj	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	Communist	Communist	X	_	Foreign=Yes	2	appos	_	Lang=en|wordform=communist
-8	Party	Party	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en|wordform=party
+7	Communist	Communist	X	_	Foreign=Yes	2	appos	_	Lang=en
+8	Party	Party	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
 9	of	of	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
-10	India	India	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en|SpaceAfter=No|wordform=india
+10	India	India	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en|SpaceAfter=No
 11	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 12	--	--	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	CPI	CPI	PROPN	_	_	7	appos	_	_
@@ -17533,10 +17533,10 @@
 
 # sent_id = fr-ud-dev_00631
 # text = Can You Feel It a été enregistré en mars 1980 et est sorti en single le 23 septembre 1980.
-1	Can	Can	X	_	Foreign=Yes	5	subj@pass	_	Lang=en|wordform=can
-2	You	You	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en|wordform=you
-3	Feel	Feel	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en|wordform=feel
-4	It	It	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en|wordform=it
+1	Can	Can	X	_	Foreign=Yes	5	subj@pass	_	Lang=en
+2	You	You	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
+3	Feel	Feel	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
+4	It	It	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	enregistré	enregistrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
@@ -19808,12 +19808,12 @@
 11	dans	dans	ADP	_	_	4	mod	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	album	album	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
-14	Some	Some	X	_	Foreign=Yes	13	appos	_	Lang=en|wordform=some
-15	Time	Time	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en|wordform=time
+14	Some	Some	X	_	Foreign=Yes	13	appos	_	Lang=en
+15	Time	Time	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en
 16	in	in	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en
-17	New	New	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en|wordform=new
-18	York	York	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en|wordform=york
-19	City	City	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en|SpaceAfter=No|wordform=city
+17	New	New	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en
+18	York	York	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en
+19	City	City	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en|SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00715
@@ -20276,7 +20276,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	custom	custom	X	_	Foreign=Yes	11	comp:obj	_	Lang=en
 14	shop	shop	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en
-15	Dunlop	Dunlop	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|SpaceAfter=No|wordform=dunlop
+15	Dunlop	Dunlop	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	ainsi	ainsi	ADV	_	_	19	cc	_	EXTPOS=CCONJ|Type=MWE
 18	que	que	SCONJ	_	_	17	unk@fixed	_	_
@@ -21410,9 +21410,9 @@
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
-7	Bound	Bound	X	_	Foreign=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:obj	_	Lang=en|wordform=bound
+7	Bound	Bound	X	_	Foreign=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:obj	_	Lang=en
 8	for	for	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
-9	Glory	Glory	X	_	Foreign=Yes|Gender=Masc|Number=Sing	7	flat@foreign	_	Lang=en|SpaceAfter=No|wordform=glory
+9	Glory	Glory	X	_	Foreign=Yes|Gender=Masc|Number=Sing	7	flat@foreign	_	Lang=en|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	évènement	évènement	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
@@ -22901,10 +22901,10 @@
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Basketball	Basketball	X	_	Foreign=Yes	6	comp:obj	_	Lang=en|wordform=basketball
-9	Hall	Hall	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en|wordform=hall
+8	Basketball	Basketball	X	_	Foreign=Yes	6	comp:obj	_	Lang=en
+9	Hall	Hall	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	of	of	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
-11	Fame	Fame	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en|wordform=fame
+11	Fame	Fame	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 12	en	en	ADP	_	_	3	udep	_	_
 13	2010	2010	NUM	_	_	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
@@ -32150,11 +32150,11 @@
 10	titre	titre	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
 11	original	original	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
 12	:	:	PUNCT	_	_	13	punct	_	_
-13	Being	Being	X	_	Foreign=Yes	10	appos	_	EXTPOS=PROPN|Lang=en|Type=Title|wordform=being
+13	Being	Being	X	_	Foreign=Yes	10	appos	_	EXTPOS=PROPN|Lang=en|Type=Title
 14	at	at	X	_	Foreign=Yes	13	flat@foreign	_	INTITLE=Yes|Lang=en
-15	Home	Home	X	_	Foreign=Yes	13	flat@foreign	_	INTITLE=Yes|Lang=en|wordform=home
+15	Home	Home	X	_	Foreign=Yes	13	flat@foreign	_	INTITLE=Yes|Lang=en
 16	with	with	X	_	Foreign=Yes	13	flat@foreign	_	INTITLE=Yes|Lang=en
-17	Claude	Claude	X	_	Foreign=Yes	13	flat@foreign	_	INTITLE=Yes|Lang=en|SpaceAfter=No|wordform=claude
+17	Claude	Claude	X	_	Foreign=Yes	13	flat@foreign	_	INTITLE=Yes|Lang=en|SpaceAfter=No
 18	)	)	PUNCT	_	_	10	punct	_	_
 19	de	de	ADP	_	_	7	udep	_	_
 20	Jean	Jean	PROPN	_	_	19	comp:obj	_	_
@@ -35323,10 +35323,10 @@
 4	H.R.F.	H.R.F.	PROPN	_	_	6	subj	_	_
 5	Keating	Keating	PROPN	_	_	4	flat@name	_	_
 6	classa	classer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	The	The	X	_	Definite=Def|Foreign=Yes	6	comp:obj	_	Lang=en|wordform=the
-8	Sands	Sands	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en|wordform=sands
+7	The	The	X	_	Definite=Def|Foreign=Yes	6	comp:obj	_	Lang=en
+8	Sands	Sands	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
 9	of	of	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
-10	Windee	Windee	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en|wordform=windee
+10	Windee	Windee	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	1931	1931	NUM	_	_	7	mod	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	_
@@ -35543,11 +35543,11 @@
 10	9	9	NUM	_	_	11	det	_	_
 11	albums	album	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
 12	depuis	depuis	ADP	_	_	2	mod	_	_
-13	Delaney	Delaney	X	_	Foreign=Yes	12	comp:obj	_	Lang=en|SpaceAfter=No|wordform=delaney
+13	Delaney	Delaney	X	_	Foreign=Yes	12	comp:obj	_	Lang=en|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	Bonnie	Bonnie	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|wordform=bonnie
+15	Bonnie	Bonnie	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en
 16	and	and	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en
-17	Friends	Friends	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|wordform=friends
+17	Friends	Friends	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en
 18	jusqu'	jusque	ADP	_	_	2	mod	_	SpaceAfter=No
 19	à	à	ADP	_	_	18	comp:obj	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
@@ -36507,8 +36507,8 @@
 10	Brigade	brigade	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	wordform=brigade
 11	volante	volant	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	The	The	X	_	Foreign=Yes	10	appos	_	Lang=en|wordform=the
-14	Bill	Bill	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|SpaceAfter=No|wordform=bill
+13	The	The	X	_	Foreign=Yes	10	appos	_	Lang=en
+14	Bill	Bill	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|SpaceAfter=No
 15	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -39389,9 +39389,9 @@
 9	donc	donc	ADV	_	_	8	mod	_	_
 10	énormément	énormément	ADV	_	_	8	mod	_	_
 11	de	de	ADP	_	_	8	comp:obl	_	_
-12	Secret	Secret	X	_	Foreign=Yes	11	comp:obj	_	Lang=en|wordform=secret
+12	Secret	Secret	X	_	Foreign=Yes	11	comp:obj	_	Lang=en
 13	of	of	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en
-14	Mana	Mana	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en|SpaceAfter=No|wordform=mana
+14	Mana	Mana	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en|SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-dev_01417
@@ -40400,11 +40400,11 @@
 
 # sent_id = fr-ud-dev_01451
 # text = Tunes of Wacken--Live est le premier live du groupe de thrash metal allemand Grave Digger.
-1	Tunes	Tunes	X	_	Foreign=Yes	6	subj	_	Lang=en|wordform=tunes
+1	Tunes	Tunes	X	_	Foreign=Yes	6	subj	_	Lang=en
 2	of	of	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
-3	Wacken	Wacken	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en|SpaceAfter=No|wordform=wacken
+3	Wacken	Wacken	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en|SpaceAfter=No
 4	--	--	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Live	Live	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en|wordform=live
+5	Live	Live	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	premier	premier	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
