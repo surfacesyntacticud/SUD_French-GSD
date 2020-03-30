@@ -6192,7 +6192,7 @@
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	bien	bien	ADV	_	_	10	mod	_	_
-10	relaxé	relaxer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:pred	_	_
+10	relaxé	relaxer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:pred@x	_	_
 11	et	et	CCONJ	_	_	15	cc	_	_
 12	surtout	surtout	ADV	_	_	15	mod	_	_
 13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
