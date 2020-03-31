@@ -7162,7 +7162,7 @@
 9	5905	5905	NUM	_	_	6	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	rue	rue	NOUN	_	Gender=Fem|Number=Sing	9	mod	_	_
-12	Turenne	Turenne	PROPN	_	_	11	mod	_	_
+12	Turenne	Turenne	PROPN	_	_	11	appos	_	_
 13	Montréal	Montréal	PROPN	_	_	11	mod	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	Québec	Québec	PROPN	_	_	13	mod	_	SpaceAfter=No
@@ -10105,7 +10105,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	comme	comme	ADP	_	_	5	udep	_	_
 14	Amnesty	Amnesty	PROPN	_	_	13	comp:obj	_	_
-15	international	international	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	SpaceAfter=No
+15	international	international	PROPN	_	_	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	3	punct	_	_
 17	demandent	demander	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
