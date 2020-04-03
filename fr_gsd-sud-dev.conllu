@@ -4082,7 +4082,7 @@
 13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	aussi	aussi	ADV	_	_	13	mod	_	_
 15	s'	se	PRON	_	Person=3|PronType=Prs	16	comp@fixed	_	SpaceAfter=No
-16	attaquer	attaquer	VERB	_	VerbForm=Inf	13	comp:obj	_	_
+16	attaquer	attaquer	VERB	_	VerbForm=Inf	13	comp:pred	_	_
 17	à	à	ADP	_	_	16	comp:obl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	misère	misère	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
@@ -8344,7 +8344,7 @@
 24	suivant	suivant	ADP	_	Shared=Yes	22	udep	_	_
 25	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	sources	source	NOUN	_	Gender=Fem|Number=Plur	24	comp:obj	_	SpaceAfter=No
-27	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	en	en	ADP	_	_	16	mod	_	_
 30	1386	1386	NUM	_	_	29	comp:obj	_	_
@@ -8784,7 +8784,7 @@
 # text = Il est à noter qu'environ un tiers des membres de l'Alliance avaient à l'époque un article biographique dans l'encyclopédie Otto (Ottův slovník naučný).
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	à	à	ADP	_	_	2	comp:obl	_	_
+3	à	à	ADP	_	_	2	comp:pred	_	_
 4	noter	noter	VERB	_	VerbForm=Inf	3	comp:obj	_	_
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
 6	environ	environ	ADV	_	_	7	mod	_	_
@@ -11303,7 +11303,7 @@
 10	à	à	ADP	_	_	7	conj	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Palaos	Palaos	PROPN	_	_	10	comp:obj	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	7	punct	_	_
+13	,	,	PUNCT	_	Shared=Yes	10	punct	_	_
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj@expl	_	_
 15	n'	ne	ADV	_	Polarity=Neg	16	mod	_	SpaceAfter=No
 16	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18889,7 +18889,7 @@
 40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
 41	2005	2005	NUM	_	_	34	mod	_	SpaceAfter=No
 42	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
-43	)	)	PUNCT	_	_	13	punct	_	_
+43	)	)	PUNCT	_	Shared=Yes	34	punct	_	_
 44	mais	mais	CCONJ	_	_	46	cc	_	_
 45	aussi	aussi	ADV	_	_	46	mod	_	_
 46	collectives	collectif	ADJ	_	Gender=Fem|Number=Plur	7	conj	_	_
@@ -18929,7 +18929,7 @@
 79	(	(	PUNCT	_	_	80	punct	_	SpaceAfter=No
 80	1986	1986	NUM	_	_	75	mod	_	SpaceAfter=No
 81	)	)	PUNCT	_	_	80	punct	_	SpaceAfter=No
-82	)	)	PUNCT	_	_	65	punct	_	SpaceAfter=No
+82	)	)	PUNCT	_	Shared=Yes	75	punct	_	SpaceAfter=No
 83	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00679
@@ -19150,7 +19150,7 @@
 17	chancelière	chancelier	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	Angela	Angela	PROPN	_	_	17	appos	_	_
 19	Merkel	Merkel	PROPN	_	_	18	flat@name	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	7	punct	_	_
+20	,	,	PUNCT	_	_	11	punct	_	_
 21	obtient	obtenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	indice	indice	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
@@ -25425,7 +25425,7 @@
 7	hausse	hausse	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
 9	derniers	dernier	ADJ	_	Gender=Masc|Number=Plur	10	mod	_	_
-10	jours	jour	NOUN	_	Gender=Masc|Number=Plur	2	mod	_	SpaceAfter=No
+10	jours	jour	NOUN	_	Gender=Masc|Number=Plur	6	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
@@ -33419,7 +33419,7 @@
 24	toujours	toujours	ADV	_	_	26	mod	_	_
 25	plus	plus	ADV	_	_	26	mod	_	_
 26	élevée	élever	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@tense	_	_
-27	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 28	jusqu'	jusque	ADP	_	_	23	mod	_	SpaceAfter=No
 29	à	à	ADP	_	_	28	comp:obj	_	_
 30	11	11	NUM	_	_	31	det	_	SpaceAfter=No
@@ -33429,7 +33429,7 @@
 34	en	en	ADP	_	_	31	udep	_	_
 35	mai	mai	NOUN	_	Gender=Masc|Number=Sing	34	comp:obj	_	_
 36	2005	2005	NUM	_	_	35	mod	_	SpaceAfter=No
-37	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = fr-ud-dev_01211
@@ -40578,7 +40578,7 @@
 7	:	:	PUNCT	_	_	9	punct	_	_
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj@expl	_	_
 9	suffit	suffire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-10	de	de	ADP	_	_	9	comp:obj	_	_
+10	de	de	ADP	_	_	9	comp:obj@agent	_	_
 11	répondre	répondre	VERB	_	VerbForm=Inf	10	comp:obj	_	_
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	un	un	PRON	_	Gender=Masc|Number=Sing	12	comp:obj	_	_

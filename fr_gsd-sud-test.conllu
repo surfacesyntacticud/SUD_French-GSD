@@ -139,14 +139,14 @@
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	OSCE	OSCE	PROPN	_	_	10	appos	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	20	punct	_	_
-22	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	jusqu'	jusque	ADP	_	_	6	udep	_	SpaceAfter=No
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	23	comp:obj	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	31	31	NUM	_	_	24	comp:obj	_	_
 27	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	26	mod	_	SpaceAfter=No
-28	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	avant	avant	ADP	_	_	3	udep	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
@@ -1497,7 +1497,7 @@
 6	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
 7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	_	7	mod	_	_
-9	comme	comme	SCONJ	_	_	7	comp:obj	_	_
+9	comme	comme	SCONJ	_	_	7	comp:pred	_	_
 10	aujourd'hui	aujourd'hui	ADV	_	_	9	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -3770,7 +3770,7 @@
 41	meetings	meeting	NOUN	_	Gender=Masc|Number=Plur	39	comp:obj	_	_
 42	traditionnels	traditionnel	ADJ	_	Gender=Masc|Number=Plur	41	mod	_	SpaceAfter=No
 43	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-44	,	,	PUNCT	_	_	22	punct	_	_
+44	,	,	PUNCT	_	_	5	punct	_	_
 45	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 46	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	45	udep	_	_
 47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
@@ -5339,7 +5339,7 @@
 19	risque	risque	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	souverain	souverain	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	SpaceAfter=No
 21	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	17	punct	_	_
+22	,	,	PUNCT	_	_	3	punct	_	_
 23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	Nuria	Nuria	PROPN	_	_	23	subj	_	_
 25	Alvarez	Alvarez	PROPN	_	_	24	flat@name	_	SpaceAfter=No
@@ -6177,7 +6177,7 @@
 17	ne	ne	ADV	_	Polarity=Neg	18	mod	_	_
 18	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
 19	plus	plus	ADV	_	Polarity=Neg	18	mod	_	_
-20	à	à	ADP	_	_	18	comp:obl	_	_
+20	à	à	ADP	_	_	18	comp:pred	_	_
 21	prouver	prouver	VERB	_	VerbForm=Inf	20	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -6844,7 +6844,7 @@
 31	pour	pour	ADP	_	_	29	mod	_	_
 32	'	'	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	bullshitter	bullshitter	VERB	_	VerbForm=Inf	31	comp:obj	_	SpaceAfter=No
-34	'	'	PUNCT	_	_	31	punct	_	SpaceAfter=No
+34	'	'	PUNCT	_	_	33	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00241
