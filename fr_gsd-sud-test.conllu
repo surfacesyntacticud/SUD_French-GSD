@@ -2733,8 +2733,8 @@
 4	général	général	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	mobilisation	mobilisation	NOUN	_	Gender=Fem|Number=Sing	8	subj	_	_
-8	inédite	inédit	ADJ	_	Gender=Fem|Number=Sing	3	parataxis	_	SpaceAfter=No
+7	mobilisation	mobilisation	NOUN	_	Gender=Fem|Number=Sing	8	orphan	_	_
+8	inédite	inédit	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00092
@@ -4378,9 +4378,9 @@
 1	Qu'	que	PRON	_	PronType=Int	2	comp:pred	_	SpaceAfter=No|wordform=qu'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
-4	que	que	PRON	_	PronType=Rel	2	comp:cleft	_	_
+4	que	que	SCONJ	_	_	2	dislocated	_	_
 5	1.000	1.000	NUM	_	_	6	det	_	_
-6	emplois	emploi	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
+6	emplois	emploi	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 7	quand	quand	SCONJ	_	_	2	mod	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	10	subj	_	_
 9	en	en	PRON	_	Person=3	10	comp:obj	_	_
@@ -5265,7 +5265,7 @@
 21	espoir	espoir	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	19	udep	_	_
 23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	que	que	SCONJ	_	_	19	comp:obj	_	_
+24	que	que	SCONJ	_	_	21	mod	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	raison	raison	NOUN	_	Gender=Fem|Number=Sing	27	subj	_	_
 27	finira	finir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	comp:obj	_	_
@@ -6509,7 +6509,7 @@
 2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	10	10	NUM	_	_	4	det	_	_
 4	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
-5	que	que	SCONJ	_	_	2	comp:obj	_	_
+5	que	que	SCONJ	_	_	2	dislocated	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 7	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 8	du	du	DET	_	Gender=Masc|Number=Sing	9	det	_	_
@@ -10641,7 +10641,7 @@
 31	soutient	soutenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	thèse	thèse	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
-34	que	que	SCONJ	_	_	31	comp:obj	_	_
+34	que	que	SCONJ	_	_	33	mod	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	christianisme	christianisme	NOUN	_	Gender=Masc|Number=Sing	37	subj	_	_
 37	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	comp:obj	_	_
