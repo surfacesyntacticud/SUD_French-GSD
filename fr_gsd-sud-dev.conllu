@@ -1643,7 +1643,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	HD	HD	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
-14	Saint	saint	PROPN	_	_	13	comp:obj	_	_
+14	Saint	Saint	PROPN	_	_	13	comp:obj	_	_
 15	Michel	Michel	PROPN	_	_	14	flat@name	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
