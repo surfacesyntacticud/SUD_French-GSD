@@ -54,7 +54,7 @@
 # text = « Il a été largement démontré que la population civile du territoire non autonome du Sahara occidental est l'objet de diverses atteintes aux droits humains, comme la détention arbitraire, les coups et les tortures », écrit l'ONG internationale, implantée dans 35 pays, citée par l'agence de presse sahraouie.
 1	«	«	PUNCT	_	_	3	punct	_	_
 2	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=il
-3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	comp:obj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	largement	largement	ADV	_	_	6	mod	_	_
 6	démontré	démontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
@@ -97,7 +97,7 @@
 40	tortures	torture	NOUN	_	Gender=Fem|Number=Plur	37	conj	_	_
 41	»	»	PUNCT	_	_	3	punct	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	3	punct	_	_
-43	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+43	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 44	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
 45	ONG	ONG	NOUN	_	Gender=Fem|Number=Sing	43	subj	_	_
 46	internationale	international	ADJ	_	Gender=Fem|Number=Sing	45	mod	_	SpaceAfter=No
@@ -114,7 +114,7 @@
 57	de	de	ADP	_	_	56	udep	_	_
 58	presse	presse	NOUN	_	Gender=Fem|Number=Sing	57	comp:obj	_	_
 59	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing	58	mod	_	SpaceAfter=No
-60	.	.	PUNCT	_	_	43	punct	_	_
+60	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00004
 # text = 1er : début de la présidence lituanienne de l'Organisation pour la Sécurité et la Coopération en Europe (OSCE) (jusqu'au 31 décembre), avant l'Irlande (2012) et l'Ukraine (2013).
@@ -3730,7 +3730,7 @@
 2	élection	élection	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
 3	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	n'	ne	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	comp:obj	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	seulement	seulement	ADV	_	_	6	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -3771,7 +3771,7 @@
 42	traditionnels	traditionnel	ADJ	_	Gender=Masc|Number=Plur	41	mod	_	SpaceAfter=No
 43	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	5	punct	_	_
-45	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+45	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 46	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	45	udep	_	_
 47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	Straits	Straits	PROPN	_	_	45	subj	_	_
@@ -3791,7 +3791,7 @@
 60	à	à	ADP	_	_	59	comp:obl	_	_
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
 62	PAP	PAP	PROPN	_	_	60	comp:obj	_	SpaceAfter=No
-63	.	.	PUNCT	_	_	45	punct	_	_
+63	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00125
 # text = Odeurs, saveurs, couleurs... tout se mélange pour le plus grand plaisir des gourmands et amateurs de produits de qualité.
@@ -5319,7 +5319,7 @@
 # text = "C'est la panique totale sur le marché, et la chute du cours suit le risque souverain", explique Nuria Alvarez, analyste chez Renta 4.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No|wordform=c'
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	panique	panique	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 6	totale	total	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
@@ -5340,7 +5340,7 @@
 20	souverain	souverain	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	SpaceAfter=No
 21	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	3	punct	_	_
-23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 24	Nuria	Nuria	PROPN	_	_	23	subj	_	_
 25	Alvarez	Alvarez	PROPN	_	_	24	flat@name	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
@@ -5348,7 +5348,7 @@
 28	chez	chez	ADP	_	_	27	udep	_	_
 29	Renta	Renta	PROPN	_	_	28	comp:obj	_	_
 30	4	4	PROPN	_	_	29	flat@name	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	23	punct	_	_
+31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00178
 # text = Quel est le coût d'un tel projet ?
@@ -10578,7 +10578,7 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	Intérieur	Intérieur	PROPN	_	_	4	comp:obj	_	_
-7	affirme	affirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	_
+7	affirme	affirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	que	que	SCONJ	_	_	7	comp:obj	_	_
 9	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	mesures	mesure	NOUN	_	Gender=Fem|Number=Plur	12	subj@pass	_	_
@@ -10600,10 +10600,10 @@
 26	loi	loi	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 27	»	»	PUNCT	_	_	7	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	7	punct	_	_
-29	indique	indiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	indique	indiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	communiqué	communiqué	NOUN	_	Gender=Masc|Number=Sing	29	subj	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	29	punct	_	_
+32	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_01567
 # text = Le récit dans lequel John explique certaines des transformations que subit son enseignement en tant que Jésus fait référence à L'Antéchrist de Nietzsche, dans lequel le philosophe soutient la thèse que le christianisme était en fait à l'origine un mouvement similaire au bouddhisme et que le christ n'enseignait rien à propos de l'au-delà et de Dieu, mais parlait simplement du bien réalisable en ce monde.

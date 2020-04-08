@@ -10698,7 +10698,7 @@
 # text = Ces services permettent aux employés de se sentir plus concernés par leur travail et donc plus productifs " explique Raphael Gruman de la société Dietatwork.
 1	Ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	wordform=ces
 2	services	service	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
-3	permettent	permettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
+3	permettent	permettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	aux	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -10716,14 +10716,14 @@
 17	plus	plus	ADV	_	_	18	mod	_	_
 18	productifs	productif	ADJ	_	Gender=Masc|Number=Plur	11	conj	_	_
 19	"	"	PUNCT	_	_	3	punct	_	_
-20	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 21	Raphael	Raphael	PROPN	_	_	20	subj	_	_
 22	Gruman	Gruman	PROPN	_	_	21	flat@name	_	_
 23	de	de	ADP	_	_	21	udep	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	société	société	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 26	Dietatwork	Dietatwork	PROPN	_	_	25	appos	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	20	punct	_	_
+27	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00388
 # text = Dans ce mode, le joueur peut alterner en tout temps entre X et Zero.
