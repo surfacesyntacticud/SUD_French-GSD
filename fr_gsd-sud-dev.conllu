@@ -22167,7 +22167,7 @@
 27	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	dont	dont	PRON	_	PronType=Rel	30	mod	_	_
-30	neuf	neuf	NUM	_	_	6	appos	_	_
+30	neuf	neuf	NUM	_	_	6	mod@relcl	_	_
 31	sorties	sortir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	30	mod	_	_
 32	en	en	ADP	_	_	31	udep	_	_
 33	singles	single	NOUN	_	Gender=Masc|Number=Plur	32	comp:obj	_	_
