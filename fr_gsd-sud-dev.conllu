@@ -33891,12 +33891,12 @@
 11	s'	se	PRON	_	Person=3|PronType=Prs	12	comp@fixed	_	SpaceAfter=No
 12	étonner	étonner	VERB	_	VerbForm=Inf	9	comp:obj	_	_
 13	que	que	SCONJ	_	_	12	comp:obj	_	_
-14	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	subj	_	_
+14	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	subj@expl	_	_
 15	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	anglo-saxons	anglo-saxon	NOUN	_	Gender=Masc|Number=Plur	15	comp:pred	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
-19	gagnent	gagner	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	_
+19	gagnent	gagner	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	comp:cleft	_	_
 20	»	»	PUNCT	_	_	9	punct	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	9	punct	_	_
 
