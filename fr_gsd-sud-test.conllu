@@ -1287,7 +1287,7 @@
 27	pas	pas	ADV	_	Polarity=Neg	26	mod	_	_
 28	si	si	ADV	_	_	29	mod	_	_
 29	brillant	brillant	ADJ	_	Gender=Masc|Number=Sing	26	comp:pred	_	_
-30	que	que	SCONJ	_	_	26	mod	_	_
+30	que	que	SCONJ	_	_	29	mod	_	_
 31	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -5466,7 +5466,7 @@
 11	peu	peu	ADV	_	_	10	unk@fixed	_	_
 12	moins	moins	ADV	_	_	13	mod	_	_
 13	mortelle	mortel	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
-14	que	que	SCONJ	_	_	8	mod	_	_
+14	que	que	SCONJ	_	_	13	mod	_	_
 15	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 16	pires	pire	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
 17	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
@@ -7301,7 +7301,7 @@
 4	beaucoup	beaucoup	ADV	_	_	5	mod	_	_
 5	plus	plus	ADV	_	_	6	mod	_	_
 6	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
-7	que	que	SCONJ	_	_	3	mod	_	_
+7	que	que	SCONJ	_	_	6	mod	_	_
 8	dans	dans	ADP	_	_	7	comp:obj	_	_
 9	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	11	det	_	SpaceAfter=No
 10	autres	autre	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
