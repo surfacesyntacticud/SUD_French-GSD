@@ -6368,7 +6368,7 @@
 15	kg	kg	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
 16	de	de	ADP	_	_	15	mod	_	_
 17	moins	moins	ADV	_	_	16	comp:obj	_	_
-18	que	que	SCONJ	_	_	16	mod	_	_
+18	que	que	SCONJ	_	_	17	mod	_	_
 19	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	comp:obj	_	_
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	19	udep	_	_
@@ -10698,7 +10698,7 @@
 # text = Ces services permettent aux employés de se sentir plus concernés par leur travail et donc plus productifs " explique Raphael Gruman de la société Dietatwork.
 1	Ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	wordform=ces
 2	services	service	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
-3	permettent	permettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
+3	permettent	permettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	aux	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -10716,14 +10716,14 @@
 17	plus	plus	ADV	_	_	18	mod	_	_
 18	productifs	productif	ADJ	_	Gender=Masc|Number=Plur	11	conj	_	_
 19	"	"	PUNCT	_	_	3	punct	_	_
-20	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 21	Raphael	Raphael	PROPN	_	_	20	subj	_	_
 22	Gruman	Gruman	PROPN	_	_	21	flat@name	_	_
 23	de	de	ADP	_	_	21	udep	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	société	société	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 26	Dietatwork	Dietatwork	PROPN	_	_	25	appos	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	20	punct	_	_
+27	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00388
 # text = Dans ce mode, le joueur peut alterner en tout temps entre X et Zero.
@@ -11647,7 +11647,7 @@
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	aussi	aussi	ADV	_	_	6	mod	_	_
 6	anxieux	anxieux	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
-7	qu'	que	SCONJ	_	_	3	mod	_	SpaceAfter=No
+7	qu'	que	SCONJ	_	_	6	mod	_	SpaceAfter=No
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
 9	y	y	PRON	_	_	10	comp@fixed	_	_
 10	paraît	paraître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	SpaceAfter=No
@@ -16940,7 +16940,7 @@
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	23	subj	_	_
 23	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
-24	pour	pour	ADP	_	_	23	udep	_	_
+24	pour	pour	ADP	_	_	23	comp:obl	_	_
 25	auteurs	auteur	NOUN	_	Gender=Masc|Number=Plur	24	comp:obj	_	_
 26	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	28	det	_	_
 27	propres	propre	ADJ	_	Gender=Masc|Number=Plur	28	mod	_	_
@@ -19091,7 +19091,7 @@
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	autre	autre	ADJ	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
-10	que	que	SCONJ	_	_	8	mod	_	_
+10	que	que	SCONJ	_	_	9	mod	_	_
 11	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
 12	longueur	longueur	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	comme	comme	ADP	_	_	12	udep	_	_
@@ -22167,7 +22167,7 @@
 27	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	dont	dont	PRON	_	PronType=Rel	30	mod	_	_
-30	neuf	neuf	NUM	_	_	6	appos	_	_
+30	neuf	neuf	NUM	_	_	6	mod@relcl	_	_
 31	sorties	sortir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	30	mod	_	_
 32	en	en	ADP	_	_	31	udep	_	_
 33	singles	single	NOUN	_	Gender=Masc|Number=Plur	32	comp:obj	_	_
@@ -24583,7 +24583,7 @@
 19	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 20	plus	plus	ADV	_	_	21	mod	_	_
 21	considérables	considérable	ADJ	_	Gender=Masc|Number=Plur	19	comp:pred	_	_
-22	qu'	que	SCONJ	_	_	19	mod	_	SpaceAfter=No
+22	qu'	que	SCONJ	_	_	21	mod	_	SpaceAfter=No
 23	aujourd'hui	aujourd'hui	ADV	_	_	22	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -28721,7 +28721,7 @@
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 14	Armée	armée	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	wordform=armée
 15	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	12	mod	_	_
-16	pour	pour	ADP	_	_	15	udep	_	_
+16	pour	pour	ADP	_	_	15	comp:obl	_	_
 17	commandant	commandant	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	en	en	ADP	_	_	17	udep	_	_
 19	chef	chef	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
@@ -30426,7 +30426,7 @@
 4	fois	fois	NOUN	_	Gender=Fem|Number=Plur	5	mod	_	_
 5	plus	plus	ADV	_	_	6	mod	_	_
 6	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	2	comp:pred	_	_
-7	que	que	SCONJ	_	_	2	mod	_	_
+7	que	que	SCONJ	_	_	6	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	tâche	tâche	NOUN	_	Gender=Fem|Number=Sing	11	subj	_	_
 10	ne	ne	ADV	_	Polarity=Neg	11	mod	_	_
@@ -32470,7 +32470,7 @@
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 14	plus	plus	ADV	_	_	15	mod	_	_
 15	important	important	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
-16	qu'	que	SCONJ	_	_	12	mod	_	SpaceAfter=No
+16	qu'	que	SCONJ	_	_	15	mod	_	SpaceAfter=No
 17	un	un	PRON	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	18	comp:obj	_	SpaceAfter=No
@@ -33263,7 +33263,7 @@
 4	cependant	cependant	ADV	_	_	6	mod	_	_
 5	plus	plus	ADV	_	_	6	mod	_	_
 6	faibles	faible	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
-7	qu'	que	SCONJ	_	_	3	mod	_	SpaceAfter=No
+7	qu'	que	SCONJ	_	_	6	mod	_	SpaceAfter=No
 8	en	en	ADP	_	_	7	comp:obj	_	_
 9	2002	2002	NUM	_	_	8	comp:obj	_	_
 10	face	face	ADV	_	_	3	mod	_	_
@@ -35085,9 +35085,9 @@
 68	,	,	PUNCT	_	_	70	punct	_	_
 69	mais	mais	CCONJ	_	_	70	cc	_	_
 70	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	59	conj	_	_
-71	pour	pour	ADP	_	_	70	udep	_	_
+71	pour	pour	ADP	_	_	70	comp:obl	_	_
 72	résultat	résultat	NOUN	_	Gender=Masc|Number=Sing	71	comp:obj	_	_
-73	de	de	ADP	_	_	72	udep	_	_
+73	de	de	ADP	_	_	70	comp:obj	_	_
 74	libérer	libérer	VERB	_	VerbForm=Inf	73	comp:obj	_	_
 75	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	76	det	_	_
 76	terres	terre	NOUN	_	Gender=Fem|Number=Plur	74	comp:obj	_	_
@@ -35200,7 +35200,7 @@
 9	à	à	ADP	_	_	3	mod	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	base	base	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	que	que	SCONJ	_	_	3	mod	_	_
+12	que	que	SCONJ	_	_	8	mod	_	_
 13	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	12	comp:obj	_	_
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	udep	_	_

@@ -9,7 +9,7 @@
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	films	film	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
-10	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
+10	médecins	médecin	NOUN	_	Gender=Masc|umber=Plur	9	comp:obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	scientifiques	scientifique	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 13	fous	fou	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	_
@@ -54,7 +54,7 @@
 # text = « Il a été largement démontré que la population civile du territoire non autonome du Sahara occidental est l'objet de diverses atteintes aux droits humains, comme la détention arbitraire, les coups et les tortures », écrit l'ONG internationale, implantée dans 35 pays, citée par l'agence de presse sahraouie.
 1	«	«	PUNCT	_	_	3	punct	_	_
 2	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=il
-3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	comp:obj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	largement	largement	ADV	_	_	6	mod	_	_
 6	démontré	démontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
@@ -97,7 +97,7 @@
 40	tortures	torture	NOUN	_	Gender=Fem|Number=Plur	37	conj	_	_
 41	»	»	PUNCT	_	_	3	punct	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	3	punct	_	_
-43	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+43	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 44	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
 45	ONG	ONG	NOUN	_	Gender=Fem|Number=Sing	43	subj	_	_
 46	internationale	international	ADJ	_	Gender=Fem|Number=Sing	45	mod	_	SpaceAfter=No
@@ -114,7 +114,7 @@
 57	de	de	ADP	_	_	56	udep	_	_
 58	presse	presse	NOUN	_	Gender=Fem|Number=Sing	57	comp:obj	_	_
 59	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing	58	mod	_	SpaceAfter=No
-60	.	.	PUNCT	_	_	43	punct	_	_
+60	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00004
 # text = 1er : début de la présidence lituanienne de l'Organisation pour la Sécurité et la Coopération en Europe (OSCE) (jusqu'au 31 décembre), avant l'Irlande (2012) et l'Ukraine (2013).
@@ -1287,7 +1287,7 @@
 27	pas	pas	ADV	_	Polarity=Neg	26	mod	_	_
 28	si	si	ADV	_	_	29	mod	_	_
 29	brillant	brillant	ADJ	_	Gender=Masc|Number=Sing	26	comp:pred	_	_
-30	que	que	SCONJ	_	_	26	mod	_	_
+30	que	que	SCONJ	_	_	29	mod	_	_
 31	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -3730,7 +3730,7 @@
 2	élection	élection	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
 3	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	n'	ne	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	comp:obj	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	seulement	seulement	ADV	_	_	6	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -3771,7 +3771,7 @@
 42	traditionnels	traditionnel	ADJ	_	Gender=Masc|Number=Plur	41	mod	_	SpaceAfter=No
 43	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	5	punct	_	_
-45	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+45	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 46	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	45	udep	_	_
 47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	Straits	Straits	PROPN	_	_	45	subj	_	_
@@ -3791,7 +3791,7 @@
 60	à	à	ADP	_	_	59	comp:obl	_	_
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
 62	PAP	PAP	PROPN	_	_	60	comp:obj	_	SpaceAfter=No
-63	.	.	PUNCT	_	_	45	punct	_	_
+63	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00125
 # text = Odeurs, saveurs, couleurs... tout se mélange pour le plus grand plaisir des gourmands et amateurs de produits de qualité.
@@ -5263,7 +5263,7 @@
 19	émis	émettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	espoir	espoir	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
-22	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	19	udep	_	_
+22	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	18	udep	_	_
 23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	que	que	SCONJ	_	_	21	mod	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -5319,7 +5319,7 @@
 # text = "C'est la panique totale sur le marché, et la chute du cours suit le risque souverain", explique Nuria Alvarez, analyste chez Renta 4.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No|wordform=c'
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	panique	panique	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 6	totale	total	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
@@ -5340,7 +5340,7 @@
 20	souverain	souverain	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	SpaceAfter=No
 21	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	3	punct	_	_
-23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 24	Nuria	Nuria	PROPN	_	_	23	subj	_	_
 25	Alvarez	Alvarez	PROPN	_	_	24	flat@name	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
@@ -5348,7 +5348,7 @@
 28	chez	chez	ADP	_	_	27	udep	_	_
 29	Renta	Renta	PROPN	_	_	28	comp:obj	_	_
 30	4	4	PROPN	_	_	29	flat@name	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	23	punct	_	_
+31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00178
 # text = Quel est le coût d'un tel projet ?
@@ -5466,7 +5466,7 @@
 11	peu	peu	ADV	_	_	10	unk@fixed	_	_
 12	moins	moins	ADV	_	_	13	mod	_	_
 13	mortelle	mortel	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
-14	que	que	SCONJ	_	_	8	mod	_	_
+14	que	que	SCONJ	_	_	13	mod	_	_
 15	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 16	pires	pire	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
 17	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
@@ -7301,7 +7301,7 @@
 4	beaucoup	beaucoup	ADV	_	_	5	mod	_	_
 5	plus	plus	ADV	_	_	6	mod	_	_
 6	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
-7	que	que	SCONJ	_	_	3	mod	_	_
+7	que	que	SCONJ	_	_	6	mod	_	_
 8	dans	dans	ADP	_	_	7	comp:obj	_	_
 9	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	11	det	_	SpaceAfter=No
 10	autres	autre	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
@@ -7634,7 +7634,7 @@
 15	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj@pass	_	SpaceAfter=No
 16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
 17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
-18	ainsi	ainsi	ADV	_	_	22	mod	_	EXTPOS=ADP|Type=MWE
+18	ainsi	ainsi	ADV	_	_	16	mod	_	EXTPOS=ADP|Type=MWE
 19	que	que	SCONJ	_	_	18	unk@fixed	_	_
 20	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_
 21	ami	ami	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
@@ -9086,9 +9086,9 @@
 6	trois	trois	NUM	_	_	7	det	_	_
 7	points	point	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	pour	pour	ADP	_	_	8	udep	_	_
+9	pour	pour	ADP	_	_	8	comp:obl	_	_
 10	effet	effet	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-11	de	de	ADP	_	_	10	udep	_	_
+11	de	de	ADP	_	_	8	comp:obj	_	_
 12	diminuer	diminuer	VERB	_	VerbForm=Inf	11	comp:obj	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	emprise	emprise	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
@@ -9361,7 +9361,7 @@
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	principalement	principalement	ADV	_	_	40	mod	_	_
 40-41	au	_	_	_	_	_	_	_	_
-40	à	à	ADP	_	_	31	mod	_	EXTPOS=ADV|Type=MWE
+40	à	à	ADP	_	_	32	mod	_	EXTPOS=ADV|Type=MWE
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det@fixed	_	_
 42	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj@fixed	_	_
 43-44	du	_	_	_	_	_	_	_	_
@@ -10164,7 +10164,7 @@
 17	par	par	ADP	_	_	16	orphan	_	_
 18	41,7	41,7	NUM	_	_	19	det	_	SpaceAfter=No
 19	%	%	SYM	_	_	17	comp:obj	_	EXTPOS=NOUN|Type=Trans
-20	alors	alors	ADV	_	_	3	mod	_	EXTPOS=SCONJ|Type=MWE
+20	alors	alors	ADV	_	Shared=Yes	16	mod	_	EXTPOS=SCONJ|Type=MWE
 21	que	que	SCONJ	_	_	20	unk@fixed	_	_
 22	2,3	2,3	NUM	_	_	23	det	_	SpaceAfter=No
 23	%	%	SYM	_	_	27	subj	_	EXTPOS=NOUN|Type=Trans
@@ -10578,7 +10578,7 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	Intérieur	Intérieur	PROPN	_	_	4	comp:obj	_	_
-7	affirme	affirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	_
+7	affirme	affirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	que	que	SCONJ	_	_	7	comp:obj	_	_
 9	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	mesures	mesure	NOUN	_	Gender=Fem|Number=Plur	12	subj@pass	_	_
@@ -10600,10 +10600,10 @@
 26	loi	loi	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 27	»	»	PUNCT	_	_	7	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	7	punct	_	_
-29	indique	indiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	indique	indiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	communiqué	communiqué	NOUN	_	Gender=Masc|Number=Sing	29	subj	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	29	punct	_	_
+32	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_01567
 # text = Le récit dans lequel John explique certaines des transformations que subit son enseignement en tant que Jésus fait référence à L'Antéchrist de Nietzsche, dans lequel le philosophe soutient la thèse que le christianisme était en fait à l'origine un mouvement similaire au bouddhisme et que le christ n'enseignait rien à propos de l'au-delà et de Dieu, mais parlait simplement du bien réalisable en ce monde.
