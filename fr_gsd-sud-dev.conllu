@@ -13253,7 +13253,7 @@
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
 1	Pas	pas	ADV	_	Polarity=Neg	0	root	_	wordform=pas
 2	de	de	ADP	_	_	1	comp:obl	_	_
-3	sèche	sécher	VERB	_	_	2	comp:obj	_	EXTPOS=NOUN|Type=MWE|wordform=sèche-cheveux
+3	sèche	sécher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	EXTPOS=NOUN|Type=MWE|wordform=sèche-cheveux
 4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	wordform=_
 5	ni	ni	CCONJ	_	_	7	cc	_	_
 6	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -22698,7 +22698,7 @@
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
-20	remis	remettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Fin	6	mod@relcl	_	_
+20	remis	remettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	mod@relcl	_	wordform=remit
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
