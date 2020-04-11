@@ -9,7 +9,7 @@
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	films	film	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
-10	médecins	médecin	NOUN	_	Gender=Masc|umber=Plur	9	comp:obj	_	_
+10	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	scientifiques	scientifique	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 13	fous	fou	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	_
