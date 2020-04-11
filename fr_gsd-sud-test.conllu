@@ -6519,8 +6519,8 @@
 12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	subj@expl	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-15	1ère	1ère	NUM	_	_	16	det	_	_
-16	fois	fois	NOUN	_	Gender=Masc|Number=Plur	13	comp:pred	_	_
+15	1ère	1ère	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
+16	fois	fois	NOUN	_	Gender=Masc|Number=Sing	13	comp:pred	_	_
 17	que	que	SCONJ	_	_	13	comp:cleft	_	_
 18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	_
 19	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
@@ -8856,7 +8856,7 @@
 6	probable	probable	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	Premier	Premier	NUM	_	_	10	det	_	wordform=premier
+9	Premier	premier	ADJ	Gender=Masc|Number=Sing	_	10	mod	_	wordform=premier
 10	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
 11	grec	grec	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
 12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
