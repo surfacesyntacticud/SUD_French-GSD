@@ -1169,7 +1169,7 @@
 5	que	que	ADV	_	_	6	mod	_	_
 6	durant	durant	ADP	_	_	3	udep	_	_
 7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-8	10	10	NUM	_	_	10	det	_	_
+8	10	10	NUM	_	_	10	mod	_	_
 9	premières	premier	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	_
 10	parties	partie	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
@@ -1509,7 +1509,7 @@
 40-41	des	_	_	_	_	_	_	_	_
 40	de	de	ADP	_	_	37	udep	_	_
 41	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
-42	deux	deux	NUM	_	_	43	det	_	_
+42	deux	deux	NUM	_	_	43	mod	_	_
 43	héros	héros	NOUN	_	Gender=Masc|Number=Plur	40	comp:obj	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -2843,7 +2843,7 @@
 # sent_id = fr-ud-dev_00103
 # text = Les six suites pour violoncelle seul de Johann Sebastian Bach (BWV 1007 à 1012) sont considérées comme les classiques incontournables du répertoire de cet instrument.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	wordform=les
-2	six	six	NUM	_	_	3	det	_	_
+2	six	six	NUM	_	_	3	mod	_	_
 3	suites	suite	NOUN	_	Gender=Fem|Number=Plur	17	subj	_	_
 4	pour	pour	ADP	_	_	3	udep	_	_
 5	violoncelle	violoncelle	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
@@ -5430,7 +5430,7 @@
 16	Janov	Janov	PROPN	_	_	15	subj	_	_
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 18	«	«	PUNCT	_	_	20	punct	_	_
-19	trois	trois	NUM	_	_	20	det	_	_
+19	trois	trois	NUM	_	_	20	mod	_	_
 20	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur	15	comp:pred	_	_
 21	»	»	PUNCT	_	_	20	punct	_	_
 22	nécessaires	nécessaire	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
@@ -6862,7 +6862,7 @@
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	22	comp:obl	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-25	24	24	NUM	_	_	26	det	_	_
+25	24	24	NUM	_	_	26	mod	_	_
 26	rue	rue	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	26	udep	_	_
@@ -7010,7 +7010,7 @@
 8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	wordform=les
-11	Cent	cent	NUM	_	_	12	det	_	wordform=cent
+11	Cent	cent	NUM	_	_	12	mod	_	wordform=cent
 12	Arpents	arpent	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	wordform=arpents
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	ferme	ferme	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
@@ -7459,7 +7459,7 @@
 # sent_id = fr-ud-dev_00266
 # text = Les quatorze meilleurs clubs tunisiens jouent les uns contre les autres à deux reprises durant la saison, à domicile et à l'extérieur.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	wordform=les
-2	quatorze	quatorze	NUM	_	_	4	det	_	_
+2	quatorze	quatorze	NUM	_	_	4	mod	_	_
 3	meilleurs	meilleur	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	_
 4	clubs	club	NOUN	_	Gender=Masc|Number=Plur	6	subj	_	_
 5	tunisiens	tunisien	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	_
@@ -8379,7 +8379,7 @@
 7	de	de	ADP	_	_	6	comp:obj@x	_	_
 8	commenter	commenter	VERB	_	VerbForm=Inf	7	comp:obj	_	_
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-10	quatre	quatre	NUM	_	_	12	det	_	_
+10	quatre	quatre	NUM	_	_	12	mod	_	_
 11	premières	premier	ADJ	_	Gender=Fem|Number=Plur	12	mod	_	_
 12	Journées	journée	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	SpaceAfter=No|wordform=journées
 13	.	.	PUNCT	_	_	5	punct	_	_
@@ -8449,7 +8449,7 @@
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
-12	deux	deux	NUM	_	_	13	det	_	_
+12	deux	deux	NUM	_	_	13	mod	_	_
 13	parties	partie	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -8667,7 +8667,7 @@
 # sent_id = fr-ud-dev_00312
 # text = Les deux scientifiques sont conscients de l'importance des guérisons obtenues, mais ont un préjugé défavorable, facilement compréhensible, vis-à-vis de l'appareillage que Priore leur décrit confusément dans son mauvais français.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	wordform=les
-2	deux	deux	NUM	_	_	3	det	_	_
+2	deux	deux	NUM	_	_	3	mod	_	_
 3	scientifiques	scientifique	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	conscients	conscient	ADJ	_	Gender=Masc|Number=Plur	4	comp:pred	_	_
@@ -8842,7 +8842,7 @@
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-7	trois	trois	NUM	_	_	9	det	_	_
+7	trois	trois	NUM	_	_	9	mod	_	_
 8	grands	grand	ADJ	_	Gender=Masc|Number=Plur	9	mod	_	_
 9	types	type	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
@@ -9302,7 +9302,7 @@
 11	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det	_	_
 12	beaux-frères	beau-frère	NOUN	_	Gender=Masc|Number=Plur	14	subj	_	_
 13	ne	ne	ADV	_	Polarity=Neg	14	mod	_	_
-14	portèrent	porter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	mod	_	_
+14	portèrent	porter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	mod@relcl	_	_
 15	jusqu'	jusque	ADP	_	_	14	udep	_	SpaceAfter=No
 16	en	en	ADP	_	_	15	comp:obj	_	_
 17	1278	1278	NUM	_	_	16	comp:obj	_	_
@@ -9348,7 +9348,7 @@
 16	pour	pour	ADP	_	_	4	mod	_	_
 17	célébrer	célébrer	VERB	_	VerbForm=Inf	16	comp:obj	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
-19	200	200	NUM	_	_	20	det	_	_
+19	200	200	NUM	_	_	20	mod	_	_
 20	ans	an	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
 21	de	de	ADP	_	_	20	udep	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -11008,7 +11008,7 @@
 18	permettre	permettre	VERB	_	VerbForm=Inf	17	comp:obj@x	_	_
 19	à	à	ADP	_	_	18	comp:obl	_	_
 20	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	22	det	_	_
-21	deux	deux	NUM	_	_	22	det	_	_
+21	deux	deux	NUM	_	_	22	mod	_	_
 22	pays	pays	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
 23	de	de	ADP	_	_	18	comp:obj@x	_	_
 24	recouvrir	recouvrir	VERB	_	VerbForm=Inf	23	comp:obj	_	_
@@ -11241,7 +11241,7 @@
 2-3	des	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	udep	_	_
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-4	six	six	NUM	_	_	5	det	_	_
+4	six	six	NUM	_	_	5	mod	_	_
 5	jours	jour	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
@@ -11303,7 +11303,7 @@
 10	à	à	ADP	_	_	7	conj	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Palaos	Palaos	PROPN	_	_	10	comp:obj	_	SpaceAfter=No
-13	,	,	PUNCT	_	Shared=Yes	10	punct	_	_
+13	,	,	PUNCT	_	_	3	punct	_	_
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj@expl	_	_
 15	n'	ne	ADV	_	Polarity=Neg	16	mod	_	SpaceAfter=No
 16	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13011,7 +13011,7 @@
 # text = Mais les quatre hommes (Mark Hopkins, Collis P. Huntington, Leland Stanford et Charles Crocker) sont décidés à désenclaver leur région.
 1	Mais	mais	CCONJ	_	_	19	cc	_	wordform=mais
 2	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-3	quatre	quatre	NUM	_	_	4	det	_	_
+3	quatre	quatre	NUM	_	_	4	mod	_	_
 4	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	19	subj	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Mark	Mark	PROPN	_	_	4	appos	_	_
@@ -14687,7 +14687,7 @@
 43	pelvis	pelvis	NOUN	_	Gender=Masc|Number=Sing	41	comp:obj	_	_
 44	et	et	CCONJ	_	_	47	cc	_	_
 45	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
-46	quatre	quatre	NUM	_	_	47	det	_	_
+46	quatre	quatre	NUM	_	_	47	mod	_	_
 47	membres	membre	NOUN	_	Gender=Masc|Number=Plur	25	conj:emb	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	25	punct	_	_
 
@@ -15165,7 +15165,7 @@
 48	aussi	aussi	ADV	_	_	49	mod	_	_
 49	pour	pour	ADP	_	_	39	conj	_	_
 50	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
-51	deux	deux	NUM	_	_	53	det	_	_
+51	deux	deux	NUM	_	_	53	mod	_	_
 52	autres	autre	ADJ	_	Gender=Fem|Number=Plur	53	mod	_	_
 53	victimes	victime	NOUN	_	Gender=Fem|Number=Plur	49	comp:obj	_	_
 54	qui	qui	PRON	_	PronType=Rel	55	subj	_	_
@@ -18097,7 +18097,7 @@
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	armes	arme	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	qu'	que	SCONJ	_	_	5	mod	_	SpaceAfter=No
+9	qu'	que	SCONJ	_	_	3	mod	_	SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	comp:obj	_	_
 12	à	à	ADP	_	_	11	comp:obl@x	_	_
@@ -18691,7 +18691,7 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	voir	voire	SCONJ	_	Typo=Yes	11	cc	_	wordform=voire
-11	plus	plus	ADV	_	_	5	conj	_	SpaceAfter=No
+11	plus	plus	ADV	_	_	4	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00674
@@ -18889,7 +18889,7 @@
 40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
 41	2005	2005	NUM	_	_	34	mod	_	SpaceAfter=No
 42	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
-43	)	)	PUNCT	_	Shared=Yes	34	punct	_	_
+43	)	)	PUNCT	_	_	9	punct	_	_
 44	mais	mais	CCONJ	_	_	46	cc	_	_
 45	aussi	aussi	ADV	_	_	46	mod	_	_
 46	collectives	collectif	ADJ	_	Gender=Fem|Number=Plur	7	conj	_	_
@@ -18929,7 +18929,7 @@
 79	(	(	PUNCT	_	_	80	punct	_	SpaceAfter=No
 80	1986	1986	NUM	_	_	75	mod	_	SpaceAfter=No
 81	)	)	PUNCT	_	_	80	punct	_	SpaceAfter=No
-82	)	)	PUNCT	_	Shared=Yes	75	punct	_	SpaceAfter=No
+82	)	)	PUNCT	_	_	48	punct	_	SpaceAfter=No
 83	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00679
@@ -19310,7 +19310,7 @@
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
-7	trois	trois	NUM	_	_	8	det	_	_
+7	trois	trois	NUM	_	_	8	mod	_	_
 8	écoles	école	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 9	formation	formation	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
 10	de	de	ADP	_	_	9	udep	_	_
@@ -21138,7 +21138,7 @@
 # text = Pendant les 23 ans du régime de Ben Ali, l'Europe n'a pas appuyé une stabilité authentique mais a soutenu une dictature qui laisse en héritage un terrain politique vierge où les mauvaises herbes peuvent pousser.
 1	Pendant	pendant	ADP	_	_	15	mod	_	wordform=pendant
 2	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-3	23	23	NUM	_	_	4	det	_	_
+3	23	23	NUM	_	_	4	mod	_	_
 4	ans	an	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	_
@@ -21436,7 +21436,7 @@
 8	pour	pour	ADP	_	_	2	mod	_	_
 9	atteindre	atteindre	VERB	_	VerbForm=Inf	8	comp:obj	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-11	33	33	NUM	_	_	12	det	_	_
+11	33	33	NUM	_	_	12	mod	_	_
 12	mineurs	mineur	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -22156,7 +22156,7 @@
 17	trio	trio	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	durant	durant	ADP	_	_	7	udep	_	_
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
-20	deux	deux	NUM	_	_	22	det	_	_
+20	deux	deux	NUM	_	_	22	mod	_	_
 21	premières	premier	ADJ	_	Gender=Fem|Number=Plur	22	mod	_	_
 22	années	année	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	_
 23	d'	de	ADP	_	_	22	udep	_	SpaceAfter=No
@@ -22288,7 +22288,7 @@
 # sent_id = fr-ud-dev_00808
 # text = Ses deux fils, Ivo Lola et le peintre Jurica Ribar y ont grandi ;
 1	Ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det	_	wordform=ses
-2	deux	deux	NUM	_	_	3	det	_	_
+2	deux	deux	NUM	_	_	3	mod	_	_
 3	fils	fils	NOUN	_	Gender=Masc|Number=Plur	13	subj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	Ivo	Ivo	PROPN	_	_	3	appos	_	_
@@ -22576,7 +22576,7 @@
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
-21	3.600	3.600	NUM	_	_	22	det	_	_
+21	3.600	3.600	NUM	_	_	22	mod	_	_
 22	points	point	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	sur	sur	ADP	_	_	5	udep	_	_
@@ -22649,7 +22649,7 @@
 36	Repsol	Repsol	PROPN	_	_	37	subj	_	_
 37	conservera	conserver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	34	comp:obj	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	_
-39	60	60	NUM	_	_	40	det	_	SpaceAfter=No
+39	60	60	NUM	_	_	40	mod	_	SpaceAfter=No
 40	%	%	SYM	_	_	37	comp:obj	_	EXTPOS=NOUN|Type=Trans
 41	restants	restant	ADJ	_	Gender=Masc|Number=Plur	40	mod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	10	punct	_	_
@@ -22698,7 +22698,7 @@
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
-20	remis	remettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	mod@relcl	_	wordform=remit
+20	remis	remettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Fin	6	mod@relcl	_	wordform=remit
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -24189,7 +24189,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
-19	quatre	quatre	NUM	_	_	20	det	_	_
+19	quatre	quatre	NUM	_	_	20	mod	_	_
 20	sièges	siège	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	20	udep	_	_
@@ -25285,7 +25285,7 @@
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-17	50	50	NUM	_	_	18	det	_	SpaceAfter=No
+17	50	50	NUM	_	_	18	mod	_	SpaceAfter=No
 18	%	%	SYM	_	_	15	comp:obj	_	EXTPOS=NOUN|Type=Trans
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	18	udep	_	_
@@ -26383,7 +26383,7 @@
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-13	9	9	NUM	_	_	14	det	_	SpaceAfter=No
+13	9	9	NUM	_	_	14	mod	_	SpaceAfter=No
 14	°	°	SYM	_	_	11	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 15	C	C	NOUN	_	Gender=Masc|Number=Sing	14	mod	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
@@ -28736,7 +28736,7 @@
 # sent_id = fr-ud-dev_01033
 # text = Les deux équipes s'étaient cependant déjà rencontrées lors de matchs non officiels : le 5 mars 1870 (1-1 au, Kennington Oval à Londres), puis le 25 février 1871, le 18 novembre 1871 et le 24 février 1872.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	wordform=les
-2	deux	deux	NUM	_	_	3	det	_	_
+2	deux	deux	NUM	_	_	3	mod	_	_
 3	équipes	équipe	NOUN	_	Gender=Fem|Number=Plur	5	subj	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	8	comp:obj	_	SpaceAfter=No
 5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -28857,7 +28857,7 @@
 2	premier	premier	ADJ	_	Gender=Masc|Number=Sing	8	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
-5	vingt-neuf	vingt-neuf	NUM	_	_	7	det	_	_
+5	vingt-neuf	vingt-neuf	NUM	_	_	7	mod	_	_
 6	longs	long	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
 7	métrages	métrage	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 8	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -29136,7 +29136,7 @@
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-11	300	300	NUM	_	_	12	det	_	_
+11	300	300	NUM	_	_	12	mod	_	_
 12	cosignataires	cosignataire	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -29916,7 +29916,7 @@
 21	physicien	physicien	NOUN	_	Gender=Masc|Number=Sing	19	comp:pred	_	_
 22	français	français	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
+24	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	21	appos	_	_
 25	de	de	ADP	_	_	24	udep	_	_
 26	physique	physique	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 27	à	à	ADP	_	_	24	udep	_	_
@@ -31457,7 +31457,7 @@
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-7	trois	trois	NUM	_	_	8	det	_	_
+7	trois	trois	NUM	_	_	8	mod	_	_
 8	commandants	commandant	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
@@ -32674,7 +32674,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
-19	20	20	NUM	_	_	23	det	_	_
+19	20	20	NUM	_	_	23	mod	_	_
 20	6	6	NUM	_	_	19	conj	_	SpaceAfter=No
 21	/	/	SYM	_	_	20	udep	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 22	2	2	NUM	_	_	21	comp:obj	_	_
@@ -33233,7 +33233,7 @@
 # sent_id = fr-ud-dev_01205
 # text = Les six A380 de la compagnie australienne sont cloués au sol depuis l'accident du 4 novembre.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	wordform=les
-2	six	six	NUM	_	_	3	det	_	_
+2	six	six	NUM	_	_	3	mod	_	_
 3	A380	A380	PROPN	_	_	8	subj@pass	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -35336,7 +35336,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
-19	cent	cent	NUM	_	_	21	det	_	_
+19	cent	cent	NUM	_	_	21	mod	_	_
 20	meilleurs	meilleur	ADJ	_	Gender=Masc|Number=Plur	21	mod	_	_
 21	romans	roman	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
 22	policiers	policier	ADJ	_	Gender=Masc|Number=Plur	21	mod	_	_
@@ -36588,7 +36588,7 @@
 24-25	aux	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	23	comp:obl	_	_
 25	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
-26	deux	deux	NUM	_	_	27	det	_	_
+26	deux	deux	NUM	_	_	27	mod	_	_
 27	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	24	comp:obj	_	_
 28	inverses	inverse	ADJ	_	Gender=Fem|Number=Plur	27	mod	_	_
 29	pour	pour	ADP	_	_	27	udep	_	_
@@ -36947,7 +36947,7 @@
 31	débattre	débattre	VERB	_	VerbForm=Inf	29	comp:obj@x	_	_
 32	avec	avec	ADP	_	_	31	comp:obl	_	_
 33	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	35	det	_	_
-34	4	4	NUM	_	_	35	det	_	_
+34	4	4	NUM	_	_	35	mod	_	_
 35	vitres	vitre	NOUN	_	Gender=Fem|Number=Plur	32	comp:obj	_	_
 36	manuelles	manuel	ADJ	_	Gender=Fem|Number=Plur	35	mod	_	_
 37	et	et	CCONJ	_	_	40	cc	_	_
@@ -37235,20 +37235,20 @@
 2	souverain	souverain	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	comp@fixed	_	SpaceAfter=No
 4	emporte	emporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	:	:	PUNCT	_	_	10	punct	_	_
-6	«	«	PUNCT	_	_	10	punct	_	_
-7	Mais	mais	CCONJ	_	_	10	cc	_	wordform=mais
+5	:	:	PUNCT	_	_	9	punct	_	_
+6	«	«	PUNCT	_	_	9	punct	_	_
+7	Mais	mais	CCONJ	_	_	9	cc	_	wordform=mais
 8	quelle	quel	DET	_	Gender=Fem|Number=Sing	9	det	_	_
-9	importance	importance	NOUN	_	Gender=Fem|Number=Sing	13	orphan	_	_
-10	que	que	SCONJ	_	_	4	parataxis	_	_
+9	importance	importance	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	_
+10	que	que	SCONJ	_	_	9	dislocated	_	_
 11	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	12	subj	_	_
 12	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 13	irrationnel	irrationnel	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
-14	puisqu'	puisque	SCONJ	_	_	13	orphan	_	SpaceAfter=No
+14	puisqu'	puisque	SCONJ	_	_	9	mod	_	SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 17	avoué	avouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
-18	?	?	PUNCT	_	_	10	punct	_	_
+18	?	?	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_01346
 # text = Il est classé en « zone d'éducation prioritaire » (ZEP).
@@ -37582,7 +37582,7 @@
 7-8	aux	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	6	udep	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-9	deux	deux	NUM	_	_	11	det	_	_
+9	deux	deux	NUM	_	_	11	mod	_	_
 10	premières	premier	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
 11	versions	version	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 12-13	des	_	_	_	_	_	_	_	_
@@ -39258,7 +39258,7 @@
 40	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	41	comp:obl	_	_
 41	offre	offrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	comp:cleft	_	_
 42	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	44	det	_	_
-43	20	20	NUM	_	_	44	det	_	_
+43	20	20	NUM	_	_	44	mod	_	_
 44	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	41	comp:obj	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -40059,7 +40059,7 @@
 # sent_id = fr-ud-dev_01439
 # text = Les 12 équipes engagées disputèrent un total de 42 matchs.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	wordform=les
-2	12	12	NUM	_	_	3	det	_	_
+2	12	12	NUM	_	_	3	mod	_	_
 3	équipes	équipe	NOUN	_	Gender=Fem|Number=Plur	5	subj	_	_
 4	engagées	engager	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	mod	_	_
 5	disputèrent	disputer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -40906,7 +40906,7 @@
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
-13	certaines	certain	DET	_	Gender=Fem|Number=Plur	14	det	_	_
+13	certaines	certain	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	_
 14	espèces	espèce	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 15	assez	assez	ADV	_	_	16	mod	_	_
 16	similaires	similaire	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	_
@@ -41051,7 +41051,7 @@
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	ingénieur	ingénieur	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	sergent	sergent	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+10	sergent	sergent	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
 11	lors	lors	ADV	_	_	10	mod	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -41059,7 +41059,7 @@
 15	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	wordform=guerre
 16	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	cité	citer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	mod	_	_
+18	cité	citer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	_
 19	à	à	ADP	_	_	18	mod	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
@@ -41071,7 +41071,7 @@
 27	royaliste	royaliste	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
 28	français	français	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
-30	à	à	ADP	_	_	6	mod	_	_
+30	à	à	ADP	_	_	26	mod	_	_
 31	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	origine	origine	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	_
 33	de	de	ADP	_	_	32	udep	_	_
@@ -41170,7 +41170,7 @@
 3	sud	sud	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-6	deux	deux	NUM	_	_	7	det	_	_
+6	deux	deux	NUM	_	_	7	mod	_	_
 7	micro-pays	micro-pays	NOUN	_	Gender=Masc|Number=Plur	19	subj	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	udep	_	_

@@ -1902,7 +1902,7 @@
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	23	udep	_	_
 25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
-26	trois	trois	NUM	_	_	27	det	_	_
+26	trois	trois	NUM	_	_	27	mod	_	_
 27	opérateurs	opérateur	NOUN	_	Gender=Masc|Number=Plur	24	comp:obj	_	_
 28	télécoms	télécoms	NOUN	_	Gender=Fem|Number=Plur	27	mod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
@@ -2206,7 +2206,7 @@
 9	bilatérales	bilatéral	ADJ	_	Gender=Fem|Number=Plur	8	mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-12	deux	deux	NUM	_	_	13	det	_	_
+12	deux	deux	NUM	_	_	13	mod	_	_
 13	chefs	chef	NOUN	_	Gender=Masc|Number=Plur	16	subj	_	_
 14	d'	de	ADP	_	_	13	udep	_	SpaceAfter=No
 15	Etat	état	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	wordform=état
@@ -2433,7 +2433,7 @@
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	unk@fixed	_	_
 22	mieux	mieux	NOUN	_	Gender=Masc|Number=Sing	21	unk@fixed	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-24	5	5	NUM	_	_	25	det	_	SpaceAfter=No
+24	5	5	NUM	_	_	25	mod	_	SpaceAfter=No
 25	%	%	SYM	_	_	18	comp:pred	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
@@ -2706,7 +2706,7 @@
 50-51	des	_	_	_	_	_	_	_	_
 50	de	de	ADP	_	_	49	udep	_	_
 51	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
-52	deux	deux	NUM	_	_	53	det	_	_
+52	deux	deux	NUM	_	_	53	mod	_	_
 53	parties	partie	NOUN	_	Gender=Fem|Number=Plur	50	comp:obj	_	_
 54	et	et	CCONJ	_	_	56	cc	_	_
 55	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
@@ -2714,7 +2714,7 @@
 57-58	des	_	_	_	_	_	_	_	_
 57	de	de	ADP	_	_	56	udep	_	_
 58	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	60	det	_	_
-59	deux	deux	NUM	_	_	60	det	_	_
+59	deux	deux	NUM	_	_	60	mod	_	_
 60	pays	pays	NOUN	_	Gender=Masc|Number=Plur	57	comp:obj	_	_
 61	observateurs	observateur	ADJ	_	Gender=Masc|Number=Plur	60	mod	_	SpaceAfter=No
 62	,	,	PUNCT	_	_	64	punct	_	_
@@ -2778,7 +2778,7 @@
 17	bilatérales	bilatéral	ADJ	_	Gender=Fem|Number=Plur	16	mod	_	_
 18	entre	entre	ADP	_	_	16	udep	_	_
 19	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
-20	deux	deux	NUM	_	_	21	det	_	_
+20	deux	deux	NUM	_	_	21	mod	_	_
 21	pays	pays	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
 22	dans	dans	ADP	_	Shared=Yes	14	mod	_	_
 23	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
@@ -3193,7 +3193,7 @@
 14	que	que	SCONJ	_	_	13	udep	_	_
 15	si	si	SCONJ	_	_	41	mod	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-17	32	32	NUM	_	_	18	det	_	_
+17	32	32	NUM	_	_	18	mod	_	_
 18	États	état	NOUN	_	Gender=Masc|Number=Plur	33	subj	_	wordform=états
 19	qui	qui	PRON	_	PronType=Rel	21	subj	_	_
 20	n'	ne	ADV	_	Polarity=Neg	21	mod	_	SpaceAfter=No
@@ -4821,7 +4821,7 @@
 22	tandis	tandis	ADV	_	_	6	mod	_	EXTPOS=SCONJ|Type=MWE
 23	que	que	SCONJ	_	_	22	unk@fixed	_	_
 24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
-25	80	80	NUM	_	_	26	det	_	_
+25	80	80	NUM	_	_	26	mod	_	_
 26	bénévoles	bénévole	NOUN	_	Gender=Masc|Number=Plur	28	subj	_	_
 27	canéjanais	canéjanais	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	_
 28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
@@ -5404,7 +5404,7 @@
 1	Pour	pour	ADP	_	_	18	mod	_	wordform=pour
 2	souligner	souligner	VERB	_	VerbForm=Inf	1	comp:obj	_	_
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-4	35	35	NUM	_	_	5	det	_	_
+4	35	35	NUM	_	_	5	mod	_	_
 5	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	udep	_	_
@@ -5806,7 +5806,7 @@
 2	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	wordform=il
 3	n'	ne	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 4	y	y	PRON	_	_	5	comp@fixed	_	_
-5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	comp:obj	_	_
+5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	problème	problème	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -5815,7 +5815,7 @@
 11	et	et	CCONJ	_	_	17	cc	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	banlieue	banlieue	NOUN	_	Gender=Fem|Number=Sing	17	dislocated	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	13	punct	_	_
+14	,	,	PUNCT	_	_	17	punct	_	_
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
 16	ne	ne	ADV	_	Polarity=Neg	17	mod	_	_
 17	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
@@ -5827,7 +5827,7 @@
 23	»	»	PUNCT	_	_	5	punct	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	5	punct	_	_
 25	n'	ne	ADV	_	Polarity=Neg	26	mod	_	SpaceAfter=No
-26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 27	cessé	cesser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
 28	de	de	ADP	_	_	27	comp:obj@x	_	_
 29	répéter	répéter	VERB	_	VerbForm=Inf	28	comp:obj	_	_
@@ -5837,7 +5837,7 @@
 33	par	par	ADP	_	_	32	comp:obl@agent	_	_
 34	Radio	Radio	PROPN	_	_	33	comp:obj	_	_
 35	Nova	Nova	PROPN	_	_	34	flat@name	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	26	punct	_	_
+36	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00194
 # text = Chicago (41-41) coiffe ainsi au poteau Toronto (40-42), dont la victoire à New York (131-113) n'a servi à rien.
@@ -7140,7 +7140,7 @@
 23	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
 24	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
 25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
-26	2	2	NUM	_	_	27	det	_	_
+26	2	2	NUM	_	_	27	mod	_	_
 27	€	€	SYM	_	_	23	comp:obj	_	EXTPOS=NOUN|Type=Trans
 28	plus	plus	ADV	_	_	29	mod	_	_
 29	cher	cher	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	_
@@ -7995,7 +7995,7 @@
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	dans	dans	ADP	_	_	30	mod	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
-28	deux	deux	NUM	_	_	29	det	_	_
+28	deux	deux	NUM	_	_	29	mod	_	_
 29	cas	cas	NOUN	_	Gender=Masc|Number=Plur	26	comp:obj	_	_
 30	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 31	à	à	ADP	_	_	30	comp:pred	_	_
@@ -8669,7 +8669,7 @@
 22	,	,	PUNCT	_	_	16	punct	_	_
 23	sépare	séparer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	26	det	_	_
-25	deux	deux	NUM	_	_	26	det	_	_
+25	deux	deux	NUM	_	_	26	mod	_	_
 26	écozones	écozone	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	23	punct	_	_
 
@@ -9083,7 +9083,7 @@
 3	combinée	combiner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
 4	de	de	ADP	_	_	2	udep	_	_
 5	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
-6	trois	trois	NUM	_	_	7	det	_	_
+6	trois	trois	NUM	_	_	7	mod	_	_
 7	points	point	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	pour	pour	ADP	_	_	8	comp:obl	_	_
@@ -9095,7 +9095,7 @@
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-17	cinq	cinq	NUM	_	_	18	det	_	_
+17	cinq	cinq	NUM	_	_	18	mod	_	_
 18	kleśa	kleśa	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	afflictions	affliction	NOUN	_	Gender=Fem|Number=Plur	18	appos	_	SpaceAfter=No
@@ -9146,7 +9146,7 @@
 22-23	des	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	20	udep	_	_
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
-24	18	18	NUM	_	_	25	det	_	_
+24	18	18	NUM	_	_	25	mod	_	_
 25	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
 26	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	mod	_	_
 27	à	à	ADP	_	_	26	mod	_	_
@@ -9197,7 +9197,7 @@
 8-9	aux	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	7	udep	_	_
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-10	trois	trois	NUM	_	_	11	det	_	_
+10	trois	trois	NUM	_	_	11	mod	_	_
 11	roses	rose	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	gueules	gueules	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
@@ -9542,7 +9542,7 @@
 51	Nội	Nội	PROPN	_	_	50	flat@name	_	_
 52	et	et	CCONJ	_	_	56	cc	_	_
 53	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	56	det	_	_
-54	deux	deux	NUM	_	_	56	det	_	_
+54	deux	deux	NUM	_	_	56	mod	_	_
 55	autres	autre	ADJ	_	Gender=Fem|Number=Plur	56	mod	_	_
 56	soirées	soirée	NOUN	_	Gender=Fem|Number=Plur	36	conj	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	58	punct	_	_
@@ -9686,7 +9686,7 @@
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	dans	dans	ADP	_	_	29	mod	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
-22	trois	trois	NUM	_	_	23	det	_	_
+22	trois	trois	NUM	_	_	23	mod	_	_
 23	quarts	quart	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	23	udep	_	_
@@ -10174,7 +10174,7 @@
 26	travailleurs	travailleur	NOUN	_	Gender=Masc|Number=Plur	24	comp:obj	_	_
 27	utilisent	utiliser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 28	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
-29	deux	deux	NUM	_	_	30	det	_	_
+29	deux	deux	NUM	_	_	30	mod	_	_
 30	langues	langue	NOUN	_	Gender=Fem|Number=Plur	27	comp:obj	_	_
 31	officielles	officiel	ADJ	_	Gender=Fem|Number=Plur	30	mod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	3	punct	_	_
