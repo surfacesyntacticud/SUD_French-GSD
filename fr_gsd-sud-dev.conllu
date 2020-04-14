@@ -8339,7 +8339,7 @@
 19	ou	ou	CCONJ	_	_	20	cc	_	_
 20	Polleke	Polleke	PROPN	_	_	17	conj	_	_
 21	ou	ou	CCONJ	_	_	22	cc	_	_
-22	Polequinen	Polequinen	PROPN	_	_	20	conj:emb	_	SpaceAfter=No
+22	Polequinen	Polequinen	PROPN	_	_	20	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	suivant	suivant	ADP	_	Shared=Yes	22	udep	_	_
 25	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
@@ -14676,11 +14676,11 @@
 33	vertébrale	vertébral	ADJ	_	Gender=Fem|Number=Sing	32	mod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	36	punct	_	_
 35	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
-36	os	os	NOUN	_	Gender=Masc|Number=Sing	25	conj:emb	_	_
+36	os	os	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
 37	coracoïde	coracoïde	ADJ	_	Gender=Masc|Number=Sing	36	mod	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
-40	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	25	conj:emb	_	_
+40	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	36	conj	_	_
 41-42	du	_	_	_	_	_	_	_	_
 41	de	de	ADP	_	_	40	udep	_	_
 42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
@@ -14688,8 +14688,8 @@
 44	et	et	CCONJ	_	_	47	cc	_	_
 45	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
 46	quatre	quatre	NUM	_	_	47	mod	_	_
-47	membres	membre	NOUN	_	Gender=Masc|Number=Plur	25	conj:emb	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	25	punct	_	_
+47	membres	membre	NOUN	_	Gender=Masc|Number=Plur	40	conj	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00529
 # text = Le Suédois Marcus Allbäck inscrit le but de l'histoire de la coupe du monde à la minute de la rencontre contre les Anglais.
@@ -20729,7 +20729,7 @@
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	Lagor	Lagor	PROPN	_	_	17	conj	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
-21	Monein	Monein	PROPN	_	_	17	conj	_	_
+21	Monein	Monein	PROPN	_	_	19	conj	_	_
 22	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	fusionné	fusionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
 24	pour	pour	ADP	_	_	22	mod	_	_
