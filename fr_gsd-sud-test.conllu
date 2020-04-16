@@ -302,7 +302,7 @@
 43	montres	montre	NOUN	_	Gender=Fem|Number=Plur	41	comp:obj	_	_
 44	:	:	PUNCT	_	_	41	punct	_	_
 45	100	100	NUM	_	_	46	det	_	SpaceAfter=No
-46	%	%	SYM	_	_	40	mod	_	EXTPOS=NOUN|Type=Trans
+46	%	%	SYM	_	_	40	mod	_	EXTPOS=NOUN|Type=Conv
 47	Waterproof	waterproof	ADJ	_	Gender=Masc|Number=Sing	40	comp:pred	_	SpaceAfter=No|wordform=waterproof
 48	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2434,7 +2434,7 @@
 22	mieux	mieux	NOUN	_	Gender=Masc|Number=Sing	21	unk@fixed	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 24	5	5	NUM	_	_	25	mod	_	SpaceAfter=No
-25	%	%	SYM	_	_	18	comp:pred	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+25	%	%	SYM	_	_	18	comp:pred	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 28	militants	militant	NOUN	_	Gender=Masc|Number=Plur	25	appos	_	SpaceAfter=No
@@ -2835,7 +2835,7 @@
 13	adresse	adresse	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	suivante	suivant	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
 15	:	:	PUNCT	_	_	16	punct	_	_
-16	criticusleblog@gmail.com	criticusleblog@gmail.com	SYM	_	_	13	appos	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans
+16	criticusleblog@gmail.com	criticusleblog@gmail.com	SYM	_	_	13	appos	_	EXTPOS=PROPN|SpaceAfter=No|Type=Conv
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00096
@@ -2995,10 +2995,10 @@
 24	opérationnelle	opérationnel	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	_
 25	de	de	ADP	_	_	23	udep	_	_
 26	9,5	9,5	NUM	_	_	27	det	_	SpaceAfter=No
-27	%	%	SYM	_	_	25	comp:obj	_	EXTPOS=NOUN|Type=Trans
+27	%	%	SYM	_	_	25	comp:obj	_	EXTPOS=NOUN|Type=Conv
 28	contre	contre	ADP	_	_	23	udep	_	_
 29	8,5	8,5	NUM	_	_	30	det	_	SpaceAfter=No
-30	%	%	SYM	_	_	28	comp:obj	_	EXTPOS=NOUN|Type=Trans
+30	%	%	SYM	_	_	28	comp:obj	_	EXTPOS=NOUN|Type=Conv
 31	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	année	année	NOUN	_	Gender=Fem|Number=Sing	30	mod	_	_
 33	passée	passé	ADJ	_	Gender=Fem|Number=Sing	32	mod	_	SpaceAfter=No
@@ -3750,11 +3750,11 @@
 22	avec	avec	ADP	_	_	16	mod	_	_
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
-25	+	+	SYM	_	_	26	mod	_	EXTPOS=ADV|Type=Trans
+25	+	+	SYM	_	_	26	mod	_	EXTPOS=ADV|Type=Conv
 26	Facebookant	facebooker	VERB	_	Tense=Pres|VerbForm=Part	24	mod	_	wordform=facebookant
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	Tweetant	tweeter	VERB	_	Tense=Pres|VerbForm=Part	26	conj	_	wordform=tweetant
-29	+	+	SYM	_	_	30	mod	_	EXTPOS=ADV|Type=Trans
+29	+	+	SYM	_	_	30	mod	_	EXTPOS=ADV|Type=Conv
 30	avec	avec	ADP	_	Shared=Yes	28	mod	_	_
 31	passion	passion	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
@@ -3842,8 +3842,8 @@
 17	main	main	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	à	à	ADP	_	_	11	comp:obl	_	_
 19	40	40	NUM	_	_	20	det	_	SpaceAfter=No
-20	°	°	SYM	_	_	18	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
-21	C	C	SYM	_	_	20	mod	_	EXTPOS=PROPN|Type=Trans
+20	°	°	SYM	_	_	18	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
+21	C	C	SYM	_	_	20	mod	_	EXTPOS=PROPN|Type=Conv
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	que	que	SCONJ	_	_	4	conj	_	_
 24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -3855,8 +3855,8 @@
 30	température	température	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
 32	60	60	NUM	_	_	33	det	_	SpaceAfter=No
-33	°	°	SYM	_	_	31	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
-34	C	C	SYM	_	_	33	mod	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans
+33	°	°	SYM	_	_	31	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
+34	C	C	SYM	_	_	33	mod	_	EXTPOS=PROPN|SpaceAfter=No|Type=Conv
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	subj@expl	_	_
 37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
@@ -3939,7 +3939,7 @@
 13	rebond	rebond	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 14	de	de	ADP	_	_	13	udep	_	_
 15	6,7	6,7	NUM	_	_	16	det	_	SpaceAfter=No
-16	%	%	SYM	_	_	14	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+16	%	%	SYM	_	_	14	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
 17	,	,	PUNCT	_	_	23	punct	_	_
 18	et	et	CCONJ	_	_	23	cc	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -3951,7 +3951,7 @@
 25	hausse	hausse	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 26	de	de	ADP	_	_	25	udep	_	_
 27	3,8	3,8	NUM	_	_	28	det	_	SpaceAfter=No
-28	%	%	SYM	_	_	26	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+28	%	%	SYM	_	_	26	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	à	à	ADP	_	_	25	udep	_	_
 31	29,8	29,8	NUM	_	_	32	det	_	_
@@ -4241,7 +4241,7 @@
 15	rassurant	rassurant	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
 16	dans	dans	ADP	_	_	14	mod	_	_
 17	80	80	NUM	_	_	18	det	_	SpaceAfter=No
-18	%	%	SYM	_	_	16	comp:obj	_	EXTPOS=NOUN|Type=Trans
+18	%	%	SYM	_	_	16	comp:obj	_	EXTPOS=NOUN|Type=Conv
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
@@ -4618,7 +4618,7 @@
 24	public	public	ADJ	_	Gender=Masc|Number=Sing	23	mod	_	_
 25	à	à	ADP	_	_	23	udep	_	_
 26	9,1	9,1	NUM	_	_	27	det	_	SpaceAfter=No
-27	%	%	SYM	_	_	25	comp:obj	_	EXTPOS=NOUN|Type=Trans
+27	%	%	SYM	_	_	25	comp:obj	_	EXTPOS=NOUN|Type=Conv
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	udep	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -4630,7 +4630,7 @@
 35	plus	plus	ADV	_	_	34	comp:obj	_	_
 36	de	de	ADP	_	_	35	comp:obl	_	_
 37	11	11	NUM	_	_	38	det	_	SpaceAfter=No
-38	%	%	SYM	_	_	36	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+38	%	%	SYM	_	_	36	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
 39	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-test_00154
@@ -4900,11 +4900,11 @@
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	EUR	EUR	PROPN	_	_	16	subj	_	SpaceAfter=No
-14	/	/	SYM	_	_	15	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Trans
+14	/	/	SYM	_	_	15	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Conv
 15	GBP	GBP	PROPN	_	_	13	conj	_	_
 16	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
 17	0.27	0.27	NUM	_	_	18	det	_	SpaceAfter=No
-18	%	%	SYM	_	_	16	comp:obj	_	EXTPOS=NOUN|Type=Trans
+18	%	%	SYM	_	_	16	comp:obj	_	EXTPOS=NOUN|Type=Conv
 19	pour	pour	ADP	_	_	16	mod	_	_
 20	se	se	PRON	_	Person=3|PronType=Prs	21	comp:obj	_	_
 21	hisser	hisser	VERB	_	VerbForm=Inf	19	comp:obj	_	_
@@ -5191,7 +5191,7 @@
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	fusion	fusion	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
 20	entrant	entrant	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	SpaceAfter=No
-21	/	/	SYM	_	_	22	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Trans
+21	/	/	SYM	_	_	22	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Conv
 22	sortant	sortant	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	1	punct	_	_
 24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -5229,7 +5229,7 @@
 14	50	50	NUM	_	_	13	comp:obj	_	_
 15	à	à	ADP	_	_	14	udep	_	_
 16	90	90	NUM	_	_	17	det	_	SpaceAfter=No
-17	%	%	SYM	_	_	15	comp:obj	_	EXTPOS=NOUN|Type=Trans
+17	%	%	SYM	_	_	15	comp:obj	_	EXTPOS=NOUN|Type=Conv
 18	en	en	ADP	_	_	12	udep	_	_
 19	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	9	punct	_	_
@@ -5641,7 +5641,7 @@
 16	cts	cent	NOUN	_	Gender=Masc|Number=Plur	1	parataxis	_	_
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
 18	euro	euro	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
-19	+	+	SYM	_	_	20	cc	_	EXTPOS=CCONJ|Type=Trans
+19	+	+	SYM	_	_	20	cc	_	EXTPOS=CCONJ|Type=Conv
 20	coût	coût	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	20	udep	_	_
@@ -5750,7 +5750,7 @@
 28	net	net	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	_
 29	de	de	ADP	_	_	25	comp:obl	_	_
 30	0,7	0,7	NUM	_	_	31	det	_	SpaceAfter=No
-31	%	%	SYM	_	_	29	comp:obj	_	EXTPOS=NOUN|Type=Trans
+31	%	%	SYM	_	_	29	comp:obj	_	EXTPOS=NOUN|Type=Conv
 32	en	en	ADP	_	_	25	mod	_	_
 33	2009	2009	NUM	_	_	32	comp:obj	_	_
 34	à	à	ADP	_	_	25	comp:obl	_	_
@@ -6910,7 +6910,7 @@
 8	qu'	que	ADV	_	_	10	mod	_	SpaceAfter=No
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
-11	+	+	SYM	_	_	12	cc	_	EXTPOS=CCONJ|Type=Trans
+11	+	+	SYM	_	_	12	cc	_	EXTPOS=CCONJ|Type=Conv
 12	balayage	balayage	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -7141,7 +7141,7 @@
 24	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
 25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 26	2	2	NUM	_	_	27	mod	_	_
-27	€	€	SYM	_	_	23	comp:obj	_	EXTPOS=NOUN|Type=Trans
+27	€	€	SYM	_	_	23	comp:obj	_	EXTPOS=NOUN|Type=Conv
 28	plus	plus	ADV	_	_	29	mod	_	_
 29	cher	cher	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	_
 30	d'	de	ADP	_	_	23	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
@@ -7357,7 +7357,7 @@
 3	chaussures	chaussure	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 4	pour	pour	ADP	_	_	3	udep	_	_
 5	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	SpaceAfter=No
-6	/	/	SYM	_	_	7	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Trans
+6	/	/	SYM	_	_	7	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Conv
 7	adolescents	adolescent	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 8	très	très	ADV	_	_	9	mod	_	_
 9	convivial	convivial	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	SpaceAfter=No
@@ -7399,7 +7399,7 @@
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	saumon	saumon	NOUN	_	Gender=Masc|Number=Sing	3	udep	_	_
 8	vapeur	vapeur	NOUN	_	Gender=Masc|Number=Plur	7	mod	_	SpaceAfter=No
-9	/	/	SYM	_	_	10	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Trans
+9	/	/	SYM	_	_	10	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Conv
 10	tagliatelles	tagliatelle	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	filet	filet	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
@@ -7461,7 +7461,7 @@
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 6	femme	femme	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	145	145	NUM	_	_	8	det	_	_
-8	€	€	SYM	_	_	3	comp:obj	_	EXTPOS=NOUN|Type=Trans
+8	€	€	SYM	_	_	3	comp:obj	_	EXTPOS=NOUN|Type=Conv
 9	pour	pour	ADP	_	_	2	udep	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
@@ -7568,7 +7568,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	pour	pour	ADP	_	_	2	udep	_	_
 12	2-4	2-4	NUM	_	_	13	det	_	_
-13	€	€	SYM	_	_	11	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+13	€	€	SYM	_	_	11	comp:obj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
 14	,	,	PUNCT	_	_	19	punct	_	_
 15	bière	bière	NOUN	_	Gender=Fem|Number=Sing	19	subj	_	_
 16-17	du	_	_	_	_	_	_	_	_
@@ -8515,7 +8515,7 @@
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	âges	âge	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
 17	et	et	CCONJ	_	_	20	cc	_	SpaceAfter=No
-18	/	/	SYM	_	_	19	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Trans
+18	/	/	SYM	_	_	19	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Conv
 19	ou	ou	CCONJ	_	_	17	conj	_	_
 20	dans	dans	ADP	_	_	11	conj	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
@@ -10153,7 +10153,7 @@
 7	travail	travail	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	par	par	ADP	_	_	4	comp:obl@agent	_	_
 9	50,8	50,8	NUM	_	_	10	det	_	SpaceAfter=No
-10	%	%	SYM	_	_	8	comp:obj	_	EXTPOS=NOUN|Type=Trans
+10	%	%	SYM	_	_	8	comp:obj	_	EXTPOS=NOUN|Type=Conv
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
@@ -10163,11 +10163,11 @@
 16	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
 17	par	par	ADP	_	_	16	orphan	_	_
 18	41,7	41,7	NUM	_	_	19	det	_	SpaceAfter=No
-19	%	%	SYM	_	_	17	comp:obj	_	EXTPOS=NOUN|Type=Trans
+19	%	%	SYM	_	_	17	comp:obj	_	EXTPOS=NOUN|Type=Conv
 20	alors	alors	ADV	_	Shared=Yes	16	mod	_	EXTPOS=SCONJ|Type=MWE
 21	que	que	SCONJ	_	_	20	unk@fixed	_	_
 22	2,3	2,3	NUM	_	_	23	det	_	SpaceAfter=No
-23	%	%	SYM	_	_	27	subj	_	EXTPOS=NOUN|Type=Trans
+23	%	%	SYM	_	_	27	subj	_	EXTPOS=NOUN|Type=Conv
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	23	udep	_	_
 25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
@@ -10480,14 +10480,14 @@
 8	savoureuse	savoureux	ADJ	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
 9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 10	73	73	NUM	_	_	11	det	_	SpaceAfter=No
-11	%	%	SYM	_	_	8	udep	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+11	%	%	SYM	_	_	8	udep	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
 12	)	)	PUNCT	_	_	11	punct	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	plus	plus	ADV	_	_	15	mod	_	_
 15	sucrée	sucré	ADJ	_	Gender=Fem|Number=Sing	8	conj	_	_
 16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 17	68	68	NUM	_	_	18	det	_	SpaceAfter=No
-18	%	%	SYM	_	_	15	udep	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+18	%	%	SYM	_	_	15	udep	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
 19	)	)	PUNCT	_	_	18	punct	_	_
 20	que	que	SCONJ	_	Shared=Yes	15	mod	_	_
 21	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
@@ -11232,7 +11232,7 @@
 48	en	en	ADP	_	_	46	udep	_	INTITLE=Yes
 49	enfer	enfer	NOUN	_	Gender=Masc|Number=Sing	48	comp:obj	_	INTITLE=Yes
 50	?	?	PUNCT	_	_	46	punct	_	INTITLE=Yes|SpaceAfter=No
-51	/	/	SYM	_	_	52	mod	_	EXTPOS=ADV|INTITLE=Yes|SpaceAfter=No|Type=Trans
+51	/	/	SYM	_	_	52	mod	_	EXTPOS=ADV|INTITLE=Yes|SpaceAfter=No|Type=Conv
 52	Probablement	probablement	ADV	_	_	46	parataxis	_	INTITLE=Yes|wordform=probablement
 53	!	!	PUNCT	_	_	52	punct	_	INTITLE=Yes|SpaceAfter=No
 54	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
@@ -11408,7 +11408,7 @@
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	sons	son	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	11	punct	_	_
-20	http://brahms.ircam.fr/textes/c00000018/index.html	http://brahms.ircam.fr/textes/c00000018/index.html	SYM	_	_	8	mod	_	EXTPOS=PROPN|Type=Trans
+20	http://brahms.ircam.fr/textes/c00000018/index.html	http://brahms.ircam.fr/textes/c00000018/index.html	SYM	_	_	8	mod	_	EXTPOS=PROPN|Type=Conv
 21	puis	puis	ADV	_	_	22	cc	_	_
 22	par	par	ADP	_	_	7	conj	_	_
 23	Jean-Claude	Jean-Claude	PROPN	_	_	22	comp:obj	_	_
@@ -11472,7 +11472,7 @@
 29	score	score	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
 30	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 31	99,44	99,44	NUM	_	_	32	det	_	SpaceAfter=No
-32	%	%	SYM	_	_	29	appos	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+32	%	%	SYM	_	_	29	appos	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
 33	)	)	PUNCT	_	_	32	punct	_	_
 34	comparable	comparable	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	_
 35-36	aux	_	_	_	_	_	_	_	_
