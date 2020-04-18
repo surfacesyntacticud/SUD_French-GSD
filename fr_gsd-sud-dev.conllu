@@ -26915,11 +26915,11 @@
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 14	être	être	AUX	_	VerbForm=Inf	12	comp:obj@x	_	_
 15	activé	activer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@pass	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
-17	car	car	CCONJ	_	_	14	mod	_	_
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	car	car	CCONJ	_	_	20	cc	_	_
 18	ne	ne	ADV	_	Polarity=Neg	20	mod	_	_
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
-20	supportant	supporter	VERB	_	Tense=Pres|VerbForm=Part	17	comp:obj	_	_
+20	supportant	supporter	VERB	_	Tense=Pres|VerbForm=Part	12	conj	_	_
 21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	12	punct	_	_
 
