@@ -300,9 +300,9 @@
 41	comme	comme	ADP	_	_	40	mod	_	_
 42	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
 43	montres	montre	NOUN	_	Gender=Fem|Number=Plur	41	comp:obj	_	_
-44	:	:	PUNCT	_	_	41	punct	_	_
+44	:	:	PUNCT	_	_	47	punct	_	_
 45	100	100	NUM	_	_	46	det	_	SpaceAfter=No
-46	%	%	SYM	_	_	40	mod	_	EXTPOS=NOUN|Type=Conv
+46	%	%	SYM	_	_	47	mod	_	EXTPOS=NOUN|Type=Conv
 47	Waterproof	waterproof	ADJ	_	Gender=Masc|Number=Sing	40	comp:pred	_	SpaceAfter=No|wordform=waterproof
 48	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1849,13 +1849,13 @@
 
 # sent_id = fr-ud-test_00067
 # text = Attention : même la conversion n'est pas un changement total, encore moins un reniement de ce que nous avons été.
-1	Attention	attention	NOUN	_	Gender=Fem|Number=Sing	7	parataxis	_	wordform=attention
-2	:	:	PUNCT	_	_	1	punct	_	_
+1	Attention	attention	NOUN	_	Gender=Fem|Number=Sing	0	root	_	wordform=attention
+2	:	:	PUNCT	_	_	7	punct	_	_
 3	même	même	ADV	_	_	5	mod	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	conversion	conversion	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	changement	changement	NOUN	_	Gender=Masc|Number=Sing	7	comp:pred	_	_
@@ -1871,7 +1871,7 @@
 20	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	21	subj	_	_
 21	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
 22	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux@tense	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	7	punct	_	_
+23	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00068
 # text = Et cet homme d'affaires particulier est partout, il contrôle la plus grande banque du pays, il contrôle l'un des trois opérateurs télécoms, il est actif dans le business du sucre, de l'énergie, il contrôle les centrales laitières et il est associé au groupe Danone.

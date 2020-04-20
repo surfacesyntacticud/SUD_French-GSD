@@ -7559,7 +7559,7 @@
 9	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
 10	en	en	ADP	_	_	9	udep	_	_
 11	suspens	suspens	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-12	:	:	PUNCT	_	_	9	punct	_	_
+12	:	:	PUNCT	_	_	15	punct	_	_
 13	Maria	Maria	PROPN	_	_	15	subj	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	comp@fixed	_	_
 15	suicide	suicider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -14888,15 +14888,15 @@
 
 # sent_id = fr-ud-dev_00536
 # text = Commentaire du président : il n'accepte pas « des relations diplomatiques conduites d'une manière aussi irresponsable ».
-1	Commentaire	commentaire	NOUN	_	Gender=Masc|Number=Sing	8	parataxis	_	wordform=commentaire
+1	Commentaire	commentaire	NOUN	_	Gender=Masc|Number=Sing	0	root	_	wordform=commentaire
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	udep	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	président	président	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
-5	:	:	PUNCT	_	_	1	punct	_	_
+5	:	:	PUNCT	_	_	8	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
-8	accepte	accepter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	accepte	accepter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod	_	_
 9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
 10	«	«	PUNCT	_	_	12	punct	_	_
 11	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
@@ -14909,7 +14909,7 @@
 18	aussi	aussi	ADV	_	_	19	mod	_	_
 19	irresponsable	irresponsable	ADJ	_	Gender=Fem|Number=Sing	17	mod	_	_
 20	»	»	PUNCT	_	_	12	punct	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	8	punct	_	_
+21	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_00537
 # text = En face, les Etats de la région n'arrivent pas à s'entendre pour balayer devant leurs portes.
@@ -17557,7 +17557,7 @@
 # sent_id = fr-ud-dev_00632
 # text = On raconte aussi que le roi Jean demanda un jour à ses soldats : « pourquoi chanter Roland s'il n'y a plus de Roland ?
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	subj	_	wordform=on
-2	raconte	raconter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+2	raconte	raconter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	aussi	aussi	ADV	_	_	2	mod	_	_
 4	que	que	SCONJ	_	_	2	comp:obj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -17569,10 +17569,10 @@
 11	à	à	ADP	_	_	8	comp:obl	_	_
 12	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det	_	_
 13	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
-14	:	:	PUNCT	_	_	4	punct	_	_
-15	«	«	PUNCT	_	_	2	punct	_	_
+14	:	:	PUNCT	_	_	17	punct	_	_
+15	«	«	PUNCT	_	_	17	punct	_	_
 16	pourquoi	pourquoi	ADV	_	_	17	mod	_	_
-17	chanter	chanter	VERB	_	VerbForm=Inf	0	root	_	_
+17	chanter	chanter	VERB	_	VerbForm=Inf	8	comp:obj	_	_
 18	Roland	Roland	PROPN	_	_	17	comp:obj	_	_
 19	s'	si	SCONJ	_	_	17	mod	_	SpaceAfter=No
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj@expl	_	_
@@ -23371,11 +23371,11 @@
 # text = Comment Lui dirais-je : Béni sois-Tu, l'Éternel, Maître de l'Univers, qui nous a élus parmi les peuples pour être torturés jour et nuit, pour voir nos pères, nos mères, nos frères finir au crématoire ?
 1	Comment	comment	ADV	_	_	3	mod	_	wordform=comment
 2	Lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	wordform=lui
-3	dirais	dire	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+3	dirais	dire	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-5	:	:	PUNCT	_	_	3	punct	_	_
+5	:	:	PUNCT	_	_	7	punct	_	_
 6	Béni	bénir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	wordform=béni
-7	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
 8	-Tu	il	PRON	_	Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	subj	_	SpaceAfter=No|wordform=-tu
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
@@ -23896,9 +23896,9 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	question	question	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	suivante	suivant	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
-4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
-5	:	:	PUNCT	_	_	4	punct	_	_
-6	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|wordform=peut
+4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	:	:	PUNCT	_	_	6	punct	_	_
+6	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:pred	_	SpaceAfter=No|wordform=peut
 7	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	subj	_	_
 8	y	y	PRON	_	_	9	mod	_	_
 9	prendre	prendre	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
@@ -24010,10 +24010,10 @@
 
 # sent_id = fr-ud-dev_00869
 # text = Remarque : Chypre est entré en zone euro le 1er janvier 2008.
-1	Remarque	remarque	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	wordform=remarque
-2	:	:	PUNCT	_	_	1	punct	_	_
+1	Remarque	remarque	NOUN	_	Gender=Fem|Number=Sing	0	root	_	wordform=remarque
+2	:	:	PUNCT	_	_	4	punct	_	_
 3	Chypre	Chypre	PROPN	_	_	4	subj	_	_
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod	_	_
 5	entré	entrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	en	en	ADP	_	_	5	comp:obl	_	_
 7	zone	zone	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -24022,7 +24022,7 @@
 10	1er	1er	NUM	_	_	4	mod	_	_
 11	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	10	mod	_	_
 12	2008	2008	NUM	_	_	11	mod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	4	punct	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_00870
 # text = 23 épreuves figurent au programme (14 masculines et 9 féminines).
@@ -26029,11 +26029,11 @@
 
 # sent_id = fr-ud-dev_00939
 # text = 1789 : La Révolution marque la fin de l'apanage des Orléans et de la gloire du château.
-1	1789	1789	NUM	_	_	0	root	_	_
+1	1789	1789	NUM	_	_	5	mod	_	_
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	wordform=la
 4	Révolution	révolution	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	wordform=révolution
-5	marque	marquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+5	marque	marquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	fin	fin	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
@@ -26995,7 +26995,7 @@
 # text = » Stipe reconnaît que le groupe sera différent sans un de ses contributeurs majeurs : « Pour moi, Mike et Peter, en tant que R.E.M., sommes-nous encore R.E.M. ?
 1	»	»	PUNCT	_	_	3	punct	_	_
 2	Stipe	Stipe	PROPN	_	_	3	subj	_	_
-3	reconnaît	reconnaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	parataxis	_	_
+3	reconnaît	reconnaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
@@ -27007,8 +27007,8 @@
 12	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det	_	_
 13	contributeurs	contributeur	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	majeurs	majeur	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
-15	:	:	PUNCT	_	_	3	punct	_	_
-16	«	«	PUNCT	_	_	3	punct	_	_
+15	:	:	PUNCT	_	_	29	punct	_	_
+16	«	«	PUNCT	_	_	29	punct	_	_
 17	Pour	pour	ADP	_	_	29	mod	_	wordform=pour
 18	moi	soi	PRON	_	Number=Sing|Person=1	17	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
@@ -27021,7 +27021,7 @@
 26	que	que	SCONJ	_	_	25	unk@fixed	_	_
 27	R.E.M.	R.E.M.	PROPN	_	_	24	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	17	punct	_	_
-29	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+29	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 30	-nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	29	subj	_	_
 31	encore	encore	ADV	_	_	32	mod	_	_
 32	R.E.M.	R.E.M.	PROPN	_	_	29	comp:pred	_	_
