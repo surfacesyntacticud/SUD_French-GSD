@@ -262,10 +262,10 @@
 # sent_id = fr-ud-dev_00012
 # text = L'Abime de l'abime de Vladimir Holan à la Maison d'Arrêt d'Avignon (2001).
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	INTITLE=Yes|SpaceAfter=No|wordform=l'
-2	Abime	abîme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	EXTPOS=PROPN|Type=Title|wordform=abime
+2	Abime	abîme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	EXTPOS=PROPN|Type=Title|wordform=abîme
 3	de	de	ADP	_	_	2	udep	_	INTITLE=Yes
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	INTITLE=Yes|SpaceAfter=No
-5	abime	abîme	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	INTITLE=Yes
+5	abime	abîme	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	INTITLE=Yes|wordform=abîme
 6	de	de	ADP	_	_	2	udep	_	_
 7	Vladimir	Vladimir	PROPN	_	_	6	comp:obj	_	_
 8	Holan	Holan	PROPN	_	_	7	flat@name	_	_
@@ -273,7 +273,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Maison	maison	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	wordform=maison
 12	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
-13	Arrêt	Arrêt	PROPN	_	_	12	comp:obj	_	_
+13	Arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	wordform=arrêt
 14	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
 15	Avignon	Avignon	PROPN	_	_	14	comp:obj	_	_
 16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
