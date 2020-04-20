@@ -26414,7 +26414,7 @@
 15	monde	monde	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	et	et	CCONJ	_	_	19	cc	_	_
 17	deux	deux	NUM	_	_	18	det	_	_
-18	fois	fois	NOUN	_	Gender=Fem|Number=Plur	22	mod	_	_
+18	fois	fois	NOUN	_	Gender=Fem|Number=Plur	19	mod	_	_
 19	à	à	ADP	_	_	4	conj	_	_
 20	St.	saint	NOUN	_	Gender=Masc|Number=Sing	22	mod	_	wordform=st.
 21	Silas	Silas	PROPN	_	_	20	flat@name	_	_

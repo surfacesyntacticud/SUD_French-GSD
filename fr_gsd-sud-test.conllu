@@ -4053,7 +4053,7 @@
 22	Lorenzo	Lorenzo	PROPN	_	_	21	flat@name	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	tous	tout	ADJ	_	Gender=Masc|Number=Plur	25	mod	_	_
-25	deux	deux	NUM	_	_	27	mod	_	_
+25	deux	deux	NUM	_	_	26	mod	_	_
 26	sur	sur	ADP	_	Shared=Yes	21	udep	_	_
 27	Yamaha	Yamaha	PROPN	_	_	26	comp:obj	_	_
 28	M1	M1	PROPN	_	_	27	flat@name	_	_
