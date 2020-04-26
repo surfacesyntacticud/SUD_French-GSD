@@ -187,7 +187,7 @@
 # text = C'est véritablement pour le futur baptisé un changement de cap.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No|wordform=c'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	véritablement	véritablement	ADV	_	_	9	mod	_	_
+3	véritablement	véritablement	ADV	_	_	2	mod	_	_
 4	pour	pour	ADP	_	_	2	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	futur	futur	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
@@ -5809,7 +5809,7 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
 2	ville	ville	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	aussi	aussi	ADV	_	_	6	mod	_	_
+4	aussi	aussi	ADV	_	_	3	mod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	port	port	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 7	parmi	parmi	ADP	_	_	6	udep	_	_
@@ -5918,7 +5918,7 @@
 20	de	de	ADP	_	_	19	mod	_	_
 21	bien	bien	ADV	_	_	22	mod	_	_
 22	convaincant	convaincant	ADJ	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
-23	encore	encore	ADV	_	_	20	mod	_	SpaceAfter=No
+23	encore	encore	ADV	_	_	19	mod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-dev_00215
@@ -6130,7 +6130,7 @@
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	Carey	Carey	PROPN	_	_	12	subj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	aussi	aussi	ADV	_	_	15	mod	_	_
+13	aussi	aussi	ADV	_	_	12	mod	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	auteur	auteur	NOUN	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
@@ -9223,7 +9223,7 @@
 1	Demi	Demi	PROPN	_	_	3	subj	_	_
 2	Mondaine	Mondaine	PROPN	_	_	1	flat@name	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	également	également	ADV	_	_	6	mod	_	_
+4	également	également	ADV	_	_	3	mod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 7	de	de	ADP	_	_	6	udep	_	_
@@ -12612,7 +12612,7 @@
 9	formule	formule	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
-12	à	à	ADP	_	_	11	mod	_	EXTPOS=ADV|Type=MWE
+12	à	à	ADP	_	_	15	mod	_	EXTPOS=ADV|Type=MWE
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det@fixed	_	_
 14	fois	fois	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj@fixed	_	_
 15	souple	souple	ADJ	_	Gender=Fem|Number=Sing	11	comp:pred	_	_
@@ -16053,7 +16053,7 @@
 # text = C'est également un excellent tireur à trois points, exercice qu'il pratique volontiers, 0,9 tirs par match durant sa carrière NBA avec un pourcentage de réussite de 32,8%.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No|wordform=c'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	également	également	ADV	_	_	6	mod	_	_
+3	également	également	ADV	_	_	2	mod	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	excellent	excellent	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
 6	tireur	tireur	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
@@ -20159,7 +20159,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	disomie	disomie	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	donc	donc	ADV	_	_	6	mod	_	_
+4	donc	donc	ADV	_	_	3	mod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	mode	mode	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 7	de	de	ADP	_	_	6	udep	_	_
@@ -23171,7 +23171,7 @@
 # text = Ce sont également des sources d'hommes lettrés, capables de servir au mieux la couronne et ses besoins administratifs.
 1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=ce
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	également	également	ADV	_	_	5	mod	_	_
+3	également	également	ADV	_	_	2	mod	_	_
 4	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	sources	source	NOUN	_	Gender=Fem|Number=Plur	2	comp:pred	_	_
 6	d'	de	ADP	_	_	5	udep	_	SpaceAfter=No
@@ -23883,7 +23883,7 @@
 8	Sifca	Sifca	PROPN	_	_	10	subj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	alors	alors	ADV	_	_	14	mod	_	_
+11	alors	alors	ADV	_	_	10	mod	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	premier	premier	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 14	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
@@ -27023,7 +27023,7 @@
 28	,	,	PUNCT	_	_	17	punct	_	_
 29	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 30	-nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	29	subj	_	_
-31	encore	encore	ADV	_	_	32	mod	_	_
+31	encore	encore	ADV	_	_	29	mod	_	_
 32	R.E.M.	R.E.M.	PROPN	_	_	29	comp:pred	_	_
 33	?	?	PUNCT	_	_	29	punct	_	_
 
@@ -31140,8 +31140,8 @@
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	philosophes	philosophe	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	encore	encore	ADV	_	_	8	mod	_	_
-5	souvent	souvent	ADV	_	_	8	mod	_	_
+4	encore	encore	ADV	_	_	3	mod	_	_
+5	souvent	souvent	ADV	_	_	3	mod	_	_
 6	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 7	grands	grand	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 8	scientifiques	scientifique	NOUN	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
@@ -31511,7 +31511,7 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	parasites	parasite	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	généralement	généralement	ADV	_	_	15	mod	_	_
+13	généralement	généralement	ADV	_	_	12	mod	_	_
 14	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	sources	source	NOUN	_	Gender=Fem|Number=Plur	12	comp:pred	_	_
 16	de	de	ADP	_	_	15	udep	_	_
@@ -32202,7 +32202,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-12	cependant	cependant	ADV	_	_	15	mod	_	_
+12	cependant	cependant	ADV	_	_	11	mod	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	grosse	gros	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 15	productrice	producteur	NOUN	_	Gender=Fem|Number=Sing	11	comp:pred	_	SpaceAfter=No
@@ -33783,7 +33783,7 @@
 # text = Ils étaient déjà neuf à avoir appris leur licenciement au mois de juillet, juste avant les vacances.
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	wordform=ils
 2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	déjà	déjà	ADV	_	_	4	mod	_	_
+3	déjà	déjà	ADV	_	_	2	mod	_	_
 4	neuf	neuf	NUM	_	_	2	comp:pred	_	_
 5	à	à	ADP	_	_	4	udep	_	_
 6	avoir	avoir	AUX	_	VerbForm=Inf	5	comp:obj	_	_
@@ -35116,7 +35116,7 @@
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	aussi	aussi	ADV	_	_	15	mod	_	_
+13	aussi	aussi	ADV	_	_	12	mod	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	démarrage	démarrage	NOUN	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
 16-17	du	_	_	_	_	_	_	_	_
@@ -40215,7 +40215,7 @@
 # text = Il était aussi le petit-fils de Paul Émile.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	aussi	aussi	ADV	_	_	5	mod	_	_
+3	aussi	aussi	ADV	_	_	2	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	petit-fils	petit-fils	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 6	de	de	ADP	_	_	5	udep	_	_
@@ -40595,7 +40595,7 @@
 24	que	que	SCONJ	_	_	23	comp:obj	_	_
 25	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	26	subj	_	_
 26	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
-27	fiscalement	fiscalement	ADV	_	_	28	mod	_	_
+27	fiscalement	fiscalement	ADV	_	_	26	mod	_	_
 28	résident	résident	NOUN	_	Gender=Masc|Number=Sing	26	comp:pred	_	_
 29	en	en	ADP	_	_	28	udep	_	_
 30	France	France	PROPN	_	_	29	comp:obj	_	SpaceAfter=No

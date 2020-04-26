@@ -1025,7 +1025,7 @@
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Nigéria	Nigéria	PROPN	_	_	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	autant	autant	ADV	_	_	10	mod	_	_
+21	autant	autant	ADV	_	_	7	mod	_	_
 22	qu'	que	SCONJ	_	_	21	mod	_	SpaceAfter=No
 23	avec	avec	ADP	_	_	22	comp:obj	_	_
 24	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -5538,7 +5538,7 @@
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	plutôt	plutôt	ADV	_	_	12	mod	_	_
+9	plutôt	plutôt	ADV	_	_	8	mod	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
@@ -8212,7 +8212,7 @@
 17	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 19	bien	bien	ADV	_	_	20	mod@fixed	_	_
-20	sûr	sûr	ADV	_	_	22	mod	_	EXTPOS=ADV|Type=MWE
+20	sûr	sûr	ADV	_	_	18	mod	_	EXTPOS=ADV|Type=MWE
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	cas	cas	NOUN	_	Gender=Masc|Number=Sing	18	comp:pred	_	_
 23-24	des	_	_	_	_	_	_	_	_
@@ -8303,7 +8303,7 @@
 2	produits	produit	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
 3	échangés	échanger	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	mod	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	essentiellement	essentiellement	ADV	_	_	7	mod	_	_
+5	essentiellement	essentiellement	ADV	_	_	4	mod	_	_
 6	du	du	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	sel	sel	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
@@ -8392,7 +8392,7 @@
 4	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	tout	tout	ADV	_	_	7	mod	_	_
-7	simplement	simplement	ADV	_	_	10	mod	_	_
+7	simplement	simplement	ADV	_	_	5	mod	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	grand	grand	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
 10	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
@@ -9620,7 +9620,7 @@
 # text = Il est souvent victime de petites arnaques de la part de l'équipe et chaque fois qu'ils veulent éviter de payer leur addition.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	souvent	souvent	ADV	_	_	4	mod	_	_
+3	souvent	souvent	ADV	_	_	2	mod	_	_
 4	victime	victime	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	petites	petit	ADJ	_	Gender=Fem|Number=Plur	7	mod	_	_
@@ -10164,7 +10164,7 @@
 17	par	par	ADP	_	_	16	orphan	_	_
 18	41,7	41,7	NUM	_	_	19	det	_	SpaceAfter=No
 19	%	%	SYM	_	_	17	comp:obj	_	EXTPOS=NOUN|Type=Conv
-20	alors	alors	ADV	_	Shared=Yes	3	mod	_	EXTPOS=SCONJ|Type=MWE
+20	alors	alors	ADV	_	Shared=Yes	16	mod	_	EXTPOS=SCONJ|Type=MWE
 21	que	que	SCONJ	_	_	20	unk@fixed	_	_
 22	2,3	2,3	NUM	_	_	23	det	_	SpaceAfter=No
 23	%	%	SYM	_	_	27	subj	_	EXTPOS=NOUN|Type=Conv
