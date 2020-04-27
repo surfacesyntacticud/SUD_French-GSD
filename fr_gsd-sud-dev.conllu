@@ -3644,7 +3644,7 @@
 6	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
 7	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	11	comp:obl	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
-9	même	même	ADV	_	_	10	mod	_	_
+9	même	même	ADV	_	_	8	mod	_	_
 10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
 11	venir	venir	VERB	_	VerbForm=Inf	10	comp:aux@caus	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -4691,7 +4691,7 @@
 1	Charlie	Charlie	PROPN	_	_	3	subj	_	_
 2	Hebdo	Hebdo	PROPN	_	_	1	flat@name	_	_
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	néanmoins	néanmoins	ADV	_	_	5	mod	_	_
+4	néanmoins	néanmoins	ADV	_	_	3	mod	_	_
 5	viré	virer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	dessinateur	dessinateur	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -5533,7 +5533,7 @@
 # text = Il est aussi connu sous le nom de voisement séquentiel.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	aussi	aussi	ADV	_	_	4	mod	_	_
+3	aussi	aussi	ADV	_	_	2	mod	_	_
 4	connu	connaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 5	sous	sous	ADP	_	_	2	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -12211,7 +12211,7 @@
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
 2	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	aussi	aussi	ADV	_	_	6	mod	_	_
+4	aussi	aussi	ADV	_	_	3	mod	_	_
 5	toute	tout	ADJ	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
 6	trouvée	trouver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 7	pour	pour	ADP	_	_	3	mod	_	_
@@ -18438,7 +18438,7 @@
 5	sur	sur	ADP	_	_	2	udep	_	_
 6	Coye	Coye	PROPN	_	_	5	comp:obj	_	_
 7	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	2	mod	_	_
-8	jadis	jadis	ADV	_	_	9	mod	_	_
+8	jadis	jadis	ADV	_	_	7	mod	_	_
 9	existé	exister	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 10	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	malheureusement	malheureusement	ADV	_	_	10	mod	_	_
@@ -22339,7 +22339,7 @@
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	réponses	réponse	NOUN	_	Gender=Fem|Number=Plur	3	subj@pass	_	_
 3	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-4	bientôt	bientôt	ADV	_	_	5	mod	_	_
+4	bientôt	bientôt	ADV	_	_	3	mod	_	_
 5	présentées	présenter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
@@ -27831,7 +27831,7 @@
 2	hôpital	hôpital	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	comp@pass	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	finalement	finalement	ADV	_	_	6	mod	_	_
+5	finalement	finalement	ADV	_	_	4	mod	_	_
 6	transformé	transformer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 7	en	en	ADP	_	_	4	udep	_	_
 8	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	comp:obj	_	_
@@ -32980,7 +32980,7 @@
 # text = Elle a toutefois précisé que sa chaîne étudiait aussi la possibilité d'adapter d'autres histoires de DC.
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	toutefois	toutefois	ADV	_	_	4	mod	_	_
+3	toutefois	toutefois	ADV	_	_	2	mod	_	_
 4	précisé	préciser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
@@ -34854,7 +34854,7 @@
 18	semi-commerciale	semi-commercial	ADJ	_	Gender=Fem|Number=Sing	17	mod	_	_
 19	y	y	PRON	_	_	20	mod	_	_
 20	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-21	aussi	aussi	ADV	_	_	22	mod	_	_
+21	aussi	aussi	ADV	_	_	20	mod	_	_
 22	entraîné	entraîner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	déclin	déclin	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
@@ -37275,7 +37275,7 @@
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 5	décoration	décoration	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	toutefois	toutefois	ADV	_	_	8	mod	_	_
+7	toutefois	toutefois	ADV	_	_	6	mod	_	_
 8	conservé	conserver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 9	par	par	ADP	_	_	6	mod	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
