@@ -3178,7 +3178,7 @@
 # sent_id = fr-ud-dev_00114
 # text = Sont-ils impuissants, voire incompétents, pour résoudre les problèmes politiques à l'intérieur de leur territoire ?
 1	Sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|wordform=sont
-2	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	subj	_	_
+2	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	subj	_	wordform=ils
 3	impuissants	impuissant	ADJ	_	Gender=Masc|Number=Plur	1	comp:pred	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	voire	voire	ADV	_	_	6	cc	_	_
@@ -6113,7 +6113,7 @@
 4	pourquoi	pourquoi	ADV	_	_	1	mod	_	_
 5	Le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	wordform=le
 6	bénirais	bénir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
+7	-je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	wordform=je
 8	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00223
@@ -7564,11 +7564,11 @@
 14	se	se	PRON	_	Person=3|PronType=Prs	15	comp@expl	_	_
 15	suicide	suicider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 16	-t	t	PART	_	_	17	unk	_	SpaceAfter=No
-17	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj@expl	_	_
+17	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj@expl	_	wordform=elle
 18	ou	ou	CCONJ	_	_	20	cc	_	_
 19	s'	se	PRON	_	Person=3|PronType=Prs	20	comp@expl	_	SpaceAfter=No
 20	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	SpaceAfter=No
-21	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
+21	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	wordform=il
 22	d'	de	ADP	_	_	20	comp:obl	_	SpaceAfter=No
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	accident	accident	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
@@ -9050,7 +9050,7 @@
 # text = Qu'est-ce qui va augmenter ?
 1	Qu'	que	PRON	_	PronType=Int	2	comp:pred	_	SpaceAfter=No|wordform=qu'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
+3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	wordform=ce
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	_
 6	augmenter	augmenter	VERB	_	VerbForm=Inf	5	comp:obj@x	_	_
@@ -9547,7 +9547,7 @@
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	que	que	PRON	_	PronType=Int	26	comp:obj	_	_
 23	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
-24	-vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	23	subj	_	_
+24	-vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	23	subj	_	wordform=vous
 25	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	26	comp:obl	_	_
 26	apporter	apporter	VERB	_	VerbForm=Inf	23	comp:obj@x	_	_
 27	?	?	PUNCT	_	_	23	punct	_	SpaceAfter=No
@@ -9616,7 +9616,7 @@
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	préservatifs	préservatif	NOUN	_	Gender=Masc|Number=Plur	8	subj:pass	_	_
 8	seraient	être	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj@expl	_	_
+9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj@expl	_	wordform=ils
 10	détenus	détenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
 11	par	par	ADP	_	_	10	comp:obl@agent	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -11822,7 +11822,7 @@
 # text = « Est-ce qu'il y a un poème ce matin ?
 1	«	«	PUNCT	_	_	2	punct	_	_
 2	Est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|wordform=est
-3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
+3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	wordform=ce
 4	qu'	que	SCONJ	_	_	2	comp:pred	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 6	y	y	PRON	_	_	7	comp@expl	_	_
@@ -13995,7 +13995,7 @@
 45	,	,	PUNCT	_	_	46	punct	_	_
 46	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
 47	-t	t	PART	_	_	48	unk	_	SpaceAfter=No
-48	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	subj	_	_
+48	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	subj	_	wordform=il
 49	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	comp:aux@tense	_	_
 50	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	46	udep	_	_
 51	soir	soir	NOUN	_	Gender=Masc|Number=Sing	50	mod	_	SpaceAfter=No
@@ -16765,7 +16765,7 @@
 # text = Va-t-il se circonscrire à cette seule matière ?
 1	Va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|wordform=va
 2	-t	t	PART	_	_	3	unk	_	SpaceAfter=No
-3	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	subj	_	_
+3	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	subj	_	wordform=il
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	_
 5	circonscrire	circonscrire	VERB	_	VerbForm=Inf	1	comp:obj@x	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
@@ -17171,7 +17171,7 @@
 17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	parataxis	_	SpaceAfter=No
-20	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
+20	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	wordform=il
 21	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
@@ -17849,7 +17849,7 @@
 1	Laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Int	5	comp:pred	_	wordform=laquelle
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-t	t	PART	_	_	4	unk	_	SpaceAfter=No
-4	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+4	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
 5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 6	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -18092,7 +18092,7 @@
 1	À	à	ADP	_	_	3	mod	_	EXTPOS=ADV|Type=MWE|wordform=à
 2	peine	peine	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj@fixed	_	_
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
 5	distribué	distribuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	armes	arme	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	SpaceAfter=No
@@ -18222,7 +18222,7 @@
 1	Wotan	Wotan	PROPN	_	_	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
 5	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 6	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 7	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
@@ -20192,7 +20192,7 @@
 1	Mais	mais	CCONJ	_	_	7	cc	_	wordform=mais
 2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
-4	-ci	ci	PART	_	_	3	mod	_	SpaceAfter=No
+4	-ci	ci	PART	_	_	3	mod	_	SpaceAfter=No|wordform=ci
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	y	y	PRON	_	_	7	comp@expl	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -20477,7 +20477,7 @@
 # sent_id = fr-ud-dev_00742
 # text = Attardons-nous désormais sur la Une du quotidien « L'Economiste » de 31 mai 2011.
 1	Attardons	attarder	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|wordform=attardons
-2	-nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	1	comp:obj	_	_
+2	-nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	1	comp:obj	_	wordform=nous
 3	désormais	désormais	ADV	_	_	1	mod	_	_
 4	sur	sur	ADP	_	_	1	udep	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -22725,7 +22725,7 @@
 2	viens	venir	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	suis	suivre	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
-5	-moi	soi	PRON	_	Number=Sing|Person=1	4	comp:obj	_	_
+5	-moi	soi	PRON	_	Number=Sing|Person=1	4	comp:obj	_	wordform=moi
 6	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00824
@@ -23372,11 +23372,11 @@
 1	Comment	comment	ADV	_	_	3	mod	_	wordform=comment
 2	Lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	wordform=lui
 3	dirais	dire	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+4	-je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	wordform=je
 5	:	:	PUNCT	_	_	7	punct	_	_
 6	Béni	bénir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	wordform=béni
 7	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
-8	-Tu	il	PRON	_	Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	subj	_	SpaceAfter=No|wordform=-tu
+8	-Tu	il	PRON	_	Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	subj	_	SpaceAfter=No|wordform=tu
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	Éternel	Éternel	PROPN	_	_	8	appos	_	SpaceAfter=No
@@ -23899,7 +23899,7 @@
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:pred	_	SpaceAfter=No|wordform=peut
-7	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	subj	_	_
+7	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	subj	_	wordform=on
 8	y	y	PRON	_	_	9	mod	_	_
 9	prendre	prendre	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
 10	épouse	épouse	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj@lvc	_	_
@@ -27022,7 +27022,7 @@
 27	R.E.M.	R.E.M.	PROPN	_	_	24	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	17	punct	_	_
 29	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
-30	-nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	29	subj	_	_
+30	-nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	29	subj	_	wordform=nous
 31	encore	encore	ADV	_	_	29	mod	_	_
 32	R.E.M.	R.E.M.	PROPN	_	_	29	comp:pred	_	_
 33	?	?	PUNCT	_	_	29	punct	_	_
@@ -33511,7 +33511,7 @@
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	_
 5	produira	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	-t	t	PART	_	_	7	unk	_	SpaceAfter=No
-7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
+7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	wordform=il
 8	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_01215
@@ -39270,7 +39270,7 @@
 4	5	5	NUM	_	_	3	mod	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	comp@pass	_	SpaceAfter=No
 6	écrivait	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
+7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	wordform=il
 8	3	3	NUM	_	_	6	comp:pred	_	_
 9	in	in	ADP	_	_	8	udep	_	_
 10	5	5	NUM	_	_	9	comp:obj	_	SpaceAfter=No
