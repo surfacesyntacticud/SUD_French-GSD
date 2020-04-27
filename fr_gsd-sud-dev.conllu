@@ -35192,7 +35192,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	queue	queue	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	aussi	aussi	ADV	_	_	8	mod	_	_
+4	aussi	aussi	ADV	_	_	2	mod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	mod	_	EXTPOS=ADV|Type=MWE
 6	peu	peu	ADV	_	_	5	unk@fixed	_	_
 7	plus	plus	ADV	_	_	3	mod	_	_

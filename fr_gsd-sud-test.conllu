@@ -436,7 +436,7 @@
 6	de	de	ADP	_	_	5	udep	_	_
 7	communication	communication	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	aussi	aussi	ADV	_	_	10	mod	_	_
+9	aussi	aussi	ADV	_	_	8	mod	_	_
 10	vouée	vouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
 11	à	à	ADP	_	_	10	comp:obl@x	_	_
 12	être	être	AUX	_	VerbForm=Inf	11	comp:obj	_	_
@@ -1526,7 +1526,7 @@
 20	,	,	PUNCT	_	_	1	punct	_	_
 21	s'	se	PRON	_	Person=3|PronType=Prs	24	comp:obj@agent	_	SpaceAfter=No
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj@expl	_	wordform=ils
+23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj@expl	_	wordform=il
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
 25	arrêter	arrêter	VERB	_	VerbForm=Inf	24	comp:aux@caus	_	_
 26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	22	mod	_	_
@@ -3742,7 +3742,7 @@
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-17	aussi	aussi	ADV	_	_	20	mod	_	_
+17	aussi	aussi	ADV	_	_	16	mod	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	plus	plus	ADV	_	_	20	mod	_	_
 20	stimulante	stimulant	ADJ	_	Gender=Fem|Number=Sing	16	comp:pred	_	SpaceAfter=No
@@ -5512,7 +5512,7 @@
 6	femme	femme	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	très	très	ADV	_	_	9	mod	_	_
-9	rapidement	rapidement	ADV	_	_	7	mod	_	_
+9	rapidement	rapidement	ADV	_	_	10	mod	_	_
 10	engagé	engager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
