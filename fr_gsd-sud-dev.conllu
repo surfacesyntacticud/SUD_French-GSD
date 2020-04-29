@@ -2275,7 +2275,7 @@
 25	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	subj	_	_
 26	en	en	PRON	_	Person=3	29	comp:obl	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-28	finalement	finalement	ADV	_	_	29	mod	_	_
+28	finalement	finalement	ADV	_	_	27	mod	_	_
 29	déduit	déduire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
 30	qu'	que	SCONJ	_	_	29	comp:obj	_	SpaceAfter=No
 31	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	subj@expl	_	_
@@ -4272,7 +4272,7 @@
 2	information	information	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	d'	de	ADP	_	_	7	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
+5	d'	de	ADP	_	_	4	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
 6	ailleurs	ailleurs	ADV	_	_	5	comp:obj@fixed	_	_
 7	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -8028,7 +8028,7 @@
 3	remarquable	remarquable	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	être	être	AUX	_	VerbForm=Inf	4	comp:obj@x	_	_
-6	ici	ici	ADV	_	_	7	mod	_	_
+6	ici	ici	ADV	_	_	4	mod	_	_
 7	décernée	décerner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -8821,7 +8821,7 @@
 2	jeune-homme	jeune-homme	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	tout	tout	ADV	_	_	5	mod	_	_
-5	d'	de	ADP	_	_	7	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
+5	d'	de	ADP	_	_	3	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
 6	abord	abord	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj@fixed	_	_
 7	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 8	attaché	attacher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	_
@@ -9334,7 +9334,7 @@
 2	musée	musée	NOUN	_	Gender=Masc|Number=Sing	4	subj@pass	_	_
 3	taurin	taurin	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	d'	de	ADP	_	_	7	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
+5	d'	de	ADP	_	_	4	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
 6	ailleurs	ailleurs	ADV	_	_	5	comp:obj@fixed	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 8	construit	construire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
@@ -10153,7 +10153,7 @@
 12	important	important	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
 13	n'	ne	ADV	_	Polarity=Neg	14	mod	_	SpaceAfter=No
 14	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	sans	sans	ADP	_	_	18	mod	_	EXTPOS=ADV|Type=MWE
+15	sans	sans	ADP	_	_	14	mod	_	EXTPOS=ADV|Type=MWE
 16	doute	doute	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@fixed	_	_
 17	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 18	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
@@ -11740,7 +11740,7 @@
 16	)	)	PUNCT	_	_	14	punct	_	_
 17	qui	qui	PRON	_	PronType=Rel	18	subj	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	mod	_	EXTPOS=ADV|Type=MWE
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	mod	_	EXTPOS=ADV|Type=MWE
 20	peu	peu	ADV	_	_	19	unk@fixed	_	_
 21	jaloux	jaloux	ADJ	_	Gender=Masc|Number=Sing	18	comp:pred	_	_
 22	de	de	ADP	_	_	21	comp:obl@x	_	_
@@ -12185,7 +12185,7 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
 15-16	du	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	18	mod	_	EXTPOS=ADV|Type=MWE
+15	de	de	ADP	_	_	13	mod	_	EXTPOS=ADV|Type=MWE
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det@fixed	_	_
 17	tout	tout	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@fixed	_	_
 18	respectée	respecter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	SpaceAfter=No
@@ -12612,7 +12612,7 @@
 9	formule	formule	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
-12	à	à	ADP	_	_	15	mod	_	EXTPOS=ADV|Type=MWE
+12	à	à	ADP	_	_	11	mod	_	EXTPOS=ADV|Type=MWE
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det@fixed	_	_
 14	fois	fois	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj@fixed	_	_
 15	souple	souple	ADJ	_	Gender=Fem|Number=Sing	11	comp:pred	_	_
@@ -18375,7 +18375,7 @@
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	fillette	fillette	NOUN	_	Gender=Fem|Number=Sing	22	subj	_	_
 22	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
-23	de	de	ADP	_	_	25	mod	_	EXTPOS=ADV|Type=MWE
+23	de	de	ADP	_	_	22	mod	_	EXTPOS=ADV|Type=MWE
 24	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	23	comp:obj@fixed	_	_
 25	heureuse	heureux	ADJ	_	Gender=Fem|Number=Sing	22	comp:pred	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	7	punct	_	_
@@ -18384,7 +18384,7 @@
 # text = C'était sans doute le premier séjour de Nééra dans la métropole de l'Attique.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No|wordform=c'
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	sans	sans	ADP	_	_	7	mod	_	EXTPOS=ADV|Type=MWE
+3	sans	sans	ADP	_	_	2	mod	_	EXTPOS=ADV|Type=MWE
 4	doute	doute	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj@fixed	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
@@ -21417,7 +21417,7 @@
 11	évènement	évènement	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-14	plus	plus	ADV	_	_	12	mod	_	_
+14	plus	plus	ADV	_	_	15	mod	_	_
 15	important	important	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -24550,7 +24550,7 @@
 2	adhésion	adhésion	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	plus	plus	ADV	_	_	3	mod	_	_
+5	plus	plus	ADV	_	_	6	mod	_	_
 6	forte	fort	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 7	dans	dans	ADP	_	_	3	mod	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
@@ -24581,7 +24581,7 @@
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
 18	Eaucourt	Eaucourt	PROPN	_	_	17	comp:obj	_	_
 19	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-20	plus	plus	ADV	_	_	19	mod	_	_
+20	plus	plus	ADV	_	_	21	mod	_	_
 21	considérables	considérable	ADJ	_	Gender=Masc|Number=Plur	19	comp:pred	_	_
 22	qu'	que	SCONJ	_	_	21	mod	_	SpaceAfter=No
 23	aujourd'hui	aujourd'hui	ADV	_	_	22	comp:obj	_	SpaceAfter=No
@@ -25087,7 +25087,7 @@
 6	naturels	naturel	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	maintenant	maintenant	ADV	_	_	7	mod	_	_
-9	bien	bien	ADV	_	_	7	mod	_	_
+9	bien	bien	ADV	_	_	10	mod	_	_
 10	implantée	implanter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 11	dans	dans	ADP	_	_	10	comp:obl	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -26689,7 +26689,7 @@
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	subj	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-19	à	à	ADP	_	_	22	mod	_	EXTPOS=ADV|Type=MWE
+19	à	à	ADP	_	_	18	mod	_	EXTPOS=ADV|Type=MWE
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det@fixed	_	_
 21	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj@fixed	_	_
 22	enfant	enfant	NOUN	_	Gender=Fem|Number=Sing	18	comp:pred	_	_
@@ -28534,7 +28534,7 @@
 1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 2	Enzo	Enzo	PROPN	_	_	1	flat@name	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	d'	de	ADP	_	_	6	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
+4	d'	de	ADP	_	_	3	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
 5	ailleurs	ailleurs	ADV	_	_	4	comp:obj@fixed	_	_
 6	envoyé	envoyer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 7	paître	paître	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
@@ -28740,8 +28740,8 @@
 3	équipes	équipe	NOUN	_	Gender=Fem|Number=Plur	5	subj	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	8	comp:obj	_	SpaceAfter=No
 5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	cependant	cependant	ADV	_	_	8	mod	_	_
-7	déjà	déjà	ADV	_	_	8	mod	_	_
+6	cependant	cependant	ADV	_	_	5	mod	_	_
+7	déjà	déjà	ADV	_	_	5	mod	_	_
 8	rencontrées	rencontrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 9	lors	lors	ADV	_	_	5	mod	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
@@ -29105,7 +29105,7 @@
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	couples	couple	NOUN	_	Gender=Masc|Number=Plur	3	subj@pass	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	à	à	ADP	_	_	6	mod	_	EXTPOS=ADV|Type=MWE
+4	à	à	ADP	_	_	3	mod	_	EXTPOS=ADV|Type=MWE
 5	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	4	comp:obj@fixed	_	_
 6	reconstitués	reconstituer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 7	et	et	CCONJ	_	_	10	cc	_	_
@@ -29503,7 +29503,7 @@
 27	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 28	pas	pas	ADV	_	Polarity=Neg	27	mod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	28	punct	_	_
-30	de	de	ADP	_	_	33	mod	_	EXTPOS=ADV|Type=MWE
+30	de	de	ADP	_	_	27	mod	_	EXTPOS=ADV|Type=MWE
 31	facto	facto	NOUN	_	_	30	unk@fixed	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	30	punct	_	_
 33	opposées	opposer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
@@ -30424,7 +30424,7 @@
 2	serions	être	AUX	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	deux	deux	NUM	_	_	4	det	_	_
 4	fois	fois	NOUN	_	Gender=Fem|Number=Plur	5	mod	_	_
-5	plus	plus	ADV	_	_	2	mod	_	_
+5	plus	plus	ADV	_	_	6	mod	_	_
 6	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	2	comp:pred	_	_
 7	que	que	SCONJ	_	_	6	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -32410,7 +32410,7 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
 2	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	d'	de	ADP	_	_	7	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
+4	d'	de	ADP	_	_	3	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
 5	ailleurs	ailleurs	ADV	_	_	4	comp:obj@fixed	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	fondement	fondement	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
@@ -32468,7 +32468,7 @@
 11	n'	ne	ADV	_	Polarity=Neg	12	mod	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
-14	plus	plus	ADV	_	_	12	mod	_	_
+14	plus	plus	ADV	_	_	15	mod	_	_
 15	important	important	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
 16	qu'	que	SCONJ	_	_	15	mod	_	SpaceAfter=No
 17	un	un	PRON	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
@@ -33261,7 +33261,7 @@
 2	résultats	résultat	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	cependant	cependant	ADV	_	_	3	mod	_	_
-5	plus	plus	ADV	_	_	3	mod	_	_
+5	plus	plus	ADV	_	_	6	mod	_	_
 6	faibles	faible	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
 7	qu'	que	SCONJ	_	_	6	mod	_	SpaceAfter=No
 8	en	en	ADP	_	_	7	comp:obj	_	_
@@ -33417,7 +33417,7 @@
 22	participation	participation	NOUN	_	Gender=Fem|Number=Sing	23	subj	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	toujours	toujours	ADV	_	_	23	mod	_	_
-25	plus	plus	ADV	_	_	23	mod	_	_
+25	plus	plus	ADV	_	_	26	mod	_	_
 26	élevée	élever	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@tense	_	_
 27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 28	jusqu'	jusque	ADP	_	_	23	mod	_	SpaceAfter=No
@@ -33473,7 +33473,7 @@
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	n'	ne	ADV	_	Polarity=Neg	16	mod	_	SpaceAfter=No
 16	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-17	par	par	ADP	_	_	20	mod	_	EXTPOS=ADV|Type=MWE
+17	par	par	ADP	_	_	16	mod	_	EXTPOS=ADV|Type=MWE
 18	conséquent	conséquent	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj@fixed	_	_
 19	pas	pas	ADV	_	Polarity=Neg	16	mod	_	_
 20	réagi	réagir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
@@ -33957,7 +33957,7 @@
 9	homme	homme	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	comp:obj	_	_
 11	encore	encore	ADV	_	_	10	mod	_	_
-12	plus	plus	ADV	_	_	10	mod	_	_
+12	plus	plus	ADV	_	_	13	mod	_	_
 13	compliquée	compliqué	ADJ	_	Gender=Fem|Number=Sing	10	comp:pred	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	risquée	risqué	ADJ	_	Gender=Fem|Number=Sing	13	conj	_	_
@@ -35195,7 +35195,7 @@
 4	aussi	aussi	ADV	_	_	2	mod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	mod	_	EXTPOS=ADV|Type=MWE
 6	peu	peu	ADV	_	_	5	unk@fixed	_	_
-7	plus	plus	ADV	_	_	3	mod	_	_
+7	plus	plus	ADV	_	_	8	mod	_	_
 8	épaisse	épais	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 9	à	à	ADP	_	_	3	mod	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
@@ -35606,7 +35606,7 @@
 7	capitaine	capitaine	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	d'	de	ADP	_	_	2	comp:obj@x	_	SpaceAfter=No
 9	être	être	AUX	_	VerbForm=Inf	8	comp:obj	_	_
-10	de	de	ADP	_	_	12	mod	_	EXTPOS=ADV|Type=MWE
+10	de	de	ADP	_	_	9	mod	_	EXTPOS=ADV|Type=MWE
 11	nouveau	nouveau	ADJ	_	_	10	comp:obj@fixed	_	_
 12	réintégré	réintégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 13	dans	dans	ADP	_	_	12	comp:obl	_	_
@@ -37803,7 +37803,7 @@
 48	soupapes	soupape	NOUN	_	Gender=Fem|Number=Plur	46	conj	_	_
 49	ne	ne	ADV	_	Polarity=Neg	50	mod	_	_
 50	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-51	plus	plus	ADV	_	Polarity=Neg	50	mod	_	_
+51	plus	plus	ADV	_	Polarity=Neg	52	mod	_	_
 52	nécessaires	nécessaire	ADJ	_	Gender=Fem|Number=Plur	50	comp:pred	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	50	punct	_	_
 
@@ -38818,7 +38818,7 @@
 13	se	se	PRON	_	Person=3|PronType=Prs	14	comp:obj	_	_
 14	retirent	retirer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 15	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-16	plus	plus	ADV	_	_	15	mod	_	_
+16	plus	plus	ADV	_	_	17	mod	_	_
 17	évolués	évolué	ADJ	_	Gender=Masc|Number=Plur	15	comp:pred	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -40994,7 +40994,7 @@
 1	Claude	Claude	PROPN	_	_	3	subj	_	_
 2	Gewerc	Gewerc	PROPN	_	_	1	flat@name	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	quant	quant	ADV	_	_	7	mod	_	EXTPOS=ADP|Type=MWE
+4	quant	quant	ADV	_	_	3	mod	_	EXTPOS=ADP|Type=MWE
 5	à	à	ADP	_	_	4	unk@fixed	_	_
 6	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
 7	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
