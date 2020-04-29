@@ -13063,12 +13063,12 @@
 23	XVIIIe	XVIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	24	mod	_	_
 24	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	à	à	ADP	_	_	5	mod	_	_
-27	cause	cause	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	SpaceAfter=No
+26	à	à	ADP	_	_	5	mod	_	EXTPOS=ADV|Type=MWE
+27	cause	cause	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj@fixed	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	précisément	précisément	ADV	_	_	27	mod	_	SpaceAfter=No
+29	précisément	précisément	ADV	_	_	26	mod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	de	de	ADP	_	_	27	udep	_	_
+31	de	de	ADP	_	_	26	comp:obl	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	présence	présence	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
 34	de	de	ADP	_	_	33	udep	_	_
@@ -26636,9 +26636,9 @@
 30	Toussaint	Toussaint	PROPN	_	_	28	comp:obj	_	_
 31	1831	1831	NUM	_	_	30	mod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	à	à	ADP	_	_	25	mod	_	_
-34	cause	cause	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_
-35	de	de	ADP	_	_	34	udep	_	_
+33	à	à	ADP	_	_	25	mod	_	EXTPOS=ADV|Type=MWE
+34	cause	cause	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj@fixed	_	_
+35	de	de	ADP	_	_	33	comp:obl	_	_
 36	différends	différend	NOUN	_	Gender=Masc|Number=Plur	35	comp:obj	_	_
 37	de	de	ADP	_	_	36	udep	_	_
 38	conception	conception	NOUN	_	Gender=Fem|Number=Sing	37	comp:obj	_	SpaceAfter=No
@@ -34532,10 +34532,10 @@
 14	Noè	Noè	PROPN	_	_	11	comp:obj	_	_
 15	qui	qui	PRON	_	PronType=Rel	30	subj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	à	à	ADP	_	_	30	mod	_	_
-18	cause	cause	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
+17	à	à	ADP	_	_	30	mod	_	EXTPOS=ADV|Type=MWE
+18	cause	cause	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj@fixed	_	_
 19-20	des	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	18	udep	_	_
+19	de	de	ADP	_	_	17	comp:obl	_	_
 20	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	possibilités	possibilité	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	_
 22	économiques	économique	ADJ	_	Gender=Fem|Number=Plur	21	mod	_	_
@@ -40017,10 +40017,10 @@
 
 # sent_id = fr-ud-dev_01438
 # text = À cause des motifs et des couleurs différentes des appareils, elle était populairement désignée sous le nom de « cirque Price », fameux cirque fondé depuis les années 1870 à Madrid.
-1	À	à	ADP	_	_	15	mod	_	wordform=à
-2	cause	cause	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
+1	À	à	ADP	_	_	15	mod	_	EXTPOS=ADV|Type=MWE|wordform=à
+2	cause	cause	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj@fixed	_	_
 3-4	des	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	2	udep	_	_
+3	de	de	ADP	_	_	1	comp:obl	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	motifs	motif	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
