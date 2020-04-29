@@ -4154,9 +4154,9 @@
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	recueillies	recueillir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
-9	en	en	ADP	_	_	6	udep	_	_
+9	en	en	ADP	_	_	8	udep	_	_
 10	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-11	auprès	auprès	ADV	_	_	6	mod	_	_
+11	auprès	auprès	ADV	_	_	8	udep	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	839	839	NUM	_	_	14	det	_	_
 14	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	_
@@ -5383,7 +5383,7 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	certain	certain	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
 6	succès	succès	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-7	auprès	auprès	ADV	_	_	2	mod	_	_
+7	auprès	auprès	ADV	_	_	3	udep	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -10906,7 +10906,7 @@
 16	avoir	avoir	AUX	_	VerbForm=Inf	14	comp:obj	_	_
 17	aidé	aider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	si	si	ADV	_	_	19	mod	_	_
-19	gentillement	gentillement	ADV	_	_	16	mod	_	SpaceAfter=No
+19	gentillement	gentillement	ADV	_	Typo=Yes	16	mod	_	SpaceAfter=No|wordform=gentiment
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	mais	mais	CCONJ	_	_	22	cc	_	_
 22	qu'	que	SCONJ	_	_	12	conj	_	SpaceAfter=No
@@ -12554,7 +12554,7 @@
 2	canton	canton	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
-5	autour	autour	ADV	_	_	3	mod	_	_
+5	autour	autour	ADV	_	_	4	mod	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	Vic-sur-Aisne	Vic-sur-Aisne	PROPN	_	_	6	comp:obj	_	_
 8	dans	dans	ADP	_	_	3	mod	_	_
