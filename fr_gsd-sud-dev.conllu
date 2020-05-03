@@ -22536,7 +22536,7 @@
 20	immobiliser	immobiliser	VERB	_	VerbForm=Inf	19	comp:obj	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	Allemands	allemand	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	wordform=allemands
-23	jusqu'	jusque	ADP	_	_	15	mod	_	SpaceAfter=No
+23	jusqu'	jusque	ADP	_	Shared=Yes	20	mod	_	SpaceAfter=No
 24	à	à	ADP	_	_	23	comp:obj	_	_
 25	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	24	comp:obj	_	_
 26	que	que	SCONJ	_	_	25	udep	_	_
@@ -35197,7 +35197,7 @@
 6	peu	peu	ADV	_	_	5	unk@fixed	_	_
 7	plus	plus	ADV	_	_	8	mod	_	_
 8	épaisse	épais	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
-9	à	à	ADP	_	_	3	mod	_	_
+9	à	à	ADP	_	_	8	mod	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	base	base	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	que	que	SCONJ	_	_	8	mod	_	_
@@ -36064,7 +36064,7 @@
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	à	à	ADP	_	_	5	conj	_	_
 9	grandir	grandir	VERB	_	VerbForm=Inf	8	comp:obj	_	_
-10	jusqu'	jusque	ADP	_	_	6	mod	_	SpaceAfter=No
+10	jusqu'	jusque	ADP	_	Shared=Yes	9	mod	_	SpaceAfter=No
 11	à	à	ADP	_	_	10	comp:obj	_	_
 12	atteindre	atteindre	VERB	_	VerbForm=Inf	11	comp:obj	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
@@ -39133,7 +39133,7 @@
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	Alains	Alains	PROPN	_	_	20	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	16	punct	_	_
-24	longèrent	longer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	mod@relcl	_	_
+24	longèrent	longer	VERB	_	Mood=Ind|Number=Plur|Person=3|Shared=Yes|Tense=Past|VerbForm=Fin	13	mod@relcl	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Danube	Danube	PROPN	_	_	24	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
@@ -39143,7 +39143,7 @@
 31	en	en	ADP	_	_	28	udep	_	_
 32	406	406	NUM	_	_	31	comp:obj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
-34	passant	passer	VERB	_	Tense=Pres|VerbForm=Part	9	mod	_	_
+34	passant	passer	VERB	_	Tense=Pres|VerbForm=Part	28	mod	_	_
 35	en	en	ADP	_	_	34	udep	_	_
 36	Gaule	Gaule	PROPN	_	_	35	comp:obj	_	_
 37	puis	puis	ADV	_	_	38	cc	_	_
