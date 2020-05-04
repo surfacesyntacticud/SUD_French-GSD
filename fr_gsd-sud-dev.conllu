@@ -12616,7 +12616,7 @@
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det@fixed	_	_
 14	fois	fois	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj@fixed	_	_
 15	souple	souple	ADJ	_	Gender=Fem|Number=Sing	11	comp:pred	_	_
-16	pour	pour	ADP	_	_	11	mod	_	_
+16	pour	pour	ADP	_	_	15	mod	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	18	comp:obj	_	SpaceAfter=No
 18	adapter	adapter	VERB	_	VerbForm=Inf	16	comp:obj	_	_
 19-20	aux	_	_	_	_	_	_	_	_
