@@ -6462,7 +6462,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	désarroi	désarroi	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10-11	des	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	5	udep	_	_
+10	de	de	ADP	_	Shared=Yes	9	udep	_	_
 11	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	relations	relation	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
 13	humaines	humain	ADJ	_	Gender=Fem|Number=Plur	12	mod	_	_
@@ -18132,7 +18132,7 @@
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 18	plus	plus	ADV	_	_	19	mod	_	_
 19	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
-20	instruments	instrument	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
+20	instruments	instrument	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	16	comp:obj	_	_
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	20	udep	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -34124,7 +34124,7 @@
 10	élimination	élimination	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	totale	total	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
-13	sans	sans	ADP	_	_	8	conj	_	_
+13	sans	sans	ADP	_	_	11	conj	_	_
 14	entraves	entrave	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	_
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	10	udep	_	_
@@ -40376,7 +40376,7 @@
 11	cinq	cinq	NUM	_	_	12	det	_	_
 12	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	contre	contre	ADP	_	_	12	udep	_	_
+14	contre	contre	ADP	_	_	5	mod	_	_
 15	trois	trois	NUM	_	_	16	det	_	_
 16	ans	an	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
 17	aujourd'hui	aujourd'hui	ADV	_	_	15	mod	_	SpaceAfter=No
@@ -40637,12 +40637,12 @@
 30	rive	rive	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
 31	droite	droit	ADJ	_	Gender=Fem|Number=Sing	30	mod	_	_
 32	comme	comme	SCONJ	_	_	33	cc	_	_
-33	sur	sur	ADP	_	_	28	conj	_	_
+33	sur	sur	ADP	_	_	28	mod	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	rive	rive	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_
 36	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	35	mod	_	_
 37-38	du	_	_	_	_	_	_	_	_
-37	de	de	ADP	_	_	30	udep	_	_
+37	de	de	ADP	_	_	35	udep	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	Grau	Grau	PROPN	_	_	37	comp:obj	_	_
 40-41	du	_	_	_	_	_	_	_	_
