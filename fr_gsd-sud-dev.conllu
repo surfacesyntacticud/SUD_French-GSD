@@ -37542,7 +37542,7 @@
 17	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	_
 18	n'	ne	ADV	_	Polarity=Neg	19	mod	_	SpaceAfter=No
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-20	presque	presque	ADV	_	_	22	mod	_	_
+20	presque	presque	ADV	_	_	21	mod	_	_
 21	jamais	jamais	ADV	_	Polarity=Neg	19	mod	_	_
 22	refusé	refuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
