@@ -16574,7 +16574,7 @@
 15	d'	un	DET	_	Definite=Ind|PronType=Art	16	det	_	SpaceAfter=No
 16	autres	autre	PRON	_	Number=Plur	19	subj	_	_
 17	n'	ne	ADV	_	Polarity=Neg	19	mod	_	SpaceAfter=No
-18	en	en	PRON	_	Person=3|PronType=Prs	22	mod	_	_
+18	en	en	PRON	_	Person=3|PronType=Prs	19	comp:obl	_	_
 19	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 20	indiscutablement	indiscutablement	ADV	_	_	19	mod	_	_
 21	pas	pas	ADV	_	Polarity=Neg	19	mod	_	_
