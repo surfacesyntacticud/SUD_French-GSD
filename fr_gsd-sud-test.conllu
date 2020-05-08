@@ -3351,7 +3351,7 @@
 1	Mais	mais	CCONJ	_	_	4	cc	_	wordform=mais
 2	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	4	subj	_	_
 3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
-4	bougeront	bouger	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	18	comp:obj	_	_
+4	bougeront	bouger	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	tant	tant	ADV	_	_	4	mod	_	EXTPOS=SCONJ|Type=MWE
 7	que	que	SCONJ	_	_	6	unk@fixed	_	_
@@ -3363,14 +3363,14 @@
 13	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 14	acceptées	accepter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	comp:aux@pass	_	_
 15	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	4	punct	_	_
-17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 18	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	un	un	PRON	_	Gender=Masc|Number=Sing	17	subj	_	_
 21	d'	de	ADP	_	_	20	udep	_	SpaceAfter=No
 22	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	21	comp:obj	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	17	punct	_	_
+23	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00115
 # text = Après M. Karoubi, bloqué chez lui depuis jeudi par la police, c'est M. Moussavi qui a vu lundi matin son domicile encerclé et ses téléphones coupés, selon son site internet.
@@ -3979,7 +3979,7 @@
 5	but	but	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	par	par	ADP	_	_	5	udep	_	_
 7	match	match	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	comp:obj	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
 11	parmi	parmi	ADP	_	_	8	mod	_	_
@@ -3995,12 +3995,12 @@
 20	matches	match	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
 22	saison	saison	NOUN	_	Gender=Fem|Number=Sing	14	udep	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	8	punct	_	_
-24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
 25	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	MLS	MLS	PROPN	_	_	24	subj	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	24	punct	_	_
+28	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-test_00132
 # text = L'attaquant du Bayern Munich demande aussi, et surtout, que le livre soit retiré de la vente.
@@ -4317,7 +4317,7 @@
 # text = On s'était dit : "Quand on aura un premier pas de fait, on s'éclatera un peu plus", a expliqué Véronique.
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	subj	_	wordform=on
 2	s'	se	PRON	_	Person=3|PronType=Prs	4	comp:obl	_	SpaceAfter=No
-3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	comp:obj	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	:	:	PUNCT	_	_	18	punct	_	_
 6	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
@@ -4338,10 +4338,10 @@
 21	plus	plus	ADV	_	_	18	mod	_	SpaceAfter=No
 22	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	3	punct	_	_
-24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 25	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 26	Véronique	Véronique	PROPN	_	_	24	subj	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	24	punct	_	_
+27	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00144
 # text = Il faut toutefois noter qu'il est alors de bon ton pour tout homme jouissant d'une aisance financière, de posséder une ou plusieurs maîtresses.
@@ -4473,7 +4473,7 @@
 1	Là	là	ADV	_	_	4	mod	_	SpaceAfter=No|wordform=là
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	subj	_	_
-4	saura	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	comp:obj	_	_
+4	saura	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	qui	qui	PRON	_	PronType=Int	6	subj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -4484,15 +4484,15 @@
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	victime	victime	NOUN	_	Gender=Fem|Number=Sing	11	comp:pred	_	_
 14	»	»	PUNCT	_	_	4	punct	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	4	punct	_	_
-16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 17	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	patron	patron	NOUN	_	Gender=Masc|Number=Sing	16	subj	_	_
 20	de	de	ADP	_	_	19	udep	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	FAF	FAF	PROPN	_	_	20	comp:obj	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	16	punct	_	_
+23	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00150
 # text = Comment repoussez vous les bateaux d'immigrés dans les eaux internationales ?
