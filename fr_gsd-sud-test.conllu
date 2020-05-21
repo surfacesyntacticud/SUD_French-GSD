@@ -1287,7 +1287,7 @@
 27	pas	pas	ADV	_	Polarity=Neg	26	mod	_	_
 28	si	si	ADV	_	_	29	mod	_	_
 29	brillant	brillant	ADJ	_	Gender=Masc|Number=Sing	26	comp:pred	_	_
-30	que	que	SCONJ	_	_	29	mod	_	_
+30	que	que	SCONJ	_	_	28	comp:obj	_	_
 31	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -3020,7 +3020,7 @@
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	subj	_	_
 13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp:obl	_	_
 14	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
-15	que	que	SCONJ	_	_	14	comp:obj	_	_
+15	que	que	SCONJ	_	_	11	comp:obj	_	_
 16	Battlefield	Battlefield	PROPN	_	_	18	subj	_	_
 17	3	3	NUM	_	_	16	mod	_	_
 18	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	comp:obj	_	_
@@ -5466,7 +5466,7 @@
 11	peu	peu	ADV	_	_	10	unk@fixed	_	_
 12	moins	moins	ADV	_	_	13	mod	_	_
 13	mortelle	mortel	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
-14	que	que	SCONJ	_	_	13	mod	_	_
+14	que	que	SCONJ	_	_	12	comp:obj	_	_
 15	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 16	pires	pire	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
 17	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
@@ -7301,7 +7301,7 @@
 4	beaucoup	beaucoup	ADV	_	_	5	mod	_	_
 5	plus	plus	ADV	_	_	6	mod	_	_
 6	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
-7	que	que	SCONJ	_	_	6	mod	_	_
+7	que	que	SCONJ	_	_	5	comp:obj	_	_
 8	dans	dans	ADP	_	_	7	comp:obj	_	_
 9	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	11	det	_	SpaceAfter=No
 10	autres	autre	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
@@ -9608,7 +9608,7 @@
 18	beaucoup	beaucoup	ADV	_	_	19	mod	_	_
 19	plus	plus	ADV	_	_	20	mod	_	_
 20	flatteuses	flatteur	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
-21	que	que	SCONJ	_	_	20	mod	_	_
+21	que	que	SCONJ	_	_	19	comp:obj	_	_
 22	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	21	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -10489,7 +10489,7 @@
 17	68	68	NUM	_	_	18	det	_	SpaceAfter=No
 18	%	%	SYM	_	_	15	udep	_	EXTPOS=NOUN|SpaceAfter=No|Type=Conv
 19	)	)	PUNCT	_	_	18	punct	_	_
-20	que	que	SCONJ	_	Shared=Yes	15	mod	_	_
+20	que	que	SCONJ	_	Shared=Yes	14	comp:obj	_	_
 21	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 22	autres	autre	ADJ	_	Gender=Fem|Number=Plur	23	mod	_	_
 23	fraises	fraise	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	SpaceAfter=No
