@@ -6378,7 +6378,7 @@
 14	de	de	ADP	_	_	11	comp:obj@x	_	_
 15	trouver	trouver	VERB	_	VerbForm=Inf	14	comp:obj	_	_
 16	bien	bien	ADV	_	_	17	mod	_	_
-17	mieux	mieux	ADV	_	_	15	mod	_	_
+17	mieux	mieux	ADV	_	_	15	comp:obj	_	_
 18	!	!	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-test_00215

@@ -19614,7 +19614,7 @@
 25	produit	produire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 26	là	là	ADV	_	_	24	mod	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	événement	événement	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj@agent	_	_
+28	événement	événement	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj@agent	_	_
 29	quasi	quasi	ADV	_	_	30	mod	_	_
 30	miraculeux	miraculeux	ADJ	_	Gender=Masc|Number=Sing	28	mod	_	_
 31	de	de	ADP	_	_	28	udep	_	_
