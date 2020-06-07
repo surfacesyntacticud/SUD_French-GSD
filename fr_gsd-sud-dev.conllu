@@ -4053,7 +4053,7 @@
 16	surface	surface	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Terre	Terre	PROPN	_	_	17	comp:obj	_	_
+19	Terre	terre	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	wordform=terre
 20	dont	dont	PRON	_	PronType=Rel	22	mod	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	longitude	longitude	NOUN	_	Gender=Fem|Number=Sing	23	subj	_	_
@@ -4923,7 +4923,7 @@
 26-27	du	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	21	mod	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	Soleil	Soleil	PROPN	_	_	26	comp:obj	_	_
+28	Soleil	soleil	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	wordform=soleil
 29	dans	dans	ADP	_	_	21	comp:obl	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	constellation	constellation	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
@@ -14718,7 +14718,7 @@
 22	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
 23	contre	contre	ADP	_	_	22	udep	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-25	Anglais	Anglais	PROPN	_	_	23	comp:obj	_	SpaceAfter=No
+25	Anglais	anglais	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	SpaceAfter=No|wordform=anglais
 26	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00530
@@ -22556,7 +22556,7 @@
 # sent_id = fr-ud-dev_00818
 # text = La Bourse de Paris a terminé en fanfare jeudi (+ 3,05%), retrouvant le niveau des 3.600 points, sur un marché dopé par la bonne tenue de Wall Street, le secteur de l'immobilier américain et des indicateurs européens redonnant confiance aux intervenants.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	Bourse	Bourse	PROPN	_	_	5	subj	_	_
+2	Bourse	bourse	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	wordform=bourse
 3	de	de	ADP	_	_	2	udep	_	_
 4	Paris	Paris	PROPN	_	_	3	comp:obj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -24093,7 +24093,7 @@
 12	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	équipes	équipe	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 14	de	de	ADP	_	_	13	udep	_	_
-15	Ligue	Ligue	PROPN	_	_	14	comp:obj	_	_
+15	Ligue	ligue	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	wordform=ligue
 16	majeure	majeur	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	pour	pour	ADP	_	_	9	mod	_	_
@@ -27497,7 +27497,7 @@
 30	division	division	NOUN	_	Gender=Fem|Number=Sing	25	appos	_	_
 31	de	de	ADP	_	_	30	udep	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	Ligue	Ligue	PROPN	_	_	31	comp:obj	_	SpaceAfter=No
+33	Ligue	ligue	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	SpaceAfter=No|wordform=ligue
 34	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-dev_00993
@@ -34881,7 +34881,7 @@
 13	mission	mission	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	4	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Président	Président	PROPN	_	_	28	subj	_	_
+16	Président	président	NOUN	_	Gender=Masc|Number=Sing	28	subj	_	wordform=président
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -36523,7 +36523,7 @@
 7	enfin	enfin	ADV	_	_	6	mod	_	_
 8	par	par	ADP	_	_	6	comp:obl@agent	_	_
 9	notre	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
-10	Constitution	Constitution	PROPN	_	_	8	comp:obj	_	SpaceAfter=No
+10	Constitution	constitution	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No|wordform=constitution
 11	,	,	PUNCT	_	_	6	punct	_	_
 12	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	mettre	mettre	VERB	_	VerbForm=Inf	12	comp:obj@x	_	_
@@ -40111,7 +40111,7 @@
 # sent_id = fr-ud-dev_01441
 # text = Le Disneyodendron est genre d'arbre imaginaire construit par la Walt Disney Company dans plusieurs de ses parcs à thèmes.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	Disneyodendron	Disneyodendron	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	wordform=disneyodendron
+2	Disneyodendron	disneyodendron	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	wordform=disneyodendron
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	genre	genre	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5	d'	de	ADP	_	_	4	udep	_	SpaceAfter=No

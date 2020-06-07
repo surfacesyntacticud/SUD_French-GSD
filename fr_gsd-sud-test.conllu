@@ -3522,10 +3522,10 @@
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
 30	quarts	quart	NOUN	_	Gender=Masc|Number=Plur	28	comp:obj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
-32	finale	finale	NOUN	_	Gender=Masc|Number=Plur	31	comp:obj	_	_
+32	finale	finale	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
 33	de	de	ADP	_	_	30	udep	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	Ligue	Ligue	PROPN	_	_	33	comp:obj	_	_
+35	Ligue	ligue	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	wordform=ligue
 36-37	des	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	35	udep	_	_
 37	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
