@@ -3020,7 +3020,7 @@
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	subj	_	_
 13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp:obl	_	_
 14	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
-15	que	que	SCONJ	_	_	11	comp:obl	_	_
+15	que	que	SCONJ	_	_	14	comp:obj	_	_
 16	Battlefield	Battlefield	PROPN	_	_	18	subj	_	_
 17	3	3	NUM	_	_	16	mod	_	_
 18	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	comp:obj	_	_
@@ -4350,13 +4350,13 @@
 3	toutefois	toutefois	ADV	_	_	4	mod	_	_
 4	noter	noter	VERB	_	VerbForm=Inf	2	comp:obj	_	_
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 8	alors	alors	ADV	_	_	7	mod	_	_
 9	de	de	ADP	_	_	7	comp:pred	_	EXTPOS=ADJ|Type=MWE
 10	bon	bon	ADJ	_	Gender=Masc|Number=Sing	11	mod@fixed	_	_
 11	ton	ton	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj@fixed	_	_
-12	pour	pour	ADP	_	_	9	mod	_	_
+12	pour	pour	ADP	_	_	7	mod	_	_
 13	tout	tout	DET	_	Gender=Masc|Number=Sing	14	det	_	_
 14	homme	homme	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	jouissant	jouir	VERB	_	Tense=Pres|VerbForm=Part	14	mod	_	_
@@ -4365,7 +4365,7 @@
 18	aisance	aisance	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 19	financière	financier	ADJ	_	Gender=Fem|Number=Sing	18	mod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	de	de	ADP	_	_	9	comp:obl	_	_
+21	de	de	ADP	_	_	7	comp:obj@agent	_	_
 22	posséder	posséder	VERB	_	VerbForm=Inf	21	comp:obj	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 24	ou	ou	CCONJ	_	_	25	cc	_	_
@@ -4667,7 +4667,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	Wef	Wef	PROPN	_	_	27	comp:obj	_	_
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-31	74e	74e	ADJ	_	Gender=Fem|Number=Sing	17	parataxis	_	SpaceAfter=No
+31	74e	74e	ADJ	_	Gender=Fem|Number=Sing	16	parataxis	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -6692,7 +6692,7 @@
 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
 20	pas	pas	ADV	_	Polarity=Neg	19	mod	_	_
 21	hors	hors	ADV	_	_	19	comp:pred	_	_
-22	de	de	ADP	_	_	21	comp:obl	_	_
+22	de	de	ADP	_	_	21	comp:obj	_	_
 23	prix	prix	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -8601,7 +8601,7 @@
 23	en	en	ADP	_	_	16	udep	_	_
 24	2001	2001	NUM	_	_	23	comp:obj	_	_
 25	afin	afin	ADV	_	_	16	mod	_	_
-26	d'	de	ADP	_	_	25	comp:obl	_	SpaceAfter=No
+26	d'	de	ADP	_	_	25	comp:obj	_	SpaceAfter=No
 27	agrandir	agrandir	VERB	_	VerbForm=Inf	26	comp:obj	_	_
 28	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det	_	_
 29	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	SpaceAfter=No
@@ -9427,7 +9427,7 @@
 8	appela	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 9	désormais	désormais	ADV	_	_	8	mod	_	_
 10	«	«	PUNCT	_	_	11	punct	_	_
-11	von	von	ADP	_	_	8	comp:obl@x	_	_
+11	von	von	ADP	_	_	8	comp:pred	_	_
 12	Auenbrugg	Auenbrugg	PROPN	_	_	11	comp:obj	_	_
 13	»	»	PUNCT	_	_	11	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
@@ -10476,7 +10476,7 @@
 4	Cachoubie	Cachoubie	PROPN	_	_	3	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	réputée	réputer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
-7	plus	plus	ADV	_	_	6	mod	_	_
+7	plus	plus	ADV	_	_	8	mod	_	_
 8	savoureuse	savoureux	ADJ	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
 9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 10	73	73	NUM	_	_	11	det	_	SpaceAfter=No
