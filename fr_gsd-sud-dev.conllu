@@ -4517,7 +4517,7 @@
 14	grands	grand	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	_
 15	héros	héros	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	_
-17	se	se	PRON	_	Person=3|PronType=Prs	18	comp@expl	_	_
+17	se	se	PRON	_	Person=3|PronType=Prs	19	comp@expl	_	_
 18	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	greffés	greffer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20-21	aux	_	_	_	_	_	_	_	_
@@ -7888,7 +7888,7 @@
 12	en	en	ADP	_	_	11	udep	_	_
 13	630	630	X	_	_	12	comp:obj	_	SpaceAfter=No
 14	/	/	SYM	_	_	15	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Conv
-15	631	631	NUM	_	_	12	conj	_	_
+15	631	631	NUM	_	_	13	conj	_	_
 16	après	après	ADP	_	_	11	udep	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	destitution	destitution	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -15122,7 +15122,7 @@
 5	homophobie	homophobie	NOUN	_	Gender=Fem|Number=Sing	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
-8	s'	se	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	SpaceAfter=No
+8	s'	se	PRON	_	Person=3|PronType=Prs	10	comp@expl	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 10	portée	porter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	partie	partie	NOUN	_	Gender=Fem|Number=Sing	10	comp:pred	_	_
@@ -15358,7 +15358,7 @@
 14	Bernard	Bernard	PROPN	_	_	9	appos	_	_
 15	Warburton-Lee	Warburton-Lee	PROPN	_	_	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	4	punct	_	_
-17	s'	se	PRON	_	Person=3|PronType=Prs	18	comp@expl	_	SpaceAfter=No
+17	s'	se	PRON	_	Person=3|PronType=Prs	20	comp@expl	_	SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 19	déjà	déjà	ADV	_	_	18	mod	_	_
 20	séparé	séparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
@@ -19609,7 +19609,7 @@
 20	convenir	convenir	VERB	_	VerbForm=Inf	19	comp:obj@x	_	_
 21	qu'	que	SCONJ	_	_	20	comp:obl	_	SpaceAfter=No
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	subj@expl	_	_
-23	s'	se	PRON	_	Person=3|PronType=Prs	24	comp@expl	_	SpaceAfter=No
+23	s'	se	PRON	_	Person=3|PronType=Prs	25	comp@expl	_	SpaceAfter=No
 24	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	comp:obj	_	_
 25	produit	produire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 26	là	là	ADV	_	_	24	mod	_	_
@@ -22960,7 +22960,7 @@
 5	de	de	ADP	_	_	4	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	U-754	U-754	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-8	se	se	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	_
+8	se	se	PRON	_	Person=3|PronType=Prs	10	comp@expl	_	_
 9	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 10	déroulé	dérouler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	à	à	ADP	_	_	9	mod	_	_
@@ -23779,7 +23779,7 @@
 35	saison	saison	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_
 36	2007-2008	2007-2008	NUM	_	_	35	mod	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	10	punct	_	_
-38	s'	se	PRON	_	Person=3|PronType=Prs	39	comp@expl	_	SpaceAfter=No
+38	s'	se	PRON	_	Person=3|PronType=Prs	40	comp@expl	_	SpaceAfter=No
 39	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 40	déroulée	dérouler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	39	comp:aux@tense	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
@@ -24994,7 +24994,7 @@
 20	Cinquième	cinquième	ADJ	_	Gender=Fem|Number=Sing	21	mod	_	wordform=cinquième
 21	république	république	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	14	punct	_	_
-23	se	se	PRON	_	Person=3|PronType=Prs	24	comp@expl	_	_
+23	se	se	PRON	_	Person=3|PronType=Prs	25	comp@expl	_	_
 24	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 25	déroulées	dérouler	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
@@ -29499,7 +29499,7 @@
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Chine	Chine	PROPN	_	_	21	conj	_	_
 25	ne	ne	ADV	_	Polarity=Neg	27	mod	_	_
-26	s'	se	PRON	_	Person=3|PronType=Prs	27	comp@expl	_	SpaceAfter=No
+26	s'	se	PRON	_	Person=3|PronType=Prs	33	comp@expl	_	SpaceAfter=No
 27	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 28	pas	pas	ADV	_	Polarity=Neg	27	mod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	28	punct	_	_
@@ -31004,7 +31004,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	wordform=conseil
 3	constitutionnel	constitutionnel	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	SpaceAfter=No
+4	s'	se	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	prononcé	prononcer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	par	par	ADP	_	_	5	mod	_	_
@@ -31939,7 +31939,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Sahara	Sahara	PROPN	_	_	5	subj	_	_
 3	Occidental	Occidental	PROPN	_	_	2	flat@name	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	SpaceAfter=No
+4	s'	se	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	faufilé	faufiler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	par	par	ADP	_	_	6	comp:obl	_	_
@@ -32905,7 +32905,7 @@
 23	Saleh	Saleh	PROPN	_	_	22	flat@name	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	28	punct	_	_
 25	qui	qui	PRON	_	PronType=Rel	28	subj	_	_
-26	s'	se	PRON	_	Person=3|PronType=Prs	28	comp@expl	_	SpaceAfter=No
+26	s'	se	PRON	_	Person=3|PronType=Prs	29	comp@expl	_	SpaceAfter=No
 27	en	en	PRON	_	Person=3|PronType=Prs	29	comp:obj	_	_
 28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
 29	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	comp:aux@tense	_	_
@@ -38953,7 +38953,7 @@
 22	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	26	subj	_	_
 23	d'	de	ADP	_	_	22	udep	_	SpaceAfter=No
 24	union	union	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
-25	s'	se	PRON	_	Person=3|PronType=Prs	26	comp@expl	_	SpaceAfter=No
+25	s'	se	PRON	_	Person=3|PronType=Prs	27	comp@expl	_	SpaceAfter=No
 26	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	_
 27	effondré	effondrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -39125,7 +39125,7 @@
 14	qui	qui	PRON	_	PronType=Rel	24	subj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	après	après	ADP	_	_	24	mod	_	_
-17	s'	se	PRON	_	Person=3|PronType=Prs	18	comp@expl	_	SpaceAfter=No
+17	s'	se	PRON	_	Person=3|PronType=Prs	19	comp@expl	_	SpaceAfter=No
 18	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	_
 19	alliés	allier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20-21	aux	_	_	_	_	_	_	_	_
