@@ -5497,7 +5497,7 @@
 2	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	inaugurés	inaugurer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	1er	1er	NUM	_	_	3	comp:obj	_	_
+5	1er	1er	NUM	_	_	2	mod	_	_
 6	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	5	mod	_	_
 7	1975	1975	NUM	_	_	6	mod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -5950,11 +5950,11 @@
 1	Plus	plus	ADV	_	_	2	mod	_	wordform=plus
 2	tard	tard	ADV	_	_	5	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@pass	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
-8	que	que	SCONJ	_	_	7	comp:obj	_	_
+8	que	que	SCONJ	_	_	7	comp:obj@pass	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	motif	motif	NOUN	_	Gender=Masc|Number=Sing	14	subj	_	_
 11-12	du	_	_	_	_	_	_	_	_
@@ -39593,7 +39593,7 @@
 3	étions	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	depuis	depuis	ADP	_	_	3	udep	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-6	premiers	premier	NUM	_	Gender=Masc|Number=Plur	7	mod	_	_
+6	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
 7	jours	jour	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
