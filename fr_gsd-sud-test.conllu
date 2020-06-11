@@ -463,7 +463,7 @@
 12	marocain	marocain	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj@lvc	_	_
-15	de	de	ADP	_	_	13	comp:obl	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
 16	stabilité	stabilité	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 17	interne	interne	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	_
 18	pour	pour	ADP	_	_	13	mod	_	_
@@ -986,7 +986,7 @@
 14	même	même	ADV	_	_	15	mod	_	_
 15	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 16	conscience	conscience	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj@lvc	_	_
-17	de	de	ADP	_	_	12	comp:obl	_	_
+17	de	de	ADP	_	_	16	comp:obl	_	_
 18	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
 19	présence	présence	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 20	?	?	PUNCT	_	_	5	punct	_	_
@@ -1163,7 +1163,7 @@
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	impression	impression	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj@lvc	_	_
-8	que	que	SCONJ	_	_	5	comp:obl	_	_
+8	que	que	SCONJ	_	_	7	comp:obl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	fondamentalisme	fondamentalisme	NOUN	_	Gender=Masc|Number=Sing	11	subj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
@@ -5496,7 +5496,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	droit	droit	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj@lvc	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	d'	de	ADP	_	_	2	comp:obl@x	_	SpaceAfter=No
+6	d'	de	ADP	_	_	4	comp:obl@x	_	SpaceAfter=No
 7	être	être	AUX	_	VerbForm=Inf	6	comp:obj	_	_
 8	contre	contre	ADP	_	_	7	comp:pred	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -6200,7 +6200,7 @@
 15	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
 16	plus	plus	ADV	_	Polarity=Neg	15	mod	_	_
 17	mal	mal	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@lvc	_	_
-18	à	à	ADP	_	_	15	comp:obl	_	_
+18	à	à	ADP	_	_	17	comp:obl	_	_
 19	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det	_	_
 20	poignet	poignet	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 21	anciennement	anciennement	ADV	_	_	22	mod	_	_
@@ -7483,7 +7483,7 @@
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	possesion	possession	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	_
-5	de	de	ADP	_	_	3	comp:obl	_	_
+5	de	de	ADP	_	_	4	comp:obl	_	_
 6	2	2	NUM	_	_	7	det	_	_
 7	chambres	chambre	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 8	cabines	cabine	NOUN	_	Gender=Fem|Number=Plur	7	mod	_	_
@@ -7625,7 +7625,7 @@
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj@lvc	_	_
-9	d'	de	ADP	_	_	7	comp:obl	_	SpaceAfter=No
+9	d'	de	ADP	_	_	8	comp:obl	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	paire	paire	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
@@ -7805,7 +7805,7 @@
 15	aurez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 16	droit	droit	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@lvc	_	_
 17-18	au	_	_	_	_	_	_	_	_
-17	à	à	ADP	_	_	15	comp:obl	_	_
+17	à	à	ADP	_	_	16	comp:obl	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	pire	pire	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20-21	du	_	_	_	_	_	_	_	_
@@ -7972,7 +7972,7 @@
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj@lvc	_	_
-5	de	de	ADP	_	_	3	comp:obl@x	_	_
+5	de	de	ADP	_	_	4	comp:obl@x	_	_
 6	faire	faire	AUX	_	VerbForm=Inf	5	comp:obj	_	_
 7	rénover	rénover	VERB	_	VerbForm=Inf	6	comp:aux@caus	_	_
 8	mes	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
@@ -8055,7 +8055,7 @@
 14	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	appel	appel	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@lvc	_	_
-17	à	à	ADP	_	_	15	comp:obl	_	_
+17	à	à	ADP	_	_	16	comp:obl	_	_
 18	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	17	comp:obj	_	_
 19	car	car	CCONJ	_	_	22	cc	_	_
 20	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
@@ -10588,7 +10588,7 @@
 14	pour	pour	ADP	_	_	12	mod	_	_
 15	faire	faire	VERB	_	VerbForm=Inf	14	comp:obj	_	_
 16	face	face	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj@lvc	_	_
-17	à	à	ADP	_	_	15	comp:obl	_	_
+17	à	à	ADP	_	_	16	comp:obl	_	_
 18	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 19	telles	tel	ADJ	_	Gender=Fem|Number=Plur	20	mod	_	_
 20	actions	action	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	SpaceAfter=No
@@ -10628,7 +10628,7 @@
 18	Jésus	Jésus	PROPN	_	_	15	comp:obj	_	_
 19	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	référence	référence	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj@lvc	_	_
-21	à	à	ADP	_	_	19	comp:obl	_	_
+21	à	à	ADP	_	_	20	comp:obl	_	_
 22	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No|wordform=l'
 23	Antéchrist	antéchrist	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	wordform=antéchrist
 24	de	de	ADP	_	_	23	udep	_	_

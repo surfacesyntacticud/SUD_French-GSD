@@ -5567,7 +5567,7 @@
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 20	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
 21	appel	appel	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj@lvc	_	_
-22	à	à	ADP	_	_	20	comp:obl	_	_
+22	à	à	ADP	_	_	21	comp:obl	_	_
 23	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	aide	aide	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
 25	communautaire	communautaire	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	_
@@ -7902,7 +7902,7 @@
 26	faire	faire	VERB	_	VerbForm=Inf	25	comp:obj@x	_	_
 27	face	face	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj@lvc	_	_
 28-29	aux	_	_	_	_	_	_	_	_
-28	à	à	ADP	_	_	26	comp:obl	_	_
+28	à	à	ADP	_	_	27	comp:obl	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
 30	candidats	candidat	NOUN	_	Gender=Masc|Number=Plur	28	comp:obj	_	_
 31	«	«	PUNCT	_	_	32	punct	_	_
@@ -10814,7 +10814,7 @@
 2	pays	pays	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj@lvc	_	_
-5	de	de	ADP	_	_	3	comp:obl@x	_	_
+5	de	de	ADP	_	_	4	comp:obl@x	_	_
 6	travailler	travailler	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 7	davantage	davantage	ADV	_	_	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -15102,7 +15102,7 @@
 6	prendre	prendre	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 7	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj@lvc	_	_
 8-9	du	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	6	comp:obl	_	_
+8	de	de	ADP	_	_	7	comp:obl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	diocèse	diocèse	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
@@ -17339,7 +17339,7 @@
 15	aquatique	aquatique	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	_
 16	aurait	avoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj@lvc	_	_
-18	d'	de	ADP	_	_	16	comp:obl	_	SpaceAfter=No
+18	d'	de	ADP	_	_	17	comp:obl	_	SpaceAfter=No
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	bon	bon	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	_
 21	rafraichissement	rafraîchissement	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
@@ -17735,7 +17735,7 @@
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	envie	envie	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	_
-5	de	de	ADP	_	_	3	comp:obl@x	_	_
+5	de	de	ADP	_	_	4	comp:obl@x	_	_
 6	manger	manger	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 7	dans	dans	ADP	_	_	6	mod	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -21184,7 +21184,7 @@
 2	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	alors	alors	ADV	_	_	2	mod	_	_
 4	appel	appel	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj@lvc	_	_
-5	à	à	ADP	_	_	2	comp:obl	_	_
+5	à	à	ADP	_	_	4	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Haganah	Haganah	PROPN	_	_	5	comp:obj	_	_
 8	pour	pour	ADP	_	_	2	mod	_	_
@@ -25100,7 +25100,7 @@
 19	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 20	constamment	constamment	ADV	_	_	19	mod	_	_
 21	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj@lvc	_	_
-22	de	de	ADP	_	_	19	comp:obl	_	_
+22	de	de	ADP	_	_	21	comp:obl	_	_
 23	se	se	PRON	_	Person=3|PronType=Prs	24	comp:obj	_	_
 24	renouveler	renouveler	VERB	_	VerbForm=Inf	22	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	7	punct	_	_
@@ -29285,7 +29285,7 @@
 8	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	subj	_	_
 9	firent	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 10	appel	appel	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj@lvc	_	_
-11	à	à	ADP	_	_	9	comp:obl	_	_
+11	à	à	ADP	_	_	10	comp:obl	_	_
 12	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	charpentiers	charpentier	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	métalliques	métallique	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
@@ -33498,7 +33498,7 @@
 14	de	de	ADP	_	_	13	udep	_	_
 15	manière	manière	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 16	récurrente	récurrent	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
-17	à	à	ADP	_	_	12	comp:obl	_	_
+17	à	à	ADP	_	_	13	comp:obl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	publicité	publicité	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	11	punct	_	_
@@ -35240,7 +35240,7 @@
 27	faire	faire	VERB	_	VerbForm=Inf	26	comp:obj@x	_	_
 28	face	face	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj@lvc	_	_
 29-30	aux	_	_	_	_	_	_	_	_
-29	à	à	ADP	_	_	27	comp:obl	_	_
+29	à	à	ADP	_	_	28	comp:obl	_	_
 30	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 31	mêmes	même	ADJ	_	Gender=Fem|Number=Plur	32	mod	_	_
 32	accusations	accusation	NOUN	_	Gender=Fem|Number=Plur	29	comp:obj	_	SpaceAfter=No
@@ -36090,7 +36090,7 @@
 15	fit	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	comp:obj	_	_
 16	don	don	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@lvc	_	_
 17-18	aux	_	_	_	_	_	_	_	_
-17	à	à	ADP	_	_	15	comp:obl	_	_
+17	à	à	ADP	_	_	16	comp:obl	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	comtes	comte	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
 20	de	de	ADP	_	_	19	udep	_	_
@@ -41195,8 +41195,8 @@
 26	forêt	forêt	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
-29	transition	transition	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj@lvc	_	_
-30	avec	avec	ADP	_	_	28	comp:obl	_	_
+29	transition	transition	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
+30	avec	avec	ADP	_	_	28	udep	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	Angoumois	Angoumois	PROPN	_	_	30	comp:obj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	19	punct	_	_
