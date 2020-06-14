@@ -33890,7 +33890,7 @@
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
 11	s'	se	PRON	_	Person=3|PronType=Prs	12	comp@expl	_	SpaceAfter=No
 12	étonner	étonner	VERB	_	VerbForm=Inf	9	comp:obj	_	_
-13	que	que	SCONJ	_	_	12	comp:obj	_	_
+13	que	que	SCONJ	_	_	12	comp:obl	_	_
 14	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	subj@expl	_	_
 15	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
