@@ -3277,7 +3277,7 @@
 13	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	15	comp:obj	_	_
 14	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
 15	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
-16	longtemps	longtemps	ADV	_	_	14	mod	_	SpaceAfter=No
+16	longtemps	longtemps	ADV	_	_	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	EXTPOS=VERB|Type=MWE
