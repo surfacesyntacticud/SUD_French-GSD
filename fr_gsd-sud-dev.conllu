@@ -1748,7 +1748,7 @@
 19	entrainé	entrainer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@pass	_	_
 20	par	par	ADP	_	_	19	comp:obl@agent	_	_
 21	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
-22	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
+22	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00066
@@ -4200,7 +4200,7 @@
 # sent_id = fr-ud-dev_00154
 # text = Cette dernière occupe une place intermédiaire entre l'apprentissage supervisé (pour laquelle les étiquettes de classes sont connues) et l'apprentissage non-supervisé (où aucune étiquette de classe n'est fournie).
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
-2	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	occupe	occuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	place	place	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -6392,7 +6392,7 @@
 12	ouvrages	ouvrage	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
-15	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
+15	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	soit	soit	CCONJ	_	_	18	cc	_	_
 18	en	en	ADP	_	_	9	udep	_	_
@@ -15095,7 +15095,7 @@
 # sent_id = fr-ud-dev_00543
 # text = Ce dernier en profite pour prendre contrôle du diocèse, et marcher sur la ville.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=ce
-2	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
+2	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	4	subj	_	_
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obl	_	_
 4	profite	profiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pour	pour	ADP	_	_	4	mod	_	_
@@ -19715,7 +19715,7 @@
 # sent_id = fr-ud-dev_00711
 # text = Ce dernier est connu pour avoir pris des mesures de clémence à l'égard des Juifs de Paris.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=ce
-2	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	3	subj@pass	_	_
+2	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	connu	connaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	pour	pour	ADP	_	_	3	mod	_	_
@@ -20231,7 +20231,7 @@
 1	Cependant	cependant	ADV	_	_	5	mod	_	SpaceAfter=No|wordform=cependant
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
-4	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+4	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	5	subj	_	_
 5	résiste	résister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	vaillamment	vaillamment	ADV	_	_	5	mod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
@@ -23710,7 +23710,7 @@
 # sent_id = fr-ud-dev_00858
 # text = Ce dernier va constituer l'affluent majeur du Río Limay, branche-mère du fleuve Río Negro qui débouchera dans l'Atlantique.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=ce
-2	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	constituer	constituer	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
@@ -28372,7 +28372,7 @@
 # sent_id = fr-ud-dev_01019
 # text = Cette dernière représente un évêque bénissant les fidèles et serait une représentation de Saint Pallais.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
-2	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	évêque	évêque	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -32408,7 +32408,7 @@
 # sent_id = fr-ud-dev_01173
 # text = Cette dernière est d'ailleurs un fondement non négligeable du dogme du Purgatoire.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
-2	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	3	mod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
 5	ailleurs	ailleurs	ADV	_	_	4	comp:obj@fixed	_	_
@@ -34601,7 +34601,7 @@
 11	détacha	détacher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	et	et	CCONJ	_	_	15	cc	_	_
 13	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
-14	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	15	subj	_	_
+14	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	15	subj	_	_
 15	tenta	tenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
 16	de	de	ADP	_	_	15	comp:obj@x	_	_
 17	tuer	tuer	VERB	_	VerbForm=Inf	16	comp:obj	_	_
