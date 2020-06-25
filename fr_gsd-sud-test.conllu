@@ -4226,7 +4226,7 @@
 # text = Ca énerve beaucoup de personnes, mais pour l'utilisateur final, c'est rassurant dans 80% des cas.
 1	Ca	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=ca
 2	énerve	énerver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	beaucoup	beaucoup	ADV	_	_	2	comp:obj	_	_
+3	beaucoup	beaucoup	ADV	_	_	2	comp:obj	_	EXTPOS=PRON|Type=Conv
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	14	punct	_	_
@@ -6223,7 +6223,7 @@
 11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	unk@fixed	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	avec	avec	ADP	_	_	9	udep	_	_
-14	beaucoup	beaucoup	ADV	_	_	13	comp:obj	_	_
+14	beaucoup	beaucoup	ADV	_	_	13	comp:obj	_	EXTPOS=PRON|Type=Conv
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	salade	salade	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 17	autour	autour	ADV	_	_	14	mod	_	SpaceAfter=No
@@ -7264,7 +7264,7 @@
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-8	beaucoup	beaucoup	ADV	_	_	7	comp:obj	_	_
+8	beaucoup	beaucoup	ADV	_	_	7	comp:obj	_	EXTPOS=PRON|Type=Conv
 9	de	de	ADP	_	_	8	comp:obl	_	_
 10	retard	retard	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_

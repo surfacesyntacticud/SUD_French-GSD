@@ -4671,7 +4671,7 @@
 21	de	de	ADP	_	_	20	udep	_	_
 22	Sainte-Hélène	Sainte-Hélène	PROPN	_	_	21	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	2	punct	_	_
-24	beaucoup	beaucoup	PRON	_	_	25	subj	_	_
+24	beaucoup	beaucoup	ADV	_	_	25	subj	_	EXTPOS=PRON|Type=Conv
 25	mettront	mettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 26	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det	_	_
 27	espoir	espoir	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
@@ -9759,7 +9759,7 @@
 11	Kojiki	Kojiki	PROPN	_	_	9	comp:obj	_	_
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	inspiré	inspirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
-14	beaucoup	beaucoup	ADV	_	_	13	comp:obj	_	_
+14	beaucoup	beaucoup	ADV	_	_	13	comp:obj	_	EXTPOS=PRON|Type=Conv
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	pratiques	pratique	NOUN	_	Gender=Fem|Number=Plur	15	comp:obj	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
@@ -14851,7 +14851,7 @@
 17	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	subj	_	_
 18	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	comp:obj	_	_
 19	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
-20	beaucoup	beaucoup	ADV	_	_	19	comp:obj	_	_
+20	beaucoup	beaucoup	ADV	_	_	19	comp:obj	_	EXTPOS=PRON|Type=Conv
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 23	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
@@ -21899,7 +21899,7 @@
 
 # sent_id = fr-ud-dev_00796
 # text = Beaucoup des développeurs avaient déjà travaillé sur les précédents opus de la série.
-1	Beaucoup	beaucoup	ADV	_	_	5	subj	_	wordform=beaucoup
+1	Beaucoup	beaucoup	ADV	_	_	5	subj	_	EXTPOS=PRON|Type=Conv|wordform=beaucoup
 2-3	des	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -24290,7 +24290,7 @@
 13	confusions	confusion	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	de	de	ADP	_	_	11	conj	_	_
-16	beaucoup	beaucoup	ADV	_	_	15	comp:obj	_	_
+16	beaucoup	beaucoup	ADV	_	_	15	comp:obj	_	EXTPOS=PRON|Type=Conv
 17	d'	de	ADP	_	_	16	comp:obl	_	SpaceAfter=No
 18	embarras	embarras	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 19	chez	chez	ADP	_	_	18	udep	_	_
@@ -25339,7 +25339,7 @@
 
 # sent_id = fr-ud-dev_00915
 # text = Beaucoup de boites de prestation s'inventent un passé et surtout un présent glorieux alors qu'en réalité il s'agit juste d'une seule personne parfois très incompétente et qui utilise son adresse personnelle comme adresse de domiciliation de la dite entreprise.
-1	Beaucoup	beaucoup	ADV	_	_	7	subj	_	wordform=beaucoup
+1	Beaucoup	beaucoup	ADV	_	_	7	subj	_	EXTPOS=PRON|Type=Conv|wordform=beaucoup
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	boites	boîte	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
@@ -29457,7 +29457,7 @@
 1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|wordform=j'
 2	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	comme	comme	ADP	_	_	2	mod	_	_
-4	beaucoup	beaucoup	PRON	_	_	3	comp:obj	_	_
+4	beaucoup	beaucoup	ADV	_	_	3	comp:obj	_	EXTPOS=PRON|Type=Conv
 5	pouvoir	pouvoir	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 6	connaître	connaître	VERB	_	VerbForm=Inf	5	comp:obj@x	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -32743,7 +32743,7 @@
 12	symboles	symbole	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 13	Marseillais	marseillais	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	wordform=marseillais
 14	avec	avec	ADP	_	_	12	udep	_	_
-15	beaucoup	beaucoup	ADV	_	_	14	comp:obj	_	_
+15	beaucoup	beaucoup	ADV	_	_	14	comp:obj	_	EXTPOS=PRON|Type=Conv
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	références	référence	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 18	bien	bien	ADV	_	_	19	mod@fixed	_	_
