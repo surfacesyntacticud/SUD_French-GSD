@@ -12057,7 +12057,7 @@
 10	sections	section	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 11	précédentes	précédent	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
-13	quel	quel	PRON	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
+13	quel	quel	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
 14	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	en	en	ADP	_	_	14	mod	_	_
@@ -12463,7 +12463,7 @@
 # sent_id = fr-ud-dev_00450
 # text = Mais quelle ne fut pas ma surprise lorsque j'ai pu récupérer celle ci dans un état proche du neuf !
 1	Mais	mais	CCONJ	_	_	4	cc	_	wordform=mais
-2	quelle	quel	PRON	_	Gender=Fem|Number=Sing	4	subj	_	_
+2	quelle	quel	ADJ	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
@@ -14816,7 +14816,7 @@
 
 # sent_id = fr-ud-dev_00533
 # text = Quels sont les objectifs à long terme et les stratégies à développer ?
-1	Quels	quel	PRON	_	Gender=Masc|Number=Plur	2	comp:pred	_	wordform=quels
+1	Quels	quel	ADJ	_	Gender=Masc|Number=Plur	2	comp:pred	_	wordform=quels
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	objectifs	objectif	NOUN	_	Gender=Masc|Number=Plur	2	subj	_	_
@@ -17888,7 +17888,7 @@
 # sent_id = fr-ud-dev_00644
 # text = Mais quel est son rapport au christianisme ?
 1	Mais	mais	CCONJ	_	_	3	cc	_	wordform=mais
-2	quel	quel	PRON	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	quel	quel	ADJ	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 5	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
