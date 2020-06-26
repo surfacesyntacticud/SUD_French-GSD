@@ -16544,7 +16544,7 @@
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	autorité	autorité	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
 5	judiciaire	judiciaire	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
-6	elle-même	elle-même	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	mod	_	_
+6	elle-même	lui-même	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	mod	_	_
 7	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
 8	reconnaît	reconnaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -40959,7 +40959,7 @@
 40	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
 41	corps	corps	NOUN	_	Gender=Masc|Number=Plur	39	comp:obj	_	_
 42	dans	dans	ADP	_	_	35	udep	_	_
-43	elle-même	elle-même	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	42	comp:obj	_	_
+43	elle-même	lui-même	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	42	comp:obj	_	_
 44	qui	qui	PRON	_	PronType=Rel	45	subj	_	_
 45	envoie	envoyer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	mod@relcl	_	_
 46	tout	tout	DET	_	Gender=Masc|Number=Sing	47	det	_	_
