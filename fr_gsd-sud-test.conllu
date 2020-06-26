@@ -5105,7 +5105,7 @@
 40	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	comp:obj	_	_
 41	affirmé	affirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	comp:aux@tense	_	_
 42	que	que	SCONJ	_	_	41	comp:obj	_	_
-43	nul	nul	PRON	_	_	45	subj	_	_
+43	nul	nul	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	45	subj	_	_
 44	n'	ne	ADV	_	Polarity=Neg	45	mod	_	SpaceAfter=No
 45	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	comp:obj	_	_
 46	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	comp:aux@tense	_	_
