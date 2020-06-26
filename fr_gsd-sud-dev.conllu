@@ -10412,7 +10412,7 @@
 # sent_id = fr-ud-dev_00376
 # text = De quoi manger sain et équilibré pour pas grand chose !
 1	De	de	ADP	_	_	3	udep	_	wordform=de
-2	quoi	quoi	PRON	_	_	1	comp:obj	_	_
+2	quoi	quoi	PRON	_	PronType=Ind	1	comp:obj	_	_
 3	manger	manger	VERB	_	VerbForm=Inf	0	root	_	_
 4	sain	sain	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
@@ -27111,7 +27111,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	nom	nom	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
-5	quoi	quoi	PRON	_	_	4	comp:obj	_	_
+5	quoi	quoi	PRON	_	PronType=Int	4	comp:obj	_	_
 6	refuser	refuser	VERB	_	VerbForm=Inf	0	root	_	_
 7	telle	tel	DET	_	Gender=Fem|Number=Sing	8	det	_	_
 8	pratique	pratique	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -31877,8 +31877,8 @@
 6	souhaitent	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	maintenir	maintenir	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	statu	statu	NOUN	_	_	7	comp:obj	_	EXTPOS=NOUN|Type=MWE
-10	quo	quo	PRON	_	_	9	unk@fixed	_	_
+9	statu	statu	X	_	_	7	comp:obj	_	EXTPOS=NOUN|Type=MWE
+10	quo	quo	X	_	_	9	unk@fixed	_	_
 11	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	parataxis	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
 13	accroît	accroître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
@@ -37926,7 +37926,7 @@
 14	2011	2011	NUM	_	_	12	conj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	à	à	ADP	_	_	19	comp:obl	_	_
-17	quoi	quoi	PRON	_	_	16	comp:obj	_	_
+17	quoi	quoi	PRON	_	PronType=Ind	16	comp:obj	_	_
 18	se	se	PRON	_	Person=3|PronType=Prs	19	comp@pass	_	_
 19	rajoute	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
