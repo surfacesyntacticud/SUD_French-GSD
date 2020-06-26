@@ -24533,7 +24533,7 @@
 12	cadette	cadet	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 13	portait	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	mêmes	même	PRON	_	Number=Plur	13	comp:obj	_	_
+15	mêmes	même	ADJ	_	Number=Plur	13	comp:obj	_	_
 16	avec	avec	ADP	_	_	13	mod	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	lambel	lambel	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
