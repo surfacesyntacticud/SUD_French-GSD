@@ -3006,7 +3006,7 @@
 
 # sent_id = fr-ud-test_00102
 # text = Moi plus je vois des vidéos de ce jeu, plus je me dis que Battlefield 3 sera THE GAME pour les vrais soldats qui en ont dans le slip.
-1	Moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	wordform=moi
+1	Moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	wordform=moi
 2	plus	plus	ADV	_	_	4	mod	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3369,7 +3369,7 @@
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	17	subj	_	_
 21	d'	de	ADP	_	_	20	udep	_	SpaceAfter=No
-22	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	comp:obj	_	SpaceAfter=No
+22	eux	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00115
@@ -5543,7 +5543,7 @@
 11	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
 13	pour	pour	ADP	_	_	8	mod	_	_
-14	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	SpaceAfter=No
+14	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
 17	gagne	gagner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
@@ -7775,7 +7775,7 @@
 14	titre	titre	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 15	personnel	personnel	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 16	pour	pour	ADP	_	_	14	udep	_	_
-17	moi	soi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
+17	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	1	punct	_	_
 19	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	20	subj	_	_
 20	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8056,7 +8056,7 @@
 15	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	appel	appel	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@lvc	_	_
 17	à	à	ADP	_	_	16	comp:obl	_	_
-18	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
+18	eux	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
 19	car	car	CCONJ	_	_	22	cc	_	_
 20	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	avis	avis	NOUN	_	Gender=Masc|Number=Plur	22	subj	_	_
