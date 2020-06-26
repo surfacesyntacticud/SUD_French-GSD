@@ -27644,7 +27644,7 @@
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	de	de	ADP	_	_	4	conj	_	_
 18	«	«	PUNCT	_	_	19	punct	_	_
-19	quinze	quinze	PRON	_	Number=Plur	17	comp:obj	_	_
+19	quinze	quinze	NUM	_	Number=Plur	17	comp:obj	_	_
 20	de	de	ADP	_	_	19	udep	_	_
 21	profondeur	profondeur	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
 22	»	»	PUNCT	_	_	19	punct	_	SpaceAfter=No
