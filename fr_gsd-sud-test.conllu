@@ -247,7 +247,7 @@
 25	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	subj@expl	_	SpaceAfter=No
 26	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 27	à	à	ADP	_	_	26	comp:pred	_	_
-28	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	_
+28	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	_
 29	qu'	que	SCONJ	_	_	26	comp:cleft	_	SpaceAfter=No
 30	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	subj	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs	33	comp@expl	_	SpaceAfter=No
@@ -328,7 +328,7 @@
 # sent_id = fr-ud-test_00010
 # text = Pour lui, je crois vraiment que l'essentiel est ailleurs, dans cette contribution à la déstabilisation de l'autorité spirituelle du pape que vous évoquez.
 1	Pour	pour	ADP	_	_	5	mod	_	wordform=pour
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
+2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 5	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -567,7 +567,7 @@
 # sent_id = fr-ud-test_00019
 # text = Selon lui, cette période sera mise à profit pour étudier les conséquences de l'accord sur les ressources de poisson, "ainsi que l'impact régional" des fonds versés par l'Union européenne, sur la base notamment des informations fournies par les autorités marocaines.
 1	Selon	selon	ADP	_	_	6	mod	_	wordform=selon
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
+2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	période	période	NOUN	_	Gender=Masc|Number=Plur	6	subj@pass	_	_
@@ -2162,7 +2162,7 @@
 # text = Consacrant, lui, l'essentiel de son temps et de son énérgie exclusivement aux grands chantiers économiques destinés à procurer du travail aux jeunes générations.
 1	Consacrant	consacrer	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No|wordform=consacrant
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	mod	_	SpaceAfter=No
+3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	essentiel	essentiel	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -2946,7 +2946,7 @@
 17	très	très	ADV	_	_	18	mod	_	_
 18	profonde	profond	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	_
 19	avec	avec	ADP	_	_	16	udep	_	_
-20	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	SpaceAfter=No
+20	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-test_00100
@@ -3325,7 +3325,7 @@
 # sent_id = fr-ud-test_00113
 # text = Selon lui, l'approche Eclipse, créé pour lutter contre les gangs de rue en 2006, est inutile.
 1	Selon	selon	ADP	_	_	19	mod	_	wordform=selon
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
+2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	approche	approche	NOUN	_	Gender=Fem|Number=Sing	19	subj	_	_
@@ -3380,7 +3380,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
 6	chez	chez	ADP	_	_	5	comp:obl	_	_
-7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
+7	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
 8	depuis	depuis	ADP	_	_	5	mod	_	_
 9	jeudi	jeudi	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	par	par	ADP	_	_	5	comp:obl@agent	_	_
@@ -3512,7 +3512,7 @@
 20	limité	limité	ADJ	_	Gender=Masc|Number=Sing	18	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	chez	chez	ADP	_	_	10	udep	_	_
-23	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	22	comp:obj	_	SpaceAfter=No
+23	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	en	en	ADP	_	_	10	udep	_	_
 26	match	match	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
@@ -4388,9 +4388,9 @@
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	qu'	que	SCONJ	_	_	7	conj	_	SpaceAfter=No
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
-14	en	en	PRON	_	Person=3|PronType=Prs	15	comp:obj	_	_
+14	en	en	PRON	_	Person=3|PronType=Prs	16	udep	_	_
 15	créé	créer	VERB	_	Tense=Past|Typo=Yes|VerbForm=Part	12	comp:obj	_	CorrectMood=Ind|CorrectTense=Pres|CorrectVerbForm=Fin|wordform=crée
-16	20.000	20.000	NUM	_	Shared=Yes	15	comp:pred	_	_
+16	20.000	20.000	NUM	_	Shared=Yes	15	comp:obj	_	_
 17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	jours	jour	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	15	mod	_	_
@@ -7386,7 +7386,7 @@
 1	Merci	merci	INTJ	_	_	0	root	_	wordform=merci
 2	beaucoup	beaucoup	ADV	_	_	1	mod	_	_
 3	à	à	ADP	_	_	1	comp:obl	_	_
-4	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
+4	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
 5	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00267
@@ -8912,7 +8912,7 @@
 4	de	de	ADP	_	_	2	udep	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Haut-Rhin	Haut-Rhin	PROPN	_	_	4	comp:obj	_	_
-7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	9	comp:obl	_	_
+7	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	comp:obl	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	confié	confier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -9240,7 +9240,7 @@
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	construction	construction	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	36	punct	_	_
-35	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	36	comp:obl	_	_
+35	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	comp:obl	_	_
 36	donnant	donner	VERB	_	Tense=Pres|VerbForm=Part	27	mod	_	_
 37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	teinte	teinte	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
@@ -9716,7 +9716,7 @@
 8	définition	définition	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	qu'	que	PRON	_	PronType=Rel	12	comp:obj	_	SpaceAfter=No
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
-11	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
+11	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
 12	prête	prêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 13	tous	tout	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
@@ -10726,7 +10726,7 @@
 36	considérer	considérer	VERB	_	VerbForm=Inf	35	comp:obj@x	_	_
 37	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	36	comp:obj	_	_
 38	que	que	PRON	_	PronType=Rel	40	comp:obj	_	_
-39	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	40	comp:obl	_	_
+39	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	comp:obl	_	_
 40	rapportera	rapporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	mod@relcl	_	_
 41	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
 42	épargne	épargne	NOUN	_	Gender=Fem|Number=Sing	40	subj	_	SpaceAfter=No

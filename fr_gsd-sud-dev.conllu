@@ -1381,7 +1381,7 @@
 2	gardien	gardien	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 3	algérien	algérien	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	4	mod	_	_
+5	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	mod	_	_
 6	aussi	aussi	ADV	_	_	5	mod	_	_
 7	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 8	filer	filer	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
@@ -2320,7 +2320,7 @@
 # sent_id = fr-ud-dev_00086
 # text = Il lui restait à battre Pat Buchanan, relativement isolé au sein du parti, Steve Forbes, Phillip Gramm (soutenu notamment par le sénateur John McCain de l'Arizona et la sénatrice Kay Bailey Hutchison du Texas) alors que Pete Wilson, le gouverneur de Californie et ancien sénateur, soutenu par la branche modérée et progressiste du parti, se retirait rapidement de la course.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
+2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
 3	restait	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl@x	_	_
 5	battre	battre	VERB	_	VerbForm=Inf	4	comp:obj	_	_
@@ -2808,7 +2808,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	moelle	moelle	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	9	mod	_	SpaceAfter=No
+6	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 9	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -3410,7 +3410,7 @@
 16	,	,	PUNCT	_	_	20	punct	_	_
 17	et	et	CCONJ	_	_	20	cc	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
-19	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	20	comp:obl	_	_
+19	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obl	_	_
 20	promettait	promettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
 21	deux	deux	NUM	_	_	22	det	_	_
 22	pensions	pension	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	_
@@ -3508,7 +3508,7 @@
 6	télévisée	téléviser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	mod	_	_
 7	Amir	Amir	PROPN	_	_	5	appos	_	_
 8	Kabir	Kabir	PROPN	_	_	7	flat@name	_	_
-9	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	11	comp:obl	_	_
+9	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	comp:obl	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	valu	valoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
@@ -4490,7 +4490,7 @@
 11	avec	avec	ADP	_	_	9	mod	_	_
 12	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	armée	armée	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
-14	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	15	comp:obl	_	_
+14	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	comp:obl	_	_
 15	prête	prêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 16	serment	serment	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@lvc	_	_
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
@@ -4710,7 +4710,7 @@
 # sent_id = fr-ud-dev_00173
 # text = Cela lui donne un aspect « formel ».
 1	Cela	cela	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	subj	_	wordform=cela
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
+2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
 3	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -4849,7 +4849,7 @@
 14	Mitt	Mitt	PROPN	_	_	7	appos	_	_
 15	Romney	Romney	PROPN	_	_	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
-17	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	18	comp:obl	_	_
+17	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	comp:obl	_	_
 18	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	de	de	ADP	_	_	18	comp:obj@x	_	_
 20	se	se	PRON	_	Person=3|PronType=Prs	21	comp:obj	_	_
@@ -8175,7 +8175,7 @@
 # text = Cet enregistrement lui valut la première place dans les hit-parades.
 1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=cet
 2	enregistrement	enregistrement	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
-3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	_
+3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	_
 4	valut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	première	premier	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
@@ -9119,7 +9119,7 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	société	société	NOUN	_	Gender=Fem|Number=Sing	15	subj	_	_
 13	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
-14	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	15	comp:obl	_	_
+14	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	comp:obl	_	_
 15	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 16	toujours	toujours	ADV	_	_	15	mod	_	_
 17	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
@@ -12780,7 +12780,7 @@
 31	que	que	PRON	_	PronType=Rel	35	comp:obj	_	_
 32	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
 33	armée	armée	NOUN	_	Gender=Fem|Number=Sing	35	subj	_	_
-34	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	35	comp:obl	_	_
+34	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	comp:obl	_	_
 35	confie	confier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	mod@relcl	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	21	punct	_	_
 
@@ -14577,7 +14577,7 @@
 # text = Un exemplaire en est conservé au musée Carnavalet (ND 0203).
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=un
 2	exemplaire	exemplaire	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
-3	en	en	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	_
+3	en	en	PRON	_	Person=3|PronType=Prs	2	udep	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	conservé	conserver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6-7	au	_	_	_	_	_	_	_	_
@@ -15610,7 +15610,7 @@
 8	à	à	ADP	_	_	7	udep	_	_
 9	mortier	mortier	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
-11	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
+11	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
 12	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	mod@relcl	_	_
 13	:	:	PUNCT	_	_	16	punct	_	_
 14	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	wordform=je
@@ -17418,7 +17418,7 @@
 6	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	Robert	Robert	PROPN	_	_	10	subj	_	_
-9	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	10	comp:obl	_	_
+9	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obl	_	_
 10	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	promotion	promotion	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
@@ -18449,7 +18449,7 @@
 # text = C'est lui qui recruta le successeur de Graham, le français Arsène Wenger.
 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No|wordform=c'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	2	comp:pred	_	_
+3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	comp:pred	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	recruta	recruter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:cleft	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -18719,7 +18719,7 @@
 21	USA	USA	NOUN	_	Gender=Masc|Number=Plur	18	appos	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	18	punct	_	_
 23	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
-24	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	23	mod	_	_
+24	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	mod	_	_
 25	aussi	aussi	ADV	_	_	24	mod	_	_
 26	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 27	aiguilles	aiguille	NOUN	_	Gender=Fem|Number=Plur	23	comp:obj	_	_
@@ -18769,7 +18769,7 @@
 13	détresse	détresse	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
-16	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	17	comp:obl	_	_
+16	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	comp:obl	_	_
 17	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 18	de	de	ADP	_	_	17	comp:obj@x	_	_
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
@@ -19772,7 +19772,7 @@
 # sent_id = fr-ud-dev_00713
 # text = Elle lui rit au nez, et Niida furieux lui tire dessus, écorchant le visage de Chigusa.
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=elle
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
+2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
 3	rit	rire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
@@ -19782,7 +19782,7 @@
 8	et	et	CCONJ	_	_	12	cc	_	_
 9	Niida	Niida	PROPN	_	_	12	subj	_	_
 10	furieux	furieux	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
-11	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
+11	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
 12	tire	tirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	dessus	dessus	ADV	_	_	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
@@ -21485,7 +21485,7 @@
 # text = Son contrat lui permet de vivre sur place dans son propre chalet, petit mais confortable.
 1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	wordform=son
 2	contrat	contrat	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
-3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	_
+3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	_
 4	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	de	de	ADP	_	_	4	comp:obj@x	_	_
 6	vivre	vivre	VERB	_	VerbForm=Inf	5	comp:obj	_	_
@@ -22202,7 +22202,7 @@
 62	sept	sept	NUM	_	_	60	conj	_	_
 63	membres	membre	NOUN	_	Gender=Masc|Number=Plur	59	comp:obj	_	_
 64	qui	qui	PRON	_	PronType=Rel	66	subj	_	_
-65	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	67	comp:obl	_	_
+65	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	67	comp:obl	_	_
 66	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	mod@relcl	_	_
 67	succédé	succéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	66	comp:aux@tense	_	_
 68	en	en	ADP	_	_	66	udep	_	_
@@ -23908,7 +23908,7 @@
 # sent_id = fr-ud-dev_00864
 # text = Elle lui permet d'obtenir une sélection pour le WNBA All-Star Game, avec 15,7 pts, 4,9 rbds, 1,8 passes et 1,36 interceptions.
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=elle
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
+2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
 3	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	3	comp:obj@x	_	SpaceAfter=No
 5	obtenir	obtenir	VERB	_	VerbForm=Inf	4	comp:obj	_	_
@@ -24414,7 +24414,7 @@
 3	musical	musical	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	SpaceAfter=No
 5	installera	installer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-6	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	mod	_	_
+6	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	mod	_	_
 7	aussi	aussi	ADV	_	_	6	mod	_	_
 8	dans	dans	ADP	_	_	5	comp:obl	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -25622,7 +25622,7 @@
 9	à	à	ADP	_	_	8	udep	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	frontière	frontière	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	14	comp:obl	_	_
+12	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	comp:obl	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	adressé	adresser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@pass	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	13	punct	_	_
@@ -26144,7 +26144,7 @@
 17	Lachance	Lachance	PROPN	_	_	16	flat@name	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	16	punct	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
-20	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	21	comp:obl	_	_
+20	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	comp:obl	_	_
 21	proposera	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	conj	_	_
 22	d'	de	ADP	_	_	21	comp:obj@x	_	SpaceAfter=No
 23	entrer	entrer	VERB	_	VerbForm=Inf	22	comp:obj	_	_
@@ -29126,7 +29126,7 @@
 # sent_id = fr-ud-dev_01048
 # text = Pékin lui reproche d'avoir été l'un des 300 cosignataires de la « Charte 08 », qui réclame une Chine démocratique.
 1	Pékin	Pékin	PROPN	_	_	3	subj	_	_
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
+2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
 3	reproche	reprocher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	3	comp:obj@x	_	SpaceAfter=No
 5	avoir	avoir	AUX	_	VerbForm=Inf	4	comp:obj	_	_
@@ -29998,7 +29998,7 @@
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	finalités	finalité	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	_
 21	qui	qui	PRON	_	PronType=Rel	23	subj@pass	_	_
-22	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	25	comp:obl	_	_
+22	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	comp:obl	_	_
 23	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
 24	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@tense	_	_
 25	assignées	assigner	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	24	comp:aux@pass	_	SpaceAfter=No
@@ -32043,7 +32043,7 @@
 # text = " Je lui ai parlé encore il y a une heure, et nous étions tous évidemment dans l'expectative.
 1	"	"	PUNCT	_	_	4	punct	_	_
 2	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	wordform=je
-3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	comp:obl	_	_
+3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obl	_	_
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	encore	encore	ADV	_	_	4	mod	_	_
@@ -34065,7 +34065,7 @@
 4	prix	prix	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	Jean-Valcourt	Jean-Valcourt	PROPN	_	_	4	appos	_	_
 6	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
-7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	8	comp:obl	_	_
+7	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obl	_	_
 8	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 9	de	de	ADP	_	_	8	comp:obj@x	_	_
 10	voyager	voyager	VERB	_	VerbForm=Inf	9	comp:obj	_	_
@@ -34611,7 +34611,7 @@
 21	mais	mais	CCONJ	_	_	25	cc	_	_
 22	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	immortel	immortel	NOUN	_	Gender=Masc|Number=Sing	25	subj	_	_
-24	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	25	comp:obl	_	_
+24	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	comp:obl	_	_
 25	tira	tirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
 26	dessus	dessus	ADV	_	_	25	mod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
@@ -37182,7 +37182,7 @@
 26	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	homme	homme	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 28	qui	qui	PRON	_	PronType=Rel	30	subj@pass	_	_
-29	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	31	comp:obl	_	_
+29	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	comp:obl	_	_
 30	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	_
 31	conféré	conférer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	comp:aux@pass	_	_
 32	par	par	ADP	_	_	31	comp:obl@agent	_	_
@@ -38060,7 +38060,7 @@
 4	origine	origine	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	iranienne	iranien	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	6	mod	_	_
+7	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	mod	_	_
 8	aussi	aussi	ADV	_	_	7	mod	_	_
 9	député	député	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
 10-11	au	_	_	_	_	_	_	_	_
@@ -39232,7 +39232,7 @@
 14	de	de	ADP	_	_	13	udep	_	_
 15	hot-dog	hot-dog	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 16	de	de	ADP	_	_	10	comp:obj@x	_	_
-17	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	18	comp:obl	_	_
+17	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	comp:obl	_	_
 18	avancer	avancer	VERB	_	VerbForm=Inf	16	comp:obj	_	_
 19	20	20	NUM	_	_	20	det	_	_
 20	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	SpaceAfter=No
@@ -39255,7 +39255,7 @@
 37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	client	client	NOUN	_	Gender=Masc|Number=Sing	36	comp:pred	_	_
 39	qui	qui	PRON	_	PronType=Rel	41	subj	_	_
-40	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	41	comp:obl	_	_
+40	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	comp:obl	_	_
 41	offre	offrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	comp:cleft	_	_
 42	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	44	det	_	_
 43	20	20	NUM	_	_	44	mod	_	_
@@ -40996,7 +40996,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	quant	quant	ADV	_	_	3	mod	_	EXTPOS=ADP|Type=MWE
 5	à	à	ADP	_	_	4	unk@fixed	_	_
-6	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
+6	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
 7	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 8	:	:	PUNCT	_	_	13	punct	_	_
 9	«	«	PUNCT	_	_	13	punct	_	_
@@ -41111,7 +41111,7 @@
 17	prison	prison	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	9	punct	_	_
 19	ne	ne	ADV	_	Polarity=Neg	21	mod	_	_
-20	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	21	comp:obl	_	_
+20	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	comp:obl	_	_
 21	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 22	plus	plus	ADV	_	Polarity=Neg	21	mod	_	_
 23	et	et	CCONJ	_	_	25	cc	_	_
@@ -41150,7 +41150,7 @@
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	oculus	oculus	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
-24	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	26	subj@pass	_	EXTPOS=PRON|Type=MWE|wordform=lui-même
+24	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	subj@pass	_	EXTPOS=PRON|Type=MWE|wordform=lui-même
 25	même	même	ADJ	_	Gender=Masc|Number=Sing	24	goeswith	_	wordform=_
 26	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	mod	_	_
 27	d'	de	ADP	_	_	26	comp:obl	_	SpaceAfter=No
