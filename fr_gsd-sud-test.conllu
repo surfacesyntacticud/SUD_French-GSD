@@ -10339,8 +10339,8 @@
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Poesia	Poesia	PROPN	_	_	4	comp:obj	_	SpaceAfter=No
 7	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
-8	2	2	PROPN	_	_	9	mod	_	_
-9	Ottobre	Ottobre	PROPN	_	_	6	appos	_	SpaceAfter=No
+8	2	2	NUM	_	_	6	flat:name	_	_
+9	Ottobre	Ottobre	PROPN	_	_	8	flat:name	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
