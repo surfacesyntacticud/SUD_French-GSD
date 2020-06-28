@@ -586,14 +586,14 @@
 6	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 7	musicaux	musical	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
 8	comme	comme	ADP	_	_	6	udep	_	_
-9	Los	el	DET	_	Gender=Masc|Number=Sing	10	det	_	wordform=los
-10	Abuelos	abuelo	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	wordform=abuelos
-11	de	de	ADP	_	_	10	udep	_	_
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Nada	Nada	PROPN	_	_	11	comp:obj	_	_
+9	Los	Los	X	_	Foreign=Yes	8	comp:obj	_	Lang=es
+10	Abuelos	Abuelos	X	_	Foreign=Yes	9	flat:name	_	Lang=es
+11	de	de	X	_	Foreign=Yes	10	flat:name	_	Lang=es
+12	la	la	X	_	Foreign=Yes	11	flat:name	_	Lang=es
+13	Nada	Nada	X	_	Foreign=Yes	12	flat:name	_	Lang=es
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	Los	Los	PROPN	_	_	10	conj	_	_
-16	Rodríguez	Rodríguez	PROPN	_	_	15	flat@name	_	SpaceAfter=No
+15	Los	Los	X	_	Foreign=Yes	10	conj	_	Lang=es
+16	Rodríguez	Rodríguez	X	_	Foreign=Yes	15	flat@name	_	Lang=es|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00023

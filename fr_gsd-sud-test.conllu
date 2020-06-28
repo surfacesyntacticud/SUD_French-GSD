@@ -3024,8 +3024,8 @@
 16	Battlefield	Battlefield	PROPN	_	_	18	subj	_	_
 17	3	3	NUM	_	_	16	mod	_	_
 18	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	comp:obj	_	_
-19	THE	the	DET	_	Definite=Def|Gender=Masc|Number=Sing	20	det	_	wordform=the
-20	GAME	game	NOUN	_	Gender=Masc|Number=Sing	18	comp:pred	_	wordform=game
+19	THE	THE	X	_	Foreign=Yes	18	comp:pred	_	Lang=en
+20	GAME	GAME	X	_	Foreign=Yes	19	flat:name	_	Lang=en
 21	pour	pour	ADP	_	_	18	mod	_	_
 22	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 23	vrais	vrai	ADJ	_	Gender=Masc|Number=Plur	24	mod	_	_
