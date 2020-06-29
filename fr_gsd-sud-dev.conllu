@@ -3115,7 +3115,7 @@
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
-8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	9	det	_	_
+8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	9	det	_	_
 9	impact	impact	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	manifeste	manifeste	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 11	sur	sur	ADP	_	_	6	udep	_	_
@@ -4225,7 +4225,7 @@
 24	non-supervisé	non-superviser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	mod	_	_
 25	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 26	où	où	ADV	_	PronType=Rel	32	mod	_	_
-27	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	28	det	_	_
+27	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	28	det	_	_
 28	étiquette	étiquette	NOUN	_	Gender=Fem|Number=Sing	32	subj@pass	_	_
 29	de	de	ADP	_	_	28	udep	_	_
 30	classe	classe	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
@@ -4278,7 +4278,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	objet	objet	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No
-11	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	12	det	_	_
+11	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	12	det	_	_
 12	démenti	démenti	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -13208,7 +13208,7 @@
 
 # sent_id = fr-ud-dev_00475
 # text = Aucun autre pays ne s'occupe à ce point des jeunes générations de joueurs.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	3	det	_	wordform=aucun
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	3	det	_	wordform=aucun
 2	autre	autre	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
 3	pays	pays	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
 4	ne	ne	ADV	_	Polarity=Neg	6	mod	_	_
@@ -16983,7 +16983,7 @@
 
 # sent_id = fr-ud-dev_00609
 # text = Aucun signe échographique n'est symptomatique de la trisomie 21.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	2	det	_	wordform=aucun
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	wordform=aucun
 2	signe	signe	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
 3	échographique	échographique	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	n'	ne	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
@@ -19988,7 +19988,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	humanisme	humanisme	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
-17	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	18	det	_	_
+17	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	18	det	_	_
 18	catégorisation	catégorisation	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	15	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	pas	pas	ADV	_	_	18	conj	_	_
@@ -40871,7 +40871,7 @@
 
 # sent_id = fr-ud-dev_01468
 # text = Aucun intérêt à venir dans cet hôtel qui ne mérite aucune étoiles surtout pour le prix affiché !
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	2	det	_	wordform=aucun
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	wordform=aucun
 2	intérêt	intérêt	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	à	à	ADP	_	_	2	udep	_	_
 4	venir	venir	VERB	_	VerbForm=Inf	3	comp:obj	_	_
@@ -40881,7 +40881,7 @@
 8	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
 9	ne	ne	ADV	_	Polarity=Neg	10	mod	_	_
 10	mérite	mériter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
-11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	12	det	_	_
+11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	12	det	_	_
 12	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
 13	surtout	surtout	ADV	_	_	14	mod	_	_
 14	pour	pour	ADP	_	_	10	udep	_	_
