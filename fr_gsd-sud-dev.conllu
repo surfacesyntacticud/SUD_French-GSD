@@ -5729,7 +5729,7 @@
 24	Papa	Papa	PROPN	_	_	23	flat@name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
-27	italiens	italien	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
+27	italiens	italien	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	21	conj	_	CorrectNumber=Sing|wordform=italien
 28	Palestrina	Palestrina	PROPN	_	_	27	appos	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	et	et	CCONJ	_	_	31	cc	_	_
@@ -7866,7 +7866,7 @@
 43-44	au	_	_	_	_	_	_	_	_
 43	à	à	ADP	_	_	40	mod	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur	43	comp:obj	_	_
+45	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	43	comp:obj	_	CorrectNumber=Sing|worform=niveau
 46	national	national	ADJ	_	Gender=Masc|Number=Sing	45	mod	_	_
 47	et	et	CCONJ	_	_	48	cc	_	_
 48	européen	européen	ADJ	_	Gender=Masc|Number=Sing	46	conj	_	SpaceAfter=No
@@ -22053,7 +22053,7 @@
 9	hiver	hiver	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	sur	sur	ADP	_	_	5	udep	_	_
 11	ces	ce	DET	_	Number=Plur|PronType=Dem	12	det	_	_
-12	quai	quai	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
+12	quai	quai	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	10	comp:obj	_	CorrectNumber=Plur|wordform=quais
 13	brumeux	brumeux	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	entrer	entrer	VERB	_	VerbForm=Inf	5	conj	_	_
@@ -26213,7 +26213,7 @@
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	comme	comme	ADP	_	_	17	mod	_	_
 21	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	22	det	_	_
-22	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
+22	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	20	comp:obj	_	CorrectNumber=Sing|wordform=jumeau
 23	Fiat	Fiat	PROPN	_	_	22	appos	_	_
 24	Scudo	Scudo	PROPN	_	_	23	flat@name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
@@ -29701,7 +29701,7 @@
 23	faire	faire	AUX	_	VerbForm=Inf	20	conj	_	_
 24	partir	partir	VERB	_	VerbForm=Inf	23	comp:aux@caus	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-26	humain	humain	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj@agent	_	SpaceAfter=No
+26	humain	humain	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj@agent	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01071
@@ -30328,7 +30328,7 @@
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	11	udep	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	Certifications	certification	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	wordform=certifications
+15	Certifications	certification	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	wordform=certifications
 16	professionnelles	professionnel	ADJ	_	Gender=Fem|Number=Plur	15	mod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -31635,8 +31635,8 @@
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	18	det	_	_
 17	faible	faible	ADJ	_	Gender=Fem|Number=Sing	18	mod	_	_
-18	disposions	disposion	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	_
-19	a	à	ADP	_	_	18	udep	_	_
+18	disposions	disposion	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	9	conj	_	CorrectNumber=Sing|wordform=disposition
+19	a	à	ADP	_	Typo=Yes	18	udep	_	wordform=à
 20	éclairer	éclairer	VERB	_	VerbForm=Inf	19	comp:obj	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	voisinage	voisinage	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
@@ -31743,7 +31743,7 @@
 18-19	des	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-20	studio	studio	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
+20	studio	studio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	18	comp:obj	_	CorrectNumber=Plur|wordform=studios
 21	d'	de	ADP	_	_	20	udep	_	SpaceAfter=No
 22	Albertson	Albertson	PROPN	_	_	21	comp:obj	_	_
 23	Ranch	Ranch	PROPN	_	_	22	flat@name	_	_
@@ -32515,7 +32515,7 @@
 10	place	place	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	palliatif	palliatif	NOUN	_	Gender=Masc|Number=Plur	11	comp:pred	_	_
+13	palliatif	palliatif	NOUN	_	Gender=Masc|Number=Sing	11	comp:pred	_	_
 14	rassurant	rassurant	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	pour	pour	ADP	_	_	14	mod	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
@@ -40882,7 +40882,7 @@
 9	ne	ne	ADV	_	Polarity=Neg	10	mod	_	_
 10	mérite	mériter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	12	det	_	_
-12	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
+12	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	10	comp:obj	_	CorrectNumber=Sing|wordform=étoile
 13	surtout	surtout	ADV	_	_	14	mod	_	_
 14	pour	pour	ADP	_	_	10	udep	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
