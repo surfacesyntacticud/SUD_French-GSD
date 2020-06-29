@@ -306,7 +306,7 @@
 19	livre	livre	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	y	y	PRON	_	PronType=Prs	21	comp:obl	_	_
 21	ajoute	ajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
-22	du	du	DET	_	Gender=Masc|Number=Sing	23	det	_	_
+22	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	sens	sens	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -5752,7 +5752,7 @@
 4	y	y	PRON	_	PronType=Prs	5	mod	_	_
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
-7	du	du	DET	_	Gender=Masc|Number=Sing	9	det	_	_
+7	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	bon	bon	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 9	temps	temps	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
@@ -20908,7 +20908,7 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	campagne	campagne	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	EXTPOS=VERB|Type=MWE
-14	du	du	DET	_	Gender=Masc|Number=Sing	15	det@fixed	_	_
+14	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det@fixed	_	_
 15	mal	mal	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj@fixed	_	_
 16	à	à	ADP	_	_	13	comp:obl@x	_	_
 17	se	se	PRON	_	Person=3|PronType=Prs	18	comp@expl	_	_
@@ -27698,7 +27698,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	calvados	calvados	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	avec	avec	ADP	_	_	2	comp:obl	_	_
-6	du	du	DET	_	Gender=Masc|Number=Sing	7	det	_	_
+6	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	jus	jus	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	pomme	pomme	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
@@ -37714,7 +37714,7 @@
 39	Allemands	Allemands	PROPN	_	_	37	comp:obj	_	_
 40	et	et	CCONJ	_	_	41	cc	_	_
 41	redonner	redonner	VERB	_	VerbForm=Inf	34	conj	_	_
-42	du	du	DET	_	Gender=Masc|Number=Sing	43	det	_	_
+42	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	courage	courage	NOUN	_	Gender=Masc|Number=Sing	41	comp:obj	_	_
 44-45	aux	_	_	_	_	_	_	_	_
 44	à	à	ADP	_	_	41	comp:obl	_	_
@@ -39581,7 +39581,7 @@
 9	boudin	boudin	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	noir	noir	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 11	avec	avec	ADP	_	_	6	udep	_	_
-12	du	du	DET	_	Gender=Masc|Number=Sing	13	det	_	_
+12	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 14	jaune	jaune	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
