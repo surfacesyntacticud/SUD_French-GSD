@@ -37238,7 +37238,7 @@
 5	:	:	PUNCT	_	_	9	punct	_	_
 6	«	«	PUNCT	_	_	9	punct	_	_
 7	Mais	mais	CCONJ	_	_	9	cc	_	wordform=mais
-8	quelle	quel	DET	_	Gender=Fem|Number=Sing	9	det	_	_
+8	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	9	det	_	_
 9	importance	importance	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	_
 10	que	que	SCONJ	_	_	9	dislocated	_	_
 11	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	_
