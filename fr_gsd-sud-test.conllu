@@ -455,7 +455,7 @@
 4	à	à	ADP	_	_	3	comp:obl	_	EXTPOS=ADV|Type=MWE
 5	bien	bien	ADV	_	_	4	comp:obj@fixed	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	7	det	_	_
-7	politique	politique	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
+7	politique	politique	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 8	dictatoriale	dictatorial	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -570,7 +570,7 @@
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
-5	période	période	NOUN	_	Gender=Masc|Number=Sing	6	subj@pass	_	_
+5	période	période	NOUN	_	Gender=Fem|Number=Sing	6	subj@pass	_	_
 6	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
@@ -688,7 +688,7 @@
 9	el-Kadhafi	el-Kadhafi	PROPN	_	_	8	flat@name	_	_
 10	ouvre	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	période	période	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
+12	période	période	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 14	irakisation	irakisation	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	ou	ou	CCONJ	_	_	16	cc	_	_
@@ -1482,7 +1482,7 @@
 18	participation	participation	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 19	à	à	ADP	_	_	18	udep	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	rencontre	rencontre	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
+21	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 22	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No
 23	Assise	Assise	PROPN	_	_	22	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
@@ -2365,7 +2365,7 @@
 # text = Faire une part à l'éblouissement, savoir se lâcher dans l'admiration de ce qui n'est pas soi, céder à ce savoir immédiat du beau et du bien qui nous transporte, voilà le lyrisme.
 1	Faire	faire	VERB	_	VerbForm=Inf	0	root	_	wordform=faire
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	part	part	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+3	part	part	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	à	à	ADP	_	_	1	comp:obl	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	éblouissement	éblouissement	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
@@ -2668,7 +2668,7 @@
 15	,	,	PUNCT	_	_	1	punct	_	_
 16	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
 17	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	18	mod	_	_
-18	rencontre	rencontre	NOUN	_	Gender=Masc|Number=Sing	20	subj	_	_
+18	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	20	subj	_	_
 19	se	se	PRON	_	Person=3|PronType=Prs	20	comp@expl	_	_
 20	déroule	dérouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	sous	sous	ADP	_	_	20	udep	_	_
@@ -3213,7 +3213,7 @@
 34	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	comp:aux@tense	_	_
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 36	telle	tel	ADJ	_	Gender=Fem|Number=Sing	37	mod	_	_
-37	politique	politique	NOUN	_	Gender=Masc|Number=Sing	34	comp:obj	_	SpaceAfter=No
+37	politique	politique	NOUN	_	Gender=Fem|Number=Sing	34	comp:obj	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	15	punct	_	_
 39	947	947	NUM	_	_	40	det	_	_
 40	vies	vie	NOUN	_	Gender=Fem|Number=Plur	41	subj@pass	_	_
@@ -3562,7 +3562,7 @@
 12	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	finale	finale	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
+15	finale	finale	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 16-17	du	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -3674,7 +3674,7 @@
 9	candidate	candidat	NOUN	_	Gender=Fem|Number=Sing	29	subj	_	_
 10	à	à	ADP	_	_	9	udep	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	primaire	primaire	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
+12	primaire	primaire	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -5948,7 +5948,7 @@
 22	camp	camp	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	Garde	garde	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	wordform=garde
+25	Garde	garde	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	wordform=garde
 26	Républicaine	républicain	ADJ	_	Gender=Fem|Number=Sing	25	mod	_	wordform=républicaine
 27	de	de	ADP	_	_	22	udep	_	_
 28	Treichville	Treichville	PROPN	_	_	27	comp:obj	_	SpaceAfter=No
@@ -6474,7 +6474,7 @@
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	_
 10	à	à	ADP	_	_	9	mod	_	EXTPOS=ADV|Type=MWE
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det@fixed	_	_
-12	fois	fois	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj@fixed	_	_
+12	fois	fois	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj@fixed	_	_
 13	futuriste	futuriste	ADJ	_	Gender=Masc|Number=Sing	9	comp:pred	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	romantique	romantique	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
@@ -6519,8 +6519,8 @@
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj@expl	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-15	1ère	1ère	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
-16	fois	fois	NOUN	_	Gender=Masc|Number=Sing	13	comp:pred	_	_
+15	1ère	1ère	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	_
+16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
 17	que	que	SCONJ	_	_	13	comp:cleft	_	_
 18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	_
 19	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
@@ -6623,7 +6623,7 @@
 22	rue	rue	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 23	en	en	ADP	_	_	17	udep	_	_
 24	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
-25	période	période	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
+25	période	période	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00228
@@ -7343,7 +7343,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	excellente	excellent	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
-6	comptable	comptable	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
+6	comptable	comptable	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 7	que	que	PRON	_	PronType=Rel	9	comp:obj	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 9	recommande	recommander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
@@ -7620,7 +7620,7 @@
 1	Pour	pour	ADP	_	_	7	mod	_	wordform=pour
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
-4	fois	fois	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
+4	fois	fois	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -7979,7 +7979,7 @@
 9	serrures	serrure	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 10	à	à	ADP	_	_	13	mod	_	EXTPOS=ADV|Type=MWE
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det@fixed	_	_
-12	fois	fois	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj@fixed	_	_
+12	fois	fois	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj@fixed	_	_
 13	à	à	ADP	_	_	6	mod	_	_
 14	titre	titre	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 15	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
@@ -9401,9 +9401,9 @@
 21	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	22	det	_	_
 22	modification	modification	NOUN	_	Gender=Fem|Number=Sing	28	subj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
-24	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
-25	code	code	NOUN	_	Gender=Masc|Number=Sing	26	mod	_	_
-26	source	source	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
+24	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	code	code	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
+26	source	source	NOUN	_	Gender=Fem|Number=Sing	25	mod	_	_
 27	ne	ne	ADV	_	Polarity=Neg	28	mod	_	_
 28	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 29	fonctionner	fonctionner	VERB	_	VerbForm=Inf	28	comp:obj@x	_	_
