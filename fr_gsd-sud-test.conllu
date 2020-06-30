@@ -4389,7 +4389,7 @@
 12	qu'	que	SCONJ	_	_	7	conj	_	SpaceAfter=No
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
 14	en	en	PRON	_	Person=3|PronType=Prs	16	udep	_	_
-15	créé	créer	VERB	_	Tense=Past|Typo=Yes|VerbForm=Part	12	comp:obj	_	CorrectMood=Ind|CorrectTense=Pres|CorrectVerbForm=Fin|wordform=crée
+15	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	12	comp:obj	_	CorrectMood=Ind|CorrectTense=Pres|CorrectVerbForm=Fin|wordform=crée
 16	20.000	20.000	NUM	_	Shared=Yes	15	comp:obj	_	_
 17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	19	det	_	_
