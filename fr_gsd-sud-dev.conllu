@@ -587,10 +587,10 @@
 7	musicaux	musical	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
 8	comme	comme	ADP	_	_	6	udep	_	_
 9	Los	Los	X	_	Foreign=Yes	8	comp:obj	_	Lang=es
-10	Abuelos	Abuelos	X	_	Foreign=Yes	9	flat:name	_	Lang=es
-11	de	de	X	_	Foreign=Yes	10	flat:name	_	Lang=es
-12	la	la	X	_	Foreign=Yes	11	flat:name	_	Lang=es
-13	Nada	Nada	X	_	Foreign=Yes	12	flat:name	_	Lang=es
+10	Abuelos	Abuelos	X	_	Foreign=Yes	9	flat@name	_	Lang=es
+11	de	de	X	_	Foreign=Yes	10	flat@name	_	Lang=es
+12	la	la	X	_	Foreign=Yes	11	flat@name	_	Lang=es
+13	Nada	Nada	X	_	Foreign=Yes	12	flat@name	_	Lang=es
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	Los	Los	X	_	Foreign=Yes	10	conj	_	Lang=es
 16	Rodríguez	Rodríguez	X	_	Foreign=Yes	15	flat@name	_	Lang=es|SpaceAfter=No
