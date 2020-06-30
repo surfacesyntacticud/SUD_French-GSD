@@ -4193,7 +4193,7 @@
 3	avoir	avoir	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 4	en	en	ADP	_	_	3	udep	_	_
 5	paix	paix	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
-6	ton	son	DET	_	Number=Sing|Person=3|PronType=Prs	7	det	_	_
+6	ton	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=2|PronType=Prs	7	det	_	_
 7	âme	âme	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
