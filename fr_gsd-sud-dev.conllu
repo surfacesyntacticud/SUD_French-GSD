@@ -20688,7 +20688,7 @@
 10	donjon	donjon	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
 11	médiéval	médiéval	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
-13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectNumber=Plur|wordform=ont
 14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	ajouté	ajouter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@pass	_	_
 16-17	au	_	_	_	_	_	_	_	_
