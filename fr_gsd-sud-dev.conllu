@@ -213,7 +213,7 @@
 11	de	de	ADP	_	_	10	udep	_	_
 12	sévères	sévère	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
 13	reproches	reproche	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
-14	quant	quant	ADV	_	_	13	udep	_	EXTPOS=ADP|PhraseType=Idiom
+14	quant	quant	ADV	_	_	13	udep	_	ExtPos=ADP|PhraseType=Idiom
 15	à	à	ADP	_	_	14	unk	_	InIdiom=Yes
 16	son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	17	det	_	_
 17	soutien	soutien	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
@@ -262,7 +262,7 @@
 # sent_id = fr-ud-dev_00012
 # text = L'Abime de l'abime de Vladimir Holan à la Maison d'Arrêt d'Avignon (2001).
 1	L'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	2	det	_	INTITLE=Yes|SpaceAfter=No|wordform=l'
-2	Abime	abîme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	EXTPOS=PROPN|PhraseType=Title|wordform=abîme
+2	Abime	abîme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	ExtPos=PROPN|PhraseType=Title|wordform=abîme
 3	de	de	ADP	_	_	2	udep	_	InTitle=Yes
 4	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	5	det	_	InTitle=Yes|SpaceAfter=No
 5	abime	abîme	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InTitle=Yes|wordform=abîme
@@ -293,7 +293,7 @@
 8	et	et	CCONJ	_	_	21	cc	_	_
 9	qui	qui	PRON	_	PronType=Rel	21	subj	_	_
 10-11	au	_	_	_	_	_	_	_	_
-10	à	à	ADP	_	_	21	mod	_	EXTPOS=ADV|PhraseType=Idiom
+10	à	à	ADP	_	_	21	mod	_	ExtPos=ADV|PhraseType=Idiom
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	12	det	_	InIdiom=Yes
 12	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	InIdiom=Yes
 13	de	de	ADP	_	_	10	comp:obl@x	_	_
@@ -12463,12 +12463,12 @@
 # sent_id = fr-ud-dev_00450
 # text = Mais quelle ne fut pas ma surprise lorsque j'ai pu récupérer celle ci dans un état proche du neuf !
 1	Mais	mais	CCONJ	_	_	4	cc	_	wordform=mais
-2	quelle	quel	ADJ	_	Gender=Fem|Number=Sing	4	subj	_	_
+2	quelle	quel	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
 3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	7	det	_	_
-7	surprise	surprise	NOUN	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
+7	surprise	surprise	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 8	lorsque	lorsque	SCONJ	_	_	4	mod	_	_
 9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
@@ -17888,10 +17888,10 @@
 # sent_id = fr-ud-dev_00644
 # text = Mais quel est son rapport au christianisme ?
 1	Mais	mais	CCONJ	_	_	3	cc	_	wordform=mais
-2	quel	quel	ADJ	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	quel	quel	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	5	det	_	_
-5	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
+5	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	udep	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
@@ -35102,7 +35102,7 @@
 
 # sent_id = fr-ud-dev_01266
 # text = Compte tenu également du niveau des investissements, c'est aussi le démarrage du règne des grandes entreprises qui sont capables d'intégration verticale et/ou de spécialisation.
-1	Compte	compte	NOUN	_	Gender=Masc|Number=Sing	2	subj	_	InIdiom=Yes|wordform=compte
+1	Compte	compte	NOUN	_	Gender=Masc|Number=Sing	2	subj@pass	_	InIdiom=Yes|wordform=compte
 2	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	ExtPos=ADV|PhraseType=Idiom
 3	également	également	ADV	_	_	2	mod	_	_
 4-5	du	_	_	_	_	_	_	_	_
