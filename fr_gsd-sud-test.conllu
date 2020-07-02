@@ -2032,7 +2032,7 @@
 # text = Dès lors que le peuple décide de regagner sa liberté il devient instantanément et de facto, libre.
 1	Dès	dès	ADP	_	_	12	mod	_	ExtPos=ADV|PhraseType=Idiom|wordform=dès
 2	lors	lors	ADV	_	_	1	unk	_	InIdiom=Yes
-3	que	que	SCONJ	_	_	1	comp:obj	_	_
+3	que	que	SCONJ	_	_	1	comp:obl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
 5	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
 6	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
@@ -3279,7 +3279,7 @@
 15	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	longtemps	longtemps	ADV	_	_	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
-18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	_
+18	il	il	PRON	_	Gender=Masc|InIdiom=Yes|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	ExtPos=VERB|PhraseType=Idiom
 20	temps	temps	NOUN	_	Gender=Masc|Number=Sing	19	comp:pred	_	InIdiom=Yes
 21	de	de	ADP	_	_	19	comp:obj@agent	_	_
@@ -6230,7 +6230,7 @@
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	21	det	_	_
-21	giclée	giclée	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+21	giclée	giclée	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
 22	de	de	ADP	_	_	21	udep	_	_
 23	vinaigre	vinaigre	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 24	balsamique	balsamique	ADJ	_	Gender=Masc|Number=Sing	23	mod	_	SpaceAfter=No
@@ -6282,7 +6282,7 @@
 16	faire	faire	AUX	_	VerbForm=Inf	14	comp:obj	_	_
 17	comprendre	comprendre	VERB	_	VerbForm=Inf	16	comp:aux@caus	_	_
 18	qu'	que	SCONJ	_	_	17	comp:obj	_	SpaceAfter=No
-19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
+19	il	il	PRON	_	Gender=Masc|InIdiom=Yes|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
 20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	20	comp:pred	_	InIdiom=Yes
 22	de	de	ADP	_	_	20	comp:obj@agent	_	_
