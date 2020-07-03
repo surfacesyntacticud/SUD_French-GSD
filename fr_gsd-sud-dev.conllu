@@ -10236,7 +10236,7 @@
 3	chroniques	chronique	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 4	médiévales	médiéval	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
-6	plus	plus	ADV	_	_	19	subj	_	_
+6	plus	plus	ADV	_	_	19	subj	_	ExtPos=PRON
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	50 000	50 000	NUM	_	_	9	det	_	_
 9	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
@@ -13251,7 +13251,7 @@
 
 # sent_id = fr-ud-dev_00477
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
-1	Pas	pas	ADV	_	Polarity=Neg	0	root	_	wordform=pas
+1	Pas	pas	ADV	_	Polarity=Neg	0	root	_	ExtPos=PRON|wordform=pas
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	sèche	sécher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	ExtPos=NOUN|PhraseType=Idiom|wordform=sèche-cheveux
 4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	wordform=_
@@ -14017,7 +14017,7 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	successions	succession	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	moins	moins	ADV	_	_	7	conj	_	_
+15	moins	moins	ADV	_	_	7	conj	_	ExtPos=PRON
 16	d'	de	ADP	_	_	15	comp:obl	_	SpaceAfter=No
 17	une	une	NUM	_	_	18	det	_	_
 18	dizaine	dizaine	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -18016,7 +18016,7 @@
 53	terres	terre	NOUN	_	Gender=Fem|Number=Plur	51	comp:obj	_	_
 54	américaines	américain	ADJ	_	Gender=Fem|Number=Plur	53	mod	_	_
 55	à	à	ADP	_	_	50	mod	_	_
-56	plus	plus	ADV	_	_	55	comp:obj	_	_
+56	plus	plus	ADV	_	_	55	comp:obj	_	ExtPos=PRON
 57	de	de	ADP	_	_	56	comp:obl	_	_
 58	5	5	NUM	_	_	59	det	_	_
 59	millions	million	NOUN	_	Gender=Masc|Number=Plur	57	comp:obj	_	_
@@ -19991,7 +19991,7 @@
 17	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Person=3|PronType=Neg	18	det	_	_
 18	catégorisation	catégorisation	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	15	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	pas	pas	ADV	_	_	18	conj	_	_
+20	pas	pas	ADV	_	_	18	conj	_	ExtPos=PRON
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 23	ni	ni	CCONJ	_	_	24	cc	_	_
@@ -23454,7 +23454,7 @@
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	Bryant	Bryant	PROPN	_	_	14	subj	_	_
 14	marque	marquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
-15	plus	plus	ADV	_	_	14	comp:obj	_	_
+15	plus	plus	ADV	_	_	14	comp:obj	_	ExtPos=PRON
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	30	30	NUM	_	_	18	det	_	_
 18	points	point	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
@@ -24203,7 +24203,7 @@
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	et	et	CCONJ	_	_	31	cc	_	_
 31	remporte	remporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
-32	plus	plus	ADV	_	_	31	comp:obj	_	_
+32	plus	plus	ADV	_	_	31	comp:obj	_	ExtPos=PRON
 33	de	de	ADP	_	_	32	comp:obl	_	_
 34	223 000	223 000	NUM	_	_	35	det	_	_
 35	voix	voix	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	SpaceAfter=No
@@ -27508,7 +27508,7 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
 5	choix	choix	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 6	de	de	ADP	_	_	5	udep	_	_
-7	plus	plus	ADV	_	_	6	comp:obj	_	_
+7	plus	plus	ADV	_	_	6	comp:obj	_	ExtPos=PRON
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	10'000	10'000	NUM	_	_	10	det	_	_
 10	bijoux	bijou	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
@@ -29535,7 +29535,7 @@
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	hésite	hésiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	pas	pas	ADV	_	Polarity=Neg	0	root	_	_
+5	pas	pas	ADV	_	Polarity=Neg	0	root	_	ExtPos=PRON
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	panique	panique	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
@@ -30220,7 +30220,7 @@
 13	s'	si	SCONJ	_	_	4	mod	_	SpaceAfter=No
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
 15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
-16	peu	peu	ADV	_	_	15	comp:obj	_	_
+16	peu	peu	ADV	_	_	15	comp:obj	_	ExtPos=PRON
 17	d'	de	ADP	_	_	16	comp:obl	_	SpaceAfter=No
 18	autoroutes	autoroute	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
@@ -31568,7 +31568,7 @@
 
 # sent_id = fr-ud-dev_01138
 # text = Plus de 100 personnes se trouvaient à l'intérieur de l'usine au moment de l'explosion.
-1	Plus	plus	ADV	_	_	6	subj	_	wordform=plus
+1	Plus	plus	ADV	_	_	6	subj	_	ExtPos=PRON|wordform=plus
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	100	100	NUM	_	_	4	det	_	_
 4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
@@ -34174,7 +34174,7 @@
 28	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	29	det	_	SpaceAfter=No
 29	achat	achat	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
 30	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-31	autant	autant	ADV	_	_	30	comp:pred	_	_
+31	autant	autant	ADV	_	_	30	comp:pred	_	ExtPos=PRON
 32	d'	de	ADP	_	_	31	comp:obl	_	SpaceAfter=No
 33	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	32	comp:obj	_	_
 34	qui	qui	PRON	_	PronType=Rel	35	subj	_	_
@@ -35074,7 +35074,7 @@
 57	conflit	conflit	NOUN	_	Gender=Masc|Number=Sing	55	comp:obj	_	_
 58	qui	qui	PRON	_	PronType=Rel	59	subj	_	_
 59	fit	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	57	mod@relcl	_	_
-60	plus	plus	ADV	_	_	59	comp:obj	_	_
+60	plus	plus	ADV	_	_	59	comp:obj	_	ExtPos=PRON
 61	de	de	ADP	_	_	60	comp:obl	_	_
 62	400	400	NUM	_	_	63	det	_	_
 63	morts	mort	NOUN	_	Gender=Masc|Number=Plur	61	comp:obj	_	_
@@ -36173,7 +36173,7 @@
 # sent_id = fr-ud-dev_01306
 # text = Pour plus d'informations, consulter notre Portail de pièces et accessoires automobiles dans les Pyrénées-Orientales : http://www.papa66.com
 1	Pour	pour	ADP	_	_	6	mod	_	wordform=pour
-2	plus	plus	ADV	_	_	1	comp:obj	_	_
+2	plus	plus	ADV	_	_	1	comp:obj	_	ExtPos=PRON
 3	d'	de	ADP	_	_	2	comp:obl	_	SpaceAfter=No
 4	informations	information	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
@@ -36623,7 +36623,7 @@
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
 16	y	y	PRON	_	Person=3|PronType=Prs	17	comp@expl	_	_
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
-18	plus	plus	ADV	_	_	17	comp:obj	_	_
+18	plus	plus	ADV	_	_	17	comp:obj	_	ExtPos=PRON
 19	de	de	ADP	_	_	18	comp:obl	_	_
 20	3	3	NUM	_	_	21	det	_	_
 21	ans	an	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
@@ -37469,7 +37469,7 @@
 12	Xiangjiang	Xiangjiang	PROPN	_	_	11	appos	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
-15	plus	plus	ADV	_	_	14	comp:obj	_	_
+15	plus	plus	ADV	_	_	14	comp:obj	_	ExtPos=PRON
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	200	200	NUM	_	_	18	det	_	_
 18	millimètres	millimètre	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_

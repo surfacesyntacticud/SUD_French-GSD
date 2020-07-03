@@ -1097,7 +1097,7 @@
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 12	touché	toucher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13	pas	pas	ADV	_	_	14	mod	_	_
-14	moins	moins	ADV	_	_	12	comp:obj	_	_
+14	moins	moins	ADV	_	_	12	comp:obj	_	ExtPos=PRON
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	174	174	NUM	_	_	17	det	_	_
 17	sites	site	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
@@ -1678,7 +1678,7 @@
 4	préparés	préparer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 5	pour	pour	ADP	_	_	2	mod	_	_
 6	recevoir	recevoir	VERB	_	VerbForm=Inf	5	comp:obj	_	_
-7	plus	plus	ADV	_	_	6	comp:obj	_	_
+7	plus	plus	ADV	_	_	6	comp:obj	_	ExtPos=PRON
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	dix	dix	NUM	_	_	11	det	_	_
 10	quinze	quinze	NUM	_	_	9	conj	_	_
@@ -4060,7 +4060,7 @@
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	distancés	distancer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	conj	_	_
 31	de	de	ADP	_	_	30	comp:obl	_	_
-32	moins	moins	ADV	_	_	31	comp:obj	_	_
+32	moins	moins	ADV	_	_	31	comp:obj	_	ExtPos=PRON
 33	de	de	ADP	_	_	32	comp:obl	_	_
 34	8/10e	8/10e	NUM	_	_	33	comp:obj	_	_
 35	de	de	ADP	_	_	34	udep	_	_
@@ -4161,7 +4161,7 @@
 9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
 10	baisser	baisser	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
-12	plus	plus	ADV	_	_	11	comp:obj	_	_
+12	plus	plus	ADV	_	_	11	comp:obj	_	ExtPos=PRON
 13	d'	de	ADP	_	_	12	comp:obl	_	SpaceAfter=No
 14	un	un	NUM	_	_	15	det	_	_
 15	cran	cran	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
@@ -4189,7 +4189,7 @@
 
 # sent_id = fr-ud-test_00138
 # text = Nombre d'investisseurs qui, auparavant, voyaient d'un mauvais œil l'accumulation de liquidités par les entreprises reconnaissent maintenant les avantages de la constitution de réserves de liquidités importantes.
-1	Nombre	nombre	ADV	_	_	20	subj	_	wordform=nombre
+1	Nombre	nombre	ADV	_	_	20	subj	_	ExtPos=PRON|wordform=nombre
 2	d'	de	ADP	_	_	1	comp:obl	_	SpaceAfter=No
 3	investisseurs	investisseur	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 4	qui	qui	PRON	_	PronType=Rel	8	subj	_	SpaceAfter=No
@@ -4524,7 +4524,7 @@
 11	tournoi	tournoi	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 12	réunissant	réunir	VERB	_	Tense=Pres|VerbForm=Part	11	mod	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	14	det	_	_
-14	moins	moins	ADV	_	_	12	comp:obj	_	_
+14	moins	moins	ADV	_	_	12	comp:obj	_	ExtPos=PRON
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	15	15	NUM	_	_	17	det	_	_
 17	ans	an	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
@@ -4627,7 +4627,7 @@
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	33	det	_	_
 33	chômage	chômage	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
 34	à	à	ADP	_	_	33	udep	_	_
-35	plus	plus	ADV	_	_	34	comp:obj	_	_
+35	plus	plus	ADV	_	_	34	comp:obj	_	ExtPos=PRON
 36	de	de	ADP	_	_	35	comp:obl	_	_
 37	11	11	NUM	_	_	38	det	_	SpaceAfter=No
 38	%	%	SYM	_	_	36	comp:obj	_	ExtPos=NOUN|SpaceAfter=No
@@ -4961,7 +4961,7 @@
 
 # sent_id = fr-ud-test_00165
 # text = Plus de 20 personnes ont en outre été blessées, dont une grièvement, lors d'affrontements survenus dans des villages chiites des environs de la capitale, Manama, selon ces témoins.
-1	Plus	plus	ADV	_	_	5	subj@pass	_	wordform=plus
+1	Plus	plus	ADV	_	_	5	subj@pass	_	ExtPos=PRON|wordform=plus
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	20	20	NUM	_	_	4	det	_	_
 4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
@@ -6052,7 +6052,7 @@
 21	tout	tout	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	det	_	_
 22	cas	cas	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 23	pour	pour	ADP	_	_	19	udep	_	_
-24	plus	plus	ADV	_	_	23	comp:obj	_	_
+24	plus	plus	ADV	_	_	23	comp:obj	_	ExtPos=PRON
 25	de	de	ADP	_	_	24	comp:obl	_	_
 26	5	5	NUM	_	_	27	det	_	_
 27	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	25	comp:obj	_	_
@@ -6294,7 +6294,7 @@
 # sent_id = fr-ud-test_00210
 # text = Avec plus de 40000 références, on est assuré d'une livraison rapide dans toute la France.
 1	Avec	avec	ADP	_	_	8	mod	_	wordform=avec
-2	plus	plus	ADV	_	_	1	comp:obj	_	_
+2	plus	plus	ADV	_	_	1	comp:obj	_	ExtPos=PRON
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	40000	40000	NUM	_	_	5	det	_	_
 5	références	référence	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	SpaceAfter=No
