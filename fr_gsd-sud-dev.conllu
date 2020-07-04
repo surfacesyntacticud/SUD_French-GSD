@@ -7445,7 +7445,7 @@
 12	recevra	recevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	comp:obj	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	14	det	_	_
 14	preuve	preuve	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-15	qu'	que	SCONJ	_	_	14	udep	_	SpaceAfter=No
+15	qu'	que	SCONJ	_	_	14	mod	_	SpaceAfter=No
 16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@pass	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
 18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
@@ -11957,7 +11957,7 @@
 21	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	22	mod	_	_
 22	phases	phase	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	que	que	SCONJ	_	_	22	udep	_	_
+24	que	que	SCONJ	_	_	22	mod	_	_
 25	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	subj	_	_
 26	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
 27	de	de	ADP	_	_	26	comp:pred	_	_
@@ -18476,8 +18476,8 @@
 # sent_id = fr-ud-dev_00667
 # text = Choix payant puisque le milieu de terrain inscrit le 3e but de son club dix secondes après être entré en jeu !
 1	Choix	choix	NOUN	_	Gender=Masc|Number=Sing	0	root	_	wordform=choix
-2	payant	payant	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
-3	puisque	puisque	SCONJ	_	_	1	udep	_	_
+2	payant	payant	VERB	_	Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part	1	mod	_	_
+3	puisque	puisque	SCONJ	_	_	2	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
 5	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
@@ -36438,7 +36438,7 @@
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
 5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	que	que	SCONJ	_	_	5	udep	_	_
+6	que	que	SCONJ	_	_	5	mod	_	_
 7	tous	tout	ADJ	_	Gender=Masc|Number=Plur	9	mod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	9	det	_	_
 9	Allemands	allemand	NOUN	_	Gender=Masc|Number=Plur	14	subj@pass	_	wordform=allemands

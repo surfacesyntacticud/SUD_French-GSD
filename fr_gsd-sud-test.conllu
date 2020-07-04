@@ -1574,7 +1574,7 @@
 1	A	à	ADP	_	_	12	mod	_	wordform=à
 2	chaque	chaque	DET	_	Number=Sing|Person=3|PronType=Ind	3	det	_	_
 3	fois	fois	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
-4	qu'	que	SCONJ	_	_	3	udep	_	SpaceAfter=No
+4	qu'	que	SCONJ	_	_	3	mod	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	sent	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	8	det	_	_
@@ -3190,7 +3190,7 @@
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	13	det	_	_
 13	conclusion	conclusion	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
-14	que	que	SCONJ	_	_	13	udep	_	_
+14	que	que	SCONJ	_	_	13	mod	_	_
 15	si	si	SCONJ	_	_	41	mod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	18	det	_	_
 17	32	32	NUM	_	_	18	mod	_	_
@@ -9634,7 +9634,7 @@
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	chaque	chaque	DET	_	Number=Sing|Person=3|PronType=Ind	16	det	_	_
 16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	2	mod	_	_
-17	qu'	que	SCONJ	_	_	16	udep	_	SpaceAfter=No
+17	qu'	que	SCONJ	_	_	16	mod	_	SpaceAfter=No
 18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	subj	_	_
 19	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 20	éviter	éviter	VERB	_	VerbForm=Inf	19	comp:obj@x	_	_
@@ -10399,7 +10399,7 @@
 21	comme	comme	ADP	_	_	20	udep	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	23	det	_	_
 23	fait	fait	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
-24	qu'	que	SCONJ	_	_	23	udep	_	SpaceAfter=No
+24	qu'	que	SCONJ	_	_	23	mod	_	SpaceAfter=No
 25	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	subj	_	_
 26	aimerait	aimer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
 27	être	être	AUX	_	VerbForm=Inf	26	comp:obj@x	_	_
