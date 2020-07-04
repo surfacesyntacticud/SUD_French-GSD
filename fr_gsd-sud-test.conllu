@@ -877,7 +877,7 @@
 # text = Le royaume s'est amélioré, mais pas dans le sens voulu par l'UE.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le
 2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
-3	s'	se	PRON	_	Person=3|PronType=Prs	4	comp@pass	_	SpaceAfter=No
+3	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
@@ -9514,7 +9514,7 @@
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	25	det	_	_
 25	tragédie	tragédie	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
 26	qui	qui	PRON	_	PronType=Rel	28	subj	_	_
-27	s'	se	PRON	_	Person=3|PronType=Prs	28	comp@pass	_	SpaceAfter=No
+27	s'	se	PRON	_	Person=3|PronType=Prs	29	comp@pass	_	SpaceAfter=No
 28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	_
 29	jouée	jouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	comp:aux@tense	_	_
 30	en	en	ADP	_	_	28	udep	_	_
