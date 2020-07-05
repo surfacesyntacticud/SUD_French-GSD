@@ -1192,7 +1192,7 @@
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	6	det	_	_
 6	risque	risque	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
-7	de	de	ADP	_	_	6	mod	_	_
+7	de	de	ADP	_	_	6	udep	_	_
 8	voir	voir	VERB	_	VerbForm=Inf	7	comp:obj	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	10	det	_	_
 10	choses	chose	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
@@ -2214,7 +2214,7 @@
 17	réitéré	réitérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	leur	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=3|PronType=Prs	19	det	_	_
 19	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
-20	d'	de	ADP	_	_	19	mod	_	SpaceAfter=No
+20	d'	de	ADP	_	_	19	udep	_	SpaceAfter=No
 21	œuvrer	œuvrer	VERB	_	VerbForm=Inf	20	comp:obj	_	_
 22	à	à	ADP	_	_	21	comp:obl	_	_
 23	leur	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=3|PronType=Prs	24	det	_	_
@@ -2341,7 +2341,7 @@
 56	de	de	ADP	_	_	55	udep	_	_
 57	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	58	det	_	_
 58	Minurso	Minurso	PROPN	_	_	56	comp:obj	_	_
-59	pour	pour	ADP	_	_	52	mod	_	_
+59	pour	pour	ADP	_	_	52	udep	_	_
 60	englober	englober	VERB	_	VerbForm=Inf	59	comp:obj	_	_
 61	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	62	det	_	_
 62	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	60	comp:obj	_	_
@@ -2769,7 +2769,7 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	10	det	_	_
 10	pays	pays	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-11	de	de	ADP	_	_	7	mod	_	_
+11	de	de	ADP	_	_	7	udep	_	_
 12	renforcer	renforcer	VERB	_	VerbForm=Inf	11	comp:obj	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	consolider	consolider	VERB	_	VerbForm=Inf	12	conj	_	_
@@ -2932,7 +2932,7 @@
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	5	det	_	SpaceAfter=No
 5	opportunité	opportunité	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-6	de	de	ADP	_	_	5	mod	_	_
+6	de	de	ADP	_	_	5	udep	_	_
 7	camper	camper	VERB	_	VerbForm=Inf	6	comp:obj	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
 9	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -3470,7 +3470,7 @@
 15	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	à	à	ADP	_	_	15	udep	_	_
 17	jouer	jouer	VERB	_	VerbForm=Inf	16	comp:obj	_	_
-18	pour	pour	ADP	_	_	15	mod	_	_
+18	pour	pour	ADP	_	_	15	udep	_	_
 19	contribuer	contribuer	VERB	_	VerbForm=Inf	18	comp:obj	_	_
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	19	comp:obl	_	_
@@ -3988,7 +3988,7 @@
 14	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	13	mod	_	_
 15	disputé	disputer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	19	mod	_	ExtPos=ADV|PhraseType=Idiom
+16	à	à	ADP	_	_	19	udep	_	ExtPos=ADV|PhraseType=Idiom
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	16	unk	_	InIdiom=Yes
 18	moins	moins	ADV	_	_	17	unk	_	InIdiom=Yes
 19	20	20	NUM	_	_	20	det	_	_
@@ -4547,7 +4547,7 @@
 7	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	France	France	PROPN	_	_	8	comp:obj	_	_
-10	pour	pour	ADP	_	_	5	mod	_	_
+10	pour	pour	ADP	_	_	5	udep	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	12	det	_	_
 12	catégories	catégorie	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
 13	espoirs	espoir	NOUN	_	Gender=Masc|Number=Plur	12	mod	_	SpaceAfter=No
@@ -4731,7 +4731,7 @@
 3	affirmé	affirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	5	det	_	SpaceAfter=No
 5	obligation	obligation	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-6	de	de	ADP	_	_	5	mod	_	_
+6	de	de	ADP	_	_	5	udep	_	_
 7	faire	faire	VERB	_	VerbForm=Inf	6	comp:obj	_	_
 8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	10	det	_	_
@@ -5517,7 +5517,7 @@
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	12	det	_	_
 12	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	très	très	ADV	_	_	14	mod	_	_
-14	en	en	ADP	_	_	12	mod	_	ExtPos=ADJ|PhraseType=Idiom
+14	en	en	ADP	_	_	12	udep	_	ExtPos=ADJ|PhraseType=Idiom
 15	vue	vue	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	InIdiom=Yes
 16	de	de	ADP	_	_	12	udep	_	_
 17	Las	Las	PROPN	_	_	16	comp:obj	_	_
@@ -5985,7 +5985,7 @@
 58	centaines	centaine	NOUN	_	Gender=Fem|Number=Plur	56	comp:obj	_	_
 59	de	de	ADP	_	_	58	udep	_	_
 60	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	59	comp:obj	_	_
-61	de	de	ADP	_	_	58	mod	_	_
+61	de	de	ADP	_	_	58	udep	_	_
 62	là	là	ADV	_	_	61	comp:obj	_	SpaceAfter=No
 63	.	.	PUNCT	_	_	44	punct	_	_
 
@@ -6191,7 +6191,7 @@
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 8	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	bien	bien	ADV	_	_	8	mod	_	_
+9	bien	bien	ADV	_	_	10	mod	_	_
 10	relaxé	relaxer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:pred@x	_	_
 11	et	et	CCONJ	_	_	15	cc	_	_
 12	surtout	surtout	ADV	_	_	15	mod	_	_
@@ -7128,7 +7128,7 @@
 11	d'	de	ADP	_	_	10	comp:pred	_	SpaceAfter=No
 12	environs	environs	ADV	_	_	13	mod	_	_
 13	2cm	2cm	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
-14	de	de	ADP	_	_	13	mod	_	ExtPos=ADV|PhraseType=Idiom
+14	de	de	ADP	_	_	13	udep	_	ExtPos=ADV|PhraseType=Idiom
 15	plus	plus	ADV	_	_	14	comp:obj	_	InIdiom=Yes
 16	sur	sur	ADP	_	_	13	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	18	det	_	_
@@ -7671,7 +7671,7 @@
 52	ami	ami	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	_
 53	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	54	det	_	_
 54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
-55	d'	de	ADP	_	_	54	mod	_	SpaceAfter=No
+55	d'	de	ADP	_	_	54	udep	_	SpaceAfter=No
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	58	mod	_	ExtPos=ADV|PhraseType=Idiom
 57	peu	peu	ADV	_	_	56	unk	_	InIdiom=Yes
 58	plus	plus	ADV	_	_	59	mod	_	_
@@ -8095,7 +8095,7 @@
 2	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	4	det	_	_
 4	goût	goût	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
-5	d'	de	ADP	_	_	4	mod	_	SpaceAfter=No
+5	d'	de	ADP	_	_	4	udep	_	SpaceAfter=No
 6	avoir	avoir	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	9	det	_	_
 8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -8198,7 +8198,7 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
 5	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	immense	immense	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
-7	à	à	ADP	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
+7	à	à	ADP	_	_	2	udep	_	ExtPos=ADV|PhraseType=Idiom
 8	partir	partir	VERB	_	VerbForm=Inf	7	comp:obj	_	InIdiom=Yes
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	7	comp:obl	_	_
