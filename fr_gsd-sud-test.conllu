@@ -7671,7 +7671,7 @@
 52	ami	ami	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	_
 53	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	54	det	_	_
 54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
-55	d'	de	ADP	_	_	54	udep	_	SpaceAfter=No
+55	d'	de	ADP	_	_	54	mod	_	SpaceAfter=No
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	58	mod	_	ExtPos=ADV|PhraseType=Idiom
 57	peu	peu	ADV	_	_	56	unk	_	InIdiom=Yes
 58	plus	plus	ADV	_	_	59	mod	_	_

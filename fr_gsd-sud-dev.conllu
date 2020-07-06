@@ -5915,7 +5915,7 @@
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	mais	mais	CCONJ	_	_	19	cc	_	_
 19	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	8	conj	_	_
-20	de	de	ADP	_	_	19	udep	_	_
+20	de	de	ADP	_	_	19	mod	_	_
 21	bien	bien	ADV	_	_	22	mod	_	_
 22	convaincant	convaincant	ADJ	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 23	encore	encore	ADV	_	_	19	mod	_	SpaceAfter=No
