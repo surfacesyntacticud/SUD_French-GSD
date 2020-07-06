@@ -9469,7 +9469,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	4	det	_	_
 4	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
-6	en	en	ADP	_	_	9	udep	_	ExtPos=ADV|PhraseType=Idiom
+6	en	en	ADP	_	_	9	mod	_	ExtPos=ADV|PhraseType=Idiom
 7	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	6	comp:obj	_	InIdiom=Yes
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
 9	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
@@ -10496,7 +10496,7 @@
 22	1	1	NUM	_	_	23	det	_	_
 23	rue	rue	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 24	Scribe	Scribe	PROPN	_	_	23	appos	_	_
-25	à	à	ADP	_	_	5	udep	_	ExtPos=ADV|PhraseType=Idiom
+25	à	à	ADP	_	_	5	mod	_	ExtPos=ADV|PhraseType=Idiom
 26	partir	partir	VERB	_	VerbForm=Inf	25	comp:obj	_	InIdiom=Yes
 27	de	de	ADP	_	_	25	comp:obl	_	_
 28	1863	1863	NUM	_	_	27	comp:obj	_	_
@@ -11659,7 +11659,7 @@
 2	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	7	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	soleil	soleil	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-5	en	en	ADP	_	_	2	udep	_	ExtPos=ADV|PhraseType=Idiom
+5	en	en	ADP	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 6	plus	plus	ADV	_	_	5	comp:obj	_	InIdiom=Yes
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	10	det	_	_
@@ -13817,7 +13817,7 @@
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	principalement	principalement	ADV	_	_	40	mod	_	_
 40-41	au	_	_	_	_	_	_	_	_
-40	à	à	ADP	_	_	31	udep	_	ExtPos=ADV|PhraseType=Idiom
+40	à	à	ADP	_	_	31	mod	_	ExtPos=ADV|PhraseType=Idiom
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	42	det	_	InIdiom=Yes
 42	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj	_	InIdiom=Yes
 43-44	du	_	_	_	_	_	_	_	_
@@ -17137,7 +17137,7 @@
 7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No
 8	auto-assemblage	auto-assemblage	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	moléculaires	moléculaire	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
-10	en	en	ADP	_	_	6	udep	_	ExtPos=ADV|PhraseType=Idiom
+10	en	en	ADP	_	_	6	mod	_	ExtPos=ADV|PhraseType=Idiom
 11	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	10	comp:obj	_	InIdiom=Yes
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	appliqués	appliquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	comp:aux@pass	_	_
@@ -18586,7 +18586,7 @@
 21	en	en	ADP	_	_	23	mod	_	_
 22	partie	partie	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 23-24	du	_	_	_	_	_	_	_	_
-23	de	de	ADP	_	_	16	udep	_	ExtPos=ADV|PhraseType=Idiom
+23	de	de	ADP	_	_	16	mod	_	ExtPos=ADV|PhraseType=Idiom
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	25	det	_	InIdiom=Yes
 25	fait	fait	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	InIdiom=Yes
 26	de	de	ADP	_	_	23	comp:obl	_	_
@@ -18608,7 +18608,7 @@
 40	et	et	CCONJ	_	_	41	cc	_	_
 41	d'	de	ADP	_	_	37	conj	_	SpaceAfter=No
 42-43	au	_	_	_	_	_	_	_	_
-42	à	à	ADP	_	_	46	udep	_	ExtPos=ADV|PhraseType=Idiom
+42	à	à	ADP	_	_	46	mod	_	ExtPos=ADV|PhraseType=Idiom
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	42	unk	_	InIdiom=Yes
 44	moins	moins	ADV	_	_	43	unk	_	InIdiom=Yes
 45	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	46	det	_	_
@@ -21685,7 +21685,7 @@
 3	à	à	ADP	_	_	1	comp:obl@x	_	_
 4	réserver	réserver	VERB	_	VerbForm=Inf	3	comp:obj	_	_
 5-6	au	_	_	_	_	_	_	_	_
-5	à	à	ADP	_	_	8	udep	_	ExtPos=ADV|PhraseType=Idiom
+5	à	à	ADP	_	_	8	mod	_	ExtPos=ADV|PhraseType=Idiom
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	unk	_	InIdiom=Yes
 7	moins	moins	ADV	_	_	6	unk	_	InIdiom=Yes
 8	une	une	NUM	_	_	9	det	_	_
@@ -24896,7 +24896,7 @@
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	31	det	_	_
 31	montage	montage	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
 32	financier	financier	ADJ	_	Gender=Masc|Number=Sing	31	mod	_	_
-33	à	à	ADP	_	_	31	udep	_	ExtPos=ADV|PhraseType=Idiom
+33	à	à	ADP	_	_	31	mod	_	ExtPos=ADV|PhraseType=Idiom
 34	partir	partir	VERB	_	VerbForm=Inf	33	comp:obj	_	InIdiom=Yes
 35	de	de	ADP	_	_	33	comp:obl	_	_
 36	banques	banque	NOUN	_	Gender=Fem|Number=Plur	35	comp:obj	_	_
@@ -25769,7 +25769,7 @@
 
 # sent_id = fr-ud-dev_00929
 # text = D'abord médecin, sa carrière en médecine fut difficile et peu brillante.
-1	D'	de	ADP	_	_	3	udep	_	ExtPos=ADV|PhraseType=Idiom|SpaceAfter=No|wordform=d'
+1	D'	de	ADP	_	_	3	mod	_	ExtPos=ADV|PhraseType=Idiom|SpaceAfter=No|wordform=d'
 2	abord	abord	ADV	_	_	1	comp:obj	_	InIdiom=Yes
 3	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -26537,7 +26537,7 @@
 12	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	9	appos	_	_
-15	de	de	ADP	_	_	14	udep	_	ExtPos=ADV|PhraseType=Idiom
+15	de	de	ADP	_	_	14	mod	_	ExtPos=ADV|PhraseType=Idiom
 16	plus	plus	ADV	_	_	15	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -28143,7 +28143,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	18	det	_	_
 18	Jura	Jura	PROPN	_	_	16	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	23	punct	_	_
-20	en	en	ADP	_	_	23	udep	_	ExtPos=ADV|PhraseType=Idiom
+20	en	en	ADP	_	_	23	mod	_	ExtPos=ADV|PhraseType=Idiom
 21	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	20	comp:obj	_	InIdiom=Yes
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	23	det	_	_
 23	projet	projet	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -29519,7 +29519,7 @@
 42	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	43	det	_	SpaceAfter=No
 43	Otan	Otan	PROPN	_	_	41	comp:obj	_	_
 44-45	aux	_	_	_	_	_	_	_	_
-44	à	à	ADP	_	_	36	udep	_	ExtPos=ADV|PhraseType=Idiom
+44	à	à	ADP	_	_	36	mod	_	ExtPos=ADV|PhraseType=Idiom
 45	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	46	det	_	InIdiom=Yes
 46	côtés	côté	NOUN	_	Gender=Masc|Number=Plur	44	comp:obj	_	InIdiom=Yes
 47-48	des	_	_	_	_	_	_	_	_
@@ -32368,7 +32368,7 @@
 42	voûte	voûte	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
 43	céleste	céleste	ADJ	_	Gender=Fem|Number=Sing	42	mod	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	48	punct	_	_
-45	à	à	ADP	_	_	48	udep	_	ExtPos=ADV|PhraseType=Idiom
+45	à	à	ADP	_	_	48	mod	_	ExtPos=ADV|PhraseType=Idiom
 46	savoir	savoir	VERB	_	VerbForm=Inf	45	comp:obj	_	InIdiom=Yes
 47	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	48	det	_	_
 48	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur	36	appos	_	_

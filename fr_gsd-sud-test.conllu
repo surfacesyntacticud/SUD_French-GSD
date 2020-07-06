@@ -3988,7 +3988,7 @@
 14	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	13	mod	_	_
 15	disputé	disputer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	19	udep	_	ExtPos=ADV|PhraseType=Idiom
+16	à	à	ADP	_	_	19	mod	_	ExtPos=ADV|PhraseType=Idiom
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	16	unk	_	InIdiom=Yes
 18	moins	moins	ADV	_	_	17	unk	_	InIdiom=Yes
 19	20	20	NUM	_	_	20	det	_	_
@@ -7128,7 +7128,7 @@
 11	d'	de	ADP	_	_	10	comp:pred	_	SpaceAfter=No
 12	environs	environs	ADV	_	_	13	mod	_	_
 13	2cm	2cm	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
-14	de	de	ADP	_	_	13	udep	_	ExtPos=ADV|PhraseType=Idiom
+14	de	de	ADP	_	_	13	mod	_	ExtPos=ADV|PhraseType=Idiom
 15	plus	plus	ADV	_	_	14	comp:obj	_	InIdiom=Yes
 16	sur	sur	ADP	_	_	13	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	18	det	_	_
@@ -8198,7 +8198,7 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
 5	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	immense	immense	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
-7	à	à	ADP	_	_	2	udep	_	ExtPos=ADV|PhraseType=Idiom
+7	à	à	ADP	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 8	partir	partir	VERB	_	VerbForm=Inf	7	comp:obj	_	InIdiom=Yes
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	7	comp:obl	_	_
