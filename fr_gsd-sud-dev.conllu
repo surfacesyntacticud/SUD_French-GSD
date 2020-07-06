@@ -7445,7 +7445,7 @@
 12	recevra	recevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	comp:obj	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	14	det	_	_
 14	preuve	preuve	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-15	qu'	que	SCONJ	_	_	14	mod	_	SpaceAfter=No
+15	qu'	que	SCONJ	_	_	14	udep	_	SpaceAfter=No
 16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@pass	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
 18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
@@ -11957,7 +11957,7 @@
 21	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	22	mod	_	_
 22	phases	phase	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	que	que	SCONJ	_	_	22	mod	_	_
+24	que	que	SCONJ	_	_	22	udep	_	_
 25	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	subj	_	_
 26	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
 27	de	de	ADP	_	_	26	comp:pred	_	_
@@ -36438,7 +36438,7 @@
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
 5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	que	que	SCONJ	_	_	5	mod	_	_
+6	que	que	SCONJ	_	_	5	udep	_	_
 7	tous	tout	ADJ	_	Gender=Masc|Number=Plur	9	mod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	9	det	_	_
 9	Allemands	allemand	NOUN	_	Gender=Masc|Number=Plur	14	subj@pass	_	wordform=allemands
@@ -37128,7 +37128,7 @@
 # text = Une fois que ces informations ont été récoltées et validées par l'équipe de recherche, l'observateur amateur va pouvoir débuter ses investigations.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	InIdiom=Yes|wordform=une
 2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	20	mod	_	ExtPos=ADV|PhraseType=Idiom
-3	que	que	SCONJ	_	_	2	mod	_	_
+3	que	que	SCONJ	_	_	2	udep	_	_
 4	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	5	det	_	_
 5	informations	information	NOUN	_	Gender=Fem|Number=Plur	6	subj@pass	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
@@ -37244,7 +37244,7 @@
 11	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	_
 12	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 13	irrationnel	irrationnel	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
-14	puisqu'	puisque	SCONJ	_	_	9	mod	_	SpaceAfter=No
+14	puisqu'	puisque	SCONJ	_	_	9	udep	_	SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 17	avoué	avouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
