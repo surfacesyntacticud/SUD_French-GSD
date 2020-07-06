@@ -5517,7 +5517,7 @@
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	12	det	_	_
 12	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	très	très	ADV	_	_	14	mod	_	_
-14	en	en	ADP	_	_	12	udep	_	ExtPos=ADJ|PhraseType=Idiom
+14	en	en	ADP	_	_	12	mod	_	ExtPos=ADJ|PhraseType=Idiom
 15	vue	vue	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	InIdiom=Yes
 16	de	de	ADP	_	_	12	udep	_	_
 17	Las	Las	PROPN	_	_	16	comp:obj	_	_
