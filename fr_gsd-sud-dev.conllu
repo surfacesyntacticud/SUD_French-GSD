@@ -375,7 +375,7 @@
 13	en	en	ADP	_	_	10	conj	_	_
 14	2009	2009	NUM	_	_	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	bénéficiant	bénéficier	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
+16	bénéficiant	bénéficier	VERB	_	Tense=Pres|VerbForm=Part	8	mod	_	_
 17	également	également	ADV	_	_	16	mod	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	16	comp:obl	_	_
@@ -6273,7 +6273,7 @@
 13	de	de	ADP	_	_	12	udep	_	_
 14	New-York	New-York	PROPN	_	_	13	comp:obj	_	_
 15	célèbre	célèbre	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
-16	pour	pour	ADP	_	_	15	udep	_	_
+16	pour	pour	ADP	_	_	15	mod	_	_
 17	son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	18	det	_	_
 18	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	d'	de	ADP	_	_	18	udep	_	SpaceAfter=No
@@ -7414,7 +7414,7 @@
 14	à	à	ADP	_	_	12	comp:obl	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	16	det	_	_
 16	Sahraouis	sahraoui	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	wordform=sahraouis
-17	que	que	SCONJ	_	_	13	udep	_	_
+17	que	que	SCONJ	_	_	13	mod	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	19	det	_	_
 19	droit	droit	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	de	de	ADP	_	_	19	udep	_	_
@@ -11869,7 +11869,7 @@
 2	vernis	vernis	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	_
 3	antibactérien	antibactérien	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	présent	présent	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
-5	sur	sur	ADP	_	_	4	udep	_	_
+5	sur	sur	ADP	_	_	4	mod	_	_
 6	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	8	mod	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	8	det	_	_
 8	surfaces	surface	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
@@ -12111,7 +12111,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	5	det	_	_
 5	pilotes	pilote	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	présents	présent	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
-7	durant	durant	ADP	_	_	6	udep	_	_
+7	durant	durant	ADP	_	_	6	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	9	det	_	_
 9	saison	saison	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	2011	2011	NUM	_	_	9	mod	_	_
@@ -13259,7 +13259,7 @@
 6	de	de	ADP	_	_	2	conj	_	_
 7	prise	prise	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	rasoir	rasoir	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
-9	dans	dans	ADP	_	_	1	udep	_	_
+9	dans	dans	ADP	_	_	1	mod	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	11	det	_	_
 11	salle	salle	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
@@ -16584,10 +16584,10 @@
 25	appartenance	appartenance	NOUN	_	Gender=Fem|Number=Sing	34	subj	_	_
 26	ou	ou	CCONJ	_	_	27	cc	_	_
 27	non	non	ADV	_	_	25	conj	_	_
-28	à	à	ADP	_	Shared=Yes	27	udep	_	_
+28	à	à	ADP	_	Shared=Yes	27	mod	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	30	det	_	SpaceAfter=No
 30	Europe	Europe	PROPN	_	_	28	comp:obj	_	_
-31	de	de	ADP	_	Shared=Yes	27	udep	_	_
+31	de	de	ADP	_	Shared=Yes	27	mod	_	_
 32	certains	certain	ADJ	_	Gender=Masc|Number=Plur	33	mod	_	_
 33	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	31	comp:obj	_	_
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -23458,7 +23458,7 @@
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	30	30	NUM	_	_	18	det	_	_
 18	points	point	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
-19	de	de	ADP	_	_	15	udep	_	_
+19	de	de	ADP	_	_	15	mod	_	_
 20	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	23	det	_	_
@@ -23973,7 +23973,7 @@
 5	galaxie	galaxie	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	naine	nain	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 7	riche	riche	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
-8	en	en	ADP	_	_	7	udep	_	_
+8	en	en	ADP	_	_	7	mod	_	_
 9	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	type	type	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
@@ -24962,7 +24962,7 @@
 12	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 14	asymptomatique	asymptomatique	ADJ	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
-15	malgré	malgré	ADP	_	_	14	udep	_	_
+15	malgré	malgré	ADP	_	_	14	mod	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	17	det	_	_
 17	taille	taille	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	énorme	énorme	ADJ	_	Gender=Fem|Number=Sing	17	mod	_	SpaceAfter=No
@@ -25082,7 +25082,7 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	wordform=cette
 2	terre	terre	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
 3	riches	riche	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
-4	en	en	ADP	_	_	3	udep	_	_
+4	en	en	ADP	_	_	3	mod	_	_
 5	attraits	attrait	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 6	naturels	naturel	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -28645,7 +28645,7 @@
 7	corruption	corruption	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	généralisée	généralisé	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
-10	il	il	PRON	_	Gender=Masc|InIdiom=Yes|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 12	temps	temps	NOUN	_	Gender=Masc|Number=Sing	11	comp:pred	_	InIdiom=Yes
 13	que	que	SCONJ	_	_	11	comp:obj@agent	_	_
@@ -35466,7 +35466,7 @@
 32	Dossevi	Dossevi	PROPN	_	_	31	flat@name	_	_
 33	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 34	concentré	concentré	ADJ	_	Gender=Masc|Number=Sing	33	comp:pred	_	_
-35	sur	sur	ADP	_	_	34	udep	_	_
+35	sur	sur	ADP	_	_	34	mod	_	_
 36	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	37	det	_	_
 37	mondiaux	mondial	NOUN	_	Gender=Masc|Number=Plur	35	comp:obj	_	_
 38	de	de	ADP	_	_	37	udep	_	_
@@ -39423,7 +39423,7 @@
 4	mais	mais	CCONJ	_	_	6	cc	_	_
 5	aussi	aussi	ADV	_	_	6	mod	_	_
 6	traditionnelle	traditionnel	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	_
-7	pour	pour	ADP	_	_	6	udep	_	_
+7	pour	pour	ADP	_	_	6	mod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	9	det	_	_
 9	puristes	puriste	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
@@ -40632,7 +40632,7 @@
 25	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	26	subj	_	_
 26	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 27	présent	présent	ADJ	_	Gender=Masc|Number=Sing	26	comp:pred	_	_
-28	sur	sur	ADP	_	_	27	udep	_	_
+28	sur	sur	ADP	_	_	27	mod	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	30	det	_	_
 30	rive	rive	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
 31	droite	droit	ADJ	_	Gender=Fem|Number=Sing	30	mod	_	_

@@ -3279,7 +3279,7 @@
 15	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	longtemps	longtemps	ADV	_	_	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
-18	il	il	PRON	_	Gender=Masc|InIdiom=Yes|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	ExtPos=VERB|PhraseType=Idiom
 20	temps	temps	NOUN	_	Gender=Masc|Number=Sing	19	comp:pred	_	InIdiom=Yes
 21	de	de	ADP	_	_	19	comp:obj@agent	_	_
@@ -4356,7 +4356,7 @@
 9	de	de	ADP	_	_	7	comp:pred	_	ExtPos=ADJ|PhraseType=Idiom
 10	bon	bon	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	InIdiom=Yes
 11	ton	ton	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	InIdiom=Yes
-12	pour	pour	ADP	_	_	7	mod	_	_
+12	pour	pour	ADP	_	_	9	mod	_	_
 13	tout	tout	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	det	_	_
 14	homme	homme	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	jouissant	jouir	VERB	_	Tense=Pres|VerbForm=Part	14	mod	_	_
@@ -6282,7 +6282,7 @@
 16	faire	faire	AUX	_	VerbForm=Inf	14	comp:obj	_	_
 17	comprendre	comprendre	VERB	_	VerbForm=Inf	16	comp:aux@caus	_	_
 18	qu'	que	SCONJ	_	_	17	comp:obj	_	SpaceAfter=No
-19	il	il	PRON	_	Gender=Masc|InIdiom=Yes|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
+19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
 20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	20	comp:pred	_	InIdiom=Yes
 22	de	de	ADP	_	_	20	comp:obj@agent	_	_
@@ -7397,7 +7397,7 @@
 4	globalement	globalement	ADV	_	_	5	mod	_	_
 5	bons	bon	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	saumon	saumon	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
+7	saumon	saumon	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
 8	vapeur	vapeur	NOUN	_	Gender=Masc|Number=Plur	7	mod	_	SpaceAfter=No
 9	/	/	SYM	_	_	10	cc	_	ExtPos=CCONJ|SpaceAfter=No
 10	tagliatelles	tagliatelle	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
@@ -8971,7 +8971,7 @@
 # sent_id = fr-ud-dev_01510
 # text = Idem pour l'achèvement de l'autoroute Est-Ouest qui relie la frontière du Maroc à celle de la Tunisie.
 1	Idem	idem	ADV	_	_	0	root	_	wordform=idem
-2	pour	pour	ADP	_	_	1	udep	_	_
+2	pour	pour	ADP	_	_	1	mod	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	4	det	_	SpaceAfter=No
 4	achèvement	achèvement	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
@@ -9633,7 +9633,7 @@
 13	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	chaque	chaque	DET	_	Number=Sing|Person=3|PronType=Ind	16	det	_	_
-16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	2	mod	_	_
+16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 17	qu'	que	SCONJ	_	_	16	udep	_	SpaceAfter=No
 18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	subj	_	_
 19	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
@@ -9885,7 +9885,7 @@
 29	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	31	comp:obj	_	_
 30	Madonna	Madonna	PROPN	_	_	31	subj	_	_
 31	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
-32	plus	plus	ADV	_	_	31	mod	_	_
+32	plus	plus	ADV	_	_	33	mod	_	_
 33	adultes	adulte	NOUN	_	Gender=Fem|Number=Plur	31	comp:pred	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -10480,14 +10480,14 @@
 8	savoureuse	savoureux	ADJ	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
 9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 10	73	73	NUM	_	_	11	det	_	SpaceAfter=No
-11	%	%	SYM	_	_	8	udep	_	ExtPos=NOUN|SpaceAfter=No
+11	%	%	SYM	_	_	8	mod	_	ExtPos=NOUN|SpaceAfter=No
 12	)	)	PUNCT	_	_	11	punct	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	plus	plus	ADV	_	_	15	mod	_	_
 15	sucrée	sucré	ADJ	_	Gender=Fem|Number=Sing	8	conj	_	_
 16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 17	68	68	NUM	_	_	18	det	_	SpaceAfter=No
-18	%	%	SYM	_	_	15	udep	_	ExtPos=NOUN|SpaceAfter=No
+18	%	%	SYM	_	_	15	mod	_	ExtPos=NOUN|SpaceAfter=No
 19	)	)	PUNCT	_	_	18	punct	_	_
 20	que	que	SCONJ	_	Shared=Yes	14	comp:obl	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	23	det	_	_
@@ -10681,7 +10681,7 @@
 69	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	70	det	_	_
 70	bien	bien	NOUN	_	Gender=Masc|Number=Sing	68	comp:obj	_	_
 71	réalisable	réalisable	ADJ	_	Gender=Masc|Number=Sing	70	mod	_	_
-72	en	en	ADP	_	_	71	udep	_	_
+72	en	en	ADP	_	_	71	mod	_	_
 73	ce	ce	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	74	det	_	_
 74	monde	monde	NOUN	_	Gender=Masc|Number=Sing	72	comp:obj	_	SpaceAfter=No
 75	.	.	PUNCT	_	_	19	punct	_	_
