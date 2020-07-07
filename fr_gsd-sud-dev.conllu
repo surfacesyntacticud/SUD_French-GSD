@@ -348,7 +348,7 @@
 32	XXe	XXe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	33	mod	_	_
 33	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	38	punct	_	_
-35	dont	dont	PRON	_	PronType=Rel	37	mod	_	_
+35	dont	dont	PRON	_	PronType=Rel	37	udep	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	37	det	_	_
 37	spécialité	spécialité	NOUN	_	Gender=Fem|Number=Sing	38	subj	_	_
 38	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Imp|VerbForm=Fin	25	mod@relcl	_	_
@@ -425,7 +425,7 @@
 1	Comprenant	comprendre	VERB	_	Tense=Pres|VerbForm=Part	17	mod	_	wordform=comprenant
 2	six	six	NUM	_	_	3	det	_	_
 3	sommets	sommet	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
-4	dont	dont	PRON	_	PronType=Rel	6	mod	_	_
+4	dont	dont	PRON	_	PronType=Rel	6	udep	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	6	det	_	_
 6	point	point	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
 7	culminant	culminer	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	_
@@ -546,7 +546,7 @@
 27	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
 28	britannique	britannique	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	_
 29	mais	mais	CCONJ	_	_	34	cc	_	_
-30	dont	dont	PRON	_	PronType=Rel	32	mod	_	_
+30	dont	dont	PRON	_	PronType=Rel	32	udep	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	32	det	_	_
 32	mission	mission	NOUN	_	Gender=Fem|Number=Sing	34	subj	_	_
 33	se	se	PRON	_	Person=3|PronType=Prs	34	comp	_	InIdiom=Yes
@@ -1571,7 +1571,7 @@
 8	Geórgios	Geórgios	PROPN	_	_	7	appos	_	_
 9	Papandréou	Papandréou	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
-11	dont	dont	PRON	_	PronType=Rel	13	mod	_	_
+11	dont	dont	PRON	_	PronType=Rel	13	udep	_	_
 12	douze	douze	NUM	_	_	13	det	_	_
 13	membres	membre	NOUN	_	Gender=Masc|Number=Plur	14	subj@pass	_	_
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
@@ -1773,7 +1773,7 @@
 # sent_id = fr-ud-dev_00067
 # text = On en avait vue une dizaine au premier contrôle mais pas celle là.
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	wordform=on
-2	en	en	PRON	_	Person=3|PronType=Prs	6	mod	_	_
+2	en	en	PRON	_	Person=3|PronType=Prs	6	udep	_	_
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	6	det	_	_
@@ -4027,7 +4027,7 @@
 15	de	de	ADP	_	_	14	udep	_	_
 16	plantes	plante	NOUN	_	Gender=Fem|Number=Plur	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	dont	dont	PRON	_	PronType=Rel	20	mod	_	_
+18	dont	dont	PRON	_	PronType=Rel	20	udep	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	20	det	_	_
 20	Flora	Flora	PROPN	_	_	14	appos	_	_
 21	Femsionensis	Femsionensis	PROPN	_	_	20	flat@name	_	SpaceAfter=No
@@ -4054,7 +4054,7 @@
 17	de	de	ADP	_	_	16	udep	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	19	det	_	_
 19	Terre	terre	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	wordform=terre
-20	dont	dont	PRON	_	PronType=Rel	22	mod	_	_
+20	dont	dont	PRON	_	PronType=Rel	22	udep	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	22	det	_	_
 22	longitude	longitude	NOUN	_	Gender=Fem|Number=Sing	23	subj	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
@@ -4990,7 +4990,7 @@
 # text = Le coût en est moins difficile.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le
 2	coût	coût	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
-3	en	en	PRON	_	Person=3|PronType=Prs	2	mod	_	_
+3	en	en	PRON	_	Person=3|PronType=Prs	2	udep	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	moins	moins	ADV	_	_	6	mod	_	_
 6	difficile	difficile	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	SpaceAfter=No
@@ -7414,7 +7414,7 @@
 14	à	à	ADP	_	_	12	comp:obl	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	16	det	_	_
 16	Sahraouis	sahraoui	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	wordform=sahraouis
-17	que	que	SCONJ	_	_	13	mod	_	_
+17	que	que	SCONJ	_	_	13	comp:obl	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	19	det	_	_
 19	droit	droit	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	de	de	ADP	_	_	19	udep	_	_
@@ -8738,7 +8738,7 @@
 6	fort	fort	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 7	accentué	accentuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	16	punct	_	_
-9	dont	dont	PRON	_	PronType=Rel	11	mod	_	_
+9	dont	dont	PRON	_	PronType=Rel	11	udep	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	11	det	_	SpaceAfter=No
 11	enchevêtrement	enchevêtrement	NOUN	_	Gender=Masc|Number=Sing	16	subj	_	_
 12-13	des	_	_	_	_	_	_	_	_
@@ -9179,7 +9179,7 @@
 # text = Un gouvernement dont la tâche est de préparer des élections libres à une Assemblée constituante souveraine, seule chargée de déterminer l'architecture--c'est-à-dire la nature, le contenu et la forme--des futures institutions.
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=un
 2	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-3	dont	dont	PRON	_	PronType=Rel	5	mod	_	_
+3	dont	dont	PRON	_	PronType=Rel	5	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	5	det	_	_
 5	tâche	tâche	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
@@ -9808,7 +9808,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	5	det	_	SpaceAfter=No
 5	écoute	écoute	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	et	et	CCONJ	_	_	11	cc	_	_
-7	dont	dont	PRON	_	PronType=Rel	9	mod	_	_
+7	dont	dont	PRON	_	PronType=Rel	9	udep	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	9	det	_	_
 9	compétences	compétence	NOUN	_	Gender=Fem|Number=Plur	11	subj	_	_
 10	variées	varié	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
@@ -9932,7 +9932,7 @@
 22	Pass	Pass	PROPN	_	_	17	conj	_	_
 23	Internet	Internet	PROPN	_	_	22	appos	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	22	punct	_	_
-25	dont	dont	PRON	_	PronType=Rel	27	mod	_	_
+25	dont	dont	PRON	_	PronType=Rel	27	udep	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	27	det	_	_
 27	tarif	tarif	NOUN	_	Gender=Masc|Number=Sing	28	subj@pass	_	_
 28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	_
@@ -9956,7 +9956,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
 8	monde	monde	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	dont	dont	PRON	_	PronType=Rel	11	mod	_	_
+10	dont	dont	PRON	_	PronType=Rel	11	udep	_	_
 11	trois	trois	NUM	_	_	5	mod@relcl	_	_
 12	principaux	principal	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
 13	en	en	ADP	_	_	11	udep	_	_
@@ -13189,7 +13189,7 @@
 19	ses	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	20	det	_	_
 20	prérogatives	prérogative	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
-22	dont	dont	PRON	_	PronType=Rel	24	mod	_	_
+22	dont	dont	PRON	_	PronType=Rel	24	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	24	det	_	_
 24	droit	droit	NOUN	_	Gender=Masc|Number=Sing	20	appos	_	_
 25	de	de	ADP	_	_	24	udep	_	_
@@ -13251,7 +13251,7 @@
 
 # sent_id = fr-ud-dev_00477
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
-1	Pas	pas	ADV	_	Polarity=Neg	0	root	_	ExtPos=PRON|wordform=pas
+1	Pas	pas	ADV	_	Polarity=Neg	0	root	_	wordform=pas
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	sèche	sécher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	ExtPos=NOUN|PhraseType=Idiom|wordform=sèche-cheveux
 4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	wordform=_
@@ -14017,7 +14017,7 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	successions	succession	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	moins	moins	ADV	_	_	7	conj	_	ExtPos=PRON
+15	moins	moins	ADV	_	_	6	conj	_	ExtPos=PRON
 16	d'	de	ADP	_	_	15	comp:obl	_	SpaceAfter=No
 17	une	une	NUM	_	_	18	det	_	_
 18	dizaine	dizaine	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -14607,7 +14607,7 @@
 12	sincèrement	sincèrement	ADV	_	_	16	mod	_	_
 13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	_
 14	n'	ne	ADV	_	Polarity=Neg	16	mod	_	SpaceAfter=No
-15	en	en	PRON	_	Person=3|PronType=Prs	22	mod	_	_
+15	en	en	PRON	_	Person=3|PronType=Prs	22	udep	_	_
 16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
 17	pas	pas	ADV	_	Polarity=Neg	16	mod	_	_
 18	gardé	garder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
@@ -16029,7 +16029,7 @@
 40	,	,	PUNCT	_	_	42	punct	_	_
 41	puis	puis	ADV	_	_	42	cc	_	_
 42	pour	pour	ADP	_	_	27	conj	_	_
-43	en	en	PRON	_	Person=3|PronType=Prs	47	mod	_	_
+43	en	en	PRON	_	Person=3|PronType=Prs	47	udep	_	_
 44	être	être	AUX	_	VerbForm=Inf	42	comp:obj	_	_
 45	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	comp:aux@tense	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	47	det	_	_
@@ -16266,7 +16266,7 @@
 44	Ainsi	ainsi	ADV	_	_	45	mod	_	InTitle=Yes|wordform=ainsi
 45	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	comp:obj	_	ExtPos=PROPN|PhraseType=Title
 46	Zarathoustra	Zarathoustra	PROPN	_	_	45	subj	_	InTitle=Yes
-47	de	de	ADP	_	_	45	mod	_	_
+47	de	de	ADP	_	_	45	udep	_	_
 48	Richard	Richard	PROPN	_	_	47	comp:obj	_	_
 49	Strauss	Strauss	PROPN	_	_	48	flat@name	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	2	punct	_	_
@@ -16584,10 +16584,10 @@
 25	appartenance	appartenance	NOUN	_	Gender=Fem|Number=Sing	34	subj	_	_
 26	ou	ou	CCONJ	_	_	27	cc	_	_
 27	non	non	ADV	_	_	25	conj	_	_
-28	à	à	ADP	_	Shared=Yes	27	mod	_	_
+28	à	à	ADP	_	Shared=Yes	27	udep	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	30	det	_	SpaceAfter=No
 30	Europe	Europe	PROPN	_	_	28	comp:obj	_	_
-31	de	de	ADP	_	Shared=Yes	27	mod	_	_
+31	de	de	ADP	_	Shared=Yes	27	udep	_	_
 32	certains	certain	ADJ	_	Gender=Masc|Number=Plur	33	mod	_	_
 33	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	31	comp:obj	_	_
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -16731,7 +16731,7 @@
 17	37	37	NUM	_	_	16	comp:obj	_	_
 18	ans	an	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
-20	dont	dont	PRON	_	PronType=Rel	21	mod	_	_
+20	dont	dont	PRON	_	PronType=Rel	21	udep	_	_
 21	deux	deux	NUM	_	_	22	subj	_	_
 22	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
 23	loin	loin	ADV	_	_	22	comp:pred	_	_
@@ -16842,7 +16842,7 @@
 14	Alsacienne	Alsacienne	PROPN	_	_	6	conj	_	_
 15	Lorraine	Lorraine	PROPN	_	_	14	flat@name	_	_
 16	Paris	Paris	PROPN	_	_	15	flat@name	_	_
-17	à	à	ADP	_	_	14	udep	_	ExtPos=ADV|PhraseType=Idiom
+17	à	à	ADP	_	_	14	mod	_	ExtPos=ADV|PhraseType=Idiom
 18	partir	partir	VERB	_	VerbForm=Inf	17	comp:obj	_	InIdiom=Yes
 19	de	de	ADP	_	_	17	comp:obl	_	_
 20	1926	1926	NUM	_	_	19	comp:obj	_	SpaceAfter=No
@@ -16936,7 +16936,7 @@
 17	douzaine	douzaine	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	livres	livre	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
-20	dont	dont	PRON	_	PronType=Rel	22	mod	_	_
+20	dont	dont	PRON	_	PronType=Rel	22	udep	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	22	det	_	_
 22	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	23	subj	_	_
 23	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
@@ -17990,7 +17990,7 @@
 28	plusieurs	plusieurs	DET	_	Number=Plur|Person=3|PronType=Ind	30	det	_	_
 29	autres	autre	ADJ	_	Gender=Masc|Number=Plur	30	mod	_	_
 30	pays	pays	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
-31	dont	dont	PRON	_	PronType=Rel	33	mod	_	_
+31	dont	dont	PRON	_	PronType=Rel	33	udep	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	33	det	_	_
 33	Canada	Canada	PROPN	_	_	30	appos	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
@@ -20529,7 +20529,7 @@
 2	roi	roi	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
 3	Mutesa	Mutesa	PROPN	_	_	2	appos	_	_
 4	II	II	NUM	_	_	3	mod	_	_
-5	en	en	PRON	_	Person=3|PronType=Prs	8	mod	_	_
+5	en	en	PRON	_	Person=3|PronType=Prs	8	udep	_	_
 6	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
 8	président	président	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
@@ -21347,7 +21347,7 @@
 14	son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	15	det	_	_
 15	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
-17	en	en	PRON	_	Person=3|PronType=Prs	20	mod	_	_
+17	en	en	PRON	_	Person=3|PronType=Prs	20	udep	_	_
 18	légitimer	légitimer	VERB	_	VerbForm=Inf	13	conj	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	20	det	_	SpaceAfter=No
 20	action	action	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
@@ -22166,7 +22166,7 @@
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	27	det	_	_
 27	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
-29	dont	dont	PRON	_	PronType=Rel	30	mod	_	_
+29	dont	dont	PRON	_	PronType=Rel	30	udep	_	_
 30	neuf	neuf	NUM	_	_	6	mod@relcl	_	_
 31	sorties	sortir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	30	mod	_	_
 32	en	en	ADP	_	_	31	mod	_	_
@@ -22208,7 +22208,7 @@
 68	en	en	ADP	_	_	66	mod	_	_
 69	2002	2002	NUM	_	_	68	comp:obj	_	SpaceAfter=No
 70	,	,	PUNCT	_	_	72	punct	_	_
-71	dont	dont	PRON	_	PronType=Rel	72	mod	_	_
+71	dont	dont	PRON	_	PronType=Rel	72	udep	_	_
 72	dix	dix	NUM	_	_	50	appos	_	_
 73	issues	issu	ADJ	_	Gender=Fem|Number=Plur	72	mod	_	_
 74	de	de	ADP	_	_	73	comp:obl	_	_
@@ -22271,7 +22271,7 @@
 22	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 23	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	24	det	_	_
 24	pontons	ponton	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
-25	dont	dont	PRON	_	PronType=Rel	27	mod	_	_
+25	dont	dont	PRON	_	PronType=Rel	27	udep	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	27	det	_	_
 27	bord	bord	NOUN	_	Gender=Masc|Number=Sing	30	subj@pass	_	_
 28	de	de	ADP	_	_	27	udep	_	_
@@ -23458,7 +23458,7 @@
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	30	30	NUM	_	_	18	det	_	_
 18	points	point	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
-19	de	de	ADP	_	_	15	mod	_	_
+19	de	de	ADP	_	_	15	udep	_	_
 20	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	23	det	_	_
@@ -24143,7 +24143,7 @@
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 16	considérablement	considérablement	ADV	_	_	15	mod	_	_
-17	en	en	PRON	_	Person=3|PronType=Prs	20	mod	_	_
+17	en	en	PRON	_	Person=3|PronType=Prs	20	udep	_	_
 18	chevaucher	chevaucher	VERB	_	VerbForm=Inf	15	comp:obj@x	_	_
 19	d'	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	20	det	_	SpaceAfter=No
 20	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	18	comp:obj	_	SpaceAfter=No
@@ -24326,7 +24326,7 @@
 10	bâtiments	bâtiment	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	latérite	latérite	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
-13	dont	dont	PRON	_	PronType=Rel	15	mod	_	_
+13	dont	dont	PRON	_	PronType=Rel	15	udep	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	15	det	_	_
 15	forme	forme	NOUN	_	Gender=Fem|Number=Sing	17	subj	_	_
 16	ne	ne	ADV	_	Polarity=Neg	17	mod	_	_
@@ -25543,7 +25543,7 @@
 6	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	semi-conique	semi-conique	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	15	punct	_	_
-9	dont	dont	PRON	_	PronType=Rel	11	mod	_	_
+9	dont	dont	PRON	_	PronType=Rel	11	udep	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	11	det	_	SpaceAfter=No
 11	inclinaison	inclinaison	NOUN	_	Gender=Fem|Number=Sing	15	subj	_	_
 12-13	des	_	_	_	_	_	_	_	_
@@ -27539,7 +27539,7 @@
 # sent_id = fr-ud-dev_00995
 # text = N'en voyant pas l'utilité, il l'offre à Marge Simpson qui, en échange, accepte de garder Rod et Todd pendant que Ned Flanders se rend au congrès des gauchers.
 1	N'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No|wordform=n'
-2	en	en	PRON	_	Person=3|PronType=Prs	6	mod	_	_
+2	en	en	PRON	_	Person=3|PronType=Prs	6	udep	_	_
 3	voyant	voir	VERB	_	Tense=Pres|VerbForm=Part	10	mod	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	6	det	_	SpaceAfter=No
@@ -27683,7 +27683,7 @@
 21	11	11	NUM	_	_	22	det	_	_
 22	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	13	mod	_	_
 23	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-24	dont	dont	PRON	_	PronType=Rel	25	mod	_	_
+24	dont	dont	PRON	_	PronType=Rel	25	udep	_	_
 25	2	2	NUM	_	_	22	appos	_	_
 26	en	en	ADP	_	_	25	udep	_	_
 27	2	2	NUM	_	_	28	det	_	_
@@ -28089,7 +28089,7 @@
 7	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	deux	deux	NUM	_	_	3	conj	_	_
-10	pour	pour	ADP	_	Shared=Yes	9	udep	_	_
+10	pour	pour	ADP	_	_	9	udep	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	12	det	_	_
 12	nul	nul	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
@@ -28824,7 +28824,7 @@
 15	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	16	det	_	SpaceAfter=No
 16	AS	AS	PROPN	_	_	14	comp:obj	_	_
 17	Béziers	Béziers	PROPN	_	_	16	flat@name	_	_
-18	dont	dont	PRON	_	PronType=Rel	22	mod	_	_
+18	dont	dont	PRON	_	PronType=Rel	22	udep	_	_
 19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj	_	_
 20	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	mod@relcl	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	22	det	_	_
@@ -34242,7 +34242,7 @@
 52	riches	riche	ADJ	_	Gender=Fem|Number=Plur	50	mod	_	_
 53	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	comp:obj	_	_
 54	aussi	aussi	ADV	_	_	53	mod	_	_
-55	en	en	PRON	_	Person=3|PronType=Prs	57	mod	_	_
+55	en	en	PRON	_	Person=3|PronType=Prs	57	udep	_	_
 56	faire	faire	VERB	_	VerbForm=Inf	53	comp:obj@x	_	_
 57	partie	partie	NOUN	_	Gender=Fem|Number=Sing	56	comp:obj@lvc	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	2	punct	_	_
@@ -35398,7 +35398,7 @@
 30	de	de	ADP	_	_	25	conj	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	32	det	_	_
 32	Recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	wordform=recherche
-33	dont	dont	PRON	_	PronType=Rel	35	mod	_	_
+33	dont	dont	PRON	_	PronType=Rel	35	udep	_	_
 34	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	35	det	_	_
 35	missions	mission	NOUN	_	Gender=Fem|Number=Plur	36	subj@pass	_	_
 36	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	_
@@ -35750,7 +35750,7 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	14	det	_	_
 14	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
-16	dont	dont	PRON	_	PronType=Rel	18	mod	_	_
+16	dont	dont	PRON	_	PronType=Rel	18	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	18	det	_	_
 18	Sud	sud	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	wordform=sud
 19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	mod@relcl	_	_
@@ -38290,7 +38290,7 @@
 24	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	26	det	_	_
 25	autres	autre	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	_
 26	organismes	organisme	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
-27	dont	dont	PRON	_	PronType=Rel	30	mod	_	_
+27	dont	dont	PRON	_	PronType=Rel	30	udep	_	_
 28	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	subj	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	_
 30	membres	membre	NOUN	_	Gender=Masc|Number=Plur	29	comp:pred	_	SpaceAfter=No
@@ -38863,7 +38863,7 @@
 15	XVe	XVe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	16	mod	_	_
 16	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
-18	dont	dont	PRON	_	PronType=Rel	20	mod	_	_
+18	dont	dont	PRON	_	PronType=Rel	20	udep	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	20	det	_	SpaceAfter=No
 20	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	22	subj	_	_
 21	se	se	PRON	_	Person=3|PronType=Prs	22	comp@pass	_	_
@@ -38948,7 +38948,7 @@
 17	Saad	Saad	PROPN	_	_	16	comp:obj	_	_
 18	Hariri	Hariri	PROPN	_	_	17	flat@name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	26	punct	_	_
-20	dont	dont	PRON	_	PronType=Rel	22	mod	_	_
+20	dont	dont	PRON	_	PronType=Rel	22	udep	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	22	det	_	_
 22	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	26	subj	_	_
 23	d'	de	ADP	_	_	22	udep	_	SpaceAfter=No
@@ -39703,7 +39703,7 @@
 13	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 14	et	et	CCONJ	_	_	17	cc	_	_
 15	s'	se	PRON	_	Person=3|PronType=Prs	17	comp:obl	_	SpaceAfter=No
-16	en	en	PRON	_	Person=3|PronType=Prs	18	mod	_	_
+16	en	en	PRON	_	Person=3|PronType=Prs	18	udep	_	_
 17	inventer	inventer	VERB	_	VerbForm=Inf	9	conj	_	_
 18	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	comp:obj	_	_
 19	éventuellement	éventuellement	ADV	_	_	17	mod	_	SpaceAfter=No
@@ -40201,7 +40201,7 @@
 40	grand	grand	ADJ	_	Gender=Masc|Number=Sing	41	mod	_	_
 41	comité	comité	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	_
 42	»	»	PUNCT	_	_	41	punct	_	_
-43	dont	dont	PRON	_	PronType=Rel	50	mod	_	_
+43	dont	dont	PRON	_	PronType=Rel	50	udep	_	_
 44	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	subj	_	_
 45	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	mod@relcl	_	_
 46	lui-même	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	45	mod	_	_

@@ -3243,7 +3243,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	3	det	_	_
 3	Vatican	Vatican	PROPN	_	_	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	17	punct	_	_
-5	dont	dont	PRON	_	PronType=Rel	7	mod	_	_
+5	dont	dont	PRON	_	PronType=Rel	7	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	7	det	_	_
 7	voile	voile	NOUN	_	Gender=Masc|Number=Sing	17	subj	_	_
 8	posé	poser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	_
@@ -4178,7 +4178,7 @@
 26	Société	Société	PROPN	_	_	24	comp:obj	_	_
 27	Générale	général	ADJ	_	Gender=Fem|Number=Sing	26	mod	_	SpaceAfter=No|wordform=générale
 28	,	,	PUNCT	_	_	32	punct	_	_
-29	dont	dont	PRON	_	PronType=Rel	31	mod	_	_
+29	dont	dont	PRON	_	PronType=Rel	31	udep	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	31	det	_	_
 31	dégradation	dégradation	NOUN	_	Gender=Fem|Number=Sing	32	subj	_	_
 32	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	_
@@ -4971,7 +4971,7 @@
 8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 9	blessées	blesser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
-11	dont	dont	PRON	_	PronType=Rel	12	mod	_	_
+11	dont	dont	PRON	_	PronType=Rel	12	udep	_	_
 12	une	une	NUM	_	_	1	mod@relcl	_	_
 13	grièvement	grièvement	ADV	_	_	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
@@ -5246,7 +5246,7 @@
 2	Di	Di	PROPN	_	_	1	flat@name	_	_
 3	Rupo	Rupo	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
-5	dont	dont	PRON	_	PronType=Rel	7	mod	_	_
+5	dont	dont	PRON	_	PronType=Rel	7	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	7	det	_	_
 7	parti	parti	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
 8	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	mod@relcl	_	_
@@ -5856,7 +5856,7 @@
 12	40-42	40-42	NUM	_	_	10	parataxis	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	25	punct	_	_
-15	dont	dont	PRON	_	PronType=Rel	17	mod	_	_
+15	dont	dont	PRON	_	PronType=Rel	17	udep	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	17	det	_	_
 17	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	25	subj	_	_
 18	à	à	ADP	_	_	17	udep	_	_
@@ -6164,7 +6164,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	6	det	_	_
 6	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
-7	dont	dont	PRON	_	PronType=Rel	9	mod	_	_
+7	dont	dont	PRON	_	PronType=Rel	9	udep	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	9	det	_	_
 9	compétences	compétence	NOUN	_	Gender=Fem|Number=Plur	18	subj	_	_
 10	en	en	ADP	_	_	9	udep	_	_
@@ -9032,7 +9032,7 @@
 2	Pokémon	Pokémon	PROPN	_	_	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
-5	en	en	PRON	_	Person=3|PronType=Prs	8	mod	_	_
+5	en	en	PRON	_	Person=3|PronType=Prs	8	udep	_	_
 6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	exactement	exactement	ADV	_	_	8	mod	_	_
 8	60	60	NUM	_	_	6	comp:obj	_	SpaceAfter=No
@@ -11006,7 +11006,7 @@
 24	de	de	ADP	_	_	23	udep	_	_
 25	communication	communication	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	_
-27	dont	dont	PRON	_	PronType=Rel	29	mod	_	_
+27	dont	dont	PRON	_	PronType=Rel	29	udep	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	29	det	_	SpaceAfter=No
 29	installation	installation	NOUN	_	Gender=Fem|Number=Sing	30	subj	_	_
 30	génère	générer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
@@ -11339,7 +11339,7 @@
 13	base	base	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	celles-ci	celui-ci	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Dem	17	subj	_	_
-16	en	en	PRON	_	Person=3|PronType=Prs	18	mod	_	_
+16	en	en	PRON	_	Person=3|PronType=Prs	18	udep	_	_
 17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 18	membres	membre	NOUN	_	Gender=Masc|Number=Plur	17	comp:pred	_	_
 19	par	par	ADP	_	_	17	mod	_	_
