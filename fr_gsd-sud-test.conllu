@@ -1026,7 +1026,7 @@
 19	Nigéria	Nigéria	PROPN	_	_	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	autant	autant	ADV	_	_	7	mod	_	_
-22	qu'	que	SCONJ	_	_	21	comp:obl	_	SpaceAfter=No
+22	qu'	que	SCONJ	_	_	21	comp:obj	_	SpaceAfter=No
 23	avec	avec	ADP	_	_	22	comp:obj	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	25	det	_	_
 25	sectes	secte	NOUN	_	Gender=Fem|Number=Plur	23	comp:obj	_	_
@@ -1287,7 +1287,7 @@
 27	pas	pas	ADV	_	Polarity=Neg	26	mod	_	_
 28	si	si	ADV	_	_	29	mod	_	_
 29	brillant	brillant	ADJ	_	Gender=Masc|Number=Sing	26	comp:pred	_	_
-30	que	que	SCONJ	_	_	28	comp:obl	_	_
+30	que	que	SCONJ	_	_	28	comp:obj	_	_
 31	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -2543,7 +2543,7 @@
 11	politique	politique	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 12	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	plus	plus	ADV	_	_	12	mod	_	_
-14	que	que	SCONJ	_	_	13	comp:obl	_	_
+14	que	que	SCONJ	_	_	13	comp:obj	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	16	det	_	_
 16	cause	cause	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 17	humaine	humain	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	SpaceAfter=No
@@ -5466,7 +5466,7 @@
 11	peu	peu	ADV	_	_	10	unk	_	InIdiom=Yes
 12	moins	moins	ADV	_	_	13	mod	_	_
 13	mortelle	mortel	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
-14	que	que	SCONJ	_	_	12	comp:obl	_	_
+14	que	que	SCONJ	_	_	12	comp:obj	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	17	det	_	_
 16	pires	pire	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
 17	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
@@ -7108,7 +7108,7 @@
 6	tant	tant	ADV	_	_	7	mod	_	_
 7	en	en	ADP	_	_	5	udep	_	_
 8	crêpes	crêpe	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
-9	qu'	que	SCONJ	_	_	6	comp:obl	_	SpaceAfter=No
+9	qu'	que	SCONJ	_	_	6	comp:obj	_	SpaceAfter=No
 10	en	en	ADP	_	_	9	comp:obj	_	_
 11	galettes	galette	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -7301,7 +7301,7 @@
 4	beaucoup	beaucoup	ADV	_	_	5	mod	_	_
 5	plus	plus	ADV	_	_	6	mod	_	_
 6	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
-7	que	que	SCONJ	_	_	5	comp:obl	_	_
+7	que	que	SCONJ	_	_	5	comp:obj	_	_
 8	dans	dans	ADP	_	_	7	comp:obj	_	_
 9	d'	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	11	det	_	SpaceAfter=No
 10	autres	autre	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
@@ -9608,7 +9608,7 @@
 18	beaucoup	beaucoup	ADV	_	_	19	mod	_	_
 19	plus	plus	ADV	_	_	20	mod	_	_
 20	flatteuses	flatteur	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
-21	que	que	SCONJ	_	_	19	comp:obl	_	_
+21	que	que	SCONJ	_	_	19	comp:obj	_	_
 22	celles	celui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Dem	21	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	26	det	_	_
@@ -10489,7 +10489,7 @@
 17	68	68	NUM	_	_	18	det	_	SpaceAfter=No
 18	%	%	SYM	_	_	15	mod	_	ExtPos=NOUN|SpaceAfter=No
 19	)	)	PUNCT	_	_	18	punct	_	_
-20	que	que	SCONJ	_	Shared=Yes	14	comp:obl	_	_
+20	que	que	SCONJ	_	Shared=Yes	14	comp:obj	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	23	det	_	_
 22	autres	autre	ADJ	_	Gender=Fem|Number=Plur	23	mod	_	_
 23	fraises	fraise	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	SpaceAfter=No
