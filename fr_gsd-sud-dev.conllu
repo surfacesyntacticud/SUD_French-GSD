@@ -990,7 +990,7 @@
 24	sud-est	sud-est	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	27	det	_	_
-27	jonction	jonction	NOUN	_	Gender=Fem|Number=Sing	29	subj	_	_
+27	jonction	jonction	NOUN	_	Gender=Fem|Number=Sing	29	subj@pass	_	_
 28	s'	se	PRON	_	Person=3|PronType=Prs	29	comp@pass	_	SpaceAfter=No
 29	effectuant	effectuer	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
 30-31	au	_	_	_	_	_	_	_	_
@@ -6494,7 +6494,7 @@
 # sent_id = fr-ud-dev_00235
 # text = L'interdit qui frappe alors le mot "Colonial" s'étend aux appellations à caractère géographique, à tous ces bataillons dits de Côte d'Ivoire, du Niger et autres aussi glorieux adjectifs "Sénégalais" et au terme "Tirailleur" chargé des plus belles traditions de l'armée française.
 1	L'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
-2	interdit	interdit	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
+2	interdit	interdit	NOUN	_	Gender=Masc|Number=Sing	12	subj@pass	_	_
 3	qui	qui	PRON	_	PronType=Rel	4	subj	_	_
 4	frappe	frapper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 5	alors	alors	ADV	_	_	4	mod	_	_
@@ -8456,7 +8456,7 @@
 # sent_id = fr-ud-dev_00301
 # text = La Selle-en-Luitré se trouve à environ :
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=la
-2	Selle-en-Luitré	Selle-en-Luitré	PROPN	_	_	4	subj	_	_
+2	Selle-en-Luitré	Selle-en-Luitré	PROPN	_	_	4	subj@pass	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	comp@pass	_	_
 4	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	à	à	ADP	_	_	4	orphan	_	_
@@ -10666,7 +10666,7 @@
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	35	det	_	_
 35	sphère	sphère	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_
 36	publique	public	ADJ	_	Gender=Fem|Number=Sing	35	mod	_	_
-37	qui	qui	PRON	_	PronType=Rel	39	subj	_	_
+37	qui	qui	PRON	_	PronType=Rel	39	subj@pass	_	_
 38	se	se	PRON	_	Person=3|PronType=Prs	39	comp@pass	_	_
 39	définissent	définir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	mod@relcl	_	_
 40	selon	selon	ADP	_	_	39	mod	_	_
@@ -10778,7 +10778,7 @@
 30	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	31	det	_	SpaceAfter=No
 31	établissement	établissement	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 32	où	où	ADV	_	PronType=Rel	35	comp:obl	_	_
-33	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj	_	_
+33	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj@pass	_	_
 34	se	se	PRON	_	Person=3|PronType=Prs	35	comp@pass	_	_
 35	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	mod@relcl	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	4	punct	_	_
@@ -12105,7 +12105,7 @@
 # sent_id = fr-ud-dev_00439
 # text = La liste des pilotes présents durant la saison 2011 se trouve sur le site officiel de la Formula Nippon
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=la
-2	liste	liste	NOUN	_	Gender=Fem|Number=Sing	12	subj	_	_
+2	liste	liste	NOUN	_	Gender=Fem|Number=Sing	12	subj@pass	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	5	det	_	_
@@ -12516,7 +12516,7 @@
 6	se	se	PRON	_	Person=3|PronType=Prs	7	comp@pass	_	_
 7	manifeste	manifester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
-9	intérêt	intérêt	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
+9	intérêt	intérêt	NOUN	_	Gender=Masc|Number=Sing	7	subj@pass	_	_
 10	assez	assez	ADV	_	_	11	mod	_	_
 11	faible	faible	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -12830,7 +12830,7 @@
 39	s'	se	PRON	_	Person=3|PronType=Prs	40	comp@pass	_	SpaceAfter=No
 40	ouvrent	ouvrir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
 41	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	42	det	_	_
-42	universités	université	NOUN	_	Gender=Fem|Number=Plur	40	subj	_	SpaceAfter=No
+42	universités	université	NOUN	_	Gender=Fem|Number=Plur	40	subj@pass	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00463
@@ -15561,7 +15561,7 @@
 4	historique	historique	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	7	det	_	_
-7	couleurs	couleur	NOUN	_	Gender=Fem|Number=Plur	10	subj	_	_
+7	couleurs	couleur	NOUN	_	Gender=Fem|Number=Plur	10	subj@pass	_	_
 8	andalouses	andalou	ADJ	_	Gender=Fem|Number=Plur	7	mod	_	_
 9	se	se	PRON	_	Person=3|PronType=Prs	10	comp@pass	_	_
 10	distinguent	distinguer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -16364,7 +16364,7 @@
 # sent_id = fr-ud-dev_00586
 # text = Son siège social se trouve à Londres, au Royaume-Uni.
 1	Son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	2	det	_	wordform=son
-2	siège	siège	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+2	siège	siège	NOUN	_	Gender=Masc|Number=Sing	5	subj@pass	_	_
 3	social	social	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	_
 5	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -17112,7 +17112,7 @@
 22	de	de	ADP	_	_	21	udep	_	_
 23	Neuengamme	Neuengamme	PROPN	_	_	22	comp:obj	_	_
 24	mais	mais	CCONJ	_	_	27	cc	_	_
-25	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	subj	_	_
+25	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	subj@pass	_	_
 26	se	se	PRON	_	Person=3|PronType=Prs	27	comp@pass	_	_
 27	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 28	sur	sur	ADP	_	_	27	mod	_	_
@@ -17241,7 +17241,7 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj@expl	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	Poitiers	Poitiers	PROPN	_	_	6	comp:pred	_	_
-8	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
+8	qui	qui	PRON	_	PronType=Rel	10	subj@pass	_	_
 9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp@pass	_	SpaceAfter=No
 10	impose	imposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:cleft	_	_
 11	81	81	NUM	_	_	10	mod	_	_
@@ -17923,7 +17923,7 @@
 # sent_id = fr-ud-dev_00646
 # text = Ce village se situe dans le sud-ouest du pays d'Ouche dans lequel il jouxte les communes de Planches, Sainte-Gauburge-Sainte-Colombe au sud et Mahéru à l'est.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	wordform=ce
-2	village	village	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
+2	village	village	NOUN	_	Gender=Masc|Number=Sing	4	subj@pass	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	comp@pass	_	_
 4	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dans	dans	ADP	_	_	4	comp:obl	_	_
@@ -18310,7 +18310,7 @@
 # sent_id = fr-ud-dev_00659
 # text = Une collection de ses gravures se trouve au Musée d'Art et d'Histoire de Saint-Denis.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=une
-2	collection	collection	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
+2	collection	collection	NOUN	_	Gender=Fem|Number=Sing	7	subj@pass	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	ses	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	5	det	_	_
 5	gravures	gravure	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
@@ -19418,7 +19418,7 @@
 # sent_id = fr-ud-dev_00699
 # text = Un fossé juridique s'installe alors entre le catholicisme et les autres religions.
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=un
-2	fossé	fossé	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+2	fossé	fossé	NOUN	_	Gender=Masc|Number=Sing	5	subj@pass	_	_
 3	juridique	juridique	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	SpaceAfter=No
 5	installe	installer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21392,7 +21392,7 @@
 # sent_id = fr-ud-dev_00775
 # text = Le concept Netto se décline en deux formats.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le
-2	concept	concept	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+2	concept	concept	NOUN	_	Gender=Masc|Number=Sing	5	subj@pass	_	_
 3	Netto	Netto	PROPN	_	_	2	appos	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	_
 5	décline	décliner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21853,7 +21853,7 @@
 
 # sent_id = fr-ud-dev_00794
 # text = Elle se situe à une altitude de 483 mètres.
-1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=elle
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=elle
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@pass	_	_
 3	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
@@ -24410,7 +24410,7 @@
 # sent_id = fr-ud-dev_00885
 # text = Le théâtre musical s'installera lui aussi dans la deuxième moitié du siècle avec l'opérette et l'opéra comique que représentent bien les œuvres d'Offenbach.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le
-2	théâtre	théâtre	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+2	théâtre	théâtre	NOUN	_	Gender=Masc|Number=Sing	5	subj@pass	_	_
 3	musical	musical	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	SpaceAfter=No
 5	installera	installer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -24590,7 +24590,7 @@
 # sent_id = fr-ud-dev_00891
 # text = La réunion, qui devait s'achever vendredi soir, se poursuit ce samedi par une ultime séance marathon de négociation.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=la
-2	réunion	réunion	NOUN	_	Gender=Fem|Number=Sing	12	subj	_	SpaceAfter=No
+2	réunion	réunion	NOUN	_	Gender=Fem|Number=Sing	12	subj@pass	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	mod@relcl	_	_
@@ -24615,7 +24615,7 @@
 # sent_id = fr-ud-dev_00892
 # text = Les vignobles autorisés se situent au nord--est de la province d'Udine dans les communes de Tarcento, Nimis, Faedis, Povoletto, Attimis, Torreano, San Pietro al Natisone, Prepotto, Premariacco, Buttrio, Manzano, San Giovanni al Natisone et Corno di Rosazzo.
 1	Les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	2	det	_	wordform=les
-2	vignobles	vignoble	NOUN	_	Gender=Masc|Number=Plur	5	subj	_	_
+2	vignobles	vignoble	NOUN	_	Gender=Masc|Number=Plur	5	subj@pass	_	_
 3	autorisés	autoriser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	mod	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	_
 5	situent	situer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -24672,7 +24672,7 @@
 # sent_id = fr-ud-dev_00893
 # text = Une partie du forum s'écroule au IXe siècle à la suite d'un glissement de terrain.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=une
-2	partie	partie	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
+2	partie	partie	NOUN	_	Gender=Fem|Number=Sing	7	subj@pass	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
@@ -24738,7 +24738,7 @@
 7	concert	concert	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	10	det	_	_
-10	rappel	rappel	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
+10	rappel	rappel	NOUN	_	Gender=Masc|Number=Sing	12	subj@pass	_	_
 11	se	se	PRON	_	Person=3|PronType=Prs	12	comp@pass	_	_
 12	termina	terminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 13	sur	sur	ADP	_	_	12	mod	_	_
@@ -24786,7 +24786,7 @@
 # sent_id = fr-ud-dev_00897
 # text = La commanderie de Carentoir se situe dans un hameau de la commune de Carentoir, dans le département du Morbihan, à environ soixante kilomètres au nord de Saint-Nazaire, soixante kilomètres de Vannes et de Rennes.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=la
-2	commanderie	commanderie	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
+2	commanderie	commanderie	NOUN	_	Gender=Fem|Number=Sing	6	subj@pass	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	Carentoir	Carentoir	PROPN	_	_	3	comp:obj	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	comp@pass	_	_
@@ -26371,7 +26371,7 @@
 # sent_id = fr-ud-dev_00954
 # text = La température minimale moyenne de l'année se situe autour des 9°C et la maximale 19°C.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=la
-2	température	température	NOUN	_	Gender=Fem|Number=Sing	9	subj	_	_
+2	température	température	NOUN	_	Gender=Fem|Number=Sing	9	subj@pass	_	_
 3	minimale	minimal	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	moyenne	moyen	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 5	de	de	ADP	_	_	2	udep	_	_
@@ -29091,7 +29091,7 @@
 # sent_id = fr-ud-dev_01046
 # text = Atlides bacis se nomme Bacis Hairstreak en anglais.
 1	Atlides	Atlides	PROPN	_	_	2	mod	_	_
-2	bacis	bacis	PROPN	_	_	4	subj	_	_
+2	bacis	bacis	PROPN	_	_	4	subj@pass	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	comp@pass	_	_
 4	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	Bacis	Bacis	PROPN	_	_	4	comp:pred	_	_
@@ -29206,7 +29206,7 @@
 # sent_id = fr-ud-dev_01051
 # text = La compagnie se substitue également au pouvoir du Kaiser en nommant des fonctionnaires subalternes.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=la
-2	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
+2	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	4	subj@pass	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	comp@pass	_	_
 4	substitue	substituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	également	également	ADV	_	_	4	mod	_	_
@@ -29622,7 +29622,7 @@
 18	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	comp:obj	_	_
 19	que	que	SCONJ	_	_	18	udep	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	21	det	_	_
-21	discipline	discipline	NOUN	_	Gender=Fem|Number=Sing	27	subj	_	_
+21	discipline	discipline	NOUN	_	Gender=Fem|Number=Sing	27	subj@pass	_	_
 22	de	de	ADP	_	_	21	udep	_	_
 23	ses	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	24	det	_	_
 24	troupes	troupe	NOUN	_	Gender=Fem|Number=Plur	22	comp:obj	_	_
@@ -29861,7 +29861,7 @@
 7	se	se	PRON	_	Person=3|PronType=Prs	8	comp@pass	_	_
 8	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	10	det	_	_
-10	plaza	plaza	NOUN	_	Gender=Fem|Number=Sing	8	subj	_	_
+10	plaza	plaza	NOUN	_	Gender=Fem|Number=Sing	8	subj@pass	_	_
 11	Mayor	Mayor	PROPN	_	_	10	appos	_	_
 12	à	à	ADP	_	_	10	udep	_	_
 13	arcades	arcade	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	SpaceAfter=No
@@ -29958,7 +29958,7 @@
 # sent_id = fr-ud-dev_01079
 # text = La nouvelle du miracle se répand comme une traînée de poudre.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=la
-2	nouvelle	nouvelle	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
+2	nouvelle	nouvelle	NOUN	_	Gender=Fem|Number=Sing	7	subj@pass	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
@@ -31389,7 +31389,7 @@
 # sent_id = fr-ud-dev_01131
 # text = L'écran photochromique, d'apparence claire, se fonce selon l'intensité lumineuse et plus précisément selon la quantité d'UV.
 1	L'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
-2	écran	écran	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	_
+2	écran	écran	NOUN	_	Gender=Masc|Number=Sing	10	subj@pass	_	_
 3	photochromique	photochromique	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
@@ -31568,7 +31568,7 @@
 
 # sent_id = fr-ud-dev_01138
 # text = Plus de 100 personnes se trouvaient à l'intérieur de l'usine au moment de l'explosion.
-1	Plus	plus	ADV	_	_	6	subj	_	ExtPos=PRON|wordform=plus
+1	Plus	plus	ADV	_	_	6	subj@pass	_	ExtPos=PRON|wordform=plus
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	100	100	NUM	_	_	4	det	_	_
 4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
@@ -32530,7 +32530,7 @@
 25	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	24	mod	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	incertain	incertain	ADJ	_	Gender=Masc|Number=Sing	25	conj	_	_
-28	qui	qui	PRON	_	PronType=Rel	30	subj	_	_
+28	qui	qui	PRON	_	PronType=Rel	30	subj@pass	_	_
 29	s'	se	PRON	_	Person=3|PronType=Prs	30	comp@pass	_	SpaceAfter=No
 30	installe	installer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	mod@relcl	_	_
 31	en	en	ADP	_	_	30	mod	_	_
@@ -33101,7 +33101,7 @@
 5	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	6	det	_	SpaceAfter=No
 6	ONU	ONU	PROPN	_	_	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
+8	qui	qui	PRON	_	PronType=Rel	10	subj@pass	_	_
 9	se	se	PRON	_	Person=3|PronType=Prs	10	comp@pass	_	_
 10	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 11	dans	dans	ADP	_	_	10	comp:obl	_	_
@@ -33377,7 +33377,7 @@
 10	contamination	contamination	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	13	det	_	_
-13	production	production	NOUN	_	Gender=Fem|Number=Sing	21	subj	_	_
+13	production	production	NOUN	_	Gender=Fem|Number=Sing	21	subj@pass	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	16	det	_	SpaceAfter=No
 16	action	action	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
@@ -33700,7 +33700,7 @@
 11	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	:	:	PUNCT	_	_	18	punct	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	14	det	_	_
-14	matériels	matériel	NOUN	_	Gender=Masc|Number=Plur	18	subj	_	_
+14	matériels	matériel	NOUN	_	Gender=Masc|Number=Plur	18	subj@pass	_	_
 15	initialement	initialement	ADV	_	_	16	mod	_	_
 16	disparates	disparate	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	18	comp@pass	_	SpaceAfter=No
@@ -33716,7 +33716,7 @@
 26	,	,	PUNCT	_	_	31	punct	_	_
 27	même	même	ADV	_	_	29	mod	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	29	det	_	_
-29	tactiques	tactique	NOUN	_	Gender=Fem|Number=Plur	31	subj	_	_
+29	tactiques	tactique	NOUN	_	Gender=Fem|Number=Plur	31	subj@pass	_	_
 30	se	se	PRON	_	Person=3|PronType=Prs	31	comp@pass	_	_
 31	rapprochent	rapprocher	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	4	punct	_	_
@@ -34905,7 +34905,7 @@
 
 # sent_id = fr-ud-dev_01260
 # text = Il se classe deuxième des Championnats d'Europe de Paris où le Britannique Donald Finlay le devance en égalant son record continental.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=il
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@pass	_	_
 3	classe	classer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	deuxième	deuxième	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
@@ -35020,7 +35020,7 @@
 5	de	de	ADP	_	_	4	udep	_	_
 6	Tuscarora	Tuscarora	PROPN	_	_	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
+8	qui	qui	PRON	_	PronType=Rel	10	subj@pass	_	_
 9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp@pass	_	SpaceAfter=No
 10	achève	achever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 11	en	en	ADP	_	_	10	mod	_	_
@@ -35514,7 +35514,7 @@
 8	certainement	certainement	ADV	_	_	6	mod	_	_
 9	que	que	SCONJ	_	_	6	comp:obj	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	11	det	_	_
-11	cité	cité	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
+11	cité	cité	NOUN	_	Gender=Fem|Number=Sing	13	subj@pass	_	_
 12	s'	se	PRON	_	Person=3|PronType=Prs	13	comp@pass	_	SpaceAfter=No
 13	élève	élever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 14	aujourd'hui	aujourd'hui	ADV	_	_	13	mod	_	_
@@ -37930,7 +37930,7 @@
 18	se	se	PRON	_	Person=3|PronType=Prs	19	comp@pass	_	_
 19	rajoute	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	21	det	_	_
-21	portefeuille	portefeuille	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	_
+21	portefeuille	portefeuille	NOUN	_	Gender=Masc|Number=Sing	19	subj@pass	_	_
 22	de	de	ADP	_	_	21	udep	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	24	det	_	SpaceAfter=No
 24	Égalité	égalité	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	wordform=égalité
@@ -38865,7 +38865,7 @@
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	dont	dont	PRON	_	PronType=Rel	20	udep	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	20	det	_	SpaceAfter=No
-20	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	22	subj	_	_
+20	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	22	subj@pass	_	_
 21	se	se	PRON	_	Person=3|PronType=Prs	22	comp@pass	_	_
 22	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 23	entre	entre	ADP	_	_	22	mod	_	_
@@ -38979,7 +38979,7 @@
 # sent_id = fr-ud-dev_01403
 # text = Le troc commercial se fit à la fois par mer et par terre.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le
-2	troc	troc	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+2	troc	troc	NOUN	_	Gender=Masc|Number=Sing	5	subj@pass	_	_
 3	commercial	commercial	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	_
 5	fit	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -39266,7 +39266,7 @@
 # text = Ainsi 3 fois 5 s'écrivait-il 3 in 5.
 1	Ainsi	ainsi	ADV	_	_	6	mod	_	wordform=ainsi
 2	3	3	NUM	_	_	3	det	_	_
-3	fois	fois	NOUN	_	Gender=Fem|Number=Plur	6	subj	_	_
+3	fois	fois	NOUN	_	Gender=Fem|Number=Plur	6	subj@pass	_	_
 4	5	5	NUM	_	_	3	mod	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	comp@pass	_	SpaceAfter=No
 6	écrivait	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -39861,7 +39861,7 @@
 30	irakien	irakien	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	11	punct	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	33	det	_	_
-33	statut	statut	NOUN	_	Gender=Masc|Number=Sing	39	subj	_	_
+33	statut	statut	NOUN	_	Gender=Masc|Number=Sing	39	subj@pass	_	_
 34-35	des	_	_	_	_	_	_	_	_
 34	de	de	ADP	_	_	33	udep	_	_
 35	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	36	det	_	_
@@ -40335,7 +40335,7 @@
 # sent_id = fr-ud-dev_01449
 # text = Son intelligence exceptionnelle se manifesta lors de ses études secondaires, où il enseigna les mathématiques et autres sujets à ses camarades de classe.
 1	Son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	2	det	_	wordform=son
-2	intelligence	intelligence	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
+2	intelligence	intelligence	NOUN	_	Gender=Fem|Number=Sing	5	subj@pass	_	_
 3	exceptionnelle	exceptionnel	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	_
 5	manifesta	manifester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -40430,7 +40430,7 @@
 5	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	que	que	SCONJ	_	_	2	comp:cleft	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	8	det	_	_
-8	bateaux	bateau	NOUN	_	Gender=Masc|Number=Plur	17	subj	_	_
+8	bateaux	bateau	NOUN	_	Gender=Masc|Number=Plur	17	subj@pass	_	_
 9	militaires	militaire	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	de	de	ADP	_	_	8	conj	_	_
@@ -40694,7 +40694,7 @@
 14	sur	sur	ADP	_	_	12	mod	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	16	det	_	_
 16	crainte	crainte	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
-17	que	que	PRON	_	PronType=Rel	19	subj	_	_
+17	que	que	PRON	_	PronType=Rel	19	subj@pass	_	_
 18	se	se	PRON	_	Person=3|PronType=Prs	19	comp@pass	_	_
 19	répète	répéter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	21	det	_	_
@@ -40785,7 +40785,7 @@
 # sent_id = fr-ud-dev_01465
 # text = Les plaines s'étendent au nord.
 1	Les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	2	det	_	wordform=les
-2	plaines	plaine	NOUN	_	Gender=Fem|Number=Plur	4	subj	_	_
+2	plaines	plaine	NOUN	_	Gender=Fem|Number=Plur	4	subj@pass	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	comp@pass	_	SpaceAfter=No
 4	étendent	étendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5-6	au	_	_	_	_	_	_	_	_
