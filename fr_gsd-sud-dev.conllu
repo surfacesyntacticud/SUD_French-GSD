@@ -8352,7 +8352,7 @@
 32	1387	1387	NUM	_	_	30	conj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	29	punct	_	_
 34	et	et	CCONJ	_	_	35	cc	_	_
-35	Johan	Johan	PROPN	_	_	16	conj:emb	_	_
+35	Johan	Johan	PROPN	_	_	16	conj	_	_
 36	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 37	ou	ou	CCONJ	_	_	38	cc	_	_
 38	Johanneke	Johanneke	PROPN	_	_	35	conj:emb	_	SpaceAfter=No
@@ -8786,7 +8786,7 @@
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:pred	_	_
 4	noter	noter	VERB	_	VerbForm=Inf	3	comp:obj	_	_
-5	qu'	que	SCONJ	_	_	3	comp:obj@agent	_	SpaceAfter=No
+5	qu'	que	SCONJ	_	_	2	comp:obj@agent	_	SpaceAfter=No
 6	environ	environ	ADV	_	_	7	mod	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
 8	tiers	tiers	NOUN	_	Gender=Masc|Number=Sing	15	subj	_	_
@@ -9614,7 +9614,7 @@
 4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	7	det	_	_
-7	préservatifs	préservatif	NOUN	_	Gender=Masc|Number=Plur	8	subj:pass	_	_
+7	préservatifs	préservatif	NOUN	_	Gender=Masc|Number=Plur	8	subj@pass	_	_
 8	seraient	être	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj@expl	_	wordform=ils
 10	détenus	détenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
@@ -32802,7 +32802,7 @@
 19	ainsi	ainsi	ADV	_	_	21	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 20	qu'	que	SCONJ	_	_	19	unk	_	InIdiom=Yes|SpaceAfter=No
 21-22	aux	_	_	_	_	_	_	_	_
-21	à	à	ADP	_	_	6	conj	_	_
+21	à	à	ADP	_	_	11	conj	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	23	det	_	_
 23	Championnats	Championnats	PROPN	_	_	21	comp:obj	_	_
 24-25	du	_	_	_	_	_	_	_	_
