@@ -3543,7 +3543,7 @@
 
 # sent_id = fr-ud-dev_00129
 # text = Bès fait fuir, par ses danses grotesques et ses grimaces affreuses, toutes les forces du mal mais il apporte également la joie, le divertissement et la bonne humeur en jouant de la harpe et de la lyre dans les foyers.
-1	Bès	Bès	PROPN	_	_	2	subj	_	_
+1	Bès	Bès	PROPN	_	_	2	subj@caus	_	_
 2	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	fuir	fuir	VERB	_	VerbForm=Inf	2	comp:aux@caus	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -3641,7 +3641,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	service	service	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
 5	sympathique	sympathique	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
-6	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
+6	qui	qui	PRON	_	PronType=Rel	8	subj@caus	_	_
 7	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	11	comp:obl	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 9	même	même	ADV	_	_	8	mod	_	_
@@ -5902,7 +5902,7 @@
 4	en	en	ADP	_	_	8	mod	_	_
 5	1906	1906	NUM	_	_	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
-7	Pathé	Pathé	PROPN	_	_	8	subj	_	_
+7	Pathé	Pathé	PROPN	_	_	8	subj@caus	_	_
 8	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	monter	monter	VERB	_	VerbForm=Inf	8	comp:aux@caus	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	11	det	_	_
@@ -8230,7 +8230,7 @@
 11	parmi	parmi	ADP	_	_	18	mod	_	_
 12	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	11	comp:obj	_	_
 13	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	14	det	_	wordform=la
-14	cerámica	cerámica	NOUN	_	Gender=Fem|Number=Sing	18	subj	_	_
+14	cerámica	cerámica	NOUN	_	Gender=Fem|Number=Sing	18	subj@caus	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	Azaila	Azaila	PROPN	_	_	15	comp:obj	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	20	comp:obj	_	SpaceAfter=No
@@ -9430,7 +9430,7 @@
 5	abordables	abordable	ADJ	_	Gender=Masc|Number=Plur	4	comp:pred	_	_
 6	et	et	CCONJ	_	_	13	cc	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	8	det	_	_
-8	carte	carte	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
+8	carte	carte	NOUN	_	Gender=Fem|Number=Sing	13	subj@caus	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	11	det	_	_
@@ -18159,7 +18159,7 @@
 7	,	,	PUNCT	_	_	13	punct	_	_
 8	car	car	CCONJ	_	_	13	cc	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	10	det	_	SpaceAfter=No
-10	addition	addition	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
+10	addition	addition	NOUN	_	Gender=Fem|Number=Sing	13	subj@caus	_	_
 11	ne	ne	ADV	_	Polarity=Neg	13	mod	_	_
 12	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	15	comp:obj@agent	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
@@ -28027,7 +28027,7 @@
 8	édifiantes	édifiant	ADJ	_	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
-11	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
+11	qui	qui	PRON	_	PronType=Rel	12	subj@caus	_	_
 12	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	15	mod	_	ExtPos=ADV|PhraseType=Idiom
 14	peu	peu	ADV	_	_	13	unk	_	InIdiom=Yes
@@ -31760,7 +31760,7 @@
 # text = Son nouvel ami le fait engager comme figurant sur le tournage de Runaway Train.
 1	Son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	3	det	_	wordform=son
 2	nouvel	nouveau	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
-3	ami	ami	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+3	ami	ami	NOUN	_	Gender=Masc|Number=Sing	5	subj@caus	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
 5	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	engager	engager	VERB	_	VerbForm=Inf	5	comp:aux@caus	_	_
@@ -34566,7 +34566,7 @@
 
 # sent_id = fr-ud-dev_01246
 # text = Patricia et Pierre Laederich vous feront découvrir les vins de Saint-Pourçain, la charcuterie et les fromages locaux ;
-1	Patricia	Patricia	PROPN	_	_	6	subj	_	_
+1	Patricia	Patricia	PROPN	_	_	6	subj@caus	_	_
 2	et	et	CCONJ	_	_	3	cc	_	_
 3	Pierre	Pierre	PROPN	_	_	1	conj	_	_
 4	Laederich	Laederich	PROPN	_	Shared=Yes	3	flat@name	_	_
