@@ -10831,8 +10831,8 @@
 
 # sent_id = fr-ud-dev_01572
 # text = Dame Blanche Nord ou cité des peintres, surnom dû à ses rues aux noms de peintres célébres, est un quartier situé dans le nord de la ville de Garges-lès-Gonesse, en banlieue parisienne.
-1	Dame	Dame	PROPN	_	_	22	subj	_	_
-2	Blanche	Blanche	ADJ	_	_	1	mod	_	wordform=blanche
+1	Dame	Dame	PROPN	_	Gender=Fem|Number=Sing	22	subj	_	_
+2	Blanche	Blanche	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	wordform=blanche
 3	Nord	nord	NOUN	_	Gender=Masc|Number=Sing	1	mod	_	wordform=nord
 4	ou	ou	CCONJ	_	_	5	cc	_	_
 5	cité	cité	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_

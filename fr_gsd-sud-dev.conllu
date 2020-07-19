@@ -1056,13 +1056,13 @@
 # sent_id = fr-ud-dev_00039
 # text = Le lazy bed (littéralement : « plate-bande de paresseux ») est une technique de travail du sol autrefois pratiquée dans certaines régions des Îles britanniques.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	3	det	_	wordform=le
-2	lazy	lazy	ADJ	_	Number=Sing	3	mod	_	_
-3	bed	bed	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
+2	lazy	lazy	X	_	Foreign=Yes	13	subj	_	Lang=en
+3	bed	bed	X	_	Foreign=Yes	2	flat@name	_	Lang=en
 4	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 5	littéralement	littéralement	ADV	_	_	8	mod	_	_
 6	:	:	PUNCT	_	_	5	punct	_	_
 7	«	«	PUNCT	_	_	8	punct	_	_
-8	plate-bande	plate-bande	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
+8	plate-bande	plate-bande	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	paresseux	paresseux	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	»	»	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -2067,8 +2067,8 @@
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
-5	Christ	Christ	PROPN	_	_	3	comp:obj	_	_
-6	Rédempteur	Rédempteur	ADJ	_	_	5	mod	_	wordform=rédempteur
+5	Christ	Christ	PROPN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
+6	Rédempteur	Rédempteur	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	wordform=rédempteur
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Cathedral	Cathedral	X	_	Foreign=Yes	2	appos	_	Lang=en
 9	Church	Church	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
@@ -3432,7 +3432,7 @@
 38	à	à	ADP	_	_	37	comp:obj	_	_
 39	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	40	det	_	SpaceAfter=No
 40	élection	élection	NOUN	_	Gender=Fem|Number=Sing	38	comp:obj	_	_
-41	parlementaire	parlementaire	ADJ	_	_	40	mod	_	_
+41	parlementaire	parlementaire	ADJ	_	Number=Sing	40	mod	_	_
 42	de	de	ADP	_	_	40	udep	_	_
 43	Cirencester	Cirencester	PROPN	_	_	42	comp:obj	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	3	punct	_	_
@@ -3963,8 +3963,8 @@
 37	en	en	ADP	_	_	36	mod	_	_
 38	position	position	NOUN	_	Gender=Fem|Number=Sing	37	comp:obj	_	_
 39	de	de	ADP	_	_	38	udep	_	_
-40	defensive	defensive	ADJ	_	Number=Sing	41	mod	_	_
-41	end	end	NOUN	_	Gender=Fem|Number=Sing	39	comp:obj	_	SpaceAfter=No
+40	defensive	defensive	X	_	Number=Sing	39	comp:obj	_	_
+41	end	end	X	_	Gender=Fem|Number=Sing	40	flat@name	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	44	punct	_	_
 43	mais	mais	CCONJ	_	_	44	cc	_	_
 44	utilise	utiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
@@ -6528,9 +6528,9 @@
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	32	det	_	_
 32	Niger	Niger	PROPN	_	_	30	comp:obj	_	_
 33	et	et	CCONJ	_	_	37	cc	_	_
-34	autres	autre	ADJ	_	_	37	mod	_	_
+34	autres	autre	ADJ	_	Number=Plur	37	mod	_	_
 35	aussi	aussi	ADV	_	_	36	mod	_	_
-36	glorieux	glorieux	ADJ	_	Gender=Masc|Number=Plur	37	mod	_	_
+36	glorieux	glorieux	ADJ	_	Gender=Masc	37	mod	_	_
 37	adjectifs	adjectif	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
 38	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
 39	Sénégalais	sénégalais	ADJ	_	Gender=Masc|Number=Plur	37	mod	_	SpaceAfter=No|wordform=sénégalais
@@ -11431,7 +11431,7 @@
 40	,	,	PUNCT	_	_	42	punct	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	42	det	_	_
 42	Pan	Pan	PROPN	_	_	36	dislocated	_	_
-43	American	American	ADJ	_	_	42	mod	_	wordform=american
+43	American	American	X	_	Foreign=Yes	42	flat@name	_	Lang=en
 44	?	?	PUNCT	_	_	36	punct	_	SpaceAfter=No
 45	"	"	PUNCT	_	_	36	punct	_	_
 
@@ -17977,8 +17977,8 @@
 15	friands	friand	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	_
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
-18	new	new	ADJ	_	_	19	mod	_	_
-19	wave	wave	NOUN	_	Gender=Fem|Number=Sing	17	mod	_	_
+18	new	new	X	_	Foreign=Yes	17	mod	_	Lang=en
+19	wave	wave	X	_	Foreign=Yes	18	flat@name	_	Lang=en
 20	à	à	ADP	_	_	15	mod	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	22	det	_	_
 22	Duran	Duran	PROPN	_	_	20	comp:obj	_	_
@@ -23650,9 +23650,9 @@
 6	se	se	PRON	_	Person=3|PronType=Prs	7	comp:obj	_	_
 7	transformer	transformer	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 8	en	en	ADP	_	_	7	comp:obl	_	_
-9	Ultimate	ultimate	ADJ	_	_	11	mod	_	wordform=ultimate
-10	Echo	Echo	PROPN	_	_	11	reparandum	_	_
-11	Echo	Echo	PROPN	_	_	8	comp:obj	_	_
+9	Ultimate	Ultimate	X	_	Foreign=Yes	8	comp:obj	_	Lang=en
+10	Echo	Echo	X	_	Foreign=Yes	9	flat@name	_	Lang=en
+11	Echo	Echo	X	_	Foreign=Yes	10	flat@name	_	Lang=en
 12	pour	pour	ADP	_	_	7	mod	_	_
 13	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	_
 14	terrasser	terrasser	VERB	_	VerbForm=Inf	12	comp:obj	_	SpaceAfter=No
@@ -24743,9 +24743,9 @@
 12	termina	terminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 13	sur	sur	ADP	_	_	12	mod	_	_
 14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	Whole	Whole	PROPN	_	_	13	comp:obj	_	_
-16	Lotta	Lotta	PROPN	_	_	15	flat@name	_	_
-17	Love	Love	PROPN	_	_	16	flat@name	_	SpaceAfter=No
+15	Whole	Whole	X	_	_	13	comp:obj	_	_
+16	Lotta	Lotta	X	_	_	15	flat@name	_	_
+17	Love	Love	X	_	_	16	flat@name	_	SpaceAfter=No
 18	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	21	det	_	_
@@ -24762,10 +24762,10 @@
 31	sur	sur	ADP	_	_	29	mod	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	33	det	_	_
 33	CD	CD	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
-34	Last	last	ADJ	_	_	35	mod	_	wordform=last
-35	Live	live	NOUN	_	Gender=Masc|Number=Sing	33	appos	_	wordform=live
-36	at	at	ADP	_	_	35	udep	_	_
-37	CBGB	CBGB	PROPN	_	_	36	comp:obj	_	SpaceAfter=No
+34	Last	Last	X	_	Foreign=Yes	33	appos	_	Lang=en
+35	Live	Live	X	_	Foreign=Yes	34	flat@name	_	Lang=en
+36	at	at	X	_	Foreign=Yes	35	flat@name	_	Lang=en
+37	CBGB	CBGB	X	_	_	36	flat@name	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	sorti	sortir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	mod	_	_
 40	plus	plus	ADV	_	_	44	mod	_	_
@@ -26012,19 +26012,19 @@
 25	responsabilités	responsabilité	NOUN	_	Gender=Fem|Number=Plur	21	parataxis	_	InTitle=Yes
 26	mondiales	mondial	ADJ	_	Gender=Fem|Number=Plur	25	mod	_	InTitle=Yes|SpaceAfter=No
 27	"	"	PUNCT	_	_	21	punct	_	_
-28	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
-29	Globale	globale	ADJ	_	_	30	mod	_	wordform=globale
-30	Krisen	Krise	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	33	mod	_	SpaceAfter=No|wordform=krisen
-31	--	--	PUNCT	_	_	30	punct	_	SpaceAfter=No
-32	Globale	globale	ADJ	_	_	33	mod	_	wordform=globale
-33	Verantwortung	Verantwortung	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	21	appos	_	SpaceAfter=No|wordform=verantwortung
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	Globale	Globale	X	_	Foreign=Yes	21	appos	_	ExtPos=PROPN|Lang=de|PhraseType=Title
+30	Krisen	Krise	X	_	Foreign=Yes	29	flat@foreign	_	InTitle=Yes|Lang=de|SpaceAfter=No
+31	--	--	PUNCT	_	_	30	punct	_	InTitle=Yes|SpaceAfter=No
+32	Globale	Globale	X	_	Foreign=Yes	30	flat@foreign	_	InTitle=Yes|Lang=de
+33	Verantwortung	Verantwortung	X	_	Foreign=Yes	32	flat@foreign	_	InTitle=Yes|Lang=de|SpaceAfter=No
 34	/	/	SYM	_	_	39	cc	_	ExtPos=CCONJ|SpaceAfter=No
-35	Global	global	ADJ	_	_	36	mod	_	wordform=global
-36	Crises	crisis	NOUN	_	Number=Plur	39	mod	_	SpaceAfter=No|wordform=crises
-37	--	--	PUNCT	_	_	36	punct	_	SpaceAfter=No
-38	Global	global	ADJ	_	_	39	mod	_	wordform=global
-39	Responsibilities	responsability	NOUN	_	Number=Plur	33	conj	_	SpaceAfter=No|wordform=responsibilities
-40	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	Global	Global	X	_	Foreign=Yes	29	conj	_	ExtPos=PROPN|Lang=en|PhraseType=Title
+36	Crises	Crisis	X	_	Foreign=Yes	35	flat@foreign	_	InTitle=Yes|Lang=en|SpaceAfter=No
+37	--	--	PUNCT	_	_	36	punct	_	InTitle=Yes|SpaceAfter=No
+38	Global	Global	X	_	Foreign=Yes	36	flat@foreign	_	InTitle=Yes|Lang=en
+39	Responsibilities	Responsabilities	X	_	Foreign=Yes	38	flat@foreign	_	InTitle=Yes|Lang=en|SpaceAfter=No
+40	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00939
@@ -30588,8 +30588,8 @@
 7	participe	participer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	det	_	_
-10	dark	dark	ADJ	_	_	11	mod	_	_
-11	match	match	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+10	dark	dark	X	_	Foreign=Yes	8	comp:obj	_	Lang=en
+11	match	match	X	_	Foreign=Yes	10	flat@name	_	Lang=en
 12	face	face	ADV	_	_	7	mod	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	Elijah	Elijah	PROPN	_	_	13	comp:obj	_	_
@@ -32723,8 +32723,8 @@
 31	de	de	ADP	_	_	30	udep	_	_
 32	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
 33	vidéo	vidéo	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	_
-34	American	American	ADJ	_	_	30	mod	_	wordform=american
-35	McGee	McGee	PROPN	_	_	30	appos	_	SpaceAfter=No
+34	American	American	X	_	Foreign=Yes	30	appos	_	Lang=en
+35	McGee	McGee	PROPN	_	_	34	flat@name	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-dev_01186
@@ -34388,8 +34388,8 @@
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	14	det	_	_
 14	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	de	de	ADP	_	_	14	udep	_	_
-16	heavy	heavy	ADJ	_	_	17	mod	_	_
-17	metal	metal	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	SpaceAfter=No
+16	heavy	heavy	X	_	Foreign=Yes	15	comp:obj	_	Lang=en
+17	metal	metal	X	_	Foreign=Yes	16	flat@name	_	Lang=en|SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01240
@@ -35607,7 +35607,7 @@
 8	d'	de	ADP	_	_	2	comp:obj@x	_	SpaceAfter=No
 9	être	être	AUX	_	VerbForm=Inf	8	comp:obj	_	_
 10	de	de	ADP	_	_	9	mod	_	ExtPos=ADV|PhraseType=Idiom
-11	nouveau	nouveau	ADJ	_	_	10	comp:obj	_	InIdiom=Yes
+11	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	10	comp:obj	_	InIdiom=Yes
 12	réintégré	réintégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 13	dans	dans	ADP	_	_	12	comp:obl	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	15	det	_	SpaceAfter=No
