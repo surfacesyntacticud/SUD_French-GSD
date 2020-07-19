@@ -26017,7 +26017,7 @@
 30	Krisen	Krise	X	_	Foreign=Yes	29	flat@foreign	_	InTitle=Yes|Lang=de|SpaceAfter=No
 31	--	--	PUNCT	_	_	30	punct	_	InTitle=Yes|SpaceAfter=No
 32	Globale	Globale	X	_	Foreign=Yes	30	flat@foreign	_	InTitle=Yes|Lang=de
-33	Verantwortung	Verantwortung	X	_	Foreign=Yes	32	flat@foreign	_	InTitle=Yes|Lang=de|SpaceAfter=No
+33	Verantwortung	Verantwortung	X	_	Foreign=Yes	32	flat@foreign	_	InTitle=Yes|Lang=de|SpaceAfter=No
 34	/	/	SYM	_	_	39	cc	_	ExtPos=CCONJ|SpaceAfter=No
 35	Global	Global	X	_	Foreign=Yes	29	conj	_	ExtPos=PROPN|Lang=en|PhraseType=Title
 36	Crises	Crisis	X	_	Foreign=Yes	35	flat@foreign	_	InTitle=Yes|Lang=en|SpaceAfter=No
