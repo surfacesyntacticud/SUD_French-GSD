@@ -23,7 +23,7 @@
 21	pourrions	pouvoir	VERB	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 22	emprunter	emprunter	VERB	_	VerbForm=Inf	21	comp:obj@x	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	25	det	_	_
-24	autre	autre	ADJ	_	Gender=Masc|Number=Sing	25	mod	_	_
+24	autre	autre	ADJ	_	Number=Sing	25	mod	_	_
 25	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 26	pour	pour	ADP	_	_	22	mod	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	28	det	_	SpaceAfter=No
@@ -3112,7 +3112,7 @@
 3	remarie	remarier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 4	et	et	CCONJ	_	_	8	cc	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	7	det	_	_
-6	autre	autre	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
+6	autre	autre	ADJ	_	Number=Sing	7	mod	_	_
 7	fils	fils	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
 8	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 9	naître	naître	VERB	_	VerbForm=Inf	8	comp:obj@x	_	SpaceAfter=No
@@ -4172,7 +4172,7 @@
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	23	det	_	_
-23	même	même	ADJ	_	Gender=Fem|Number=Sing	20	comp:pred	_	_
+23	même	même	ADJ	_	Number=Sing	20	comp:pred	_	_
 24	pour	pour	ADP	_	_	20	mod	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	26	det	_	_
 26	Société	Société	PROPN	_	_	24	comp:obj	_	_
@@ -5007,7 +5007,7 @@
 5	école	école	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	deux	deux	NUM	_	_	9	det	_	_
-8	autres	autre	ADJ	_	Gender=Masc|Number=Plur	9	mod	_	_
+8	autres	autre	ADJ	_	Number=Plur	9	mod	_	_
 9	délégués	délégué	NOUN	_	Gender=Masc|Number=Plur	10	subj	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	intervenus	intervenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
@@ -5090,7 +5090,7 @@
 26	de	de	ADP	_	_	25	udep	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	28	det	_	_
 28	bloc	bloc	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
-29	parlementaire	parlementaire	ADJ	_	Gender=Masc|Number=Sing	28	mod	_	_
+29	parlementaire	parlementaire	ADJ	_	Number=Sing	28	mod	_	_
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	28	udep	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	32	det	_	_
@@ -5455,7 +5455,7 @@
 # text = En d'autres mots, la pandémie a été un peu moins mortelle que les pires saisons grippales.
 1	En	en	ADP	_	_	8	mod	_	wordform=en
 2	d'	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	4	det	_	SpaceAfter=No
-3	autres	autre	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	_
+3	autres	autre	ADJ	_	Number=Plur	4	mod	_	_
 4	mots	mot	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	7	det	_	_
@@ -7304,7 +7304,7 @@
 7	que	que	SCONJ	_	_	5	comp:obj	_	_
 8	dans	dans	ADP	_	_	7	comp:obj	_	_
 9	d'	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	11	det	_	SpaceAfter=No
-10	autres	autre	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
+10	autres	autre	ADJ	_	Number=Plur	11	mod	_	_
 11	boutiques	boutique	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 12	mais	mais	CCONJ	_	_	14	cc	_	_
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	SpaceAfter=No
@@ -7645,7 +7645,7 @@
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	30	det	_	_
 27	seule	seul	ADJ	_	Gender=Fem|Number=Sing	30	mod	_	_
 28	et	et	CCONJ	_	_	29	cc	_	_
-29	même	même	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	_
+29	même	même	ADJ	_	Number=Sing	27	conj	_	_
 30	boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 31	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	32	det	_	_
 32	montures	monture	NOUN	_	Gender=Fem|Number=Plur	24	comp:obj	_	_
@@ -8134,14 +8134,14 @@
 25	de	de	ADP	_	_	24	mod	_	_
 26	Gand-Wevelgem	Gand-Wevelgem	PROPN	_	_	25	comp:obj	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	29	det	_	_
-28	même	même	ADJ	_	Gender=Fem|Number=Sing	29	mod	_	_
+28	même	même	ADJ	_	Number=Sing	29	mod	_	_
 29	année	année	NOUN	_	Gender=Fem|Number=Sing	23	mod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01480
 # text = Les autres principaux représentants de ce mouvement sont Guido Gozzano et Aldo Palazzeschi.
 1	Les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	4	det	_	wordform=les
-2	autres	autre	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	_
+2	autres	autre	ADJ	_	Number=Plur	4	mod	_	_
 3	principaux	principal	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	_
 4	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	8	subj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
@@ -8263,7 +8263,7 @@
 # text = Dans cette même perspective et pour accélérer la diffusion des connaissances dans le pays, les pouvoirs publics ivoiriens ont introduit dans les années 70 la télévision éducative dans l'enseignement primaire.
 1	Dans	dans	ADP	_	_	21	mod	_	wordform=dans
 2	cette	ce	DET	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	det	_	_
-3	même	même	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
+3	même	même	ADJ	_	Number=Sing	4	mod	_	_
 4	perspective	perspective	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 5	et	et	CCONJ	_	_	21	cc	_	_
 6	pour	pour	ADP	_	_	21	mod	_	_
@@ -8964,7 +8964,7 @@
 16-17	du	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	12	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	19	det	_	_
-18	même	même	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
+18	même	même	ADJ	_	Number=Sing	19	mod	_	_
 19	nom	nom	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -9543,7 +9543,7 @@
 52	et	et	CCONJ	_	_	56	cc	_	_
 53	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	56	det	_	_
 54	deux	deux	NUM	_	_	56	mod	_	_
-55	autres	autre	ADJ	_	Gender=Fem|Number=Plur	56	mod	_	_
+55	autres	autre	ADJ	_	Number=Plur	56	mod	_	_
 56	soirées	soirée	NOUN	_	Gender=Fem|Number=Plur	36	conj	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	58	punct	_	_
 58	23	23	NUM	_	_	56	mod	_	_
@@ -10243,7 +10243,7 @@
 36	motion	motion	NOUN	_	Gender=Fem|Number=Sing	34	comp:obj	_	_
 37	de	de	ADP	_	_	36	udep	_	_
 38	censure	censure	NOUN	_	Gender=Fem|Number=Sing	37	comp:obj	_	_
-39	parlementaire	parlementaire	ADJ	_	Gender=Fem|Number=Sing	38	mod	_	SpaceAfter=No
+39	parlementaire	parlementaire	ADJ	_	Number=Sing	38	mod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-dev_01554
@@ -10491,7 +10491,7 @@
 19	)	)	PUNCT	_	_	18	punct	_	_
 20	que	que	SCONJ	_	Shared=Yes	14	comp:obj	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	23	det	_	_
-22	autres	autre	ADJ	_	Gender=Fem|Number=Plur	23	mod	_	_
+22	autres	autre	ADJ	_	Number=Plur	23	mod	_	_
 23	fraises	fraise	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -11254,7 +11254,7 @@
 12	collaboration	collaboration	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 13	avec	avec	ADP	_	_	10	mod	_	_
 14	d'	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	16	det	_	SpaceAfter=No
-15	autres	autre	ADJ	_	Gender=Masc|Number=Plur	16	mod	_	_
+15	autres	autre	ADJ	_	Number=Plur	16	mod	_	_
 16	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	18	det	_	_
 18	traité	traité	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
