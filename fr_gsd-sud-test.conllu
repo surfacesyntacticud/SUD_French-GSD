@@ -1419,7 +1419,7 @@
 51	de	de	ADP	_	_	50	udep	_	_
 52	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	53	det	_	_
 53	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	51	comp:obj	_	_
-54	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing	53	mod	_	_
+54	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	53	mod	_	CorrectForm=sahraoui|CorrectGender=Masc
 55	à	à	ADP	_	_	50	udep	_	_
 56	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	57	det	_	SpaceAfter=No
 57	autodétermination	autodétermination	NOUN	_	Gender=Fem|Number=Sing	55	comp:obj	_	SpaceAfter=No
@@ -1709,7 +1709,7 @@
 35	dégénère	dégénérer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	comp:obj	_	_
 36	si	si	SCONJ	_	_	35	mod	_	_
 37	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	38	det	_	SpaceAfter=No
-38	aide	aide	NOUN	_	Gender=Masc|Number=Sing	41	subj	_	_
+38	aide	aide	NOUN	_	Gender=Fem|Number=Sing	41	subj	_	_
 39	internationale	international	ADJ	_	Gender=Fem|Number=Sing	38	mod	_	_
 40	ne	ne	ADV	_	Polarity=Neg	41	mod	_	_
 41	pointe	pointer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	comp:obj	_	_
@@ -3687,7 +3687,7 @@
 21	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	_
 22	de	de	ADP	_	_	21	udep	_	_
 23	première	premier	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	_
-24	secrétaire	secrétaire	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
+24	secrétaire	secrétaire	NOUN	_	Number=Sing	22	comp:obj	_	_
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	24	udep	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	27	det	_	_

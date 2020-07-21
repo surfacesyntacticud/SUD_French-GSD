@@ -6238,7 +6238,7 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	15	det	_	_
 15	mot	mot	NOUN	_	Gender=Masc|Number=Sing	26	subj	_	_
 16	«	«	PUNCT	_	_	17	punct	_	_
-17	indépendante	indépendant	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
+17	indépendante	indépendant	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	ExtPos=PROPN|PhraseType=Title
 18	»	»	PUNCT	_	_	17	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	qui	qui	PRON	_	PronType=Rel	21	subj	_	_
@@ -7653,9 +7653,9 @@
 9	heure	heure	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	...	...	PUNCT	_	_	12	punct	_	_
 11	Trés	trés	ADV	_	_	12	mod	_	wordform=trés
-12	compétente	compétent	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	_
+12	compétente	compétent	ADJ	_	Gender=Fem|Number=Sing	3	parataxis	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
-14	tarifs	tarif	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
+14	tarifs	tarif	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
 15	peu	peu	ADV	_	_	16	mod	_	_
 16	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
 17	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
@@ -9678,7 +9678,7 @@
 16	de	de	ADP	_	Shared=Yes	15	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	18	det	_	_
 18	dialecte	dialecte	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
-19	normand	normand	ADJ	_	Gender=Fem|Number=Sing	18	mod	_	_
+19	normand	normand	ADJ	_	Gender=Masc|Number=Sing	18	mod	_	_
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	Shared=Yes	15	udep	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	23	det	_	_
@@ -13627,7 +13627,7 @@
 12	gestes	geste	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 14	hygiène	hygiène	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
-15	adéquats	adéquat	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
+15	adéquats	adéquat	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	_
 16	contribue	contribuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	16	comp:obl	_	_
@@ -15755,8 +15755,8 @@
 24	en	en	ADP	_	_	17	mod	_	ExtPos=ADP|PhraseType=Idiom
 25	tant	tant	ADV	_	_	24	unk	_	InIdiom=Yes
 26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
-27	divers	divers	ADJ	_	Gender=Masc	28	mod	_	_
-28	droite	droite	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
+27	divers	divers	ADJ	_	Gender=Masc	24	comp:obj	_	_
+28	droite	droite	NOUN	_	Gender=Fem|Number=Sing	27	mod	_	_
 29	alors	alors	ADV	_	_	17	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 30	que	que	SCONJ	_	_	29	unk	_	InIdiom=Yes
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	32	det	_	_
@@ -18698,7 +18698,7 @@
 # text = Feuillage vert foncées et aiguilles regroupées par trois (Le Pin à encens--Pinus Taeda--origine Sud Est USA, possède lui aussi des aiguilles regroupées par trois), les cônes sont tous orientés vers le tronc et peuvent rester 20 ans accrochées au tronc avant de tomber.
 1	Feuillage	feuillage	NOUN	_	Gender=Masc|Number=Sing	35	parataxis	_	wordform=feuillage
 2	vert	vert	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
-3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
+3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	2	mod	_	CorrectForm=foncé|CorrectGender=Masc|CorrectNumber=Sing
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	aiguilles	aiguille	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
 6	regroupées	regrouper	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	mod	_	_
@@ -19840,7 +19840,7 @@
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	24	det	_	_
 22	plus	plus	ADV	_	_	23	mod	_	_
-23	haute	haut	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	_
+23	haute	haut	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	24	mod	_	CorrectForm=haut|CorrectGender=Masc
 24	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -31267,7 +31267,7 @@
 10	pièges	piège	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	de	de	ADP	_	_	5	conj	_	_
-13	montres	montre	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	_
+13	montres	montre	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	12	comp:obj	_	CorrectForm=monstres|CorrectGender=Masc
 14	puissants	puissant	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
 15	tels	tel	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
 16	que	que	SCONJ	_	_	15	comp:obl	_	_
@@ -38393,7 +38393,7 @@
 8	serveur	serveur	NOUN	_	Gender=Masc|Number=Sing	9	subj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	12	det	_	_
-11	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
+11	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	12	mod	_	CorrectForm=vraie|CorrectGender=Fem
 12	porte	porte	NOUN	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	prison	prison	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
