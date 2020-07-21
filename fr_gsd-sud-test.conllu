@@ -2135,7 +2135,7 @@
 16	de	de	ADP	_	_	14	udep	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	18	det	_	_
 18	Impôts	impôt	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	wordform=impôts
-19	français	français	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
+19	français	français	ADJ	_	Gender=Masc	14	mod	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	CGI	CGI	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	21	punct	_	_
@@ -2288,7 +2288,7 @@
 8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 9	sous	sous	ADP	_	_	8	mod	_	_
 10	protectorat	protectorat	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-11	français	français	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
+11	français	français	ADJ	_	Gender=Masc	10	mod	_	_
 12	»	»	PUNCT	_	_	8	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14-15	au	_	_	_	_	_	_	_	_
@@ -4199,7 +4199,7 @@
 8	voyaient	voir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	mod@relcl	_	_
 9	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	12	det	_	_
-11	mauvais	mauvais	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
+11	mauvais	mauvais	ADJ	_	Gender=Masc	12	mod	_	_
 12	œil	œil	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	14	det	_	SpaceAfter=No
 14	accumulation	accumulation	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
@@ -4514,7 +4514,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le
 2	Football	football	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	wordform=football
 3	Atlantique	atlantique	ADJ	_	Number=Sing	2	mod	_	wordform=atlantique
-4	Rochelais	rochelais	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	wordform=rochelais
+4	Rochelais	rochelais	ADJ	_	Gender=Masc	2	mod	_	wordform=rochelais
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	FAR	FAR	PROPN	_	_	2	appos	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	6	punct	_	_
@@ -4823,7 +4823,7 @@
 24	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	26	det	_	_
 25	80	80	NUM	_	_	26	mod	_	_
 26	bénévoles	bénévole	NOUN	_	Gender=Masc|Number=Plur	28	subj	_	_
-27	canéjanais	canéjanais	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	_
+27	canéjanais	canéjanais	ADJ	_	Gender=Masc	26	mod	_	_
 28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 29	en	en	ADP	_	_	28	comp:pred	_	ExtPos=ADV|PhraseType=Idiom
 30	plein	plein	ADJ	_	Gender=Masc|Number=Sing	29	comp:obj	_	InIdiom=Yes
@@ -7192,7 +7192,7 @@
 18	d'	de	ADP	_	_	17	udep	_	SpaceAfter=No
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	20	det	_	_
 20	Pub	pub	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	wordform=pub
-21	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	20	mod	_	SpaceAfter=No
+21	anglais	anglais	ADJ	_	Gender=Masc	20	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	par	par	ADP	_	_	11	mod	_	_
 24	manque	manque	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
@@ -8441,7 +8441,7 @@
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	38	det	_	_
 38	Parti	parti	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	wordform=parti
 39	communiste	communiste	ADJ	_	Number=Sing	38	mod	_	_
-40	chinois	chinois	ADJ	_	Gender=Masc|Number=Sing	38	mod	_	_
+40	chinois	chinois	ADJ	_	Gender=Masc	38	mod	_	_
 41	avant	avant	ADP	_	_	29	mod	_	_
 42	de	de	ADP	_	_	41	comp:obj	_	_
 43	connaître	connaître	VERB	_	VerbForm=Inf	42	comp:obj	_	_
@@ -8471,7 +8471,7 @@
 8	par	par	ADP	_	_	3	comp:obl@agent	_	_
 9	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	10	det	_	_
 10	gouvernements	gouvernement	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
-11	français	français	ADJ	_	Gender=Masc|Number=Plur	10	mod	_	_
+11	français	français	ADJ	_	Gender=Masc	10	mod	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	de	de	ADP	_	_	10	udep	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	15	det	_	_
@@ -9438,7 +9438,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	4	det	_	_
 4	général	général	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	_
-5	français	français	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
+5	français	français	ADJ	_	Gender=Masc	4	mod	_	_
 6	Philippe	Philippe	PROPN	_	_	4	appos	_	_
 7	Morillon	Morillon	PROPN	_	_	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
@@ -10814,7 +10814,7 @@
 7	par	par	ADP	_	_	6	comp:obl@agent	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
 9	club	club	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
-10	congolais	congolais	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
+10	congolais	congolais	ADJ	_	Gender=Masc	9	mod	_	_
 11	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No
 12	Elecsport	Elecsport	PROPN	_	_	11	comp:obj	_	_
 13	Bouansa	Bouansa	PROPN	_	_	12	flat@name	_	_
@@ -10926,7 +10926,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
 8	peintre	peintre	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
-9	français	français	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	SpaceAfter=No
+9	français	français	ADJ	_	Gender=Masc	8	mod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_01576
@@ -11279,7 +11279,7 @@
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	7	det	_	_
 7	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
 8	musical	musical	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
-9	français	français	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
+9	français	français	ADJ	_	Gender=Masc	7	mod	_	_
 10	de	de	ADP	_	_	7	udep	_	_
 11	musique	musique	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 12	baroque	baroque	ADJ	_	Number=Sing	11	mod	_	SpaceAfter=No
