@@ -5721,7 +5721,7 @@
 16	de	de	ADP	_	_	15	udep	_	_
 17	compositeurs	compositeur	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
 18	tels	tel	ADJ	_	Gender=Masc|Number=Plur	17	mod	_	_
-19	que	que	SCONJ	_	_	18	comp:obl	_	_
+19	que	que	SCONJ	_	_	18	comp:obj	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	21	det	_	_
 21	franco-flamand	franco-flamand	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	Clemens	Clemens	PROPN	_	_	21	appos	_	_
@@ -28503,7 +28503,7 @@
 15	de	de	ADP	_	_	13	udep	_	_
 16	villes	ville	NOUN	_	Gender=Fem|Number=Plur	15	comp:obj	_	_
 17	telles	tel	ADJ	_	Gender=Fem|Number=Plur	16	mod	_	_
-18	que	que	SCONJ	_	_	17	comp:obl	_	_
+18	que	que	SCONJ	_	_	17	comp:obj	_	_
 19	Paris	Paris	PROPN	_	_	18	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	New	New	PROPN	_	_	19	conj	_	_
@@ -30826,7 +30826,7 @@
 16	œuvres	œuvre	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
 17	expérimentales	expérimental	ADJ	_	Gender=Fem|Number=Plur	16	mod	_	_
 18	telles	tel	ADJ	_	Gender=Fem|Number=Plur	16	mod	_	_
-19	que	que	SCONJ	_	_	18	comp:obl	_	_
+19	que	que	SCONJ	_	_	18	comp:obj	_	_
 20	Koyaanisqatsi	Koyaanisqatsi	PROPN	_	_	19	comp:obj	_	_
 21	donnent	donner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 22-23	au	_	_	_	_	_	_	_	_
@@ -31270,7 +31270,7 @@
 13	montres	montre	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	12	comp:obj	_	CorrectGender=Masc|wordform=monstres
 14	puissants	puissant	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
 15	tels	tel	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
-16	que	que	SCONJ	_	_	15	comp:obl	_	_
+16	que	que	SCONJ	_	_	15	comp:obj	_	_
 17	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	18	det	_	_
 18	squelettes	squelette	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
