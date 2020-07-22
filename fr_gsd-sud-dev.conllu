@@ -573,7 +573,7 @@
 15	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	obstiné	obstiné	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
-18	ombrageux	ombrageux	ADJ	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+18	ombrageux	ombrageux	ADJ	_	Gender=Masc	16	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_00022
@@ -899,14 +899,14 @@
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	7	det	_	_
 7	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	aussi	aussi	ADV	_	_	9	mod	_	_
-9	chaleureux	chaleureux	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
+9	chaleureux	chaleureux	ADJ	_	Gender=Masc	7	mod	_	_
 10	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
 11	enthousiaste	enthousiaste	ADJ	_	Number=Sing	10	comp:obj	_	SpaceAfter=No
 12	...	...	PUNCT	_	_	15	punct	_	_
 13	Les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	14	det	_	wordform=les
 14	plats	plat	NOUN	_	Gender=Masc|Number=Plur	15	subj	_	_
 15	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
-16	copieux	copieux	ADJ	_	Gender=Masc|Number=Plur	15	comp:pred	_	_
+16	copieux	copieux	ADJ	_	Gender=Masc	15	comp:pred	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	cuisinés	cuisiner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	conj	_	_
 19	avec	avec	ADP	_	_	18	mod	_	_
@@ -6847,7 +6847,7 @@
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	11	det	_	_
 11	édifices	édifice	NOUN	_	Gender=Masc|Number=Plur	9	comp:pred	_	_
-12	religieux	religieux	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
+12	religieux	religieux	ADJ	_	Gender=Masc	11	mod	_	_
 13	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
 14	origine	origine	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	catholique	catholique	ADJ	_	Number=Sing	14	mod	_	_
@@ -10173,7 +10173,7 @@
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	30	unk	_	InIdiom=Yes
 32	moins	moins	NOUN	_	Gender=Masc	31	unk	_	InIdiom=Yes
 33	partiellement	partiellement	ADV	_	_	34	mod	_	_
-34	omnibus	omnibus	ADJ	_	Gender=Masc	29	mod	_	SpaceAfter=No
+34	omnibus	omnibus	ADJ	_	_	29	mod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-dev_00368
@@ -10622,7 +10622,7 @@
 24	souvent	souvent	ADV	_	_	22	mod	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	26	det	_	SpaceAfter=No
 26	instinct	instinct	NOUN	_	Gender=Masc|Number=Sing	22	subj	_	_
-27	religieux	religieux	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
+27	religieux	religieux	ADJ	_	Gender=Masc	26	mod	_	_
 28	dans	dans	ADP	_	_	22	mod	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	30	det	_	SpaceAfter=No
 30	homme	homme	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	SpaceAfter=No
@@ -11614,7 +11614,7 @@
 26	autre	autre	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	conj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	plus	plus	ADV	_	_	29	mod	_	_
-29	audacieux	audacieux	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	SpaceAfter=No
+29	audacieux	audacieux	ADJ	_	Gender=Masc	26	mod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	près	près	ADV	_	_	26	mod	_	_
 32-33	du	_	_	_	_	_	_	_	_
@@ -11646,7 +11646,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	aussi	aussi	ADV	_	_	6	mod	_	_
-6	anxieux	anxieux	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
+6	anxieux	anxieux	ADJ	_	Gender=Masc	3	comp:pred	_	_
 7	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
 9	y	y	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes
@@ -11742,7 +11742,7 @@
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	21	mod	_	ExtPos=ADV|PhraseType=Idiom
 20	peu	peu	ADV	_	_	19	unk	_	InIdiom=Yes
-21	jaloux	jaloux	ADJ	_	Gender=Masc|Number=Sing	18	comp:pred	_	_
+21	jaloux	jaloux	ADJ	_	Gender=Masc	18	comp:pred	_	_
 22	de	de	ADP	_	_	21	comp:obl@x	_	_
 23	voir	voir	VERB	_	VerbForm=Inf	22	comp:obj	_	_
 24	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	26	det	_	_
@@ -14130,7 +14130,7 @@
 7	dans	dans	ADP	_	_	4	mod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	9	det	_	_
 9	catégories	catégorie	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
-10	juniors	junior	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
+10	juniors	junior	ADJ	_	Number=Plur	9	mod	_	_
 11	en	en	ADP	_	_	4	mod	_	_
 12	remportant	remporter	VERB	_	Tense=Pres|VerbForm=Part	11	comp:obj	_	_
 13	notamment	notamment	ADV	_	_	12	mod	_	_
@@ -16346,7 +16346,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	poseur	poseur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
-18	faux	faux	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
+18	faux	faux	ADJ	_	Gender=Masc	19	mod	_	_
 19	plafonds	plafond	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	monteur	monteur	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
@@ -18155,7 +18155,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	4	det	_	_
 4	spectacle	spectacle	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	comp:obj	_	_
-6	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	SpaceAfter=No
+6	sympa	sympa	ADJ	_	Number=Sing	5	comp:pred	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	_
 8	car	car	CCONJ	_	_	13	cc	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	10	det	_	SpaceAfter=No
@@ -19616,7 +19616,7 @@
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	28	det	_	_
 28	événement	événement	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj@agent	_	_
 29	quasi	quasi	ADV	_	_	30	mod	_	_
-30	miraculeux	miraculeux	ADJ	_	Gender=Masc|Number=Sing	28	mod	_	_
+30	miraculeux	miraculeux	ADJ	_	Gender=Masc	28	mod	_	_
 31	de	de	ADP	_	_	28	udep	_	_
 32	guérison	guérison	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
 33	à	à	ADP	_	_	32	udep	_	_
@@ -19781,7 +19781,7 @@
 7	,	,	PUNCT	_	_	12	punct	_	_
 8	et	et	CCONJ	_	_	12	cc	_	_
 9	Niida	Niida	PROPN	_	_	12	subj	_	_
-10	furieux	furieux	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
+10	furieux	furieux	ADJ	_	Gender=Masc	9	mod	_	_
 11	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
 12	tire	tirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	dessus	dessus	ADV	_	_	12	mod	_	SpaceAfter=No
@@ -20597,7 +20597,7 @@
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	4	det	_	_
 3	troisième	troisième	ADJ	_	Number=Sing	4	mod	_	_
 4	tir	tir	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
-5	glorieux	glorieux	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
+5	glorieux	glorieux	ADJ	_	Gender=Masc	4	mod	_	_
 6	de	de	ADP	_	_	4	udep	_	_
 7	Butters	Butters	PROPN	_	_	6	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
@@ -22054,7 +22054,7 @@
 10	sur	sur	ADP	_	_	5	mod	_	_
 11	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	12	det	_	_
 12	quai	quai	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	10	comp:obj	_	CorrectNumber=Plur|wordform=quais
-13	brumeux	brumeux	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	SpaceAfter=No
+13	brumeux	brumeux	ADJ	_	Gender=Masc	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	entrer	entrer	VERB	_	VerbForm=Inf	5	conj	_	_
 16	dans	dans	ADP	_	_	15	comp:obl	_	_
@@ -22500,7 +22500,7 @@
 24	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 25	de	de	ADP	_	_	24	udep	_	_
 26	métal	métal	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
-27	précieux	précieux	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
+27	précieux	précieux	ADJ	_	Gender=Masc	26	mod	_	_
 28	et	et	CCONJ	_	_	29	cc	_	_
 29	protéger	protéger	VERB	_	VerbForm=Inf	22	conj	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	31	det	_	SpaceAfter=No
@@ -22751,7 +22751,7 @@
 19	avoir	avoir	AUX	_	VerbForm=Inf	18	comp:obj	_	_
 20	fabriqué	fabriquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
 21	de	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	23	det	_	_
-22	faux	faux	ADJ	_	Gender=Masc|Number=Plur	23	mod	_	_
+22	faux	faux	ADJ	_	Gender=Masc	23	mod	_	_
 23	documents	document	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 24	dans	dans	ADP	_	_	19	mod	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	26	det	_	_
@@ -23430,7 +23430,7 @@
 9	anéantissement	anéantissement	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	plusieurs	plusieurs	DET	_	Number=Plur|Person=3|PronType=Ind	13	det	_	_
-12	dangereux	dangereux	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
+12	dangereux	dangereux	ADJ	_	Gender=Masc	13	mod	_	_
 13	chefs	chef	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 14	terroristes	terroriste	ADJ	_	Number=Plur	13	mod	_	_
 15	en	en	ADP	_	_	6	mod	_	_
@@ -25323,7 +25323,7 @@
 2	sereine	serein	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
-5	chaleureux	chaleureux	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
+5	chaleureux	chaleureux	ADJ	_	Gender=Masc	4	mod	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
 7	professionnel	professionnel	ADJ	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
@@ -25352,7 +25352,7 @@
 11	surtout	surtout	ADV	_	_	13	mod	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	13	det	_	_
 13	présent	présent	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
-14	glorieux	glorieux	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	13	mod	_	_
+14	glorieux	glorieux	ADJ	_	Gender=Masc|Shared=Yes	13	mod	_	_
 15	alors	alors	ADV	_	_	7	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 16	qu'	que	SCONJ	_	_	15	unk	_	InIdiom=Yes|SpaceAfter=No
 17	en	en	ADP	_	_	21	mod	_	_
@@ -28044,7 +28044,7 @@
 24	de	de	ADP	_	_	23	comp:obl	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	26	det	_	_
 26	agissements	agissement	NOUN	_	Gender=Masc|Number=Plur	24	comp:obj	_	_
-27	dangereux	dangereux	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	_
+27	dangereux	dangereux	ADJ	_	Gender=Masc	26	mod	_	_
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	26	udep	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	30	det	_	_
@@ -29300,7 +29300,7 @@
 23	sur	sur	ADP	_	_	22	mod	_	_
 24	divers	divers	DET	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	25	det	_	_
 25	chantiers	chantier	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	_
-26	dangereux	dangereux	ADJ	_	Gender=Masc|Number=Plur	25	mod	_	_
+26	dangereux	dangereux	ADJ	_	Gender=Masc	25	mod	_	_
 27	à	à	ADP	_	_	22	mod	_	ExtPos=ADP|PhraseType=Idiom
 28	travers	travers	NOUN	_	Gender=Masc	27	comp:obj	_	InIdiom=Yes
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	30	det	_	_
@@ -29546,7 +29546,7 @@
 13	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	14	comp:obl	_	_
 14	donner	donner	VERB	_	VerbForm=Inf	12	comp:obj	_	_
 15	de	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	17	det	_	_
-16	précieux	précieux	ADJ	_	Gender=Masc|Number=Plur	17	mod	_	_
+16	précieux	précieux	ADJ	_	Gender=Masc	17	mod	_	_
 17	conseils	conseil	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -34102,7 +34102,7 @@
 18	ou	ou	CCONJ	_	_	20	cc	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	20	det	_	_
 20	massifs	massif	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
-21	montagneux	montagneux	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	SpaceAfter=No
+21	montagneux	montagneux	ADJ	_	Gender=Masc	20	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	sous	sous	ADP	_	_	10	mod	_	_
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	25	det	_	_
@@ -34411,7 +34411,7 @@
 6	cette	ce	DET	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	det	_	_
 7	école	école	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 8	super	super	ADV	_	_	9	mod	_	_
-9	sympa	sympa	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
+9	sympa	sympa	ADJ	_	Number=Sing	7	mod	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	vraiment	vraiment	ADV	_	_	12	mod	_	_
 12	pro	professionnel	ADJ	_	Gender=Fem|Number=Sing	9	conj	_	_
@@ -34756,7 +34756,7 @@
 20	de	de	ADP	_	_	18	udep	_	_
 21	faible	faible	ADJ	_	Number=Sing	22	mod	_	_
 22	flux	flux	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
-23	lumineux	lumineux	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	SpaceAfter=No
+23	lumineux	lumineux	ADJ	_	Gender=Masc	22	mod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01254
@@ -35171,7 +35171,7 @@
 14	que	que	SCONJ	_	_	13	comp:obj	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	16	det	_	_
 16	sentiment	sentiment	NOUN	_	Gender=Masc|Number=Sing	21	subj	_	_
-17	religieux	religieux	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
+17	religieux	religieux	ADJ	_	Gender=Masc	16	mod	_	_
 18	de	de	ADP	_	_	16	udep	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	20	det	_	SpaceAfter=No
 20	homme	homme	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
@@ -35935,7 +35935,7 @@
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 15	maintenant	maintenant	ADV	_	_	14	mod	_	_
-16	heureux	heureux	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
+16	heureux	heureux	ADJ	_	Gender=Masc	14	comp:pred	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	populaire	populaire	ADJ	_	Number=Sing	16	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
@@ -39437,7 +39437,7 @@
 5	pouvoir	pouvoir	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	séculier	séculier	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 7	et	et	CCONJ	_	_	8	cc	_	_
-8	religieux	religieux	ADJ	_	Gender=Masc|Number=Sing	6	conj	_	_
+8	religieux	religieux	ADJ	_	Gender=Masc	6	conj	_	_
 9	comme	comme	ADP	_	_	3	mod	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	det	_	_
 11	roi	roi	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
@@ -39573,7 +39573,7 @@
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	aimé	aimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	6	det	_	_
-5	savoureux	savoureux	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
+5	savoureux	savoureux	ADJ	_	Gender=Masc	6	mod	_	_
 6	mélange	mélange	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	6	udep	_	_
@@ -40045,7 +40045,7 @@
 24	Price	Price	PROPN	_	_	23	appos	_	_
 25	»	»	PUNCT	_	_	23	punct	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
-27	fameux	fameux	ADJ	_	Gender=Masc|Number=Sing	28	mod	_	_
+27	fameux	fameux	ADJ	_	Gender=Masc	28	mod	_	_
 28	cirque	cirque	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	_
 29	fondé	fonder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	mod	_	_
 30	depuis	depuis	ADP	_	_	29	mod	_	_
@@ -40805,7 +40805,7 @@
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
 9	parfum	parfum	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
-10	merveilleux	merveilleux	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
+10	merveilleux	merveilleux	ADJ	_	Gender=Masc	9	mod	_	_
 11	s'	se	PRON	_	Person=3|PronType=Prs	12	comp	_	InIdiom=Yes|SpaceAfter=No
 12	échappe	échapper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 13-14	du	_	_	_	_	_	_	_	_

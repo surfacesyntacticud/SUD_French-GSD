@@ -2634,7 +2634,7 @@
 34	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	35	det	_	SpaceAfter=No
 35	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
 36	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
-37	courageux	courageux	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	SpaceAfter=No
+37	courageux	courageux	ADJ	_	Gender=Masc	32	mod	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	pacifique	pacifique	ADJ	_	Number=Sing	37	conj	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
@@ -4439,7 +4439,7 @@
 18	constaté	constater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	20	det	_	_
 20	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
-21	désastreux	désastreux	ADJ	_	Gender=Masc|Number=Sing	20	mod	_	_
+21	désastreux	désastreux	ADJ	_	Gender=Masc	20	mod	_	_
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	20	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	24	det	_	_
@@ -4863,7 +4863,7 @@
 11	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	13	det	_	_
 13	réaliste	réaliste	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
-14	heureux	heureux	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	SpaceAfter=No
+14	heureux	heureux	ADJ	_	Gender=Masc	13	mod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-test_00161
@@ -5575,7 +5575,7 @@
 12	comme	comme	ADP	_	_	1	mod	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	14	det	_	_
 14	postulant	postulant	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
-15	sérieux	sérieux	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
+15	sérieux	sérieux	ADJ	_	Gender=Masc	14	mod	_	_
 16	à	à	ADP	_	_	14	udep	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	18	det	_	_
 18	succession	succession	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -6103,7 +6103,7 @@
 28	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	29	det	_	_
 29	prix	prix	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
 30	très	très	ADV	_	_	31	mod	_	_
-31	doux	doux	ADJ	_	Gender=Masc|Number=Plur	29	mod	_	SpaceAfter=No
+31	doux	doux	ADJ	_	Gender=Masc	29	mod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00203
@@ -6605,7 +6605,7 @@
 5	genre	genre	NOUN	_	Gender=Masc|Number=Sing	11	subj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	salon	salon	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-8	sérieux	sérieux	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
+8	sérieux	sérieux	ADJ	_	Gender=Masc	7	mod	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	pro	professionnel	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
 11	survivra	survivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	comp:obj	_	_
@@ -7540,7 +7540,7 @@
 6	impeccable	impeccable	ADJ	_	Number=Sing	5	comp:pred	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	très	très	ADV	_	_	9	mod	_	_
-9	chaleureux	chaleureux	ADJ	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	chaleureux	chaleureux	ADJ	_	Gender=Masc	6	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	12	det	_	_
 12	propreté	propreté	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
@@ -7702,7 +7702,7 @@
 # text = Produits super sympa et qui rendent bien sur mon mur.
 1	Produits	produit	NOUN	_	Gender=Masc|Number=Plur	0	root	_	wordform=produits
 2	super	super	ADV	_	_	3	mod	_	_
-3	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	1	mod	_	CorrectNumber=Plur|wordform=sympas
+3	sympa	sympa	ADJ	_	Number=Sing|Typo=Yes	1	mod	_	CorrectNumber=Plur|wordform=sympas
 4	et	et	CCONJ	_	_	6	cc	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
 6	rendent	rendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
@@ -7894,7 +7894,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	11	det	_	_
 11	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
-12	sympa	sympa	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	SpaceAfter=No
+12	sympa	sympa	ADJ	_	Number=Sing	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	15	det	_	_
 15	cocktail	cocktail	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	11	appos	_	_
@@ -8561,7 +8561,7 @@
 4	abandonner	abandonner	VERB	_	VerbForm=Inf	3	comp:obj	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	6	det	_	_
 6	matériaux	matériau	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
-7	coûteux	coûteux	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	SpaceAfter=No
+7	coûteux	coûteux	ADJ	_	Gender=Masc	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	comme	comme	ADP	_	_	6	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	det	_	_
@@ -8754,7 +8754,7 @@
 14	Ligue	ligue	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	wordform=ligue
 15	de	de	ADP	_	_	14	udep	_	_
 16	hockey	hockey	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
-17	junior	junior	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
+17	junior	junior	ADJ	_	Number=Sing	16	mod	_	_
 18	majeur	majeur	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	14	udep	_	_
@@ -10206,7 +10206,7 @@
 # sent_id = fr-ud-dev_01553
 # text = Candidat malheureux à l'élection présidentielle d'août 2007, Marcus Stephen remporte néanmoins la présidence de la République le 19 décembre 2007 lorsque son prédécesseur Ludwig Scotty est écarté de cette fonction par une motion de censure parlementaire.
 1	Candidat	candidat	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	wordform=candidat
-2	malheureux	malheureux	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
+2	malheureux	malheureux	ADJ	_	Gender=Masc	1	mod	_	_
 3	à	à	ADP	_	_	1	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	5	det	_	SpaceAfter=No
 5	élection	élection	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
