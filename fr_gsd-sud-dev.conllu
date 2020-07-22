@@ -1674,7 +1674,7 @@
 5	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obl	_	_
 6	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
-8	choix	choix	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+8	choix	choix	NOUN	_	Gender=Masc	6	comp:obj	_	_
 9	d	de	ADP	_	_	8	udep	_	_
 10	activités	activité	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
@@ -2406,7 +2406,7 @@
 4	correctement	correctement	ADV	_	_	3	mod	_	_
 5	à	à	ADP	_	_	3	mod	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	7	det	_	_
-7	prix	prix	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
+7	prix	prix	NOUN	_	Gender=Masc	5	comp:obj	_	_
 8	raisonnables	raisonnable	ADJ	_	Number=Plur	7	mod	_	_
 9	et	et	CCONJ	_	_	13	cc	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	11	det	_	_
@@ -2527,7 +2527,7 @@
 7	cantons	canton	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	10	det	_	_
-10	croix	croix	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
+10	croix	croix	NOUN	_	Gender=Fem	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	douze	douze	NUM	_	_	13	det	_	_
 13	personnages	personnage	NOUN	_	Gender=Masc|Number=Plur	24	subj	_	_
@@ -3636,7 +3636,7 @@
 
 # sent_id = fr-ud-dev_00132
 # text = Prix raisonnable, service sympathique qui nous a même fait venir un taxi pour emporter le synthétiseur
-1	Prix	prix	NOUN	_	Gender=Masc|Number=Sing	0	root	_	wordform=prix
+1	Prix	prix	NOUN	_	Gender=Masc	0	root	_	wordform=prix
 2	raisonnable	raisonnable	ADJ	_	Number=Sing	1	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	service	service	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -4192,7 +4192,7 @@
 2	veuille	vouloir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	avoir	avoir	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 4	en	en	ADP	_	_	3	mod	_	_
-5	paix	paix	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
+5	paix	paix	NOUN	_	Gender=Fem	4	comp:obj	_	_
 6	ton	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=2|PronType=Prs	7	det	_	_
 7	âme	âme	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -4431,7 +4431,7 @@
 7	projettent	projeter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	sur	sur	ADP	_	_	7	mod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	10	det	_	_
-10	cortex	cortex	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+10	cortex	cortex	NOUN	_	Gender=Masc	8	comp:obj	_	_
 11	somesthésique	somesthésique	ADJ	_	Number=Sing	10	mod	_	_
 12	primaire	primaire	ADJ	_	Number=Sing	10	mod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
@@ -5366,7 +5366,7 @@
 19	de	de	ADP	_	_	13	comp:obj@x	_	_
 20	négocier	négocier	VERB	_	VerbForm=Inf	19	comp:obj	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	22	det	_	_
-22	paix	paix	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
+22	paix	paix	NOUN	_	Gender=Fem	20	comp:obj	_	_
 23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	Vita	Vita	PROPN	_	_	13	parataxis	_	_
 25	Orientis	Orientis	PROPN	_	_	24	flat@name	_	SpaceAfter=No
@@ -5768,7 +5768,7 @@
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	5	det	_	_
-5	impériaux	impériaux	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
+5	impériaux	impérial	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	très	très	ADV	_	_	8	mod	_	_
 8	légères	léger	ADJ	_	Gender=Fem|Number=Plur	6	comp:pred	_	_
@@ -6095,7 +6095,7 @@
 # sent_id = fr-ud-dev_00221
 # text = Ce taux atteint même 50% dans certains centres.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	wordform=ce
-2	taux	taux	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	taux	taux	NOUN	_	Gender=Masc	3	subj	_	_
 3	atteint	atteindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	même	même	ADV	_	_	5	mod	_	_
 5	50	50	NUM	_	_	6	det	_	SpaceAfter=No
@@ -6647,7 +6647,7 @@
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	15	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
-9	prix	prix	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
+9	prix	prix	NOUN	_	Gender=Masc	7	comp:obj	_	_
 10	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	13	det	_	_
 12	grande	grand	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
@@ -6982,7 +6982,7 @@
 26	architectes	architecte	NOUN	_	Gender=Masc|Number=Plur	24	comp:obj	_	_
 27	»	»	PUNCT	_	_	23	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	prix	prix	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	_
+29	prix	prix	NOUN	_	Gender=Masc	23	appos	_	_
 30	décerné	décerner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	mod	_	_
 31	par	par	ADP	_	_	30	comp:obl@agent	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	33	det	_	_
@@ -7285,7 +7285,7 @@
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	29	udep	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	32	det	_	_
-32	prix	prix	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	_
+32	prix	prix	NOUN	_	Gender=Masc	30	comp:obj	_	_
 33	Nobel	Nobel	PROPN	_	_	32	appos	_	_
 34	François	François	PROPN	_	Shared=Yes	29	appos	_	_
 35	Mauriac	Mauriac	PROPN	_	_	34	flat@name	_	SpaceAfter=No
@@ -7762,7 +7762,7 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	udep	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	16	det	_	_
-16	fax	fax	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
+16	fax	fax	NOUN	_	Gender=Masc	14	comp:obj	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	de	de	ADP	_	_	14	conj	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	20	det	_	_
@@ -9390,7 +9390,7 @@
 24	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	27	det	_	_
-27	prix	prix	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
+27	prix	prix	NOUN	_	Gender=Masc	24	conj	_	_
 28	et	et	CCONJ	_	_	30	cc	_	_
 29	son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	30	det	_	_
 30	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
@@ -11283,7 +11283,7 @@
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	Gruau	Gruau	PROPN	_	_	20	appos	_	_
 26	par	par	ADP	_	_	25	udep	_	_
-27	ex	ex	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	SpaceAfter=No
+27	ex	ex	NOUN	_	Gender=Masc	26	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	25	punct	_	_
 
@@ -12593,7 +12593,7 @@
 25	de	de	ADP	_	_	20	comp:obl@x	_	_
 26	signer	signer	VERB	_	VerbForm=Inf	25	comp:obj	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	28	det	_	_
-28	paix	paix	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
+28	paix	paix	NOUN	_	Gender=Fem	26	comp:obj	_	_
 29	avec	avec	ADP	_	_	26	comp:obl	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	31	det	_	SpaceAfter=No
 31	Allemagne	Allemagne	PROPN	_	_	29	comp:obj	_	SpaceAfter=No
@@ -15586,7 +15586,7 @@
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	30	det	_	_
 30	désir	désir	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
-32	paix	paix	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
+32	paix	paix	NOUN	_	Gender=Fem	31	comp:obj	_	_
 33	et	et	CCONJ	_	_	35	cc	_	_
 34	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	35	det	_	SpaceAfter=No
 35	espérance	espérance	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
@@ -17466,7 +17466,7 @@
 5	voter	voter	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
 6	pour	pour	ADP	_	_	5	mod	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	8	det	_	_
-8	prix	prix	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
+8	prix	prix	NOUN	_	Gender=Masc	6	comp:obj	_	_
 9	Croûte	Croûte	PROPN	_	_	8	appos	_	_
 10	&	&	SYM	_	_	11	cc	_	ExtPos=CCONJ
 11	Chef	Chef	PROPN	_	_	9	conj	_	_
@@ -18347,7 +18347,7 @@
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	udep	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	16	det	_	_
-16	flux	flux	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
+16	flux	flux	NOUN	_	Gender=Masc	14	comp:obj	_	_
 17	IP	IP	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -18475,7 +18475,7 @@
 
 # sent_id = fr-ud-dev_00667
 # text = Choix payant puisque le milieu de terrain inscrit le 3e but de son club dix secondes après être entré en jeu !
-1	Choix	choix	NOUN	_	Gender=Masc|Number=Sing	0	root	_	wordform=choix
+1	Choix	choix	NOUN	_	Gender=Masc	0	root	_	wordform=choix
 2	payant	payant	VERB	_	Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part	1	mod	_	_
 3	puisque	puisque	SCONJ	_	_	2	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
@@ -18569,7 +18569,7 @@
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 5	gagna	gagner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	7	det	_	_
-7	prix	prix	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
+7	prix	prix	NOUN	_	Gender=Masc	5	comp:obj	_	_
 8	Phi	Phi	PROPN	_	_	7	appos	_	_
 9	Beta	Beta	PROPN	_	_	8	flat@name	_	_
 10	Kappa	Kappa	PROPN	_	_	9	flat@name	_	_
@@ -20471,7 +20471,7 @@
 15	en	en	ADP	_	_	12	mod	_	_
 16	temps	temps	NOUN	_	Gender=Masc	15	comp:obj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
-18	paix	paix	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
+18	paix	paix	NOUN	_	Gender=Fem	17	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00742
@@ -23184,7 +23184,7 @@
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	12	mod	_	ExtPos=ADV|PhraseType=Idiom
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	13	unk	_	InIdiom=Yes
-15	mieux	mieux	NOUN	_	Gender=Masc|Number=Sing	14	unk	_	InIdiom=Yes
+15	mieux	mieux	NOUN	_	Gender=Masc	14	unk	_	InIdiom=Yes
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	17	det	_	_
 17	couronne	couronne	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 18	et	et	CCONJ	_	_	20	cc	_	_
@@ -24206,7 +24206,7 @@
 32	plus	plus	ADV	_	_	31	comp:obj	_	ExtPos=PRON
 33	de	de	ADP	_	_	32	comp:obl	_	_
 34	223 000	223 000	NUM	_	_	35	det	_	_
-35	voix	voix	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	SpaceAfter=No
+35	voix	voix	NOUN	_	Gender=Fem	33	comp:obj	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	41	punct	_	_
 37	soit	soit	ADV	_	_	41	mod	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	41	det	_	_
@@ -24524,7 +24524,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	à	à	ADP	_	_	13	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	6	det	_	_
-6	croix	croix	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
+6	croix	croix	NOUN	_	Gender=Fem	4	comp:obj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	sable	sable	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
@@ -27506,7 +27506,7 @@
 2	qui	qui	PRON	_	PronType=Rel	3	subj	_	_
 3	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
-5	choix	choix	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
+5	choix	choix	NOUN	_	Gender=Masc	3	comp:pred	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	plus	plus	ADV	_	_	6	comp:obj	_	ExtPos=PRON
 8	de	de	ADP	_	_	7	comp:obl	_	_
@@ -28391,7 +28391,7 @@
 # sent_id = fr-ud-dev_01020
 # text = Le taux (53,1%) est supérieur au taux national (51,6%).
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le
-2	taux	taux	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
+2	taux	taux	NOUN	_	Gender=Masc	7	subj	_	_
 3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	53,1	53,1	NUM	_	_	5	det	_	SpaceAfter=No
 5	%	%	SYM	_	_	2	appos	_	ExtPos=NOUN|SpaceAfter=No
@@ -28401,7 +28401,7 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	8	comp:obl	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	det	_	_
-11	taux	taux	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
+11	taux	taux	NOUN	_	Gender=Masc	9	comp:obj	_	_
 12	national	national	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 13	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 14	51,6	51,6	NUM	_	_	15	det	_	SpaceAfter=No
@@ -29733,7 +29733,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	par	par	ADP	_	_	12	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	6	det	_	_
-6	voix	voix	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
+6	voix	voix	NOUN	_	Gender=Fem	4	comp:obj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	10	det	_	_
 9	premier	premier	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
@@ -31833,7 +31833,7 @@
 13	ou	ou	CCONJ	_	_	14	cc	_	_
 14	à	à	ADP	_	_	12	conj	_	_
 15	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	16	det	_	_
-16	choix	choix	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	SpaceAfter=No
+16	choix	choix	NOUN	_	Gender=Masc	14	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01150
@@ -33287,7 +33287,7 @@
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	udep	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	30	det	_	_
-30	voix	voix	NOUN	_	Gender=Fem|Number=Plur	28	comp:obj	_	_
+30	voix	voix	NOUN	_	Gender=Fem	28	comp:obj	_	_
 31-32	au	_	_	_	_	_	_	_	_
 31	à	à	ADP	_	_	25	mod	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	34	det	_	_
@@ -33997,7 +33997,7 @@
 49	pour	pour	ADP	_	_	45	mod	_	_
 50	justifier	justifier	VERB	_	VerbForm=Inf	49	comp:obj	_	_
 51	son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	52	det	_	_
-52	choix	choix	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	SpaceAfter=No
+52	choix	choix	NOUN	_	Gender=Masc	50	comp:obj	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_01228
@@ -34062,7 +34062,7 @@
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
 2	obtient	obtenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	4	det	_	_
-4	prix	prix	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
+4	prix	prix	NOUN	_	Gender=Masc	2	comp:obj	_	_
 5	Jean-Valcourt	Jean-Valcourt	PROPN	_	_	4	appos	_	_
 6	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
 7	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obl	_	_
@@ -34162,7 +34162,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	19	det	_	_
-19	taux	taux	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
+19	taux	taux	NOUN	_	Gender=Masc	17	comp:obj	_	_
 20	d'	de	ADP	_	_	19	udep	_	SpaceAfter=No
 21	intérêts	intérêt	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 22	de	de	ADP	_	_	19	udep	_	_
@@ -34755,7 +34755,7 @@
 19	métrologiques	métrologique	ADJ	_	Number=Plur	18	mod	_	_
 20	de	de	ADP	_	_	18	udep	_	_
 21	faible	faible	ADJ	_	Number=Sing	22	mod	_	_
-22	flux	flux	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
+22	flux	flux	NOUN	_	Gender=Masc	20	comp:obj	_	_
 23	lumineux	lumineux	ADJ	_	Gender=Masc	22	mod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -40300,7 +40300,7 @@
 10	attestée	attester	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@pass	_	_
 11	par	par	ADP	_	_	10	comp:obl@agent	_	_
 12	quelques	quelque	DET	_	Number=Plur|Person=3|PronType=Ind	13	det	_	_
-13	silex	silex	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
+13	silex	silex	NOUN	_	Gender=Masc	11	comp:obj	_	_
 14	néolithiques	néolithique	ADJ	_	Number=Plur	13	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	voire	voire	ADV	_	_	17	cc	_	_
@@ -40886,7 +40886,7 @@
 13	surtout	surtout	ADV	_	_	14	mod	_	_
 14	pour	pour	ADP	_	_	10	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	16	det	_	_
-16	prix	prix	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
+16	prix	prix	NOUN	_	Gender=Masc	14	comp:obj	_	_
 17	affiché	afficher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	mod	_	_
 18	!	!	PUNCT	_	_	2	punct	_	_
 
