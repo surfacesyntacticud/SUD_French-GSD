@@ -25637,7 +25637,7 @@
 6	dans	dans	ADP	_	_	2	mod	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
 8	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-9	vidéo	vidéo	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
+9	vidéo	vidéo	ADJ	_	Gender=Masc	8	mod	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	det	_	_
 11	21	21	NUM	_	_	2	mod	_	_
 12	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	_
@@ -32722,7 +32722,7 @@
 30	créateur	créateur	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
 32	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
-33	vidéo	vidéo	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	_
+33	vidéo	vidéo	ADJ	_	Gender=Masc	32	mod	_	_
 34	American	American	X	_	Foreign=Yes	30	appos	_	Lang=en
 35	McGee	McGee	PROPN	_	_	34	flat@name	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	16	punct	_	_
@@ -37590,7 +37590,7 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	15	det	_	_
 14	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	_
 15	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
-16	vidéo	vidéo	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	_
+16	vidéo	vidéo	ADJ	_	Gender=Masc	15	mod	_	_
 17	Pokémon	Pokémon	PROPN	_	_	15	appos	_	_
 18	Rouge	rouge	ADJ	_	Number=Sing	17	mod	_	wordform=rouge
 19	et	et	CCONJ	_	_	20	cc	_	_
