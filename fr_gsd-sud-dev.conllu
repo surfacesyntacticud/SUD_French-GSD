@@ -6160,7 +6160,7 @@
 6	panoramiques	panoramique	ADJ	_	Number=Plur	5	mod	_	_
 7	à	à	ADP	_	_	5	udep	_	_
 8	voie	voie	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
-9	métriques	métrique	ADJ	_	Number=Plur	8	mod	_	_
+9	métriques	métrique	ADJ	_	Number=Plur|Typo=Yes	8	mod	_	CorrectNumber=Sing|wordform=métrique
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	convaincu	convaincre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	13	det	_	_
@@ -14386,7 +14386,7 @@
 5	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 6	d'	de	ADP	_	_	5	udep	_	SpaceAfter=No
 7	araignées	araignée	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
-8	aranéomorphes	aranéomorphe	ADJ	_	Number=Sing	7	mod	_	_
+8	aranéomorphes	aranéomorphe	ADJ	_	Number=Plur	7	mod	_	_
 9	de	de	ADP	_	_	5	udep	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	11	det	_	_
 11	famille	famille	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
@@ -17136,7 +17136,7 @@
 6	processus	processus	NOUN	_	Gender=Masc	2	conj	_	_
 7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No
 8	auto-assemblage	auto-assemblage	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
-9	moléculaires	moléculaire	ADJ	_	Number=Plur	8	mod	_	_
+9	moléculaires	moléculaire	ADJ	_	Number=Plur	6	mod	_	_
 10	en	en	ADP	_	_	6	mod	_	ExtPos=ADV|PhraseType=Idiom
 11	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	10	comp:obj	_	InIdiom=Yes
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21023,7 +21023,7 @@
 18	par	par	ADP	_	_	17	udep	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	20	det	_	_
 20	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	_
-21	marocaine	marocain	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	_
+21	marocaine	marocain	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	20	mod	_	CorrectNumber=Plur|wordform=marocaines
 22	de	de	ADP	_	_	20	udep	_	_
 23	Kamel	Kamel	PROPN	_	_	22	comp:obj	_	_
 24	JENDOUBI	JENDOUBI	PROPN	_	_	23	flat@name	_	SpaceAfter=No
@@ -21572,7 +21572,7 @@
 2	petites	petit	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
 3	bandes	bande	NOUN	_	Gender=Fem|Number=Plur	6	subj	_	_
 4	longitudinales	longitudinal	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
-5	rouge	rouge	ADJ	_	Number=Sing	3	mod	_	_
+5	rouge	rouge	ADJ	_	Number=Sing|Typo=Yes	3	mod	_	CorrectNumber=Plur|wordform=rouges
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	visibles	visible	ADJ	_	Number=Plur	6	comp:pred	_	_
 8	sur	sur	ADP	_	_	6	mod	_	_
@@ -25081,7 +25081,7 @@
 # text = Cette terre riches en attraits naturels est maintenant bien implantée dans le domaine touristique, mais le domaine a constamment besoin de se renouveler.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	wordform=cette
 2	terre	terre	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
-3	riches	riche	ADJ	_	Number=Plur	2	mod	_	_
+3	riches	riche	ADJ	_	Number=Plur|Typo=Yes	2	mod	_	CorrectNumber=Sing|wordform=riche
 4	en	en	ADP	_	_	3	mod	_	_
 5	attraits	attrait	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 6	naturels	naturel	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
@@ -28289,7 +28289,7 @@
 18	outils	outil	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
 19	pédagogiques	pédagogique	ADJ	_	Number=Plur	18	mod	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	accessible	accessible	ADJ	_	Number=Sing	18	mod	_	_
+21	accessible	accessible	ADJ	_	Number=Sing|Typo=Yes	18	mod	_	CorrectNumber=Plur|wordform=accessibles
 22	par	par	ADP	_	_	21	comp:obl	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	24	det	_	_
 24	centrale	centrale	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
@@ -37734,7 +37734,7 @@
 7	pour	pour	ADP	_	_	1	comp:obl	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	9	det	_	_
 9	autorisations	autorisation	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
-10	nécessaire	nécessaire	ADJ	_	Number=Sing	9	mod	_	_
+10	nécessaire	nécessaire	ADJ	_	Number=Sing|Typo=Yes	9	mod	_	CorrectNumber=Plur|wordform=nécessaires
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	14	det	_	_

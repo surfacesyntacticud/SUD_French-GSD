@@ -703,7 +703,7 @@
 # text = promulgation de loi « anti-hérétiques ».
 1	promulgation	promulgation	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	1	udep	_	_
-3	loi	loi	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
+3	loi	loi	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	2	comp:obj	_	CorrectNumber=Plur|wordform=lois
 4	«	«	PUNCT	_	_	5	punct	_	_
 5	anti-hérétiques	anti-hérétique	ADJ	_	Number=Plur	3	mod	_	_
 6	»	»	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -7660,7 +7660,7 @@
 41	petits	petit	ADJ	_	Gender=Masc|Number=Plur	42	mod	_	_
 42	créateurs	créateur	NOUN	_	Gender=Masc|Number=Plur	40	comp:obj	_	_
 43	moins	moins	ADV	_	_	44	mod	_	_
-44	connu	connu	ADJ	_	Gender=Masc|Number=Sing	42	mod	_	_
+44	connu	connu	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	42	mod	_	CorrectNumber=Plur|wordform=connus
 45	mais	mais	CCONJ	_	_	47	cc	_	_
 46	très	très	ADV	_	_	47	mod	_	_
 47	fashion	fashion	NOUN	_	Gender=Fem|Number=Sing	44	conj	_	_
@@ -7702,7 +7702,7 @@
 # text = Produits super sympa et qui rendent bien sur mon mur.
 1	Produits	produit	NOUN	_	Gender=Masc|Number=Plur	0	root	_	wordform=produits
 2	super	super	ADV	_	_	3	mod	_	_
-3	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
+3	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	1	mod	_	CorrectNumber=Plur|wordform=sympas
 4	et	et	CCONJ	_	_	6	cc	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
 6	rendent	rendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
@@ -9881,7 +9881,7 @@
 25	parmi	parmi	ADP	_	_	23	udep	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	27	det	_	_
 27	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	25	comp:obj	_	_
-28	autobiographique	autobiographique	ADJ	_	Number=Sing	27	mod	_	_
+28	autobiographique	autobiographique	ADJ	_	Number=Sing|Typo=Yes	27	mod	_	CorrectNumber=Plur|wordform=autobiographiques
 29	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	31	comp:obj	_	_
 30	Madonna	Madonna	PROPN	_	_	31	subj	_	_
 31	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
