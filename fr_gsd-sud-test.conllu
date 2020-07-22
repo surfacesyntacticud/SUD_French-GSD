@@ -1419,7 +1419,7 @@
 51	de	de	ADP	_	_	50	udep	_	_
 52	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	53	det	_	_
 53	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	51	comp:obj	_	_
-54	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	53	mod	_	CorrectForm=sahraoui|CorrectGender=Masc
+54	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	53	mod	_	CorrectGender=Masc|wordform=sahraoui
 55	à	à	ADP	_	_	50	udep	_	_
 56	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	57	det	_	SpaceAfter=No
 57	autodétermination	autodétermination	NOUN	_	Gender=Fem|Number=Sing	55	comp:obj	_	SpaceAfter=No

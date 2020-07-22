@@ -18698,7 +18698,7 @@
 # text = Feuillage vert foncées et aiguilles regroupées par trois (Le Pin à encens--Pinus Taeda--origine Sud Est USA, possède lui aussi des aiguilles regroupées par trois), les cônes sont tous orientés vers le tronc et peuvent rester 20 ans accrochées au tronc avant de tomber.
 1	Feuillage	feuillage	NOUN	_	Gender=Masc|Number=Sing	35	parataxis	_	wordform=feuillage
 2	vert	vert	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
-3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	2	mod	_	CorrectForm=foncé|CorrectGender=Masc|CorrectNumber=Sing
+3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	2	mod	_	CorrectGender=Masc|CorrectNumber=Sing|wordform=foncé
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	aiguilles	aiguille	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
 6	regroupées	regrouper	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	mod	_	_
@@ -19840,7 +19840,7 @@
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	24	det	_	_
 22	plus	plus	ADV	_	_	23	mod	_	_
-23	haute	haut	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	24	mod	_	CorrectForm=haut|CorrectGender=Masc
+23	haute	haut	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	24	mod	_	CorrectGender=Masc|wordform=haut
 24	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -31267,7 +31267,7 @@
 10	pièges	piège	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	de	de	ADP	_	_	5	conj	_	_
-13	montres	montre	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	12	comp:obj	_	CorrectForm=monstres|CorrectGender=Masc
+13	montres	montre	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	12	comp:obj	_	CorrectGender=Masc|wordform=monstres
 14	puissants	puissant	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
 15	tels	tel	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
 16	que	que	SCONJ	_	_	15	comp:obl	_	_
@@ -38393,7 +38393,7 @@
 8	serveur	serveur	NOUN	_	Gender=Masc|Number=Sing	9	subj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	12	det	_	_
-11	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	12	mod	_	CorrectForm=vraie|CorrectGender=Fem
+11	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	12	mod	_	CorrectGender=Fem|wordform=vraie
 12	porte	porte	NOUN	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	prison	prison	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
