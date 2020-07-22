@@ -9414,7 +9414,7 @@
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	serveurs	serveur	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	accueillant	accueillant	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
+6	accueillant	accueillant	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	5	comp:pred	_	CorrectNumber=Plur|wordform=accueillants
 7	sans	sans	ADP	_	_	5	mod	_	_
 8	être	être	AUX	_	VerbForm=Inf	7	comp:obj	_	_
 9	trop	trop	ADV	_	_	10	mod	_	_
@@ -40631,7 +40631,7 @@
 24	,	,	PUNCT	_	_	18	punct	_	_
 25	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	26	subj	_	_
 26	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-27	présent	présent	ADJ	_	Gender=Masc|Number=Sing	26	comp:pred	_	_
+27	présent	présent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	26	comp:pred	_	CorrectNumber=Plur|wordform=présents
 28	sur	sur	ADP	_	_	27	udep	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	30	det	_	_
 30	rive	rive	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_

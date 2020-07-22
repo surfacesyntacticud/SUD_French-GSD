@@ -6840,7 +6840,7 @@
 27	,	,	PUNCT	_	_	25	punct	_	_
 28	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	subj	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-30	excellent	excellent	ADJ	_	Gender=Masc|Number=Sing	29	comp:pred	_	_
+30	excellent	excellent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	29	comp:pred	_	CorrectNumber=Plur|wordform=excellents
 31	pour	pour	ADP	_	_	29	mod	_	_
 32	'	'	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	bullshitter	bullshitter	VERB	_	VerbForm=Inf	31	comp:obj	_	SpaceAfter=No
@@ -7603,16 +7603,16 @@
 11	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
-14	aimable	aimable	ADJ	_	Number=Sing	12	comp:pred	_	SpaceAfter=No
+14	aimable	aimable	ADJ	_	Number=Sing|Typo=Yes	12	comp:pred	_	CorrectNumber=Plur|SpaceAfter=No|wordform=aimables
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	ni	ni	CCONJ	_	_	17	cc	_	_
-17	compétent	compétent	ADJ	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	compétent	compétent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	14	conj	_	CorrectGender=Fem|CorrectNumber=Plur|SpaceAfter=No|wordform=compétentes
 18	...	...	PUNCT	_	_	20	punct	_	_
 19	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	20	subj	_	_
 20	dirais	dire	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 21	même	même	ADV	_	_	20	mod	_	_
 22	totalement	totalement	ADV	_	_	23	mod	_	_
-23	antipathiques	antipathique	ADJ	_	Number=Plur	20	comp:pred	_	SpaceAfter=No
+23	antipathiques	antipathique	ADJ	_	Number=Plur	20	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-test_00276
