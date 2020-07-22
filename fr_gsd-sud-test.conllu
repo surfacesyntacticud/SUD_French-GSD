@@ -6220,7 +6220,7 @@
 8	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
 9	pas	pas	ADV	_	_	0	root	_	ExtPos=PRON|PhraseType=Idiom
 10	grand	grand	ADJ	_	Gender=Masc|Number=Sing	9	unk	_	InIdiom=Yes
-11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	unk	_	InIdiom=Yes|SpaceAfter=No
+11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	unk	_	ExtPos=PRON|InIdiom=Yes|PhraseType=Idiom|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	avec	avec	ADP	_	_	9	udep	_	_
 14	beaucoup	beaucoup	ADV	_	_	13	comp:obj	_	ExtPos=PRON
@@ -7669,8 +7669,8 @@
 50	pour	pour	ADP	_	_	54	orphan	_	_
 51	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	52	det	_	_
 52	ami	ami	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	_
-53	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	54	det	_	_
-54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
+53	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	54	det	_	InIdiom=Yes
+54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	ExtPos=PRON|PhraseType=Idiom
 55	d'	de	ADP	_	_	54	mod	_	SpaceAfter=No
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	58	mod	_	ExtPos=ADV|PhraseType=Idiom
 57	peu	peu	ADV	_	_	56	unk	_	InIdiom=Yes
