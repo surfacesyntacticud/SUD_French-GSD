@@ -20506,7 +20506,7 @@
 6	placent	placer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	tout	tout	ADV	_	_	6	mod	_	ExtPos=ADV|PhraseType=Idiom
 8	de	de	ADP	_	_	7	unk	_	InIdiom=Yes
-9	même	même	ADJ	_	Number=Sing	8	unk	_	InIdiom=Yes
+9	même	même	ADV	_	_	8	unk	_	InIdiom=Yes
 10	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	11	det	_	_
 11	Français	français	NOUN	_	Gender=Masc	6	comp:obj	_	wordform=français
 12	dans	dans	ADP	_	_	6	comp:obl	_	_
@@ -25613,7 +25613,7 @@
 # text = Le jour même, un arrêté de reconduite à la frontière lui est adressé.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le
 2	jour	jour	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
-3	même	même	ADJ	_	Number=Sing	2	mod	_	SpaceAfter=No
+3	même	même	ADV	_	_	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	6	det	_	_
 6	arrêté	arrêté	NOUN	_	Gender=Masc|Number=Sing	13	subj@pass	_	_
@@ -41151,7 +41151,7 @@
 22	oculus	oculus	NOUN	_	Gender=Masc	20	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	subj@pass	_	ExtPos=PRON|PhraseType=Idiom|wordform=lui-même
-25	même	même	ADJ	_	Number=Sing	24	goeswith	_	wordform=_
+25	même	même	ADV	_	_	24	goeswith	_	wordform=_
 26	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	mod	_	_
 27	d'	de	ADP	_	_	26	comp:obl	_	SpaceAfter=No
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	30	det	_	_
