@@ -19747,7 +19747,7 @@
 7	employées	employé	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	Boeing	Boeing	PROPN	_	_	8	comp:obj	_	_
-10	réunis	réunir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	mod	_	_
+10	réunis	réunir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	7	mod	_	CorrectGender=Fem|wordform=réunies
 11	en	en	ADP	_	_	10	mod	_	_
 12	procédure	procédure	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 13	en	en	ADP	_	_	12	udep	_	_
@@ -24001,7 +24001,7 @@
 9	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	10	det	_	SpaceAfter=No
 10	expertise	expertise	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	développé	développer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	mod	_	_
+12	développé	développer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	mod	_	CorrectGender=Fem|wordform=développée
 13	chez	chez	ADP	_	_	12	mod	_	_
 14	Mayer	Mayer	PROPN	_	_	13	comp:obj	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
@@ -27276,7 +27276,7 @@
 17	compact	compact	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
 18	de	de	ADP	_	_	16	udep	_	_
 19	maisons	maison	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	_
-20	caractérisées	caractériser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	mod	_	_
+20	caractérisées	caractériser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	19	mod	_	_
 21	par	par	ADP	_	_	20	comp:obl@agent	_	_
 22	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	23	det	_	_
 23	couleurs	couleur	NOUN	_	Gender=Fem|Number=Plur	21	comp:obj	_	_
@@ -37282,7 +37282,7 @@
 11	série	série	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	dessins	dessin	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
-14	réalisés	réaliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	mod	_	_
+14	réalisés	réaliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	mod	_	_
 15	en	en	ADP	_	_	14	mod	_	_
 16	1575	1575	NUM	_	_	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
