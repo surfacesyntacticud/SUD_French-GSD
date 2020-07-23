@@ -2183,9 +2183,9 @@
 28	d'	de	ADP	_	_	25	comp:obj@x	_	SpaceAfter=No
 29	étendre	étendre	VERB	_	VerbForm=Inf	28	comp:obj	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	31	det	_	SpaceAfter=No
-31	IRT	IRT	PROPN	_	Gender=Masc|Number=Plur	29	comp:obj	_	_
-32	Flushing	Flushing	PROPN	_	_	31	flat@name	_	_
-33	Line	Line	PROPN	_	_	32	flat@name	_	SpaceAfter=No
+31	IRT	IRT	X	_	_	29	comp:obj	_	_
+32	Flushing	Flushing	X	_	Foreign=Yes	31	flat@name	_	Lang=en
+33	Line	Line	X	_	Foreign=Yes	32	flat@name	_	Lang=en|SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	vers	vers	ADP	_	_	29	mod	_	_
 36	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	37	det	_	SpaceAfter=No
@@ -5942,7 +5942,7 @@
 16	de	de	ADP	_	_	15	udep	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	19	det	_	_
 18	plus	plus	ADV	_	_	19	mod	_	_
-19	agréable	agréable	ADJ	_	Number=Sing	16	comp:obj	_	SpaceAfter=No
+19	agréable	agréable	ADJ	_	Number=Sing|Typo=Yes	16	comp:obj	_	CorrectNumber=Plur|SpaceAfter=No|wordform=agréables
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00216
