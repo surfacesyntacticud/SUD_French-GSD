@@ -1771,7 +1771,7 @@
 14	»	»	PUNCT	_	_	13	punct	_	_
 15	se	se	PRON	_	Person=3|PronType=Prs	17	comp	_	InIdiom=Yes
 16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
-17	permis	permettre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	ExtPos=VERB|PhraseType=Idiom
+17	permis	permettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	ExtPos=VERB|PhraseType=Idiom
 18	de	de	ADP	_	_	17	comp:obj@x	_	_
 19	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	20	comp:obj	_	_
 20	traiter	traiter	VERB	_	VerbForm=Inf	18	comp:obj	_	_
@@ -2625,7 +2625,7 @@
 25	travail	travail	NOUN	_	Gender=Masc|Number=Sing	27	subj	_	_
 26	leur	lui	PRON	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=3|PronType=Prs	28	comp:obl	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
-28	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
+28	permis	permettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
 29	d'	de	ADP	_	_	28	comp:obj@x	_	SpaceAfter=No
 30	observer	observer	VERB	_	VerbForm=Inf	29	comp:obj	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	32	det	_	SpaceAfter=No
@@ -3416,7 +3416,7 @@
 2	timbre	timbre	NOUN	_	Gender=Masc|Number=Sing	3	subj@pass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
-5	émis	émettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
+5	émis	émettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
 6	en	en	ADP	_	_	3	mod	_	_
 7	Israël	Israël	PROPN	_	_	6	comp:obj	_	_
 8	pour	pour	ADP	_	_	3	mod	_	_
@@ -5260,7 +5260,7 @@
 16	francophone	francophone	ADJ	_	Number=Sing	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	8	punct	_	_
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-19	émis	émettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
+19	émis	émettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	21	det	_	SpaceAfter=No
 21	espoir	espoir	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	18	mod	_	_
@@ -5732,7 +5732,7 @@
 11	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	12	det	_	_
 12	coûts	coût	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
+14	permis	permettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	14	comp:obl	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	17	det	_	_
@@ -7481,7 +7481,7 @@
 # text = Nous avons pris possesion de 2 chambres cabines ayant les toilettes en commun : poussière et saleté étaient au rendez-vous !
 1	Nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	2	subj	_	wordform=nous
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+3	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	possesion	possession	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	2	2	NUM	_	_	7	det	_	_
@@ -10509,7 +10509,7 @@
 10	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	11	det	_	_
 11	fonctionnaires	fonctionnaire	NOUN	_	Gender=Masc|Number=Plur	9	comp:pred	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	soumis	soumettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	_
+13	soumis	soumettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	11	mod	_	_
 14	à	à	ADP	_	_	13	comp:obl	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	16	det	_	_
 16	période	période	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
