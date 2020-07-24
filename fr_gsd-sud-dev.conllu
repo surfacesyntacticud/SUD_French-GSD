@@ -11655,12 +11655,12 @@
 
 # sent_id = fr-ud-dev_00421
 # text = Trois minutes de soleil en plus est le troisième roman de Christophe Donner, publié aux éditions Gallimard Jeunesse, collection Page blanche en 1987.
-1	Trois	trois	NUM	_	_	2	det	_	wordform=trois
-2	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	7	subj	_	_
-3	de	de	ADP	_	_	2	udep	_	_
-4	soleil	soleil	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-5	en	en	ADP	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
-6	plus	plus	ADV	_	_	5	comp:obj	_	InIdiom=Yes
+1	Trois	trois	NUM	_	_	2	det	_	InTitle=Yes|wordform=trois
+2	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	7	subj	_	ExtPos=PROPN|PhraseType=Title
+3	de	de	ADP	_	_	2	udep	_	InTitle=Yes
+4	soleil	soleil	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InTitle=Yes
+5	en	en	ADP	_	_	2	mod	_	ExtPos=ADV|InTitle=Yes|PhraseType=Idiom
+6	plus	plus	ADV	_	_	5	comp:obj	_	InIdiom=Yes|InTitle=Yes
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	10	det	_	_
 9	troisième	troisième	ADJ	_	Number=Sing	10	mod	_	_
