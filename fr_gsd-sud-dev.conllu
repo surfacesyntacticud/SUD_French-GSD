@@ -10904,7 +10904,7 @@
 14	de	de	ADP	_	_	12	comp:obl@x	_	_
 15	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	17	comp:obj	_	_
 16	avoir	avoir	AUX	_	VerbForm=Inf	14	comp:obj	_	_
-17	aidé	aider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
+17	aidé	aider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	16	comp:aux@tense	_	CorrectNumber=Plur|wordform=aidés
 18	si	si	ADV	_	_	19	mod	_	_
 19	gentillement	gentillement	ADV	_	Typo=Yes	16	mod	_	SpaceAfter=No|wordform=gentiment
 20	,	,	PUNCT	_	_	22	punct	_	_
@@ -37516,7 +37516,7 @@
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 3	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	5	comp:obj	_	_
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	4	comp:aux@tense	_	CorrectNumber=Plur|wordform=prévenus
 6	avant	avant	ADV	_	_	4	mod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
