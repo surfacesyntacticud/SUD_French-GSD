@@ -13928,7 +13928,7 @@
 7	Petrov	Petrov	PROPN	_	_	4	conj	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
+10	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	9	comp:aux@tense	_	CorrectGender=Fem|wordform=située
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	Brno	Brno	PROPN	_	_	11	comp:obj	_	_
 13	en	en	ADP	_	_	10	mod	_	_
@@ -14755,7 +14755,7 @@
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Typo=Yes	2	det	_	CorrectGender=Fem|wordform=cette
 2	stalagmite	stalagmite	NOUN	_	Gender=Fem|Number=Sing	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	délimité	délimiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
+4	délimité	délimiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	3	comp:aux@pass	_	CorrectGender=Fem|wordform=délimitée
 5	par	par	ADP	_	_	4	comp:obl@agent	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	7	det	_	_
 7	muret	muret	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -15361,7 +15361,7 @@
 17	s'	se	PRON	_	Person=3|PronType=Prs	20	comp	_	InIdiom=Yes|SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 19	déjà	déjà	ADV	_	_	18	mod	_	_
-20	séparé	séparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	ExtPos=VERB|PhraseType=Idiom
+20	séparé	séparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	18	comp:aux@tense	_	CorrectGender=Fem|ExtPos=VERB|PhraseType=Idiom|wordform=séparée
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	23	det	_	_
@@ -31258,7 +31258,7 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	wordform=cette
 2	zone	zone	NOUN	_	Gender=Fem|Number=Sing	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	composé	composer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
+4	composé	composer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	3	comp:aux@pass	_	CorrectGender=Fem|wordform=composée
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	couloirs	couloir	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 7	constitué	constituer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	mod	_	CorrectNumber=Plur|wordform=constitués
@@ -37201,7 +37201,7 @@
 3	à	à	ADP	_	_	6	comp:obl	_	_
 4	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	3	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
-6	attachée	attacher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
+6	attachée	attacher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	5	comp:aux@tense	_	CorrectGender=Masc|wordform=attaché
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
 8	titre	titre	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
 9	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
