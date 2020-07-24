@@ -9464,7 +9464,7 @@
 4	Saint-Léonard	Saint-Léonard	PROPN	_	_	3	comp:obj	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
+7	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	comp:aux@pass	_	CorrectGender=Masc|wordform=desservi
 8	que	que	ADV	_	_	9	mod	_	_
 9	par	par	ADP	_	_	7	comp:obl@agent	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	11	det	_	_
