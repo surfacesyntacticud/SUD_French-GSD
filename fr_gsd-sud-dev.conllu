@@ -28122,7 +28122,7 @@
 
 # sent_id = fr-ud-dev_01011
 # text = Plusieurs de ces propositions seront reprises dans le cadre de la correction des eaux du Jura, en particulier le projet du grison Richard La Nicca de détourner le cours de l'Aar dans le lac de Bienne.
-1	Plusieurs	plusieurs	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	5	subj@pass	_	wordform=plusieurs
+1	Plusieurs	plusieurs	PRON	_	Number=Plur|Person=3|PronType=Ind	5	subj@pass	_	wordform=plusieurs
 2	de	de	ADP	_	_	1	udep	_	_
 3	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	4	det	_	_
 4	propositions	proposition	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
