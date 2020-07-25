@@ -10050,7 +10050,7 @@
 4	découverte	découvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	à	à	ADP	_	_	2	mod	_	_
 6	1000	1000	NUM	_	_	7	det	_	_
-7	m	m	NOUN	_	Gender=Masc	5	comp:obj	_	_
+7	m	mètre	NOUN	_	Gender=Masc	5	comp:obj	_	_
 8	d'	de	ADP	_	_	7	udep	_	SpaceAfter=No
 9	altitude	altitude	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 10	dans	dans	ADP	_	_	2	mod	_	_

@@ -18687,7 +18687,7 @@
 4	jusqu'	jusque	ADP	_	_	3	comp:obj	_	SpaceAfter=No
 5	à	à	ADP	_	_	4	comp:obj	_	_
 6	2	2	NUM	_	_	7	det	_	SpaceAfter=No
-7	m	m	NOUN	_	Gender=Masc	5	comp:obj	_	_
+7	m	mètre	NOUN	_	Gender=Masc	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	voir	voire	SCONJ	_	Typo=Yes	11	cc	_	wordform=voire
@@ -27221,7 +27221,7 @@
 3	culmine	culminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	600	600	NUM	_	_	6	det	_	_
-6	m	m	NOUN	_	Gender=Masc	4	comp:obj	_	_
+6	m	mètre	NOUN	_	Gender=Masc	4	comp:obj	_	_
 7	sur	sur	ADP	_	_	3	mod	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
 9	site	site	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -33173,7 +33173,7 @@
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	placé	placer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	mod	_	_
 24	3	3	NUM	_	_	25	det	_	_
-25	m	m	NOUN	_	Gender=Masc	23	mod	_	_
+25	m	mètre	NOUN	_	Gender=Masc	23	mod	_	_
 26	sous	sous	ADP	_	_	23	mod	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	28	det	_	_
 28	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
@@ -35450,7 +35450,7 @@
 16	pour	pour	ADP	_	_	15	mod	_	_
 17	réaliser	réaliser	VERB	_	VerbForm=Inf	16	comp:obj	_	_
 18	5,80	5,80	NUM	_	_	19	det	_	_
-19	m	m	NOUN	_	Gender=Masc	17	comp:obj	_	SpaceAfter=No
+19	m	mètre	NOUN	_	Gender=Masc	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	33	punct	_	_
 21	mais	mais	CCONJ	_	_	33	cc	_	_
 22	comme	comme	SCONJ	_	_	33	mod	_	_
@@ -39964,7 +39964,7 @@
 20	Chabrières	Chabrières	PROPN	_	_	19	comp:obj	_	_
 21	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 22	2746	2746	NUM	_	_	23	det	_	_
-23	m	m	NOUN	_	Gender=Masc	18	mod	_	SpaceAfter=No
+23	m	mètre	NOUN	_	Gender=Masc	18	mod	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	à	à	ADP	_	_	3	conj	_	_
@@ -39977,7 +39977,7 @@
 33	Crévoux	Crévoux	PROPN	_	_	32	comp:obj	_	_
 34	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
 35	2644	2644	NUM	_	_	36	det	_	_
-36	m	m	NOUN	_	Gender=Masc	31	mod	_	SpaceAfter=No
+36	m	mètre	NOUN	_	Gender=Masc	31	mod	_	SpaceAfter=No
 37	)	)	PUNCT	_	_	36	punct	_	_
 38	et	et	CCONJ	_	_	40	cc	_	_
 39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	40	det	_	_
@@ -39987,7 +39987,7 @@
 43	Eyssina	Eyssina	PROPN	_	_	41	comp:obj	_	_
 44	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
 45	2837	2837	NUM	_	_	46	det	_	_
-46	m	m	NOUN	_	Gender=Masc	40	mod	_	SpaceAfter=No
+46	m	mètre	NOUN	_	Gender=Masc	40	mod	_	SpaceAfter=No
 47	)	)	PUNCT	_	_	46	punct	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	50	punct	_	_
 49	et	et	CCONJ	_	_	50	cc	_	_
@@ -40001,7 +40001,7 @@
 56	Parpaillon	Parpaillon	PROPN	_	_	53	comp:obj	_	_
 57	(	(	PUNCT	_	_	59	punct	_	SpaceAfter=No
 58	2990	2990	NUM	_	_	59	det	_	_
-59	m	m	NOUN	_	Gender=Masc	56	mod	_	SpaceAfter=No
+59	m	mètre	NOUN	_	Gender=Masc	56	mod	_	SpaceAfter=No
 60	)	)	PUNCT	_	_	59	punct	_	_
 61	et	et	CCONJ	_	_	63	cc	_	_
 62	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	63	det	_	SpaceAfter=No
@@ -40011,7 +40011,7 @@
 66	Ratelle	Ratelle	PROPN	_	_	64	comp:obj	_	_
 67	(	(	PUNCT	_	_	69	punct	_	SpaceAfter=No
 68	2572	2572	NUM	_	_	69	det	_	_
-69	m	m	NOUN	_	Gender=Masc	63	mod	_	SpaceAfter=No
+69	m	mètre	NOUN	_	Gender=Masc	63	mod	_	SpaceAfter=No
 70	)	)	PUNCT	_	_	69	punct	_	SpaceAfter=No
 71	.	.	PUNCT	_	_	3	punct	_	_
 
