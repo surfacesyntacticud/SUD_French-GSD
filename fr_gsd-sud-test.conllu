@@ -5041,7 +5041,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	près	près	ADV	_	_	5	comp:pred	_	_
+6	près	près	ADV	_	_	5	comp:pred	_	ExtPos=PRON
 7	d'	de	ADP	_	_	6	comp:obl	_	SpaceAfter=No
 8	une	une	NUM	_	_	9	det	_	_
 9	centaine	centaine	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
