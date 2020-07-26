@@ -5515,7 +5515,7 @@
 9	personne	personne	NOUN	_	Gender=Fem|Number=Sing	10	subj	_	_
 10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 11	consacrer	consacrer	VERB	_	VerbForm=Inf	10	comp:obj@x	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	comp:obj	_	ExtPos=ADV|PhraseType=Idiom
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
 13	plus	plus	ADV	_	_	12	unk	_	InIdiom=Yes
 14	de	de	ADP	_	_	12	udep	_	_
 15	temps	temps	NOUN	_	Gender=Masc	14	comp:obj	_	_
@@ -10418,7 +10418,7 @@
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	équilibré	équilibrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 7	pour	pour	ADP	_	_	3	mod	_	_
-8	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
+8	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
 9	grand	grand	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	InIdiom=Yes
 10	chose	chose	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
 11	!	!	PUNCT	_	_	3	punct	_	_
@@ -16808,7 +16808,7 @@
 29	septentrionales	septentrional	ADJ	_	Gender=Fem|Number=Plur	28	mod	_	_
 30	qui	qui	PRON	_	PronType=Rel	31	subj	_	_
 31	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	mod@relcl	_	_
-32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	31	comp:obj	_	ExtPos=ADV|PhraseType=Idiom
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	31	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
 33	plus	plus	NOUN	_	Gender=Masc	32	unk	_	InIdiom=Yes
 34	de	de	ADP	_	_	32	udep	_	_
 35	lecteurs	lecteur	NOUN	_	Gender=Masc|Number=Plur	34	comp:obj	_	_
