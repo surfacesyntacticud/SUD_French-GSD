@@ -1239,7 +1239,7 @@
 19	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	1	punct	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	24	det	_	_
-22	8	8	NUM	_	_	24	det	_	_
+22	8	8	NUM	_	_	24	mod	_	_
 23	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	24	mod	_	_
 24	épisodes	épisode	NOUN	_	Gender=Masc|Number=Plur	29	subj	_	_
 25	de	de	ADP	_	_	24	udep	_	_
@@ -4051,7 +4051,7 @@
 20	et	et	CCONJ	_	_	21	cc	_	_
 21	Jorge	Jorge	PROPN	_	_	18	conj	_	_
 22	Lorenzo	Lorenzo	PROPN	_	_	21	flat@name	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	25	punct	_	_
+23	,	,	PUNCT	_	_	26	punct	_	_
 24	tous	tout	ADJ	_	Gender=Masc|Number=Plur	25	mod	_	_
 25	deux	deux	NUM	_	_	26	mod	_	_
 26	sur	sur	ADP	_	Shared=Yes	21	udep	_	_
@@ -6218,9 +6218,9 @@
 6	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
-9	pas	pas	ADV	_	_	0	root	_	ExtPos=PRON|PhraseType=Idiom
-10	grand	grand	ADJ	_	Gender=Masc|Number=Sing	9	unk	_	InIdiom=Yes
-11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	unk	_	ExtPos=PRON|InIdiom=Yes|PhraseType=Idiom|SpaceAfter=No
+9	pas	pas	ADV	_	Polarity=Neg	0	root	_	_
+10	grand	grand	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	InIdiom=Yes
+11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	9	udep	_	ExtPos=PRON|InIdiom=Yes|PhraseType=Idiom|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	avec	avec	ADP	_	_	9	udep	_	_
 14	beaucoup	beaucoup	ADV	_	_	13	comp:obj	_	ExtPos=PRON
