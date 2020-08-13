@@ -10322,7 +10322,7 @@
 28	hébraïque	hébraïque	ADJ	_	Number=Sing	27	mod	_	_
 29	et	et	CCONJ	_	_	32	cc	_	_
 30	non	non	ADV	_	_	31	mod	_	_
-31	pas	pas	ADV	_	_	32	mod	_	_
+31	pas	pas	ADV	_	Polarity=Neg	32	mod	_	_
 32	grecque	grec	ADJ	_	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -19991,7 +19991,7 @@
 17	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Person=3|PronType=Neg	18	det	_	_
 18	catégorisation	catégorisation	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	15	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	pas	pas	ADV	_	_	18	conj	_	ExtPos=PRON
+20	pas	pas	ADV	_	Polarity=Neg	18	conj	_	ExtPos=PRON
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 23	ni	ni	CCONJ	_	_	24	cc	_	_

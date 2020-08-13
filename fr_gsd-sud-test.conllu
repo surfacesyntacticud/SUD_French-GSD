@@ -1096,7 +1096,7 @@
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 12	touché	toucher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
-13	pas	pas	ADV	_	_	14	mod	_	_
+13	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 14	moins	moins	ADV	_	_	12	comp:obj	_	ExtPos=PRON
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	174	174	NUM	_	_	17	det	_	_
@@ -1496,7 +1496,7 @@
 5	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
 7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	pas	pas	ADV	_	_	7	mod	_	_
+8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	comme	comme	SCONJ	_	_	7	comp:pred	_	_
 10	aujourd'hui	aujourd'hui	ADV	_	_	9	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
