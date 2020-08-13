@@ -14838,7 +14838,7 @@
 4	de	de	ADP	_	_	3	comp:obj@agent	_	_
 5	voler	voler	VERB	_	VerbForm=Inf	4	comp:obj	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	7	det	_	_
-7	gens	gens	NOUN	_	Gender=Masc	5	comp:obj	_	_
+7	gens	gens	NOUN	_	Number=Plur	5	comp:obj	_	_
 8	ainsi	ainsi	ADV	_	_	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	_
