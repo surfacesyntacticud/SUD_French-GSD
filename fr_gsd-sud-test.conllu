@@ -1573,7 +1573,7 @@
 # text = A chaque fois qu'il sent la pression, le Makhzen appelle quelqu'un à son secours.
 1	A	à	ADP	_	_	12	mod	_	wordform=à
 2	chaque	chaque	DET	_	Number=Sing|Person=3|PronType=Ind	3	det	_	_
-3	fois	fois	NOUN	_	Gender=Masc	1	comp:obj	_	_
+3	fois	fois	NOUN	_	Gender=Fem	1	comp:obj	_	_
 4	qu'	que	SCONJ	_	_	3	udep	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	sent	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
@@ -6967,7 +6967,7 @@
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	2	2	NUM	_	_	6	det	_	_
-6	fois	fois	NOUN	_	Gender=Masc	3	mod	_	_
+6	fois	fois	NOUN	_	Gender=Fem	3	mod	_	_
 7	à	à	ADP	_	_	3	mod	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	9	det	_	_
 9	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
