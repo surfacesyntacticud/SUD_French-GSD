@@ -354,7 +354,7 @@
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	25	det	_	_
 25	pape	pape	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
 26	que	que	PRON	_	PronType=Rel	28	comp:obj	_	_
-27	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	28	subj	_	_
+27	vous	il	PRON	_	Person=2|PronType=Prs	28	subj	_	_
 28	évoquez	évoquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -397,7 +397,7 @@
 6	de	de	ADP	_	_	4	udep	_	_
 7	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 8	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
-9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	subj	_	_
+9	vous	il	PRON	_	Person=2|PronType=Prs	10	subj	_	_
 10	observerez	observer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	10	comp:obj	_	_
 12	l'	l'	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	14	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
@@ -802,7 +802,7 @@
 8	largement	largement	ADV	_	_	7	mod	_	_
 9	autour	autour	ADV	_	_	6	mod	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
-11	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	10	comp:obj	_	_
+11	vous	lui	PRON	_	Person=2|PronType=Prs	10	comp:obj	_	_
 12	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00029
@@ -1333,7 +1333,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	si	si	SCONJ	_	_	1	mod	_	_
 6	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	_
-7	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	8	comp:obl	_	_
+7	vous	lui	PRON	_	Person=2|PronType=Prs	8	comp:obl	_	_
 8	suffit	suffire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 9	pour	pour	ADP	_	_	8	mod	_	_
 10	aujourd'hui	aujourd'hui	ADV	_	_	9	comp:obj	_	SpaceAfter=No
@@ -2928,7 +2928,7 @@
 # sent_id = fr-ud-test_00099
 # text = Quand vous avez l'opportunité de camper un personnage plusieurs fois, vous développez une relation très profonde avec lui.
 1	Quand	quand	SCONJ	_	_	14	mod	_	wordform=quand
-2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Person=2|PronType=Prs	3	subj	_	_
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	5	det	_	SpaceAfter=No
 5	opportunité	opportunité	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -2939,7 +2939,7 @@
 10	plusieurs	plusieurs	DET	_	Number=Plur|Person=3|PronType=Ind	11	det	_	_
 11	fois	fois	NOUN	_	Gender=Fem	7	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
-13	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	14	subj	_	_
+13	vous	il	PRON	_	Person=2|PronType=Prs	14	subj	_	_
 14	développez	développer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	16	det	_	_
 16	relation	relation	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
@@ -3274,7 +3274,7 @@
 10	:	:	PUNCT	_	_	14	punct	_	_
 11	«	«	PUNCT	_	_	14	punct	_	_
 12	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	14	subj	_	_
-13	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	15	comp:obj	_	_
+13	vous	le	PRON	_	Person=2|PronType=Prs	15	comp:obj	_	_
 14	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
 15	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	longtemps	longtemps	ADV	_	_	15	mod	_	SpaceAfter=No
@@ -4498,7 +4498,7 @@
 # text = Comment repoussez vous les bateaux d'immigrés dans les eaux internationales ?
 1	Comment	comment	ADV	_	_	2	mod	_	wordform=comment
 2	repoussez	repousser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
+3	vous	il	PRON	_	Person=2|PronType=Prs	2	subj	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	5	det	_	_
 5	bateaux	bateau	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 6	d'	de	ADP	_	_	5	udep	_	SpaceAfter=No
@@ -5477,7 +5477,7 @@
 # text = Cependant, vous êtes invités à respecter un certain nombre de critères.
 1	Cependant	cependant	ADV	_	_	4	mod	_	SpaceAfter=No|wordform=cependant
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj@pass	_	_
+3	vous	il	PRON	_	Person=2|PronType=Prs	4	subj@pass	_	_
 4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	invités	inviter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
 6	à	à	ADP	_	_	5	comp:obl@x	_	_
@@ -6129,7 +6129,7 @@
 12	toujours	toujours	ADV	_	_	11	mod	_	_
 13	là	là	ADV	_	_	11	mod	_	_
 14	pour	pour	ADP	_	_	11	mod	_	_
-15	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	16	comp:obj	_	_
+15	vous	le	PRON	_	Person=2|PronType=Prs	16	comp:obj	_	_
 16	aider	aider	VERB	_	VerbForm=Inf	14	comp:obj	_	_
 17	à	à	ADP	_	_	16	comp:obl@x	_	_
 18	trouver	trouver	VERB	_	VerbForm=Inf	17	comp:obj	_	_
@@ -6142,7 +6142,7 @@
 25	vraiment	vraiment	ADV	_	_	24	mod	_	_
 26	excellente	excellent	ADJ	_	Gender=Fem|Number=Sing	24	comp:pred	_	_
 27	et	et	CCONJ	_	_	29	cc	_	_
-28	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	29	subj	_	_
+28	vous	il	PRON	_	Person=2|PronType=Prs	29	subj	_	_
 29	passez	passer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	conj	_	_
 30	toujours	toujours	ADV	_	_	29	mod	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	33	det	_	_
@@ -6151,7 +6151,7 @@
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	essayez	essayer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 36	et	et	CCONJ	_	_	39	cc	_	_
-37	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	39	subj	_	_
+37	vous	il	PRON	_	Person=2|PronType=Prs	39	subj	_	_
 38	y	y	PRON	_	Person=3|PronType=Prs	39	comp:obl	_	_
 39	retournerez	retourner	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	35	conj	_	SpaceAfter=No
 40	...	...	PUNCT	_	_	3	punct	_	_
@@ -6371,7 +6371,7 @@
 7	maréchaux	maréchal	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	4	udep	_	_
 9	nancy	Nancy	PROPN	_	Typo=Yes	8	comp:obj	_	wordform=Nancy
-10	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	11	comp:obl	_	_
+10	vous	lui	PRON	_	Person=2|PronType=Prs	11	comp:obl	_	_
 11	permettra	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 12	sans	sans	ADP	_	_	11	mod	_	ExtPos=ADV|PhraseType=Idiom
 13	doute	doute	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	InIdiom=Yes
@@ -6756,7 +6756,7 @@
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	formés	former	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	à	à	ADP	_	_	3	comp:obl@x	_	_
-5	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obj	_	_
+5	vous	le	PRON	_	Person=2|PronType=Prs	6	comp:obj	_	_
 6	arnaquer	arnaquer	VERB	_	VerbForm=Inf	4	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -7428,7 +7428,7 @@
 6	de	de	ADP	_	_	5	udep	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
 8	destockage	destockage	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-9	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	10	comp:obl	_	_
+9	vous	lui	PRON	_	Person=2|PronType=Prs	10	comp:obl	_	_
 10	assure	assurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	12	det	_	_
 12	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -7518,7 +7518,7 @@
 2	contre	contre	NOUN	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	si	si	SCONJ	_	_	8	mod	_	_
-5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
+5	vous	il	PRON	_	Person=2|PronType=Prs	6	subj	_	_
 6	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	6	comp:pred	_	_
 8	passez	passer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7789,7 +7789,7 @@
 # sent_id = fr-ud-test_00283
 # text = Si vous avez le malheur d'y déjeuner lorsque les patrons sont absents vous aurez droit au pire du pire.
 1	Si	si	SCONJ	_	_	15	mod	_	wordform=si
-2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Person=2|PronType=Prs	3	subj	_	_
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
 5	malheur	malheur	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -7801,7 +7801,7 @@
 11	patrons	patron	NOUN	_	Gender=Masc|Number=Plur	12	subj	_	_
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 13	absents	absent	ADJ	_	Gender=Masc|Number=Plur	12	comp:pred	_	_
-14	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	15	subj	_	_
+14	vous	il	PRON	_	Person=2|PronType=Prs	15	subj	_	_
 15	aurez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 16	droit	droit	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@lvc	_	_
 17-18	au	_	_	_	_	_	_	_	_
@@ -7817,7 +7817,7 @@
 # sent_id = fr-ud-test_00284
 # text = Si vous souhaitez régaler "vos papilles" n'hésitez surtout pas !
 1	Si	si	SCONJ	_	_	10	mod	_	wordform=si
-2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Person=2|PronType=Prs	3	subj	_	_
 3	souhaitez	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	régaler	régaler	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
 5	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
