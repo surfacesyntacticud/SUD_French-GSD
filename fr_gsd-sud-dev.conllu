@@ -30087,7 +30087,7 @@
 39	à	à	ADP	_	_	38	comp:obl@x	_	_
 40	obtenir	obtenir	VERB	_	VerbForm=Inf	39	comp:obj	_	_
 41	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	40	comp:obj	_	_
-42	qu'	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	44	comp:obj	_	SpaceAfter=No
+42	qu'	que	PRON	_	PronType=Rel	44	comp:obj	_	SpaceAfter=No
 43	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	subj	_	_
 44	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	mod@relcl	_	_
 45	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	47	det	_	SpaceAfter=No
@@ -35584,7 +35584,7 @@
 22	toujours	toujours	ADV	_	_	23	mod	_	_
 23	blessé	blessé	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
 24	et	et	CCONJ	_	_	27	cc	_	_
-25	qui	qui	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	subj	_	_
+25	qui	qui	PRON	_	PronType=Rel	27	subj	_	_
 26	n'	ne	ADV	_	Polarity=Neg	27	mod	_	SpaceAfter=No
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
 28	repris	reprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
