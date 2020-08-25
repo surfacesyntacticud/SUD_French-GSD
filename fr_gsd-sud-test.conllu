@@ -1493,7 +1493,7 @@
 2	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	3	det	_	_
 3	sixties	sixties	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
+5	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	7	subj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
 7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
@@ -1691,7 +1691,7 @@
 17	qui	qui	PRON	_	PronType=Rel	18	subj	_	_
 18	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
 19	tout	tout	ADJ	_	Gender=Masc|Number=Sing	20	mod	_	_
-20	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	comp:obj	_	_
+20	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	18	comp:obj	_	_
 21	qu'	que	PRON	_	PronType=Rel	23	comp:obj	_	SpaceAfter=No
 22	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	23	subj	_	_
 23	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
@@ -1866,7 +1866,7 @@
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	16	det	_	_
 16	reniement	reniement	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
-18	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	comp:obj	_	_
+18	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	17	comp:obj	_	_
 19	que	que	PRON	_	PronType=Rel	22	comp:pred	_	_
 20	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	21	subj	_	_
 21	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
@@ -2377,7 +2377,7 @@
 12	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	13	det	_	SpaceAfter=No
 13	admiration	admiration	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	de	de	ADP	_	_	13	udep	_	_
-15	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	comp:obj	_	_
+15	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	14	comp:obj	_	_
 16	qui	qui	PRON	_	PronType=Rel	18	subj	_	_
 17	n'	ne	ADV	_	Polarity=Neg	18	mod	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
@@ -3584,7 +3584,7 @@
 7	de	de	ADP	_	_	6	udep	_	_
 8	téléphonistes	téléphoniste	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	parataxis	_	_
+10	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	4	parataxis	_	_
 11	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
 12	équivaut	équivaloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 13-14	au	_	_	_	_	_	_	_	_
@@ -5039,7 +5039,7 @@
 1	En	en	ADP	_	_	5	mod	_	ExtPos=ADV|PhraseType=Idiom|wordform=en
 2	tout	tout	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
+4	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	5	subj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	près	près	ADV	_	_	5	comp:pred	_	ExtPos=PRON
 7	d'	de	ADP	_	_	6	comp:obl	_	SpaceAfter=No
@@ -5779,7 +5779,7 @@
 6	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
-9	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	conj	_	_
+9	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	3	conj	_	_
 10	malgré	malgré	ADP	_	_	9	udep	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	12	det	_	_
 12	déclaration	déclaration	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -5820,7 +5820,7 @@
 16	ne	ne	ADV	_	Polarity=Neg	17	mod	_	_
 17	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
 18	pas	pas	ADV	_	Polarity=Neg	17	mod	_	_
-19	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	comp:obj	_	_
+19	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	17	comp:obj	_	_
 20	que	que	PRON	_	PronType=Rel	22	comp:pred	_	_
 21	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	subj	_	SpaceAfter=No
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
@@ -7134,7 +7134,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	18	det	_	_
 18	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	parataxis	_	_
+20	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	10	parataxis	_	_
 21	qui	qui	PRON	_	PronType=Rel	23	subj	_	_
 22	ne	ne	ADV	_	Polarity=Neg	23	mod	_	_
 23	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
@@ -7760,7 +7760,7 @@
 # sent_id = fr-ud-test_00282
 # text = Que ce soit à titre professionnel (pour ma société) ou à titre personnel pour moi, je vais chez Bureau Vallée Toulouse Montaudran.
 1	Que	que	SCONJ	_	_	20	mod	_	wordform=que
-2	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
+2	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	3	subj	_	_
 3	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	à	à	ADP	_	_	3	comp:pred	_	_
 5	titre	titre	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
@@ -8696,7 +8696,7 @@
 19	«	«	PUNCT	_	_	21	punct	_	_
 20	qu'	que	PRON	_	Person=3|PronType=Int	21	comp:pred	_	SpaceAfter=No
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
-22	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	subj@expl	_	_
+22	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	21	subj@expl	_	_
 23	que	que	PRON	_	PronType=Rel	25	comp:obj	_	_
 24	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	25	subj	_	_
 25	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	comp:cleft	_	_
@@ -8850,7 +8850,7 @@
 # text = Si, ce qui est probable, le Premier ministre grec va au bout de sa décision et que ses compatriotes rejettent le plan de sauvetage financier européen, la sortie de leur pays de la zone Euro en sera inéluctable et, par effet induit, l'éclatement de celle-ci.
 1	Si	si	SCONJ	_	_	41	mod	_	SpaceAfter=No|wordform=si
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	parataxis	_	_
+3	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	12	parataxis	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 6	probable	probable	ADJ	_	Number=Sing	5	comp:pred	_	SpaceAfter=No
@@ -9693,7 +9693,7 @@
 25	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	26	det	_	_
 26	cas	cas	NOUN	_	Gender=Masc	24	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	20	punct	_	_
-28	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	29	subj@expl	_	_
+28	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	29	subj@expl	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	31	det	_	_
 31	dirigeants	dirigeant	NOUN	_	Gender=Masc|Number=Plur	29	comp:pred	_	_
@@ -10388,7 +10388,7 @@
 10	émotions	émotion	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	dire	dire	VERB	_	VerbForm=Inf	8	conj	_	_
-13	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	comp:obj	_	_
+13	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	12	comp:obj	_	_
 14	qu'	que	PRON	_	PronType=Rel	16	comp:obj	_	SpaceAfter=No
 15	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 16	ressent	ressentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
@@ -10724,7 +10724,7 @@
 34	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj	_	_
 35	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
 36	considérer	considérer	VERB	_	VerbForm=Inf	35	comp:obj@x	_	_
-37	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	36	comp:obj	_	_
+37	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	36	comp:obj	_	_
 38	que	que	PRON	_	PronType=Rel	40	comp:obj	_	_
 39	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	comp:obl	_	_
 40	rapportera	rapporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	mod@relcl	_	_
