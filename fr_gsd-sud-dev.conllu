@@ -11611,7 +11611,7 @@
 23	bains	bain	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
 24	et	et	CCONJ	_	_	26	cc	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	26	det	_	SpaceAfter=No
-26	autre	autre	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	conj	_	SpaceAfter=No
+26	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	18	conj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	plus	plus	ADV	_	_	29	mod	_	_
 29	audacieux	audacieux	ADJ	_	Gender=Masc	26	mod	_	SpaceAfter=No
@@ -13143,7 +13143,7 @@
 23	32	32	NUM	_	_	22	comp:obj	_	_
 24	et	et	CCONJ	_	_	26	cc	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	26	det	_	SpaceAfter=No
-26	autre	autre	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	conj	_	_
+26	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	21	conj	_	_
 27	de	de	ADP	_	_	26	udep	_	_
 28	14	14	NUM	_	_	29	det	_	_
 29	acides	acide	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
@@ -41134,7 +41134,7 @@
 5	part	part	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	InIdiom=Yes
 6	et	et	CCONJ	_	_	7	cc	_	InIdiom=Yes
 7	d'	de	ADP	_	_	4	conj	_	InIdiom=Yes|SpaceAfter=No
-8	autre	autre	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+8	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	det	_	_
 11	pilastre	pilastre	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
