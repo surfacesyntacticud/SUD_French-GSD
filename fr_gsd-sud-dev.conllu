@@ -3858,7 +3858,7 @@
 2	Graham	Graham	PROPN	_	_	1	flat@name	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
-5	chef	chef	NOUN	_	Number=Sing	3	comp:pred	_	_
+5	chef	chef	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
@@ -15946,7 +15946,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	chef	chef	NOUN	_	Number=Sing	6	comp:pred	_	_
+7	chef	chef	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	10	det	_	_
 10	section	section	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
@@ -22669,7 +22669,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	14	det	_	_
 12	plus	plus	ADV	_	_	13	mod	_	_
 13	jeune	jeune	ADJ	_	Number=Sing	14	mod	_	_
-14	chef	chef	NOUN	_	Number=Sing	10	comp:pred	_	_
+14	chef	chef	NOUN	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
 15	récompensé	récompenser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	mod	_	_
 16	par	par	ADP	_	_	15	mod	_	_
 17	deux	deux	NUM	_	_	18	det	_	_
@@ -23431,7 +23431,7 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	plusieurs	plusieurs	DET	_	Number=Plur|Person=3|PronType=Ind	13	det	_	_
 12	dangereux	dangereux	ADJ	_	Gender=Masc	13	mod	_	_
-13	chefs	chef	NOUN	_	Number=Plur	10	comp:obj	_	_
+13	chefs	chef	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 14	terroristes	terroriste	ADJ	_	Number=Plur	13	mod	_	_
 15	en	en	ADP	_	_	6	mod	_	_
 16	Algérie	Algérie	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
@@ -24446,7 +24446,7 @@
 2	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
-5	chef	chef	NOUN	_	Number=Sing	10	subj	_	_
+5	chef	chef	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	8	det	_	_
@@ -24538,7 +24538,7 @@
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	18	det	_	_
 18	lambel	lambel	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	en	en	ADP	_	_	18	udep	_	_
-20	chef	chef	NOUN	_	Number=Sing	19	comp:obj	_	_
+20	chef	chef	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 21	à	à	ADP	_	_	18	udep	_	_
 22	trois	trois	NUM	_	_	23	det	_	_
 23	pendants	pendant	NOUN	_	Gender=Masc|Number=Plur	21	comp:obj	_	SpaceAfter=No
@@ -28724,7 +28724,7 @@
 16	pour	pour	ADP	_	_	15	comp:obl	_	_
 17	commandant	commandant	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	en	en	ADP	_	_	17	udep	_	_
-19	chef	chef	NOUN	_	Number=Sing	18	comp:obj	_	_
+19	chef	chef	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	21	det	_	_
 21	général	général	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 22	de	de	ADP	_	_	21	udep	_	_
@@ -31482,7 +31482,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	3	det	_	_
 3	rédacteur	rédacteur	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	en	en	ADP	_	_	3	udep	_	_
-5	chef	chef	NOUN	_	Number=Sing	4	comp:obj	_	_
+5	chef	chef	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	conservateur	conservateur	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 7	Karl	Karl	PROPN	_	_	3	appos	_	_
 8	Heinz	Heinz	PROPN	_	_	7	flat@name	_	_
@@ -35261,7 +35261,7 @@
 11	gouvernementale	gouvernemental	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	3	punct	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	14	det	_	_
-14	chef	chef	NOUN	_	Number=Sing	18	subj	_	_
+14	chef	chef	NOUN	_	Gender=Masc|Number=Sing	18	subj	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	17	det	_	SpaceAfter=No
 17	État	état	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	wordform=état
@@ -35957,7 +35957,7 @@
 4	son	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	5	det	_	_
 5	rédacteur	rédacteur	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 6	en	en	ADP	_	_	5	udep	_	_
-7	chef	chef	NOUN	_	Number=Sing	6	comp:obj	_	_
+7	chef	chef	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	à	à	ADP	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 9	partir	partir	VERB	_	VerbForm=Inf	8	comp:obj	_	InIdiom=Yes
 10	de	de	ADP	_	_	8	comp:obl	_	_

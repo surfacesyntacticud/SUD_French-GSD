@@ -2207,7 +2207,7 @@
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	13	det	_	_
 12	deux	deux	NUM	_	_	13	mod	_	_
-13	chefs	chef	NOUN	_	Number=Plur	16	subj	_	_
+13	chefs	chef	NOUN	_	Gender=Masc|Number=Plur	16	subj	_	_
 14	d'	de	ADP	_	_	13	udep	_	SpaceAfter=No
 15	Etat	état	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	wordform=état
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5925,7 +5925,7 @@
 1	Pendant	pendant	ADP	_	_	44	mod	_	wordform=pendant
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	4	det	_	_
-4	Chef	chef	NOUN	_	Number=Sing	10	subj	_	wordform=chef
+4	Chef	chef	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	wordform=chef
 5	d'	de	ADP	_	_	4	udep	_	SpaceAfter=No
 6	Etat	état	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	wordform=état
 7	Major	major	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	wordform=major
@@ -9967,7 +9967,7 @@
 # sent_id = fr-ud-dev_01545
 # text = Le chef a ramené de ses années au Japon une cuisine extrêmement audacieuse tout en respectant parfaitement des produits de qualité, sans esbroufe ni artifices.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le
-2	chef	chef	NOUN	_	Number=Sing	3	subj	_	_
+2	chef	chef	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ramené	ramener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	de	de	ADP	_	_	4	mod	_	_
