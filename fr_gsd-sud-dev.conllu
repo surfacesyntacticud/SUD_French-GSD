@@ -18298,7 +18298,7 @@
 18	Christophe	Christophe	PROPN	_	_	15	conj	_	_
 19	Weber	Weber	PROPN	_	_	18	flat@name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	Sunset	Sunset	PROPN	_	_	10	appos	_	_
+21	Sunset	Sunset	PROPN	_	_	8	mod	_	_
 22	Presse	Presse	PROPN	_	_	21	flat@name	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	France	France	PROPN	_	_	21	mod	_	_
@@ -23595,7 +23595,7 @@
 # sent_id = fr-ud-dev_00854
 # text = L'enfant de 11 ans renversé jeudi soir par un fourgon de police à Argenteuil (Val d'Oise) et transporté à l'hôpital Necker de Paris, était toujours dans un « état préoccupant » ce vendredi, selon des sources concordantes.
 1	L'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
-2	enfant	enfant	NOUN	_	Number=Sing	30	subj	_	_
+2	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	30	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	11	11	NUM	_	_	5	det	_	_
 5	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
@@ -26692,7 +26692,7 @@
 19	à	à	ADP	_	_	18	mod	_	ExtPos=ADV|PhraseType=Idiom
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	21	det	_	InIdiom=Yes
 21	fois	fois	NOUN	_	Gender=Fem	19	comp:obj	_	InIdiom=Yes
-22	enfant	enfant	NOUN	_	Number=Sing	18	comp:pred	_	_
+22	enfant	enfant	NOUN	_	Gender=Fem|Number=Sing	18	comp:pred	_	_
 23	et	et	CCONJ	_	_	24	cc	_	_
 24	actrice	acteur	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	_
