@@ -10321,7 +10321,7 @@
 27	tradition	tradition	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 28	hébraïque	hébraïque	ADJ	_	Number=Sing	27	mod	_	_
 29	et	et	CCONJ	_	_	32	cc	_	_
-30	non	non	ADV	_	_	31	mod	_	_
+30	non	non	ADV	_	Polarity=Neg	31	mod	_	_
 31	pas	pas	ADV	_	Polarity=Neg	32	mod	_	_
 32	grecque	grec	ADJ	_	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	3	punct	_	_
@@ -16583,7 +16583,7 @@
 24	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	25	det	_	SpaceAfter=No
 25	appartenance	appartenance	NOUN	_	Gender=Fem|Number=Sing	34	subj	_	_
 26	ou	ou	CCONJ	_	_	27	cc	_	_
-27	non	non	ADV	_	_	25	conj	_	_
+27	non	non	ADV	_	Polarity=Neg	25	conj	_	_
 28	à	à	ADP	_	Shared=Yes	27	udep	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	30	det	_	SpaceAfter=No
 30	Europe	Europe	PROPN	_	_	28	comp:obj	_	_
@@ -28746,7 +28746,7 @@
 9	lors	lors	ADV	_	_	5	mod	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
 11	matchs	match	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
-12	non	non	ADV	_	_	13	mod	_	_
+12	non	non	ADV	_	Polarity=Neg	13	mod	_	_
 13	officiels	officiel	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
 14	:	:	PUNCT	_	_	16	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	16	det	_	_
@@ -32414,7 +32414,7 @@
 5	ailleurs	ailleurs	ADV	_	_	4	comp:obj	_	InIdiom=Yes
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	7	det	_	_
 7	fondement	fondement	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
-8	non	non	ADV	_	_	9	mod	_	_
+8	non	non	ADV	_	Polarity=Neg	9	mod	_	_
 9	négligeable	négligeable	ADJ	_	Number=Sing	7	mod	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	7	udep	_	_
@@ -32973,7 +32973,7 @@
 16	Bien	bien	ADV	_	_	17	mod	_	InIdiom=Yes|wordform=bien
 17	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	4	parataxis	_	ExtPos=ADV|PhraseType=Idiom
 18	que	que	SCONJ	_	_	17	comp:obj	_	_
-19	non	non	ADV	_	_	18	comp:obj	_	SpaceAfter=No
+19	non	non	ADV	_	Polarity=Neg	18	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01195
@@ -36564,7 +36564,7 @@
 # text = Elle est non commutative, et a donc deux fonctions inverses, qui pourraient être appelées la penta-racine et le penta-logarithme (analogues aux deux fonctions inverses pour l'élévation à une puissance : racine et logarithme).
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	non	non	ADV	_	_	4	mod	_	_
+3	non	non	ADV	_	Polarity=Neg	4	mod	_	_
 4	commutative	commutatif	ADJ	_	Gender=Fem|Number=Sing	2	comp:pred	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
@@ -37775,7 +37775,7 @@
 23	soupapes	soupape	NOUN	_	Gender=Fem|Number=Plur	21	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	28	punct	_	_
 25	et	et	CCONJ	_	_	28	cc	_	_
-26	non	non	ADV	_	_	28	mod	_	ExtPos=ADV|PhraseType=Idiom
+26	non	non	ADV	_	Polarity=Neg	28	mod	_	ExtPos=ADV|PhraseType=Idiom
 27	plus	plus	ADV	_	_	26	unk	_	InIdiom=Yes
 28-29	au	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	_	17	conj	_	_
@@ -38315,7 +38315,7 @@
 47	de	de	ADP	_	_	46	udep	_	_
 48	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	49	det	_	_
 49	territoires	territoire	NOUN	_	Gender=Masc|Number=Plur	47	comp:obj	_	_
-50	non	non	ADV	_	_	51	mod	_	_
+50	non	non	ADV	_	Polarity=Neg	51	mod	_	_
 51	autonomes	autonome	ADJ	_	Number=Plur	49	mod	_	SpaceAfter=No
 52	.	.	PUNCT	_	_	6	punct	_	_
 
