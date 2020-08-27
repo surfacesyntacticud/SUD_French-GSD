@@ -7711,11 +7711,11 @@
 28	organismes	organisme	NOUN	_	Gender=Masc|Number=Plur	25	comp:obj@agent	_	_
 29	internationaux	international	ADJ	_	Gender=Masc|Number=Plur	28	mod	_	_
 30	qui	qui	PRON	_	PronType=Rel	32	subj	_	_
-31	leur	lui	PRON	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=3|PronType=Prs	32	comp:obl	_	_
+31	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	32	comp:obl	_	_
 32	offre	offrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	34	det	_	_
 34	document	document	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	_
-35	leur	lui	PRON	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=3|PronType=Prs	36	comp:obl	_	_
+35	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	36	comp:obl	_	_
 36	permettant	permettre	VERB	_	Tense=Pres|VerbForm=Part	34	mod	_	_
 37	de	de	ADP	_	_	36	comp:obj@x	_	_
 38	quitter	quitter	VERB	_	VerbForm=Inf	37	comp:obj	_	_
@@ -8695,7 +8695,7 @@
 26	appareillage	appareillage	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
 27	que	que	PRON	_	PronType=Rel	30	comp:obj	_	_
 28	Priore	Priore	PROPN	_	_	30	subj	_	_
-29	leur	lui	PRON	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=3|PronType=Prs	30	comp:obl	_	_
+29	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	30	comp:obl	_	_
 30	décrit	décrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	_
 31	confusément	confusément	ADV	_	_	30	mod	_	_
 32	dans	dans	ADP	_	_	30	mod	_	_
@@ -9548,7 +9548,7 @@
 22	que	que	PRON	_	Person=3|PronType=Int	26	comp:obj	_	_
 23	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
 24	-vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	23	subj	_	wordform=vous
-25	leur	lui	PRON	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=3|PronType=Prs	26	comp:obl	_	_
+25	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	26	comp:obl	_	_
 26	apporter	apporter	VERB	_	VerbForm=Inf	23	comp:obj@x	_	_
 27	?	?	PUNCT	_	_	23	punct	_	SpaceAfter=No
 28	"	"	PUNCT	_	_	15	punct	_	_
