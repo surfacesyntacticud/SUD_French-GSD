@@ -6219,7 +6219,7 @@
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
 9	pas	pas	ADV	_	Polarity=Neg	0	root	_	_
-10	grand	grand	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	InIdiom=Yes
+10	grand	grand	ADJ	_	Number=Sing	11	mod	_	InIdiom=Yes
 11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	9	udep	_	ExtPos=PRON|InIdiom=Yes|PhraseType=Idiom|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	avec	avec	ADP	_	_	9	udep	_	_
