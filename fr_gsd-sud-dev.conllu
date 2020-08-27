@@ -1721,7 +1721,7 @@
 20	n'	ne	ADV	_	Polarity=Neg	22	mod	_	InIdiom=Yes|SpaceAfter=No
 21	en	en	PRON	_	Person=3|PronType=Prs	22	comp	_	InIdiom=Yes
 22	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
-23	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	22	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+23	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|PronType=Neg	22	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 24	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-dev_00065
@@ -5914,7 +5914,7 @@
 16	films	film	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	mais	mais	CCONJ	_	_	19	cc	_	_
-19	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	8	conj	_	_
+19	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|PronType=Neg	8	conj	_	_
 20	de	de	ADP	_	_	19	mod	_	_
 21	bien	bien	ADV	_	_	22	mod	_	_
 22	convaincant	convaincant	ADJ	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
@@ -7600,7 +7600,7 @@
 9	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 10	ne	ne	ADV	_	Polarity=Neg	11	mod	_	_
 11	gâte	gâter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
-12	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	11	comp:obj	_	SpaceAfter=No
+12	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|PronType=Neg	11	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00271
@@ -26536,7 +26536,7 @@
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	12	det	_	_
 12	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	9	appos	_	_
+14	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|PronType=Neg	9	appos	_	_
 15	de	de	ADP	_	_	14	mod	_	ExtPos=ADV|PhraseType=Idiom
 16	plus	plus	ADV	_	_	15	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
