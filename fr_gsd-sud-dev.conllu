@@ -2490,7 +2490,7 @@
 
 # sent_id = fr-ud-dev_00091
 # text = Vous êtes abonné au site ?
-1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	wordform=vous
+1	Vous	il	PRON	_	Person=2|PronType=Prs	2	subj	_	wordform=vous
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	abonné	abonner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4-5	au	_	_	_	_	_	_	_	_
@@ -5923,7 +5923,7 @@
 
 # sent_id = fr-ud-dev_00215
 # text = Vous n'avez qu'à apporter vos valises, tout est pensé pour un séjour des plus agréable.
-1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	wordform=vous
+1	Vous	il	PRON	_	Person=2|PronType=Prs	3	subj	_	wordform=vous
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	que	ADV	_	_	5	mod	_	SpaceAfter=No
@@ -19188,7 +19188,7 @@
 
 # sent_id = fr-ud-dev_00690
 # text = Vous vouliez visiter le Mont Rushmore et vous vous êtes égarés ?...
-1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	wordform=vous
+1	Vous	il	PRON	_	Person=2|PronType=Prs	2	subj	_	wordform=vous
 2	vouliez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	visiter	visiter	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	5	det	_	_
@@ -39747,7 +39747,7 @@
 
 # sent_id = fr-ud-dev_01432
 # text = Vous êtes quelques uns à ne pas avoir pu suivre l'actualité sur iPhoneAddict.fr au jour le jour.
-1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	wordform=vous
+1	Vous	il	PRON	_	Person=2|PronType=Prs	2	subj	_	wordform=vous
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	quelques	quelque	DET	_	Number=Plur|Person=3|PronType=Ind	4	det	_	InIdiom=Yes
 4	uns	un	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	2	comp:pred	_	ExtPos=PRON|PhraseType=Idiom
