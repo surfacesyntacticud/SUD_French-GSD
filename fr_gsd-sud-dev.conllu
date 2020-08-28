@@ -4438,7 +4438,7 @@
 
 # sent_id = fr-ud-dev_00163
 # text = Ce sont des virus de petite taille (20 à 30 nm).
-1	Ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=ce
+1	Ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	2	subj	_	wordform=ce
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	4	det	_	_
 4	virus	virus	NOUN	_	Gender=Masc	2	comp:pred	_	_
@@ -12989,7 +12989,7 @@
 
 # sent_id = fr-ud-dev_00469
 # text = Ce sont Charles Barkley, Karl Malone, Scottie Pippen, David Robinson et John Stockton.
-1	Ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=ce
+1	Ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	2	subj	_	wordform=ce
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Charles	Charles	PROPN	_	_	2	comp:pred	_	_
 4	Barkley	Barkley	PROPN	_	_	3	flat@name	_	SpaceAfter=No
@@ -23169,7 +23169,7 @@
 
 # sent_id = fr-ud-dev_00842
 # text = Ce sont également des sources d'hommes lettrés, capables de servir au mieux la couronne et ses besoins administratifs.
-1	Ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=ce
+1	Ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	2	subj	_	wordform=ce
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	également	également	ADV	_	_	2	mod	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	5	det	_	_
@@ -28360,7 +28360,7 @@
 19	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	ne	ne	ADV	_	Polarity=Neg	22	mod	_	_
 21	se	se	PRON	_	Person=3|PronType=Prs	22	comp	_	InIdiom=Yes
-22	préoccupe	préoccuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	14	comp:obj	_	ExtPos=VERB|PhraseType=Idiom|wordform=préoccupent
+22	préoccupe	préoccuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	14	comp:obj	_	CorrectNumber=Plur|ExtPos=VERB|PhraseType=Idiom|wordform=préoccupent
 23	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	22	comp:obl	_	_
@@ -30283,7 +30283,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	santé	santé	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	SpaceAfter=No
-6	oblige	obliger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	wordform=obligent
+6	oblige	obliger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectNumber=Plur|wordform=obligent
 7	à	à	ADP	_	_	6	comp:obl@x	_	_
 8	s'	se	PRON	_	Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
 9	installer	installer	VERB	_	VerbForm=Inf	7	comp:obj	_	_
@@ -36618,7 +36618,7 @@
 10	de	de	ADP	_	_	8	udep	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	12	det	_	_
 12	ville	ville	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	6	comp:obj	_	wordform=datent
+13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	6	comp:obj	_	CorrectNumber=Plur|wordform=datent
 14	d'	de	ADP	_	_	13	mod	_	SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
 16	y	y	PRON	_	Person=3|PronType=Prs	17	comp	_	InIdiom=Yes
