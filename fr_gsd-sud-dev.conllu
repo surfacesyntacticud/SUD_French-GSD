@@ -6132,7 +6132,7 @@
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	aussi	aussi	ADV	_	_	12	mod	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Art	15	det	_	_
-15	auteur	auteur	NOUN	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
+15	auteur	auteur	NOUN	_	Gender=Fem|Number=Sing	12	comp:pred	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 18	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
@@ -10477,26 +10477,26 @@
 4	plusieurs	plusieurs	DET	_	Number=Plur|Person=3|PronType=Ind	5	det	_	_
 5	adresses	adresse	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 6	:	:	PUNCT	_	_	8	punct	_	_
-7	2	2	NUM	_	Gender=Masc|Number=Sing	8	det	_	_
-8	rue	rue	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
+7	2	2	NUM	_	Gender=Masc|Number=Sing	5	appos	_	_
+8	rue	rue	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	det	_	_
 11	Helder	Helder	PROPN	_	_	9	comp:obj	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	_
-13	2	2	NUM	_	Gender=Masc|Number=Sing	14	det	_	_
-14	rue	rue	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	2	2	NUM	_	Gender=Masc|Number=Sing	7	conj	_	_
+14	rue	rue	NOUN	_	Gender=Fem|Number=Sing	13	mod	_	_
 15	Drouot	Drouot	PROPN	_	_	14	appos	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	18	punct	_	_
-17	30	30	NUM	_	Gender=Masc|Number=Sing	18	det	_	_
-18	rue	rue	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	30	30	NUM	_	Gender=Masc|Number=Sing	13	conj	_	_
+18	rue	rue	NOUN	_	Gender=Fem|Number=Sing	17	mod	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	Gramont	Gramont	PROPN	_	_	19	comp:obj	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	_
-22	1	1	NUM	_	Gender=Masc|Number=Sing	23	det	_	_
-23	rue	rue	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	1	1	NUM	_	Gender=Masc|Number=Sing	17	conj	_	_
+23	rue	rue	NOUN	_	Gender=Fem|Number=Sing	22	mod	_	_
 24	Scribe	Scribe	PROPN	_	_	23	appos	_	_
-25	à	à	ADP	_	_	5	mod	_	ExtPos=ADV|PhraseType=Idiom
+25	à	à	ADP	_	_	3	mod	_	ExtPos=ADV|PhraseType=Idiom
 26	partir	partir	VERB	_	VerbForm=Inf	25	comp:obj	_	InIdiom=Yes
 27	de	de	ADP	_	_	25	comp:obl	_	_
 28	1863	1863	NUM	_	_	27	comp:obj	_	_
@@ -30123,7 +30123,7 @@
 
 # sent_id = fr-ud-dev_01085
 # text = Située sur le fuseau horaire UTC +14, c'est le premier endroit habité à débuter un jour civil.
-1	Située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	mod	_	wordform=située
+1	Située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	wordform=située
 2	sur	sur	ADP	_	_	1	mod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	4	det	_	_
 4	fuseau	fuseau	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
