@@ -1846,7 +1846,7 @@
 10	algérienne	algérien	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 11	à	à	ADP	_	_	8	udep	_	_
 12	23	23	NUM	_	Number=Plur	13	det	_	_
-13	km	km	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
+13	km	km	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	à	à	ADP	_	_	13	udep	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	16	det	_	SpaceAfter=No
 16	ouest	ouest	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
@@ -2221,8 +2221,8 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	à	à	ADP	_	_	10	udep	_	_
 18	20	20	NUM	_	Number=Plur	19	det	_	SpaceAfter=No
-19	h	heure	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
-20	30	30	NUM	_	_	19	mod	_	_
+19	h	heure	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	SpaceAfter=No
+20	30	30	NUM	_	Number=Plur	19	mod	_	_
 21	;	;	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00083
@@ -8634,7 +8634,7 @@
 5	4	4	NUM	_	_	4	mod	_	_
 6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 7	109,5	109,5	NUM	_	Number=Plur	8	det	_	_
-8	km	km	NOUN	_	Gender=Masc|Number=Sing	1	mod	_	SpaceAfter=No
+8	km	km	NOUN	_	Gender=Masc|Number=Plur	1	mod	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-dev_00310
@@ -10477,23 +10477,23 @@
 4	plusieurs	plusieurs	DET	_	Number=Plur|Person=3|PronType=Ind	5	det	_	_
 5	adresses	adresse	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 6	:	:	PUNCT	_	_	8	punct	_	_
-7	2	2	NUM	_	Number=Plur	8	det	_	_
+7	2	2	NUM	_	Gender=Masc|Number=Sing	8	det	_	_
 8	rue	rue	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	det	_	_
 11	Helder	Helder	PROPN	_	_	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
-13	2	2	NUM	_	Number=Plur	14	det	_	_
+13	2	2	NUM	_	Gender=Masc|Number=Sing	14	det	_	_
 14	rue	rue	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
 15	Drouot	Drouot	PROPN	_	_	14	appos	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
-17	30	30	NUM	_	Number=Plur	18	det	_	_
+17	30	30	NUM	_	Gender=Masc|Number=Sing	18	det	_	_
 18	rue	rue	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	Gramont	Gramont	PROPN	_	_	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
-22	1	1	NUM	_	Number=Plur	23	det	_	_
+22	1	1	NUM	_	Gender=Masc|Number=Sing	23	det	_	_
 23	rue	rue	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 24	Scribe	Scribe	PROPN	_	_	23	appos	_	_
 25	à	à	ADP	_	_	5	mod	_	ExtPos=ADV|PhraseType=Idiom
@@ -21059,7 +21059,7 @@
 12	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	71	71	NUM	_	Number=Plur	15	det	_	_
-15	km	km	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
+15	km	km	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	18	det	_	_
 18	capitale	capitale	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -25572,7 +25572,7 @@
 12	100	100	NUM	_	Number=Plur	13	det	_	_
 13	MEUR	MEUR	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	durant	durant	ADP	_	_	5	mod	_	_
-15	1	1	NUM	_	Number=Plur	16	det	_	_
+15	1	1	NUM	_	Number=Sing	16	det	_	_
 16	an	an	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	placés	placer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	mod	_	_
 18	sur	sur	ADP	_	_	17	mod	_	_
@@ -27684,9 +27684,9 @@
 22	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	13	mod	_	_
 23	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 24	dont	dont	PRON	_	PronType=Rel	25	udep	_	_
-25	2	2	NUM	_	_	22	appos	_	_
+25	2	2	NUM	_	Number=Plur	22	appos	_	_
 26	en	en	ADP	_	_	25	udep	_	_
-27	2	2	NUM	_	Number=Plur	28	det	_	_
+27	2	2	NUM	_	_	28	det	_	_
 28	division	division	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	2	punct	_	_
@@ -30159,7 +30159,7 @@
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	isole	isoler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 13	14	14	NUM	_	Number=Plur	14	det	_	_
-14	grammes	gramme	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
+14	grammes	gramme	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	17	det	_	SpaceAfter=No
 17	élément	élément	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
@@ -34489,7 +34489,7 @@
 2	chant	chant	NOUN	_	Gender=Masc|Number=Sing	6	subj@pass	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	52	52	NUM	_	Number=Plur	5	det	_	_
-5	hertz	hertz	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
+5	hertz	hertz	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	caractérisé	caractériser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 8	par	par	ADP	_	_	7	comp:obl	_	_
@@ -34498,7 +34498,7 @@
 11	moyenne	moyen	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 12	de	de	ADP	_	_	10	udep	_	_
 13	51,75	51,75	NUM	_	Number=Plur	14	det	_	_
-14	Hz	hertz	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	wordform=hz
+14	Hz	hertz	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	wordform=hz
 15	pour	pour	ADP	_	_	10	udep	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	17	det	_	_
 17	suites	suite	NOUN	_	Gender=Fem|Number=Plur	15	comp:obj	_	_
@@ -36483,7 +36483,7 @@
 13	de	de	ADP	_	_	12	udep	_	_
 14	Lewandowski	Lewandowski	PROPN	_	_	13	comp:obj	_	_
 15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-16	77	77	NUM	_	Number=Plur	17	det	_	_
+16	77	77	NUM	_	_	17	det	_	_
 17	minute	minute	NOUN	_	Gender=Fem|Number=Sing	12	mod	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
@@ -36966,7 +36966,7 @@
 2	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	3	det	_	SpaceAfter=No
 3	âge	âge	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
-5	1	1	NUM	_	Number=Plur	6	det	_	_
+5	1	1	NUM	_	Number=Sing	6	det	_	_
 6	an	an	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	Ethan	Ethan	PROPN	_	_	9	subj	_	_
