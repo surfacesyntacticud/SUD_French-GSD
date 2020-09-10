@@ -592,7 +592,7 @@
 12	la	la	X	_	Foreign=Yes	11	flat@name	_	Lang=es
 13	Nada	Nada	X	_	Foreign=Yes	12	flat@name	_	Lang=es
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	Los	Los	X	_	Foreign=Yes	10	conj	_	Lang=es
+15	Los	Los	X	_	Foreign=Yes	9	conj	_	Lang=es
 16	Rodríguez	Rodríguez	X	_	Foreign=Yes	15	flat@name	_	Lang=es|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1055,7 +1055,7 @@
 
 # sent_id = fr-ud-dev_00039
 # text = Le lazy bed (littéralement : « plate-bande de paresseux ») est une technique de travail du sol autrefois pratiquée dans certaines régions des Îles britanniques.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	3	det	_	wordform=le
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le
 2	lazy	lazy	X	_	Foreign=Yes	13	subj	_	Lang=en
 3	bed	bed	X	_	Foreign=Yes	2	flat@name	_	Lang=en
 4	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -3878,9 +3878,9 @@
 8	peur	peur	NOUN	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
 10	conduit	conduire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:cleft	_	_
-11	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	12	det	_	_
-12	petits	petit	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
-13	porteurs	porteur	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	13	det	_	_
+12	petits	petit	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
+13	porteurs	porteur	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 14	à	à	ADP	_	_	10	comp:obl@x	_	_
 15	se	se	PRON	_	Person=3|PronType=Prs	16	comp:obj	_	_
 16	débarrasser	débarrasser	VERB	_	VerbForm=Inf	14	comp:obj	_	_
@@ -26739,7 +26739,7 @@
 11	Inter	Inter	PROPN	_	_	9	comp:obj	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 13	dîné	dîner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
-14	avec	avec	ADP	_	_	13	comp:obl@agent	_	_
+14	avec	avec	ADP	_	_	13	mod	_	_
 15	certains	certain	DET	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	16	det	_	_
 16	dirigeants	dirigeant	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
 17	italiens	italien	ADJ	_	Gender=Masc|Number=Plur	16	mod	_	_
@@ -30587,7 +30587,7 @@
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	participe	participer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	11	det	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art	10	det	_	_
 10	dark	dark	X	_	Foreign=Yes	8	comp:obj	_	Lang=en
 11	match	match	X	_	Foreign=Yes	10	flat@name	_	Lang=en
 12	face	face	ADV	_	_	7	mod	_	_
