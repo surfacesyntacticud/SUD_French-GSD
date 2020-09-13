@@ -1680,9 +1680,9 @@
 6	recevoir	recevoir	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 7	plus	plus	ADV	_	_	6	comp:obj	_	ExtPos=PRON
 8	de	de	ADP	_	_	7	comp:obl	_	_
-9	dix	dix	NUM	_	Number=Plur	11	det	_	_
-10	quinze	quinze	NUM	_	_	9	conj	_	_
-11	mille	mille	NUM	_	Number=Plur	12	det	_	_
+9	dix	dix	NUM	_	Number=Plur	12	det	_	_
+10	quinze	quinze	NUM	_	_	9	flat	_	_
+11	mille	mille	NUM	_	Number=Plur	10	flat	_	_
 12	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|Person=3|PronType=Art	15	det	_	_
