@@ -7908,7 +7908,7 @@
 31	«	«	PUNCT	_	_	32	punct	_	_
 32	sassanides	sassanide	ADJ	_	Number=Plur	30	mod	_	_
 33	légitimes	légitime	ADJ	_	Number=Plur	30	mod	_	_
-34	»	»	PUNCT	_	_	32	punct	_	_
+34	»	»	PUNCT	_	_	33	punct	_	_
 35-36	au	_	_	_	_	_	_	_	_
 35	à	à	ADP	_	_	30	udep	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	37	det	_	_
@@ -10476,7 +10476,7 @@
 3	connut	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	plusieurs	plusieurs	DET	_	Number=Plur|Person=3|PronType=Ind	5	det	_	_
 5	adresses	adresse	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
-6	:	:	PUNCT	_	_	8	punct	_	_
+6	:	:	PUNCT	_	_	7	punct	_	_
 7	2	2	NUM	_	Gender=Masc|Number=Sing	5	appos	_	_
 8	rue	rue	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	_
 9-10	du	_	_	_	_	_	_	_	_

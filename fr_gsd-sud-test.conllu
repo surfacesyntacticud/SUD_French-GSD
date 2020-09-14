@@ -10338,7 +10338,7 @@
 4	par	par	ADP	_	_	3	comp:obl@agent	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Poesia	Poesia	PROPN	_	_	4	comp:obj	_	SpaceAfter=No
-7	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	2	2	NUM	_	_	6	flat@name	_	_
 9	Ottobre	Ottobre	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
