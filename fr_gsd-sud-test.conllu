@@ -7151,10 +7151,10 @@
 # sent_id = fr-ud-test_00254
 # text = La paroisse Marie-Reine-des-Coeurs est située au : 5905, rue Turenne Montréal (Québec) H1M 1N4
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=la
-2	paroisse	paroisse	NOUN	_	Gender=Fem|Number=Sing	4	subj@pass	_	_
+2	paroisse	paroisse	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	Marie-Reine-des-Coeurs	Marie-Reine-des-Coeurs	PROPN	_	_	2	appos	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
+5	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	9	det	_	_
