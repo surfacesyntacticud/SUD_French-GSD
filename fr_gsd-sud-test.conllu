@@ -4596,7 +4596,7 @@
 2	endetté	endetter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	mod	_	_
 3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	160	160	NUM	_	Number=Plur	5	det	_	_
-5	milliards	milliard	NUM	_	_	2	parataxis	_	_
+5	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	2	parataxis	_	_
 6	d'	de	ADP	_	_	5	udep	_	SpaceAfter=No
 7	euros	euro	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
 8	fin	fin	NOUN	_	Gender=Fem|Number=Plur	5	mod	_	_
