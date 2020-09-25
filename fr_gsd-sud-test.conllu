@@ -4110,7 +4110,7 @@
 31	en	en	ADP	_	_	30	mod	_	InIdiom=Yes
 32	plus	plus	ADV	_	_	31	comp:obj	_	InIdiom=Yes
 33	pied	pied	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj@lvc	_	_
-34	face	face	ADV	_	_	28	mod	_	_
+34	face	face	NOUN	_	_	28	mod	_	ExtPos=ADV
 35-36	au	_	_	_	_	_	_	_	_
 35	à	à	ADP	_	_	34	comp:obl	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -6610,7 +6610,7 @@
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	pro	professionnel	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
 11	survivra	survivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	comp:obj	_	_
-12	face	face	ADV	_	_	11	mod	_	_
+12	face	face	NOUN	_	_	11	mod	_	ExtPos=ADV
 13-14	aux	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_

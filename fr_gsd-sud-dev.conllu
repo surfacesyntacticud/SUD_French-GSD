@@ -17058,7 +17058,7 @@
 24	mesures	mesure	NOUN	_	Gender=Fem|Number=Plur	21	comp:obj	_	_
 25	à	à	ADP	_	_	24	udep	_	_
 26	adopter	adopter	VERB	_	VerbForm=Inf	25	comp:obj	_	_
-27	face	face	ADV	_	_	26	mod	_	_
+27	face	face	NOUN	_	_	26	mod	_	ExtPos=ADV
 28-29	aux	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	_	27	comp:obl	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
@@ -17709,7 +17709,7 @@
 20	ferme	ferme	ADJ	_	Number=Sing	19	mod	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	courageuse	courageux	ADJ	_	Gender=Fem|Number=Sing	20	conj	_	_
-23	face	face	ADV	_	_	19	mod	_	_
+23	face	face	NOUN	_	_	19	mod	_	ExtPos=ADV
 24	à	à	ADP	_	_	23	comp:obl	_	_
 25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
 26	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
@@ -20655,7 +20655,7 @@
 27	mais	mais	CCONJ	_	_	28	cc	_	_
 28	demeure	demeurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 29	implacable	implacable	ADJ	_	Number=Sing	28	comp:pred	_	_
-30	face	face	ADV	_	_	29	mod	_	_
+30	face	face	NOUN	_	_	29	mod	_	ExtPos=ADV
 31-32	aux	_	_	_	_	_	_	_	_
 31	à	à	ADP	_	_	30	comp:obl	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
@@ -23444,7 +23444,7 @@
 2	demi-finale	demi-finale	NOUN	_	Gender=Fem|Number=Sing	9	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-5	face	face	ADV	_	_	2	mod	_	_
+5	face	face	NOUN	_	_	2	mod	_	ExtPos=ADV
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -28640,7 +28640,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	ajoute	ajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
-4	face	face	ADV	_	_	11	mod	_	_
+4	face	face	NOUN	_	_	11	mod	_	ExtPos=ADV
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	corruption	corruption	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -30591,7 +30591,7 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	dark	dark	X	_	Foreign=Yes	8	comp:obj	_	Lang=en
 11	match	match	X	_	Foreign=Yes	10	flat@name	_	Lang=en
-12	face	face	ADV	_	_	7	mod	_	_
+12	face	face	NOUN	_	_	7	mod	_	ExtPos=ADV
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	Elijah	Elijah	PROPN	_	_	13	comp:obj	_	_
 15	Burke	Burke	PROPN	_	_	14	flat@name	_	_
@@ -33267,7 +33267,7 @@
 7	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 8	en	en	ADP	_	_	7	comp:obj	_	_
 9	2002	2002	NUM	_	_	8	comp:obj	_	_
-10	face	face	ADV	_	_	3	mod	_	_
+10	face	face	NOUN	_	_	3	mod	_	ExtPos=ADV
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	ministre	ministre	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
@@ -34322,7 +34322,7 @@
 21	cri	cri	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No
 23	alerte	alerte	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
-24	face	face	ADV	_	_	21	mod	_	_
+24	face	face	NOUN	_	_	21	mod	_	ExtPos=ADV
 25-26	au	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	24	comp:obl	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -39529,7 +39529,7 @@
 8	Cup	Cup	PROPN	_	_	7	flat@name	_	_
 9	en	en	ADP	_	_	5	mod	_	_
 10	1988	1988	NUM	_	_	9	comp:obj	_	_
-11	face	face	ADV	_	_	5	mod	_	_
+11	face	face	NOUN	_	_	5	mod	_	ExtPos=ADV
 12-13	aux	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
