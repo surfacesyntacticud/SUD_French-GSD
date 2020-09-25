@@ -3286,7 +3286,7 @@
 3	mesure	mesurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	environ	environ	ADV	_	_	5	mod	_	_
 5	160	160	NUM	_	Number=Plur	6	det	_	SpaceAfter=No
-6	km	km	NOUN	_	Gender=Masc|Number=Plur	3	mod	_	_
+6	km	km	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -14009,7 +14009,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	signé	signer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	une	un	NUM	_	Gender=Fem|Number=Sing	6	det	_	_
-6	quarantaine	quarantaine	NOUN	_	Gender=Fem|Number=Sing	3	mod	_	_
+6	quarantaine	quarantaine	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	conventions	convention	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 9	fiscales	fiscal	ADJ	_	Gender=Fem|Number=Plur	8	mod	_	_
@@ -16866,7 +16866,7 @@
 13	de	de	ADP	_	_	12	udep	_	_
 14	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	effet	effet	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
+16	effet	effet	NOUN	_	Gender=Masc|Number=Sing	3	parataxis	_	_
 17	grégaire	grégaire	ADJ	_	Number=Sing	16	mod	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -26769,7 +26769,7 @@
 39	de	de	ADP	_	_	38	udep	_	_
 40	terrain	terrain	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
 41	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	mod@relcl	_	_
-42	hors-jeu	hors-jeu	NOUN	_	Gender=Masc|Number=Sing	41	mod	_	_
+42	hors-jeu	hors-jeu	NOUN	_	Gender=Masc|Number=Sing	41	comp:pred	_	_
 43	et	et	CCONJ	_	_	44	cc	_	_
 44	refusé	refuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
 45	deux	deux	NUM	_	Number=Plur	46	det	_	_
@@ -36213,7 +36213,7 @@
 17	en	en	ADP	_	_	9	mod	_	_
 18	1992	1992	NUM	_	_	17	comp:obj	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-20	médailles	médaille	NOUN	_	Gender=Fem|Number=Plur	9	mod	_	_
+20	médailles	médaille	NOUN	_	Gender=Fem|Number=Plur	9	parataxis	_	_
 21	de	de	ADP	_	_	20	udep	_	_
 22	bronze	bronze	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 23-24	aux	_	_	_	_	_	_	_	_
@@ -36641,7 +36641,7 @@
 6	noir	noir	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 7	contenant	contenir	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
 8	du	du	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	charbon	charbon	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
+9	charbon	charbon	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	bois	bois	NOUN	_	Gender=Masc	10	comp:obj	_	_
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -39055,7 +39055,7 @@
 15	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	16	det	_	_
 16	bord	bord	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
-18	documents	document	NOUN	_	Gender=Masc|Number=Plur	13	mod	_	_
+18	documents	document	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
 19	détaillant	détailler	VERB	_	Tense=Pres|VerbForm=Part	18	mod	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	position	position	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_

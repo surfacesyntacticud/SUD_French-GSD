@@ -5563,7 +5563,7 @@
 # sent_id = fr-ud-test_00187
 # text = Annoncé hier matin--dans les colonnes de L'Indépendant--comme un postulant sérieux à la succession de Franck Azéma qui s'apprête à rejoindre Clermont au terme de l'exercice actuel, il souligne dans un premier temps : " Il y a bien de la fumée, mais c'est sans feu !
 1	Annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	mod	_	wordform=annoncé
-2	hier	hier	NOUN	_	Gender=Masc|Number=Sing	1	mod	_	_
+2	hier	hier	ADV	_	_	1	mod	_	_
 3	matin	matin	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	--	--	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	dans	dans	ADP	_	_	1	mod	_	_
