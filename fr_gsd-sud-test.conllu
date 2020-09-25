@@ -4129,10 +4129,10 @@
 8	tout	tout	ADV	_	_	9	mod	_	_
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	7	mod	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	long	long	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
+11	long	long	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	ExtPos=ADV|Phrase_Type=Idiom
 12-13	du	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	11	udep	_	_
+12	de	de	ADP	_	_	11	comp:obl	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	roman	roman	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
