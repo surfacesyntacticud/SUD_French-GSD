@@ -6557,7 +6557,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	inventer	inventer	VERB	_	VerbForm=Inf	8	conj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	grâce	grâce	ADV	_	_	2	mod	_	_
+12	grâce	grâce	NOUN	_	_	2	mod	_	ExtPos=ADV
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_

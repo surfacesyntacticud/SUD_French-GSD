@@ -7045,7 +7045,7 @@
 8	par	par	ADP	_	_	7	comp:obl@agent	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	chasseurs	chasseur	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
-11	grâce	grâce	ADV	_	_	4	mod	_	_
+11	grâce	grâce	NOUN	_	_	4	mod	_	ExtPos=ADV
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	ange	ange	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
@@ -17702,7 +17702,7 @@
 13	sans	sans	ADP	_	_	10	conj	_	_
 14	relâche	relâche	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	grâce	grâce	ADV	_	_	1	conj	_	_
+16	grâce	grâce	NOUN	_	_	1	conj	_	ExtPos=ADV
 17	à	à	ADP	_	_	16	comp:obl	_	_
 18	notre	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=1|PronType=Prs	19	det	_	_
 19	position	position	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
@@ -26279,7 +26279,7 @@
 19	réelle	réel	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	_
 20	dimension	dimension	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 21	dramatique	dramatique	ADJ	_	Number=Sing	20	mod	_	_
-22	grâce	grâce	ADV	_	_	10	mod	_	_
+22	grâce	grâce	NOUN	_	_	10	mod	_	ExtPos=ADV
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	22	comp:obl	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -30165,7 +30165,7 @@
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	élément	élément	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	thallium	thallium	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_
-19	grâce	grâce	ADV	_	_	12	mod	_	_
+19	grâce	grâce	NOUN	_	_	12	mod	_	ExtPos=ADV
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -36476,7 +36476,7 @@
 5	un	un	NUM	_	Number=Sing	4	mod	_	_
 6	à	à	ADP	_	_	5	udep	_	_
 7	zéro	zéro	NUM	_	_	6	comp:obj	_	_
-8	grâce	grâce	ADV	_	_	4	mod	_	_
+8	grâce	grâce	NOUN	_	_	4	mod	_	ExtPos=ADV
 9	à	à	ADP	_	_	8	comp:obl	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	énième	énième	ADJ	_	Number=Sing	12	mod	_	_
@@ -39159,7 +39159,7 @@
 3	compléta	compléter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	podium	podium	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	grâce	grâce	ADV	_	_	3	mod	_	_
+6	grâce	grâce	NOUN	_	_	3	mod	_	ExtPos=ADV
 7	à	à	ADP	_	_	6	comp:obl	_	_
 8	sa	son	DET	_	Gender=Fem|Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	9	det	_	_
 9	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
