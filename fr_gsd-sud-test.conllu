@@ -2517,7 +2517,7 @@
 14	1975	1975	NUM	_	_	13	comp:obj	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	1979	1979	NUM	_	_	14	conj	_	_
-17	suite	suite	ADV	_	_	7	mod	_	_
+17	suite	suite	NOUN	_	_	7	mod	_	ExtPos=ADV
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	17	comp:obl	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
