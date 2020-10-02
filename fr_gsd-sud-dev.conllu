@@ -473,7 +473,7 @@
 21	Berkeley	Berkeley	PROPN	_	_	20	flat@name	_	_
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 23	restée	rester	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
-24	célèbre	célèbre	ADJ	_	Number=Sing	23	comp:pred	_	_
+24	célèbre	célèbre	ADJ	_	Gender=Fem|Number=Sing	23	comp:pred	_	_
 25	:	:	PUNCT	_	_	27	punct	_	_
 26	Berkeley	Berkeley	PROPN	_	_	27	subj	_	_
 27	affirmait	affirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	parataxis	_	_
