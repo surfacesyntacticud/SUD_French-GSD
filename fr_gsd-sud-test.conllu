@@ -1319,7 +1319,7 @@
 22	«	«	PUNCT	_	_	23	punct	_	_
 23	expérimentale	expérimental	ADJ	_	Gender=Fem|Number=Sing	21	mod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	avantgardiste	avant-gardiste	ADJ	_	Number=Sing	23	conj	_	_
+25	avantgardiste	avant-gardiste	ADJ	_	Gender=Fem|Number=Sing	23	conj	_	_
 26	et	et	CCONJ	_	_	28	cc	_	_
 27	politiquement	politiquement	ADV	_	_	28	mod	_	_
 28	engagée	engagé	ADJ	_	Gender=Fem|Number=Sing	25	conj	_	_
@@ -2637,7 +2637,7 @@
 36	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
 37	courageux	courageux	ADJ	_	Gender=Masc	32	mod	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
-39	pacifique	pacifique	ADJ	_	Number=Sing	37	conj	_	SpaceAfter=No
+39	pacifique	pacifique	ADJ	_	Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
 41	mais	mais	CCONJ	_	_	43	cc	_	_
 42	aussi	aussi	ADV	_	_	43	mod	_	_
@@ -6326,7 +6326,7 @@
 9	être	être	AUX	_	VerbForm=Inf	8	comp:obj	_	_
 10	pinailleuse	pinailleur	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
-12	difficile	difficile	ADJ	_	Number=Sing	10	conj	_	_
+12	difficile	difficile	ADJ	_	Gender=Fem|Number=Sing	10	conj	_	_
 13	alors	alors	ADV	_	_	9	mod	_	_
 
 # sent_id = fr-ud-test_00212
@@ -6478,7 +6478,7 @@
 12	fois	fois	NOUN	_	Gender=Fem	10	comp:obj	_	InIdiom=Yes
 13	futuriste	futuriste	ADJ	_	Gender=Masc|Number=Sing	9	comp:pred	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	romantique	romantique	ADJ	_	Number=Sing	13	conj	_	SpaceAfter=No
+15	romantique	romantique	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	comme	comme	SCONJ	_	_	9	mod	_	_
 18	diner	diner	VERB	_	VerbForm=Inf	17	comp:obj	_	_
@@ -7646,7 +7646,7 @@
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 27	seule	seul	ADJ	_	Gender=Fem|Number=Sing	30	mod	_	_
 28	et	et	CCONJ	_	_	29	cc	_	_
-29	même	même	ADJ	_	Number=Sing	27	conj	_	_
+29	même	même	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	_
 30	boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 31	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
 32	montures	monture	NOUN	_	Gender=Fem|Number=Plur	24	comp:obj	_	_
@@ -7888,7 +7888,7 @@
 2	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	simple	simple	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	propre	propre	ADJ	_	Number=Sing	3	conj	_	_
+5	propre	propre	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	bien	bien	ADV	_	_	8	mod	_	_
 8	entretenu	entretenu	ADJ	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
@@ -8713,11 +8713,11 @@
 4	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 5	XIIIe	XIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	12	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	XIVe	XIVe	ADJ	_	Number=Sing|NumType=Ord	5	conj	_	SpaceAfter=No
+7	XIVe	XIVe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	XVIe	XVIe	ADJ	_	Number=Sing|NumType=Ord	7	conj	_	SpaceAfter=No
+9	XVIe	XVIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	XVIIIe	XVIIIe	ADJ	_	Number=Sing|NumType=Ord	9	conj	_	_
+11	XVIIIe	XVIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	9	conj	_	_
 12	siècles	siècle	NOUN	_	Gender=Masc|Number=Plur	1	mod	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
@@ -8734,7 +8734,7 @@
 8	plus	plus	ADV	_	_	9	mod	_	_
 9	théoriques	théorique	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
-11	programmatiques	programmatique	ADJ	_	Number=Plur	9	conj	_	SpaceAfter=No
+11	programmatiques	programmatique	ADJ	_	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01502

@@ -2036,7 +2036,7 @@
 10	dispositions	disposition	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 11	administratives	administratif	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
-13	juridiques	juridique	ADJ	_	Number=Plur	11	conj	_	_
+13	juridiques	juridique	ADJ	_	Gender=Fem|Number=Plur	11	conj	_	_
 14	déjà	déjà	ADV	_	_	15	mod	_	_
 15	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	mod	_	_
 16	ou	ou	CCONJ	_	_	17	cc	_	_
@@ -2385,7 +2385,7 @@
 60	branche	branche	NOUN	_	Gender=Fem|Number=Sing	58	comp:obj	_	_
 61	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	60	mod	_	_
 62	et	et	CCONJ	_	_	63	cc	_	_
-63	progressiste	progressiste	ADJ	_	Number=Sing	61	conj	_	_
+63	progressiste	progressiste	ADJ	_	Gender=Fem|Number=Sing	61	conj	_	_
 64-65	du	_	_	_	_	_	_	_	_
 64	de	de	ADP	_	_	60	udep	_	_
 65	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
@@ -4970,7 +4970,7 @@
 4	très	très	ADV	_	_	5	mod	_	_
 5	correctes	correct	ADJ	_	Gender=Fem|Number=Plur	3	comp:pred	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	propres	propre	ADJ	_	Number=Plur	5	conj	_	_
+7	propres	propre	ADJ	_	Gender=Fem|Number=Plur	5	conj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	fonctionnelles	fonctionnel	ADJ	_	Gender=Fem|Number=Plur	7	conj	_	_
 10	bien	bien	ADV	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
@@ -7945,7 +7945,7 @@
 19	écrivain	écrivain	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 20	riche	riche	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
-22	célèbre	célèbre	ADJ	_	Number=Sing	20	conj	_	_
+22	célèbre	célèbre	ADJ	_	Gender=Masc|Number=Sing	20	conj	_	_
 23	à	à	ADP	_	_	19	udep	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
 25	âge	âge	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
@@ -8688,7 +8688,7 @@
 18	défavorable	défavorable	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	facilement	facilement	ADV	_	_	21	mod	_	_
-21	compréhensible	compréhensible	ADJ	_	Number=Sing	18	conj	_	SpaceAfter=No
+21	compréhensible	compréhensible	ADJ	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	vis-à-vis	vis-à-vis	ADV	_	_	17	mod	_	_
 24	de	de	ADP	_	_	23	comp:obl	_	_
@@ -11475,7 +11475,7 @@
 6	musiciens	musicien	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 7	touareg	touareg	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
-9	kabyles	kabyle	ADJ	_	Number=Plur	7	conj	_	SpaceAfter=No
+9	kabyles	kabyle	ADJ	_	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12141,7 +12141,7 @@
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 10	première	premier	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
-12	deuxième	deuxième	ADJ	_	Number=Sing	10	conj	_	_
+12	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	10	conj	_	_
 13	Conférences	conférence	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	wordform=conférences
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	udep	_	_
@@ -15498,7 +15498,7 @@
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	naturel	naturel	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 14	ou	ou	CCONJ	_	_	15	cc	_	_
-15	synthétique	synthétique	ADJ	_	Number=Sing	13	conj	_	SpaceAfter=No
+15	synthétique	synthétique	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	cousues	coudre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	mod	_	_
@@ -17226,7 +17226,7 @@
 14	soubresauts	soubresaut	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 15	historiques	historique	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
-17	économiques	économique	ADJ	_	Number=Plur	15	conj	_	_
+17	économiques	économique	ADJ	_	Gender=Masc|Number=Plur	15	conj	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	14	udep	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -19501,7 +19501,7 @@
 4	tres	très	ADV	_	_	5	mod	_	_
 5	beau	beau	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
-7	propre	propre	ADJ	_	Number=Sing	5	conj	_	SpaceAfter=No
+7	propre	propre	ADJ	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00703
@@ -21373,7 +21373,7 @@
 39	comme	comme	ADP	_	_	35	comp:pred	_	_
 40	véritable	véritable	ADJ	_	Gender=Masc|Number=Sing	43	mod	_	_
 41	et	et	CCONJ	_	_	42	cc	_	_
-42	légitime	légitime	ADJ	_	Number=Sing	40	conj	_	_
+42	légitime	légitime	ADJ	_	Gender=Masc|Number=Sing	40	conj	_	_
 43	représentant	représentant	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
 44-45	des	_	_	_	_	_	_	_	_
 44	de	de	ADP	_	_	43	udep	_	_
@@ -21499,7 +21499,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	petit	petit	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
 15	mais	mais	CCONJ	_	_	16	cc	_	_
-16	confortable	confortable	ADJ	_	Number=Sing	14	conj	_	SpaceAfter=No
+16	confortable	confortable	ADJ	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00781
@@ -23293,7 +23293,7 @@
 15	plus	plus	ADV	_	_	16	mod	_	_
 16	puissante	puissant	ADJ	_	Gender=Fem|Number=Sing	14	conj	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
-18	rapide	rapide	ADJ	_	Number=Sing	16	conj	_	SpaceAfter=No
+18	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	1	punct	_	_
 20	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	subj	_	_
 21	possédait	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -25494,7 +25494,7 @@
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	Champions	champion	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	wordform=champions
 21	et	et	CCONJ	_	_	22	cc	_	_
-22	troisième	troisième	ADJ	_	Number=Sing	8	conj	_	_
+22	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
 23	de	de	ADP	_	_	22	mod	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	saison	saison	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
@@ -27386,7 +27386,7 @@
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	classique	classique	ADJ	_	Gender=Fem|Number=Sing	35	mod	_	_
 39	ou	ou	CCONJ	_	_	40	cc	_	_
-40	moderne	moderne	ADJ	_	Number=Sing	38	conj	_	SpaceAfter=No
+40	moderne	moderne	ADJ	_	Gender=Fem|Number=Sing	38	conj	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-dev_00989
@@ -28023,7 +28023,7 @@
 3	fables	fable	NOUN	_	Gender=Fem|Number=Plur	19	subj@pass	_	_
 4	morales	moral	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	didactiques	didactique	ADJ	_	Number=Plur	4	conj	_	SpaceAfter=No
+6	didactiques	didactique	ADJ	_	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	édifiantes	édifiant	ADJ	_	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -28600,7 +28600,7 @@
 22	cultes	culte	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 23	monothéistes	monothéiste	ADJ	_	Gender=Masc|Number=Plur	22	mod	_	_
 24	et	et	CCONJ	_	_	25	cc	_	_
-25	polythéistes	polythéiste	ADJ	_	Number=Plur	23	conj	_	SpaceAfter=No
+25	polythéistes	polythéiste	ADJ	_	Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	art	art	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
@@ -30793,7 +30793,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	grec	grec	ADJ	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	étrusque	étrusque	ADJ	_	Number=Sing	11	conj	_	_
+13	étrusque	étrusque	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	romain	romain	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
@@ -31887,9 +31887,9 @@
 15	tensions	tension	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	_
 16	sociales	social	ADJ	_	Gender=Fem|Number=Plur	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	économiques	économique	ADJ	_	Number=Plur	16	conj	_	_
+18	économiques	économique	ADJ	_	Gender=Fem|Number=Plur	16	conj	_	_
 19	et	et	CCONJ	_	_	20	cc	_	_
-20	politiques	politique	ADJ	_	Number=Plur	18	conj	_	_
+20	politiques	politique	ADJ	_	Gender=Fem|Number=Plur	18	conj	_	_
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	13	mod	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -33209,7 +33209,7 @@
 2	liaison	liaison	NOUN	_	Gender=Fem|Number=Sing	9	subj	_	_
 3	acoustique	acoustique	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
-5	électrique	électrique	ADJ	_	Number=Sing	3	conj	_	_
+5	électrique	électrique	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	_
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	2	udep	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -33532,7 +33532,7 @@
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 13	belle	beau	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	plausible	plausible	ADJ	_	Number=Sing	13	conj	_	_
+15	plausible	plausible	ADJ	_	Gender=Fem|Number=Sing	13	conj	_	_
 16	reconstitution	reconstitution	NOUN	_	Gender=Fem|Number=Sing	11	comp:pred	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	si	si	SCONJ	_	_	11	mod	_	ExtPos=ADP|PhraseType=Idiom
@@ -35652,7 +35652,7 @@
 7	guide	guide	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 8	musical	musical	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
-10	artistique	artistique	ADJ	_	Number=Sing	8	conj	_	SpaceAfter=No
+10	artistique	artistique	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01285
@@ -35938,7 +35938,7 @@
 15	maintenant	maintenant	ADV	_	_	14	mod	_	_
 16	heureux	heureux	ADJ	_	Gender=Masc	14	comp:pred	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
-18	populaire	populaire	ADJ	_	Number=Sing	16	conj	_	SpaceAfter=No
+18	populaire	populaire	ADJ	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01297
@@ -36841,7 +36841,7 @@
 26	journaux	journal	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	_
 27	libertaires	libertaire	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	_
 28	et	et	CCONJ	_	_	29	cc	_	_
-29	antimilitaristes	antimilitariste	ADJ	_	Number=Plur	27	conj	_	SpaceAfter=No
+29	antimilitaristes	antimilitariste	ADJ	_	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	parmi	parmi	ADP	_	_	26	udep	_	_
 32	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	31	comp:obj	_	_
@@ -37226,7 +37226,7 @@
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 26	Ve	Ve	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	29	mod	_	_
 27	ou	ou	CCONJ	_	_	28	cc	_	_
-28	VIe	VIe	ADJ	_	Number=Sing|NumType=Ord	26	conj	_	_
+28	VIe	VIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	26	conj	_	_
 29	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -40305,7 +40305,7 @@
 14	néolithiques	néolithique	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	voire	voire	ADV	_	_	17	cc	_	_
-17	mésolithiques	mésolithique	ADJ	_	Number=Plur	14	conj	_	SpaceAfter=No
+17	mésolithiques	mésolithique	ADJ	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	trouvés	trouver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	mod	_	_
 20	sur	sur	ADP	_	_	19	mod	_	_
