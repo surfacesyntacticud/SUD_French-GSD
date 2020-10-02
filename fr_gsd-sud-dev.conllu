@@ -65,7 +65,7 @@
 20	importante	important	ADJ	_	Gender=Fem|Number=Sing	18	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	8	punct	_	_
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-23	riche	riche	ADJ	_	Number=Sing	22	comp:pred	_	_
+23	riche	riche	ADJ	_	Gender=Fem|Number=Sing	22	comp:pred	_	_
 24	et	et	CCONJ	_	_	25	cc	_	_
 25	varié	varié	ADJ	_	Gender=Masc|Number=Sing	23	conj	_	_
 26	:	:	PUNCT	_	_	30	punct	_	_
@@ -1533,7 +1533,7 @@
 2	effets	effet	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
 3	cliniques	clinique	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	possibles	possible	ADJ	_	Number=Plur	4	comp:pred	_	_
+5	possibles	possible	ADJ	_	Gender=Masc|Number=Plur	4	comp:pred	_	_
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -1552,7 +1552,7 @@
 # text = Elles furent victimes de la Révolution française.
 1	Elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	wordform=elles
 2	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	victimes	victime	ADJ	_	Number=Plur	2	comp:pred	_	_
+3	victimes	victime	ADJ	_	Gender=Fem|Number=Plur	2	comp:pred	_	_
 4	de	de	ADP	_	_	2	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Révolution	révolution	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	wordform=révolution
@@ -2884,7 +2884,7 @@
 5	cristaux	cristal	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	majoritairement	majoritairement	ADV	_	_	8	mod	_	_
-8	hypidiomorphe	hypidiomorphe	ADJ	_	Number=Sing	6	comp:pred	_	_
+8	hypidiomorphe	hypidiomorphe	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
 9	et	et	CCONJ	_	_	12	cc	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	texture	texture	NOUN	_	Gender=Fem|Number=Sing	12	subj	_	_
@@ -3276,7 +3276,7 @@
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	Tutsi	Tutsi	PROPN	_	_	16	conj	_	_
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
-21	exemplaire	exemplaire	ADJ	_	Number=Sing	20	comp:pred	_	SpaceAfter=No
+21	exemplaire	exemplaire	ADJ	_	Gender=Fem|Number=Sing	20	comp:pred	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00118
@@ -3817,7 +3817,7 @@
 1	Certaines	certain	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	2	subj	_	wordform=certaines
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	également	également	ADV	_	_	2	mod	_	_
-4	barophiles	barophile	ADJ	_	Number=Plur	2	comp:pred	_	SpaceAfter=No
+4	barophiles	barophile	ADJ	_	Gender=Fem|Number=Plur	2	comp:pred	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	comme	comme	ADP	_	_	2	mod	_	_
 7	Pyrococcus	Pyrococcus	PROPN	_	_	6	comp:obj	_	_
@@ -4994,7 +4994,7 @@
 3	en	en	PRON	_	Person=3|PronType=Prs	2	udep	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	moins	moins	ADV	_	_	6	mod	_	_
-6	difficile	difficile	ADJ	_	Number=Sing	4	comp:pred	_	SpaceAfter=No
+6	difficile	difficile	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00183
@@ -5449,7 +5449,7 @@
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=ce
 2	basculement	basculement	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	perceptible	perceptible	ADJ	_	Number=Sing	3	comp:pred	_	_
+4	perceptible	perceptible	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5	depuis	depuis	ADP	_	_	3	mod	_	_
 6	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	7	det	_	_
 7	années	année	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	SpaceAfter=No
@@ -5592,7 +5592,7 @@
 5	Microsoft	Microsoft	PROPN	_	_	4	comp:obj	_	_
 6	Windows	Windows	PROPN	_	_	5	flat@name	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	disponible	disponible	ADJ	_	Number=Sing	7	comp:pred	_	_
+8	disponible	disponible	ADJ	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
 9	à	à	ADP	_	_	8	comp:obl	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	vente	vente	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
@@ -6233,7 +6233,7 @@
 8	sa	son	DET	_	Gender=Fem|Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	9	det	_	_
 9	définition	définition	NOUN	_	Gender=Fem|Number=Sing	10	subj	_	_
 10	laisse	laisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	perplexe	perplexe	ADJ	_	Number=Sing	10	comp:pred	_	SpaceAfter=No
+11	perplexe	perplexe	ADJ	_	Gender=Fem|Number=Sing	10	comp:pred	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	26	punct	_	_
 13	car	car	CCONJ	_	_	26	cc	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -7070,7 +7070,7 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
 2	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	endémique	endémique	ADJ	_	Number=Sing	3	comp:pred	_	_
+4	endémique	endémique	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -7310,7 +7310,7 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	simple	simple	ADJ	_	Number=Sing	5	comp:pred	_	_
+6	simple	simple	ADJ	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
 7	jusqu'	jusque	ADP	_	_	5	mod	_	SpaceAfter=No
 8	à	à	ADP	_	_	7	comp:obj	_	_
 9	Auch	Auch	PROPN	_	_	8	comp:obj	_	SpaceAfter=No
@@ -8442,7 +8442,7 @@
 2	impasse	impasse	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	politique	politique	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	inévitable	inévitable	ADJ	_	Number=Sing	4	comp:pred	_	_
+5	inévitable	inévitable	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
 6	sans	sans	ADP	_	_	4	mod	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	réel	réel	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
@@ -9428,7 +9428,7 @@
 2	menus	menu	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
 3	variés	varié	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	abordables	abordable	ADJ	_	Number=Plur	4	comp:pred	_	_
+5	abordables	abordable	ADJ	_	Gender=Masc|Number=Plur	4	comp:pred	_	_
 6	et	et	CCONJ	_	_	13	cc	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	carte	carte	NOUN	_	Gender=Fem|Number=Sing	13	subj@caus	_	_
@@ -12001,7 +12001,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	plongée	plongée	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	magnifique	magnifique	ADJ	_	Number=Sing	5	comp:pred	_	SpaceAfter=No
+6	magnifique	magnifique	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00436
@@ -12503,7 +12503,7 @@
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	aujourd'hui	aujourd'hui	ADV	_	_	13	mod	_	_
-15	tétraplégique	tétraplégique	ADJ	_	Number=Sing	13	comp:pred	_	_
+15	tétraplégique	tétraplégique	ADJ	_	Gender=Masc|Number=Sing	13	comp:pred	_	_
 16	incomplet	incomplet	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -14105,11 +14105,11 @@
 14	s'	si	SCONJ	_	_	20	mod	_	SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
-17	fragile	fragile	ADJ	_	Number=Sing	16	comp:pred	_	SpaceAfter=No
+17	fragile	fragile	ADJ	_	Gender=Masc|Number=Sing	16	comp:pred	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	14	punct	_	_
 19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj	_	_
 20	demeure	demeurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-21	alerte	alerte	ADJ	_	Number=Sing	20	comp:pred	_	SpaceAfter=No
+21	alerte	alerte	ADJ	_	Gender=Masc|Number=Sing	20	comp:pred	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
 23	12	12	NUM	_	Number=Plur	24	det	_	_
 24	ans	an	NOUN	_	Gender=Masc|Number=Plur	25	mod	_	_
@@ -14835,7 +14835,7 @@
 # text = C'est inadmissible de voler les gens ainsi, ce n'est même pas comme s'ils avaient utilisé beaucoup de matériel (un robinet et quelques fils d'étanchéité !)
 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No|wordform=c'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	inadmissible	inadmissible	ADJ	_	Number=Sing	2	comp:pred	_	_
+3	inadmissible	inadmissible	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 4	de	de	ADP	_	_	3	comp:obj@agent	_	_
 5	voler	voler	VERB	_	VerbForm=Inf	4	comp:obj	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -15809,7 +15809,7 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
 2	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	endémique	endémique	ADJ	_	Number=Sing	3	comp:pred	_	_
+4	endémique	endémique	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -16047,7 +16047,7 @@
 5	commune	commune	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	relativement	relativement	ADV	_	_	8	mod	_	_
-8	jeune	jeune	ADJ	_	Number=Sing	6	comp:pred	_	SpaceAfter=No
+8	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	6	comp:pred	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00574
@@ -16989,7 +16989,7 @@
 3	échographique	échographique	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	n'	ne	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	symptomatique	symptomatique	ADJ	_	Number=Sing	5	comp:pred	_	_
+6	symptomatique	symptomatique	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	trisomie	trisomie	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
@@ -18156,7 +18156,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	spectacle	spectacle	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	comp:obj	_	_
-6	sympa	sympa	ADJ	_	Number=Sing	5	comp:pred	_	SpaceAfter=No
+6	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	_
 8	car	car	CCONJ	_	_	13	cc	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -18207,7 +18207,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	service	service	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	rapide	rapide	ADJ	_	Number=Sing	3	comp:pred	_	SpaceAfter=No
+4	rapide	rapide	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	courtois	courtois	ADJ	_	Gender=Masc	4	conj	_	_
 7	et	et	CCONJ	_	_	10	cc	_	_
@@ -19091,7 +19091,7 @@
 6	M	M	SYM	_	_	5	appos	_	ExtPos=PROPN
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	autre	autre	ADJ	_	Number=Sing	8	comp:pred	_	_
+9	autre	autre	ADJ	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
 10	que	que	SCONJ	_	_	9	comp:obl	_	_
 11	sa	son	DET	_	Gender=Fem|Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	12	det	_	_
 12	longueur	longueur	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -19437,7 +19437,7 @@
 # text = Il est nécessaire de remettre tout cela en état, et de virer le personnel sale et incompétent.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	nécessaire	nécessaire	ADJ	_	Number=Sing	2	comp:pred	_	_
+3	nécessaire	nécessaire	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 4	de	de	ADP	_	_	3	comp:obj@agent	_	_
 5	remettre	remettre	VERB	_	VerbForm=Inf	4	comp:obj	_	_
 6	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
@@ -19931,7 +19931,7 @@
 14	dont	dont	PRON	_	PronType=Rel	17	comp:obl	_	_
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
-17	limitrophe	limitrophe	ADJ	_	Number=Sing	16	comp:pred	_	SpaceAfter=No
+17	limitrophe	limitrophe	ADJ	_	Gender=Masc|Number=Sing	16	comp:pred	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00720
@@ -20095,7 +20095,7 @@
 2	édition	édition	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	limitée	limité	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	disponible	disponible	ADJ	_	Number=Sing	4	comp:pred	_	_
+5	disponible	disponible	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
 6	en	en	ADP	_	_	4	mod	_	_
 7	exclusivité	exclusivité	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	dans	dans	ADP	_	_	4	mod	_	_
@@ -20970,7 +20970,7 @@
 3	trois	trois	NUM	_	_	2	comp:obj	_	_
 4	jours	jour	NOUN	_	Gender=Masc|Number=Plur	5	subj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	nécessaires	nécessaire	ADJ	_	Number=Plur	5	comp:pred	_	_
+6	nécessaires	nécessaire	ADJ	_	Gender=Masc|Number=Plur	5	comp:pred	_	_
 7	pour	pour	ADP	_	_	5	mod	_	_
 8	parcourir	parcourir	VERB	_	VerbForm=Inf	7	comp:obj	_	_
 9	tout	tout	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
@@ -21575,7 +21575,7 @@
 4	longitudinales	longitudinal	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
 5	rouge	rouge	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	3	mod	_	CorrectNumber=Plur|wordform=rouges
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	visibles	visible	ADJ	_	Number=Plur	6	comp:pred	_	_
+7	visibles	visible	ADJ	_	Gender=Fem|Number=Plur	6	comp:pred	_	_
 8	sur	sur	ADP	_	_	6	mod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	dos	dos	NOUN	_	Gender=Masc	8	comp:obj	_	SpaceAfter=No
@@ -24261,7 +24261,7 @@
 7	sources	source	NOUN	_	Gender=Fem|Number=Plur	9	subj	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
 9	montrent	montrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
-10	inflexibles	inflexible	ADJ	_	Number=Plur	9	comp:pred	_	_
+10	inflexibles	inflexible	ADJ	_	Gender=Fem|Number=Plur	9	comp:pred	_	_
 11	:	:	PUNCT	_	_	15	punct	_	_
 12	"	"	PUNCT	_	_	15	punct	_	_
 13	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj@expl	_	wordform=il
@@ -24501,7 +24501,7 @@
 22	attente	attente	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 23	étant	être	AUX	_	Tense=Pres|VerbForm=Part	4	mod	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	deuxième	deuxième	ADJ	_	Number=Sing	23	comp:pred	_	_
+25	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	23	comp:pred	_	_
 26	puisque	puisque	SCONJ	_	_	23	mod	_	_
 27	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	29	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
 28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	27	unk	_	InIdiom=Yes
@@ -24583,7 +24583,7 @@
 18	Eaucourt	Eaucourt	PROPN	_	_	17	comp:obj	_	_
 19	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 20	plus	plus	ADV	_	_	21	mod	_	_
-21	considérables	considérable	ADJ	_	Number=Plur	19	comp:pred	_	_
+21	considérables	considérable	ADJ	_	Gender=Masc|Number=Plur	19	comp:pred	_	_
 22	qu'	que	SCONJ	_	_	20	comp:obj	_	SpaceAfter=No
 23	aujourd'hui	aujourd'hui	ADV	_	_	22	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	19	punct	_	_
@@ -24962,7 +24962,7 @@
 11	qu'	que	SCONJ	_	_	10	comp:obj@agent	_	SpaceAfter=No
 12	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
-14	asymptomatique	asymptomatique	ADJ	_	Number=Sing	13	comp:pred	_	_
+14	asymptomatique	asymptomatique	ADJ	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
 15	malgré	malgré	ADP	_	_	14	mod	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	taille	taille	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
@@ -25542,7 +25542,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	tourelle	tourelle	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	semi-conique	semi-conique	ADJ	_	Number=Sing	6	comp:pred	_	SpaceAfter=No
+7	semi-conique	semi-conique	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	15	punct	_	_
 9	dont	dont	PRON	_	PronType=Rel	11	udep	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
@@ -25779,7 +25779,7 @@
 7	en	en	ADP	_	_	6	udep	_	_
 8	médecine	médecine	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 9	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-10	difficile	difficile	ADJ	_	Number=Sing	9	comp:pred	_	_
+10	difficile	difficile	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	peu	peu	ADV	_	_	13	mod	_	_
 13	brillante	brillant	ADJ	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
@@ -26075,7 +26075,7 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
 2	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	endémique	endémique	ADJ	_	Number=Sing	3	comp:pred	_	_
+4	endémique	endémique	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	Colombie	Colombie	PROPN	_	_	5	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
@@ -29354,7 +29354,7 @@
 2	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	_
 4	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	incapable	incapable	ADJ	_	Number=Sing	4	comp:pred	_	_
+5	incapable	incapable	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 6	de	de	ADP	_	_	5	comp:obl@x	_	_
 7	répondre	répondre	VERB	_	VerbForm=Inf	6	comp:obj	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
@@ -29424,7 +29424,7 @@
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	attente	attente	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
 5	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	supportable	supportable	ADJ	_	Number=Sing	5	comp:pred	_	_
+6	supportable	supportable	ADJ	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
 7	par	par	ADP	_	_	5	mod	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	apport	apport	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -29668,7 +29668,7 @@
 5	de	de	ADP	_	_	4	udep	_	_
 6	Leslie	Leslie	PROPN	_	_	5	comp:obj	_	_
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	invalide	invalide	ADJ	_	Number=Sing	7	comp:pred	_	_
+8	invalide	invalide	ADJ	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
 9	depuis	depuis	ADP	_	_	7	mod	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	11	det	_	_
 11	naissance	naissance	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
@@ -30765,7 +30765,7 @@
 14	car	car	CCONJ	_	_	16	cc	_	_
 15	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-17	favorable	favorable	ADJ	_	Number=Sing	16	comp:pred	_	_
+17	favorable	favorable	ADJ	_	Gender=Fem|Number=Sing	16	comp:pred	_	_
 18	à	à	ADP	_	_	17	comp:obl	_	_
 19	remise	remise	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 20	complète	complet	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
@@ -32642,7 +32642,7 @@
 11	ne	ne	ADV	_	_	10	unk	_	InIdiom=Yes
 12	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	unk	_	InIdiom=Yes
 13	plus	plus	ADV	_	_	12	unk	_	InIdiom=Yes
-14	basiques	basique	ADJ	_	Number=Plur	9	comp:pred	_	SpaceAfter=No
+14	basiques	basique	ADJ	_	Gender=Masc|Number=Plur	9	comp:pred	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_01183
@@ -32734,7 +32734,7 @@
 2	terrasse	terrasse	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	très	très	ADV	_	_	5	mod	_	_
-5	agréable	agréable	ADJ	_	Number=Sing	3	comp:pred	_	SpaceAfter=No
+5	agréable	agréable	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	décor	décor	NOUN	_	Gender=Masc|Number=Sing	9	subj@pass	_	_
@@ -33263,7 +33263,7 @@
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	cependant	cependant	ADV	_	_	3	mod	_	_
 5	plus	plus	ADV	_	_	6	mod	_	_
-6	faibles	faible	ADJ	_	Number=Plur	3	comp:pred	_	_
+6	faibles	faible	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
 7	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 8	en	en	ADP	_	_	7	comp:obj	_	_
 9	2002	2002	NUM	_	_	8	comp:obj	_	_
@@ -33356,7 +33356,7 @@
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	très	très	ADV	_	_	16	mod	_	_
-16	populaire	populaire	ADJ	_	Number=Sing	14	comp:pred	_	_
+16	populaire	populaire	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
 17	chez	chez	ADP	_	_	14	mod	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	jeunes	jeune	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
@@ -34909,7 +34909,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=il
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@pass	_	_
 3	classe	classer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	deuxième	deuxième	ADJ	_	Number=Sing	3	comp:pred	_	_
+4	deuxième	deuxième	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	mod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -35151,7 +35151,7 @@
 5	clinique	clinique	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 7	très	très	ADV	_	_	8	mod	_	_
-8	recommandable	recommandable	ADJ	_	Number=Sing	6	comp:pred	_	SpaceAfter=No
+8	recommandable	recommandable	ADJ	_	Gender=Fem|Number=Sing	6	comp:pred	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01268
@@ -37018,7 +37018,7 @@
 5	hindou	hindou	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	généralement	généralement	ADV	_	_	2	mod	_	_
-8	shivaïtes	shivaïte	ADJ	_	Number=Plur	2	comp:pred	_	SpaceAfter=No
+8	shivaïtes	shivaïte	ADJ	_	Gender=Masc|Number=Plur	2	comp:pred	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01337
@@ -37115,7 +37115,7 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
 2	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	endémique	endémique	ADJ	_	Number=Sing	3	comp:pred	_	_
+4	endémique	endémique	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	province	province	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -37805,7 +37805,7 @@
 49	ne	ne	ADV	_	Polarity=Neg	50	mod	_	_
 50	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 51	plus	plus	ADV	_	Polarity=Neg	50	mod	_	_
-52	nécessaires	nécessaire	ADJ	_	Number=Plur	50	comp:pred	_	SpaceAfter=No
+52	nécessaires	nécessaire	ADJ	_	Gender=Fem|Number=Plur	50	comp:pred	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	50	punct	_	_
 
 # sent_id = fr-ud-dev_01362
@@ -38387,7 +38387,7 @@
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
 2	ambiance	ambiance	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	quelconque	quelconque	ADJ	_	Number=Sing	3	comp:pred	_	SpaceAfter=No
+4	quelconque	quelconque	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	et	et	CCONJ	_	_	9	cc	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -39082,7 +39082,7 @@
 2	qu'	que	SCONJ	_	_	1	comp:obj	_	SpaceAfter=No
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
-5	possible	possible	ADJ	_	Number=Sing	4	comp:pred	_	_
+5	possible	possible	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 6	de	de	ADP	_	_	5	comp:obj@agent	_	_
 7	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
 8	colorer	colorer	VERB	_	VerbForm=Inf	6	comp:obj	_	_
@@ -40367,7 +40367,7 @@
 2	naturalisation	naturalisation	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-5	possible	possible	ADJ	_	Number=Sing	4	comp:pred	_	_
+5	possible	possible	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
 6	qu'	que	ADV	_	_	7	mod	_	SpaceAfter=No
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	4	mod	_	ExtPos=ADV|PhraseType=Idiom

@@ -385,7 +385,7 @@
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Mauritanie	Mauritanie	PROPN	_	_	19	conj	_	_
 23	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
-24	instable	instable	ADJ	_	Number=Sing	23	comp:pred	_	_
+24	instable	instable	ADJ	_	Gender=Fem|Number=Sing	23	comp:pred	_	_
 25	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00012
@@ -1207,7 +1207,7 @@
 # text = C'est simple, il y a de tout.
 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No|wordform=c'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	simple	simple	ADJ	_	Number=Sing	2	comp:pred	_	SpaceAfter=No
+3	simple	simple	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	comp	_	InIdiom=Yes
@@ -1248,7 +1248,7 @@
 27	série	série	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 28	animée	animé	ADJ	_	Gender=Fem|Number=Sing	27	mod	_	_
 29	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-30	disponibles	disponible	ADJ	_	Number=Plur	29	comp:pred	_	_
+30	disponibles	disponible	ADJ	_	Gender=Masc|Number=Plur	29	comp:pred	_	_
 31	dès	dès	ADP	_	_	29	mod	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	30	30	NUM	_	_	31	comp:obj	_	_
@@ -2048,7 +2048,7 @@
 15	de	de	ADP	_	_	13	conj	_	ExtPos=ADV|PhraseType=Idiom
 16	facto	facto	NOUN	_	_	15	unk	_	InIdiom=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	libre	libre	ADJ	_	Number=Sing	12	comp:pred	_	SpaceAfter=No
+18	libre	libre	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-test_00073
@@ -3344,7 +3344,7 @@
 17	2006	2006	NUM	_	_	16	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	8	punct	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	inutile	inutile	ADJ	_	Number=Sing	19	comp:pred	_	SpaceAfter=No
+20	inutile	inutile	ADJ	_	Gender=Fem|Number=Sing	19	comp:pred	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = fr-ud-test_00114
@@ -4173,7 +4173,7 @@
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	même	même	ADJ	_	Number=Sing	20	comp:pred	_	_
+23	même	même	ADJ	_	Gender=Fem|Number=Sing	20	comp:pred	_	_
 24	pour	pour	ADP	_	_	20	mod	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Société	Société	PROPN	_	_	24	comp:obj	_	_
@@ -5685,7 +5685,7 @@
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Mexique	Mexique	PROPN	_	_	21	comp:obj	_	_
 24	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
-25	praticables	praticable	ADJ	_	Number=Plur	24	comp:pred	_	_
+25	praticables	praticable	ADJ	_	Gender=Fem|Number=Plur	24	comp:pred	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	essayant	essayer	VERB	_	Tense=Pres|VerbForm=Part	13	conj	_	_
 28	de	de	ADP	_	_	27	comp:obj@x	_	_
@@ -6424,7 +6424,7 @@
 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No|wordform=c'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	tellement	tellement	ADV	_	_	4	mod	_	_
-4	rare	rare	ADJ	_	Number=Sing	2	comp:pred	_	_
+4	rare	rare	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 5	de	de	ADP	_	_	4	comp:obj@agent	_	_
 6	pouvoir	pouvoir	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 7	dîner	dîner	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
@@ -6476,7 +6476,7 @@
 10	à	à	ADP	_	_	9	mod	_	ExtPos=ADV|PhraseType=Idiom
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
 12	fois	fois	NOUN	_	Gender=Fem	10	comp:obj	_	InIdiom=Yes
-13	futuriste	futuriste	ADJ	_	Number=Sing	9	comp:pred	_	_
+13	futuriste	futuriste	ADJ	_	Gender=Masc|Number=Sing	9	comp:pred	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	romantique	romantique	ADJ	_	Number=Sing	13	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
@@ -6739,7 +6739,7 @@
 5	plus	plus	ADV	_	_	4	comp:obj	_	InIdiom=Yes
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
-8	rapide	rapide	ADJ	_	Number=Sing	7	comp:pred	_	SpaceAfter=No
+8	rapide	rapide	ADJ	_	Gender=Masc|Number=Sing	7	comp:pred	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00235
@@ -7279,7 +7279,7 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	prix	prix	NOUN	_	Gender=Masc	3	subj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	abordables	abordable	ADJ	_	Number=Plur	3	comp:pred	_	_
+4	abordables	abordable	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
 5	pour	pour	ADP	_	_	3	mod	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -7538,7 +7538,7 @@
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	impeccable	impeccable	ADJ	_	Number=Sing	5	comp:pred	_	_
+6	impeccable	impeccable	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	très	très	ADV	_	_	9	mod	_	_
 9	chaleureux	chaleureux	ADJ	_	Gender=Masc	6	conj	_	SpaceAfter=No
@@ -7604,7 +7604,7 @@
 11	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
-14	aimable	aimable	ADJ	_	Number=Sing|Typo=Yes	12	comp:pred	_	CorrectNumber=Plur|SpaceAfter=No|wordform=aimables
+14	aimable	aimable	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	12	comp:pred	_	CorrectNumber=Plur|SpaceAfter=No|wordform=aimables
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	ni	ni	CCONJ	_	_	17	cc	_	_
 17	compétent	compétent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	14	conj	_	CorrectGender=Fem|CorrectNumber=Plur|SpaceAfter=No|wordform=compétentes
@@ -7836,7 +7836,7 @@
 1	Son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	2	det	_	wordform=son
 2	dirigeant	dirigeant	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	disponible	disponible	ADJ	_	Number=Sing	3	comp:pred	_	_
+4	disponible	disponible	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	à	à	ADP	_	_	3	conj	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
@@ -8074,7 +8074,7 @@
 5	chambres	chambre	NOUN	_	Gender=Fem|Number=Plur	6	subj	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 7	très	très	ADV	_	_	8	mod	_	_
-8	agréables	agréable	ADJ	_	Number=Plur	6	comp:pred	_	_
+8	agréables	agréable	ADJ	_	Gender=Fem|Number=Plur	6	comp:pred	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	spacieuses	spacieux	ADJ	_	Gender=Fem|Number=Plur	8	conj	_	_
 11	bon	bon	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
@@ -8357,7 +8357,7 @@
 # text = Cela fut nécessaire jusqu'à l'arrivée de l'Open Firmware.
 1	Cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=cela
 2	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-3	nécessaire	nécessaire	ADJ	_	Number=Sing	2	comp:pred	_	_
+3	nécessaire	nécessaire	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 4	jusqu'	jusque	ADP	_	_	2	mod	_	SpaceAfter=No
 5	à	à	ADP	_	_	4	comp:obj	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -8796,7 +8796,7 @@
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
-5	libre	libre	ADJ	_	Number=Sing	4	comp:pred	_	SpaceAfter=No
+5	libre	libre	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	Mgr	Mgr	PROPN	_	_	9	subj	_	_
 8	Lebrun	Lebrun	PROPN	_	_	7	flat@name	_	_
@@ -8891,7 +8891,7 @@
 39	Euro	Euro	PROPN	_	_	38	mod	_	_
 40	en	en	PRON	_	Person=3|PronType=Prs	41	mod	_	_
 41	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-42	inéluctable	inéluctable	ADJ	_	Number=Sing	41	comp:pred	_	_
+42	inéluctable	inéluctable	ADJ	_	Gender=Fem|Number=Sing	41	comp:pred	_	_
 43	et	et	CCONJ	_	_	50	cc	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	43	punct	_	_
 45	par	par	ADP	_	_	50	udep	_	_
@@ -11023,7 +11023,7 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	papillons	papillon	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	visibles	visible	ADJ	_	Number=Plur	3	comp:pred	_	_
+4	visibles	visible	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
 5	entre	entre	ADP	_	_	3	mod	_	_
 6	mai	mai	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 7	et	et	CCONJ	_	_	8	cc	_	_
@@ -11047,7 +11047,7 @@
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	papillons	papillon	NOUN	_	Gender=Masc|Number=Plur	26	subj	_	_
 26	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
-27	visibles	visible	ADJ	_	Number=Plur	26	comp:pred	_	_
+27	visibles	visible	ADJ	_	Gender=Masc|Number=Plur	26	comp:pred	_	_
 28	vers	vers	ADP	_	_	26	mod	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	début	début	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
@@ -11373,7 +11373,7 @@
 8	d'	de	ADP	_	_	7	udep	_	SpaceAfter=No
 9	éros	éros	NOUN	_	Gender=Masc	8	comp:obj	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	complémentaire	complémentaire	ADJ	_	Number=Sing	10	comp:pred	_	_
+11	complémentaire	complémentaire	ADJ	_	Gender=Fem|Number=Sing	10	comp:pred	_	_
 12	ou	ou	CCONJ	_	_	14	cc	_	_
 13	s'	se	PRON	_	Person=3|PronType=Prs	14	comp@pass	_	SpaceAfter=No
 14	oppose	opposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
