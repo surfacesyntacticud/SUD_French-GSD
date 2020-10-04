@@ -4130,7 +4130,7 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	7	mod	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
-11	long	long	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	ExtPos=ADV|Phrase_Type=Idiom
+11	long	long	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	ExtPos=ADV|PhraseType=Idiom
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_

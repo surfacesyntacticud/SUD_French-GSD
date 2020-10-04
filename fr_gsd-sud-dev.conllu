@@ -262,7 +262,7 @@
 
 # sent_id = fr-ud-dev_00012
 # text = L'Abime de l'abime de Vladimir Holan à la Maison d'Arrêt d'Avignon (2001).
-1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	INTITLE=Yes|SpaceAfter=No|wordform=l'
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	InTitle=Yes|SpaceAfter=No|wordform=l'
 2	Abime	abîme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	ExtPos=PROPN|PhraseType=Title|wordform=abîme
 3	de	de	ADP	_	_	2	udep	_	InTitle=Yes
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	InTitle=Yes|SpaceAfter=No
@@ -7867,7 +7867,7 @@
 43-44	au	_	_	_	_	_	_	_	_
 43	à	à	ADP	_	_	40	mod	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	43	comp:obj	_	CorrectNumber=Sing|worform=niveau
+45	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	43	comp:obj	_	CorrectNumber=Sing|wordform=niveau
 46	national	national	ADJ	_	Gender=Masc|Number=Sing	45	mod	_	_
 47	et	et	CCONJ	_	_	48	cc	_	_
 48	européen	européen	ADJ	_	Gender=Masc|Number=Sing	46	conj	_	SpaceAfter=No
@@ -8944,7 +8944,7 @@
 24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	unk	_	InIdiom=Yes
 25	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	InIdiom=Yes
-27	long	long	NOUN	_	Gender=Masc|Number=Sing	25	mod	_	ExtPos=ADV|Phrase_Type=Idiom
+27	long	long	NOUN	_	Gender=Masc|Number=Sing	25	mod	_	ExtPos=ADV|PhraseType=Idiom
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	comp:obl	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
@@ -18290,7 +18290,7 @@
 9	documentaire	documentaire	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
 10	Enfants	enfant	NOUN	_	Number=Plur	8	appos	_	ExtPos=PROPN|PhraseType=title|wordform=enfants
 11	de	de	ADP	_	_	10	udep	_	InTitle=Yes
-12	boches	boche	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	Intitle=Yes
+12	boches	boche	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	InTitle=Yes
 13	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	mod	_	_
 14	par	par	ADP	_	_	13	comp:obl@agent	_	_
 15	Olivier	Olivier	PROPN	_	_	14	comp:obj	_	_
@@ -26811,7 +26811,7 @@
 2	villes	ville	NOUN	_	Gender=Fem|Number=Plur	9	subj	_	_
 3	situées	situer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
-5	long	long	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	ExtPos=ADV|Phrase_Type=Idiom
+5	long	long	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	ExtPos=ADV|PhraseType=Idiom
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -40710,7 +40710,7 @@
 29	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	InIdiom=Yes
-32	long	long	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	ExtPos=ADV|Phrase_Type=Idiom
+32	long	long	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	ExtPos=ADV|PhraseType=Idiom
 33	de	de	ADP	_	_	32	comp:obl	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	frontière	frontière	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_
