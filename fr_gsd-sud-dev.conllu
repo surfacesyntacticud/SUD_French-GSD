@@ -93,7 +93,7 @@
 48	pensées	penser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	47	mod	_	_
 49	jusqu'	jusque	ADP	_	_	48	mod	_	SpaceAfter=No
 50	alors	alors	ADV	_	_	49	comp:obj	_	_
-51	désertiques	désertique	ADJ	_	Number=Plur	48	comp:pred	_	SpaceAfter=No
+51	désertiques	désertique	ADJ	_	Gender=Fem|Number=Plur	48	comp:pred	_	SpaceAfter=No
 52	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = fr-ud-dev_00005
@@ -902,7 +902,7 @@
 8	aussi	aussi	ADV	_	_	9	mod	_	_
 9	chaleureux	chaleureux	ADJ	_	Gender=Masc	7	mod	_	_
 10	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
-11	enthousiaste	enthousiaste	ADJ	_	Number=Sing	10	comp:obj	_	SpaceAfter=No
+11	enthousiaste	enthousiaste	ADJ	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 12	...	...	PUNCT	_	_	15	punct	_	_
 13	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	wordform=les
 14	plats	plat	NOUN	_	Gender=Masc|Number=Plur	15	subj	_	_
@@ -2950,7 +2950,7 @@
 50	et	et	CCONJ	_	_	56	cc	_	SpaceAfter=No
 51	--	--	PUNCT	_	_	50	punct	_	SpaceAfter=No
 52	si	si	SCONJ	_	_	56	mod	_	_
-53	possible	possible	ADJ	_	Number=Sing	52	comp:obj	_	SpaceAfter=No
+53	possible	possible	ADJ	_	Gender=Masc|Number=Sing	52	comp:obj	_	SpaceAfter=No
 54	--	--	PUNCT	_	_	52	punct	_	SpaceAfter=No
 55	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	56	comp:obj	_	_
 56	relie	relier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	conj	_	_
@@ -4757,7 +4757,7 @@
 11	république	république	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	française	français	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 13	devenue	devenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	_
-14	laïque	laïque	ADJ	_	Number=Sing	13	comp:pred	_	_
+14	laïque	laïque	ADJ	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
 15	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 16	aussi	aussi	ADV	_	_	15	mod	_	_
 17	pour	pour	ADP	_	_	15	comp:obl	_	_
@@ -5943,7 +5943,7 @@
 16	de	de	ADP	_	_	15	udep	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 18	plus	plus	ADV	_	_	19	mod	_	_
-19	agréable	agréable	ADJ	_	Number=Sing|Typo=Yes	16	comp:obj	_	CorrectNumber=Plur|SpaceAfter=No|wordform=agréables
+19	agréable	agréable	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	16	comp:obj	_	CorrectNumber=Plur|SpaceAfter=No|wordform=agréables
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00216
@@ -8015,7 +8015,7 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	France	France	PROPN	_	_	8	comp:obj	_	_
 10	restées	rester	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	mod	_	_
-11	fidèles	fidèle	ADJ	_	Number=Plur	10	comp:pred	_	_
+11	fidèles	fidèle	ADJ	_	Gender=Fem|Number=Plur	10	comp:pred	_	_
 12-13	aux	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -9255,7 +9255,7 @@
 17	zone	zone	NOUN	_	Gender=Fem|Number=Sing	15	appos	_	_
 18	traditionnellement	traditionnellement	ADV	_	_	19	mod	_	_
 19	réputée	réputer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	mod	_	_
-20	hostile	hostile	ADJ	_	Number=Sing	19	comp:pred	_	_
+20	hostile	hostile	ADJ	_	Gender=Fem|Number=Sing	19	comp:pred	_	_
 21-22	aux	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	20	comp:obl	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
@@ -12616,7 +12616,7 @@
 12	à	à	ADP	_	_	11	mod	_	ExtPos=ADV|PhraseType=Idiom
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	InIdiom=Yes
 14	fois	fois	NOUN	_	Gender=Fem	12	comp:obj	_	InIdiom=Yes
-15	souple	souple	ADJ	_	Number=Sing	11	comp:pred	_	_
+15	souple	souple	ADJ	_	Gender=Fem|Number=Sing	11	comp:pred	_	_
 16	pour	pour	ADP	_	_	15	mod	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	18	comp:obj	_	SpaceAfter=No
 18	adapter	adapter	VERB	_	VerbForm=Inf	16	comp:obj	_	_
@@ -12634,9 +12634,9 @@
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	et	et	CCONJ	_	_	31	cc	_	_
 30	suffisamment	suffisamment	ADV	_	_	31	mod	_	_
-31	fixe	fixe	ADJ	_	Number=Sing	15	conj	_	_
+31	fixe	fixe	ADJ	_	Gender=Fem|Number=Sing	15	conj	_	_
 32	et	et	CCONJ	_	_	33	cc	_	_
-33	immuable	immuable	ADJ	_	Number=Sing	31	conj:emb	_	_
+33	immuable	immuable	ADJ	_	Gender=Fem|Number=Sing	31	conj:emb	_	_
 34	pour	pour	ADP	_	Shared=Yes	33	mod	_	_
 35	imprimer	imprimer	VERB	_	VerbForm=Inf	34	comp:obj	_	_
 36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -17382,7 +17382,7 @@
 8	parking	parking	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 10	très	très	ADV	_	_	11	mod	_	_
-11	difficile	difficile	ADJ	_	Number=Sing	9	comp:pred	_	_
+11	difficile	difficile	ADJ	_	Gender=Masc|Number=Sing	9	comp:pred	_	_
 12	!	!	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_00625
@@ -20373,7 +20373,7 @@
 7	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-10	typique	typique	ADJ	_	Number=Sing	9	comp:pred	_	_
+10	typique	typique	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
@@ -20654,7 +20654,7 @@
 26	religion	religion	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 27	mais	mais	CCONJ	_	_	28	cc	_	_
 28	demeure	demeurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
-29	implacable	implacable	ADJ	_	Number=Sing	28	comp:pred	_	_
+29	implacable	implacable	ADJ	_	Gender=Masc|Number=Sing	28	comp:pred	_	_
 30	face	face	NOUN	_	_	29	mod	_	ExtPos=ADV
 31-32	aux	_	_	_	_	_	_	_	_
 31	à	à	ADP	_	_	30	comp:obl	_	_
@@ -24461,7 +24461,7 @@
 15	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 16	d'	de	ADP	_	_	15	comp:obj@x	_	SpaceAfter=No
 17	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	_
-18	exemplaire	exemplaire	ADJ	_	Number=Sing	17	comp:pred	_	_
+18	exemplaire	exemplaire	ADJ	_	Gender=Fem|Number=Sing	17	comp:pred	_	_
 19	et	et	CCONJ	_	_	20	cc	_	_
 20	à	à	ADP	_	_	16	conj	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -25404,7 +25404,7 @@
 14	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 16	très	très	ADV	_	_	17	mod	_	_
-17	sympathique	sympathique	ADJ	_	Number=Sing	15	comp:pred	_	SpaceAfter=No
+17	sympathique	sympathique	ADJ	_	Gender=Masc|Number=Sing	15	comp:pred	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
 19	et	et	CCONJ	_	_	22	cc	_	_
 20	qui	qui	PRON	_	PronType=Rel	22	subj	_	_
@@ -28992,7 +28992,7 @@
 12	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	comp:obj	_	_
 13	pour	pour	ADP	_	_	10	mod	_	_
 14	être	être	AUX	_	VerbForm=Inf	13	comp:obj	_	_
-15	populaire	populaire	ADJ	_	Number=Sing	14	comp:pred	_	SpaceAfter=No
+15	populaire	populaire	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01043
@@ -29047,7 +29047,7 @@
 19	de	de	ADP	_	_	18	udep	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 21	plus	plus	ADV	_	_	22	mod	_	_
-22	cryptiques	cryptique	ADJ	_	Number=Plur	19	comp:obj	_	_
+22	cryptiques	cryptique	ADJ	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	Bible	bible	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No|wordform=bible
@@ -29468,7 +29468,7 @@
 11	travail	travail	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	dès	dès	ADP	_	_	6	mod	_	_
 13	que	que	SCONJ	_	_	12	comp:obj	_	_
-14	possible	possible	ADJ	_	Number=Sing	13	comp:obj	_	SpaceAfter=No
+14	possible	possible	ADJ	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01062
@@ -32769,7 +32769,7 @@
 3	même	même	ADV	_	_	2	mod	_	_
 4	créer	créer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 5	en	en	ADP	_	_	4	mod	_	ExtPos=ADV|PhraseType=Idiom
-6	parallèle	parallèle	ADJ	_	Number=Sing	5	comp:obj	_	InIdiom=Yes
+6	parallèle	parallèle	ADJ	_	Gender=Masc|Number=Sing	5	comp:obj	_	InIdiom=Yes
 7	texte	texte	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	musique	musique	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
@@ -34133,7 +34133,7 @@
 17	colonialisme	colonialisme	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	_
-20	incompatible	incompatible	ADJ	_	Number=Sing	19	comp:pred	_	_
+20	incompatible	incompatible	ADJ	_	Gender=Masc|Number=Sing	19	comp:pred	_	_
 21	avec	avec	ADP	_	_	20	comp:obl	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	charte	charte	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
@@ -34259,7 +34259,7 @@
 7	pour	pour	ADP	_	_	4	mod	_	_
 8	aider	aider	VERB	_	VerbForm=Inf	7	comp:obj	_	_
 9	si	si	SCONJ	_	_	8	mod	_	_
-10	nécessaire	nécessaire	ADJ	_	Number=Sing	9	comp:obj	_	_
+10	nécessaire	nécessaire	ADJ	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 13	après	après	ADP	_	_	8	mod	_	_
@@ -35131,7 +35131,7 @@
 22	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	_
 23	qui	qui	PRON	_	PronType=Rel	24	subj	_	_
 24	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	_
-25	capables	capable	ADJ	_	Number=Plur	24	comp:pred	_	_
+25	capables	capable	ADJ	_	Gender=Fem|Number=Plur	24	comp:pred	_	_
 26	d'	de	ADP	_	_	25	comp:obl	_	SpaceAfter=No
 27	intégration	intégration	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
 28	verticale	vertical	ADJ	_	Gender=Fem|Number=Sing	27	mod	_	_

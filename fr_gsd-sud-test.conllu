@@ -405,9 +405,9 @@
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	unk	_	InIdiom=Yes
 14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 15	être	être	AUX	_	VerbForm=Inf	14	comp:obj@x	_	_
-16	traditionaliste	traditionaliste	ADJ	_	Number=Sing	15	comp:pred	_	_
+16	traditionaliste	traditionaliste	ADJ	_	Gender=Masc|Number=Sing	15	comp:pred	_	_
 17	ET	et	CCONJ	_	_	18	cc	_	wordform=et
-18	intégriste	intégriste	ADJ	_	Number=Sing	16	conj	_	SpaceAfter=No
+18	intégriste	intégriste	ADJ	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	mais	mais	CCONJ	_	_	21	cc	_	_
 21	que	que	SCONJ	_	_	11	conj	_	_
@@ -3787,7 +3787,7 @@
 56	,	,	PUNCT	_	_	57	punct	_	_
 57	considéré	considérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	mod	_	_
 58	comme	comme	SCONJ	_	_	57	comp:pred	_	_
-59	favorable	favorable	ADJ	_	Number=Sing	58	comp:obj	_	_
+59	favorable	favorable	ADJ	_	Gender=Masc|Number=Sing	58	comp:obj	_	_
 60-61	au	_	_	_	_	_	_	_	_
 60	à	à	ADP	_	_	59	comp:obl	_	_
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
@@ -4668,7 +4668,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	Wef	Wef	PROPN	_	_	27	comp:obj	_	_
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-31	74e	74e	ADJ	_	Number=Sing	16	parataxis	_	SpaceAfter=No
+31	74e	74e	ADJ	_	Gender=Fem|Number=Sing	16	parataxis	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -7409,7 +7409,7 @@
 15	)	)	PUNCT	_	_	7	punct	_	_
 16	mais	mais	CCONJ	_	_	17	cc	_	_
 17	restaient	rester	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
-18	simples	simple	ADJ	_	Number=Plur	17	comp:pred	_	_
+18	simples	simple	ADJ	_	Gender=Masc|Number=Plur	17	comp:pred	_	_
 19	dans	dans	ADP	_	_	17	mod	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	présentation	présentation	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
@@ -7613,7 +7613,7 @@
 20	dirais	dire	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 21	même	même	ADV	_	_	20	mod	_	_
 22	totalement	totalement	ADV	_	_	23	mod	_	_
-23	antipathiques	antipathique	ADJ	_	Number=Plur	20	comp:obj	_	SpaceAfter=No
+23	antipathiques	antipathique	ADJ	_	Gender=Fem|Number=Plur	20	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-test_00276
@@ -7676,7 +7676,7 @@
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	mod	_	ExtPos=ADV|PhraseType=Idiom
 57	peu	peu	ADV	_	_	56	unk	_	InIdiom=Yes
 58	plus	plus	ADV	_	_	59	mod	_	_
-59	classique	classique	ADJ	_	Number=Sing	55	comp:obj	_	SpaceAfter=No
+59	classique	classique	ADJ	_	Gender=Masc|Number=Sing	55	comp:obj	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-test_00277
@@ -8131,7 +8131,7 @@
 21	2008	2008	NUM	_	_	18	mod	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
-24	troisième	troisième	ADJ	_	Number=Sing	23	comp:pred	_	_
+24	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	23	comp:pred	_	_
 25	de	de	ADP	_	_	24	mod	_	_
 26	Gand-Wevelgem	Gand-Wevelgem	PROPN	_	_	25	comp:obj	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -8570,7 +8570,7 @@
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 14	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
-15	introuvable	introuvable	ADJ	_	Number=Sing	14	comp:pred	_	SpaceAfter=No
+15	introuvable	introuvable	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01495
@@ -8854,7 +8854,7 @@
 3	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	12	parataxis	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
-6	probable	probable	ADJ	_	Number=Sing	5	comp:pred	_	SpaceAfter=No
+6	probable	probable	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	Premier	premier	ADJ	Gender=Masc|Number=Sing	Gender=Masc	10	mod	_	wordform=premier
@@ -10833,7 +10833,7 @@
 # sent_id = fr-ud-dev_01572
 # text = Dame Blanche Nord ou cité des peintres, surnom dû à ses rues aux noms de peintres célébres, est un quartier situé dans le nord de la ville de Garges-lès-Gonesse, en banlieue parisienne.
 1	Dame	Dame	PROPN	_	Gender=Fem|Number=Sing	22	subj	_	_
-2	Blanche	Blanche	ADJ	_	Number=Sing	1	mod	_	wordform=blanche
+2	Blanche	Blanche	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	wordform=blanche
 3	Nord	nord	NOUN	_	Gender=Masc|Number=Sing	1	mod	_	wordform=nord
 4	ou	ou	CCONJ	_	_	5	cc	_	_
 5	cité	cité	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
@@ -10879,7 +10879,7 @@
 2	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
 3	espèces	espèce	NOUN	_	Gender=Fem|Number=Plur	8	subj	_	_
 4	devenues	devenir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	mod	_	_
-5	rares	rare	ADJ	_	Number=Plur	4	comp:pred	_	_
+5	rares	rare	ADJ	_	Gender=Fem|Number=Plur	4	comp:pred	_	_
 6	ou	ou	CCONJ	_	_	7	cc	_	_
 7	menacées	menacé	ADJ	_	Gender=Fem|Number=Plur	5	conj	_	_
 8	survivent	survivre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
