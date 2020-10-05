@@ -18698,7 +18698,7 @@
 # sent_id = fr-ud-dev_00674
 # text = Feuillage vert foncées et aiguilles regroupées par trois (Le Pin à encens--Pinus Taeda--origine Sud Est USA, possède lui aussi des aiguilles regroupées par trois), les cônes sont tous orientés vers le tronc et peuvent rester 20 ans accrochées au tronc avant de tomber.
 1	Feuillage	feuillage	NOUN	_	Gender=Masc|Number=Sing	35	parataxis	_	wordform=feuillage
-2	vert	vert	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
+2	vert	vert	ADJ	_	_	1	mod	_	_
 3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	2	mod	_	CorrectGender=Masc|CorrectNumber=Sing|wordform=foncé
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	aiguilles	aiguille	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
