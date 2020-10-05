@@ -2532,7 +2532,7 @@
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	douze	douze	NUM	_	Number=Plur	13	det	_	_
 13	personnages	personnage	NOUN	_	Gender=Masc|Number=Plur	24	subj	_	_
-14	debout	debout	ADJ	_	Number=Plur	13	mod	_	SpaceAfter=No
+14	debout	debout	ADJ	_	_	13	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 17	apôtres	apôtre	NOUN	_	Gender=Masc|Number=Plur	13	appos	_	_
@@ -14490,7 +14490,7 @@
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	masque	masque	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	facial	facial	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
-21	turquoise	turquoise	ADJ	_	Number=Sing	19	mod	_	_
+21	turquoise	turquoise	ADJ	_	_	19	mod	_	_
 22	plus	plus	ADV	_	_	23	mod	_	_
 23	marqué	marquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	mod	_	_
 24	chez	chez	ADP	_	_	23	mod	_	_
