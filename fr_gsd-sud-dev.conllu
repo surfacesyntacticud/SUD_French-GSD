@@ -2532,7 +2532,7 @@
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	douze	douze	NUM	_	Number=Plur	13	det	_	_
 13	personnages	personnage	NOUN	_	Gender=Masc|Number=Plur	24	subj	_	_
-14	debout	debout	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	SpaceAfter=No
+14	debout	debout	ADJ	_	Number=Plur	13	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 17	apôtres	apôtre	NOUN	_	Gender=Masc|Number=Plur	13	appos	_	_
@@ -14490,7 +14490,7 @@
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	masque	masque	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	facial	facial	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
-21	turquoise	turquoise	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
+21	turquoise	turquoise	ADJ	_	Number=Sing	19	mod	_	_
 22	plus	plus	ADV	_	_	23	mod	_	_
 23	marqué	marquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	mod	_	_
 24	chez	chez	ADP	_	_	23	mod	_	_
@@ -25638,7 +25638,7 @@
 6	dans	dans	ADP	_	_	2	mod	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-9	vidéo	vidéo	ADJ	_	Gender=Masc	8	mod	_	_
+9	vidéo	vidéo	ADJ	_	_	8	mod	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	21	21	NUM	_	_	2	mod	_	_
 12	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	_
@@ -32723,7 +32723,7 @@
 30	créateur	créateur	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
 32	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
-33	vidéo	vidéo	ADJ	_	Gender=Masc	32	mod	_	_
+33	vidéo	vidéo	ADJ	_	_	32	mod	_	_
 34	American	American	X	_	Foreign=Yes	30	appos	_	Lang=en
 35	McGee	McGee	PROPN	_	_	34	flat@name	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	16	punct	_	_
@@ -37591,7 +37591,7 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 14	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	_
 15	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
-16	vidéo	vidéo	ADJ	_	Gender=Masc	15	mod	_	_
+16	vidéo	vidéo	ADJ	_	_	15	mod	_	_
 17	Pokémon	Pokémon	PROPN	_	_	15	appos	_	_
 18	Rouge	rouge	ADJ	_	Number=Sing	17	mod	_	wordform=rouge
 19	et	et	CCONJ	_	_	20	cc	_	_
