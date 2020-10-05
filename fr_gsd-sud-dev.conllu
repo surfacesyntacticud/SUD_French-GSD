@@ -6896,7 +6896,7 @@
 21	élément	élément	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 22	de	de	ADP	_	_	21	udep	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	29e	29e	ADJ	_	Number=Sing	22	comp:obj	_	SpaceAfter=No
+24	29e	29e	ADJ	_	Gender=Fem|Number=Sing	22	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00248
@@ -19141,7 +19141,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	plus	plus	ADV	_	_	11	mod	_	_
-11	populaire	populaire	ADJ	_	Number=Sing	2	appos	_	_
+11	populaire	populaire	ADJ	_	Gender=Masc|Number=Sing	2	appos	_	_
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -34439,7 +34439,7 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	à	à	ADP	_	_	3	mod	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	87e	87e	ADJ	_	Number=Sing	17	comp:obj	_	SpaceAfter=No
+19	87e	87e	ADJ	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	où	où	ADV	_	PronType=Rel	23	mod	_	_
 22	Marjewski	Marjewski	PROPN	_	_	23	subj	_	_
@@ -37782,7 +37782,7 @@
 28	à	à	ADP	_	_	17	conj	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 30	plus	plus	ADV	_	_	31	mod	_	_
-31	proche	proche	ADJ	_	Number=Sing	28	comp:obj	_	_
+31	proche	proche	ADJ	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 32-33	du	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	31	comp:obl	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
