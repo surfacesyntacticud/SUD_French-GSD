@@ -13548,7 +13548,7 @@
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
 14	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 15	être	être	AUX	_	VerbForm=Inf	14	comp:obj@x	_	_
-16	titulaire	titulaire	ADJ	_	Number=Sing	15	comp:pred	_	_
+16	titulaire	titulaire	ADJ	_	Gender=Masc|Number=Sing	15	comp:pred	_	_
 17	dans	dans	ADP	_	_	15	mod	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
@@ -24953,7 +24953,7 @@
 2	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	devenir	devenir	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
-5	symptomatique	symptomatique	ADJ	_	Number=Sing	4	comp:pred	_	_
+5	symptomatique	symptomatique	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
 6	rapidement	rapidement	ADV	_	_	4	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	mais	mais	CCONJ	_	_	10	cc	_	_
