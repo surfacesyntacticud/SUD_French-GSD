@@ -1835,8 +1835,8 @@
 
 # sent_id = fr-ud-dev_00071
 # text = Les Andalouses est le nom d'une station balnéaire algérienne à 23 km à l'ouest d'Oran.
-1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	Andalouses	Andalouses	PROPN	_	Number=Plur	3	subj	_	_
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	InTitle=Yes|wordform=les
+2	Andalouses	Andalouses	PROPN	_	Number=Plur	3	subj	_	ExtPos=PROPN|PhraseType=Title
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	nom	nom	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
@@ -3282,7 +3282,7 @@
 # sent_id = fr-ud-dev_00118
 # text = 2000 OK67 mesure environ 160km de diamètre.
 1	2000	2000	NUM	_	Number=Plur	2	det	_	_
-2	OK67	OK67	X	_	Number=Plur	3	subj	_	_
+2	OK67	OK67	X	_	_	3	subj	_	_
 3	mesure	mesurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	environ	environ	ADV	_	_	5	mod	_	_
 5	160	160	NUM	_	Number=Plur	6	det	_	SpaceAfter=No
@@ -31467,7 +31467,7 @@
 12	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
 13	armée	armée	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 14	vandales	vandale	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
-15	présent	présent	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
+15	présent	présent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	11	mod	_	CorrectNumber=Plur|wordform=présents
 16	à	à	ADP	_	_	15	comp:obl	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	bataille	bataille	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
