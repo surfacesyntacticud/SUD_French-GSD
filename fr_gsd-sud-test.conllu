@@ -5258,7 +5258,7 @@
 13	juin	juin	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 14	en	en	ADP	_	_	11	udep	_	_
 15	Wallonie	Wallonie	PROPN	_	_	14	comp:obj	_	_
-16	francophone	francophone	ADJ	_	Number=Sing	15	mod	_	SpaceAfter=No
+16	francophone	francophone	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	8	punct	_	_
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	émis	émettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
