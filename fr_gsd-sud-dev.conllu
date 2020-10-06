@@ -2641,7 +2641,7 @@
 # sent_id = fr-ud-dev_00097
 # text = « Tu es donc las de la corvée politique ?
 1	«	«	PUNCT	_	_	3	punct	_	_
-2	Tu	il	PROPN	_	_	3	subj	_	_
+2	Tu	il	PROPN	_	Gender=Masc	3	subj	_	_
 3	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	donc	donc	ADV	_	_	3	mod	_	_
 5	las	las	ADJ	_	Gender=Masc	3	comp:pred	_	_
@@ -7632,7 +7632,7 @@
 # text = En 1927 Marilyn Monroe était âgée d'un an.
 1	En	en	ADP	_	_	5	mod	_	wordform=en
 2	1927	1927	NUM	_	_	1	comp:obj	_	_
-3	Marilyn	Marilyn	PROPN	_	_	5	subj	_	_
+3	Marilyn	Marilyn	PROPN	_	Gender=Fem	5	subj	_	_
 4	Monroe	Monroe	PROPN	_	_	3	flat@name	_	_
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
@@ -10515,7 +10515,7 @@
 
 # sent_id = fr-ud-dev_00380
 # text = John est très tôt orphelin, il sera élevé par sa grand-mère.
-1	John	John	PROPN	_	_	2	subj	_	_
+1	John	John	PROPN	_	Gender=Masc	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	très	très	ADV	_	_	4	mod	_	_
 4	tôt	tôt	ADV	_	_	2	mod	_	_
@@ -28470,7 +28470,7 @@
 10	tandis	tandis	ADV	_	_	4	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	Écossais	Écossais	PROPN	_	Number=Plur	14	subj	_	_
+13	Écossais	Écossais	PROPN	_	Gender=Masc|Number=Plur	14	subj	_	_
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 15	«	«	PUNCT	_	_	16	punct	_	_
 16	nus	nu	ADJ	_	Gender=Masc|Number=Plur	14	comp:pred	_	_
@@ -35463,7 +35463,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	cas	cas	NOUN	_	Gender=Masc|Number=Sing	27	comp:pred	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	22	punct	_	_
-31	Damiel	Damiel	PROPN	_	_	33	subj	_	_
+31	Damiel	Damiel	PROPN	_	Gender=Masc	33	subj	_	_
 32	Dossevi	Dossevi	PROPN	_	_	31	flat@name	_	_
 33	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 34	concentré	concentré	ADJ	_	Gender=Masc|Number=Sing	33	comp:pred	_	_
