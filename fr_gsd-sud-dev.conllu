@@ -3637,7 +3637,7 @@
 
 # sent_id = fr-ud-dev_00132
 # text = Prix raisonnable, service sympathique qui nous a même fait venir un taxi pour emporter le synthétiseur
-1	Prix	prix	NOUN	_	Gender=Masc	0	root	_	wordform=prix
+1	Prix	prix	NOUN	_	Gender=Masc|Number=Sing	0	root	_	wordform=prix
 2	raisonnable	raisonnable	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	service	service	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
@@ -5348,7 +5348,7 @@
 # text = Le roi Théodoric Ier, terrifié par les auxiliaires huns de Litorius demande à l'évêque de Toulouse de négocier la paix (Vita Orientis, 3).
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	roi	roi	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
-3	Théodoric	Théodoric	PROPN	_	_	2	appos	_	_
+3	Théodoric	Théodoric	PROPN	_	Number=Sing	2	appos	_	_
 4	Ier	Ier	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	terrifié	terrifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
@@ -9113,7 +9113,7 @@
 4	plus	plus	ADV	_	_	5	mod	_	_
 5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	Souchon	Souchon	PROPN	_	_	9	subj	_	_
+7	Souchon	Souchon	PROPN	_	Number=Sing	9	subj	_	_
 8	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	9	comp:obl	_	_
 9	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	que	que	SCONJ	_	_	9	comp:obj	_	_
@@ -10963,7 +10963,7 @@
 4	parfois	parfois	ADV	_	_	5	mod	_	_
 5	nommé	nommer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	mod	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	Grenouille	Grenouille	PROPN	_	_	5	comp:pred	_	_
+7	Grenouille	Grenouille	PROPN	_	Number=Sing	5	comp:pred	_	_
 8	dorée	doré	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -13650,7 +13650,7 @@
 3	de	de	ADP	_	_	2	mod	_	_
 4	toute	tout	DET	_	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
 5	façon	façon	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-6	Réseau	Réseau	PROPN	_	_	2	comp:pred	_	_
+6	Réseau	Réseau	PROPN	_	Number=Sing	2	comp:pred	_	_
 7	ferré	ferré	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	de	de	ADP	_	_	6	udep	_	_
 9	France	France	PROPN	_	_	8	comp:obj	_	_
@@ -15543,7 +15543,7 @@
 
 # sent_id = fr-ud-dev_00557
 # text = Lorgue de Barbarie portatif a été créé en 1890.
-1	Lorgue	Lorgue	PROPN	_	_	5	subj@pass	_	_
+1	Lorgue	Lorgue	PROPN	_	Number=Sing	5	subj@pass	_	_
 2	de	de	ADP	_	_	1	udep	_	_
 3	Barbarie	Barbarie	PROPN	_	_	2	comp:obj	_	_
 4	portatif	portatif	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
@@ -17399,7 +17399,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	en	en	ADP	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 11	même	même	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	InIdiom=Yes
-12	temps	temps	NOUN	_	Gender=Masc	10	comp:obj	_	InIdiom=Yes
+12	temps	temps	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	InIdiom=Yes
 13	qu'	que	SCONJ	_	_	10	comp:obj	_	SpaceAfter=No
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	autre	autre	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
@@ -20549,7 +20549,7 @@
 7	aériennes	aérien	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
 8	en	en	ADP	_	_	6	udep	_	_
 9	Grande	grand	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	wordform=grande
-10	Bretagne	Bretagne	PROPN	_	_	8	comp:obj	_	_
+10	Bretagne	Bretagne	PROPN	_	Number=Sing	8	comp:obj	_	_
 11	:	:	PUNCT	_	_	12	punct	_	_
 12	Virgin	Virgin	PROPN	_	_	6	appos	_	_
 13	Atlantic	Atlantic	PROPN	_	_	12	flat@name	_	_
@@ -22925,7 +22925,7 @@
 11	modèle	modèle	NOUN	_	Gender=Masc|Number=Sing	17	subj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	en	en	ADP	_	_	11	udep	_	_
-14	bois	bois	NOUN	_	Gender=Masc	13	comp:obj	_	_
+14	bois	bois	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 15	polychrome	polychrome	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	13	punct	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -25214,7 +25214,7 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	disposition	disposition	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
-10	Voies	Voies	PROPN	_	_	9	comp:obj	_	_
+10	Voies	Voies	PROPN	_	Number=Plur	9	comp:obj	_	_
 11	Navigables	Navigables	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	wordform=navigables
 12	de	de	ADP	_	_	10	udep	_	_
 13	France	France	PROPN	_	_	12	comp:obj	_	_
@@ -26859,7 +26859,7 @@
 4	légende	légende	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	sainte	saint	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
-7	Elisa	Elisa	PROPN	_	_	12	subj	_	_
+7	Elisa	Elisa	PROPN	_	Number=Sing	12	subj	_	_
 8	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 9	ou	ou	CCONJ	_	_	10	cc	_	_
 10	Elesa	Elesa	PROPN	_	_	7	conj	_	SpaceAfter=No
@@ -27126,7 +27126,7 @@
 # text = En même temps que son rôle dans Le Caméléon il obtient de petits rôles dans Le Manipulateur et L'amour égaré.
 1	En	en	ADP	_	_	11	mod	_	ExtPos=ADV|PhraseType=Idiom|wordform=en
 2	même	même	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	InIdiom=Yes
-3	temps	temps	NOUN	_	Gender=Masc	1	comp:obj	_	InIdiom=Yes
+3	temps	temps	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
 4	que	que	SCONJ	_	_	1	comp:obj	_	_
 5	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	6	det	_	_
 6	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
@@ -29643,7 +29643,7 @@
 3	créés	créer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	en	en	ADP	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 5	même	même	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	InIdiom=Yes
-6	temps	temps	NOUN	_	Gender=Masc	4	comp:obj	_	InIdiom=Yes
+6	temps	temps	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes
 7	que	que	SCONJ	_	_	4	comp:obj	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	tribuns	tribun	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
@@ -33988,7 +33988,7 @@
 39	victimes	victime	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	37	comp:pred	_	_
 40	de	de	ADP	_	_	39	udep	_	_
 41	graves	grave	ADJ	_	Gender=Masc|Number=Plur	42	mod	_	_
-42	abus	abus	NOUN	_	Gender=Masc	40	comp:obj	_	_
+42	abus	abus	NOUN	_	Gender=Masc|Number=Plur	40	comp:obj	_	_
 43	»	»	PUNCT	_	_	10	punct	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
 45	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
@@ -34756,7 +34756,7 @@
 19	métrologiques	métrologique	ADJ	_	Gender=Fem|Number=Plur	18	mod	_	_
 20	de	de	ADP	_	_	18	udep	_	_
 21	faible	faible	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	_
-22	flux	flux	NOUN	_	Gender=Masc	20	comp:obj	_	_
+22	flux	flux	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 23	lumineux	lumineux	ADJ	_	Gender=Masc	22	mod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -35579,7 +35579,7 @@
 16	titre	titre	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 17	peut-être	peut-être	ADV	_	_	13	mod	_	_
 18	que	que	SCONJ	_	_	15	comp:obl	_	_
-19	François	François	PROPN	_	_	18	comp:obj	_	_
+19	François	François	PROPN	_	Number=Sing	18	comp:obj	_	_
 20	Clerc	Clerc	PROPN	_	_	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	toujours	toujours	ADV	_	_	23	mod	_	_
@@ -37592,7 +37592,7 @@
 14	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	_
 15	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 16	vidéo	vidéo	ADJ	_	_	15	mod	_	_
-17	Pokémon	Pokémon	PROPN	_	_	15	appos	_	_
+17	Pokémon	Pokémon	PROPN	_	Number=Sing	15	appos	_	_
 18	Rouge	rouge	ADJ	_	Number=Sing	17	mod	_	wordform=rouge
 19	et	et	CCONJ	_	_	20	cc	_	_
 20	Vert	vert	ADJ	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No|wordform=vert
@@ -38100,7 +38100,7 @@
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	père	père	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
 28	d'	de	ADP	_	_	27	udep	_	SpaceAfter=No
-29	Ajax	Ajax	PROPN	_	_	28	comp:obj	_	_
+29	Ajax	Ajax	PROPN	_	Number=Sing	28	comp:obj	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	grand	grand	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	_
 32	et	et	CCONJ	_	_	33	cc	_	_
@@ -40458,7 +40458,7 @@
 10	à	à	ADP	_	_	5	comp:obl	_	_
 11	Dammam	Dammam	PROPN	_	_	10	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	Arabie	Arabie	PROPN	_	_	11	appos	_	_
+13	Arabie	Arabie	PROPN	_	Number=Sing	11	appos	_	_
 14	saoudite	Saoudite	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	13	mod	_	SpaceAfter=No|wordform=Saoudite
 15	)	)	PUNCT	_	_	5	punct	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
