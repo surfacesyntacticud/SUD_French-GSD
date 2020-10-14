@@ -4834,7 +4834,7 @@
 
 # sent_id = fr-ud-dev_00177
 # text = Suite à ces déclarations, le candidat républicain à l'élection présidentielle, Mitt Romney, lui demande de se retirer de la course.
-1	Suite	suite	ADV	_	_	18	mod	_	wordform=suite
+1	Suite	suite	NOUN	_	_	18	mod	_	ExtPos=ADV|wordform=suite
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	ces	ce	DET	_	Number=Plur|PronType=Dem	4	det	_	_
 4	déclarations	déclaration	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	SpaceAfter=No
@@ -7747,7 +7747,7 @@
 
 # sent_id = fr-ud-dev_00276
 # text = Face à l'explosion de la demande de numéros liée à la démocratisation du fax et de la téléphonie mobile, France Télécom développa un nouveau plan, mis en œuvre le 18 octobre 1996 à 23 heures.
-1	Face	face	ADV	_	_	25	mod	_	wordform=face
+1	Face	face	NOUN	_	_	25	mod	_	ExtPos=ADV|wordform=face
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	explosion	explosion	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -12489,7 +12489,7 @@
 
 # sent_id = fr-ud-dev_00451
 # text = Grâce à la chance et à sa force de caractère, il est aujourd'hui tétraplégique incomplet.
-1	Grâce	grâce	ADV	_	_	13	mod	_	wordform=grâce
+1	Grâce	grâce	NOUN	_	_	13	mod	_	ExtPos=ADV|wordform=grâce
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	chance	chance	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -17687,7 +17687,7 @@
 
 # sent_id = fr-ud-dev_00637
 # text = Grâce à notre résistance contre la réaction religieuse, sans compromis et sans relâche, grâce à notre position ferme et courageuse face à cette réaction, nous sauvons la société arabe de la mutilation que serait pour elle l'athéisme.
-1	Grâce	grâce	ADV	_	_	29	mod	_	wordform=grâce
+1	Grâce	grâce	NOUN	_	_	29	mod	_	ExtPos=ADV|wordform=grâce
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	notre	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=1|PronType=Prs	4	det	_	_
 4	résistance	résistance	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -35505,7 +35505,7 @@
 
 # sent_id = fr-ud-dev_01279
 # text = Grâce à certaines inscriptions nous savons presque certainement que la cité s'élève aujourd'hui dans la zone du quartier Colli Aniene.
-1	Grâce	grâce	ADV	_	_	6	mod	_	wordform=grâce
+1	Grâce	grâce	NOUN	_	_	6	mod	_	ExtPos=ADV|wordform=grâce
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
 4	inscriptions	inscription	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_

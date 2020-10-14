@@ -5170,7 +5170,7 @@
 
 # sent_id = fr-ud-test_00173
 # text = Grâce à une plate-forme logicielle intégrée aux capacités reconnues dans la gestion des emails et la fusion entrant/sortant, les équipes marketing accroissent rapidement leur efficacité et leur impact sur le chiffre d'affaires.
-1	Grâce	grâce	ADV	_	_	27	mod	_	wordform=grâce
+1	Grâce	grâce	NOUN	_	_	27	mod	_	ExtPos=ADV|wordform=grâce
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	plate-forme	plate-forme	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
