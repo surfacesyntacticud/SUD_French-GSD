@@ -10059,7 +10059,7 @@
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 10	ne	ne	ADV	_	Polarity=Neg	11	mod	_	_
 11	dispute	disputer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	que	que	ADV	_	_	11	mod	_	_
+12	que	que	ADV	_	_	14	mod	_	_
 13	41	41	NUM	_	Number=Plur	14	det	_	_
 14	parties	partie	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 15-16	au	_	_	_	_	_	_	_	_
@@ -28874,7 +28874,7 @@
 3	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 4	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	_
 5	rejoindront	rejoindre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-6	que	que	ADV	_	_	5	mod	_	_
+6	que	que	ADV	_	_	8	mod	_	_
 7	quatre	quatre	NUM	_	Number=Plur	8	det	_	_
 8	ans	an	NOUN	_	Gender=Masc|Number=Plur	5	mod	_	_
 9	plus	plus	ADV	_	_	10	mod	_	_
