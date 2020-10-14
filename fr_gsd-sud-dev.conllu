@@ -18288,10 +18288,10 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	film	film	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	documentaire	documentaire	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
-10	Enfants	enfant	NOUN	_	Number=Plur	8	appos	_	ExtPos=PROPN|PhraseType=title|wordform=enfants
+10	Enfants	enfant	NOUN	_	Number=Plur	8	appos	_	ExtPos=PROPN|PhraseType=Title|wordform=enfants
 11	de	de	ADP	_	_	10	udep	_	InTitle=Yes
 12	boches	boche	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	InTitle=Yes
-13	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	mod	_	_
+13	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	mod	_	_
 14	par	par	ADP	_	_	13	comp:obl@agent	_	_
 15	Olivier	Olivier	PROPN	_	_	14	comp:obj	_	_
 16	Truc	Truc	PROPN	_	_	15	flat@name	_	_
