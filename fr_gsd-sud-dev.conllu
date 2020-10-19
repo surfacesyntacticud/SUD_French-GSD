@@ -11612,7 +11612,7 @@
 23	bains	bain	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
 24	et	et	CCONJ	_	_	26	cc	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-26	autre	autre	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	conj	_	SpaceAfter=No
+26	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	18	conj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	plus	plus	ADV	_	_	29	mod	_	_
 29	audacieux	audacieux	ADJ	_	Gender=Masc	26	mod	_	SpaceAfter=No
@@ -13804,7 +13804,7 @@
 25	raison	raison	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	entre	entre	ADP	_	_	24	mod	_	_
-28	autres	autre	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	27	comp:obj	_	_
+28	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	27	comp:obj	_	_
 29-30	des	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	24	comp:obl	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
@@ -16590,7 +16590,7 @@
 30	Europe	Europe	PROPN	_	Number=Sing	28	comp:obj	_	_
 31	de	de	ADP	_	Shared=Yes	27	udep	_	_
 32	certains	certain	ADJ	_	Gender=Masc|Number=Plur	33	mod	_	_
-33	autres	autre	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	31	comp:obj	_	_
+33	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	31	comp:obj	_	_
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 35	moins	moins	ADV	_	_	36	mod	_	_
 36	tranchée	trancher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	34	comp:aux@tense	_	SpaceAfter=No
@@ -27119,7 +27119,7 @@
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	autoriser	autoriser	VERB	_	VerbForm=Inf	6	conj	_	_
 11	telle	tel	DET	_	Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
-12	autre	autre	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	10	comp:obj	_	_
+12	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	10	comp:obj	_	_
 13	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00981
@@ -32306,7 +32306,7 @@
 8	alors	alors	ADV	_	_	6	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 9	qu'	que	SCONJ	_	_	8	unk	_	InIdiom=Yes|SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	autre	autre	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	12	subj@pass	_	_
+11	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	12	subj@pass	_	_
 12	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	comp:obj	_	_
 13	brûlée	brûler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@pass	_	_
 14	dans	dans	ADP	_	_	12	mod	_	_
@@ -36640,7 +36640,7 @@
 5	Salon	Salon	PROPN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	noir	noir	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 7	contenant	contenir	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
-8	du	du	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	du	du	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	charbon	charbon	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	bois	bois	NOUN	_	Gender=Masc	10	comp:obj	_	_
@@ -37046,7 +37046,7 @@
 19-20	aux	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	14	comp:obl	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
-21	autres	autre	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	19	comp:obj	_	_
+21	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	19	comp:obj	_	_
 22	:	:	PUNCT	_	_	34	punct	_	_
 23	pour	pour	ADP	_	_	34	mod	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
