@@ -2654,8 +2654,8 @@
 # text = Tenue trois mois après la précédente réunion informelle de la Valette (Malte), cette nouvelle rencontre se déroule sous les auspices de l'envoyé personnel du secrétaire général des Nations unies pour le Sahara occidental, M. Christopher Ross, en présence des délégations des deux parties et des représentants des deux pays observateurs, l'Algérie et la Mauritanie.
 1	Tenue	tenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	mod	_	wordform=tenue
 2	trois	trois	NUM	_	Number=Plur	3	det	_	_
-3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	1	mod	_	_
-4	après	après	ADP	_	_	3	udep	_	_
+3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	4	mod	_	_
+4	après	après	ADP	_	_	1	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	précédente	précédent	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
 7	réunion	réunion	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
@@ -4690,10 +4690,10 @@
 13	de	de	ADP	_	_	7	udep	_	_
 14	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	15	det	_	_
 15	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	18	punct	_	_
+16	,	,	PUNCT	_	_	19	punct	_	_
 17	24	24	NUM	_	Number=Plur	18	det	_	_
-18	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	mod	_	_
-19	après	après	ADP	_	_	18	udep	_	_
+18	ans	an	NOUN	_	Gender=Masc|Number=Plur	19	mod	_	_
+19	après	après	ADP	_	_	3	mod	_	_
 20	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	22	det	_	_
 21	premier	premier	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	_
 22	sacre	sacre	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_

@@ -2712,8 +2712,8 @@
 2	événement	événement	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	intervient	intervenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dix	dix	NUM	_	Number=Plur	5	det	_	_
-5	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
-6	après	après	ADP	_	_	5	udep	_	_
+5	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	mod	_	_
+6	après	après	ADP	_	_	3	mod	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	création	création	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
@@ -9319,9 +9319,9 @@
 # sent_id = fr-ud-dev_00336
 # text = Quarante-cinq ans après, cette disparition reste une énigme.
 1	Quarante-cinq	Quarante-cinq	NUM	_	Number=Plur	2	det	_	wordform=quarante-cinq
-2	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	mod	_	_
-3	après	après	ADV	_	_	2	mod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	2	punct	_	_
+2	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	mod	_	_
+3	après	après	ADV	_	_	7	mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
 7	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
