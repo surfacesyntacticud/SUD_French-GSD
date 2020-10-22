@@ -423,7 +423,7 @@
 
 # sent_id = fr-ud-dev_00017
 # text = Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude, c'est une étape typique de montagne.
-1	Comprenant	comprendre	VERB	_	Tense=Pres|VerbForm=Part	17	mod	_	wordform=comprenant
+1	Comprenant	comprendre	VERB	_	Tense=Pres|VerbForm=Part	18	mod	_	wordform=comprenant
 2	six	six	NUM	_	Number=Plur	3	det	_	_
 3	sommets	sommet	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 4	dont	dont	PRON	_	PronType=Rel	6	udep	_	_
@@ -8100,7 +8100,7 @@
 
 # sent_id = fr-ud-dev_00287
 # text = Livré aux Britanniques et adaptés par eux, le M10 prit le nom dAchilles.
-1	Livré	livrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	wordform=livré
+1	Livré	livrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	wordform=livré
 2-3	aux	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
@@ -9111,7 +9111,7 @@
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	mod	_	ExtPos=ADV|PhraseType=Idiom
 3	peu	peu	ADV	_	_	2	unk	_	InIdiom=Yes
 4	plus	plus	ADV	_	_	5	mod	_	_
-5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	SpaceAfter=No
+5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	Souchon	Souchon	PROPN	_	Gender=Masc|Number=Sing	9	subj	_	_
 8	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	9	comp:obl	_	_
@@ -11467,7 +11467,7 @@
 
 # sent_id = fr-ud-dev_00415
 # text = Issue d'une famille de musiciens touareg et kabyles, elle a grandi à Khouribga, au Maroc, bercée par les rythmes gnaouas, le blues d'Ali Farka Touré, la folk de Dylan, les envolées d'Ella Fitzgerald et d'Oum Kalsoum.
-1	Issue	issu	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	wordform=issue
+1	Issue	issu	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	wordform=issue
 2	d'	de	ADP	_	_	1	comp:obl	_	SpaceAfter=No
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	famille	famille	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -20239,7 +20239,7 @@
 
 # sent_id = fr-ud-dev_00732
 # text = Né en 1729, le prince était issu d'une famille princière de la dynastie des Riourikides.
-1	Né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	mod	_	wordform=né
+1	Né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	wordform=né
 2	en	en	ADP	_	_	1	comp:obl	_	_
 3	1729	1729	NUM	_	Number=Plur	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -23874,7 +23874,7 @@
 
 # sent_id = fr-ud-dev_00862
 # text = Créé en 1964 par Pierre Billon, Sifca est est alors le premier groupe privé Ivoirien.
-1	Créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	mod	_	wordform=créé
+1	Créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	wordform=créé
 2	en	en	ADP	_	_	1	mod	_	_
 3	1964	1964	NUM	_	Number=Plur	2	comp:obj	_	_
 4	par	par	ADP	_	_	1	comp:obl@agent	_	_
@@ -26258,7 +26258,7 @@
 # sent_id = fr-ud-dev_00949
 # text = Initialement proche du documentaire, l'œuvre se dote d'un rythme narratif soutenu et d'une réelle dimension dramatique grâce au travail du monteur Seth Holt.
 1	Initialement	initialement	ADV	_	_	2	mod	_	wordform=initialement
-2	proche	proche	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
+2	proche	proche	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -27465,7 +27465,7 @@
 
 # sent_id = fr-ud-dev_00992
 # text = Présidée par Henri Jooris, la Ligue du Nord crée notamment la Division d'Honneur, plus haut niveau régional, et la Promotion d'Honneur, deuxième division de la Ligue.
-1	Présidée	présider	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	wordform=présidée
+1	Présidée	présider	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	wordform=présidée
 2	par	par	ADP	_	_	1	comp:obl@agent	_	_
 3	Henri	Henri	PROPN	_	_	2	comp:obj	_	_
 4	Jooris	Jooris	PROPN	_	_	3	flat@name	_	SpaceAfter=No
@@ -28575,7 +28575,7 @@
 
 # sent_id = fr-ud-dev_01028
 # text = Présenté par Dargaud comme de l'Antic-Fantasy, Myrkos revit, en parallèle et sans pointillés, l'opposition des cultes monothéistes et polythéistes, l'art sacré et le profane, ou l'absence de progrès chez les romains...
-1	Présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	mod	_	wordform=présenté
+1	Présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	wordform=présenté
 2	par	par	ADP	_	_	1	comp:obl@agent	_	_
 3	Dargaud	Dargaud	PROPN	_	_	2	comp:obj	_	_
 4	comme	comme	ADP	_	_	1	comp:pred	_	_
@@ -32569,7 +32569,7 @@
 
 # sent_id = fr-ud-dev_01180
 # text = Pratiquant une danse dangereuse qui laisse des marques, Sigalit Landau fait montre d'une émouvante résistance à l'oppression, parvenant à jouer du dernier périmètre vital laissé par un espace politique et social astringent qui menace directement l'intégrité physique de ses sujets.
-1	Pratiquant	pratiquer	VERB	_	Tense=Pres|VerbForm=Part	10	mod	_	wordform=pratiquant
+1	Pratiquant	pratiquer	VERB	_	Tense=Pres|VerbForm=Part	12	mod	_	wordform=pratiquant
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	danse	danse	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	dangereuse	dangereux	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	_
@@ -34082,7 +34082,7 @@
 
 # sent_id = fr-ud-dev_01231
 # text = Originaire d'Amérique du Sud, cette plante pousse à l'état sauvage dans des prairies ou des massifs montagneux, sous un climat semi-aride.
-1	Originaire	originaire	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	wordform=originaire
+1	Originaire	originaire	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	wordform=originaire
 2	d'	de	ADP	_	_	1	comp:obl	_	SpaceAfter=No
 3	Amérique	Amérique	PROPN	_	_	2	comp:obj	_	_
 4-5	du	_	_	_	_	_	_	_	_
@@ -35806,7 +35806,7 @@
 
 # sent_id = fr-ud-dev_01291
 # text = Secourue par Mitterrand, Marguerite Duras réussit à s'échapper.
-1	Secourue	secourir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	mod	_	wordform=secourue
+1	Secourue	secourir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	wordform=secourue
 2	par	par	ADP	_	_	1	comp:obl@agent	_	_
 3	Mitterrand	Mitterrand	PROPN	_	_	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
