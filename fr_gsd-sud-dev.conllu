@@ -1787,7 +1787,7 @@
 11	mais	mais	CCONJ	_	_	13	cc	_	_
 12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
 13	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	conj	_	_
-14	là	là	PART	_	Typo=Yes	13	mod	_	SpaceAfter=No|wordform=-là
+14	là	là	ADV	_	Typo=Yes	13	mod	_	SpaceAfter=No|wordform=-là
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00068
@@ -12191,19 +12191,18 @@
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	pour	pour	ADP	_	_	13	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	parataxis	_	_
-23	t'	t	PART	_	_	24	unk	_	SpaceAfter=No
-24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj@expl	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	22	punct	_	_
-26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-27	plus	plus	ADV	_	_	28	mod	_	_
-28	grand	grand	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	_
-29	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
-30-31	du	_	_	_	_	_	_	_	_
-30	de	de	ADP	_	_	29	udep	_	_
-31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	patron	patron	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	2	punct	_	_
+22	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	parataxis	_	_
+23	t'il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj@expl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+26	plus	plus	ADV	_	_	27	mod	_	_
+27	grand	grand	ADJ	_	Gender=Masc|Number=Sing	28	mod	_	_
+28	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
+29-30	du	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	28	udep	_	_
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	patron	patron	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00442
 # text = L'occasion était aussi toute trouvée pour évoquer l'enlèvement de trois Européens membres d'une ONG dans les camps de réfugiés sahraouis.
@@ -12474,7 +12473,7 @@
 11	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	récupérer	récupérer	VERB	_	VerbForm=Inf	11	comp:obj@x	_	_
 13	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	12	comp:obj	_	ExtPos=PRON|PhraseType=Idiom|wordform=celle-ci
-14	ci	ci	PART	_	_	13	goeswith	_	wordform=_
+14	ci	ci	ADV	_	_	13	goeswith	_	wordform=_
 15	dans	dans	ADP	_	_	12	mod	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	état	état	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
@@ -20186,7 +20185,7 @@
 1	Mais	mais	CCONJ	_	_	7	cc	_	wordform=mais
 2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
-4	-ci	ci	PART	_	_	3	mod	_	SpaceAfter=No|wordform=ci
+4	-ci	ci	ADV	_	_	3	mod	_	SpaceAfter=No|wordform=ci
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	comp	_	InIdiom=Yes
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
