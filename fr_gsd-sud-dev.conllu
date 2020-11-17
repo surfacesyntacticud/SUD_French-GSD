@@ -1501,8 +1501,8 @@
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	qui	qui	PRON	_	PronType=Rel	33	subj	_	_
 33	restera	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	mod@relcl	_	_
-34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	mod	_	ExtPos=ADV|PhraseType=Idiom
-35	peu	peu	ADV	_	_	34	unk	_	InIdiom=Yes
+34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	InIdiom=Yes
+35	peu	peu	NOUN	_	_	33	mod	_	ExtPos=ADV|PhraseType=Idiom
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	grand-père	grand-père	NOUN	_	Gender=Masc|Number=Sing	33	comp:pred	_	_
 38	de	de	ADP	_	_	37	udep	_	_
@@ -4975,8 +4975,8 @@
 9	fonctionnelles	fonctionnel	ADJ	_	Gender=Fem|Number=Plur	7	conj	_	_
 10	bien	bien	ADV	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 11	qu'	que	SCONJ	_	_	10	unk	_	InIdiom=Yes|SpaceAfter=No
-12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	mod	_	ExtPos=ADV|PhraseType=Idiom
-13	peu	peu	ADV	_	_	12	unk	_	InIdiom=Yes
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	InIdiom=Yes
+13	peu	peu	NOUN	_	_	14	mod	_	ExtPos=ADV|PhraseType=Idiom
 14	petites	petit	ADJ	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
 15	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16	mais	mais	CCONJ	_	_	18	cc	_	_
@@ -9106,8 +9106,8 @@
 # sent_id = fr-ud-dev_00329
 # text = Encore un peu plus introspectif, Souchon nous rappelle que la société ne lui va toujours pas (Putain ça penche, En collant l'oreille sur l'appareil), et poursuit son questionnement métaphysique (Et si en plus y'a personne).
 1	Encore	encore	ADV	_	_	4	mod	_	wordform=encore
-2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	mod	_	ExtPos=ADV|PhraseType=Idiom
-3	peu	peu	ADV	_	_	2	unk	_	InIdiom=Yes
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
+3	peu	peu	NOUN	_	_	4	mod	_	ExtPos=ADV|PhraseType=Idiom
 4	plus	plus	ADV	_	_	5	mod	_	_
 5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -11739,8 +11739,8 @@
 16	)	)	PUNCT	_	_	14	punct	_	_
 17	qui	qui	PRON	_	PronType=Rel	18	subj	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	mod	_	ExtPos=ADV|PhraseType=Idiom
-20	peu	peu	ADV	_	_	19	unk	_	InIdiom=Yes
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	InIdiom=Yes
+20	peu	peu	NOUN	_	_	21	mod	_	ExtPos=ADV|PhraseType=Idiom
 21	jaloux	jaloux	ADJ	_	Gender=Masc	18	comp:pred	_	_
 22	de	de	ADP	_	_	21	comp:obl@x	_	_
 23	voir	voir	VERB	_	VerbForm=Inf	22	comp:obj	_	_
@@ -13182,8 +13182,8 @@
 14	pourtant	pourtant	ADV	_	_	13	mod	_	_
 15	de	de	ADP	_	_	13	comp:obj@x	_	_
 16	réaffirmer	réaffirmer	VERB	_	VerbForm=Inf	15	comp:obj	_	_
-17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	mod	_	ExtPos=ADV|PhraseType=Idiom
-18	peu	peu	ADV	_	_	17	unk	_	InIdiom=Yes
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
+18	peu	peu	NOUN	_	_	16	mod	_	ExtPos=ADV|PhraseType=Idiom
 19	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	20	det	_	_
 20	prérogatives	prérogative	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
@@ -28021,8 +28021,8 @@
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	qui	qui	PRON	_	PronType=Rel	12	subj@caus	_	_
 12	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	mod	_	ExtPos=ADV|PhraseType=Idiom
-14	peu	peu	ADV	_	_	13	unk	_	InIdiom=Yes
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	InIdiom=Yes
+14	peu	peu	NOUN	_	_	15	mod	_	ExtPos=ADV|PhraseType=Idiom
 15	penser	penser	VERB	_	VerbForm=Inf	12	comp:aux@caus	_	_
 16	à	à	ADP	_	_	15	comp:obl	_	_
 17	Knock	Knock	PROPN	_	_	16	comp:obj	_	SpaceAfter=No
@@ -34041,9 +34041,9 @@
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 9	exquises	exquis	ADJ	_	Gender=Fem|Number=Plur	8	comp:pred	_	_
 10	avec	avec	ADP	_	_	8	mod	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
-12	peu	peu	ADV	_	_	11	unk	_	InIdiom=Yes
-13	de	de	ADP	_	_	11	udep	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
+12	peu	peu	NOUN	_	_	10	comp:obj	_	ExtPos=ADV|PhraseType=Idiom
+13	de	de	ADP	_	_	12	udep	_	_
 14	sauce	sauce	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	!	!	PUNCT	_	_	2	punct	_	_
 
@@ -35183,8 +35183,8 @@
 2	queue	queue	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	aussi	aussi	ADV	_	_	3	mod	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	mod	_	ExtPos=ADV|PhraseType=Idiom
-6	peu	peu	ADV	_	_	5	unk	_	InIdiom=Yes
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
+6	peu	peu	NOUN	_	_	7	mod	_	ExtPos=ADV|PhraseType=Idiom
 7	plus	plus	ADV	_	_	8	mod	_	_
 8	épaisse	épais	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 9	à	à	ADP	_	_	8	mod	_	_

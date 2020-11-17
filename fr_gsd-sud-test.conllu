@@ -393,9 +393,9 @@
 1	Maintenant	maintenant	ADV	_	_	10	mod	_	SpaceAfter=No|wordform=maintenant
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	avec	avec	ADP	_	_	10	mod	_	_
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
-5	peu	peu	ADV	_	_	4	unk	_	InIdiom=Yes
-6	de	de	ADP	_	_	4	udep	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
+5	peu	peu	NOUN	_	_	3	comp:obj	_	ExtPos=ADV|PhraseType=Idiom
+6	de	de	ADP	_	_	5	udep	_	_
 7	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 8	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	vous	il	PRON	_	Person=2|PronType=Prs	10	subj	_	_
@@ -3861,9 +3861,9 @@
 39	normal	normal	ADJ	_	Gender=Masc|Number=Sing	37	comp:pred	_	_
 40	de	de	ADP	_	_	39	comp:obj@agent	_	_
 41	ressentir	ressentir	VERB	_	VerbForm=Inf	40	comp:obj	_	_
-42	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
-43	peu	peu	ADV	_	_	42	unk	_	InIdiom=Yes
-44	de	de	ADP	_	_	42	udep	_	_
+42	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	InIdiom=Yes
+43	peu	peu	NOUN	_	_	41	comp:obj	_	ExtPos=ADV|PhraseType=Idiom
+44	de	de	ADP	_	_	43	udep	_	_
 45	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	44	comp:obj	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -4330,8 +4330,8 @@
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	18	comp	_	InIdiom=Yes|SpaceAfter=No
 18	éclatera	éclater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	mod	_	ExtPos=ADV|PhraseType=Idiom
-20	peu	peu	ADV	_	_	19	unk	_	InIdiom=Yes
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	InIdiom=Yes
+20	peu	peu	NOUN	_	_	21	mod	_	ExtPos=ADV|PhraseType=Idiom
 21	plus	plus	ADV	_	_	18	mod	_	SpaceAfter=No
 22	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	3	punct	_	_
@@ -5458,8 +5458,8 @@
 7	pandémie	pandémie	NOUN	_	Gender=Fem|Number=Sing	8	subj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	mod	_	ExtPos=ADV|PhraseType=Idiom
-11	peu	peu	ADV	_	_	10	unk	_	InIdiom=Yes
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
+11	peu	peu	NOUN	_	_	12	mod	_	ExtPos=ADV|PhraseType=Idiom
 12	moins	moins	ADV	_	_	13	mod	_	_
 13	mortelle	mortel	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 14	que	que	SCONJ	_	_	12	comp:obj	_	_
@@ -7666,8 +7666,8 @@
 53	quelque	quelque	DET	_	Number=Sing|PronType=Ind	54	det	_	InIdiom=Yes
 54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	ExtPos=PRON|PhraseType=Idiom
 55	d'	de	ADP	_	_	54	mod	_	SpaceAfter=No
-56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	mod	_	ExtPos=ADV|PhraseType=Idiom
-57	peu	peu	ADV	_	_	56	unk	_	InIdiom=Yes
+56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	InIdiom=Yes
+57	peu	peu	NOUN	_	_	58	mod	_	ExtPos=ADV|PhraseType=Idiom
 58	plus	plus	ADV	_	_	59	mod	_	_
 59	classique	classique	ADJ	_	Gender=Masc|Number=Sing	55	comp:obj	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	7	punct	_	_
@@ -7844,8 +7844,8 @@
 1	Temps	temps	NOUN	_	Gender=Masc|Number=Sing	0	root	_	wordform=temps
 2	d'	de	ADP	_	_	1	udep	_	SpaceAfter=No
 3	attente	attente	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	mod	_	ExtPos=ADV|PhraseType=Idiom
-5	peu	peu	ADV	_	_	4	unk	_	InIdiom=Yes
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
+5	peu	peu	NOUN	_	_	6	mod	_	ExtPos=ADV|PhraseType=Idiom
 6	long	long	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
 7	mais	mais	CCONJ	_	_	9	cc	_	_
 8	peut-être	peut-être	ADV	_	_	9	mod	_	_
@@ -7911,8 +7911,8 @@
 7	commentaire	commentaire	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
 8	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	comp:obj	_	_
 9	prouver	prouver	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	mod	_	ExtPos=ADV|PhraseType=Idiom
-11	peu	peu	ADV	_	_	10	unk	_	InIdiom=Yes
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
+11	peu	peu	NOUN	_	_	9	mod	_	ExtPos=ADV|PhraseType=Idiom
 12	que	que	SCONJ	_	_	9	comp:obj	_	_
 13	Mendes	Mendes	PROPN	_	_	14	subj	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
@@ -9214,8 +9214,8 @@
 13	très	très	ADV	_	_	14	mod	_	_
 14	dures	dur	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
-16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	mod	_	ExtPos=ADV|PhraseType=Idiom
-17	peu	peu	ADV	_	_	16	unk	_	InIdiom=Yes
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	InIdiom=Yes
+17	peu	peu	NOUN	_	_	18	mod	_	ExtPos=ADV|PhraseType=Idiom
 18	rougeâtres	rougeâtre	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20-21	des	_	_	_	_	_	_	_	_
