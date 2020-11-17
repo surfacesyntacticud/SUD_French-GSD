@@ -401,31 +401,30 @@
 9	vous	il	PRON	_	Person=2|PronType=Prs	10	subj	_	_
 10	observerez	observer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	10	comp:obj	_	_
-12	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	14	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
-13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	unk	_	InIdiom=Yes
-14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
-15	être	être	AUX	_	VerbForm=Inf	14	comp:obj@x	_	_
-16	traditionaliste	traditionaliste	ADJ	_	Gender=Masc|Number=Sing	15	comp:pred	_	_
-17	ET	et	CCONJ	_	_	18	cc	_	wordform=et
-18	intégriste	intégriste	ADJ	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	21	punct	_	_
-20	mais	mais	CCONJ	_	_	21	cc	_	_
-21	que	que	SCONJ	_	_	11	conj	_	_
-22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
-23	intégristes	intégriste	NOUN	_	Gender=Masc|Number=Plur	25	subj	_	_
-24	n'	ne	ADV	_	Polarity=Neg	25	mod	_	SpaceAfter=No
-25	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
-26	pas	pas	ADV	_	Polarity=Neg	25	mod	_	_
-27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	monopole	monopole	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
-29-30	du	_	_	_	_	_	_	_	_
-29	de	de	ADP	_	_	28	udep	_	_
-30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	traditionalisme	traditionalisme	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	34	punct	_	_
-33	et	et	CCONJ	_	_	34	cc	_	_
-34	réciproquement	réciproquement	ADV	_	_	21	conj:emb	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	10	punct	_	_
+12	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	InIdiom=Yes|wordform=on
+13	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
+14	être	être	AUX	_	VerbForm=Inf	13	comp:obj@x	_	_
+15	traditionaliste	traditionaliste	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
+16	ET	et	CCONJ	_	_	17	cc	_	wordform=et
+17	intégriste	intégriste	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	mais	mais	CCONJ	_	_	20	cc	_	_
+20	que	que	SCONJ	_	_	11	conj	_	_
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	intégristes	intégriste	NOUN	_	Gender=Masc|Number=Plur	24	subj	_	_
+23	n'	ne	ADV	_	Polarity=Neg	24	mod	_	SpaceAfter=No
+24	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
+25	pas	pas	ADV	_	Polarity=Neg	24	mod	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	monopole	monopole	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
+28-29	du	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	27	udep	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	traditionalisme	traditionalisme	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	et	et	CCONJ	_	_	33	cc	_	_
+33	réciproquement	réciproquement	ADV	_	_	20	conj:emb	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00013
 # text = Royale donc, cette voie de communication est aussi vouée à être préservée, développée et modernisée.
@@ -6485,20 +6484,19 @@
 
 # sent_id = fr-ud-test_00221
 # text = Car l'on peut trouver très aisément des préservatifs usagés sur les matelas.
-1	Car	car	CCONJ	_	_	4	cc	_	wordform=car
-2	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	4	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
-3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	unk	_	InIdiom=Yes
-4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	trouver	trouver	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
-6	très	très	ADV	_	_	7	mod	_	_
-7	aisément	aisément	ADV	_	_	5	mod	_	_
-8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
-9	préservatifs	préservatif	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
-10	usagés	usagé	ADJ	_	Gender=Masc|Number=Plur	9	mod	_	_
-11	sur	sur	ADP	_	_	5	mod	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	matelas	matelas	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	4	punct	_	_
+1	Car	car	CCONJ	_	_	3	cc	_	wordform=car
+2	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	InIdiom=Yes|wordform=on
+3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	trouver	trouver	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+5	très	très	ADV	_	_	6	mod	_	_
+6	aisément	aisément	ADV	_	_	4	mod	_	_
+7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+8	préservatifs	préservatif	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
+9	usagés	usagé	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
+10	sur	sur	ADP	_	_	4	mod	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	matelas	matelas	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00222
 # text = Cela fait 10 ans que je fais du déplacement professionnel et c'est la 1ère fois que je tombe sur un hôtel aussi pourri.
@@ -6673,25 +6671,24 @@
 3	bar	bar	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	à	à	ADP	_	_	3	udep	_	_
 5	Paris	Paris	PROPN	_	_	4	comp:obj	_	_
-6	où	où	ADV	_	PronType=Rel	10	mod	_	_
-7	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	9	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
-8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	unk	_	InIdiom=Yes
-9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
-10	trouver	trouver	VERB	_	VerbForm=Inf	9	comp:obj@x	_	_
-11	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	mezcal	mezcal	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-13	et	et	CCONJ	_	_	15	cc	_	_
-14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
-15	bières	bière	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
-16	mexicaines	mexicain	ADJ	_	Gender=Fem|Number=Plur	15	mod	_	_
-17	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
-18	ne	ne	ADV	_	Polarity=Neg	19	mod	_	_
-19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
-20	pas	pas	ADV	_	Polarity=Neg	19	mod	_	_
-21	hors	hors	ADV	_	_	19	comp:pred	_	_
-22	de	de	ADP	_	_	21	comp:obj	_	_
-23	prix	prix	NOUN	_	Gender=Masc	22	comp:obj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	3	punct	_	_
+6	où	où	ADV	_	PronType=Rel	9	mod	_	_
+7	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	InIdiom=Yes|wordform=on
+8	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
+9	trouver	trouver	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
+10	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mezcal	mezcal	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
+12	et	et	CCONJ	_	_	14	cc	_	_
+13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	bières	bière	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
+15	mexicaines	mexicain	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	_
+16	qui	qui	PRON	_	PronType=Rel	18	subj	_	_
+17	ne	ne	ADV	_	Polarity=Neg	18	mod	_	_
+18	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	_
+19	pas	pas	ADV	_	Polarity=Neg	18	mod	_	_
+20	hors	hors	ADV	_	_	18	comp:pred	_	_
+21	de	de	ADP	_	_	20	comp:obj	_	_
+22	prix	prix	NOUN	_	Gender=Masc	21	comp:obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00231
 # text = Et la qualité du service est trés trés trés... bonne.

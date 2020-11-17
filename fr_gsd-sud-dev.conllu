@@ -8937,22 +8937,21 @@
 18	de	de	ADP	_	_	17	udep	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	prés	pré	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	25	punct	_	_
-22	que	que	PRON	_	PronType=Rel	25	comp:obj	_	_
-23	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	25	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
-24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	unk	_	InIdiom=Yes
-25	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
-26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	InIdiom=Yes
-27	long	long	NOUN	_	Gender=Masc|Number=Sing	25	mod	_	ExtPos=ADV|PhraseType=Idiom
-28-29	des	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	27	comp:obl	_	_
-29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
-30	routes	route	NOUN	_	Gender=Fem|Number=Plur	28	comp:obj	_	_
-31	ou	ou	CCONJ	_	_	32	cc	_	_
-32	dans	dans	ADP	_	_	27	conj	_	_
-33	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	34	det	_	_
-34	prairies	prairie	NOUN	_	Gender=Fem|Number=Plur	32	comp:obj	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	3	punct	_	_
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	que	que	PRON	_	PronType=Rel	24	comp:obj	_	_
+23	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	InIdiom=Yes|wordform=on
+24	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	InIdiom=Yes
+26	long	long	NOUN	_	Gender=Masc|Number=Sing	24	mod	_	ExtPos=ADV|PhraseType=Idiom
+27-28	des	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	26	comp:obl	_	_
+28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+29	routes	route	NOUN	_	Gender=Fem|Number=Plur	27	comp:obj	_	_
+30	ou	ou	CCONJ	_	_	31	cc	_	_
+31	dans	dans	ADP	_	_	26	conj	_	_
+32	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	33	det	_	_
+33	prairies	prairie	NOUN	_	Gender=Fem|Number=Plur	31	comp:obj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00322
 # text = Couche par couche, Morin arrange les beats digitaux avec les sons des loops des guitares.
@@ -15247,29 +15246,28 @@
 
 # sent_id = fr-ud-dev_00546
 # text = Et déjà l'on fait cas de la réouverture imminente des frontières longtemps réclamée par nos voisins de l'Ouest.
-1	Et	et	CCONJ	_	_	5	cc	_	wordform=et
-2	déjà	déjà	ADV	_	_	5	mod	_	_
-3	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	5	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
-4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	unk	_	InIdiom=Yes
-5	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	cas	cas	NOUN	_	Gender=Masc	5	comp:obj@lvc	_	_
-7	de	de	ADP	_	_	5	comp:obl	_	_
-8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	réouverture	réouverture	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
-10	imminente	imminent	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
-11-12	des	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	9	udep	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	frontières	frontière	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
-14	longtemps	longtemps	ADV	_	_	15	mod	_	_
-15	réclamée	réclamer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	mod	_	_
-16	par	par	ADP	_	_	15	comp:obl@agent	_	_
-17	nos	son	DET	_	Number=Plur|PossNumber=Plur|PossPerson=1|PronType=Prs	18	det	_	_
-18	voisins	voisin	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
-19	de	de	ADP	_	_	18	udep	_	_
-20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	Ouest	Ouest	PROPN	_	Number=Sing	19	comp:obj	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	5	punct	_	_
+1	Et	et	CCONJ	_	_	4	cc	_	wordform=et
+2	déjà	déjà	ADV	_	_	4	mod	_	_
+3	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	InIdiom=Yes|wordform=on
+4	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	cas	cas	NOUN	_	Gender=Masc	4	comp:obj@lvc	_	_
+6	de	de	ADP	_	_	4	comp:obl	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	réouverture	réouverture	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	imminente	imminent	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
+10-11	des	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	8	udep	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	frontières	frontière	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
+13	longtemps	longtemps	ADV	_	_	14	mod	_	_
+14	réclamée	réclamer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	mod	_	_
+15	par	par	ADP	_	_	14	comp:obl@agent	_	_
+16	nos	son	DET	_	Number=Plur|PossNumber=Plur|PossPerson=1|PronType=Prs	17	det	_	_
+17	voisins	voisin	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
+18	de	de	ADP	_	_	17	udep	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	Ouest	Ouest	PROPN	_	Number=Sing	18	comp:obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00547
 # text = Il peut s'agir de Koláčky (petites tartes) ou encore de ovocné knedliky (quenelles aux fruits).
@@ -18830,16 +18828,15 @@
 9	type	type	NOUN	_	Gender=Masc|Number=Sing	7	comp:pred	_	_
 10	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No
 11	attraction	attraction	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-12	que	que	PRON	_	PronType=Rel	15	comp:obj	_	_
-13	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	15	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
-14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	unk	_	InIdiom=Yes
-15	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
-16	dans	dans	ADP	_	_	15	mod	_	_
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	parcs	parc	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
-19	d'	de	ADP	_	_	18	udep	_	SpaceAfter=No
-20	attractions	attraction	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	7	punct	_	_
+12	que	que	PRON	_	PronType=Rel	14	comp:obj	_	_
+13	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	subj	_	InIdiom=Yes|wordform=on
+14	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
+15	dans	dans	ADP	_	_	14	mod	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	parcs	parc	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
+18	d'	de	ADP	_	_	17	udep	_	SpaceAfter=No
+19	attractions	attraction	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00678
 # text = Gorse réalise également de nombreuses expositions personnelles (Galerie de France (1969), Maison de la Radio de Bordeaux (1971), centre culturel de Meudon (1973), Office du Tourisme d'Avoriaz (2005)) mais aussi collectives (Salon de l'École Française au Musée d'art moderne de la Ville de Paris (1969), Salon de Mai (1975), semaine franco-tunisienne, Sousse (1986)).
@@ -24499,20 +24496,19 @@
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	23	comp:pred	_	_
 26	puisque	puisque	SCONJ	_	_	23	mod	_	_
-27	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	29	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
-28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	27	unk	_	InIdiom=Yes
-29	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	comp:obj	_	_
-30	depuis	depuis	ADP	_	_	29	mod	_	_
-31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	_
-33	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	mod	_	_
-34	dans	dans	ADP	_	_	29	mod	_	_
-35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
-36	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	34	comp:obj	_	_
-37	de	de	ADP	_	_	36	udep	_	_
-38	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
-39	enfilade	enfilade	NOUN	_	Gender=Fem|Number=Sing	37	comp:obj	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	4	punct	_	_
+27	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	28	subj	_	InIdiom=Yes|wordform=on
+28	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	comp:obj	_	_
+29	depuis	depuis	ADP	_	_	28	mod	_	_
+30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
+32	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	mod	_	_
+33	dans	dans	ADP	_	_	28	mod	_	_
+34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+35	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_
+36	de	de	ADP	_	_	35	udep	_	_
+37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	enfilade	enfilade	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00888
 # text = D'or, à la croix de sable, la branche cadette portait les mêmes avec un lambel en chef à trois pendants.
@@ -29565,21 +29561,20 @@
 13	de	de	ADP	_	_	12	udep	_	_
 14	Faverolles-et-Coëmy	Faverolles-et-Coëmy	PROPN	_	_	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	c'est-à-dire	c'est-à-dire	ADV	_	_	21	cc	_	ExtPos=CCONJ|PhraseType=Idiom
+16	c'est-à-dire	c'est-à-dire	ADV	_	_	20	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes
-18	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	21	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
-19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	unk	_	InIdiom=Yes
-20	y	y	PRON	_	Person=3|PronType=Prs	21	mod	_	_
-21	pêche	pêcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-22	avant	avant	ADP	_	_	21	mod	_	_
-23	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	comp:obj	_	_
-24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
-25	salmonidés	salmonidé	NOUN	_	Gender=Masc|Number=Plur	21	comp:obj	_	_
-26	comme	comme	ADP	_	_	25	udep	_	_
-27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
-28	truites	truite	NOUN	_	Gender=Fem|Number=Plur	26	comp:obj	_	_
-29	fario	fario	PROPN	_	_	28	mod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	3	punct	_	_
+18	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	InIdiom=Yes|wordform=on
+19	y	y	PRON	_	Person=3|PronType=Prs	20	mod	_	_
+20	pêche	pêcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+21	avant	avant	ADP	_	_	20	mod	_	_
+22	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	comp:obj	_	_
+23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+24	salmonidés	salmonidé	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
+25	comme	comme	ADP	_	_	24	udep	_	_
+26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
+27	truites	truite	NOUN	_	Gender=Fem|Number=Plur	25	comp:obj	_	_
+28	fario	fario	PROPN	_	_	27	mod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01065
 # text = Ils réorganisent leurs églises dans lesquels les pasteurs prêchent en langue indigène.
