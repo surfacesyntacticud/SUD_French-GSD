@@ -401,7 +401,7 @@
 9	vous	il	PRON	_	Person=2|PronType=Prs	10	subj	_	_
 10	observerez	observer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	10	comp:obj	_	_
-12	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	InIdiom=Yes|wordform=on
+12	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	wordform=on
 13	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 14	être	être	AUX	_	VerbForm=Inf	13	comp:obj@x	_	_
 15	traditionaliste	traditionaliste	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
@@ -6485,7 +6485,7 @@
 # sent_id = fr-ud-test_00221
 # text = Car l'on peut trouver très aisément des préservatifs usagés sur les matelas.
 1	Car	car	CCONJ	_	_	3	cc	_	wordform=car
-2	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	InIdiom=Yes|wordform=on
+2	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	wordform=on
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	trouver	trouver	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
 5	très	très	ADV	_	_	6	mod	_	_
@@ -6672,7 +6672,7 @@
 4	à	à	ADP	_	_	3	udep	_	_
 5	Paris	Paris	PROPN	_	_	4	comp:obj	_	_
 6	où	où	ADV	_	PronType=Rel	9	mod	_	_
-7	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	InIdiom=Yes|wordform=on
+7	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	wordform=on
 8	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 9	trouver	trouver	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
 10	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
