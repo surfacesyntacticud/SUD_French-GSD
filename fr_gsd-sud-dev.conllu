@@ -18684,7 +18684,7 @@
 7	m	mètre	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-10	voir	voire	SCONJ	_	Typo=Yes	11	cc	_	wordform=voire
+10	voir	voire	ADV	_	Typo=Yes	11	cc	_	wordform=voire
 11	plus	plus	ADV	_	_	4	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
