@@ -9200,7 +9200,7 @@
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	architecture	architecture	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	--	--	PUNCT	_	_	27	punct	_	SpaceAfter=No
-25	c'est-à-dire	c'est-à-dire	ADV	_	_	27	cc	_	_
+25	c'est-à-dire	c'est-à-dire	CCONJ	_	_	27	cc	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	nature	nature	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
@@ -10754,7 +10754,7 @@
 7	continuité	continuité	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 8	éducative	éducatif	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	7	punct	_	_
-10	c'est-à-dire	c'est-à-dire	ADV	_	_	12	cc	_	_
+10	c'est-à-dire	c'est-à-dire	CCONJ	_	_	12	cc	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	prise	prise	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 13	en	en	ADP	_	_	12	udep	_	_
@@ -12426,7 +12426,7 @@
 26	neuvième	neuvième	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	_
 27	jour	jour	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
-29	c'est-à-dire	c'est-à-dire	ADV	_	_	30	cc	_	_
+29	c'est-à-dire	c'est-à-dire	CCONJ	_	_	30	cc	_	_
 30	à	à	ADP	_	_	12	conj	_	ExtPos=ADV|PhraseType=Idiom
 31	partir	partir	VERB	_	VerbForm=Inf	30	comp:obj	_	InIdiom=Yes
 32	de	de	ADP	_	_	30	comp:obl	_	_
@@ -29560,7 +29560,7 @@
 13	de	de	ADP	_	_	12	udep	_	_
 14	Faverolles-et-Coëmy	Faverolles-et-Coëmy	PROPN	_	_	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	c'est-à-dire	c'est-à-dire	ADV	_	_	20	cc	_	ExtPos=CCONJ|PhraseType=Idiom
+16	c'est-à-dire	c'est-à-dire	CCONJ	_	_	20	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes
 18	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	wordform=on
 19	y	y	PRON	_	Person=3|PronType=Prs	20	mod	_	_
@@ -34349,7 +34349,7 @@
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	ivraie	ivraie	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
-30	c'est-à-dire	c'est-à-dire	ADV	_	_	32	cc	_	_
+30	c'est-à-dire	c'est-à-dire	CCONJ	_	_	32	cc	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	chair	chair	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
 33-34	du	_	_	_	_	_	_	_	_
@@ -37747,7 +37747,7 @@
 7	en	en	ADP	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 8	tête	tête	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	c'est-à-dire	c'est-à-dire	ADV	_	_	11	cc	_	_
+10	c'est-à-dire	c'est-à-dire	CCONJ	_	_	11	cc	_	_
 11	en	en	ADP	_	_	7	conj	_	ExtPos=ADV|PhraseType=Idiom
 12	haut	haut	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	InIdiom=Yes
 13-14	du	_	_	_	_	_	_	_	_
@@ -39067,7 +39067,7 @@
 
 # sent_id = fr-ud-dev_01406
 # text = c'est-à-dire qu'il est possible de le colorer avec 4 couleurs de telle façon que deux sommets reliés par une arête soient toujours de couleurs différentes.
-1	c'est-à-dire	c'est-à-dire	ADV	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
