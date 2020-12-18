@@ -13249,20 +13249,20 @@
 
 # sent_id = fr-ud-dev_00477
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
-1	Pas	pas	ADV	_	Polarity=Neg	0	root	_	ExtPos=PRON|wordform=pas
-2	de	de	ADP	_	_	1	comp:obl	_	_
-3	sèche	sécher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	ExtPos=NOUN|PhraseType=Idiom|wordform=sèche-cheveux
+1	Pas	pas	ADV	_	Polarity=Neg	3	mod	_	wordform=pas
+2	de	de	DET	_	_	3	det	_	_
+3	sèche	sécher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=NOUN|PhraseType=Idiom|wordform=sèche-cheveux
 4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	wordform=_
-5	ni	ni	CCONJ	_	_	6	cc	_	_
-6	de	de	ADP	_	_	2	conj	_	_
-7	prise	prise	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
+5	ni	ni	CCONJ	_	_	7	cc	_	_
+6	de	de	DET	_	_	7	det	_	_
+7	prise	prise	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
 8	rasoir	rasoir	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
-9	dans	dans	ADP	_	_	1	udep	_	_
+9	dans	dans	ADP	_	_	7	udep	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	salle	salle	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	bains	bain	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	1	punct	_	_
+14	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00478
 # text = Le général Jan Krukowiecki, fort de cette victoire, se priva du coup décisif qui, sous le commandement de Ivan Shakhovskiy devait plus tard renforcer les armées russes.
@@ -19983,13 +19983,13 @@
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	18	det	_	_
 18	catégorisation	catégorisation	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	15	appos	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	_
-20	pas	pas	ADV	_	Polarity=Neg	18	conj	_	ExtPos=PRON
-21	de	de	ADP	_	_	20	comp:obl	_	_
-22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
-23	ni	ni	CCONJ	_	_	24	cc	_	_
-24	de	de	ADP	_	_	21	conj	_	_
-25	ségrégation	ségrégation	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
+21	de	de	DET	_	_	22	det	_	_
+22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+23	ni	ni	CCONJ	_	_	25	cc	_	_
+24	de	de	DET	_	_	25	det	_	_
+25	ségrégation	ségrégation	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_00722
@@ -29527,12 +29527,12 @@
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	hésite	hésiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	pas	pas	ADV	_	Polarity=Neg	0	root	_	ExtPos=PRON
-6	de	de	ADP	_	_	5	comp:obl	_	_
-7	panique	panique	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
+5	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
+6	de	de	DET	_	_	7	det	_	_
+7	panique	panique	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	Michelle	Michelle	PROPN	_	_	10	subj	_	_
-10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 11	là	là	ADV	_	_	10	comp:obl	_	_
 12	pour	pour	ADP	_	_	10	mod	_	_
 13	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	14	comp:obl	_	_
@@ -29540,7 +29540,7 @@
 15	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 16	précieux	précieux	ADJ	_	Gender=Masc	17	mod	_	_
 17	conseils	conseil	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	5	punct	_	_
+18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_01064
 # text = L'Ardre est une rivière de première catégorie jusqu'au pont de Faverolles-et-Coëmy, c'est-à-dire que l'on y pêche avant tout des salmonidés comme les truites fario.
