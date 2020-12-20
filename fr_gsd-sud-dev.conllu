@@ -428,7 +428,7 @@
 3	sommets	sommet	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 4	dont	dont	PRON	_	PronType=Rel	6	udep	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	point	point	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+6	point	point	NOUN	_	Gender=Masc|Number=Sing	3	mod@relcl	_	_
 7	culminant	culminer	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	2 001	2 001	NUM	_	Number=Plur	10	det	_	_
@@ -4030,7 +4030,7 @@
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	dont	dont	PRON	_	PronType=Rel	20	udep	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Flora	Flora	PROPN	_	Gender=Fem|Number=Sing	14	appos	_	_
+20	Flora	Flora	PROPN	_	Gender=Fem|Number=Sing	16	mod@relcl	_	_
 21	Femsionensis	Femsionensis	PROPN	_	_	20	flat@name	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -13189,7 +13189,7 @@
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	dont	dont	PRON	_	PronType=Rel	24	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	droit	droit	NOUN	_	Gender=Masc|Number=Sing	20	appos	_	_
+24	droit	droit	NOUN	_	Gender=Masc|Number=Sing	20	mod@relcl	_	_
 25	de	de	ADP	_	_	24	udep	_	_
 26	haute-justice	haute-justice	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	24	punct	_	_
@@ -17986,7 +17986,7 @@
 30	pays	pays	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
 31	dont	dont	PRON	_	PronType=Rel	33	udep	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	Canada	Canada	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	_
+33	Canada	Canada	PROPN	_	Gender=Masc|Number=Sing	30	mod@relcl	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	Nouvelle-Zélande	Nouvelle-Zélande	PROPN	_	Gender=Fem|Number=Sing	33	conj	_	SpaceAfter=No
@@ -22202,7 +22202,7 @@
 69	2002	2002	NUM	_	Number=Plur	68	comp:obj	_	SpaceAfter=No
 70	,	,	PUNCT	_	_	72	punct	_	_
 71	dont	dont	PRON	_	PronType=Rel	72	udep	_	_
-72	dix	dix	NUM	_	Number=Plur	50	appos	_	_
+72	dix	dix	NUM	_	Number=Plur	50	mod@relcl	_	_
 73	issues	issu	ADJ	_	Gender=Fem|Number=Plur	72	mod	_	_
 74	de	de	ADP	_	_	73	comp:obl	_	_
 75	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
@@ -27676,7 +27676,7 @@
 22	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	13	mod	_	_
 23	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 24	dont	dont	PRON	_	PronType=Rel	25	udep	_	_
-25	2	2	NUM	_	Number=Plur	22	appos	_	_
+25	2	2	NUM	_	Number=Plur	22	mod@relcl	_	_
 26	en	en	ADP	_	_	25	udep	_	_
 27	2	2	NUM	_	Number=Plur	28	det	_	_
 28	division	division	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	SpaceAfter=No
