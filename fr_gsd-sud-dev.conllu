@@ -14832,7 +14832,7 @@
 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No|wordform=c'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	inadmissible	inadmissible	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
-4	de	de	ADP	_	_	3	comp:obj@agent	_	_
+4	de	de	ADP	_	_	2	comp:obj@agent	_	_
 5	voler	voler	VERB	_	VerbForm=Inf	4	comp:obj	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	gens	gens	NOUN	_	Number=Plur	5	comp:obj	_	_
@@ -19430,7 +19430,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	nécessaire	nécessaire	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
-4	de	de	ADP	_	_	3	comp:obj@agent	_	_
+4	de	de	ADP	_	_	2	comp:obj@agent	_	_
 5	remettre	remettre	VERB	_	VerbForm=Inf	4	comp:obj	_	_
 6	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
 7	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	comp:obj	_	_
@@ -28342,7 +28342,7 @@
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	navrant	navrant	ADJ	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
-12	de	de	ADP	_	_	11	comp:obj@agent	_	_
+12	de	de	ADP	_	_	10	comp:obj@agent	_	_
 13	voir	voir	VERB	_	VerbForm=Inf	12	comp:obj	_	_
 14	que	que	SCONJ	_	_	13	comp:obj	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -39072,7 +39072,7 @@
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	possible	possible	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
-6	de	de	ADP	_	_	5	comp:obj@agent	_	_
+6	de	de	ADP	_	_	4	comp:obj@agent	_	_
 7	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
 8	colorer	colorer	VERB	_	VerbForm=Inf	6	comp:obj	_	_
 9	avec	avec	ADP	_	_	8	mod	_	_
