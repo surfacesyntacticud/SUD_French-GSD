@@ -10552,7 +10552,7 @@
 15	choréauteur	choréauteur	NOUN	_	Gender=Masc|Number=Sing	9	comp:pred	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	afin	afin	ADV	_	_	7	mod	_	_
-18	de	de	ADP	_	_	17	comp:obl@x	_	_
+18	de	de	ADP	_	_	17	comp:obj	_	_
 19	sortir	sortir	VERB	_	VerbForm=Inf	18	comp:obj	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	termes	terme	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
