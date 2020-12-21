@@ -2323,7 +2323,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
 3	restait	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	à	à	ADP	_	_	3	comp:obl@x	_	_
+4	à	à	ADP	_	_	3	comp:obl	_	_
 5	battre	battre	VERB	_	VerbForm=Inf	4	comp:obj	_	_
 6	Pat	Pat	PROPN	_	_	5	comp:obj	_	_
 7	Buchanan	Buchanan	PROPN	_	_	6	flat@name	_	SpaceAfter=No
@@ -38572,7 +38572,7 @@
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes|SpaceAfter=No
 4	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 5	plus	plus	ADV	_	Polarity=Neg	4	mod	_	_
-6	de	de	ADP	_	_	4	comp:obl@x	_	_
+6	de	de	ADP	_	_	4	comp:obl	_	_
 7	faire	faire	AUX	_	VerbForm=Inf	6	comp:obj	_	_
 8	fondre	fondre	VERB	_	VerbForm=Inf	7	comp:aux@caus	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -40910,7 +40910,7 @@
 2	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	donc	donc	ADV	_	_	2	mod	_	_
 4	mieux	mieux	ADV	_	_	2	mod	_	_
-5	éviter	éviter	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+5	éviter	éviter	VERB	_	VerbForm=Inf	2	comp:obj	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	expression	expression	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	«	«	PUNCT	_	_	10	punct	_	_
