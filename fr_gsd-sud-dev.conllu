@@ -2323,7 +2323,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
 3	restait	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	à	à	ADP	_	_	3	comp:obl	_	_
+4	à	à	ADP	_	_	3	comp:obj@agent	_	_
 5	battre	battre	VERB	_	VerbForm=Inf	4	comp:obj	_	_
 6	Pat	Pat	PROPN	_	_	5	comp:obj	_	_
 7	Buchanan	Buchanan	PROPN	_	_	6	flat@name	_	SpaceAfter=No
