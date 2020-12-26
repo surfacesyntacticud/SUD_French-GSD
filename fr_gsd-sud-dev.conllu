@@ -376,7 +376,7 @@
 13	en	en	ADP	_	_	10	conj	_	_
 14	2009	2009	NUM	_	Number=Plur	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	bénéficiant	bénéficier	VERB	_	Tense=Pres|VerbForm=Part	8	mod	_	_
+16	bénéficiant	bénéficier	VERB	_	Tense=Pres|VerbForm=Part	8	mod@x	_	_
 17	également	également	ADV	_	_	16	mod	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	16	comp:obl	_	_
@@ -423,7 +423,7 @@
 
 # sent_id = fr-ud-dev_00017
 # text = Comprenant six sommets dont un point culminant à 2 001 mètres et une arrivée en altitude, c'est une étape typique de montagne.
-1	Comprenant	comprendre	VERB	_	Tense=Pres|VerbForm=Part	18	mod	_	wordform=comprenant
+1	Comprenant	comprendre	VERB	_	Tense=Pres|VerbForm=Part	18	mod@x	_	wordform=comprenant
 2	six	six	NUM	_	Number=Plur	3	det	_	_
 3	sommets	sommet	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 4	dont	dont	PRON	_	PronType=Rel	6	udep	_	_
@@ -1217,7 +1217,7 @@
 # sent_id = fr-ud-dev_00045
 # text = Historiquement rattachée au diocèse de Saint-Omer, on trouve trace écrite de "Sanctus Georgius" en 1178.
 1	Historiquement	historiquement	ADV	_	_	2	mod	_	wordform=historiquement
-2	rattachée	rattacher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	_
+2	rattachée	rattacher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	mod@x	_	_
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -3826,7 +3826,7 @@
 
 # sent_id = fr-ud-dev_00140
 # text = Arrivées à Nice, elles découvrent que l'homme a tenu parole, et Merle est présentée à Rex Ingram qui l'emploie comme figurante.
-1	Arrivées	arriver	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	mod	_	wordform=arrivées
+1	Arrivées	arriver	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	mod@x	_	wordform=arrivées
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	Nice	Nice	PROPN	_	_	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -4590,7 +4590,7 @@
 
 # sent_id = fr-ud-dev_00169
 # text = Située à proximité de la route menant au parc national de Zion, il s'agit d'une des villes fantômes les plus connues du pays.
-1	Située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	mod	_	wordform=située
+1	Située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	mod@x	_	wordform=située
 2	à	à	ADP	_	_	1	comp:obl	_	ExtPos=ADV|PhraseType=Idiom
 3	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	InIdiom=Yes
 4	de	de	ADP	_	_	2	comp:obl	_	_
@@ -7860,7 +7860,7 @@
 37	Milan	Milan	PROPN	_	Gender=Masc|Number=Sing	35	comp:obj	_	_
 38	AC	AC	X	_	_	37	flat@name	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
-40	remportant	remporter	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
+40	remportant	remporter	VERB	_	Tense=Pres|VerbForm=Part	2	mod@x	_	_
 41	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	42	det	_	_
 42	titres	titre	NOUN	_	Gender=Masc|Number=Plur	40	comp:obj	_	_
 43-44	au	_	_	_	_	_	_	_	_
@@ -8099,7 +8099,7 @@
 
 # sent_id = fr-ud-dev_00287
 # text = Livré aux Britanniques et adaptés par eux, le M10 prit le nom dAchilles.
-1	Livré	livrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	wordform=livré
+1	Livré	livrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod@x	_	wordform=livré
 2-3	aux	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
@@ -10556,7 +10556,7 @@
 
 # sent_id = fr-ud-dev_00382
 # text = Préparé peu de temps après, il avait en réalité été entamé dès 2003.
-1	Préparé	préparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	mod	_	wordform=préparé
+1	Préparé	préparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	mod@x	_	wordform=préparé
 2	peu	peu	ADV	_	_	1	mod	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	temps	temps	NOUN	_	Gender=Masc	3	comp:obj	_	_
@@ -11486,7 +11486,7 @@
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Maroc	Maroc	PROPN	_	Gender=Masc|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	bercée	bercer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	_
+21	bercée	bercer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	mod@x	_	_
 22	par	par	ADP	_	_	21	comp:obl@agent	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	rythmes	rythme	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
@@ -13347,7 +13347,7 @@
 
 # sent_id = fr-ud-dev_00481
 # text = Espérant que des retombées économiques suivront, un nouveau permis de construire est accordé.
-1	Espérant	espérer	VERB	_	Tense=Pres|VerbForm=Part	13	mod	_	wordform=espérant
+1	Espérant	espérer	VERB	_	Tense=Pres|VerbForm=Part	13	mod@x	_	wordform=espérant
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	retombées	retombée	NOUN	_	Gender=Fem|Number=Plur	6	subj	_	_
@@ -14180,7 +14180,7 @@
 16	de	de	ADP	_	_	15	udep	_	_
 17	Paris	Paris	PROPN	_	_	16	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	placée	placer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	_
+19	placée	placer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	mod@x	_	_
 20	sous	sous	ADP	_	_	19	mod	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
 22	autorité	autorité	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
@@ -14549,7 +14549,7 @@
 19	sa	son	DET	_	Gender=Fem|Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	20	det	_	_
 20	course	course	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	baignant	baigner	VERB	_	Tense=Pres|VerbForm=Part	18	mod	_	_
+22	baignant	baigner	VERB	_	Tense=Pres|VerbForm=Part	18	mod@x	_	_
 23	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
 24	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	25	mod	_	_
 25	communes	commune	NOUN	_	Gender=Fem|Number=Plur	22	comp:obj	_	_
@@ -17162,7 +17162,7 @@
 13	ans	an	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	rongé	ronger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	SpaceAfter=No
+16	rongé	ronger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod@x	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	parataxis	_	SpaceAfter=No
@@ -17609,7 +17609,7 @@
 
 # sent_id = fr-ud-dev_00634
 # text = Ordonné prêtre le 19 juin 1982 pour le diocèse de Nanterre, il passe le début de son ministère à Sceaux où il est vicaire et aumônier des lycées et collèges.
-1	Ordonné	ordonner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	mod	_	wordform=ordonné
+1	Ordonné	ordonner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	mod@x	_	wordform=ordonné
 2	prêtre	prêtre	NOUN	_	Gender=Masc|Number=Sing	1	comp:pred	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	19	19	NUM	_	Number=Sing	1	mod	_	_
@@ -18186,7 +18186,7 @@
 19	en	en	ADP	_	_	13	mod	_	_
 20	1702	1702	NUM	_	Number=Plur	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	gagnant	gagner	VERB	_	Tense=Pres|VerbForm=Part	13	mod	_	_
+22	gagnant	gagner	VERB	_	Tense=Pres|VerbForm=Part	13	mod@x	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	surnom	surnom	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 25	de	de	ADP	_	_	24	udep	_	_
@@ -19634,7 +19634,7 @@
 
 # sent_id = fr-ud-dev_00709
 # text = Passé professionnel en 1973, il devient champion d'Europe EBU des super-welters en 1975 puis champion du monde WBC de la catégorie le 18 juin 1976 après sa victoire par arrêt de l'arbitre au 10e round contre Elisha Obed.
-1	Passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	wordform=passé
+1	Passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod@x	_	wordform=passé
 2	professionnel	professionnel	NOUN	_	Gender=Masc|Number=Sing	1	comp:pred	_	_
 3	en	en	ADP	_	_	1	mod	_	_
 4	1973	1973	NUM	_	Number=Plur	3	comp:obj	_	SpaceAfter=No
@@ -19779,7 +19779,7 @@
 12	tire	tirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	dessus	dessus	ADV	_	_	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	écorchant	écorcher	VERB	_	Tense=Pres|VerbForm=Part	12	mod	_	_
+15	écorchant	écorcher	VERB	_	Tense=Pres|VerbForm=Part	12	mod@x	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	visage	visage	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
@@ -20231,7 +20231,7 @@
 
 # sent_id = fr-ud-dev_00732
 # text = Né en 1729, le prince était issu d'une famille princière de la dynastie des Riourikides.
-1	Né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	wordform=né
+1	Né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod@x	_	wordform=né
 2	en	en	ADP	_	_	1	comp:obl	_	_
 3	1729	1729	NUM	_	Number=Plur	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -20925,7 +20925,7 @@
 
 # sent_id = fr-ud-dev_00759
 # text = Retrouvant les plateaux télévisés, il perd ses nerfs avant une interview donnée à la radio Ouï FM en insultant et menaçant violemment l'un de ses animateurs.
-1	Retrouvant	retrouver	VERB	_	Tense=Pres|VerbForm=Part	7	mod	_	wordform=retrouvant
+1	Retrouvant	retrouver	VERB	_	Tense=Pres|VerbForm=Part	7	mod@x	_	wordform=retrouvant
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	plateaux	plateau	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 4	télévisés	télévisé	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	SpaceAfter=No
@@ -22563,7 +22563,7 @@
 13	%	%	SYM	_	Number=Plur	5	mod	_	ExtPos=NOUN|SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	retrouvant	retrouver	VERB	_	Tense=Pres|VerbForm=Part	5	mod	_	_
+16	retrouvant	retrouver	VERB	_	Tense=Pres|VerbForm=Part	5	mod@x	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19-20	des	_	_	_	_	_	_	_	_
@@ -23686,7 +23686,7 @@
 10	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
 11	Auvergne	Auvergne	PROPN	_	_	10	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	battant	battre	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
+13	battant	battre	VERB	_	Tense=Pres|VerbForm=Part	2	mod@x	_	_
 14	Valéry	Valéry	PROPN	_	_	13	comp:obj	_	_
 15	Giscard	Giscard	PROPN	_	_	14	flat@name	_	_
 16	d'	d'	PROPN	_	_	15	flat@name	_	SpaceAfter=No
@@ -23866,7 +23866,7 @@
 
 # sent_id = fr-ud-dev_00862
 # text = Créé en 1964 par Pierre Billon, Sifca est est alors le premier groupe privé Ivoirien.
-1	Créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	wordform=créé
+1	Créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod@x	_	wordform=créé
 2	en	en	ADP	_	_	1	mod	_	_
 3	1964	1964	NUM	_	Number=Plur	2	comp:obj	_	_
 4	par	par	ADP	_	_	1	comp:obl@agent	_	_
@@ -26327,7 +26327,7 @@
 
 # sent_id = fr-ud-dev_00952
 # text = Identifié à Shou, il porte deux hautes plumes sur la tête et un pagne long.
-1	Identifié	identifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	mod	_	wordform=identifié
+1	Identifié	identifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	mod@x	_	wordform=identifié
 2	à	à	ADP	_	_	1	mod	_	_
 3	Shou	Shou	PROPN	_	_	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -27456,7 +27456,7 @@
 
 # sent_id = fr-ud-dev_00992
 # text = Présidée par Henri Jooris, la Ligue du Nord crée notamment la Division d'Honneur, plus haut niveau régional, et la Promotion d'Honneur, deuxième division de la Ligue.
-1	Présidée	présider	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	wordform=présidée
+1	Présidée	présider	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	mod@x	_	wordform=présidée
 2	par	par	ADP	_	_	1	comp:obl@agent	_	_
 3	Henri	Henri	PROPN	_	_	2	comp:obj	_	_
 4	Jooris	Jooris	PROPN	_	_	3	flat@name	_	SpaceAfter=No
@@ -27532,7 +27532,7 @@
 # text = N'en voyant pas l'utilité, il l'offre à Marge Simpson qui, en échange, accepte de garder Rod et Todd pendant que Ned Flanders se rend au congrès des gauchers.
 1	N'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No|wordform=n'
 2	en	en	PRON	_	Person=3|PronType=Prs	6	udep	_	_
-3	voyant	voir	VERB	_	Tense=Pres|VerbForm=Part	10	mod	_	_
+3	voyant	voir	VERB	_	Tense=Pres|VerbForm=Part	10	mod@x	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	utilité	utilité	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
@@ -28566,7 +28566,7 @@
 
 # sent_id = fr-ud-dev_01028
 # text = Présenté par Dargaud comme de l'Antic-Fantasy, Myrkos revit, en parallèle et sans pointillés, l'opposition des cultes monothéistes et polythéistes, l'art sacré et le profane, ou l'absence de progrès chez les romains...
-1	Présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	wordform=présenté
+1	Présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod@x	_	wordform=présenté
 2	par	par	ADP	_	_	1	comp:obl@agent	_	_
 3	Dargaud	Dargaud	PROPN	_	_	2	comp:obj	_	_
 4	comme	comme	ADP	_	_	1	comp:pred	_	_
@@ -29068,7 +29068,7 @@
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	habitations	habitation	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	devant	devoir	VERB	_	Tense=Pres|VerbForm=Part	15	mod	_	_
+21	devant	devoir	VERB	_	Tense=Pres|VerbForm=Part	15	mod@x	_	_
 22	passer	passer	VERB	_	VerbForm=Inf	21	comp:obj@x	_	_
 23	par	par	ADP	_	_	22	comp:obl	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
@@ -30114,7 +30114,7 @@
 
 # sent_id = fr-ud-dev_01085
 # text = Située sur le fuseau horaire UTC +14, c'est le premier endroit habité à débuter un jour civil.
-1	Située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	wordform=située
+1	Située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	mod@x	_	wordform=située
 2	sur	sur	ADP	_	_	1	mod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	fuseau	fuseau	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
@@ -31188,7 +31188,7 @@
 
 # sent_id = fr-ud-dev_01124
 # text = Né à Hokmabad (Hohmavar), à Tabriz, Kasravi était un Iranien Azéri.
-1	Né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	wordform=né
+1	Né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod@x	_	wordform=né
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	Hokmabad	Hokmabad	PROPN	_	_	2	comp:obj	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -31793,7 +31793,7 @@
 6	ces	ce	DET	_	Number=Plur|PronType=Dem	7	det	_	_
 7	mesures	mesure	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	créant	créer	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	_
+9	créant	créer	VERB	_	Tense=Pres|VerbForm=Part	4	mod@x	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	masse	masse	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
@@ -32559,7 +32559,7 @@
 
 # sent_id = fr-ud-dev_01180
 # text = Pratiquant une danse dangereuse qui laisse des marques, Sigalit Landau fait montre d'une émouvante résistance à l'oppression, parvenant à jouer du dernier périmètre vital laissé par un espace politique et social astringent qui menace directement l'intégrité physique de ses sujets.
-1	Pratiquant	pratiquer	VERB	_	Tense=Pres|VerbForm=Part	12	mod	_	wordform=pratiquant
+1	Pratiquant	pratiquer	VERB	_	Tense=Pres|VerbForm=Part	12	mod@x	_	wordform=pratiquant
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	danse	danse	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	dangereuse	dangereux	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	_
@@ -32580,7 +32580,7 @@
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	oppression	oppression	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	parvenant	parvenir	VERB	_	Tense=Pres|VerbForm=Part	12	mod	_	_
+22	parvenant	parvenir	VERB	_	Tense=Pres|VerbForm=Part	12	mod@x	_	_
 23	à	à	ADP	_	_	22	comp:obl@x	_	_
 24	jouer	jouer	VERB	_	VerbForm=Inf	23	comp:obj	_	_
 25-26	du	_	_	_	_	_	_	_	_
@@ -32646,7 +32646,7 @@
 
 # sent_id = fr-ud-dev_01184
 # text = Soumise à la votation le 18 mai 2003, l'initiative est refusée par la totalité des 20 6/2 cantons et par des suffrages exprimés.
-1	Soumise	soumettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	wordform=soumise
+1	Soumise	soumettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	mod@x	_	wordform=soumise
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	votation	votation	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -32804,7 +32804,7 @@
 28	Athènes	Athènes	PROPN	_	_	27	comp:obj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	se	se	PRON	_	Person=3|PronType=Prs	31	comp@pass	_	_
-31	classant	classer	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	_
+31	classant	classer	VERB	_	Tense=Pres|VerbForm=Part	6	mod@x	_	_
 32	derrière	derrière	ADP	_	_	31	mod	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	Danois	Danois	PROPN	_	Gender=Masc|Number=Sing	32	comp:obj	_	_
@@ -33063,7 +33063,7 @@
 
 # sent_id = fr-ud-dev_01199
 # text = Profitant du combat entre le gorille et un serpent géant, Jack réussit à délivrer Duane.
-1	Profitant	profiter	VERB	_	Tense=Pres|VerbForm=Part	14	mod	_	wordform=profitant
+1	Profitant	profiter	VERB	_	Tense=Pres|VerbForm=Part	14	mod@x	_	wordform=profitant
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -34606,7 +34606,7 @@
 26	dessus	dessus	ADV	_	_	25	mod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	comp:obj	_	_
-29	tuant	tuer	VERB	_	Tense=Pres|VerbForm=Part	25	mod	_	_
+29	tuant	tuer	VERB	_	Tense=Pres|VerbForm=Part	25	mod@x	_	_
 30	sur	sur	ADP	_	_	29	mod	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	coup	coup	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	SpaceAfter=No
@@ -35795,7 +35795,7 @@
 
 # sent_id = fr-ud-dev_01291
 # text = Secourue par Mitterrand, Marguerite Duras réussit à s'échapper.
-1	Secourue	secourir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	wordform=secourue
+1	Secourue	secourir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	mod@x	_	wordform=secourue
 2	par	par	ADP	_	_	1	comp:obl@agent	_	_
 3	Mitterrand	Mitterrand	PROPN	_	_	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -36183,7 +36183,7 @@
 
 # sent_id = fr-ud-dev_01307
 # text = Progressant régulièrement dans la hiérarchie mondiale, ils montent sur leurs premiers podiums européens et mondiaux en 1992 (médailles de bronze aux championnats d'Europe à Lausanne puis aux championnats du monde à Oakland).
-1	Progressant	progresser	VERB	_	Tense=Pres|VerbForm=Part	9	mod	_	wordform=progressant
+1	Progressant	progresser	VERB	_	Tense=Pres|VerbForm=Part	9	mod@x	_	wordform=progressant
 2	régulièrement	régulièrement	ADV	_	_	1	mod	_	_
 3	dans	dans	ADP	_	_	1	comp:obl	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -38592,7 +38592,7 @@
 # sent_id = fr-ud-dev_01390
 # text = Bien maîtrisé par un connaisseur de la race, il peut être un compétiteur redoutable.
 1	Bien	bien	ADV	_	_	2	mod	_	wordform=bien
-2	maîtrisé	maîtriser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	_
+2	maîtrisé	maîtriser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	mod@x	_	_
 3	par	par	ADP	_	_	2	comp:obl@agent	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	connaisseur	connaisseur	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -38684,7 +38684,7 @@
 
 # sent_id = fr-ud-dev_01394
 # text = Maintenant un rythme soutenu, il empêche le retour de coureurs lâchés.
-1	Maintenant	maintenir	VERB	_	Tense=Pres|VerbForm=Part	7	mod	_	wordform=maintenant
+1	Maintenant	maintenir	VERB	_	Tense=Pres|VerbForm=Part	7	mod@x	_	wordform=maintenant
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	rythme	rythme	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	soutenu	soutenu	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	SpaceAfter=No
@@ -39058,7 +39058,7 @@
 29	de	de	ADP	_	_	28	udep	_	_
 30	Norvège	Norvège	PROPN	_	_	29	comp:obj	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
-32	annulant	annuler	VERB	_	Tense=Pres|VerbForm=Part	7	mod	_	_
+32	annulant	annuler	VERB	_	Tense=Pres|VerbForm=Part	7	mod@x	_	_
 33	ainsi	ainsi	ADV	_	_	32	mod	_	_
 34	momentanément	momentanément	ADV	_	_	32	mod	_	_
 35	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	36	det	_	_
@@ -39133,7 +39133,7 @@
 31	en	en	ADP	_	_	28	mod	_	_
 32	406	406	NUM	_	Number=Plur	31	comp:obj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
-34	passant	passer	VERB	_	Tense=Pres|VerbForm=Part	28	mod	_	_
+34	passant	passer	VERB	_	Tense=Pres|VerbForm=Part	28	mod@x	_	_
 35	en	en	ADP	_	_	34	mod	_	_
 36	Gaule	Gaule	PROPN	_	_	35	comp:obj	_	_
 37	puis	puis	CCONJ	_	_	38	cc	_	_
@@ -39227,7 +39227,7 @@
 19	20	20	NUM	_	Number=Plur	20	det	_	_
 20	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	disant	dire	VERB	_	Tense=Pres|VerbForm=Part	10	mod	_	_
+22	disant	dire	VERB	_	Tense=Pres|VerbForm=Part	10	mod@x	_	_
 23	qu'	que	SCONJ	_	_	22	comp:obj	_	SpaceAfter=No
 24	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	subj	_	_
 25	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
@@ -39268,7 +39268,7 @@
 
 # sent_id = fr-ud-dev_01412
 # text = Surnommé King Fish ou Mr. Angel, Tim Salmon est considéré comme un des meilleurs joueurs de l'histoire des Angels.
-1	Surnommé	surnommer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	wordform=surnommé
+1	Surnommé	surnommer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod@x	_	wordform=surnommé
 2	King	King	PROPN	_	_	1	comp:obj	_	_
 3	Fish	Fish	PROPN	_	_	2	flat@name	_	_
 4	ou	ou	CCONJ	_	_	5	cc	_	_
@@ -40541,7 +40541,7 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	fortifications	fortification	NOUN	_	Gender=Fem|Number=Plur	8	subj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	excepté	excepter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	mod	_	_
+4	excepté	excepter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	mod@x	_	_
 5	en	en	ADP	_	_	4	mod	_	_
 6	Sardaigne	Sardaigne	PROPN	_	_	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_

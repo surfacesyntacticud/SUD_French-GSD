@@ -1216,7 +1216,7 @@
 
 # sent_id = fr-ud-test_00049
 # text = Renommée par Warner France sous le nom de "La Ligue des Justiciers : La Nouvelle Génération", les 8 premiers épisodes de la série animée seront disponibles dès le 30 novembre prochain.
-1	Renommée	renommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	mod	_	wordform=renommée
+1	Renommée	renommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	mod@x	_	wordform=renommée
 2	par	par	ADP	_	_	1	comp:obl@agent	_	_
 3	Warner	Warner	PROPN	_	_	2	comp:obj	_	_
 4	France	France	PROPN	_	_	3	flat@name	_	_
@@ -1423,7 +1423,7 @@
 56	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	57	det	_	SpaceAfter=No
 57	autodétermination	autodétermination	NOUN	_	Gender=Fem|Number=Sing	55	comp:obj	_	SpaceAfter=No
 58	,	,	PUNCT	_	_	59	punct	_	_
-59	exhortant	exhorter	VERB	_	Tense=Pres|VerbForm=Part	8	mod	_	_
+59	exhortant	exhorter	VERB	_	Tense=Pres|VerbForm=Part	8	mod@x	_	_
 60	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	61	det	_	_
 61	Nations	Nations	PROPN	_	Gender=Fem|Number=Plur	59	comp:obj	_	_
 62	unies	uni	ADJ	_	Gender=Fem|Number=Plur	61	mod	_	_
@@ -2650,7 +2650,7 @@
 
 # sent_id = fr-ud-test_00090
 # text = Tenue trois mois après la précédente réunion informelle de la Valette (Malte), cette nouvelle rencontre se déroule sous les auspices de l'envoyé personnel du secrétaire général des Nations unies pour le Sahara occidental, M. Christopher Ross, en présence des délégations des deux parties et des représentants des deux pays observateurs, l'Algérie et la Mauritanie.
-1	Tenue	tenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	mod	_	wordform=tenue
+1	Tenue	tenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	mod@x	_	wordform=tenue
 2	trois	trois	NUM	_	Number=Plur	3	det	_	_
 3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	4	mod	_	_
 4	après	après	ADP	_	_	1	mod	_	_
@@ -3599,7 +3599,7 @@
 
 # sent_id = fr-ud-test_00121
 # text = Prenant la parole, Charles Mwando Nsimba a sollicité un délai supplémentaire avant de répondre aux préoccupations soulevées, estimant que des éléments nouveaux y avaient été introduits.
-1	Prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	8	mod	_	wordform=prenant
+1	Prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	8	mod@x	_	wordform=prenant
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	parole	parole	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -3620,7 +3620,7 @@
 18	préoccupations	préoccupation	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 19	soulevées	soulever	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	mod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	estimant	estimer	VERB	_	Tense=Pres|VerbForm=Part	8	mod	_	_
+21	estimant	estimer	VERB	_	Tense=Pres|VerbForm=Part	8	mod@x	_	_
 22	que	que	SCONJ	_	_	21	comp:obj	_	_
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	27	subj@pass	_	_
@@ -4589,7 +4589,7 @@
 # sent_id = fr-ud-test_00153
 # text = Lourdement endetté (160 milliards d'euros fin 2010), le Portugal a fini l'année 2010 en récession avec un déficit public à 9,1% du PIB et un chômage à plus de 11%.
 1	Lourdement	lourdement	ADV	_	_	2	mod	_	wordform=lourdement
-2	endetté	endetter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	mod	_	_
+2	endetté	endetter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	mod@x	_	_
 3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	160	160	NUM	_	Number=Plur	5	det	_	_
 5	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	2	parataxis	_	_
@@ -5557,7 +5557,7 @@
 
 # sent_id = fr-ud-test_00187
 # text = Annoncé hier matin--dans les colonnes de L'Indépendant--comme un postulant sérieux à la succession de Franck Azéma qui s'apprête à rejoindre Clermont au terme de l'exercice actuel, il souligne dans un premier temps : " Il y a bien de la fumée, mais c'est sans feu !
-1	Annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	mod	_	wordform=annoncé
+1	Annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	mod@x	_	wordform=annoncé
 2	hier	hier	ADV	_	_	1	mod	_	_
 3	matin	matin	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	--	--	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -5666,7 +5666,7 @@
 10	balnéaire	balnéaire	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
 11	de	de	ADP	_	_	9	udep	_	_
 12	Floride	Floride	PROPN	_	_	11	comp:obj	_	_
-13	affirmant	affirmer	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	_
+13	affirmant	affirmer	VERB	_	Tense=Pres|VerbForm=Part	4	mod@x	_	_
 14	que	que	SCONJ	_	_	13	comp:obj	_	_
 15	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -7674,7 +7674,7 @@
 
 # sent_id = fr-ud-test_00277
 # text = Pour terminer ils disent qu'ils ont internet gratuit, mais il ne marche pratiquement jamais.
-1	Pour	pour	ADP	_	_	4	comp:obl@x	_	wordform=pour
+1	Pour	pour	ADP	_	_	4	mod@x	_	wordform=pour
 2	terminer	terminer	VERB	_	VerbForm=Inf	1	comp:obj	_	_
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	subj	_	_
 4	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7948,7 +7948,7 @@
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	croyant	croire	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
+5	croyant	croire	VERB	_	Tense=Pres|VerbForm=Part	2	mod@x	_	_
 6	dans	dans	ADP	_	_	5	mod	_	_
 7	ma	son	DET	_	Gender=Fem|Number=Sing|PossNumber=Sing|PossPerson=1|PronType=Prs	9	det	_	_
 8	grande	grand	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
@@ -9235,7 +9235,7 @@
 33	construction	construction	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	36	punct	_	_
 35	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	comp:obl	_	_
-36	donnant	donner	VERB	_	Tense=Pres|VerbForm=Part	27	mod	_	_
+36	donnant	donner	VERB	_	Tense=Pres|VerbForm=Part	27	mod@x	_	_
 37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	teinte	teinte	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
 39	sombre	sombre	ADJ	_	Gender=Fem|Number=Sing	38	mod	_	_
@@ -9848,7 +9848,7 @@
 
 # sent_id = fr-ud-dev_01541
 # text = Prédisant un duo avec le chanteur, le public s'attendait à un titre bouillonnant mais il s'agit finalement d'un morceau usuel parmi les chansons autobiographique que Madonna estime plus adultes.
-1	Prédisant	prédire	VERB	_	Tense=Pres|VerbForm=Part	11	mod	_	wordform=prédisant
+1	Prédisant	prédire	VERB	_	Tense=Pres|VerbForm=Part	11	mod@x	_	wordform=prédisant
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	duo	duo	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	avec	avec	ADP	_	_	1	mod	_	_
@@ -10726,7 +10726,7 @@
 42	épargne	épargne	NOUN	_	Gender=Fem|Number=Sing	40	subj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	48	punct	_	_
 44	autrement	autrement	ADV	_	_	45	mod	_	_
-45	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	mod	_	SpaceAfter=No
+45	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	mod@x	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	45	punct	_	_
 47	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	subj	_	_
 48	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
