@@ -2750,7 +2750,7 @@
 9	de	de	ADP	_	_	5	conj	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	s'	si	SCONJ	_	_	3	orphan	_	SpaceAfter=No
+12	s'	si	SCONJ	_	_	1	mod	_	SpaceAfter=No
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj@expl	_	_
 14	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	_
 15	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	SpaceAfter=No
@@ -11371,9 +11371,9 @@
 13	s'	se	PRON	_	Person=3|PronType=Prs	14	comp@pass	_	SpaceAfter=No
 14	oppose	opposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 15	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
-16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	orphan	_	SpaceAfter=No
-17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	orphan	_	_
-18	selon	selon	ADP	_	_	10	parataxis	_	SpaceAfter=No
+16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+18	selon	selon	ADV	_	_	17	comp:pred	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	18	punct	_	_
 20	à	à	ADP	_	_	11	comp:obl	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
