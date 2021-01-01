@@ -2732,7 +2732,7 @@
 4	général	général	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	mobilisation	mobilisation	NOUN	_	Gender=Fem|Number=Sing	8	orphan	_	_
+7	mobilisation	mobilisation	NOUN	_	Gender=Fem|Number=Sing	8	subj	_	_
 8	inédite	inédit	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
