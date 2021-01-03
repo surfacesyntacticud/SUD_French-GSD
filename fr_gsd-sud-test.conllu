@@ -1881,7 +1881,7 @@
 5	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 6	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	partout	partout	ADV	_	_	7	comp:pred	_	SpaceAfter=No
+8	partout	partout	ADV	_	_	7	comp:obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	contrôle	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
@@ -2870,9 +2870,9 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	wordform=il
 2	n'	ne	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 3	y	y	PRON	_	Person=3|PronType=Prs	5	comp	_	InIdiom=Yes
-4	en	en	PRON	_	Person=3|PronType=Prs	6	comp:obj	_	_
+4	en	en	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
-6	point	point	ADV	_	Polarity=Neg	5	comp:obj	_	SpaceAfter=No
+6	point	point	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00098
@@ -3395,11 +3395,11 @@
 22	matin	matin	NOUN	_	Gender=Masc|Number=Sing	21	mod	_	_
 23	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	24	det	_	_
 24	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
-25	encerclé	encercler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	mod	_	_
+25	encerclé	encercler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:pred@x	_	_
 26	et	et	CCONJ	_	_	28	cc	_	_
 27	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	28	det	_	_
 28	téléphones	téléphone	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
-29	coupés	couper	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	mod	_	SpaceAfter=No
+29	coupés	couper	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	orphan	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	selon	selon	ADP	_	_	19	mod	_	_
 32	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	33	det	_	_
