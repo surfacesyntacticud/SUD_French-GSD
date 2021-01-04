@@ -3858,7 +3858,7 @@
 34	C	C	SYM	_	_	33	mod	_	ExtPos=PROPN|SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	subj@expl	_	_
-37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 38	donc	donc	ADV	_	_	37	mod	_	_
 39	normal	normal	ADJ	_	Gender=Masc|Number=Sing	37	comp:pred	_	_
 40	de	de	ADP	_	_	37	comp:obj@agent	_	_
@@ -5049,7 +5049,7 @@
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	comp:aux@pass	_	_
-16	pour	pour	ADP	_	_	13	mod@x	_	_
+16	pour	pour	ADP	_	_	13	mod	_	_
 17	créer	créer	VERB	_	VerbForm=Inf	16	comp:obj	_	_
 18	ces	ce	DET	_	Number=Plur|PronType=Dem	19	det	_	_
 19	logements	logement	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
@@ -5778,7 +5778,7 @@
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	3	conj	_	_
-10	malgré	malgré	ADP	_	_	9	udep	_	_
+10	malgré	malgré	ADP	_	_	9	orphan	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	déclaration	déclaration	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13-14	du	_	_	_	_	_	_	_	_
@@ -6446,7 +6446,7 @@
 7	car	car	CCONJ	_	_	9	cc	_	_
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
 9	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-10	de	de	ADP	_	_	9	comp:obj@x	_	_
+10	de	de	ADP	_	_	9	comp:obj	_	_
 11	sentir	sentir	VERB	_	VerbForm=Inf	10	comp:obj	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	vie	vie	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
@@ -6544,7 +6544,7 @@
 # text = Elles donnent à toucher, fabriquer, débattre, inventer, grâce à un matériel pédagogique spécifique.
 1	Elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	wordform=elles
 2	donnent	donner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	à	à	ADP	_	_	2	comp:obl@x	_	_
+3	à	à	ADP	_	_	2	comp:obl	_	_
 4	toucher	toucher	VERB	_	VerbForm=Inf	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	fabriquer	fabriquer	VERB	_	VerbForm=Inf	4	conj	_	SpaceAfter=No
@@ -7537,22 +7537,22 @@
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	très	très	ADV	_	_	9	mod	_	_
 9	chaleureux	chaleureux	ADJ	_	Gender=Masc	6	conj	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	12	punct	_	_
+10	,	,	PUNCT	_	_	13	punct	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	propreté	propreté	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
-13	parfaite	parfait	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
-14	et	et	CCONJ	_	_	17	cc	_	_
+12	propreté	propreté	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	parfaite	parfait	ADJ	_	Gender=Fem|Number=Sing	5	conj	_	_
+14	et	et	CCONJ	_	_	19	cc	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	petit	petit	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	_
-17	jardin	jardin	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+17	jardin	jardin	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 18	très	très	ADV	_	_	19	mod	_	_
-19	reposant	reposant	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	SpaceAfter=No
+19	reposant	reposant	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 20	...	...	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00274
 # text = Petits coups de vin à boire au verre, pour 2-4 €, bière du Montblanc accompagne un repas succulent qui se déguste aussi à la carte.
 1	Petits	petit	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	wordform=petits
-2	coups	coup	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	coups	coup	NOUN	_	Gender=Masc|Number=Plur	19	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	vin	vin	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	à	à	ADP	_	_	2	udep	_	_
@@ -7565,13 +7565,13 @@
 11	pour	pour	ADP	_	_	2	udep	_	_
 12	2-4	2-4	NUM	_	Number=Plur	13	det	_	_
 13	€	€	SYM	_	Number=Plur	11	comp:obj	_	ExtPos=NOUN|SpaceAfter=No
-14	,	,	PUNCT	_	_	19	punct	_	_
-15	bière	bière	NOUN	_	Gender=Fem|Number=Sing	19	subj	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	bière	bière	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 16-17	du	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Montblanc	Montblanc	PROPN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
-19	accompagne	accompagner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	accompagne	accompagner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CorrectNumber=Plur|wordform=accompagnent
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	repas	repas	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	succulent	succulent	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	_
@@ -7582,7 +7582,7 @@
 27	à	à	ADP	_	_	25	mod	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	carte	carte	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	2	punct	_	_
+30	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = fr-ud-test_00275
 # text = Pour couronner le tout, les personnes de la réception ne sont pas aimable, ni compétent... je dirais même totalement antipathiques.
@@ -7666,7 +7666,7 @@
 51	mon	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=1|PronType=Prs	52	det	_	_
 52	ami	ami	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	_
 53	quelque	quelque	DET	_	Number=Sing|PronType=Ind	54	det	_	InIdiom=Yes
-54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	ExtPos=PRON|PhraseType=Idiom
+54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	ExtPos=PRON|PhraseType=Idiom
 55	d'	de	ADP	_	_	54	mod	_	SpaceAfter=No
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	InIdiom=Yes
 57	peu	peu	NOUN	_	_	58	mod	_	ExtPos=ADV|PhraseType=Idiom
@@ -7788,8 +7788,8 @@
 2	vous	il	PRON	_	Person=2|PronType=Prs	3	subj	_	_
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	malheur	malheur	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	d'	de	ADP	_	_	3	comp:obl@x	_	SpaceAfter=No
+5	malheur	malheur	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj@lvc	_	_
+6	d'	de	ADP	_	_	5	comp:obl@x	_	SpaceAfter=No
 7	y	y	PRON	_	Person=3|PronType=Prs	8	mod	_	_
 8	déjeuner	déjeuner	VERB	_	VerbForm=Inf	6	comp:obj	_	_
 9	lorsque	lorsque	SCONJ	_	_	8	mod	_	_
@@ -7874,7 +7874,7 @@
 9	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	moins	moins	ADV	_	_	12	mod	_	_
-12	cher	cher	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
+12	cher	cher	ADJ	_	Gender=Masc|Number=Sing	9	conj	_	_
 13	;)	;)	SYM	_	_	6	parataxis	_	_
 
 # sent_id = fr-ud-test_00288
@@ -8073,7 +8073,7 @@
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	spacieuses	spacieux	ADJ	_	Gender=Fem|Number=Plur	8	conj	_	_
 11	bon	bon	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
-12	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+12	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
 13	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	12	mod	_	_
 14	prix	prix	NOUN	_	Gender=Masc	13	mod	_	_
 
@@ -8438,7 +8438,7 @@
 38	Parti	parti	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	wordform=parti
 39	communiste	communiste	ADJ	_	Gender=Masc|Number=Sing	38	mod	_	_
 40	chinois	chinois	ADJ	_	Gender=Masc	38	mod	_	_
-41	avant	avant	ADP	_	_	29	mod	_	_
+41	avant	avant	ADP	_	_	29	mod@x	_	_
 42	de	de	ADP	_	_	41	comp:obj	_	_
 43	connaître	connaître	VERB	_	VerbForm=Inf	42	comp:obj	_	_
 44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
@@ -8889,7 +8889,7 @@
 42	inéluctable	inéluctable	ADJ	_	Gender=Fem|Number=Sing	41	comp:pred	_	_
 43	et	et	CCONJ	_	_	50	cc	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	43	punct	_	_
-45	par	par	ADP	_	_	50	udep	_	_
+45	par	par	ADP	_	_	50	orphan	_	_
 46	effet	effet	NOUN	_	Gender=Masc|Number=Sing	45	comp:obj	_	_
 47	induit	induit	ADJ	_	Gender=Masc|Number=Sing	46	mod	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	45	punct	_	_
@@ -9516,20 +9516,20 @@
 30	en	en	ADP	_	_	28	mod	_	_
 31	deux	deux	NUM	_	Number=Plur	32	det	_	_
 32	fois	fois	NOUN	_	Gender=Fem|Number=Plur	30	comp:obj	_	_
-33	:	:	PUNCT	_	_	36	punct	_	_
+33	:	:	PUNCT	_	_	37	punct	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 35	première	premier	ADJ	_	Gender=Fem|Number=Sing	36	mod	_	_
-36	fois	fois	NOUN	_	Gender=Fem|Number=Sing	32	appos	_	_
-37	en	en	ADP	_	_	36	udep	_	_
+36	fois	fois	NOUN	_	Gender=Fem|Number=Sing	37	orphan	_	_
+37	en	en	ADP	_	_	29	parataxis	_	_
 38	deux	deux	NUM	_	Number=Plur	39	det	_	_
 39	soirées	soirée	NOUN	_	Gender=Fem|Number=Plur	37	comp:obj	_	_
-40	4	4	NUM	_	Number=Plur	39	mod	_	_
+40	4	4	NUM	_	Number=Plur	37	orphan	_	_
 41	et	et	CCONJ	_	_	42	cc	_	_
 42	5	5	NUM	_	Number=Plur	40	conj	_	_
 43	mai	mai	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	42	mod	_	_
 44	1946	1946	NUM	_	Number=Plur	43	mod	_	_
 45-46	au	_	_	_	_	_	_	_	_
-45	à	à	ADP	_	_	36	udep	_	_
+45	à	à	ADP	_	_	37	orphan	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	Théâtre	théâtre	NOUN	_	Gender=Masc|Number=Sing	45	comp:obj	_	wordform=théâtre
 48	municipal	municipal	ADJ	_	Gender=Masc|Number=Sing	47	mod	_	_
@@ -9540,15 +9540,15 @@
 53	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	56	det	_	_
 54	deux	deux	NUM	_	Number=Plur	56	mod	_	_
 55	autres	autre	ADJ	_	Gender=Fem|Number=Plur	56	mod	_	_
-56	soirées	soirée	NOUN	_	Gender=Fem|Number=Plur	36	conj	_	SpaceAfter=No
+56	soirées	soirée	NOUN	_	Gender=Fem|Number=Plur	37	conj	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	58	punct	_	_
-58	23	23	NUM	_	Number=Plur	56	mod	_	_
+58	23	23	NUM	_	Number=Plur	56	orphan	_	_
 59	et	et	CCONJ	_	_	60	cc	_	_
 60	24	24	NUM	_	Number=Plur	58	conj	_	_
 61	mai	mai	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	60	mod	_	_
 62	1940	1940	NUM	_	Number=Plur	61	mod	_	_
 63-64	au	_	_	_	_	_	_	_	_
-63	à	à	ADP	_	_	56	udep	_	_
+63	à	à	ADP	_	_	56	orphan	_	_
 64	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
 65	Théâtre	théâtre	NOUN	_	Gender=Masc|Number=Sing	63	comp:obj	_	wordform=théâtre
 66	provincial	provincial	ADJ	_	Gender=Masc|Number=Sing	65	mod	_	_
@@ -9690,7 +9690,7 @@
 26	cas	cas	NOUN	_	Gender=Masc|Number=Plur	24	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	20	punct	_	_
 28	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	29	subj@expl	_	_
-29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	dirigeants	dirigeant	NOUN	_	Gender=Masc|Number=Plur	29	comp:pred	_	_
 32	qui	qui	PRON	_	PronType=Rel	34	subj	_	_
@@ -9948,12 +9948,12 @@
 23	à	à	ADP	_	_	22	mod	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Champagne	Champagne	PROPN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	28	punct	_	_
+26	,	,	PUNCT	_	_	29	punct	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	tout	tout	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
-29	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	mod	_	_
+28	tout	tout	NOUN	_	Gender=Masc|Number=Sing	29	subj:pass	_	_
+29	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
 30	de	de	ADP	_	_	29	comp:obl	_	_
-31	gariguettes	gariguette	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	_
+31	gariguettes	gariguette	NOUN	_	Gender=Fem|Number=Sing	30	comp:obl@agent	_	_
 32	et	et	CCONJ	_	_	33	cc	_	_
 33	de	de	ADP	_	_	30	conj	_	_
 34	crème	crème	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_
@@ -10201,7 +10201,7 @@
 
 # sent_id = fr-ud-dev_01553
 # text = Candidat malheureux à l'élection présidentielle d'août 2007, Marcus Stephen remporte néanmoins la présidence de la République le 19 décembre 2007 lorsque son prédécesseur Ludwig Scotty est écarté de cette fonction par une motion de censure parlementaire.
-1	Candidat	candidat	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	wordform=candidat
+1	Candidat	candidat	NOUN	_	Gender=Masc|Number=Sing	13	mod@x	_	wordform=candidat
 2	malheureux	malheureux	ADJ	_	Gender=Masc	1	mod	_	_
 3	à	à	ADP	_	_	1	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
@@ -10728,10 +10728,10 @@
 42	épargne	épargne	NOUN	_	Gender=Fem|Number=Sing	40	subj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	48	punct	_	_
 44	autrement	autrement	ADV	_	_	45	mod	_	_
-45	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	mod@x	_	SpaceAfter=No
+45	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	mod	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	45	punct	_	_
 47	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	subj	_	_
-48	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
+48	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	conj	_	_
 49	considérer	considérer	VERB	_	VerbForm=Inf	48	comp:obj@x	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	taux	taux	NOUN	_	Gender=Masc|Number=Sing	49	comp:obj	_	_
