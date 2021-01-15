@@ -7539,12 +7539,12 @@
 9	chaleureux	chaleureux	ADJ	_	Gender=Masc	6	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	propreté	propreté	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	propreté	propreté	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
 13	parfaite	parfait	ADJ	_	Gender=Fem|Number=Sing	5	conj	_	_
 14	et	et	CCONJ	_	_	19	cc	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	petit	petit	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	_
-17	jardin	jardin	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+17	jardin	jardin	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	_
 18	très	très	ADV	_	_	19	mod	_	_
 19	reposant	reposant	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 20	...	...	PUNCT	_	_	5	punct	_	_
