@@ -11373,7 +11373,7 @@
 13	s'	se	PRON	_	Person=3|PronType=Prs	14	comp@pass	_	SpaceAfter=No
 14	oppose	opposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
+16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	subj	_	SpaceAfter=No
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
 18	selon	selon	ADV	_	_	17	comp:pred	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	17	punct	_	_

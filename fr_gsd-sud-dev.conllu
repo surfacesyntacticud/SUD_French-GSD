@@ -9205,7 +9205,7 @@
 27	nature	nature	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	contenu	contenu	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
+30	contenu	contenu	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	_
 31	et	et	CCONJ	_	_	33	cc	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	forme	forme	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
@@ -14005,7 +14005,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	signé	signer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	une	un	NUM	_	Gender=Fem|Number=Sing	6	det	_	_
-6	quarantaine	quarantaine	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	quarantaine	quarantaine	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	conventions	convention	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 9	fiscales	fiscal	ADJ	_	Gender=Fem|Number=Plur	8	mod	_	_
@@ -25747,7 +25747,7 @@
 24	par	par	ADP	_	_	23	udep	_	_
 25	alliance	alliance	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
-27	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	9	mod	_	_
+27	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	9	mod@x	_	_
 28	épousé	épouser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
 29	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	petite-fille	petite-fille	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
@@ -25996,14 +25996,14 @@
 17	sur	sur	ADP	_	_	7	mod	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	thème	thème	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
-20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	A	à	ADP	_	_	19	appos	_	ExtPos=PROPN|PhraseType=Title|wordform=à
+20	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+21	A	à	ADP	_	_	25	udep	_	InTitle=Yes|wordform=à
 22	crises	crise	NOUN	_	Gender=Fem|Number=Plur	21	comp:obj	_	InTitle=Yes
 23	mondiales	mondial	ADJ	_	Gender=Fem|Number=Plur	22	mod	_	InTitle=Yes|SpaceAfter=No
-24	,	,	PUNCT	_	_	25	punct	_	InTitle=Yes
-25	responsabilités	responsabilité	NOUN	_	Gender=Fem|Number=Plur	21	parataxis	_	InTitle=Yes
+24	,	,	PUNCT	_	_	21	punct	_	InTitle=Yes
+25	responsabilités	responsabilité	NOUN	_	Gender=Fem|Number=Plur	19	appos	_	ExtPos=PROPN|PhraseType=Title
 26	mondiales	mondial	ADJ	_	Gender=Fem|Number=Plur	25	mod	_	InTitle=Yes|SpaceAfter=No
-27	"	"	PUNCT	_	_	21	punct	_	_
+27	"	"	PUNCT	_	_	25	punct	_	_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	Globale	Globale	X	_	Foreign=Yes	21	appos	_	ExtPos=PROPN|Lang=de|PhraseType=Title
 30	Krisen	Krise	X	_	Foreign=Yes	29	flat@foreign	_	InTitle=Yes|Lang=de|SpaceAfter=No
