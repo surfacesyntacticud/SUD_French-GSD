@@ -9109,7 +9109,7 @@
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
 3	peu	peu	NOUN	_	_	4	mod	_	ExtPos=ADV|PhraseType=Idiom
 4	plus	plus	ADV	_	_	5	mod	_	_
-5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing	9	mod@x	_	SpaceAfter=No
+5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	Souchon	Souchon	PROPN	_	Gender=Masc|Number=Sing	9	subj	_	_
 8	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	9	comp:obl	_	_
@@ -9193,7 +9193,7 @@
 15	constituante	constituant	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	_
 16	souveraine	souverain	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
-18	seule	seul	ADJ	_	Gender=Fem|Number=Sing	19	mod@x	_	_
+18	seule	seul	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
 19	chargée	charger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	mod	_	_
 20	de	de	ADP	_	_	19	comp:obl@x	_	_
 21	déterminer	déterminer	VERB	_	VerbForm=Inf	20	comp:obj	_	_
@@ -11465,7 +11465,7 @@
 
 # sent_id = fr-ud-dev_00415
 # text = Issue d'une famille de musiciens touareg et kabyles, elle a grandi à Khouribga, au Maroc, bercée par les rythmes gnaouas, le blues d'Ali Farka Touré, la folk de Dylan, les envolées d'Ella Fitzgerald et d'Oum Kalsoum.
-1	Issue	issu	ADJ	_	Gender=Fem|Number=Sing	12	mod@x	_	wordform=issue
+1	Issue	issu	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	wordform=issue
 2	d'	de	ADP	_	_	1	comp:obl	_	SpaceAfter=No
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	famille	famille	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -26249,7 +26249,7 @@
 # sent_id = fr-ud-dev_00949
 # text = Initialement proche du documentaire, l'œuvre se dote d'un rythme narratif soutenu et d'une réelle dimension dramatique grâce au travail du monteur Seth Holt.
 1	Initialement	initialement	ADV	_	_	2	mod	_	wordform=initialement
-2	proche	proche	ADJ	_	Gender=Fem|Number=Sing	10	mod@x	_	_
+2	proche	proche	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -34071,7 +34071,7 @@
 
 # sent_id = fr-ud-dev_01231
 # text = Originaire d'Amérique du Sud, cette plante pousse à l'état sauvage dans des prairies ou des massifs montagneux, sous un climat semi-aride.
-1	Originaire	originaire	ADJ	_	Gender=Fem|Number=Sing	10	mod@x	_	wordform=originaire
+1	Originaire	originaire	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	wordform=originaire
 2	d'	de	ADP	_	_	1	comp:obl	_	SpaceAfter=No
 3	Amérique	Amérique	PROPN	_	_	2	comp:obj	_	_
 4-5	du	_	_	_	_	_	_	_	_
@@ -38752,7 +38752,7 @@
 
 # sent_id = fr-ud-dev_01397
 # text = Issu d'une famille aristocratique bretonne, Jean François Sylvestre Denis de Trobriand est le fils de Jean François Sylvestre Denis, comte de Trobriand (1729-1810) et Jeanne Charlotte Le Gris du Clos.
-1	Issu	issu	ADJ	_	Gender=Masc|Number=Sing	14	mod@x	_	wordform=issu
+1	Issu	issu	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	wordform=issu
 2	d'	de	ADP	_	_	1	comp:obl	_	SpaceAfter=No
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	famille	famille	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
