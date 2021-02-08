@@ -1057,7 +1057,7 @@
 # sent_id = fr-ud-dev_00039
 # text = Le lazy bed (littéralement : « plate-bande de paresseux ») est une technique de travail du sol autrefois pratiquée dans certaines régions des Îles britanniques.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	lazy	lazy	X	_	Foreign=Yes|Gender=Masc|Number=Sing	13	subj	_	Lang=en
+2	lazy	lazy	X	_	Foreign=Yes	13	subj	_	Lang=en
 3	bed	bed	X	_	Foreign=Yes	2	flat@name	_	Lang=en
 4	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 5	littéralement	littéralement	ADV	_	_	8	mod	_	_
@@ -6330,7 +6330,7 @@
 41	)	)	PUNCT	_	_	33	punct	_	_
 42	par	par	ADP	_	_	22	comp:obl@agent	_	_
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
-44	Academy	Academy	X	_	Foreign=Yes|Number=Sing	42	comp:obj	_	Lang=en
+44	Academy	Academy	X	_	Foreign=Yes	42	comp:obj	_	Lang=en
 45	of	of	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en
 46	Motion	Motion	X	_	Foreign=Yes	45	flat@foreign	_	Lang=en
 47	Picture	Picture	X	_	Foreign=Yes	46	flat@foreign	_	Lang=en
@@ -11151,7 +11151,7 @@
 29-30	des	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	28	udep	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
-31	Special	Special	X	_	Foreign=Yes|Number=Plur	29	comp:obj	_	Lang=en
+31	Special	Special	X	_	Foreign=Yes	29	comp:obj	_	Lang=en
 32	Forces	Forces	X	_	Foreign=Yes	31	flat@foreign	_	Lang=en
 33	et	et	CCONJ	_	_	35	cc	_	_
 34	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	35	det	_	_
@@ -20267,7 +20267,7 @@
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	custom	custom	X	_	Foreign=Yes|Gender=Masc|Number=Sing	11	comp:obj	_	Lang=en
+13	custom	custom	X	_	Foreign=Yes	11	comp:obj	_	Lang=en
 14	shop	shop	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en
 15	Dunlop	Dunlop	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en|SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
@@ -21403,9 +21403,9 @@
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
-7	Bound	Bound	X	_	Foreign=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:obj	_	Lang=en
+7	Bound	Bound	X	_	Foreign=Yes	4	comp:obj	_	Lang=en
 8	for	for	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
-9	Glory	Glory	X	_	Foreign=Yes|Gender=Masc|Number=Sing	8	flat@foreign	_	Lang=en|SpaceAfter=No
+9	Glory	Glory	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	évènement	évènement	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
@@ -22894,7 +22894,7 @@
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Basketball	Basketball	X	_	Foreign=Yes|Gender=Masc|Number=Sing	6	comp:obj	_	Lang=en
+8	Basketball	Basketball	X	_	Foreign=Yes	6	comp:obj	_	Lang=en
 9	Hall	Hall	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	of	of	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
 11	Fame	Fame	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
@@ -30579,7 +30579,7 @@
 7	participe	participer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	dark	dark	X	_	Foreign=Yes|Gender=Masc|Number=Sing	8	comp:obj	_	Lang=en
+10	dark	dark	X	_	Foreign=Yes	8	comp:obj	_	Lang=en
 11	match	match	X	_	Foreign=Yes	10	flat@name	_	Lang=en
 12	face	face	NOUN	_	_	7	mod	_	ExtPos=ADV
 13	à	à	ADP	_	_	12	comp:obl	_	_
@@ -35313,7 +35313,7 @@
 4	H.R.F.	H.R.F.	PROPN	_	_	6	subj	_	_
 5	Keating	Keating	PROPN	_	_	4	flat@name	_	_
 6	classa	classer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	The	The	X	_	Definite=Def|Foreign=Yes	6	comp:obj	_	Lang=en
+7	The	The	X	_	Foreign=Yes	6	comp:obj	_	Lang=en
 8	Sands	Sands	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
 9	of	of	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	Windee	Windee	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
