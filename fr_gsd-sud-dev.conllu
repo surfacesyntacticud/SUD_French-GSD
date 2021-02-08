@@ -26,7 +26,7 @@
 10	donc	donc	ADV	_	_	9	mod	_	_
 11	selon	selon	ADP	_	_	9	mod	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	Facultés	faculté	NOUN	_	Definite=Def|Number=Plur	11	comp:obj	_	SpaceAfter=No|wordform=facultés
+13	Facultés	faculté	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	SpaceAfter=No|wordform=facultés
 14	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00003
@@ -36629,7 +36629,7 @@
 5	Salon	Salon	PROPN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	noir	noir	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 7	contenant	contenir	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
-8	du	du	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	charbon	charbon	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	bois	bois	NOUN	_	Gender=Masc	10	comp:obj	_	_
