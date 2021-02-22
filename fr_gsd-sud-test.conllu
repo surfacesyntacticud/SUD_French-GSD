@@ -135,7 +135,7 @@
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Coopération	coopération	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	wordform=coopération
-17	en	en	ADP	_	_	16	udep	_	_
+17	en	en	ADP	_	Shared=Yes	16	udep	_	_
 18	Europe	Europe	PROPN	_	_	17	comp:obj	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	OSCE	OSCE	PROPN	_	_	10	appos	_	SpaceAfter=No
@@ -373,7 +373,7 @@
 9	d'	de	ADP	_	_	5	conj	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	malédiction	malédiction	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	que	que	SCONJ	_	_	1	comp:cleft	_	_
+12	que	que	SCONJ	_	_	1	comp:obj@agent	_	_
 13	toute	tout	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	zone	zone	NOUN	_	Gender=Fem|Number=Sing	23	subj	_	_
@@ -8888,7 +8888,7 @@
 41	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 42	inéluctable	inéluctable	ADJ	_	Gender=Fem|Number=Sing	41	comp:pred	_	_
 43	et	et	CCONJ	_	_	50	cc	_	SpaceAfter=No
-44	,	,	PUNCT	_	_	43	punct	_	_
+44	,	,	PUNCT	_	_	45	punct	_	_
 45	par	par	ADP	_	_	50	orphan	_	_
 46	effet	effet	NOUN	_	Gender=Masc|Number=Sing	45	comp:obj	_	_
 47	induit	induit	ADJ	_	Gender=Masc|Number=Sing	46	mod	_	SpaceAfter=No
