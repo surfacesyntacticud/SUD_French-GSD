@@ -26336,7 +26336,7 @@
 7	deux	deux	NUM	_	Number=Plur	9	det	_	_
 8	hautes	haut	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
 9	plumes	plume	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
-10	sur	sur	ADP	_	_	6	mod	_	_
+10	sur	sur	ADP	_	_	9	udep	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	tête	tête	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
@@ -28081,7 +28081,7 @@
 7	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	deux	deux	NUM	_	Number=Plur	3	conj	_	_
-10	pour	pour	ADP	_	_	9	udep	_	_
+10	pour	pour	ADP	_	_	9	orphan	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	nul	nul	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
