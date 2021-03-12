@@ -17703,7 +17703,7 @@
 20	ferme	ferme	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	courageuse	courageux	ADJ	_	Gender=Fem|Number=Sing	20	conj	_	_
-23	face	face	NOUN	_	_	19	udep	_	ExtPos=ADV
+23	face	face	NOUN	_	_	19	mod	_	ExtPos=ADV
 24	à	à	ADP	_	_	23	comp:obl	_	_
 25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
 26	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
@@ -23436,7 +23436,7 @@
 2	demi-finale	demi-finale	NOUN	_	Gender=Fem|Number=Sing	9	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-5	face	face	NOUN	_	_	2	udep	_	ExtPos=ADV
+5	face	face	NOUN	_	_	2	mod	_	ExtPos=ADV
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -39770,7 +39770,7 @@
 7	à	à	ADP	_	_	6	comp:obl	_	_
 8	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	9	det	_	_
 9	création	création	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	7	punct	_	_
+10	,	,	PUNCT	_	_	6	punct	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	19	subj	_	wordform=compagnie
 13	Luxembourgeoise	luxembourgeois	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	wordform=luxembourgeoise
