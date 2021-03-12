@@ -8025,9 +8025,9 @@
 6	menus	menu	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 7	à	à	ADP	_	_	6	udep	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-9	cher	cher	ADJ	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
+9	cher	cher	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 10	deux	deux	NUM	_	Number=Plur	11	det	_	_
-11	kirs	kir	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+11	kirs	kir	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 12	une	un	NUM	_	Gender=Fem|Number=Sing	13	det	_	_
 13	bouteille	bouteille	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_

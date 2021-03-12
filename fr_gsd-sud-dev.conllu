@@ -4838,7 +4838,7 @@
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	ces	ce	DET	_	Number=Plur|PronType=Dem	4	det	_	_
 4	déclarations	déclaration	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	2	punct	_	_
+5	,	,	PUNCT	_	_	1	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	candidat	candidat	NOUN	_	Gender=Masc|Number=Sing	18	subj	_	_
 8	républicain	républicain	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
@@ -7768,7 +7768,7 @@
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	téléphonie	téléphonie	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 21	mobile	mobile	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	2	punct	_	_
+22	,	,	PUNCT	_	_	1	punct	_	_
 23	France	France	PROPN	_	_	25	subj	_	_
 24	Télécom	Télécom	PROPN	_	_	23	flat@name	_	_
 25	développa	développer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -12491,7 +12491,7 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	chance	chance	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
-6	à	à	ADP	_	_	2	conj	_	_
+6	à	à	ADP	_	_	1	conj	_	_
 7	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	8	det	_	_
 8	force	force	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
@@ -16232,9 +16232,9 @@
 14	August	August	PROPN	_	_	13	comp:obj	_	_
 15	Gloup	Gloup	PROPN	_	_	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	Men	man	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	wordform=men
-18	in	in	ADP	_	_	17	udep	_	_
-19	Black	black	ADJ	_	Gender=Masc|Number=Sing	18	comp:obj	_	wordform=black
+17	Men	Men	X	_	Foreign=Yes	2	conj	_	Lang=en
+18	in	in	X	_	Foreign=Yes	17	flat@foreign	_	Lang=en
+19	Black	Black	X	_	Foreign=Yes	18	flat@foreign	_	Lang=en|wordform=black
 20	pour	pour	ADP	_	_	17	orphan	_	_
 21	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	20	comp:obj	_	_
 22	de	de	ADP	_	_	21	udep	_	_
@@ -17703,7 +17703,7 @@
 20	ferme	ferme	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	courageuse	courageux	ADJ	_	Gender=Fem|Number=Sing	20	conj	_	_
-23	face	face	NOUN	_	_	19	mod	_	ExtPos=ADV
+23	face	face	NOUN	_	_	19	udep	_	ExtPos=ADV
 24	à	à	ADP	_	_	23	comp:obl	_	_
 25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
 26	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
@@ -19605,7 +19605,7 @@
 23	s'	se	PRON	_	Person=3|PronType=Prs	25	comp	_	InIdiom=Yes|SpaceAfter=No
 24	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	comp:obj	_	_
 25	produit	produire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	ExtPos=VERB|PhraseType=Idiom
-26	là	là	ADV	_	_	24	mod	_	_
+26	là	là	ADV	_	_	25	mod	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	événement	événement	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj@agent	_	_
 29	quasi	quasi	ADV	_	_	30	mod	_	_
@@ -21074,7 +21074,7 @@
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	mod	_	_
 6	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	plein	plein	ADV	_	_	6	comp:obj	_	_
+7	plein	plein	ADV	_	_	6	comp:obj	_	ExtPos=PRON
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	marques	marque	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
@@ -23436,7 +23436,7 @@
 2	demi-finale	demi-finale	NOUN	_	Gender=Fem|Number=Sing	9	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-5	face	face	NOUN	_	_	2	mod	_	ExtPos=ADV
+5	face	face	NOUN	_	_	2	udep	_	ExtPos=ADV
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -37773,7 +37773,7 @@
 30	plus	plus	ADV	_	_	31	mod	_	_
 31	proche	proche	ADJ	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 32-33	du	_	_	_	_	_	_	_	_
-32	de	de	ADP	_	_	31	comp:obl	_	_
+32	de	de	ADP	_	_	31	udep	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	vilebrequin	vilebrequin	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	_
 35	mais	mais	CCONJ	_	_	36	cc	_	_
@@ -40626,7 +40626,7 @@
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	rive	rive	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
 31	droite	droit	ADJ	_	Gender=Fem|Number=Sing	30	mod	_	_
-32	comme	comme	SCONJ	_	_	28	mod	_	_
+32	comme	comme	SCONJ	_	_	26	mod	_	_
 33	sur	sur	ADP	_	_	32	comp:obj	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	rive	rive	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_
