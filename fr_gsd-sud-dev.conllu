@@ -3429,8 +3429,8 @@
 34	de	de	ADP	_	_	33	udep	_	_
 35	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	36	det	_	_
 36	frais	frais	NOUN	_	Gender=Masc|Number=Plur	34	comp:obj	_	_
-37	comme	comme	SCONJ	_	_	33	udep	_	_
-38	à	à	ADP	_	_	37	comp:obj	_	_
+37	comme	comme	SCONJ	_	_	38	cc	_	_
+38	à	à	ADP	_	_	32	conj	_	_
 39	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
 40	élection	élection	NOUN	_	Gender=Fem|Number=Sing	38	comp:obj	_	_
 41	parlementaire	parlementaire	ADJ	_	Gender=Fem|Number=Sing	40	mod	_	_
@@ -3914,11 +3914,11 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	cavalerie	cavalerie	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	légère	léger	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	11	punct	_	_
-10	tout	tout	ADV	_	_	11	mod	_	_
-11	comme	comme	ADP	_	_	4	udep	_	_
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	tout	tout	ADV	_	_	13	mod	_	_
+11	comme	comme	ADP	_	_	13	cc	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	giberne	giberne	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
+13	giberne	giberne	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 14	noire	noir	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -3986,9 +3986,9 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	wordform=la
 5	Réunion	Réunion	PROPN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
-7	comme	comme	ADP	_	_	2	udep	_	_
-8	chacune	chacun	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	7	comp:obj	_	_
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	comme	comme	ADP	_	_	8	cc	_	_
+8	chacune	chacun	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	2	conj	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -10874,13 +10874,13 @@
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	pitjantjatjara	pitjantjatjara	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-11	comme	comme	ADP	_	_	10	udep	_	_
+11	comme	comme	ADP	_	_	8	mod	_	_
 12	langue	langue	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 13	maternelle	maternel	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
-16	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
-17	comme	comme	ADP	_	_	16	udep	_	_
+16	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+17	comme	comme	ADP	_	_	16	orphan	_	_
 18	seconde	second	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
 19	langue	langue	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
