@@ -39960,7 +39960,7 @@
 26	à	à	ADP	_	_	3	conj	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	est	est	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
-29	par	par	ADP	_	_	28	orphan	_	_
+29	par	par	ADP	_	_	26	orphan	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	pic	pic	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 32	de	de	ADP	_	_	31	udep	_	_
@@ -39985,7 +39985,7 @@
 50	à	à	ADP	_	_	26	conj	_	_
 51	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	sud	sud	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	_
-53	par	par	ADP	_	_	52	orphan	_	_
+53	par	par	ADP	_	_	50	orphan	_	_
 54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 55	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	56	mod	_	wordform=grand
 56	Parpaillon	Parpaillon	PROPN	_	Gender=Masc|Number=Sing	53	comp:obj	_	_
