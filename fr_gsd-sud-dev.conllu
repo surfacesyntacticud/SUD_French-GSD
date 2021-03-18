@@ -16480,9 +16480,9 @@
 9	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	pulvérulents	pulvérulent	NOUN	_	Gender=Masc|Number=Plur	8	mod	_	_
 11	et	et	CCONJ	_	_	14	cc	_	_
-12	en	en	ADP	_	_	14	udep	_	_
+12	en	en	ADP	_	_	14	orphan	_	_
 13	1960	1960	NUM	_	Number=Plur	12	comp:obj	_	_
-14	de	de	ADP	_	_	6	conj	_	_
+14	de	de	ADP	_	_	5	conj	_	_
 15	80 000	80 000	NUM	_	Number=Plur	16	det	_	_
 16	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
 17	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
@@ -35751,8 +35751,8 @@
 24	»	»	PUNCT	_	_	23	punct	_	_
 25	et	et	CCONJ	_	_	28	cc	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	nord	nord	NOUN	_	Gender=Masc|Number=Sing	28	subj	_	_
-28	de	de	ADP	_	_	20	conj	_	_
+27	nord	nord	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
+28	de	de	ADP	_	_	28	orphan	_	_
 29	droit	droit	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 30	coutumier	coutumier	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
@@ -39956,11 +39956,11 @@
 22	2746	2746	NUM	_	Number=Plur	23	det	_	_
 23	m	mètre	NOUN	_	Gender=Masc|Number=Plur	18	mod	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	26	punct	_	_
-26	à	à	ADP	_	_	3	conj	_	_
+25	,	,	PUNCT	_	_	29	punct	_	_
+26	à	à	ADP	_	_	29	orphan	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	est	est	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
-29	par	par	ADP	_	_	26	orphan	_	_
+29	par	par	ADP	_	_	4	conj	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	pic	pic	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 32	de	de	ADP	_	_	31	udep	_	_
@@ -39980,12 +39980,12 @@
 46	m	mètre	NOUN	_	Gender=Masc|Number=Plur	40	mod	_	SpaceAfter=No
 47	)	)	PUNCT	_	_	46	punct	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	50	punct	_	_
-49	et	et	CCONJ	_	_	50	cc	_	_
+49	et	et	CCONJ	_	_	53	cc	_	_
 50-51	au	_	_	_	_	_	_	_	_
-50	à	à	ADP	_	_	26	conj	_	_
+50	à	à	ADP	_	_	53	orphan	_	_
 51	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	sud	sud	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	_
-53	par	par	ADP	_	_	50	orphan	_	_
+53	par	par	ADP	_	_	29	conj	_	_
 54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 55	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	56	mod	_	wordform=grand
 56	Parpaillon	Parpaillon	PROPN	_	Gender=Masc|Number=Sing	53	comp:obj	_	_
@@ -40426,7 +40426,7 @@
 11	de	de	ADP	_	_	8	conj	_	_
 12	croisières	croisière	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 13-14	des	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	Shared=Yes	11	udep	_	_
+13	de	de	ADP	_	Shared=Yes	8	udep	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	Antilles	Antilles	PROPN	_	Number=Plur	13	comp:obj	_	_
 16	s'	se	PRON	_	Person=3|PronType=Prs	17	comp@pass	_	SpaceAfter=No
