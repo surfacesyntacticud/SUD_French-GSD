@@ -35752,7 +35752,7 @@
 25	et	et	CCONJ	_	_	28	cc	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	nord	nord	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
-28	de	de	ADP	_	_	28	orphan	_	_
+28	de	de	ADP	_	_	27	orphan	_	_
 29	droit	droit	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 30	coutumier	coutumier	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
