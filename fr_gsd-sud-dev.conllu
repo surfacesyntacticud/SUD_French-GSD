@@ -25400,7 +25400,7 @@
 19	et	et	CCONJ	_	_	22	cc	_	_
 20	qui	qui	PRON	_	PronType=Rel	22	subj	_	_
 21	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	25	comp:obj	_	SpaceAfter=No
-22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
 23	très	très	ADV	_	_	24	mod	_	_
 24	bien	bien	ADV	_	_	25	mod	_	_
 25	renseigné	renseigner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	SpaceAfter=No
