@@ -9296,7 +9296,7 @@
 6	de	de	ADP	_	_	5	udep	_	_
 7	douaire	douaire	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	5	appos	_	_
+9	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	2	parataxis	_	_
 10	pourquoi	pourquoi	ADV	_	PronType=Rel	14	mod	_	_
 11	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	12	det	_	_
 12	beaux-frères	beau-frère	NOUN	_	Gender=Masc|Number=Plur	14	subj	_	_
