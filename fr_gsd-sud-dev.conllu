@@ -4262,7 +4262,7 @@
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	18	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	Code	Code	PROPN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
+24	Code	code	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	wordform=code
 25	civil	civil	ADJ	_	Gender=Masc|Number=Sing	24	mod	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	4	punct	_	_
@@ -5305,7 +5305,7 @@
 30	général	général	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	_
 31	de	de	ADP	_	_	29	udep	_	_
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
-33	Office	Office	PROPN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
+33	Office	office	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	wordform=office
 34	national	national	ADJ	_	Gender=Masc|Number=Sing	33	mod	_	_
 35	de	de	ADP	_	_	33	udep	_	_
 36	lutte	lutte	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
@@ -13450,7 +13450,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	concept	concept	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
-4	État	État	PROPN	_	_	3	comp:obj	_	_
+4	État	état	NOUN	_	_	3	comp:obj	_	wordform=état
 5	tampon	tampon	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -13825,7 +13825,7 @@
 46	de	de	ADP	_	_	45	udep	_	_
 47	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 48	future	futur	ADJ	_	Gender=Fem|Number=Sing	49	mod	_	_
-49	Banque	Banque	PROPN	_	Gender=Fem|Number=Sing	46	comp:obj	_	_
+49	Banque	banque	NOUN	_	Gender=Fem|Number=Sing	46	comp:obj	_	wordform=banque
 50	centrale	central	ADJ	_	Gender=Fem|Number=Sing	49	mod	_	SpaceAfter=No
 51	.	.	PUNCT	_	_	20	punct	_	_
 
@@ -14476,7 +14476,7 @@
 8	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	comp:obj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Perruche	Perruche	PROPN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
+11	Perruche	perruche	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	élégante	élégant	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 13	dont	dont	PRON	_	PronType=Rel	16	comp:obl	_	_
 14	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
@@ -18042,7 +18042,7 @@
 9	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	:	:	PUNCT	_	_	12	punct	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	Office	Office	PROPN	_	Number=Sing	4	appos	_	_
+12	Office	office	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	wordform=office
 13	de	de	ADP	_	_	12	udep	_	_
 14	documentation	documentation	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	aéronautique	aéronautique	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	SpaceAfter=No
@@ -18810,7 +18810,7 @@
 30	sélectionnés	sélectionner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	mod	_	_
 31	par	par	ADP	_	_	30	comp:obl@agent	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	Commission	Commission	PROPN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
+33	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	wordform=commission
 34	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	33	mod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -25223,7 +25223,7 @@
 24	employés	employer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	comp:aux@pass	_	_
 25	par	par	ADP	_	_	24	comp:obl@agent	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	Compagnie	Compagnie	PROPN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
+27	Compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	wordform=compagnie
 28	nationale	national	ADJ	_	Gender=Fem|Number=Sing	27	mod	_	_
 29-30	du	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	27	udep	_	_
@@ -38449,7 +38449,7 @@
 12	de	de	ADP	_	_	11	comp:obj@x	_	_
 13	transformer	transformer	VERB	_	VerbForm=Inf	12	comp:obj	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	Banque	Banque	PROPN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
+15	Banque	banque	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	wordform=banque
 16	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 17	en	en	ADP	_	_	13	mod	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
