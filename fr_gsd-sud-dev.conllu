@@ -11142,7 +11142,7 @@
 20	jeté	jeter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	grenade	grenade	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
-23	sur	sur	ADP	_	_	19	mod	_	_
+23	sur	sur	ADP	_	_	20	comp:obl	_	_
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	véhicule	véhicule	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
 26	contenant	contenir	VERB	_	Tense=Pres|VerbForm=Part	25	mod	_	_
@@ -26005,7 +26005,7 @@
 26	mondiales	mondial	ADJ	_	Gender=Fem|Number=Plur	25	mod	_	InTitle=Yes|SpaceAfter=No
 27	"	"	PUNCT	_	_	25	punct	_	_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	Globale	Globale	X	_	Foreign=Yes	21	appos	_	ExtPos=PROPN|Lang=de|PhraseType=Title
+29	Globale	Globale	X	_	Foreign=Yes	25	appos	_	ExtPos=PROPN|Lang=de|PhraseType=Title
 30	Krisen	Krise	X	_	Foreign=Yes	29	flat@foreign	_	InTitle=Yes|Lang=de|SpaceAfter=No
 31	--	--	PUNCT	_	_	30	punct	_	InTitle=Yes|SpaceAfter=No
 32	Globale	Globale	X	_	Foreign=Yes	30	flat@foreign	_	InTitle=Yes|Lang=de
@@ -36610,9 +36610,9 @@
 12	ville	ville	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	6	comp:obj	_	CorrectNumber=Plur|wordform=datent
 14	d'	de	ADP	_	_	13	mod	_	SpaceAfter=No
-15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	InIdiom=Yes
 16	y	y	PRON	_	Person=3|PronType=Prs	17	comp	_	InIdiom=Yes
-17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
+17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	ExtPos=ADP|PhraseType=Idiom
 18	plus	plus	ADV	_	_	17	comp:obj	_	ExtPos=PRON
 19	de	de	ADP	_	_	18	udep	_	_
 20	3	3	NUM	_	Number=Plur	21	det	_	_
@@ -40423,10 +40423,10 @@
 8	bateaux	bateau	NOUN	_	Gender=Masc|Number=Plur	17	subj@pass	_	_
 9	militaires	militaire	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
-11	de	de	ADP	_	_	8	conj	_	_
+11	de	de	ADP	_	_	9	conj	_	_
 12	croisières	croisière	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 13-14	des	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	Shared=Yes	8	udep	_	_
+13	de	de	ADP	_	_	8	udep	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	Antilles	Antilles	PROPN	_	Number=Plur	13	comp:obj	_	_
 16	s'	se	PRON	_	Person=3|PronType=Prs	17	comp@pass	_	SpaceAfter=No
