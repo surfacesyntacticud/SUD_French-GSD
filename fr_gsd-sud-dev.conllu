@@ -297,7 +297,7 @@
 10	à	à	ADP	_	_	21	mod	_	ExtPos=ADV|Idiom=Yes
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
 12	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	InIdiom=Yes
-13	de	de	ADP	_	_	10	comp:obl@x	_	_
+13	de	de	ADP	_	_	12	comp:obl@x	_	_
 14	souligner	souligner	VERB	_	VerbForm=Inf	13	comp:obj	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	thématique	thématique	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
@@ -2193,7 +2193,7 @@
 37	ouest	ouest	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	_
 38	à	à	ADP	_	_	29	mod	_	ExtPos=ADV|Idiom=Yes
 39	partir	partir	VERB	_	VerbForm=Inf	38	comp:obj	_	InIdiom=Yes
-40	de	de	ADP	_	_	38	comp:obl	_	_
+40	de	de	ADP	_	_	39	comp:obl	_	_
 41	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	42	det	_	_
 42	terminus	terminus	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj	_	_
 43	actuel	actuel	ADJ	_	Gender=Masc|Number=Sing	42	mod	_	_
@@ -3214,7 +3214,7 @@
 12	en	en	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
 13	plus	plus	ADV	_	_	12	comp:obj	_	InIdiom=Yes
 14-15	des	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	12	comp:obl	_	_
+14	de	de	ADP	_	_	13	comp:obl	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	robes	robe	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
@@ -4593,7 +4593,7 @@
 1	Située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	mod@x	_	wordform=située
 2	à	à	ADP	_	_	1	comp:obl	_	ExtPos=ADV|Idiom=Yes
 3	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	InIdiom=Yes
-4	de	de	ADP	_	_	2	comp:obl	_	_
+4	de	de	ADP	_	_	3	comp:obl	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	route	route	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	menant	mener	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	_
@@ -5216,7 +5216,7 @@
 # text = À partir de 1882 il obtient divers diplômes ecclésiastiques.
 1	À	à	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes|wordform=à
 2	partir	partir	VERB	_	VerbForm=Inf	1	comp:obj	_	InIdiom=Yes
-3	de	de	ADP	_	_	1	comp:obl	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
 4	1882	1882	NUM	_	Number=Plur	3	comp:obj	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	obtient	obtenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5789,7 +5789,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	en	en	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
 23	plus	plus	ADV	_	_	22	comp:obj	_	InIdiom=Yes
-24	de	de	ADP	_	_	22	comp:obl	_	_
+24	de	de	ADP	_	_	23	comp:obl	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	perte	perte	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 27	de	de	ADP	_	_	26	udep	_	_
@@ -6016,7 +6016,7 @@
 # text = En raison de la puissance du VLT, UVES peut être utilisé dans tous les domaines de l'astrophysique, allant de l'étude des corps du système solaire, à la caractérisation des quasars les plus lointains.
 1	En	en	ADP	_	_	11	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	InIdiom=Yes
-3	de	de	ADP	_	_	1	comp:obl	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	puissance	puissance	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6-7	du	_	_	_	_	_	_	_	_
@@ -10048,7 +10048,7 @@
 # text = En raison de blessures à l'épaule, il ne dispute que 41 parties au cours de la saison 2010, et sa moyenne au bâton n'est que de 0,185.
 1	En	en	ADP	_	_	11	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	InIdiom=Yes
-3	de	de	ADP	_	_	1	comp:obl	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
 4	blessures	blessure	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 5	à	à	ADP	_	_	4	udep	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -10497,7 +10497,7 @@
 24	Scribe	Scribe	PROPN	_	_	23	appos	_	_
 25	à	à	ADP	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes
 26	partir	partir	VERB	_	VerbForm=Inf	25	comp:obj	_	InIdiom=Yes
-27	de	de	ADP	_	_	25	comp:obl	_	_
+27	de	de	ADP	_	_	26	comp:obl	_	_
 28	1863	1863	NUM	_	Number=Plur	27	comp:obj	_	_
 29	avant	avant	ADV	_	_	3	mod	_	_
 30	de	de	ADP	_	_	29	comp:obl@x	_	_
@@ -12429,7 +12429,7 @@
 29	c'est-à-dire	c'est-à-dire	CCONJ	_	_	30	cc	_	_
 30	à	à	ADP	_	_	12	conj	_	ExtPos=ADV|Idiom=Yes
 31	partir	partir	VERB	_	VerbForm=Inf	30	comp:obj	_	InIdiom=Yes
-32	de	de	ADP	_	_	30	comp:obl	_	_
+32	de	de	ADP	_	_	31	comp:obl	_	_
 33	onze	onze	NUM	_	Number=Plur	34	det	_	_
 34	heures	heure	NOUN	_	Gender=Fem|Number=Plur	32	comp:obj	_	_
 35-36	du	_	_	_	_	_	_	_	_
@@ -13066,7 +13066,7 @@
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	précisément	précisément	ADV	_	_	26	mod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	de	de	ADP	_	_	26	comp:obl	_	_
+31	de	de	ADP	_	_	27	comp:obl	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	présence	présence	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
 34	de	de	ADP	_	_	33	udep	_	_
@@ -13800,10 +13800,10 @@
 24	en	en	ADP	_	_	20	mod	_	ExtPos=ADV|Idiom=Yes
 25	raison	raison	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
-27	entre	entre	ADP	_	_	24	mod	_	_
+27	entre	entre	ADP	_	_	25	mod	_	_
 28	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	27	comp:obj	_	_
 29-30	des	_	_	_	_	_	_	_	_
-29	de	de	ADP	_	_	24	comp:obl	_	_
+29	de	de	ADP	_	_	25	comp:obl	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	divergences	divergence	NOUN	_	Gender=Fem|Number=Plur	29	comp:obj	_	_
 32	nées	naître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	mod	_	_
@@ -13819,7 +13819,7 @@
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	InIdiom=Yes
 42	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj	_	InIdiom=Yes
 43-44	du	_	_	_	_	_	_	_	_
-43	de	de	ADP	_	_	40	comp:obl	_	_
+43	de	de	ADP	_	_	42	comp:obl	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	siège	siège	NOUN	_	Gender=Masc|Number=Sing	43	comp:obj	_	_
 46	de	de	ADP	_	_	45	udep	_	_
@@ -13974,7 +13974,7 @@
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	en	en	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
 31	raison	raison	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	InIdiom=Yes
-32	de	de	ADP	_	_	30	comp:obl	_	_
+32	de	de	ADP	_	_	31	comp:obl	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
 34	alerte	alerte	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	_
 35-36	au	_	_	_	_	_	_	_	_
@@ -15184,7 +15184,7 @@
 70	violences	violence	NOUN	_	Gender=Fem|Number=Plur	63	comp:obj	_	_
 71	en	en	ADP	_	_	63	mod	_	ExtPos=ADV|Idiom=Yes
 72	raison	raison	NOUN	_	Gender=Fem|Number=Sing	71	comp:obj	_	InIdiom=Yes
-73	de	de	ADP	_	_	71	comp:obl	_	_
+73	de	de	ADP	_	_	72	comp:obl	_	_
 74	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	75	det	_	_
 75	orientation	orientation	NOUN	_	Gender=Fem|Number=Sing	73	comp:obj	_	_
 76	sexuelle	sexuel	ADJ	_	Gender=Fem|Number=Sing	75	mod	_	SpaceAfter=No
@@ -15693,7 +15693,7 @@
 19	Auvergne	Auvergne	PROPN	_	_	18	flat@name	_	_
 20	à	à	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
 21	compter	compter	VERB	_	VerbForm=Inf	20	comp:obj	_	InIdiom=Yes
-22	de	de	ADP	_	_	20	comp:obl	_	_
+22	de	de	ADP	_	_	21	comp:obl	_	_
 23	2010	2010	NUM	_	Number=Plur	22	comp:obj	_	_
 24	après	après	ADP	_	_	2	mod	_	_
 25	quatre	quatre	NUM	_	Number=Plur	26	det	_	_
@@ -16668,7 +16668,7 @@
 # text = À côté de son vocabulaire hérité ou développé en interne, le hongrois a emprunté historiquement des mots aux langues slaves, au latin, à l'allemand et aux langues turques.
 1	À	à	ADP	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes|wordform=à
 2	côté	côté	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
-3	de	de	ADP	_	_	1	comp:obl	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
 4	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	5	det	_	_
 5	vocabulaire	vocabulaire	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	hérité	hériter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	mod	_	_
@@ -16839,7 +16839,7 @@
 16	Paris	Paris	PROPN	_	_	15	flat@name	_	_
 17	à	à	ADP	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
 18	partir	partir	VERB	_	VerbForm=Inf	17	comp:obj	_	InIdiom=Yes
-19	de	de	ADP	_	_	17	comp:obl	_	_
+19	de	de	ADP	_	_	18	comp:obl	_	_
 20	1926	1926	NUM	_	Number=Plur	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -16869,7 +16869,7 @@
 # text = En raison de la surpopulation et le manque d'hygiène publique, il y avait encore les épidémies de choléra en 1832 et dans l'hiver de 1848-1849, qui firent qu'entre 1863 et 1879 on dut voûter cette rivière.
 1	En	en	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	InIdiom=Yes
-3	de	de	ADP	_	_	1	comp:obl	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	surpopulation	surpopulation	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
@@ -17032,7 +17032,7 @@
 5	doter	doter	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
 6	d'	de	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 7	ici	ici	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	InIdiom=Yes
-8	à	à	ADP	_	_	6	comp:obl	_	_
+8	à	à	ADP	_	_	7	comp:obl	_	_
 9	2011	2011	NUM	_	Number=Plur	8	comp:obj	_	_
 10	d'	de	ADP	_	_	5	comp:obl	_	SpaceAfter=No
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -17394,7 +17394,7 @@
 10	en	en	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
 11	même	même	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	InIdiom=Yes
 12	temps	temps	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	InIdiom=Yes
-13	qu'	que	SCONJ	_	_	10	comp:obj	_	SpaceAfter=No
+13	qu'	que	SCONJ	_	_	11	comp:obj	_	SpaceAfter=No
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	autre	autre	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
 16	felquiste	felquiste	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -18577,13 +18577,13 @@
 18	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	19	det	_	_
 19	enseignement	enseignement	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	en	en	ADP	_	_	23	mod	_	_
+21	en	en	ADP	_	_	25	mod	_	_
 22	partie	partie	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 23-24	du	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	InIdiom=Yes
 25	fait	fait	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	InIdiom=Yes
-26	de	de	ADP	_	_	23	comp:obl	_	_
+26	de	de	ADP	_	_	25	comp:obl	_	_
 27	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	28	det	_	_
 28	créativité	créativité	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
 29	dans	dans	ADP	_	_	28	udep	_	_
@@ -22510,7 +22510,7 @@
 1	à	à	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
 3	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
-4	de	de	ADP	_	_	1	comp:obl	_	_
+4	de	de	ADP	_	_	3	comp:obl	_	_
 5	ceci	ceci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	Ruge	Ruge	PROPN	_	_	8	subj	_	_
@@ -24890,7 +24890,7 @@
 32	financier	financier	ADJ	_	Gender=Masc|Number=Sing	31	mod	_	_
 33	à	à	ADP	_	_	31	mod	_	ExtPos=ADV|Idiom=Yes
 34	partir	partir	VERB	_	VerbForm=Inf	33	comp:obj	_	InIdiom=Yes
-35	de	de	ADP	_	_	33	comp:obl	_	_
+35	de	de	ADP	_	_	34	comp:obl	_	_
 36	banques	banque	NOUN	_	Gender=Fem|Number=Plur	35	comp:obj	_	_
 37	allemandes	allemand	ADJ	_	Gender=Fem|Number=Plur	36	mod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	7	punct	_	_
@@ -25780,7 +25780,7 @@
 # text = En raison de sa valeur, notamment historique, il est inscrit sur la liste des monuments culturels protégés de la République de Serbie et sur la liste des biens culturels de la Ville de Belgrade.
 1	En	en	ADP	_	_	11	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	InIdiom=Yes
-3	de	de	ADP	_	_	1	comp:obl	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	5	det	_	_
 5	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
@@ -26216,7 +26216,7 @@
 30	nord	nord	NOUN	_	Gender=Masc|Number=Sing	29	mod	_	_
 31	à	à	ADP	_	_	17	mod	_	ExtPos=ADV|Idiom=Yes
 32	partir	partir	VERB	_	VerbForm=Inf	31	comp:obj	_	InIdiom=Yes
-33	de	de	ADP	_	_	31	comp:obl	_	_
+33	de	de	ADP	_	_	32	comp:obl	_	_
 34	1995	1995	NUM	_	Number=Plur	33	comp:obj	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -26630,7 +26630,7 @@
 32	,	,	PUNCT	_	_	33	punct	_	_
 33	à	à	ADP	_	_	25	mod	_	ExtPos=ADV|Idiom=Yes
 34	cause	cause	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	InIdiom=Yes
-35	de	de	ADP	_	_	33	comp:obl	_	_
+35	de	de	ADP	_	_	34	comp:obl	_	_
 36	différends	différend	NOUN	_	Gender=Masc|Number=Plur	35	comp:obj	_	_
 37	de	de	ADP	_	_	36	udep	_	_
 38	conception	conception	NOUN	_	Gender=Fem|Number=Sing	37	comp:obj	_	SpaceAfter=No
@@ -27118,7 +27118,7 @@
 1	En	en	ADP	_	_	11	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	même	même	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	InIdiom=Yes
 3	temps	temps	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
-4	que	que	SCONJ	_	_	1	comp:obj	_	_
+4	que	que	SCONJ	_	_	2	comp:obj	_	_
 5	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	6	det	_	_
 6	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	dans	dans	ADP	_	_	6	udep	_	_
@@ -27967,7 +27967,7 @@
 5	à	à	ADP	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes
 6	partir	partir	VERB	_	VerbForm=Inf	5	comp:obj	_	InIdiom=Yes
 7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	5	comp:obl	_	_
+7	de	de	ADP	_	_	6	comp:obl	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	port	port	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
@@ -29515,7 +29515,7 @@
 45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det	_	InIdiom=Yes
 46	côtés	côté	NOUN	_	Gender=Masc|Number=Plur	44	comp:obj	_	InIdiom=Yes
 47-48	des	_	_	_	_	_	_	_	_
-47	de	de	ADP	_	_	44	comp:obl	_	_
+47	de	de	ADP	_	_	46	comp:obl	_	_
 48	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	49	det	_	_
 49	rebelles	rebelle	NOUN	_	Gender=Masc|Number=Plur	47	comp:obj	_	_
 50	libyens	libyen	ADJ	_	Gender=Masc|Number=Plur	49	mod	_	SpaceAfter=No
@@ -29634,7 +29634,7 @@
 4	en	en	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
 5	même	même	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	InIdiom=Yes
 6	temps	temps	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes
-7	que	que	SCONJ	_	_	4	comp:obj	_	_
+7	que	que	SCONJ	_	_	5	comp:obj	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	tribuns	tribun	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
@@ -33528,7 +33528,7 @@
 19	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	21	subj	_	InIdiom=Yes
 20	n'	ne	ADV	_	Polarity=Neg	21	mod	_	InIdiom=Yes|SpaceAfter=No
 21	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp:obj	_	InIdiom=Yes
-22	qu'	que	SCONJ	_	_	18	comp:obj	_	SpaceAfter=No
+22	qu'	que	SCONJ	_	_	21	comp:obj	_	SpaceAfter=No
 23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	subj@pass	_	_
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 25	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
@@ -34306,7 +34306,7 @@
 16	ainsi	ainsi	ADV	_	_	14	mod	_	_
 17	à	à	ADP	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
 18	cause	cause	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	InIdiom=Yes
-19	de	de	ADP	_	_	17	comp:obl	_	_
+19	de	de	ADP	_	_	18	comp:obl	_	_
 20	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	21	det	_	_
 21	cri	cri	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No
@@ -34525,7 +34525,7 @@
 17	à	à	ADP	_	_	30	mod	_	ExtPos=ADV|Idiom=Yes
 18	cause	cause	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	InIdiom=Yes
 19-20	des	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	17	comp:obl	_	_
+19	de	de	ADP	_	_	18	comp:obl	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	possibilités	possibilité	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	_
 22	économiques	économique	ADJ	_	Gender=Fem|Number=Plur	21	mod	_	_
@@ -34962,7 +34962,7 @@
 10	Mans	Mans	PROPN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	à	à	ADP	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes
 12	partir	partir	VERB	_	VerbForm=Inf	11	comp:obj	_	InIdiom=Yes
-13	de	de	ADP	_	_	11	comp:obl	_	_
+13	de	de	ADP	_	_	12	comp:obl	_	_
 14	1970	1970	NUM	_	Number=Plur	13	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -35950,7 +35950,7 @@
 7	chef	chef	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	à	à	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
 9	partir	partir	VERB	_	VerbForm=Inf	8	comp:obj	_	InIdiom=Yes
-10	de	de	ADP	_	_	8	comp:obl	_	_
+10	de	de	ADP	_	_	9	comp:obl	_	_
 11	1983	1983	NUM	_	Number=Plur	10	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	tout	tout	ADV	_	_	2	mod	_	ExtPos=ADP|Idiom=Yes
@@ -36819,7 +36819,7 @@
 15	beurre	beurre	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	à	à	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
 17	partir	partir	VERB	_	VerbForm=Inf	16	comp:obj	_	InIdiom=Yes
-18	de	de	ADP	_	_	16	comp:obl	_	_
+18	de	de	ADP	_	_	17	comp:obl	_	_
 19	1901	1901	NUM	_	Number=Plur	18	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	puis	puis	CCONJ	_	_	22	cc	_	_
@@ -37748,14 +37748,14 @@
 8	tête	tête	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	c'est-à-dire	c'est-à-dire	CCONJ	_	_	11	cc	_	_
-11	en	en	ADP	_	_	7	conj	_	ExtPos=ADV|Idiom=Yes
+11	en	en	ADP	_	_	8	conj	_	ExtPos=ADV|Idiom=Yes
 12	haut	haut	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	InIdiom=Yes
 13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	11	comp:obl	_	_
+13	de	de	ADP	_	_	12	comp:obl	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	moteur	moteur	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	à	à	ADP	_	_	11	conj	_	_
+17	à	à	ADP	_	_	12	conj	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	aplomb	aplomb	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	immédiat	immédiat	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
@@ -38272,7 +38272,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
 18	sein	sein	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	InIdiom=Yes
 19-20	des	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	16	comp:obl	_	_
+19	de	de	ADP	_	_	18	comp:obl	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	institutions	institution	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	_
 22	spécialisées	spécialisé	ADJ	_	Gender=Fem|Number=Plur	21	mod	_	_
@@ -38802,7 +38802,7 @@
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	à	à	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
 9	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	InIdiom=Yes
-10	que	que	SCONJ	_	_	8	comp:obj	_	_
+10	que	que	SCONJ	_	_	9	comp:obj	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	eaux	eau	NOUN	_	Gender=Fem|Number=Plur	14	subj	_	_
 13	se	se	PRON	_	Person=3|PronType=Prs	14	comp:obj	_	_
@@ -40010,7 +40010,7 @@
 1	À	à	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes|wordform=à
 2	cause	cause	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	InIdiom=Yes
 3-4	des	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	1	comp:obl	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	motifs	motif	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
@@ -40362,11 +40362,11 @@
 7	à	à	ADP	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
 9	bout	bout	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes
-10	de	de	ADP	_	_	7	comp:obl	_	_
+10	de	de	ADP	_	_	9	comp:obl	_	_
 11	cinq	cinq	NUM	_	Number=Plur	12	det	_	_
 12	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	contre	contre	ADP	_	_	7	mod	_	_
+14	contre	contre	ADP	_	_	9	mod	_	_
 15	trois	trois	NUM	_	Number=Plur	16	det	_	_
 16	ans	an	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
 17	aujourd'hui	aujourd'hui	ADV	_	_	16	mod	_	SpaceAfter=No
