@@ -7899,10 +7899,10 @@
 23	mais	mais	CCONJ	_	_	25	cc	_	_
 24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	subj	_	_
 25	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-26	faire	faire	VERB	_	VerbForm=Inf	25	comp:obj@x	_	_
-27	face	face	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj@lvc	_	_
+26	faire	faire	VERB	_	VerbForm=Inf	25	comp:obj@x	_	ExtPos=VERB|Idiom=Yes
+27	face	face	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	InIdiom=Yes
 28-29	aux	_	_	_	_	_	_	_	_
-28	à	à	ADP	_	_	26	comp:obl	_	_
+28	à	à	ADP	_	_	27	comp:obl	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
 30	candidats	candidat	NOUN	_	Gender=Masc|Number=Plur	28	comp:obj	_	_
 31	«	«	PUNCT	_	_	32	punct	_	_
@@ -35227,10 +35227,10 @@
 24	laïc	laïc	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
 25	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 26	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	comp:aux@tense	_	_
-27	faire	faire	VERB	_	VerbForm=Inf	26	comp:obj@x	_	_
-28	face	face	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj@lvc	_	_
+27	faire	faire	VERB	_	VerbForm=Inf	26	comp:obj@x	_	ExtPos=VERB|Idiom=Yes
+28	face	face	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	InIdiom=Yes
 29-30	aux	_	_	_	_	_	_	_	_
-29	à	à	ADP	_	_	27	comp:obl	_	_
+29	à	à	ADP	_	_	28	comp:obl	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
 31	mêmes	même	ADJ	_	Gender=Fem|Number=Plur	32	mod	_	_
 32	accusations	accusation	NOUN	_	Gender=Fem|Number=Plur	29	comp:obj	_	SpaceAfter=No
