@@ -1797,8 +1797,8 @@
 41	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	42	det	_	_
 42	affrontements	affrontement	NOUN	_	Gender=Masc|Number=Plur	43	subj	_	_
 43	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	comp:obj	_	_
-44	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	comp:aux@tense	_	_
-45	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	44	comp:obj@lvc	_	SpaceAfter=No
+44	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	comp:aux@tense	_	ExtPos=VERB|Idiom=Yes
+45	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	44	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 46	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00066
@@ -4102,12 +4102,12 @@
 25	Wimax	Wimax	PROPN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	qui	qui	PRON	_	PronType=Rel	28	subj	_	_
-28	perdent	perdre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	_
+28	perdent	perdre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	ExtPos=VERB|Idiom=Yes
 29	de	de	ADP	_	_	28	mod	_	ExtPos=ADV|PhraseType=Idiom
 30	plus	plus	ADV	_	_	29	comp:obj	_	InIdiom=Yes
 31	en	en	ADP	_	_	30	mod	_	InIdiom=Yes
 32	plus	plus	ADV	_	_	31	comp:obj	_	InIdiom=Yes
-33	pied	pied	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj@lvc	_	_
+33	pied	pied	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	InIdiom=Yes
 34	face	face	NOUN	_	_	28	mod	_	ExtPos=ADV
 35-36	au	_	_	_	_	_	_	_	_
 35	à	à	ADP	_	_	34	comp:obl	_	_

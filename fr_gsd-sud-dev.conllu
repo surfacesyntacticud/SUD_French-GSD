@@ -1256,8 +1256,8 @@
 14	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
 15	dispositif	dispositif	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
-18	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj@lvc	_	_
+17	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	ExtPos=VERB|Idiom=Yes
+18	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	InIdiom=Yes
 19	en	en	ADP	_	_	16	mod	_	_
 20	2004	2004	NUM	_	Number=Plur	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	16	punct	_	_
@@ -3226,8 +3226,8 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	avoir	avoir	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
-5	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj@lvc	_	_
+4	avoir	avoir	VERB	_	VerbForm=Inf	3	comp:obj@x	_	ExtPos=VERB|Idiom=Yes
+5	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes
 6	en	en	ADP	_	_	4	mod	_	_
 7	présence	présence	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
@@ -5687,8 +5687,8 @@
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	wordform=des
 2	festivités	festivité	NOUN	_	Gender=Fem|Number=Plur	3	subj	_	_
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
-5	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj@lvc	_	_
+4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	ExtPos=VERB|Idiom=Yes
+5	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes
 6	à	à	ADP	_	_	4	comp:obl	_	_
 7	Mijek	Mijek	PROPN	_	_	6	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -8261,8 +8261,8 @@
 3	individuel	individuel	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
-6	donnera	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	mod@relcl	_	_
-7	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj@lvc	_	_
+6	donnera	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	mod@relcl	_	ExtPos=VERB|Idiom=Yes
+7	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	InIdiom=Yes
 8	à	à	ADP	_	_	6	comp:obl	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	compte	compte	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
@@ -12968,8 +12968,8 @@
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	subj	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
-18	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
-19	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj@lvc	_	_
+18	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	ExtPos=VERB|Idiom=Yes
+19	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	InIdiom=Yes
 20	à	à	ADP	_	_	18	comp:obl	_	_
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	convention	convention	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
@@ -21729,7 +21729,7 @@
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
 3	rend	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 4	vite	vite	ADV	_	_	3	mod	_	_
-5	compte	compte	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj@lvc	_	_
+5	compte	compte	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes
 6	que	que	SCONJ	_	_	3	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	bateau	bateau	NOUN	_	Gender=Masc|Number=Sing	9	subj@pass	_	_
@@ -26920,8 +26920,8 @@
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	2	det	_	wordform=sa
 2	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
-4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj@lvc	_	_
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+5	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes
 6	de	de	ADP	_	_	4	mod	_	_
 7	1978	1978	NUM	_	Number=Plur	6	comp:obj	_	_
 8	à	à	ADP	_	_	7	udep	_	_
@@ -27300,8 +27300,8 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	couple	couple	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-12	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
-13	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj@lvc	_	_
+12	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	ExtPos=VERB|Idiom=Yes
+13	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	InIdiom=Yes
 14	sur	sur	ADP	_	_	11	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	parking	parking	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
@@ -29048,9 +29048,9 @@
 # text = La justice donnait toujours raison au propriétaire et les représentants britanniques ne pouvaient accéder librement aux habitations, devant passer par l'administration française qui cautionnait la situation.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	justice	justice	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
-3	donnait	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	donnait	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 4	toujours	toujours	ADV	_	_	3	mod	_	_
-5	raison	raison	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	_
+5	raison	raison	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	InIdiom=Yes
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	3	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -38135,8 +38135,8 @@
 2	démarche	démarche	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	similaire	similaire	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
-6	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj@lvc	_	_
+5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	ExtPos=VERB|Idiom=Yes
+6	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	InIdiom=Yes
 7	en	en	ADP	_	_	4	mod	_	_
 8	1964	1964	NUM	_	Number=Plur	7	comp:obj	_	_
 9	dans	dans	ADP	_	_	4	mod	_	_
@@ -39499,8 +39499,8 @@
 4	n'	ne	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
-7	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
-8	compte	compte	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj@lvc	_	_
+7	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	ExtPos=VERB|Idiom=Yes
+8	compte	compte	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes
 9	de	de	ADP	_	_	7	comp:obl	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	11	det	_	_
 11	demande	demande	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
