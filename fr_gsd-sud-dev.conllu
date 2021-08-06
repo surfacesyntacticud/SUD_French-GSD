@@ -4494,7 +4494,7 @@
 14	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	comp:obl	_	_
 15	prête	prêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 16	serment	serment	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@lvc	_	_
-17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
+17	d'	de	ADP	_	_	16	comp:obl	_	SpaceAfter=No
 18	hommage	hommage	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -33486,7 +33486,7 @@
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13	appel	appel	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj@lvc	_	_
-14	de	de	ADP	_	_	13	udep	_	_
+14	de	de	ADP	_	_	13	comp:obl	_	_
 15	manière	manière	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 16	récurrente	récurrent	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 17	à	à	ADP	_	_	12	comp:obl	_	_
@@ -34232,7 +34232,7 @@
 52	riches	riche	ADJ	_	Gender=Fem|Number=Plur	50	mod	_	_
 53	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	comp:obj	_	_
 54	aussi	aussi	ADV	_	_	53	mod	_	_
-55	en	en	PRON	_	Person=3|PronType=Prs	57	udep	_	_
+55	en	en	PRON	_	Person=3|PronType=Prs	57	comp:obl	_	_
 56	faire	faire	VERB	_	VerbForm=Inf	53	comp:obj@x	_	_
 57	partie	partie	NOUN	_	Gender=Fem|Number=Sing	56	comp:obj@lvc	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	2	punct	_	_
