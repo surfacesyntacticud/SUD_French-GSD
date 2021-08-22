@@ -426,7 +426,7 @@
 1	Comprenant	comprendre	VERB	_	Tense=Pres|VerbForm=Part	18	mod@x	_	wordform=comprenant
 2	six	six	NUM	_	Number=Plur	3	det	_	_
 3	sommets	sommet	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
-4	dont	dont	PRON	_	PronType=Rel	6	udep	_	_
+4	dont	dont	PRON	_	PronType=Rel|Shared=Yes	6	udep	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	point	point	NOUN	_	Gender=Masc|Number=Sing	3	mod@relcl	_	_
 7	culminant	culminer	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	_
@@ -17984,7 +17984,7 @@
 28	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	30	det	_	_
 29	autres	autre	ADJ	_	Gender=Masc|Number=Plur	30	mod	_	_
 30	pays	pays	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
-31	dont	dont	PRON	_	PronType=Rel	33	udep	_	_
+31	dont	dont	PRON	_	PronType=Rel|Shared=Yes	33	udep	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	Canada	Canada	PROPN	_	Gender=Masc|Number=Sing	30	mod@relcl	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
@@ -39612,7 +39612,7 @@
 9	trois	trois	NUM	_	Number=Plur	10	det	_	_
 10	chevalements	chevalement	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	19	punct	_	_
-12	dont	dont	PRON	_	PronType=Rel	15	udep	_	_
+12	dont	dont	PRON	_	PronType=Rel|Shared=Yes	15	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	plus	plus	ADV	_	_	15	mod	_	_
 15	grand	grand	ADJ	_	Gender=Masc|Number=Sing	19	subj	_	_
