@@ -2791,7 +2791,7 @@
 1	Pour	pour	ADP	_	_	20	mod	_	wordform=pour
 2	rappel	rappel	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=Yes	5	det	_	SpaceAfter=No
 5	Opep	Opep	PROPN	_	Number=Sing	20	subj	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	udep	_	_
@@ -3810,7 +3810,7 @@
 14	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	udep	_	_
-16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	17	det	_	_
 17	gourmands	gourmand	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 18	et	et	CCONJ	_	_	19	cc	_	_
 19	amateurs	amateur	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
@@ -5013,7 +5013,7 @@
 13	parler	parler	VERB	_	VerbForm=Inf	12	comp:obj	_	_
 14-15	aux	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	13	comp:obl	_	_
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	16	det	_	_
 16	élèves	élève	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
 17	mais	mais	CCONJ	_	_	19	cc	_	_
 18	aussi	aussi	ADV	_	_	19	mod	_	_
@@ -6904,7 +6904,7 @@
 6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 8	qu'	que	ADV	_	_	10	mod	_	SpaceAfter=No
-9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	10	det	_	_
 10	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 11	+	+	SYM	_	_	12	cc	_	ExtPos=CCONJ
 12	balayage	balayage	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
@@ -8633,7 +8633,7 @@
 14	commun	commun	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	_
 15-16	aux	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	13	udep	_	_
-16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	17	det	_	_
 17	stégosauriens	stégosaurien	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 18	et	et	CCONJ	_	_	19	cc	_	_
 19	ankylosauriens	ankylosaurien	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
@@ -9062,7 +9062,7 @@
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	sondages	sondage	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=Yes	7	det	_	_
 7	vidéos	vidéo	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	photos	photo	NOUN	_	Gender=Fem|Number=Plur	7	conj:emb	_	_
@@ -10086,7 +10086,7 @@
 
 # sent_id = fr-ud-dev_01550
 # text = De nombreux gouvernements et associations des droits de l'Homme, comme Amnesty international, demandent l'extension du mandat de la Mission spéciale de l'ONU (Minurso) à la protection des droits de l'Homme au Sahara occidental.
-1	De	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	wordform=de
+1	De	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=Yes	3	det	_	wordform=de
 2	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	_
 3	gouvernements	gouvernement	NOUN	_	Gender=Masc|Number=Plur	17	subj	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_

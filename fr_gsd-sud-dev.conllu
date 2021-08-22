@@ -333,7 +333,7 @@
 18	Châteauroux	Châteauroux	PROPN	_	_	17	comp:obj	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	4	punct	_	_
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	22	det	_	_
 22	coureur	coureur	NOUN	_	Gender=Masc|Number=Sing	20	comp:pred	_	_
 23	cycliste	cycliste	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	_
 24	et	et	CCONJ	_	_	25	cc	_	_
@@ -827,7 +827,7 @@
 16	Maroc	Maroc	PROPN	_	Gender=Masc|Number=Sing	14	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	20	det	_	_
 20	auteur-compositeur-interprète	auteur-compositeur-interprète	NOUN	_	Gender=Masc|Number=Sing	18	comp:pred	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	acteur	acteur	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
@@ -2371,7 +2371,7 @@
 46	Pete	Pete	PROPN	_	_	69	subj	_	_
 47	Wilson	Wilson	PROPN	_	_	46	flat@name	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	50	punct	_	_
-49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	50	det	_	_
 50	gouverneur	gouverneur	NOUN	_	Gender=Masc|Number=Sing	46	appos	_	_
 51	de	de	ADP	_	_	50	udep	_	_
 52	Californie	Californie	PROPN	_	_	51	comp:obj	_	_
@@ -2422,7 +2422,7 @@
 1	Vers	vers	ADP	_	_	10	mod	_	wordform=vers
 2	731	731	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	5	det	_	_
 5	moine	moine	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
 7	chroniqueur	chroniqueur	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
@@ -6516,7 +6516,7 @@
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	à	à	ADP	_	_	13	conj	_	_
 21	tous	tout	ADJ	_	Gender=Masc|Number=Plur	23	mod	_	_
-22	ces	ce	DET	_	Number=Plur|PronType=Dem	23	det	_	_
+22	ces	ce	DET	_	Number=Plur|PronType=Dem|Shared=Yes	23	det	_	_
 23	bataillons	bataillon	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 24	dits	dire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	mod	_	_
 25	de	de	ADP	_	_	24	comp:pred	_	_
@@ -7279,7 +7279,7 @@
 24	interview	interview	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	24	udep	_	_
-26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	27	det	_	_
 27	romancier	romancier	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 28	et	et	CCONJ	_	_	29	cc	_	_
 29	lauréat	lauréat	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	_
@@ -9408,7 +9408,7 @@
 
 # sent_id = fr-ud-dev_00340
 # text = Les serveuses et serveurs sont accueillant sans être trop présents.
-1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	2	det	_	wordform=les
 2	serveuses	serveuse	NOUN	_	Gender=Fem|Number=Plur	5	subj	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	serveurs	serveur	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
@@ -9568,7 +9568,7 @@
 12	création	création	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	udep	_	_
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	15	det	_	_
 15	RFC	RFC	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
 16	2246	2246	NUM	_	Number=Plur	15	mod	_	_
 17	pour	pour	ADP	_	_	15	udep	_	_
@@ -9669,7 +9669,7 @@
 9	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	10	det	_	_
 10	mémoire	mémoire	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 11	sur	sur	ADP	_	_	10	udep	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	13	det	_	_
 13	Origines	origine	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	wordform=origines
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	transformations	transformation	NOUN	_	Gender=Fem|Number=Plur	13	conj	_	_
@@ -11337,7 +11337,7 @@
 7	dut	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	comp:aux@tense	_	_
 8-9	aux	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	10	det	_	_
 10	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 11	individuelles	individuel	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -11709,7 +11709,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Jalón	Jalón	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	5	det	_	_
 5	rivière	rivière	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 6	espagnole	espagnol	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
@@ -12522,7 +12522,7 @@
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	forme	forme	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 16	de	de	ADP	_	_	15	udep	_	_
-17	quelques	quelque	DET	_	Number=Plur|PronType=Ind	18	det	_	_
+17	quelques	quelque	DET	_	Number=Plur|PronType=Ind|Shared=Yes	18	det	_	_
 18	publications	publication	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 19	et	et	CCONJ	_	_	20	cc	_	_
 20	traductions	traduction	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	_
@@ -14270,7 +14270,7 @@
 20	de	de	ADP	_	_	10	mod	_	_
 21	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	22	det	_	_
 22	oncle	oncle	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
-23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	24	det	_	_
 24	duc	duc	NOUN	_	Gender=Masc|Number=Sing	22	appos	_	_
 25	de	de	ADP	_	_	24	udep	_	_
 26	Lorges	Lorges	PROPN	_	_	25	comp:obj	_	SpaceAfter=No
@@ -15007,7 +15007,7 @@
 40	élaboration	élaboration	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	_
 41-42	des	_	_	_	_	_	_	_	_
 41	de	de	ADP	_	_	40	udep	_	_
-42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	_
+42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	43	det	_	_
 43	trames	trame	NOUN	_	Gender=Fem|Number=Plur	41	comp:obj	_	_
 44	et	et	CCONJ	_	_	45	cc	_	_
 45	sous-trames	sous-trame	NOUN	_	Gender=Fem|Number=Plur	43	conj	_	_
@@ -15711,7 +15711,7 @@
 2	travailleurs	travailleur	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
 3	belges	belge	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	obtiennent	obtenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	7	det	_	_
 6	mêmes	même	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
 7	droits	droit	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
@@ -15724,7 +15724,7 @@
 
 # sent_id = fr-ud-dev_00563
 # text = Son successeur à la mairie et premier adjoint durant seize ans, Jean-Louis Schneiter, se présente aux élections municipales de 2001 en tant que divers droite alors que le député Jean-Claude Thomas se porte candidat avec le soutien de l'ancien maire.
-1	Son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	2	det	_	wordform=son
+1	Son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs|Shared=Yes	2	det	_	wordform=son
 2	successeur	successeur	NOUN	_	Gender=Masc|Number=Sing	17	subj	_	_
 3	à	à	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -16914,7 +16914,7 @@
 # text = Elle sera l'auteur d'une dizaine d'ouvrage de littérature enfantine et illustratrice d'une douzaine de livres dont la plupart ont pour auteurs ses propres enfants, sa fille Nadja et son fils Grégoire Solotareff.
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
 2	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=Yes	4	det	_	SpaceAfter=No
 4	auteur	auteur	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 5	d'	de	ADP	_	_	4	udep	_	SpaceAfter=No
 6	une	un	NUM	_	Gender=Fem|Number=Sing	7	det	_	_
@@ -17638,7 +17638,7 @@
 27	aumônier	aumônier	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	udep	_	_
-29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	30	det	_	_
 30	lycées	lycée	NOUN	_	Gender=Masc|Number=Plur	28	comp:obj	_	_
 31	et	et	CCONJ	_	_	32	cc	_	_
 32	collèges	collège	NOUN	_	Gender=Masc|Number=Plur	30	conj	_	SpaceAfter=No
@@ -19388,7 +19388,7 @@
 
 # sent_id = fr-ud-dev_00698
 # text = D'infinies et variées tendances et essais le composaient, et ne manquait pas de surprendre le public.
-1	D'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	SpaceAfter=No|wordform=d'
+1	D'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=Yes	5	det	_	SpaceAfter=No|wordform=d'
 2	infinies	infini	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	variées	varié	ADJ	_	Gender=Fem|Number=Plur	2	conj	_	_
@@ -19618,7 +19618,7 @@
 
 # sent_id = fr-ud-dev_00708
 # text = Des coursiers, transporteurs nationaux et internationaux sont également présents à Rodez.
-1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	wordform=des
+1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=Yes	2	det	_	wordform=des
 2	coursiers	coursier	NOUN	_	Gender=Masc|Number=Plur	8	subj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	transporteurs	transporteur	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
@@ -20740,7 +20740,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Radan	Radan	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	abrite	abriter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+4	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=Yes	6	det	_	_
 5	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
 6	sources	source	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 7	chaudes	chaud	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
@@ -24613,7 +24613,7 @@
 5	situent	situer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	8	det	_	_
 8	nord	nord	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	SpaceAfter=No
 9	--	--	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	est	est	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
@@ -27858,7 +27858,7 @@
 35	victimes	victime	ADJ	_	Gender=Masc|Number=Plur	34	mod	_	_
 36-37	des	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	35	comp:obl	_	_
-37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	39	det	_	_
 38	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	39	mod	_	_
 39	épidémies	épidémie	NOUN	_	Gender=Fem|Number=Plur	36	comp:obj	_	_
 40	et	et	CCONJ	_	_	41	cc	_	_
@@ -29697,7 +29697,7 @@
 
 # sent_id = fr-ud-dev_01071
 # text = Le chevillier ou cheviller (Littré) désigne en lutherie un dispositif d'accueil des chevilles.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	2	det	_	wordform=le
 2	chevillier	chevillier	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
 3	ou	ou	CCONJ	_	_	4	cc	_	_
 4	cheviller	cheviller	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
@@ -34780,7 +34780,7 @@
 
 # sent_id = fr-ud-dev_01255
 # text = L'explorateur et archéologue suédois Folke Bergman le visite en 1934.
-1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=Yes	2	det	_	SpaceAfter=No|wordform=l'
 2	explorateur	explorateur	NOUN	_	Gender=Masc|Number=Sing	9	subj	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	archéologue	archéologue	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
@@ -35731,7 +35731,7 @@
 6	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	6	udep	_	_
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	9	det	_	_
 9	lois	loi	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	juridictions	juridiction	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	_
@@ -35824,7 +35824,7 @@
 13	suisse	suisse	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	12	udep	_	_
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	16	det	_	_
 16	diffuseurs	diffuseur	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	éditeurs	éditeur	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
@@ -37176,7 +37176,7 @@
 30	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	_
 31	conféré	conférer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	comp:aux@pass	_	_
 32	par	par	ADP	_	_	31	comp:obl@agent	_	_
-33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	34	det	_	_
 34	République	république	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	wordform=république
 35	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
 36	ou	ou	CCONJ	_	_	37	cc	_	_
@@ -38170,7 +38170,7 @@
 
 # sent_id = fr-ud-dev_01377
 # text = Cette inactivation de l'X (ou lyonisation) se déroule dans les stades précoces de l'embryogénèse (blastocyste), et le chromosome X inactivé est maintenu au cours de la division cellulaire : une cellule inactivant le chromosome X paternel puis se divisant donnera 2 cellules dans lesquelles le chromosome X paternel sera inactivé.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem|Shared=Yes	2	det	_	wordform=cette
 2	inactivation	inactivation	NOUN	_	Gender=Fem|Number=Sing	11	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
@@ -39699,7 +39699,7 @@
 19	éventuellement	éventuellement	ADV	_	_	17	mod	_	SpaceAfter=No
 20	...	...	PUNCT	_	_	21	punct	_	_
 21	A	à	ADP	_	_	4	mod	_	wordform=à
-22	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	23	det	_	_
+22	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs|Shared=Yes	23	det	_	_
 23	risques	risque	NOUN	_	Gender=Masc|Number=Plur	21	comp:obj	_	_
 24	et	et	CCONJ	_	_	25	cc	_	_
 25	périls	péril	NOUN	_	Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
@@ -40338,7 +40338,7 @@
 12	où	où	ADV	_	PronType=Rel	14	mod	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
 14	enseigna	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	mod@relcl	_	_
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	16	det	_	_
 16	mathématiques	mathématique	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
 17	et	et	CCONJ	_	_	19	cc	_	_
 18	autres	autre	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
@@ -40823,7 +40823,7 @@
 1	Gail	Gail	PROPN	_	_	3	subj	_	_
 2	Patrick	Patrick	PROPN	_	_	1	flat@name	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	5	det	_	_
 5	actrice	acteur	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
 7	productrice	producteur	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
