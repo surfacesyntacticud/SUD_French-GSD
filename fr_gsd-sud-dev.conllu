@@ -479,7 +479,7 @@
 27	affirmait	affirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	parataxis	_	_
 28	que	que	SCONJ	_	_	27	comp:obj	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	matière	matière	NOUN	_	Gender=Fem|Number=Sing	32	subj	_	_
+30	matière	matière	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	32	subj	_	_
 31	n'	ne	ADV	_	Polarity=Neg	32	mod	_	SpaceAfter=No
 32	existait	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	comp:obj	_	_
 33	pas	pas	ADV	_	Polarity=Neg	32	mod	_	_
@@ -1004,7 +1004,7 @@
 
 # sent_id = fr-ud-dev_00037
 # text = Thionville et Congerville furent créée en 1793 avec leur nom actuel et fusionnèrent en 1973.
-1	Thionville	Thionville	PROPN	_	_	4	subj@pass	_	_
+1	Thionville	Thionville	PROPN	_	Shared=Yes	4	subj@pass	_	_
 2	et	et	CCONJ	_	_	3	cc	_	_
 3	Congerville	Congerville	PROPN	_	_	1	conj	_	_
 4	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1270,7 +1270,7 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	rookie	rookie	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	8	subj	_	_
 8	entre	entrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	8	comp:obl	_	_
@@ -1407,7 +1407,7 @@
 9	à	à	ADP	_	_	6	comp:obl	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	parents	parent	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
-12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
+12	qui	qui	PRON	_	PronType=Rel|Shared=Yes	13	subj	_	_
 13	travaillent	travailler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	n'	ne	ADV	_	Polarity=Neg	16	mod	_	SpaceAfter=No
@@ -1727,7 +1727,7 @@
 
 # sent_id = fr-ud-dev_00065
 # text = Il est le fils du Hall of Famer Ricky The Dragon Steamboat, et a été également entrainé par ce dernier.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	fils	fils	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
@@ -1904,7 +1904,7 @@
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	congruentes	congruent	ADJ	_	Gender=Fem|Number=Plur	8	comp:pred	_	_
 10	si	si	SCONJ	_	_	8	mod	_	_
-11	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	subj	_	_
+11	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs|Shared=Yes	12	subj	_	_
 12	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	même	même	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
@@ -1977,7 +1977,7 @@
 # sent_id = fr-ud-dev_00075
 # text = Le reste des Ryūzōji continuait à disputer la propriété du domaine de temps en temps, et menaçait la main-mise des Nabeshima sur celui-ci.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	reste	reste	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
+2	reste	reste	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	6	subj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -2294,7 +2294,7 @@
 1	En	en	ADP	_	_	6	mod	_	wordform=en
 2	2011	2011	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	6	subj	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	comp:obj	_	_
 6	blesse	blesser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	à	à	ADP	_	_	6	mod	_	_
@@ -2503,7 +2503,7 @@
 # sent_id = fr-ud-dev_00092
 # text = Le canton des Ulis groupe une commune et compte 25 785 habitants.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	canton	canton	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
+2	canton	canton	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	6	subj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -2936,7 +2936,7 @@
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
 37	maladies	maladie	NOUN	_	Gender=Fem|Number=Plur	34	comp:obj	_	_
 38	connues	connu	ADJ	_	Gender=Fem|Number=Plur	37	mod	_	_
-39	qui	qui	PRON	_	PronType=Rel	40	subj	_	_
+39	qui	qui	PRON	_	PronType=Rel|Shared=Yes	40	subj	_	_
 40	relèvent	relever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	mod@relcl	_	_
 41	de	de	ADP	_	_	40	comp:obl	_	_
 42	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
@@ -2987,7 +2987,7 @@
 14	à	à	ADP	_	_	6	comp:obl	_	_
 15	Eudes	Eudes	PROPN	_	_	14	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	1	punct	_	_
-17	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	subj	_	_
+17	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=Yes	19	subj	_	_
 18	ne	ne	ADV	_	Polarity=Neg	19	mod	_	_
 19	livrent	livrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	pas	pas	ADV	_	Polarity=Neg	19	mod	_	_
@@ -3480,7 +3480,7 @@
 
 # sent_id = fr-ud-dev_00126
 # text = Ils atterrissent à une sortie non-surveillée de Black Mesa, prennent un SUV et quittent Black Mesa.
-1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	wordform=ils
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=ils
 2	atterrissent	atterrir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -3685,7 +3685,7 @@
 
 # sent_id = fr-ud-dev_00134
 # text = Jules César assiégea la cité et combattit contre Cnaeus Pompée pour le contrôle du pont.
-1	Jules	Jules	PROPN	_	_	3	subj	_	_
+1	Jules	Jules	PROPN	_	Shared=Yes	3	subj	_	_
 2	César	César	PROPN	_	_	1	flat@name	_	_
 3	assiégea	assiéger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -3723,7 +3723,7 @@
 
 # sent_id = fr-ud-dev_00136
 # text = Il présida au lancement du premier navire de guerre à vapeur et demanda la construction d'autres navires de ce type.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	présida	présider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
@@ -3958,7 +3958,7 @@
 31	position	position	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
 32	hybride	hybride	ADJ	_	Gender=Fem|Number=Sing	31	mod	_	_
 33	où	où	ADV	_	PronType=Rel	36	mod	_	_
-34	Matthews	Matthews	PROPN	_	_	36	subj	_	_
+34	Matthews	Matthews	PROPN	_	Shared=Yes	36	subj	_	_
 35	se	se	PRON	_	Person=3|PronType=Prs	36	comp	_	InIdiom=Yes
 36	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	mod@relcl	_	ExtPos=VERB|Idiom=Yes
 37	en	en	ADP	_	_	36	mod	_	_
@@ -4560,7 +4560,7 @@
 
 # sent_id = fr-ud-dev_00168
 # text = Elles se perdent en cherchant le Petit Trianon et commencent à se sentir oppressées, mais aucune ne fait part de son sentiment à sa compagne.
-1	Elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	subj	_	wordform=elles
+1	Elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs|Shared=Yes	3	subj	_	wordform=elles
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
 3	perdent	perdre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 4	en	en	ADP	_	_	3	mod	_	_
@@ -4649,7 +4649,7 @@
 # text = Même lorsqu'il abdiquera une seconde fois, au bout des Cent-Jours et sera exilé sur l'île de Sainte-Hélène, beaucoup mettront leur espoir en un retour prochain de l'Empereur de Sainte-Hélène.
 1	Même	même	ADV	_	_	2	mod	_	wordform=même
 2	lorsqu'	lorsque	SCONJ	_	_	25	mod	_	SpaceAfter=No
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	4	subj	_	_
 4	abdiquera	abdiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	comp:obj	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	seconde	second	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
@@ -5043,7 +5043,7 @@
 
 # sent_id = fr-ud-dev_00185
 # text = Il se ridiculise à un dîner d'apparat, mais est sauvé par le prétendant de lady Edith, sir Anthony Strallan, qui révèle qu'il a été drogué par un des convives, et par Matthew, qui en fait son témoin.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	3	subj	_	wordform=il
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp:obj	_	_
 3	ridiculise	ridiculiser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	mod	_	_
@@ -5394,7 +5394,7 @@
 
 # sent_id = fr-ud-dev_00196
 # text = Celui-ci fait 5 000 morts mais s'arrête juste devant une petite chapelle dédiée à Marie.
-1	Celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=celui-ci
+1	Celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=Yes	2	subj	_	wordform=celui-ci
 2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	5 000	5 000	NUM	_	Number=Plur	4	det	_	_
 4	morts	mort	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
@@ -5548,7 +5548,7 @@
 # text = Simultanément, Xara a libéré partiellement les sources du logiciel--mises sous licence GPL--et a fait appel à l'aide communautaire pour le portage sous Linux et Mac OS X.
 1	Simultanément	simultanément	ADV	_	_	4	mod	_	SpaceAfter=No|wordform=simultanément
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	Xara	Xara	PROPN	_	_	4	subj	_	_
+3	Xara	Xara	PROPN	_	Shared=Yes	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	libéré	libérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	partiellement	partiellement	ADV	_	_	5	mod	_	_
@@ -5612,7 +5612,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Arctique	Arctique	PROPN	_	Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
-7	Inglefield	Inglefield	PROPN	_	_	8	subj	_	_
+7	Inglefield	Inglefield	PROPN	_	Shared=Yes	8	subj	_	_
 8	explora	explorer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	cartographia	cartographier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
@@ -5749,7 +5749,7 @@
 # text = Vraiment, j'y ai passé du bon temps et compte y retourner !
 1	Vraiment	vraiment	ADV	_	_	5	mod	_	SpaceAfter=No|wordform=vraiment
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	SpaceAfter=No
+3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=Yes	5	subj	_	SpaceAfter=No
 4	y	y	PRON	_	Person=3|PronType=Prs	5	mod	_	_
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
@@ -5903,7 +5903,7 @@
 4	en	en	ADP	_	_	8	mod	_	_
 5	1906	1906	NUM	_	Number=Plur	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
-7	Pathé	Pathé	PROPN	_	_	8	subj@caus	_	_
+7	Pathé	Pathé	PROPN	_	Shared=Yes	8	subj@caus	_	_
 8	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	monter	monter	VERB	_	VerbForm=Inf	8	comp:aux@caus	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -6129,7 +6129,7 @@
 8	de	de	ADP	_	_	5	conj	_	_
 9	chanteuse	chanteuse	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
-11	Carey	Carey	PROPN	_	_	12	subj	_	_
+11	Carey	Carey	PROPN	_	Shared=Yes	12	subj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	aussi	aussi	ADV	_	_	12	mod	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -6643,7 +6643,7 @@
 2	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	3	det	_	_
 3	côté	côté	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	Sam	Sam	PROPN	_	_	15	subj	_	SpaceAfter=No
+5	Sam	Sam	PROPN	_	Shared=Yes	15	subj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	15	mod	_	_
@@ -6673,7 +6673,7 @@
 
 # sent_id = fr-ud-dev_00240
 # text = Il commanda ensuite le Chicago (CA-14) et se vit confier le commandement de la 14e division de sous-marins basée à Pearl Harbor.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	commanda	commander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ensuite	ensuite	ADV	_	_	2	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -6701,7 +6701,7 @@
 
 # sent_id = fr-ud-dev_00241
 # text = Il est réalisé en 1927 selon les plans de l'architecte niçois Roger Séassal, et est inauguré par le maréchal Foch en 1928.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj@pass	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 4	en	en	ADP	_	_	2	mod	_	_
@@ -7923,7 +7923,7 @@
 
 # sent_id = fr-ud-dev_00281
 # text = MG, le personnage principal, écrit un journal et fait part de ses états d'âmes d'écrivain riche et célèbre à l'âge avancé.
-1	MG	MG	SYM	_	_	7	subj	_	ExtPos=PROPN|SpaceAfter=No
+1	MG	MG	SYM	_	Shared=Yes	7	subj	_	ExtPos=PROPN|SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -8652,7 +8652,7 @@
 # sent_id = fr-ud-dev_00311
 # text = La WI-FI fonctionne parfaitement dans tout le camping et est gratuite.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	WI-FI	WI-FI	PROPN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	WI-FI	WI-FI	PROPN	_	Gender=Fem|Number=Sing|Shared=Yes	3	subj	_	_
 3	fonctionne	fonctionner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	parfaitement	parfaitement	ADV	_	_	3	mod	_	_
 5	dans	dans	ADP	_	_	3	mod	_	_
@@ -8668,7 +8668,7 @@
 # text = Les deux scientifiques sont conscients de l'importance des guérisons obtenues, mais ont un préjugé défavorable, facilement compréhensible, vis-à-vis de l'appareillage que Priore leur décrit confusément dans son mauvais français.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	wordform=les
 2	deux	deux	NUM	_	Number=Plur	3	mod	_	_
-3	scientifiques	scientifique	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
+3	scientifiques	scientifique	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	4	subj	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	conscients	conscient	ADJ	_	Gender=Masc|Number=Plur	4	comp:pred	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
@@ -9111,7 +9111,7 @@
 4	plus	plus	ADV	_	_	5	mod	_	_
 5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	Souchon	Souchon	PROPN	_	Gender=Masc|Number=Sing	9	subj	_	_
+7	Souchon	Souchon	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes	9	subj	_	_
 8	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	9	comp:obl	_	_
 9	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	que	que	SCONJ	_	_	9	comp:obj	_	_
@@ -9524,7 +9524,7 @@
 # sent_id = fr-ud-dev_00344
 # text = Les Nouvelles Calédoniennes l'ont interrogé hier et à la question "les indépendantistes demandent l'aide de l'ONU, que pouvez-vous leur apporter ?"
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	Nouvelles	nouvelle	NOUN	_	Gender=Fem|Number=Plur	5	subj	_	wordform=nouvelles
+2	Nouvelles	nouvelle	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	5	subj	_	wordform=nouvelles
 3	Calédoniennes	calédonien	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	wordform=calédoniennes
 4	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	SpaceAfter=No
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9727,7 +9727,7 @@
 # sent_id = fr-ud-dev_00353
 # text = La fille qui répond n'a pas de temps à nous consacrer et est impatiente.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	fille	fille	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
+2	fille	fille	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	6	subj	_	_
 3	qui	qui	PRON	_	PronType=Rel	4	subj	_	_
 4	répond	répondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
@@ -9947,7 +9947,7 @@
 # sent_id = fr-ud-dev_00360
 # text = L'entreprise a douze sites dans le monde, dont trois principaux en France (Montigny-le-Bretonneux, Loches et Lingolsheim), en Belgique, au Canada et aux États-Unis, ainsi que des filiales commerciales en Angleterre, en Allemagne, en Suède et au Japon.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
-2	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	3	subj	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	douze	douze	NUM	_	Number=Plur	5	det	_	_
 5	sites	site	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
@@ -10575,7 +10575,7 @@
 # sent_id = fr-ud-dev_00383
 # text = Les Allemands enquêtèrent sur les causes de l'incendie et établirent de nouvelles règles de sécurité.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	Allemands	allemand	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	wordform=allemands
+2	Allemands	allemand	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	3	subj	_	wordform=allemands
 3	enquêtèrent	enquêter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	sur	sur	ADP	_	_	3	mod	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -10865,7 +10865,7 @@
 # sent_id = fr-ud-dev_00393
 # text = La majorité de la population d'Amata a le pitjantjatjara comme langue maternelle et l'anglais comme seconde langue.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	majorité	majorité	NOUN	_	Gender=Fem|Number=Sing	8	subj	_	_
+2	majorité	majorité	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	8	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	population	population	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -10890,7 +10890,7 @@
 1	A	à	ADP	_	_	5	mod	_	wordform=à
 2	14h25	14h25	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
+4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=Yes	5	subj	_	_
 5	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
 7	voir	voir	VERB	_	VerbForm=Inf	5	comp:obj@x	_	_
@@ -11189,7 +11189,7 @@
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	ARNm	ARNm	X	_	_	11	appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	_
-16	qui	qui	PRON	_	PronType=Rel	17	subj@pass	_	_
+16	qui	qui	PRON	_	PronType=Rel|Shared=Yes	17	subj@pass	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 18	ensuite	ensuite	ADV	_	_	17	mod	_	_
 19	exporté	exporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@pass	_	_
@@ -11685,7 +11685,7 @@
 
 # sent_id = fr-ud-dev_00422
 # text = Il a remporté la Superliga 2006, et la Coupe continentale 2008 avec les Ak Bars Kazan.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	remporté	remporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -11766,7 +11766,7 @@
 4	1815	1815	NUM	_	Number=Plur	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	général	général	NOUN	_	Gender=Masc|Number=Sing	11	subj	_	_
+7	général	général	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	11	subj	_	_
 8	Auguste	Auguste	PROPN	_	_	7	appos	_	_
 9	Julien	Julien	PROPN	_	_	8	flat@name	_	_
 10	Bigarré	Bigarré	PROPN	_	_	9	flat@name	_	_
@@ -11934,7 +11934,7 @@
 # sent_id = fr-ud-dev_00433
 # text = La relation qui lie les hommes à la Mammoth Cave dure depuis près de six millénaires et a connu de nombreuses phases, que ce soit de l'exploration jusqu'à son exploitation, en passant par son influence culturelle dans la région.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	relation	relation	NOUN	_	Gender=Fem|Number=Sing	11	subj	_	_
+2	relation	relation	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	11	subj	_	_
 3	qui	qui	PRON	_	PronType=Rel	4	subj	_	_
 4	lie	lier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -12396,7 +12396,7 @@
 # sent_id = fr-ud-dev_00448
 # text = Les cérémonies en l'honneur du Seigneur du Ciel débutent traditionnellement par un culte domestique et des pétards dès le début du neuvième jour, c'est-à-dire à partir de onze heures du soir selon le décompte traditionnel des heures.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	cérémonies	cérémonie	NOUN	_	Gender=Fem|Number=Plur	12	subj	_	_
+2	cérémonies	cérémonie	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	12	subj	_	_
 3	en	en	ADP	_	_	2	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -12840,7 +12840,7 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	1980	1980	NUM	_	Number=Plur	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	8	subj	_	_
 8	améliora	améliorer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
@@ -14227,7 +14227,7 @@
 18	»	»	PUNCT	_	_	17	punct	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
-21	qui	qui	PRON	_	PronType=Rel	22	subj	_	_
+21	qui	qui	PRON	_	PronType=Rel|Shared=Yes	22	subj	_	_
 22	précède	précéder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
 23	et	et	CCONJ	_	_	24	cc	_	_
 24	accompagne	accompagner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
@@ -14249,7 +14249,7 @@
 # sent_id = fr-ud-dev_00512
 # text = La marquise montait à cheval, chassait (elle avait gardé ce goût de la chasse ou elle excellait de son oncle le duc de Lorges, grand veneur, qui l'avait élevée) et pêchait en barque avec son fidèle majordome Jean Virecoulon.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	marquise	marquise	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	marquise	marquise	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	3	subj	_	_
 3	montait	monter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
@@ -14442,7 +14442,7 @@
 # text = Là, il remportera 2 fois le titre poids-lourd de la IZW et une fois le titre par équipe avec Derek Neikirk.
 1	Là	là	ADV	_	_	4	mod	_	SpaceAfter=No|wordform=là
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	4	subj	_	_
 4	remportera	remporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	2	2	NUM	_	Number=Plur	6	det	_	_
 6	fois	fois	NOUN	_	Gender=Fem|Number=Plur	4	mod	_	_
@@ -14528,7 +14528,7 @@
 # sent_id = fr-ud-dev_00523
 # text = Le torrent naît dans les Alpes bielloises dans les eaux du Lac de la Vieille et poursuit sa course, baignant de nombreuses communes de la vallée homonyme.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	torrent	torrent	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	torrent	torrent	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj	_	_
 3	naît	naître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dans	dans	ADP	_	_	3	mod	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -14723,7 +14723,7 @@
 1	Selon	selon	ADP	_	_	6	mod	_	wordform=selon
 2	Alan	Alan	PROPN	_	_	1	comp:obj	_	_
 3	«	«	PUNCT	_	_	1	punct	_	_
-4	Dave	Dave	PROPN	_	_	6	subj	_	_
+4	Dave	Dave	PROPN	_	Shared=Yes	6	subj	_	_
 5	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	SpaceAfter=No
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	contacté	contacter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
@@ -15033,7 +15033,7 @@
 # sent_id = fr-ud-dev_00541
 # text = La structure à l'étage supérieur possède une base carrée et par une spirale interne aboutit à une sphère.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	structure	structure	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
+2	structure	structure	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	7	subj	_	_
 3	à	à	ADP	_	_	2	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	étage	étage	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -15609,7 +15609,7 @@
 11	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
 12	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	mod@relcl	_	_
 13	:	:	PUNCT	_	_	16	punct	_	_
-14	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	wordform=je
+14	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=Yes	16	subj	_	wordform=je
 15	vous	le	PRON	_	Person=2|PronType=Prs	16	comp:obj	_	_
 16	installe	installer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 17	dans	dans	ADP	_	_	16	comp:obl	_	_
@@ -16132,7 +16132,7 @@
 
 # sent_id = fr-ud-dev_00577
 # text = Il part à Londres et obtient un diplôme de doctorat.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	part	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	Londres	Londres	PROPN	_	_	3	comp:obj	_	_
@@ -16215,7 +16215,7 @@
 
 # sent_id = fr-ud-dev_00581
 # text = On reconnaît facilement Le Bal des sirènes lors de la disparition d'August Gloup, Men in Black pour celle de Violet Beauregard et 2001, l'Odyssée de l'espace de Stanley Kubrick pour celle de Mike Teavee, accompagnée par Ainsi parlait Zarathoustra de Richard Strauss.
-1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	wordform=on
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=Yes	2	subj	_	wordform=on
 2	reconnaît	reconnaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	facilement	facilement	ADV	_	_	2	mod	_	_
 4	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	wordform=le
@@ -16472,7 +16472,7 @@
 1	En	en	ADP	_	_	5	mod	_	wordform=en
 2	1945	1945	NUM	_	Number=Plur	1	comp:obj	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	production	production	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
+4	production	production	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	de	de	ADP	_	_	5	comp:pred	_	_
 7	25 000	25 000	NUM	_	Number=Plur	8	det	_	_
@@ -16491,7 +16491,7 @@
 
 # sent_id = fr-ud-dev_00592
 # text = Il est sacré à Hanoï par Marcou, le 24 août 1900, puis retourne en Chine après la vague de terrorisme des Boxers.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj@pass	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sacré	sacrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
@@ -16958,7 +16958,7 @@
 3	raison	raison	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Cartel	Cartel	PROPN	_	Gender=Masc|Number=Sing	7	subj	_	_
+6	Cartel	Cartel	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes	7	subj	_	_
 7	refuse	refuser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	de	de	ADP	_	_	7	comp:obj@x	_	_
 9	former	former	VERB	_	VerbForm=Inf	8	comp:obj	_	_
@@ -17428,7 +17428,7 @@
 
 # sent_id = fr-ud-dev_00627
 # text = Il étudie notamment à Rennes dans le cadre du programme School Year Abroad et effectue également un stage chez Renault.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	étudie	étudier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	notamment	notamment	ADV	_	_	2	mod	_	_
 4	à	à	ADP	_	_	2	mod	_	_
@@ -17528,7 +17528,7 @@
 
 # sent_id = fr-ud-dev_00631
 # text = Can You Feel It a été enregistré en mars 1980 et est sorti en single le 23 septembre 1980.
-1	Can	Can	X	_	Foreign=Yes	5	subj@pass	_	Lang=en
+1	Can	Can	X	_	Foreign=Yes|Shared=Yes	5	subj@pass	_	Lang=en
 2	You	You	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
 3	Feel	Feel	X	_	Foreign=Yes	2	flat@foreign	_	Lang=en
 4	It	It	X	_	Foreign=Yes	3	flat@foreign	_	Lang=en
@@ -17931,7 +17931,7 @@
 12	Ouche	Ouche	PROPN	_	_	11	comp:obj	_	_
 13	dans	dans	ADP	_	_	16	mod	_	_
 14	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	comp:obj	_	_
-15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	16	subj	_	_
 16	jouxte	jouxter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	communes	commune	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
@@ -17952,7 +17952,7 @@
 
 # sent_id = fr-ud-dev_00647
 # text = Celui-ci décroche rapidement la première place du podium aux États-Unis, alors friands de groupes new wave à la Duran Duran (ainsi que dans plusieurs autres pays dont le Canada et la Nouvelle-Zélande), et permet au disque dont il est issu de se vendre sur les terres américaines à plus de 5 millions d'exemplaires, au fil des années qui suivent.
-1	Celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=celui-ci
+1	Celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=Yes	2	subj	_	wordform=celui-ci
 2	décroche	décrocher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	rapidement	rapidement	ADV	_	_	2	mod	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -18398,7 +18398,7 @@
 1	En	en	ADP	_	_	6	mod	_	wordform=en
 2	1986	1986	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	Alain	Alain	PROPN	_	_	6	subj	_	_
+4	Alain	Alain	PROPN	_	Shared=Yes	6	subj	_	_
 5	Passard	Passard	PROPN	_	_	4	flat@name	_	_
 6	achète	acheter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -18723,7 +18723,7 @@
 31	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	23	punct	_	_
 33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
-34	cônes	cône	NOUN	_	Gender=Masc|Number=Plur	35	subj	_	_
+34	cônes	cône	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	35	subj	_	_
 35	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 36	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	35	mod	_	_
 37	orientés	orienter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	35	comp:aux@tense	_	_
@@ -18747,7 +18747,7 @@
 
 # sent_id = fr-ud-dev_00675
 # text = Il rencontre une femme du coin, souvent une demoiselle en détresse, et lui demande de le trouver si jamais elle vient à Tokyo.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	rencontre	rencontrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	femme	femme	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -19197,7 +19197,7 @@
 
 # sent_id = fr-ud-dev_00691
 # text = Il reçut une éducation élémentaire à Wansford et à Folkingham dans le Lincolnshire et assista durant plusieurs années ses parents dans la ferme familiale.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	reçut	recevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	éducation	éducation	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -19392,7 +19392,7 @@
 2	infinies	infini	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	variées	varié	ADJ	_	Gender=Fem|Number=Plur	2	conj	_	_
-5	tendances	tendance	NOUN	_	Gender=Fem|Number=Plur	9	subj	_	_
+5	tendances	tendance	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	9	subj	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
 7	essais	essai	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 8	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	_
@@ -20058,7 +20058,7 @@
 4	comme	comme	ADP	_	_	3	udep	_	_
 5	apprenti	apprenti	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	8	subj	_	_
 8	ouvrit	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 9	plus	plus	ADV	_	_	10	mod	_	_
 10	tard	tard	ADV	_	_	8	mod	_	_
@@ -20301,7 +20301,7 @@
 # sent_id = fr-ud-dev_00735
 # text = Les machines sont reliées entre elles et exécutent un logiciel qui contrôle leur activité et leur disponibilité, dans le but d'exploiter leur disponibilité par la répartition de charge.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	machines	machine	NOUN	_	Gender=Fem|Number=Plur	3	subj	_	_
+2	machines	machine	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	3	subj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	reliées	relier	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	entre	entre	ADP	_	_	3	mod	_	_
@@ -20356,7 +20356,7 @@
 # sent_id = fr-ud-dev_00737
 # text = L'église date du XIIe siècle et est typique des constructions du Gâtinais, à cette époque ;
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
-2	église	église	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	église	église	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	3	subj	_	_
 3	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	3	comp:obl	_	_
@@ -20594,7 +20594,7 @@
 6	de	de	ADP	_	_	4	udep	_	_
 7	Butters	Butters	PROPN	_	_	6	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
-9	Cartman	Cartman	PROPN	_	_	10	subj	_	_
+9	Cartman	Cartman	PROPN	_	Shared=Yes	10	subj	_	_
 10	stoppe	stopper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	12	det	_	_
 12	collaboration	collaboration	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -20628,7 +20628,7 @@
 8	de	de	ADP	_	_	7	flat@name	_	_
 9	Médicis	Médicis	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
-11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	12	subj	_	_
 12	inaugure	inaugurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	mise	mise	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
@@ -20656,7 +20656,7 @@
 
 # sent_id = fr-ud-dev_00749
 # text = Il attirait les foules et faisait des miracles.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	attirait	attirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	foules	foule	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
@@ -20857,7 +20857,7 @@
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	navires	navire	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	20	subj	_	_
 19	ne	ne	ADV	_	Polarity=Neg	20	mod	_	_
 20	contribue	contribuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
@@ -21047,7 +21047,7 @@
 7	Los	Los	PROPN	_	_	6	comp:obj	_	_
 8	Bastanes	Bastanes	PROPN	_	_	7	flat@name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
+10	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	11	subj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 12	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
@@ -21142,7 +21142,7 @@
 10	Ali	Ali	PROPN	_	_	9	flat@name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
-13	Europe	Europe	PROPN	_	Number=Sing	15	subj	_	_
+13	Europe	Europe	PROPN	_	Number=Sing|Shared=Yes	15	subj	_	_
 14	n'	ne	ADV	_	Polarity=Neg	15	mod	_	SpaceAfter=No
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
@@ -21725,7 +21725,7 @@
 
 # sent_id = fr-ud-dev_00791
 # text = Elle se rend vite compte que le bateau est habité par des zombis et s'aperçoit également que le ferry a atterri dans une forêt, en réalité sur l'île Yamijima.
-1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=elle
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	3	subj	_	wordform=elle
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
 3	rend	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 4	vite	vite	ADV	_	_	3	mod	_	_
@@ -22241,7 +22241,7 @@
 # sent_id = fr-ud-dev_00807
 # text = La 023 est conçue par le bureau d'études Fondtech-Fondmetal, l'atelier de Gabriele Rumi dirigé par Jean-Claude Migeot et présente des pontons dont le bord de fuite est surbaissé et réduit dans la largeur.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	023	023	NUM	_	Number=Sing	3	subj@pass	_	_
+2	023	023	NUM	_	Number=Sing|Shared=Yes	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	conçue	concevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	par	par	ADP	_	_	4	comp:obl@agent	_	_
@@ -22392,7 +22392,7 @@
 
 # sent_id = fr-ud-dev_00812
 # text = Elle traduisit les meilleurs des ouvrages de la littérature classique étrangère et écrivit des articles de critique littéraire et théâtrale.
-1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=elle
 2	traduisit	traduire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	meilleurs	meilleur	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
@@ -22770,7 +22770,7 @@
 4	temps	temps	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	sports	sport	NOUN	_	Gender=Masc|Number=Plur	9	subj	_	_
+7	sports	sport	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	9	subj	_	_
 8	populaires	populaire	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
 9	connaissent	connaître	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -24121,7 +24121,7 @@
 # sent_id = fr-ud-dev_00874
 # text = Son territoire a une étendue qui varie de huit à vingt kilomètres carrés et peut considérablement en chevaucher d'autres.
 1	Son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	2	det	_	wordform=son
-2	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	étendue	étendue	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -24173,7 +24173,7 @@
 8	mars	mars	NOUN	_	Gender=Masc	7	mod	_	_
 9	2008	2008	NUM	_	Number=Plur	8	mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
-11	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
+11	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	13	subj	_	_
 12	se	se	PRON	_	Person=3|PronType=Prs	13	comp:obj	_	_
 13	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	pour	pour	ADP	_	_	13	mod	_	_
@@ -25689,7 +25689,7 @@
 # text = Le principal affluent de la Gièze, la rivière du Chefresne, collecte les eaux de la plus grande partie de la commune et arrose le bourg.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	wordform=le
 2	principal	principal	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
-3	affluent	affluent	NOUN	_	Gender=Masc|Number=Sing	14	subj	_	_
+3	affluent	affluent	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	14	subj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Gièze	Gièze	PROPN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
@@ -26126,7 +26126,7 @@
 7	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	homme	homme	NOUN	_	Gender=Masc|Number=Sing	14	subj	_	_
+10	homme	homme	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	14	subj	_	_
 11	vêtu	vêtir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	noir	noir	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
@@ -26148,7 +26148,7 @@
 # sent_id = fr-ud-dev_00944
 # text = Sa famille fuit l'Allemagne et s'établit en Pologne à Lodz, ville d'origine de son père.
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	2	det	_	wordform=sa
-2	famille	famille	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	famille	famille	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	3	subj	_	_
 3	fuit	fuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Allemagne	Allemagne	PROPN	_	Number=Sing	3	comp:obj	_	_
@@ -26313,7 +26313,7 @@
 # sent_id = fr-ud-dev_00951
 # text = Le corps glisse et s'enfonce tout droit dans la mer.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	corps	corps	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	corps	corps	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj	_	_
 3	glisse	glisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	et	et	CCONJ	_	_	6	cc	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	comp@pass	_	SpaceAfter=No
@@ -26331,7 +26331,7 @@
 2	à	à	ADP	_	_	1	mod	_	_
 3	Shou	Shou	PROPN	_	_	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	6	subj	_	_
 6	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	deux	deux	NUM	_	Number=Plur	9	det	_	_
 8	hautes	haut	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
@@ -26363,7 +26363,7 @@
 # sent_id = fr-ud-dev_00954
 # text = La température minimale moyenne de l'année se situe autour des 9°C et la maximale 19°C.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	température	température	NOUN	_	Gender=Fem|Number=Sing	9	subj@pass	_	_
+2	température	température	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	9	subj@pass	_	_
 3	minimale	minimal	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	moyenne	moyen	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 5	de	de	ADP	_	_	2	udep	_	_
@@ -26486,7 +26486,7 @@
 
 # sent_id = fr-ud-dev_00960
 # text = Il retourna aux États-Unis pendant l'été 1922 et entreprit des études au Naval War College à Newport, Rhode Island.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	retourna	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3-4	aux	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
@@ -26718,7 +26718,7 @@
 
 # sent_id = fr-ud-dev_00968
 # text = Heynemann logeait dans le même hôtel qui a accueilli l'Inter a dîné avec certains dirigeants italiens et, lors de la rencontre, il a validé le but du 1-0 de Francesco Moriero où le milieu de terrain était hors-jeu et refusé deux penalties pour les Français.
-1	Heynemann	Heynemann	PROPN	_	_	2	subj	_	_
+1	Heynemann	Heynemann	PROPN	_	Shared=Yes	2	subj	_	_
 2	logeait	loger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	dans	dans	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -26899,7 +26899,7 @@
 5	XP	XP	PROPN	_	_	4	flat@name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	mode	mode	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
+8	mode	mode	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	12	subj	_	_
 9	DirectX	DirectX	PROPN	_	_	8	appos	_	_
 10	10	10	NUM	_	Number=Plur	9	mod	_	_
 11	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
@@ -27209,7 +27209,7 @@
 # sent_id = fr-ud-dev_00984
 # text = Le village culmine à 600 m sur un site escarpé s'allongeant sur une longue arête rocheuse grise et domine la vallée du Cernon tout en étant abrité par le plateau du Larzac.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	village	village	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	village	village	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj	_	_
 3	culmine	culminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	600	600	NUM	_	Number=Plur	6	det	_	_
@@ -27944,7 +27944,7 @@
 12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	moment	moment	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	17	subj	_	_
+15	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs|Shared=Yes	17	subj	_	_
 16	n'	ne	ADV	_	Polarity=Neg	17	mod	_	SpaceAfter=No
 17	appelons	appeler	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
 18	pas	pas	ADV	_	Polarity=Neg	17	mod	_	_
@@ -28073,7 +28073,7 @@
 # sent_id = fr-ud-dev_01008
 # text = Quatre points sont accordés pour une victoire et deux pour un nul.
 1	Quatre	quatre	NUM	_	Number=Plur	2	det	_	wordform=quatre
-2	points	point	NOUN	_	Gender=Masc|Number=Plur	3	subj@pass	_	_
+2	points	point	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	3	subj@pass	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	accordés	accorder	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	pour	pour	ADP	_	_	3	mod	_	_
@@ -28364,7 +28364,7 @@
 # sent_id = fr-ud-dev_01019
 # text = Cette dernière représente un évêque bénissant les fidèles et serait une représentation de Saint Pallais.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
-2	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing|Shared=Yes	3	subj	_	_
 3	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	évêque	évêque	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -29369,7 +29369,7 @@
 
 # sent_id = fr-ud-dev_01058
 # text = Szyk illustrera quelques pages, mais ne finira pas ce travail, suite à sa déception devant la politique de l'organisation durant les années 30.
-1	Szyk	Szyk	PROPN	_	_	2	subj	_	_
+1	Szyk	Szyk	PROPN	_	Shared=Yes	2	subj	_	_
 2	illustrera	illustrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	quelques	quelque	DET	_	Number=Plur|PronType=Ind	4	det	_	_
 4	pages	page	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	SpaceAfter=No
@@ -29997,7 +29997,7 @@
 
 # sent_id = fr-ud-dev_01081
 # text = Je partais le matin vers 8 heures et rentrais le soir vers 20 heures.
-1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	wordform=je
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=Yes	2	subj	_	wordform=je
 2	partais	partir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	matin	matin	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
@@ -30143,7 +30143,7 @@
 4	à	à	ADP	_	_	10	mod	_	_
 5	Lille	Lille	PROPN	_	_	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
-7	Claude	Claude	PROPN	_	_	10	subj	_	_
+7	Claude	Claude	PROPN	_	Shared=Yes	10	subj	_	_
 8	Auguste	Auguste	PROPN	_	_	7	flat@name	_	_
 9	Lamy	Lamy	PROPN	_	_	8	flat@name	_	_
 10	identifie	identifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -30175,7 +30175,7 @@
 # sent_id = fr-ud-dev_01087
 # text = La liste des chansons débute par la piste 15 et se termine par la piste 30.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	liste	liste	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
+2	liste	liste	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	6	subj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -31112,7 +31112,7 @@
 24	de	de	ADP	_	_	22	udep	_	_
 25	France	France	PROPN	_	_	24	comp:obj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
-27	qui	qui	PRON	_	PronType=Rel	28	subj	_	_
+27	qui	qui	PRON	_	PronType=Rel|Shared=Yes	28	subj	_	_
 28	rassemble	rassembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
 29	essentiellement	essentiellement	ADV	_	_	28	mod	_	_
 30	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	31	det	_	_
@@ -32895,7 +32895,7 @@
 22	Abdallah	Abdallah	PROPN	_	_	21	flat@name	_	_
 23	Saleh	Saleh	PROPN	_	_	22	flat@name	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	28	punct	_	_
-25	qui	qui	PRON	_	PronType=Rel	28	subj	_	_
+25	qui	qui	PRON	_	PronType=Rel|Shared=Yes	28	subj	_	_
 26	s'	se	PRON	_	Person=3|PronType=Prs	29	comp	_	InIdiom=Yes|SpaceAfter=No
 27	en	en	PRON	_	Person=3|PronType=Prs	29	comp:obj	_	_
 28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
@@ -33024,7 +33024,7 @@
 # sent_id = fr-ud-dev_01197
 # text = Le constructeur stoppe sa construction après 12 marches ou dès qu'il rencontre un obstacle.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	constructeur	constructeur	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	constructeur	constructeur	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj	_	_
 3	stoppe	stopper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	5	det	_	_
 5	construction	construction	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -33271,7 +33271,7 @@
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Parité	parité	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	wordform=parité
 23	:	:	PUNCT	_	_	25	punct	_	_
-24	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	subj	_	_
+24	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	25	subj	_	_
 25	réunit	réunir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 26	26,17	26,17	NUM	_	Number=Plur	27	det	_	SpaceAfter=No
 27	%	%	SYM	_	Number=Plur	25	comp:obj	_	ExtPos=NOUN
@@ -33447,7 +33447,7 @@
 
 # sent_id = fr-ud-dev_01212
 # text = Eva Joly n'aurait pas été mise au courant de l'incident et n'aurait par conséquent pas réagi publiquement.
-1	Eva	Eva	PROPN	_	_	4	subj@pass	_	_
+1	Eva	Eva	PROPN	_	Shared=Yes	4	subj@pass	_	_
 2	Joly	Joly	PROPN	_	_	1	flat@name	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
 4	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -33690,7 +33690,7 @@
 11	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	:	:	PUNCT	_	_	18	punct	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	matériels	matériel	NOUN	_	Gender=Masc|Number=Plur	18	subj@pass	_	_
+14	matériels	matériel	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	18	subj@pass	_	_
 15	initialement	initialement	ADV	_	_	16	mod	_	_
 16	disparates	disparate	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	18	comp@pass	_	SpaceAfter=No
@@ -33717,7 +33717,7 @@
 2	1558	1558	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	couple	couple	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
+5	couple	couple	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	7	subj	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs	7	comp:obj	_	SpaceAfter=No
 7	installe	installer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
@@ -33742,7 +33742,7 @@
 26	peu	peu	ADV	_	_	27	mod	_	_
 27	après	après	ADV	_	_	24	mod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
-29	Luisa	Luisa	PROPN	_	_	30	subj	_	_
+29	Luisa	Luisa	PROPN	_	Shared=Yes	30	subj	_	_
 30	cherche	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 31	alors	alors	ADV	_	_	30	mod	_	_
 32	à	à	ADP	_	_	30	comp:obl@x	_	_
@@ -33955,7 +33955,7 @@
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 19	sahraouies	sahraoui	ADJ	_	Gender=Fem|Number=Plur	18	mod	_	_
-20	qui	qui	PRON	_	PronType=Rel	32	subj	_	_
+20	qui	qui	PRON	_	PronType=Rel|Shared=Yes	32	subj	_	_
 21	dans	dans	ADP	_	_	32	mod	_	_
 22	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	23	det	_	_
 23	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
@@ -34923,7 +34923,7 @@
 
 # sent_id = fr-ud-dev_01261
 # text = Marty se l'approprie et décide de l'adapter, sans le consentement de Jason, au grand écran.
-1	Marty	Marty	PROPN	_	_	4	subj	_	_
+1	Marty	Marty	PROPN	_	Shared=Yes	4	subj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
 3	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	SpaceAfter=No
 4	approprie	approprier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
@@ -35062,7 +35062,7 @@
 55	pendant	pendant	ADP	_	_	42	mod	_	_
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
 57	conflit	conflit	NOUN	_	Gender=Masc|Number=Sing	55	comp:obj	_	_
-58	qui	qui	PRON	_	PronType=Rel	59	subj	_	_
+58	qui	qui	PRON	_	PronType=Rel|Shared=Yes	59	subj	_	_
 59	fit	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	57	mod@relcl	_	_
 60	plus	plus	ADV	_	_	59	comp:obj	_	ExtPos=PRON
 61	de	de	ADP	_	_	60	udep	_	_
@@ -35251,7 +35251,7 @@
 11	gouvernementale	gouvernemental	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	3	punct	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	chef	chef	NOUN	_	Gender=Masc|Number=Sing	18	subj	_	_
+14	chef	chef	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	18	subj	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	État	état	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	wordform=état
@@ -35742,7 +35742,7 @@
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	dont	dont	PRON	_	PronType=Rel	18	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Sud	sud	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	wordform=sud
+18	Sud	sud	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	19	subj	_	wordform=sud
 19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	mod@relcl	_	_
 20	de	de	ADP	_	_	19	comp:pred	_	_
 21	droit	droit	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
@@ -35837,7 +35837,7 @@
 
 # sent_id = fr-ud-dev_01293
 # text = Edith par donc à Londres pour rencontrer le directeur éditorial, et accepte finalement l'offre.
-1	Edith	Edith	PROPN	_	_	2	subj	_	_
+1	Edith	Edith	PROPN	_	Shared=Yes	2	subj	_	_
 2	par	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	donc	donc	ADV	_	_	2	mod	_	_
 4	à	à	ADP	_	_	2	comp:obl	_	_
@@ -36552,7 +36552,7 @@
 
 # sent_id = fr-ud-dev_01323
 # text = Elle est non commutative, et a donc deux fonctions inverses, qui pourraient être appelées la penta-racine et le penta-logarithme (analogues aux deux fonctions inverses pour l'élévation à une puissance : racine et logarithme).
-1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=elle
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	non	non	ADV	_	Polarity=Neg	4	mod	_	_
 4	commutative	commutatif	ADJ	_	Gender=Fem|Number=Sing	2	comp:pred	_	SpaceAfter=No
@@ -36712,7 +36712,7 @@
 
 # sent_id = fr-ud-dev_01329
 # text = Il rapporta les plans du palais abbasside de Badgad, et, après avoir persuadé l'empereur Théophile de l'en charger, supervisa la construction d'un édifice semblable, le palais de Bryas, « à la ressemblance des architectures sarrasines », dans la banlieue asiatique de Constantinople.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	rapporta	rapporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	plans	plan	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
@@ -36805,7 +36805,7 @@
 2	sensibilité	sensibilité	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 3	anarchiste	anarchiste	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	6	subj	_	_
 6	publie	publier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	également	également	ADV	_	_	6	mod	_	_
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
@@ -37187,7 +37187,7 @@
 # sent_id = fr-ud-dev_01344
 # text = La basilique à laquelle est attachée le titre remonte au VIIe siècle et a été construite sur les ruines d'un oratoire du Ve ou VIe siècle.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	basilique	basilique	NOUN	_	Gender=Fem|Number=Sing	9	subj	_	_
+2	basilique	basilique	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	9	subj	_	_
 3	à	à	ADP	_	_	6	comp:obl	_	_
 4	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	3	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
@@ -37799,7 +37799,7 @@
 
 # sent_id = fr-ud-dev_01362
 # text = Il a été mis en service en 1898, et comporte actuellement neuf lignes.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj@pass	_	wordform=il
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
@@ -37975,7 +37975,7 @@
 # sent_id = fr-ud-dev_01370
 # text = Certains individus voyaient dans la langue usuelle une référence à leur langue maternelle, d'autres à la langue prestigieuse que représentait le français.
 1	Certains	certain	DET	_	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	wordform=certains
-2	individus	individu	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
+2	individus	individu	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	3	subj	_	_
 3	voyaient	voir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	dans	dans	ADP	_	_	3	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -38026,7 +38026,7 @@
 1	En	en	ADP	_	_	5	mod	_	wordform=en
 2	1935	1935	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	5	subj	_	_
 5	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	militant	militant	NOUN	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
 7	syndicaliste	syndicaliste	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
@@ -39112,7 +39112,7 @@
 11	de	de	ADP	_	_	7	conj	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Suèves	Suèves	PROPN	_	Number=Plur	11	comp:obj	_	_
-14	qui	qui	PRON	_	PronType=Rel	24	subj	_	SpaceAfter=No
+14	qui	qui	PRON	_	PronType=Rel|Shared=Yes	24	subj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	après	après	ADP	_	_	24	mod@x	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	19	comp	_	InIdiom=Yes|SpaceAfter=No
@@ -39330,7 +39330,7 @@
 # sent_id = fr-ud-dev_01414
 # text = Puis elle se tourne vers le théâtre en 1932 et est engagée au Birmingham Repertory Théâtre.
 1	Puis	puis	CCONJ	_	_	4	cc	_	wordform=puis
-2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	4	subj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	_
 4	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	vers	vers	ADP	_	_	4	mod	_	_
@@ -39421,7 +39421,7 @@
 # sent_id = fr-ud-dev_01419
 # text = Ces seigneurs exercent un pouvoir séculier et religieux comme le roi mais à échelle réduite.
 1	Ces	ce	DET	_	Number=Plur|PronType=Dem	2	det	_	wordform=ces
-2	seigneurs	seigneur	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
+2	seigneurs	seigneur	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	3	subj	_	_
 3	exercent	exercer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	pouvoir	pouvoir	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -41161,7 +41161,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 6	deux	deux	NUM	_	Number=Plur	7	mod	_	_
-7	micro-pays	micro-pays	NOUN	_	Gender=Masc|Number=Plur	19	subj	_	_
+7	micro-pays	micro-pays	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	19	subj	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_

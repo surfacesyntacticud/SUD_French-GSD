@@ -762,7 +762,7 @@
 6	que	que	SCONJ	_	_	5	comp:obj	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	premier	premier	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
-9	mandat	mandat	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
+9	mandat	mandat	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	13	subj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	Wade	Wade	PROPN	_	_	10	comp:obj	_	_
 12	ne	ne	ADV	_	Polarity=Neg	13	mod	_	_
@@ -876,7 +876,7 @@
 # sent_id = fr-ud-test_00033
 # text = Le royaume s'est amélioré, mais pas dans le sens voulu par l'UE.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
+2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	4	subj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
@@ -951,7 +951,7 @@
 6	présidentielles	présidentielle	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	_
-9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
+9	qui	qui	PRON	_	PronType=Rel|Shared=Yes	10	subj	_	_
 10	imprimera	imprimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	mod@relcl	_	_
 11	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	12	det	_	_
 12	marque	marque	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
@@ -1088,7 +1088,7 @@
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	contre	contre	ADP	_	Gender=Fem|Number=Sing	7	subj	_	ExtPos=NOUN|wordform=contre-attaque
+5	contre	contre	ADP	_	Gender=Fem|Number=Sing|Shared=Yes	7	subj	_	ExtPos=NOUN|wordform=contre-attaque
 6	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing	5	goeswith	_	wordform=_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
@@ -1172,7 +1172,7 @@
 14	là	là	ADV	_	_	13	comp:obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	qu'	que	SCONJ	_	_	8	conj	_	SpaceAfter=No
-17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj@pass	_	_
+17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	19	subj@pass	_	_
 18	se	se	PRON	_	Person=3|PronType=Prs	19	comp@pass	_	_
 19	maintient	maintenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 20	et	et	CCONJ	_	_	22	cc	_	_
@@ -3460,7 +3460,7 @@
 6	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
-9	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
+9	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=Yes	10	subj	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	important	important	ADJ	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
@@ -3490,7 +3490,7 @@
 # sent_id = fr-ud-test_00118
 # text = L'Inter, champion d'Europe en titre, est logiquement favori contre Schalke 04 et son effectif plus limité, chez lui, en match aller des quarts de finale de la Ligue des champions, mais déplore quelques blessures, au corps comme à l'âme.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
-2	Inter	Inter	PROPN	_	Gender=Masc|Number=Sing	10	subj	_	SpaceAfter=No
+2	Inter	Inter	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes	10	subj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	champion	champion	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
 5	d'	de	ADP	_	_	4	udep	_	SpaceAfter=No
@@ -4782,7 +4782,7 @@
 4	à	à	ADP	_	_	3	udep	_	_
 5	18h40	18h40	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	8	subj	_	_
 8	tranche	trancher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	malmène	malmener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
@@ -4820,7 +4820,7 @@
 23	que	que	SCONJ	_	_	22	unk	_	InIdiom=Yes
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 25	80	80	NUM	_	Number=Plur	26	mod	_	_
-26	bénévoles	bénévole	NOUN	_	Gender=Masc|Number=Plur	28	subj	_	_
+26	bénévoles	bénévole	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	28	subj	_	_
 27	canéjanais	canéjanais	ADJ	_	Gender=Masc	26	mod	_	_
 28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 29	en	en	ADP	_	_	28	comp:pred	_	ExtPos=ADV|Idiom=Yes
@@ -5288,7 +5288,7 @@
 10	réels	réel	ADJ	_	Gender=Masc|Number=Plur	8	comp:pred	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	mais	mais	CCONJ	_	_	15	cc	_	_
-13	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	subj	_	_
+13	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=Yes	15	subj	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	comp:obj	_	_
 15	limitent	limiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 16	selon	selon	ADP	_	_	15	mod	_	_
@@ -5770,7 +5770,7 @@
 # sent_id = fr-ud-test_00192
 # text = 200 vols ont été annulés samedi, et ce malgré la déclaration du porte-parole de la compagnie au premier jour de la gréve.
 1	200	200	NUM	_	Number=Plur	2	det	_	_
-2	vols	vol	NOUN	_	Gender=Masc|Number=Plur	3	subj@pass	_	_
+2	vols	vol	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	3	subj@pass	_	_
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	annulés	annuler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
@@ -6531,7 +6531,7 @@
 # sent_id = fr-ud-test_00223
 # text = Cette école est très bien sérieuse et aide beaucoup
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
-2	école	école	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	école	école	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	très	très	ADV	_	_	5	mod	_	_
 5	bien	bien	ADV	_	_	6	mod	_	_
@@ -6627,7 +6627,7 @@
 # text = En plus il est gentil, à l'écoute et on voit qu'il aime vraiment les animaux.
 1	En	en	ADP	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	gentil	gentil	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -6788,7 +6788,7 @@
 
 # sent_id = fr-ud-test_00239
 # text = Ils enregistrent ma demande d'annulation, et communiquent l'annulation à leur fournisseur.
-1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	wordform=ils
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=ils
 2	enregistrent	enregistrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	4	det	_	_
 4	demande	demande	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -7254,7 +7254,7 @@
 # sent_id = fr-ud-test_00258
 # text = Les patientes habituées savent qu'il a beaucoup de retard et prennent leurs precautions.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	patientes	patient	NOUN	_	Gender=Fem|Number=Plur	4	subj	_	_
+2	patientes	patient	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	4	subj	_	_
 3	habituées	habitué	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
 4	savent	savoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
@@ -7388,7 +7388,7 @@
 # sent_id = fr-ud-test_00267
 # text = Nos plats étaient globalement bons (saumon vapeur/tagliatelles et filet de rouget) mais restaient simples dans la présentation et le raffinement.
 1	Nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	2	det	_	wordform=nos
-2	plats	plat	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
+2	plats	plat	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	3	subj	_	_
 3	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	globalement	globalement	ADV	_	_	5	mod	_	_
 5	bons	bon	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
@@ -7829,7 +7829,7 @@
 # sent_id = fr-ud-test_00285
 # text = Son dirigeant est disponible et à l'écoute de ses clients.
 1	Son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	2	det	_	wordform=son
-2	dirigeant	dirigeant	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	dirigeant	dirigeant	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	disponible	disponible	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
@@ -8423,7 +8423,7 @@
 25	de	de	ADP	_	_	23	udep	_	_
 26	Chine	Chine	PROPN	_	_	25	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
-28	qui	qui	PRON	_	PronType=Rel	29	subj	_	_
+28	qui	qui	PRON	_	PronType=Rel|Shared=Yes	29	subj	_	_
 29	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	mod@relcl	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
 31	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	29	comp:pred	_	_
@@ -8571,7 +8571,7 @@
 # sent_id = fr-ud-dev_01495
 # text = La station a été lancée le 7 septembre 1986 au canal 49, et a été déplacée au canal 34 en 2001 afin d'agrandir son territoire.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	station	station	NOUN	_	Gender=Fem|Number=Sing	3	subj@pass	_	_
+2	station	station	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	3	subj@pass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	lancée	lancer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
@@ -8876,7 +8876,7 @@
 29	européen	européen	ADJ	_	Gender=Masc|Number=Sing	25	mod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	1	punct	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	sortie	sortie	NOUN	_	Gender=Fem|Number=Sing	41	subj	_	_
+32	sortie	sortie	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	41	subj	_	_
 33	de	de	ADP	_	_	32	udep	_	_
 34	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	35	det	_	_
 35	pays	pays	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
@@ -9004,7 +9004,7 @@
 7	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	prédicateur	prédicateur	NOUN	_	Gender=Masc|Number=Sing	18	subj	_	_
+10	prédicateur	prédicateur	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	18	subj	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	Bassora	Bassora	PROPN	_	_	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
@@ -9415,7 +9415,7 @@
 # text = En 1784 il fut anobli et s'appela désormais « von Auenbrugg ».
 1	En	en	ADP	_	_	4	mod	_	wordform=en
 2	1784	1784	NUM	_	Number=Plur	1	comp:obj	_	_
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@pass	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	4	subj@pass	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	anobli	anoblir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
@@ -10140,7 +10140,7 @@
 # sent_id = fr-ud-dev_01551
 # text = Le français est utilisé au travail par 50,8% des travailleurs et l'anglais par 41,7% alors que 2,3% des travailleurs utilisent les deux langues officielles.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	français	français	NOUN	_	Gender=Masc|Number=Sing	3	subj@pass	_	_
+2	français	français	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5-6	au	_	_	_	_	_	_	_	_
@@ -10518,7 +10518,7 @@
 
 # sent_id = fr-ud-dev_01564
 # text = Han s'engage finalement dans la bataille, couvre Luke et met Vador hors course.
-1	Han	Han	PROPN	_	_	3	subj	_	_
+1	Han	Han	PROPN	_	Shared=Yes	3	subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	3	comp:obj	_	SpaceAfter=No
 3	engage	engager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	finalement	finalement	ADV	_	_	3	mod	_	_
@@ -10656,7 +10656,7 @@
 49	et	et	CCONJ	_	_	50	cc	_	_
 50	que	que	SCONJ	_	_	34	conj	_	_
 51	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
-52	christ	Christ	PROPN	_	Gender=Masc|Number=Sing|Typo=Yes	54	subj	_	wordform=Christ
+52	christ	Christ	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes|Typo=Yes	54	subj	_	wordform=Christ
 53	n'	ne	ADV	_	Polarity=Neg	54	mod	_	SpaceAfter=No
 54	enseignait	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	50	comp:obj	_	_
 55	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	54	comp:obj	_	_
@@ -11188,7 +11188,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	Damien	Damien	PROPN	_	_	7	appos	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
-11	Satan	Satan	PROPN	_	Gender=Masc|Number=Sing	12	subj	_	_
+11	Satan	Satan	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes	12	subj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	homosexuel	homosexuel	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
@@ -11236,7 +11236,7 @@
 
 # sent_id = fr-ud-dev_01587
 # text = Il étudie sous la direction de photographes reconnus et publie en collaboration avec d'autres médecins un traité intitulé Iconographie photographique appliquée à l'ophtalmologie en 1881.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	étudie	étudier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sous	sous	ADP	_	_	2	mod	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -11364,7 +11364,7 @@
 4	hellénistiques	hellénistique	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	notion	notion	NOUN	_	Gender=Fem|Number=Sing	10	subj	_	_
+7	notion	notion	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	10	subj	_	_
 8	d'	de	ADP	_	_	7	udep	_	SpaceAfter=No
 9	éros	éros	NOUN	_	Gender=Masc	8	comp:obj	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
