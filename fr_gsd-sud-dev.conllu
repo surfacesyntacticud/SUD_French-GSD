@@ -38068,7 +38068,7 @@
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	Télamon	Télamon	PROPN	_	_	36	subj	_	_
 7	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-8	en	en	ADP	_	_	11	udep	_	_
+8	en	en	ADP	_	Shared=Yes	11	udep	_	_
 9	grec	grec	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 11	Τελαμών	Τελαμών	PROPN	_	_	6	appos	_	SpaceAfter=No
