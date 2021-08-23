@@ -7557,7 +7557,7 @@
 6	film	film	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	question	question	NOUN	_	Gender=Fem|Number=Sing	9	subj	_	_
-9	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+9	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
 10	en	en	ADP	_	_	9	mod	_	_
 11	suspens	suspens	NOUN	_	Gender=Masc	10	comp:obj	_	_
 12	:	:	PUNCT	_	_	15	punct	_	_
@@ -18690,7 +18690,7 @@
 
 # sent_id = fr-ud-dev_00674
 # text = Feuillage vert foncées et aiguilles regroupées par trois (Le Pin à encens--Pinus Taeda--origine Sud Est USA, possède lui aussi des aiguilles regroupées par trois), les cônes sont tous orientés vers le tronc et peuvent rester 20 ans accrochées au tronc avant de tomber.
-1	Feuillage	feuillage	NOUN	_	Gender=Masc|Number=Sing	35	parataxis	_	wordform=feuillage
+1	Feuillage	feuillage	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	35	parataxis	_	wordform=feuillage
 2	vert	vert	ADJ	_	_	1	mod	_	_
 3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	2	mod	_	CorrectGender=Masc|CorrectNumber=Sing|wordform=foncé
 4	et	et	CCONJ	_	_	5	cc	_	_
@@ -18712,7 +18712,7 @@
 20	Est	est	NOUN	_	Gender=Masc|Number=Sing	21	mod	_	wordform=est
 21	USA	USA	NOUN	_	Gender=Masc|Number=Plur	18	appos	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	18	punct	_	_
-23	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
+23	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
 24	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	mod	_	_
 25	aussi	aussi	ADV	_	_	24	mod	_	_
 26	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
