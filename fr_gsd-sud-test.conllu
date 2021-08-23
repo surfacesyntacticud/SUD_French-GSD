@@ -3005,7 +3005,7 @@
 
 # sent_id = fr-ud-test_00102
 # text = Moi plus je vois des vidéos de ce jeu, plus je me dis que Battlefield 3 sera THE GAME pour les vrais soldats qui en ont dans le slip.
-1	Moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	wordform=moi
+1	Moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=Yes	4	dislocated	_	wordform=moi
 2	plus	plus	ADV	_	_	4	mod	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
