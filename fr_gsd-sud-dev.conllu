@@ -6515,7 +6515,7 @@
 18	géographique	géographique	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	à	à	ADP	_	_	13	conj	_	_
-21	tous	tout	ADJ	_	Gender=Masc|Number=Plur	23	mod	_	_
+21	tous	tout	ADJ	_	Gender=Masc|Number=Plur|Shared=Yes	23	mod	_	_
 22	ces	ce	DET	_	Number=Plur|PronType=Dem|Shared=Yes	23	det	_	_
 23	bataillons	bataillon	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 24	dits	dire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	mod	_	_
@@ -7376,7 +7376,7 @@
 15	de	de	ADP	_	_	14	udep	_	_
 16	Stellenbosch	Stellenbosch	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
-18	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
+18	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	19	mod	_	_
 19	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 20	de	de	ADP	_	_	19	udep	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
@@ -15712,7 +15712,7 @@
 3	belges	belge	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	obtiennent	obtenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	7	det	_	_
-6	mêmes	même	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
+6	mêmes	même	ADJ	_	Gender=Masc|Number=Plur|Shared=Yes	7	mod	_	_
 7	droits	droit	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	devoirs	devoir	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
@@ -19389,7 +19389,7 @@
 # sent_id = fr-ud-dev_00698
 # text = D'infinies et variées tendances et essais le composaient, et ne manquait pas de surprendre le public.
 1	D'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=Yes	5	det	_	SpaceAfter=No|wordform=d'
-2	infinies	infini	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	_
+2	infinies	infini	ADJ	_	Gender=Fem|Number=Plur|Shared=Yes	5	mod	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	variées	varié	ADJ	_	Gender=Fem|Number=Plur	2	conj	_	_
 5	tendances	tendance	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	9	subj	_	_
@@ -20741,7 +20741,7 @@
 2	Radan	Radan	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	abrite	abriter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=Yes	6	det	_	_
-5	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
+5	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur|Shared=Yes	6	mod	_	_
 6	sources	source	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 7	chaudes	chaud	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
@@ -27859,7 +27859,7 @@
 36-37	des	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	35	comp:obl	_	_
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	39	det	_	_
-38	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	39	mod	_	_
+38	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur|Shared=Yes	39	mod	_	_
 39	épidémies	épidémie	NOUN	_	Gender=Fem|Number=Plur	36	comp:obj	_	_
 40	et	et	CCONJ	_	_	41	cc	_	_
 41	maladies	maladie	NOUN	_	Gender=Fem|Number=Plur	39	conj	_	_
@@ -27974,7 +27974,7 @@
 11	Dutch	Dutch	PROPN	_	_	10	comp:obj	_	_
 12	Harbor	Harbor	PROPN	_	_	11	flat@name	_	SpaceAfter=No
 13	,	,	PUNCT	_	Shared=Yes	15	punct	_	_
-14	premier	premier	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
+14	premier	premier	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	15	mod	_	_
 15	port	port	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	pêche	pêche	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
