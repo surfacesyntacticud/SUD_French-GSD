@@ -27974,7 +27974,7 @@
 11	Dutch	Dutch	PROPN	_	_	10	comp:obj	_	_
 12	Harbor	Harbor	PROPN	_	_	11	flat@name	_	SpaceAfter=No
 13	,	,	PUNCT	_	Shared=Yes	15	punct	_	_
-14	premier	premier	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	15	mod	_	_
+14	premier	premier	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
 15	port	port	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
 16	de	de	ADP	_	_	15	udep	_	_
 17	pêche	pêche	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
