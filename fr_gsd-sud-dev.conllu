@@ -20052,7 +20052,7 @@
 
 # sent_id = fr-ud-dev_00724
 # text = Après des débuts comme apprenti, il ouvrit plus tard son propre magasin sur la place du quartier puis s'y fit construire une maison.
-1	Après	après	ADP	_	Shared=Yes	8	mod	_	wordform=après
+1	Après	après	ADP	_	_	8	mod	_	wordform=après
 2	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
 3	débuts	début	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 4	comme	comme	ADP	_	_	3	udep	_	_
