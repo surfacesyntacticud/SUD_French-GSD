@@ -11761,7 +11761,7 @@
 # sent_id = fr-ud-dev_00425
 # text = Le 18 juin 1815, le général Auguste Julien Bigarré sort de Ploërmel à la tête de ses troupes puis se porte sur Josselin, puis Grand-Champ et enfin Sainte-Anne-d'Auray.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	18	18	NUM	_	Number=Sing	11	mod	_	_
+2	18	18	NUM	_	Number=Sing|Shared=Yes	11	mod	_	_
 3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	1815	1815	NUM	_	Number=Plur	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
