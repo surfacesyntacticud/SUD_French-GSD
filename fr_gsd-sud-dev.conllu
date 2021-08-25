@@ -1264,7 +1264,7 @@
 
 # sent_id = fr-ud-dev_00047
 # text = Pour sa saison de rookie, il entre au cours de deux matchs mais ne réussi qu'une seule passe sur six tentées.
-1	Pour	pour	ADP	_	_	8	mod	_	wordform=pour
+1	Pour	pour	ADP	_	Shared=Yes	8	mod	_	wordform=pour
 2	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	3	det	_	_
 3	saison	saison	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
@@ -2228,7 +2228,7 @@
 
 # sent_id = fr-ud-dev_00083
 # text = En juillet 1941, une première attaque aérienne s'abattit sur la ville, quatre autres suivirent.
-1	En	en	ADP	_	_	10	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	10	mod	_	wordform=en
 2	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 3	1941	1941	NUM	_	Number=Plur	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -2291,7 +2291,7 @@
 
 # sent_id = fr-ud-dev_00085
 # text = En 2011, elle se blesse à l'entrainement lors des championnats du monde et l'oblige à quitter la compétition.
-1	En	en	ADP	_	_	6	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	6	mod	_	wordform=en
 2	2011	2011	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	6	subj	_	_
@@ -2971,7 +2971,7 @@
 
 # sent_id = fr-ud-dev_00106
 # text = Lorsque Chilpéric II et Rainfroy accordent un « royaume et des dons » à Eudes, ils ne livrent pas le royaume de Neustrie à Eudes mais paient une alliance par la reconnaissance du vice-royaume d'Aquitaine et la scelle par un échange de dons selon un cérémonial rigoureusement identique à celui qui régla la rencontre entre Judicaël et Dagobert I.
-1	Lorsque	lorsque	SCONJ	_	_	19	mod	_	wordform=lorsque
+1	Lorsque	lorsque	SCONJ	_	Shared=Yes	19	mod	_	wordform=lorsque
 2	Chilpéric	Chilpéric	PROPN	_	_	6	subj	_	_
 3	II	II	NUM	_	Number=Plur	2	mod	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
@@ -5606,7 +5606,7 @@
 
 # sent_id = fr-ud-dev_00204
 # text = Après avoir atteint l'Arctique, Inglefield explora et cartographia la côte occidentale du Groenland ;
-1	Après	après	ADP	_	_	8	mod@x	_	wordform=après
+1	Après	après	ADP	_	Shared=Yes	8	mod@x	_	wordform=après
 2	avoir	avoir	AUX	_	VerbForm=Inf	1	comp:obj	_	_
 3	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
@@ -5900,7 +5900,7 @@
 1	De	de	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes|wordform=de
 2	même	même	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	en	en	ADP	_	_	8	mod	_	_
+4	en	en	ADP	_	Shared=Yes	8	mod	_	_
 5	1906	1906	NUM	_	Number=Plur	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	Pathé	Pathé	PROPN	_	Shared=Yes	8	subj@caus	_	_
@@ -6639,14 +6639,14 @@
 
 # sent_id = fr-ud-dev_00239
 # text = De son côté, Sam, au prix d'une grande souffrance, arrive à recoller les morceaux de son âme et rejoint tant bien que mal Dean.
-1	De	de	ADP	_	_	15	mod	_	wordform=de
+1	De	de	ADP	_	Shared=Yes	15	mod	_	wordform=de
 2	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	3	det	_	_
 3	côté	côté	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	Sam	Sam	PROPN	_	Shared=Yes	15	subj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7-8	au	_	_	_	_	_	_	_	_
-7	à	à	ADP	_	_	15	mod	_	_
+7	à	à	ADP	_	Shared=Yes	15	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	prix	prix	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No
@@ -6814,7 +6814,7 @@
 
 # sent_id = fr-ud-dev_00245
 # text = A Boston, l'aéroport international Logan n'était pas fermé, mais tous les vols étaient annulés.
-1	A	à	ADP	_	_	9	mod	_	wordform=à
+1	A	à	ADP	_	Shared=Yes	9	mod	_	wordform=à
 2	Boston	Boston	PROPN	_	_	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
@@ -10230,7 +10230,7 @@
 
 # sent_id = fr-ud-dev_00370
 # text = Selon les chroniques médiévales, plus de 50 000 soldats des Maisons d'York et de Lancastre se sont combattus ce dimanche des Rameaux pendant plusieurs heures et dans des conditions météorologiques déplorables, et une proclamation diffusée une semaine après la bataille rapporte que 28 000 hommes ont péri sur le champ de bataille.
-1	Selon	selon	ADP	_	_	19	mod	_	wordform=selon
+1	Selon	selon	ADP	_	Shared=Yes	19	mod	_	wordform=selon
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	chroniques	chronique	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 4	médiévales	médiéval	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	SpaceAfter=No
@@ -10887,7 +10887,7 @@
 
 # sent_id = fr-ud-dev_00394
 # text = A 14h25, je retourne le voir en salle et le remercie ironiquemmnt de nous avoir aidé si gentillement, mais qu'il ferait mieux de s'abstenir de promettre l'impossible.
-1	A	à	ADP	_	_	5	mod	_	wordform=à
+1	A	à	ADP	_	Shared=Yes	5	mod	_	wordform=à
 2	14h25	14h25	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=Yes	5	subj	_	_
@@ -11291,7 +11291,7 @@
 1	Ainsi	ainsi	ADV	_	_	16	mod	_	SpaceAfter=No|wordform=ainsi
 2	,	,	PUNCT	_	Shared=Yes	3	punct	_	_
 3-4	aux	_	_	_	_	_	_	_	_
-3	à	à	ADP	_	_	16	mod	_	_
+3	à	à	ADP	_	Shared=Yes	16	mod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Tuvalu	Tuvalu	PROPN	_	Number=Plur	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -12834,7 +12834,7 @@
 # sent_id = fr-ud-dev_00463
 # text = Aux élections de 1980, il améliora le nombre de sièges de son parti mais ne réussit pas à faire battre le parti Libéral conduit par Malcolm Fraser.
 1-2	Aux	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	8	mod	_	_
+1	à	à	ADP	_	Shared=Yes	8	mod	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	élections	élection	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
@@ -12951,7 +12951,7 @@
 
 # sent_id = fr-ud-dev_00468
 # text = Quand la situation s'est aggravée en 1992, les pays se sont réunis et ça a donné lieu à une convention de protection de la mer Noire contre la pollution. "
-1	Quand	quand	SCONJ	_	_	13	mod	_	wordform=quand
+1	Quand	quand	SCONJ	_	Shared=Yes	13	mod	_	wordform=quand
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	situation	situation	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	6	comp@pass	_	SpaceAfter=No
@@ -14720,7 +14720,7 @@
 
 # sent_id = fr-ud-dev_00530
 # text = Selon Alan « Dave m'a contacté il y a quelques semaines et m'a demandé si je serais prêt à les rejoindre sur scène.
-1	Selon	selon	ADP	_	_	6	mod	_	wordform=selon
+1	Selon	selon	ADP	_	Shared=Yes	6	mod	_	wordform=selon
 2	Alan	Alan	PROPN	_	_	1	comp:obj	_	_
 3	«	«	PUNCT	_	_	1	punct	_	_
 4	Dave	Dave	PROPN	_	Shared=Yes	6	subj	_	_
@@ -16469,7 +16469,7 @@
 
 # sent_id = fr-ud-dev_00591
 # text = En 1945 la production est de 25 000 tonnes de pulvérulents et en 1960 de 80 000 tonnes d'engrais.
-1	En	en	ADP	_	_	5	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	5	mod	_	wordform=en
 2	1945	1945	NUM	_	Number=Plur	1	comp:obj	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	production	production	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	5	subj	_	_
@@ -16953,7 +16953,7 @@
 
 # sent_id = fr-ud-dev_00608
 # text = Pour cette raison, le Cartel refuse de former gouvernement et fait chuter immédiatement tous ceux que le président formerait lui-même.
-1	Pour	pour	ADP	_	_	7	mod	_	wordform=pour
+1	Pour	pour	ADP	_	Shared=Yes	7	mod	_	wordform=pour
 2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	raison	raison	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -17929,7 +17929,7 @@
 10	pays	pays	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	d'	de	ADP	_	_	10	udep	_	SpaceAfter=No
 12	Ouche	Ouche	PROPN	_	_	11	comp:obj	_	_
-13	dans	dans	ADP	_	_	16	mod	_	_
+13	dans	dans	ADP	_	Shared=Yes	16	mod	_	_
 14	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	comp:obj	_	_
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	16	subj	_	_
 16	jouxte	jouxter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
@@ -18395,7 +18395,7 @@
 
 # sent_id = fr-ud-dev_00663
 # text = En 1986, Alain Passard achète le restaurant de son ancien mentor Alain Senderens L'Archestrate (trois étoiles), et le rebaptise L'Arpège.
-1	En	en	ADP	_	_	6	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	6	mod	_	wordform=en
 2	1986	1986	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	Alain	Alain	PROPN	_	Shared=Yes	6	subj	_	_
@@ -20052,7 +20052,7 @@
 
 # sent_id = fr-ud-dev_00724
 # text = Après des débuts comme apprenti, il ouvrit plus tard son propre magasin sur la place du quartier puis s'y fit construire une maison.
-1	Après	après	ADP	_	_	8	mod	_	wordform=après
+1	Après	après	ADP	_	Shared=Yes	8	mod	_	wordform=après
 2	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
 3	débuts	début	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 4	comme	comme	ADP	_	_	3	udep	_	_
@@ -20586,7 +20586,7 @@
 
 # sent_id = fr-ud-dev_00747
 # text = Après un troisième tir glorieux de Butters, Cartman stoppe leur collaboration et se rend à la police qui s'engouffre à l'intérieur du restaurant.
-1	Après	après	ADP	_	_	10	mod	_	wordform=après
+1	Après	après	ADP	_	Shared=Yes	10	mod	_	wordform=après
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
 4	tir	tir	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -20618,7 +20618,7 @@
 
 # sent_id = fr-ud-dev_00748
 # text = Sous l'influence de la reine Catherine de Médicis, il inaugure la mise en place d'un dialogue avec les tenants de la nouvelle religion mais demeure implacable face aux agitateurs.
-1	Sous	sous	ADP	_	_	12	mod	_	wordform=sous
+1	Sous	sous	ADP	_	Shared=Yes	12	mod	_	wordform=sous
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	influence	influence	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
@@ -20839,7 +20839,7 @@
 
 # sent_id = fr-ud-dev_00757
 # text = En conséquences, un bulbe anti-torpilles peut-être incorporé contre la carène des navires, il ne contribue pas au poids « sec » des navires et n'entre donc pas dans les limites du traité.
-1	En	en	ADP	_	_	7	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	7	mod	_	wordform=en
 2	conséquences	conséquence	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -21129,7 +21129,7 @@
 
 # sent_id = fr-ud-dev_00767
 # text = Pendant les 23 ans du régime de Ben Ali, l'Europe n'a pas appuyé une stabilité authentique mais a soutenu une dictature qui laisse en héritage un terrain politique vierge où les mauvaises herbes peuvent pousser.
-1	Pendant	pendant	ADP	_	_	15	mod	_	wordform=pendant
+1	Pendant	pendant	ADP	_	Shared=Yes	15	mod	_	wordform=pendant
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 3	23	23	NUM	_	Number=Plur	4	mod	_	_
 4	ans	an	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
@@ -21303,7 +21303,7 @@
 
 # sent_id = fr-ud-dev_00773
 # text = En 2002, 98,77% de la population était de religion orthodoxe et 0,86% était baptiste.
-1	En	en	ADP	_	_	9	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	9	mod	_	wordform=en
 2	2002	2002	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	98,77	98,77	NUM	_	Number=Plur	5	det	_	SpaceAfter=No
@@ -21813,7 +21813,7 @@
 
 # sent_id = fr-ud-dev_00793
 # text = Pour les assurances épargne-pension, le fisc ne prend en compte que le rendement garanti et l'éventuelle participation aux bénéfices est exemptée de l'impôt final.
-1	Pour	pour	ADP	_	_	9	mod	_	wordform=pour
+1	Pour	pour	ADP	_	Shared=Yes	9	mod	_	wordform=pour
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	assurances	assurance	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 4	épargne-pension	épargne-pension	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
@@ -22764,7 +22764,7 @@
 
 # sent_id = fr-ud-dev_00825
 # text = Dans le même temps, les sports populaires connaissent un important développement et concurrencent les castells.
-1	Dans	dans	ADP	_	_	9	mod	_	wordform=dans
+1	Dans	dans	ADP	_	Shared=Yes	9	mod	_	wordform=dans
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	même	même	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
 4	temps	temps	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
@@ -24162,7 +24162,7 @@
 # sent_id = fr-ud-dev_00876
 # text = Aux élections générales du 9 mars 2008, elle se présente pour l'un des quatre sièges au Sénat dans la province de Pontevedra, et remporte plus de 223 000 voix, soit le quatrième meilleur résultat.
 1-2	Aux	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	13	mod	_	_
+1	à	à	ADP	_	Shared=Yes	13	mod	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	élections	élection	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 4	générales	général	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
@@ -26116,7 +26116,7 @@
 # sent_id = fr-ud-dev_00943
 # text = Au prochain repos du joueur, un homme vêtu de noir apparaîtra (Lucien Lachance) et lui proposera d'entrer dans la Guilde.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	14	mod	_	_
+1	à	à	ADP	_	Shared=Yes	14	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
 4	repos	repos	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -27099,7 +27099,7 @@
 # sent_id = fr-ud-dev_00980
 # text = Au nom de quoi refuser telle pratique et autoriser telle autre ?
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	6	mod	_	_
+1	à	à	ADP	_	Shared=Yes	6	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	nom	nom	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
@@ -30137,10 +30137,10 @@
 
 # sent_id = fr-ud-dev_01086
 # text = En 1862, à Lille, Claude Auguste Lamy identifie et isole 14 grammes de l'élément thallium grâce au spectroscope prêté par son beau-frère, le chimiste Jules Frédéric Kuhlmann.
-1	En	en	ADP	_	_	10	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	10	mod	_	wordform=en
 2	1862	1862	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	à	à	ADP	_	_	10	mod	_	_
+4	à	à	ADP	_	Shared=Yes	10	mod	_	_
 5	Lille	Lille	PROPN	_	_	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	Claude	Claude	PROPN	_	Shared=Yes	10	subj	_	_
@@ -31284,7 +31284,7 @@
 
 # sent_id = fr-ud-dev_01128
 # text = De là, le paysage devient plus vallonné et la route serpente au milieu de coteaux couverts de vignobles appartenant au domaine de production du Cognac et du Pineau.
-1	De	de	ADP	_	_	6	mod	_	wordform=de
+1	De	de	ADP	_	Shared=Yes	6	mod	_	wordform=de
 2	là	là	ADV	_	_	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -32182,7 +32182,7 @@
 
 # sent_id = fr-ud-dev_01164
 # text = En floraison, elle atteint une taille moyenne, elle est cependant une grosse productrice.
-1	En	en	ADP	_	_	5	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	5	mod	_	wordform=en
 2	floraison	floraison	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
@@ -33713,7 +33713,7 @@
 
 # sent_id = fr-ud-dev_01221
 # text = En 1558, le couple s'installe à Valladolid et entre brievement au service de la reine Marie de Hongrie la reine étant morte peu après, Luisa cherche alors à retrouver un emploi et la vie de cour, et sollicite sans succès Philippe II et son épouse Isabelle de Valois.
-1	En	en	ADP	_	_	7	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	7	mod	_	wordform=en
 2	1558	1558	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -33956,7 +33956,7 @@
 18	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 19	sahraouies	sahraoui	ADJ	_	Gender=Fem|Number=Plur	18	mod	_	_
 20	qui	qui	PRON	_	PronType=Rel|Shared=Yes	32	subj	_	_
-21	dans	dans	ADP	_	_	32	mod	_	_
+21	dans	dans	ADP	_	Shared=Yes	32	mod	_	_
 22	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	23	det	_	_
 23	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 24	fondamental	fondamental	ADJ	_	Gender=Masc|Number=Sing	23	mod	_	_
@@ -34578,7 +34578,7 @@
 
 # sent_id = fr-ud-dev_01247
 # text = Après que Peter lut dans ses pensées, Adam la détacha et cette dernière tenta de tuer le jeune Petrelli mais l'immortel lui tira dessus, la tuant sur le coup.
-1	Après	après	ADP	_	_	11	mod	_	wordform=après
+1	Après	après	ADP	_	Shared=Yes	11	mod	_	wordform=après
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	Peter	Peter	PROPN	_	_	4	subj	_	_
 4	lut	lire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:obj	_	_
@@ -35240,7 +35240,7 @@
 # text = Toutefois, après avoir consulté les partis de l'alliance gouvernementale, le chef de l'État décide de suivre leurs recommandations et nomme Pedro Santana Lopes, alors maire de Lisbonne, à la direction du gouvernement.
 1	Toutefois	toutefois	ADV	_	_	18	mod	_	SpaceAfter=No|wordform=toutefois
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	après	après	ADP	_	_	18	mod@x	_	_
+3	après	après	ADP	_	Shared=Yes	18	mod@x	_	_
 4	avoir	avoir	AUX	_	VerbForm=Inf	3	comp:obj	_	_
 5	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -36801,7 +36801,7 @@
 
 # sent_id = fr-ud-dev_01331
 # text = De sensibilité anarchiste, il publie également des dessins dans l'Assiette au beurre à partir de 1901, puis collabore avec de nombreux journaux libertaires et antimilitaristes, parmi lesquels Les Temps nouveaux, La Guerre sociale et les Hommes du jour, pour lequel il réalisera près de cent-cinquante couvertures.
-1	De	de	ADP	_	_	6	mod	_	wordform=de
+1	De	de	ADP	_	Shared=Yes	6	mod	_	wordform=de
 2	sensibilité	sensibilité	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 3	anarchiste	anarchiste	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -38023,7 +38023,7 @@
 
 # sent_id = fr-ud-dev_01372
 # text = En 1935, il devient militant syndicaliste et adhère au parti communiste français en 1936.
-1	En	en	ADP	_	_	5	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	5	mod	_	wordform=en
 2	1935	1935	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	5	subj	_	_
@@ -39114,7 +39114,7 @@
 13	Suèves	Suèves	PROPN	_	Number=Plur	11	comp:obj	_	_
 14	qui	qui	PRON	_	PronType=Rel|Shared=Yes	24	subj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	après	après	ADP	_	_	24	mod@x	_	_
+16	après	après	ADP	_	Shared=Yes	24	mod@x	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	19	comp	_	InIdiom=Yes|SpaceAfter=No
 18	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	_
 19	alliés	allier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	ExtPos=VERB|Idiom=Yes
@@ -41155,7 +41155,7 @@
 # sent_id = fr-ud-dev_01478
 # text = Au sud, les deux micro-pays du Val d'Angoumois et du pays d'Aigre offrent des paysages de plaines et de forêt et font transition avec l'Angoumois.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	19	mod	_	_
+1	à	à	ADP	_	Shared=Yes	19	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	sud	sud	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_

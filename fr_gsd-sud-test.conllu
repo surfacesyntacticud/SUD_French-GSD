@@ -4776,7 +4776,7 @@
 
 # sent_id = fr-ud-test_00158
 # text = Comme chaque soir à 18h40, il tranche, malmène et détourne l'actualité.
-1	Comme	comme	SCONJ	_	_	8	mod	_	wordform=comme
+1	Comme	comme	SCONJ	_	Shared=Yes	8	mod	_	wordform=comme
 2	chaque	chaque	DET	_	Number=Sing|PronType=Ind	3	det	_	_
 3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	à	à	ADP	_	_	3	udep	_	_
@@ -6181,7 +6181,7 @@
 
 # sent_id = fr-ud-test_00206
 # text = Après quelques séances de massage, je suis bien relaxé et surtout je n'ai plus mal à mon poignet anciennement foulé.
-1	Après	après	ADP	_	_	8	mod	_	wordform=après
+1	Après	après	ADP	_	Shared=Yes	8	mod	_	wordform=après
 2	quelques	quelque	DET	_	Number=Plur|PronType=Ind	3	det	_	_
 3	séances	séance	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
@@ -7613,7 +7613,7 @@
 
 # sent_id = fr-ud-test_00276
 # text = Pour la première fois, j'avais besoin d'une paire de lunette et j'ai été ainsi que mon ami ravi de trouver dans une seule et même boutique des montures tendance dans les plus grandes marque ou de petits créateurs moins connu mais très fashion et aussi pour mon ami quelque chose d'un peu plus classique.
-1	Pour	pour	ADP	_	_	7	mod	_	wordform=pour
+1	Pour	pour	ADP	_	Shared=Yes	7	mod	_	wordform=pour
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
 4	fois	fois	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	SpaceAfter=No
@@ -7676,7 +7676,7 @@
 
 # sent_id = fr-ud-test_00277
 # text = Pour terminer ils disent qu'ils ont internet gratuit, mais il ne marche pratiquement jamais.
-1	Pour	pour	ADP	_	_	4	mod@x	_	wordform=pour
+1	Pour	pour	ADP	_	Shared=Yes	4	mod@x	_	wordform=pour
 2	terminer	terminer	VERB	_	VerbForm=Inf	1	comp:obj	_	_
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	subj	_	_
 4	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8844,7 +8844,7 @@
 
 # sent_id = fr-ud-dev_01506
 # text = Si, ce qui est probable, le Premier ministre grec va au bout de sa décision et que ses compatriotes rejettent le plan de sauvetage financier européen, la sortie de leur pays de la zone Euro en sera inéluctable et, par effet induit, l'éclatement de celle-ci.
-1	Si	si	SCONJ	_	_	41	mod	_	SpaceAfter=No|wordform=si
+1	Si	si	SCONJ	_	Shared=Yes	41	mod	_	SpaceAfter=No|wordform=si
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	12	parataxis	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
@@ -8994,7 +8994,7 @@
 # sent_id = fr-ud-dev_01511
 # text = Au milieu du VIIIe siècle, un prédicateur de Bassora, Abdullah bin Yahya, parvient en Hadramaout, établit le rite Ibadhi.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	18	mod	_	_
+1	à	à	ADP	_	Shared=Yes	18	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4-5	du	_	_	_	_	_	_	_	_
@@ -9413,7 +9413,7 @@
 
 # sent_id = fr-ud-dev_01526
 # text = En 1784 il fut anobli et s'appela désormais « von Auenbrugg ».
-1	En	en	ADP	_	_	4	mod	_	wordform=en
+1	En	en	ADP	_	Shared=Yes	4	mod	_	wordform=en
 2	1784	1784	NUM	_	Number=Plur	1	comp:obj	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	4	subj@pass	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10704,7 +10704,7 @@
 18	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	19	det	_	_
 19	utilité	utilité	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 20	et	et	CCONJ	_	_	35	cc	_	_
-21	lorsqu'	lorsque	SCONJ	_	_	35	mod	_	SpaceAfter=No
+21	lorsqu'	lorsque	SCONJ	_	Shared=Yes	35	mod	_	SpaceAfter=No
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
 24	amené	amener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@tense	_	_
@@ -11358,7 +11358,7 @@
 
 # sent_id = fr-ud-dev_01592
 # text = Pour les chrétiens hellénistiques, la notion d'éros est complémentaire ou s'oppose (c'est selon) à l'agapè.
-1	Pour	pour	ADP	_	_	10	mod	_	wordform=pour
+1	Pour	pour	ADP	_	Shared=Yes	10	mod	_	wordform=pour
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	chrétiens	chrétien	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 4	hellénistiques	hellénistique	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	SpaceAfter=No
