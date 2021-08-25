@@ -1486,7 +1486,7 @@
 16	période	période	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	mais	mais	CCONJ	_	_	22	cc	_	_
-19	aussi	aussi	ADV	_	_	22	mod	_	_
+19	aussi	aussi	ADV	_	Shared=Yes	22	mod	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
 22	journaliste	journaliste	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
@@ -1578,7 +1578,7 @@
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 15	reconduits	reconduire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	comp:aux@pass	_	SpaceAfter=No
 16	,	,	PUNCT	_	Shared=Yes	19	punct	_	_
-17	notamment	notamment	ADV	_	_	19	mod	_	_
+17	notamment	notamment	ADV	_	Shared=Yes	19	mod	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
 20-21	des	_	_	_	_	_	_	_	_
@@ -2037,7 +2037,7 @@
 11	administratives	administratif	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	juridiques	juridique	ADJ	_	Gender=Fem|Number=Plur	11	conj	_	_
-14	déjà	déjà	ADV	_	_	15	mod	_	_
+14	déjà	déjà	ADV	_	Shared=Yes	15	mod	_	_
 15	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	mod	_	_
 16	ou	ou	CCONJ	_	_	17	cc	_	_
 17	encours	encours	NOUN	_	Gender=Masc	15	conj	_	_
@@ -2814,7 +2814,7 @@
 8	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 9	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	effectué	effectuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@pass	_	_
-11	que	que	ADV	_	_	12	mod	_	_
+11	que	que	ADV	_	Shared=Yes	12	mod	_	_
 12	si	si	SCONJ	_	_	9	mod	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	malade	malade	NOUN	_	Gender=Masc|Number=Sing	17	subj	_	_
@@ -2919,7 +2919,7 @@
 19	base	base	NOUN	_	Gender=Fem|Number=Sing	17	comp:pred	_	_
 20	de	de	ADP	_	_	19	udep	_	_
 21	données	donnée	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	_
-22	originellement	originellement	ADV	_	_	23	mod	_	_
+22	originellement	originellement	ADV	_	Shared=Yes	23	mod	_	_
 23	compilée	compiler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	mod	_	_
 24	par	par	ADP	_	_	23	comp:obl@agent	_	_
 25	Victor	Victor	PROPN	_	_	24	comp:obj	_	_
@@ -3957,7 +3957,7 @@
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	position	position	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
 32	hybride	hybride	ADJ	_	Gender=Fem|Number=Sing	31	mod	_	_
-33	où	où	ADV	_	PronType=Rel	36	mod	_	_
+33	où	où	ADV	_	PronType=Rel|Shared=Yes	36	mod	_	_
 34	Matthews	Matthews	PROPN	_	Shared=Yes	36	subj	_	_
 35	se	se	PRON	_	Person=3|PronType=Prs	36	comp	_	InIdiom=Yes
 36	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	mod@relcl	_	ExtPos=VERB|Idiom=Yes
@@ -4116,7 +4116,7 @@
 19	à	à	ADP	_	_	18	udep	_	_
 20	offrir	offrir	VERB	_	VerbForm=Inf	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	Shared=Yes	23	punct	_	_
-22	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
+22	pas	pas	ADV	_	Polarity=Neg|Shared=Yes	23	mod	_	_
 23	commun	commun	ADJ	_	Gender=Masc|Number=Sing	18	mod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	et	et	CCONJ	_	_	27	cc	_	_
@@ -5546,7 +5546,7 @@
 
 # sent_id = fr-ud-dev_00202
 # text = Simultanément, Xara a libéré partiellement les sources du logiciel--mises sous licence GPL--et a fait appel à l'aide communautaire pour le portage sous Linux et Mac OS X.
-1	Simultanément	simultanément	ADV	_	_	4	mod	_	SpaceAfter=No|wordform=simultanément
+1	Simultanément	simultanément	ADV	_	Shared=Yes	4	mod	_	SpaceAfter=No|wordform=simultanément
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Xara	Xara	PROPN	_	Shared=Yes	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5747,7 +5747,7 @@
 
 # sent_id = fr-ud-dev_00209
 # text = Vraiment, j'y ai passé du bon temps et compte y retourner !
-1	Vraiment	vraiment	ADV	_	_	5	mod	_	SpaceAfter=No|wordform=vraiment
+1	Vraiment	vraiment	ADV	_	Shared=Yes	5	mod	_	SpaceAfter=No|wordform=vraiment
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=Yes	5	subj	_	SpaceAfter=No
 4	y	y	PRON	_	Person=3|PronType=Prs	5	mod	_	_
@@ -6119,7 +6119,7 @@
 
 # sent_id = fr-ud-dev_00223
 # text = Au-delà de son travail de productrice et de chanteuse, Carey est aussi une auteur et a écrit et produit toutes ses chansons depuis le début de sa carrière.
-1	Au-delà	au-delà	ADV	_	_	12	mod	_	wordform=au-delà
+1	Au-delà	au-delà	ADV	_	Shared=Yes	12	mod	_	wordform=au-delà
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	4	det	_	_
 4	travail	travail	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
@@ -7652,7 +7652,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	heure	heure	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	...	...	PUNCT	_	Shared=Yes	12	punct	_	_
-11	Trés	trés	ADV	_	_	12	mod	_	wordform=trés
+11	Trés	trés	ADV	_	Shared=Yes	12	mod	_	wordform=trés
 12	compétente	compétent	ADJ	_	Gender=Fem|Number=Sing	3	parataxis	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	tarifs	tarif	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
@@ -11288,7 +11288,7 @@
 
 # sent_id = fr-ud-dev_00409
 # text = Ainsi, aux Tuvalu, à Nauru ou aux Palaos, il n'existe pas de partis politiques, et tous les députés sont donc sans étiquette, organisés en groupements informels.
-1	Ainsi	ainsi	ADV	_	_	16	mod	_	SpaceAfter=No|wordform=ainsi
+1	Ainsi	ainsi	ADV	_	Shared=Yes	16	mod	_	SpaceAfter=No|wordform=ainsi
 2	,	,	PUNCT	_	Shared=Yes	3	punct	_	_
 3-4	aux	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	Shared=Yes	16	mod	_	_
@@ -12630,7 +12630,7 @@
 27	liturgiques	liturgique	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	et	et	CCONJ	_	_	31	cc	_	_
-30	suffisamment	suffisamment	ADV	_	_	31	mod	_	_
+30	suffisamment	suffisamment	ADV	_	Shared=Yes	31	mod	_	_
 31	fixe	fixe	ADJ	_	Gender=Fem|Number=Sing	15	conj	_	_
 32	et	et	CCONJ	_	_	33	cc	_	_
 33	immuable	immuable	ADJ	_	Gender=Fem|Number=Sing	31	conj:emb	_	_
@@ -13249,7 +13249,7 @@
 
 # sent_id = fr-ud-dev_00477
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
-1	Pas	pas	ADV	_	Polarity=Neg	3	mod	_	wordform=pas
+1	Pas	pas	ADV	_	Polarity=Neg|Shared=Yes	3	mod	_	wordform=pas
 2	de	de	DET	_	_	3	det	_	_
 3	sèche	sécher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=NOUN|Idiom=Yes|wordform=sèche-cheveux
 4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	wordform=_
@@ -14440,7 +14440,7 @@
 
 # sent_id = fr-ud-dev_00520
 # text = Là, il remportera 2 fois le titre poids-lourd de la IZW et une fois le titre par équipe avec Derek Neikirk.
-1	Là	là	ADV	_	_	4	mod	_	SpaceAfter=No|wordform=là
+1	Là	là	ADV	_	Shared=Yes	4	mod	_	SpaceAfter=No|wordform=là
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	4	subj	_	_
 4	remportera	remporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -15205,7 +15205,7 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	RATP	RATP	PROPN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	Shared=Yes	15	punct	_	_
-14	notamment	notamment	ADV	_	_	15	mod	_	_
+14	notamment	notamment	ADV	_	Shared=Yes	15	mod	_	_
 15	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	appos	_	_
 16	portant	porter	VERB	_	Tense=Pres|VerbForm=Part	15	mod	_	_
 17	sur	sur	ADP	_	_	16	mod	_	_
@@ -17509,7 +17509,7 @@
 
 # sent_id = fr-ud-dev_00630
 # text = Tantôt de bonne ou de mauvaise humeur, c'est le héros de la série.
-1	Tantôt	tantôt	ADV	_	_	2	mod	_	wordform=tantôt
+1	Tantôt	tantôt	ADV	_	Shared=Yes	2	mod	_	wordform=tantôt
 2	de	de	ADP	_	_	10	mod	_	_
 3	bonne	bonne	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 4	ou	ou	CCONJ	_	_	5	cc	_	_
@@ -19984,7 +19984,7 @@
 17	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	18	det	_	_
 18	catégorisation	catégorisation	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	15	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
-20	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
+20	pas	pas	ADV	_	Polarity=Neg|Shared=Yes	22	mod	_	_
 21	de	de	DET	_	_	22	det	_	_
 22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 23	ni	ni	CCONJ	_	_	25	cc	_	_
@@ -21324,7 +21324,7 @@
 
 # sent_id = fr-ud-dev_00774
 # text = Parallèlement, Amílcar Cabral déploie une activité diplomatique très intense pour faire connaître son mouvement et en légitimer l'action auprès de la communauté internationale, et en 1972 les Nations unies finissent par considérer le PAIGC « comme véritable et légitime représentant des peuples de la Guinée et du Cap-Vert ».
-1	Parallèlement	parallèlement	ADV	_	_	5	mod	_	SpaceAfter=No|wordform=parallèlement
+1	Parallèlement	parallèlement	ADV	_	Shared=Yes	5	mod	_	SpaceAfter=No|wordform=parallèlement
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Amílcar	Amílcar	PROPN	_	_	5	subj	_	_
 4	Cabral	Cabral	PROPN	_	_	3	flat@name	_	_
@@ -21464,7 +21464,7 @@
 9	retenir	retenir	VERB	_	VerbForm=Inf	8	comp:obj	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	ARN	ARN	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-12	non	non	ADV	_	Polarity=Neg	13	mod	_	_
+12	non	non	ADV	_	Polarity=Neg|Shared=Yes	13	mod	_	_
 13	épissée	épisser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	_
 14	ou	ou	CCONJ	_	_	16	cc	_	_
 15	partiellement	partiellement	ADV	_	_	16	mod	_	_
@@ -23276,7 +23276,7 @@
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	7	det	_	_
 7	concurrente	concurrent	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	TI-58C	TI-58C	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
-9	pourtant	pourtant	ADV	_	_	11	mod	_	_
+9	pourtant	pourtant	ADV	_	Shared=Yes	11	mod	_	_
 10	plus	plus	ADV	_	_	11	mod	_	_
 11	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
@@ -25357,7 +25357,7 @@
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	seule	seul	ADJ	_	Gender=Fem|Number=Sing	26	mod	_	_
 26	personne	personne	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
-27	parfois	parfois	ADV	_	_	29	mod	_	_
+27	parfois	parfois	ADV	_	Shared=Yes	29	mod	_	_
 28	très	très	ADV	_	_	29	mod	_	_
 29	incompétente	incompétent	ADJ	_	Gender=Fem|Number=Sing	26	mod	_	_
 30	et	et	CCONJ	_	_	32	cc	_	_
@@ -26892,7 +26892,7 @@
 
 # sent_id = fr-ud-dev_00973
 # text = Cependant, sous Windows XP, le mode DirectX 10 ne pourra pas être activé, car ne le supportant pas.
-1	Cependant	cependant	ADV	_	_	12	mod	_	SpaceAfter=No|wordform=cependant
+1	Cependant	cependant	ADV	_	Shared=Yes	12	mod	_	SpaceAfter=No|wordform=cependant
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	sous	sous	ADP	_	_	12	mod	_	_
 4	Windows	Windows	PROPN	_	_	3	comp:obj	_	_
@@ -28548,7 +28548,7 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	singles	single	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	Shared=Yes	12	punct	_	_
-11	notamment	notamment	ADV	_	_	12	mod	_	_
+11	notamment	notamment	ADV	_	Shared=Yes	12	mod	_	_
 12	Shockwave	Shockwave	PROPN	_	_	9	appos	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	Shout	Shout	PROPN	_	_	12	conj	_	_
@@ -31990,7 +31990,7 @@
 9	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
-12	effectivement	effectivement	ADV	_	_	13	mod	_	_
+12	effectivement	effectivement	ADV	_	Shared=Yes	13	mod	_	_
 13	lutté	lutter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	match	match	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -33814,7 +33814,7 @@
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	frappes	frappe	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 19	soit	soit	CCONJ	_	_	21	cc	_	_
-20	totalement	totalement	ADV	_	_	21	mod	_	_
+20	totalement	totalement	ADV	_	Shared=Yes	21	mod	_	_
 21	à	à	ADP	_	_	18	udep	_	_
 22	plat	plat	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 23	ou	ou	CCONJ	_	_	25	cc	_	_
@@ -35238,7 +35238,7 @@
 
 # sent_id = fr-ud-dev_01271
 # text = Toutefois, après avoir consulté les partis de l'alliance gouvernementale, le chef de l'État décide de suivre leurs recommandations et nomme Pedro Santana Lopes, alors maire de Lisbonne, à la direction du gouvernement.
-1	Toutefois	toutefois	ADV	_	_	18	mod	_	SpaceAfter=No|wordform=toutefois
+1	Toutefois	toutefois	ADV	_	Shared=Yes	18	mod	_	SpaceAfter=No|wordform=toutefois
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	après	après	ADP	_	Shared=Yes	18	mod@x	_	_
 4	avoir	avoir	AUX	_	VerbForm=Inf	3	comp:obj	_	_
@@ -35571,7 +35571,7 @@
 19	François	François	PROPN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 20	Clerc	Clerc	PROPN	_	_	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	_	Shared=Yes	23	punct	_	_
-22	toujours	toujours	ADV	_	_	23	mod	_	_
+22	toujours	toujours	ADV	_	Shared=Yes	23	mod	_	_
 23	blessé	blessé	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
 24	et	et	CCONJ	_	_	27	cc	_	_
 25	qui	qui	PRON	_	PronType=Rel	27	subj	_	_
@@ -39408,7 +39408,7 @@
 # sent_id = fr-ud-dev_01418
 # text = Cuisine hyper créative mais aussi traditionnelle pour les puristes.
 1	Cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	wordform=cuisine
-2	hyper	hyper	ADV	_	_	3	mod	_	_
+2	hyper	hyper	ADV	_	Shared=Yes	3	mod	_	_
 3	créative	créatif	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	_
 4	mais	mais	CCONJ	_	_	6	cc	_	_
 5	aussi	aussi	ADV	_	_	6	mod	_	_

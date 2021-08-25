@@ -1075,7 +1075,7 @@
 4	n'	ne	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
-7	qu'	que	ADV	_	_	8	mod	_	SpaceAfter=No
+7	qu'	que	ADV	_	Shared=Yes	8	mod	_	SpaceAfter=No
 8	obéir	obéir	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
@@ -1821,7 +1821,7 @@
 15	en	en	ADP	_	_	14	mod	_	_
 16	Algérie	Algérie	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	Shared=Yes	19	punct	_	_
-18	notamment	notamment	ADV	_	_	19	mod	_	_
+18	notamment	notamment	ADV	_	Shared=Yes	19	mod	_	_
 19	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 20	Afrique	Afrique	PROPN	_	_	19	comp:obj	_	_
 21-22	du	_	_	_	_	_	_	_	_
@@ -2417,7 +2417,7 @@
 7	--	--	PUNCT	_	_	3	punct	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	"	"	PUNCT	_	_	3	punct	_	_
-10	avant	avant	ADV	_	_	14	mod	_	SpaceAfter=No
+10	avant	avant	ADV	_	Shared=Yes	14	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Maroc	Maroc	PROPN	_	Gender=Masc|Number=Sing	14	subj	_	_
@@ -3166,7 +3166,7 @@
 42	âge	âge	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	47	punct	_	_
 44	mais	mais	CCONJ	_	_	47	cc	_	_
-45	aussi	aussi	ADV	_	_	47	mod	_	_
+45	aussi	aussi	ADV	_	Shared=Yes	47	mod	_	_
 46	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
 47	innocence	innocence	NOUN	_	Gender=Fem|Number=Sing	42	conj	_	_
 48	et	et	CCONJ	_	_	50	cc	_	_
@@ -5990,7 +5990,7 @@
 # sent_id = fr-ud-test_00198
 # text = « Oui on le sait, mais je dirai qu'il la faut.
 1	«	«	PUNCT	_	Shared=Yes	5	punct	_	_
-2	Oui	oui	ADV	_	_	5	mod	_	wordform=oui
+2	Oui	oui	ADV	_	Shared=Yes	5	mod	_	wordform=oui
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
 5	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -6903,7 +6903,7 @@
 5	de	de	ADP	_	_	4	comp:obj@x	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj	_	_
-8	qu'	que	ADV	_	_	10	mod	_	SpaceAfter=No
+8	qu'	que	ADV	_	Shared=Yes	10	mod	_	SpaceAfter=No
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	10	det	_	_
 10	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 11	+	+	SYM	_	_	12	cc	_	ExtPos=CCONJ
@@ -7745,7 +7745,7 @@
 10	dans	dans	ADP	_	_	9	comp:obl	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-13	aussi	aussi	ADV	_	_	14	mod	_	_
+13	aussi	aussi	ADV	_	Shared=Yes	14	mod	_	_
 14	confortable	confortable	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	bien	bien	ADV	_	_	17	mod	_	_
@@ -7920,7 +7920,7 @@
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
-17	où	où	ADV	_	PronType=Rel	19	mod	_	_
+17	où	où	ADV	_	PronType=Rel|Shared=Yes	19	mod	_	_
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	subj	_	_
 19	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
@@ -8219,7 +8219,7 @@
 27	Amérique	Amérique	PROPN	_	_	26	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	mais	mais	CCONJ	_	_	31	cc	_	_
-30	aussi	aussi	ADV	_	_	31	mod	_	_
+30	aussi	aussi	ADV	_	Shared=Yes	31	mod	_	_
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	23	conj	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
