@@ -2417,7 +2417,7 @@
 7	--	--	PUNCT	_	_	3	punct	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	"	"	PUNCT	_	_	3	punct	_	_
-10	avant	avant	ADV	_	Shared=Yes	14	mod	_	SpaceAfter=No
+10	avant	avant	ADV	_	_	14	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Maroc	Maroc	PROPN	_	Gender=Masc|Number=Sing	14	subj	_	_
@@ -5990,7 +5990,7 @@
 # sent_id = fr-ud-test_00198
 # text = « Oui on le sait, mais je dirai qu'il la faut.
 1	«	«	PUNCT	_	Shared=Yes	5	punct	_	_
-2	Oui	oui	ADV	_	Shared=Yes	5	mod	_	wordform=oui
+2	Oui	oui	ADV	_	_	5	mod	_	wordform=oui
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
 5	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -7745,7 +7745,7 @@
 10	dans	dans	ADP	_	_	9	comp:obl	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-13	aussi	aussi	ADV	_	Shared=Yes	14	mod	_	_
+13	aussi	aussi	ADV	_	_	14	mod	_	_
 14	confortable	confortable	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	bien	bien	ADV	_	_	17	mod	_	_
@@ -7920,7 +7920,7 @@
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
-17	où	où	ADV	_	PronType=Rel|Shared=Yes	19	mod	_	_
+17	où	où	ADV	_	PronType=Rel	19	mod	_	_
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	subj	_	_
 19	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_

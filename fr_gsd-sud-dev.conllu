@@ -1486,7 +1486,7 @@
 16	période	période	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	mais	mais	CCONJ	_	_	22	cc	_	_
-19	aussi	aussi	ADV	_	Shared=Yes	22	mod	_	_
+19	aussi	aussi	ADV	_	_	22	mod	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
 22	journaliste	journaliste	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
@@ -2919,7 +2919,7 @@
 19	base	base	NOUN	_	Gender=Fem|Number=Sing	17	comp:pred	_	_
 20	de	de	ADP	_	_	19	udep	_	_
 21	données	donnée	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	_
-22	originellement	originellement	ADV	_	Shared=Yes	23	mod	_	_
+22	originellement	originellement	ADV	_	_	23	mod	_	_
 23	compilée	compiler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	mod	_	_
 24	par	par	ADP	_	_	23	comp:obl@agent	_	_
 25	Victor	Victor	PROPN	_	_	24	comp:obj	_	_
@@ -4116,7 +4116,7 @@
 19	à	à	ADP	_	_	18	udep	_	_
 20	offrir	offrir	VERB	_	VerbForm=Inf	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	Shared=Yes	23	punct	_	_
-22	pas	pas	ADV	_	Polarity=Neg|Shared=Yes	23	mod	_	_
+22	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
 23	commun	commun	ADJ	_	Gender=Masc|Number=Sing	18	mod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	et	et	CCONJ	_	_	27	cc	_	_
@@ -7652,7 +7652,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	heure	heure	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	...	...	PUNCT	_	Shared=Yes	12	punct	_	_
-11	Trés	trés	ADV	_	Shared=Yes	12	mod	_	wordform=trés
+11	Trés	trés	ADV	_	Typo=Yes	12	mod	_	wordform=très
 12	compétente	compétent	ADJ	_	Gender=Fem|Number=Sing	3	parataxis	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	tarifs	tarif	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
@@ -13249,7 +13249,7 @@
 
 # sent_id = fr-ud-dev_00477
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
-1	Pas	pas	ADV	_	Polarity=Neg|Shared=Yes	3	mod	_	wordform=pas
+1	Pas	pas	ADV	_	Polarity=Neg	3	mod	_	wordform=pas
 2	de	de	DET	_	_	3	det	_	_
 3	sèche	sécher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=NOUN|Idiom=Yes|wordform=sèche-cheveux
 4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	wordform=_
@@ -19984,7 +19984,7 @@
 17	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	18	det	_	_
 18	catégorisation	catégorisation	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	15	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
-20	pas	pas	ADV	_	Polarity=Neg|Shared=Yes	22	mod	_	_
+20	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
 21	de	de	DET	_	_	22	det	_	_
 22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 23	ni	ni	CCONJ	_	_	25	cc	_	_
@@ -21324,7 +21324,7 @@
 
 # sent_id = fr-ud-dev_00774
 # text = Parallèlement, Amílcar Cabral déploie une activité diplomatique très intense pour faire connaître son mouvement et en légitimer l'action auprès de la communauté internationale, et en 1972 les Nations unies finissent par considérer le PAIGC « comme véritable et légitime représentant des peuples de la Guinée et du Cap-Vert ».
-1	Parallèlement	parallèlement	ADV	_	Shared=Yes	5	mod	_	SpaceAfter=No|wordform=parallèlement
+1	Parallèlement	parallèlement	ADV	_	_	5	mod	_	SpaceAfter=No|wordform=parallèlement
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Amílcar	Amílcar	PROPN	_	_	5	subj	_	_
 4	Cabral	Cabral	PROPN	_	_	3	flat@name	_	_
@@ -21464,7 +21464,7 @@
 9	retenir	retenir	VERB	_	VerbForm=Inf	8	comp:obj	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	ARN	ARN	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-12	non	non	ADV	_	Polarity=Neg|Shared=Yes	13	mod	_	_
+12	non	non	ADV	_	Polarity=Neg	13	mod	_	_
 13	épissée	épisser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	_
 14	ou	ou	CCONJ	_	_	16	cc	_	_
 15	partiellement	partiellement	ADV	_	_	16	mod	_	_
@@ -31990,7 +31990,7 @@
 9	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
-12	effectivement	effectivement	ADV	_	Shared=Yes	13	mod	_	_
+12	effectivement	effectivement	ADV	_	_	13	mod	_	_
 13	lutté	lutter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	match	match	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -33814,7 +33814,7 @@
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	frappes	frappe	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 19	soit	soit	CCONJ	_	_	21	cc	_	_
-20	totalement	totalement	ADV	_	Shared=Yes	21	mod	_	_
+20	totalement	totalement	ADV	_	_	21	mod	_	_
 21	à	à	ADP	_	_	18	udep	_	_
 22	plat	plat	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 23	ou	ou	CCONJ	_	_	25	cc	_	_
@@ -35571,7 +35571,7 @@
 19	François	François	PROPN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 20	Clerc	Clerc	PROPN	_	_	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	_	Shared=Yes	23	punct	_	_
-22	toujours	toujours	ADV	_	Shared=Yes	23	mod	_	_
+22	toujours	toujours	ADV	_	_	23	mod	_	_
 23	blessé	blessé	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
 24	et	et	CCONJ	_	_	27	cc	_	_
 25	qui	qui	PRON	_	PronType=Rel	27	subj	_	_
@@ -39408,7 +39408,7 @@
 # sent_id = fr-ud-dev_01418
 # text = Cuisine hyper créative mais aussi traditionnelle pour les puristes.
 1	Cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	wordform=cuisine
-2	hyper	hyper	ADV	_	Shared=Yes	3	mod	_	_
+2	hyper	hyper	ADV	_	_	3	mod	_	_
 3	créative	créatif	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	_
 4	mais	mais	CCONJ	_	_	6	cc	_	_
 5	aussi	aussi	ADV	_	_	6	mod	_	_
