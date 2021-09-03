@@ -27650,7 +27650,7 @@
 30	.	.	PUNCT	_	_	24	punct	_	_
 
 # sent_id = fr-ud-dev_00999
-# text = Il arrive de Mutzig en 1966 au SCO Angers où il joue entre les saisons 1966-67 et 1976-1977 soit 11 saisons (dont 2 en 2 division).
+# text = Il arrive de Mutzig en 1966 au SCO Angers où il joue entre les saisons 1966-67 et 1976-1977 soit 11 saisons (dont 2 en 2e division).
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	de	de	ADP	_	_	2	mod	_	_
@@ -27678,7 +27678,7 @@
 24	dont	dont	PRON	_	PronType=Rel	25	udep	_	_
 25	2	2	NUM	_	Number=Plur	22	mod@relcl	_	_
 26	en	en	ADP	_	_	25	udep	_	_
-27	2	2	NUM	_	Number=Plur	28	det	_	_
+27	2e	2e	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	_
 28	division	division	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	2	punct	_	_
@@ -36457,7 +36457,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01319
-# text = Les Schwarz-Gelben s'imposent un à zéro grâce à une énième réalisation de Lewandowski (77 minute), révélation de la saison.
+# text = Les Schwarz-Gelben s'imposent un à zéro grâce à une énième réalisation de Lewandowski (77e minute), révélation de la saison.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	Schwarz-Gelben	Schwarz-Gelben	PROPN	_	Number=Plur	4	subj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	SpaceAfter=No
@@ -36473,7 +36473,7 @@
 13	de	de	ADP	_	_	12	udep	_	_
 14	Lewandowski	Lewandowski	PROPN	_	_	13	comp:obj	_	_
 15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-16	77	77	NUM	_	Number=Plur	17	det	_	_
+16	77e	77e	ADJ	_	Gender=Fem|Number=Sing	17	mod	_	_
 17	minute	minute	NOUN	_	Gender=Fem|Number=Sing	12	mod	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
