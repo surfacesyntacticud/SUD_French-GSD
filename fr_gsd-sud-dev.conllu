@@ -7376,7 +7376,7 @@
 15	de	de	ADP	_	_	14	udep	_	_
 16	Stellenbosch	Stellenbosch	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
-18	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	19	mod	_	_
+18	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
 19	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 20	de	de	ADP	_	_	19	udep	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
