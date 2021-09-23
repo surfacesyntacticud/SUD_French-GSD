@@ -3981,7 +3981,7 @@
 
 # sent_id = fr-ud-dev_00145
 # text = L euro de La Réunion, comme chacune des autres pièces, dispose dune face personnalisée reprenant le drapeau de la région.
-1	L	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Typo=Yes	2	det	_	wordform=l'
+1	L	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Typo=Yes	2	det	_	CorrectForm=L'|wordform=l
 2	euro	euro	NOUN	_	Gender=Masc|Number=Sing	14	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	wordform=la
@@ -14749,7 +14749,7 @@
 
 # sent_id = fr-ud-dev_00531
 # text = Ce stalagmite est délimité par un muret quadrangulaire de 2 mètres sur 3 mètres et d'environ 45 centimètres de hauteur, fait de pierres irrégulières.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem|Typo=Yes	2	det	_	CorrectGender=Fem|wordform=cette
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem|Typo=Yes	2	det	_	CorrectForm=Cette|CorrectGender=Fem|wordform=ce
 2	stalagmite	stalagmite	NOUN	_	Gender=Fem|Number=Sing	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	délimité	délimiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	3	comp:aux@pass	_	CorrectGender=Fem|wordform=délimitée
