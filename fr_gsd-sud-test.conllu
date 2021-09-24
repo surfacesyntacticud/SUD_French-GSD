@@ -703,7 +703,7 @@
 # text = promulgation de loi « anti-hérétiques ».
 1	promulgation	promulgation	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	1	udep	_	_
-3	loi	loi	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	2	comp:obj	_	CorrectNumber=Plur|wordform=lois
+3	loi	loi	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	2	comp:obj	_	CorrectForm=lois|CorrectNumber=Plur
 4	«	«	PUNCT	_	_	5	punct	_	_
 5	anti-hérétiques	anti-hérétique	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
 6	»	»	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -1418,7 +1418,7 @@
 51	de	de	ADP	_	_	50	udep	_	_
 52	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
 53	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	51	comp:obj	_	_
-54	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	53	mod	_	CorrectGender=Masc|wordform=sahraoui
+54	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	53	mod	_	CorrectForm=sahraoui|CorrectGender=Masc
 55	à	à	ADP	_	_	50	udep	_	_
 56	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	57	det	_	SpaceAfter=No
 57	autodétermination	autodétermination	NOUN	_	Gender=Fem|Number=Sing	55	comp:obj	_	SpaceAfter=No
@@ -3330,7 +3330,7 @@
 5	approche	approche	NOUN	_	Gender=Fem|Number=Sing	19	subj	_	_
 6	Eclipse	Eclipse	PROPN	_	_	5	appos	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	5	mod	_	CorrectGender=Fem|wordform=créée
+8	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	5	mod	_	CorrectForm=créée|CorrectGender=Fem
 9	pour	pour	ADP	_	_	8	mod	_	_
 10	lutter	lutter	VERB	_	VerbForm=Inf	9	comp:obj	_	_
 11	contre	contre	ADP	_	_	10	mod	_	_
@@ -4388,7 +4388,7 @@
 12	qu'	que	SCONJ	_	_	7	conj	_	SpaceAfter=No
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
 14	en	en	PRON	_	Person=3|PronType=Prs	16	udep	_	_
-15	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	12	comp:obj	_	CorrectMood=Ind|CorrectTense=Pres|CorrectVerbForm=Fin|wordform=crée
+15	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	12	comp:obj	_	CorrectForm=crée|CorrectMood=Ind|CorrectTense=Pres|CorrectVerbForm=Fin
 16	20.000	20.000	NUM	_	Number=Plur|Shared=Yes	15	comp:obj	_	_
 17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
@@ -6368,7 +6368,7 @@
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	maréchaux	maréchal	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	4	udep	_	_
-9	nancy	Nancy	PROPN	_	Typo=Yes	8	comp:obj	_	wordform=Nancy
+9	nancy	Nancy	PROPN	_	Typo=Yes	8	comp:obj	_	CorrectForm=Nancy
 10	vous	lui	PRON	_	Person=2|PronType=Prs	11	comp:obl	_	_
 11	permettra	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 12	sans	sans	ADP	_	_	11	mod	_	ExtPos=ADV|Idiom=Yes
@@ -6743,7 +6743,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	très	très	ADV	_	_	5	mod	_	_
-5	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	3	comp:pred	_	CorrectGender=Masc|SpaceAfter=No|wordform=professionnel
+5	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	3	comp:pred	_	CorrectForm=professionnel|CorrectGender=Masc|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00236
@@ -6836,7 +6836,7 @@
 27	,	,	PUNCT	_	_	25	punct	_	_
 28	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	subj	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-30	excellent	excellent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	29	comp:pred	_	CorrectNumber=Plur|wordform=excellents
+30	excellent	excellent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	29	comp:pred	_	CorrectForm=excellents|CorrectNumber=Plur
 31	pour	pour	ADP	_	_	29	mod@x	_	_
 32	'	'	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	bullshitter	bullshitter	VERB	_	VerbForm=Inf	31	comp:obj	_	SpaceAfter=No
@@ -7059,7 +7059,7 @@
 9	économique	économique	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 10	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 11	50	50	NUM	_	Number=Plur	12	det	_	_
-12	euro	euro	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	9	mod	_	CorrectNumber=Plur|wordform=euros
+12	euro	euro	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	9	mod	_	CorrectForm=euros|CorrectNumber=Plur
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	nuitée	nuitée	NOUN	_	Gender=Fem|Number=Sing	12	mod	_	_
 15	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	mod	_	ExtPos=ADV|Idiom=Yes
@@ -7599,10 +7599,10 @@
 11	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
-14	aimable	aimable	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	12	comp:pred	_	CorrectNumber=Plur|SpaceAfter=No|wordform=aimables
+14	aimable	aimable	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	12	comp:pred	_	CorrectForm=aimables|CorrectNumber=Plur|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	ni	ni	CCONJ	_	_	17	cc	_	_
-17	compétent	compétent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	14	conj	_	CorrectGender=Fem|CorrectNumber=Plur|SpaceAfter=No|wordform=compétentes
+17	compétent	compétent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	14	conj	_	CorrectForm=compétentes|CorrectGender=Fem|CorrectNumber=Plur|SpaceAfter=No
 18	...	...	PUNCT	_	_	20	punct	_	_
 19	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	20	subj	_	_
 20	dirais	dire	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
@@ -7650,13 +7650,13 @@
 35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
 36	plus	plus	ADV	_	_	37	mod	_	_
 37	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	38	mod	_	_
-38	marque	marque	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	34	comp:obj	_	CorrectNumber=Plur|wordform=marques
+38	marque	marque	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	34	comp:obj	_	CorrectForm=marques|CorrectNumber=Plur
 39	ou	ou	CCONJ	_	_	40	cc	_	_
 40	de	de	ADP	_	_	34	conj	_	_
 41	petits	petit	ADJ	_	Gender=Masc|Number=Plur	42	mod	_	_
 42	créateurs	créateur	NOUN	_	Gender=Masc|Number=Plur	40	comp:obj	_	_
 43	moins	moins	ADV	_	_	44	mod	_	_
-44	connu	connu	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	42	mod	_	CorrectNumber=Plur|wordform=connus
+44	connu	connu	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	42	mod	_	CorrectForm=connus|CorrectNumber=Plur
 45	mais	mais	CCONJ	_	_	47	cc	_	_
 46	très	très	ADV	_	_	47	mod	_	_
 47	fashion	fashion	NOUN	_	Gender=Fem|Number=Sing	44	conj	_	_
@@ -7698,7 +7698,7 @@
 # text = Produits super sympa et qui rendent bien sur mon mur.
 1	Produits	produit	NOUN	_	Gender=Masc|Number=Plur	0	root	_	wordform=produits
 2	super	super	ADV	_	_	3	mod	_	_
-3	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	1	mod	_	CorrectNumber=Plur|wordform=sympas
+3	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	1	mod	_	CorrectForm=sympas|CorrectNumber=Plur
 4	et	et	CCONJ	_	_	6	cc	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
 6	rendent	rendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
@@ -7870,7 +7870,7 @@
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp	_	InIdiom=Yes
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	ExtPos=VERB|Idiom=Yes
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
-8	pizzeria	pizzeria	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	6	comp:obj	_	CorrectNumber=Plur|wordform=pizzerias
+8	pizzeria	pizzeria	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	6	comp:obj	_	CorrectForm=pizzerias|CorrectNumber=Plur
 9	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	moins	moins	ADV	_	_	12	mod	_	_
@@ -9460,7 +9460,7 @@
 4	Saint-Léonard	Saint-Léonard	PROPN	_	_	3	comp:obj	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	comp:aux@pass	_	CorrectGender=Masc|wordform=desservi
+7	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	comp:aux@pass	_	CorrectForm=desservi|CorrectGender=Masc
 8	que	que	ADV	_	_	9	mod	_	_
 9	par	par	ADP	_	_	7	comp:obl@agent	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
@@ -9877,7 +9877,7 @@
 25	parmi	parmi	ADP	_	_	23	udep	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 27	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	25	comp:obj	_	_
-28	autobiographique	autobiographique	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	27	mod	_	CorrectNumber=Plur|wordform=autobiographiques
+28	autobiographique	autobiographique	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	27	mod	_	CorrectForm=autobiographiques|CorrectNumber=Plur
 29	que	que	PRON	_	PronType=Rel	31	comp:obj	_	_
 30	Madonna	Madonna	PROPN	_	_	31	subj	_	_
 31	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
@@ -10391,7 +10391,7 @@
 17	vraiment	vraiment	ADV	_	_	16	mod	_	_
 18	et	et	CCONJ	_	_	20	cc	_	_
 19	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	20	det	_	_
-20	désires	désir	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	13	conj	_	wordform=désirs
+20	désires	désir	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	13	conj	_	CorrectForm=désirs
 21	comme	comme	ADP	_	_	20	udep	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	fait	fait	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
@@ -10656,7 +10656,7 @@
 49	et	et	CCONJ	_	_	50	cc	_	_
 50	que	que	SCONJ	_	_	34	conj	_	_
 51	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
-52	christ	Christ	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes|Typo=Yes	54	subj	_	wordform=Christ
+52	christ	Christ	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes|Typo=Yes	54	subj	_	CorrectForm=Christ
 53	n'	ne	ADV	_	Polarity=Neg	54	mod	_	SpaceAfter=No
 54	enseignait	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	50	comp:obj	_	_
 55	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	54	comp:obj	_	_
@@ -10886,7 +10886,7 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	11	udep	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	nunavik	Nunavik	PROPN	_	Gender=Masc|Number=Sing|Typo=Yes	14	comp:obj	_	wordform=Nunavik
+16	nunavik	Nunavik	PROPN	_	Gender=Masc|Number=Sing|Typo=Yes	14	comp:obj	_	CorrectForm=Nunavik
 17	à	à	ADP	_	_	16	udep	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	Alaska	Alaska	PROPN	_	Number=Sing	17	comp:obj	_	_

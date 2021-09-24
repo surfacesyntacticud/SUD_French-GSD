@@ -1281,7 +1281,7 @@
 14	matchs	match	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 15	mais	mais	CCONJ	_	_	17	cc	_	_
 16	ne	ne	ADV	_	Polarity=Neg	17	mod	_	_
-17	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	8	conj	_	CorrectTense=Pres|CorrectVerbForm=Fin|wordform=réussit
+17	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	8	conj	_	CorrectForm=réussit|CorrectTense=Pres|CorrectVerbForm=Fin
 18	qu'	que	ADV	_	_	21	mod	_	SpaceAfter=No
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 20	seule	seul	ADJ	_	Gender=Fem|Number=Sing	21	mod	_	_
@@ -1669,7 +1669,7 @@
 # sent_id = fr-ud-dev_00063
 # text = La ferté-imbault en Sologne vous propose un choix d activités et de bonnes adresses, parmi de nombreuses richesses locales, pour prolonger agréablement votre visite en Sologne.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	ferté-imbault	Ferté-Imbault	PROPN	_	Gender=Fem|Number=Sing|Typo=Yes	6	subj	_	wordform=Ferté-Imbault
+2	ferté-imbault	Ferté-Imbault	PROPN	_	Gender=Fem|Number=Sing|Typo=Yes	6	subj	_	CorrectForm=Ferté-Imbault
 3	en	en	ADP	_	_	2	udep	_	_
 4	Sologne	Sologne	PROPN	_	_	3	comp:obj	_	_
 5	vous	lui	PRON	_	Person=2|PronType=Prs	6	comp:obl	_	_
@@ -1787,7 +1787,7 @@
 11	mais	mais	CCONJ	_	_	13	cc	_	_
 12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
 13	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	conj	_	_
-14	là	là	ADV	_	Typo=Yes	13	mod	_	SpaceAfter=No|wordform=-là
+14	là	là	ADV	_	Typo=Yes	13	mod	_	CorrectForm=-là|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00068
@@ -5730,7 +5730,7 @@
 24	Papa	Papa	PROPN	_	_	23	flat@name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
-27	italiens	italien	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	21	conj	_	CorrectNumber=Sing|wordform=italien
+27	italiens	italien	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	21	conj	_	CorrectForm=italien|CorrectNumber=Sing
 28	Palestrina	Palestrina	PROPN	_	_	27	appos	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	et	et	CCONJ	_	_	31	cc	_	_
@@ -5943,7 +5943,7 @@
 16	de	de	ADP	_	_	15	udep	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 18	plus	plus	ADV	_	_	19	mod	_	_
-19	agréable	agréable	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	16	comp:obj	_	CorrectNumber=Plur|SpaceAfter=No|wordform=agréables
+19	agréable	agréable	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	16	comp:obj	_	CorrectForm=agréables|CorrectNumber=Plur|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00216
@@ -6161,7 +6161,7 @@
 6	panoramiques	panoramique	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	_
 7	à	à	ADP	_	_	5	udep	_	_
 8	voie	voie	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
-9	métriques	métrique	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	8	mod	_	CorrectNumber=Sing|wordform=métrique
+9	métriques	métrique	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	8	mod	_	CorrectForm=métrique|CorrectNumber=Sing
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	convaincu	convaincre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
@@ -7652,7 +7652,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	heure	heure	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	...	...	PUNCT	_	Shared=Yes	12	punct	_	_
-11	Trés	trés	ADV	_	Typo=Yes	12	mod	_	wordform=très
+11	Trés	trés	ADV	_	Typo=Yes	12	mod	_	CorrectForm=très
 12	compétente	compétent	ADJ	_	Gender=Fem|Number=Sing	3	parataxis	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	tarifs	tarif	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
@@ -7866,7 +7866,7 @@
 43-44	au	_	_	_	_	_	_	_	_
 43	à	à	ADP	_	_	40	mod	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	43	comp:obj	_	CorrectNumber=Sing|wordform=niveau
+45	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	43	comp:obj	_	CorrectForm=niveau|CorrectNumber=Sing
 46	national	national	ADJ	_	Gender=Masc|Number=Sing	45	mod	_	_
 47	et	et	CCONJ	_	_	48	cc	_	_
 48	européen	européen	ADJ	_	Gender=Masc|Number=Sing	46	conj	_	SpaceAfter=No
@@ -9374,7 +9374,7 @@
 10	à	à	ADP	_	_	7	udep	_	_
 11	Djibouti	Djibouti	PROPN	_	_	10	comp:obj	_	_
 12	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	parti	partie	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	12	comp:obj@lvc	_	wordform=partie
+13	parti	partie	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	12	comp:obj@lvc	_	CorrectForm=partie
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	12	comp:obl	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -9413,7 +9413,7 @@
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	serveurs	serveur	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	accueillant	accueillant	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	5	comp:pred	_	CorrectNumber=Plur|wordform=accueillants
+6	accueillant	accueillant	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	5	comp:pred	_	CorrectForm=accueillants|CorrectNumber=Plur
 7	sans	sans	ADP	_	_	5	mod@x	_	_
 8	être	être	AUX	_	VerbForm=Inf	7	comp:obj	_	_
 9	trop	trop	ADV	_	_	10	mod	_	_
@@ -10502,7 +10502,7 @@
 29	avant	avant	ADV	_	_	3	mod	_	_
 30	de	de	ADP	_	_	29	comp:obl@x	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs	32	comp:obj	_	SpaceAfter=No
-32	intaller	installer	VERB	_	Typo=Yes|VerbForm=Inf	30	comp:obj	_	wordform=installer
+32	intaller	installer	VERB	_	Typo=Yes|VerbForm=Inf	30	comp:obj	_	CorrectForm=installer
 33	en	en	ADP	_	_	32	mod	_	_
 34	1925	1925	NUM	_	Number=Plur	33	comp:obj	_	_
 35	à	à	ADP	_	_	32	comp:obl	_	_
@@ -10903,9 +10903,9 @@
 14	de	de	ADP	_	_	12	comp:obl@x	_	_
 15	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	17	comp:obj	_	_
 16	avoir	avoir	AUX	_	VerbForm=Inf	14	comp:obj	_	_
-17	aidé	aider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	16	comp:aux@tense	_	CorrectNumber=Plur|wordform=aidés
+17	aidé	aider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	16	comp:aux@tense	_	CorrectForm=aidés|CorrectNumber=Plur
 18	si	si	ADV	_	_	19	mod	_	_
-19	gentillement	gentillement	ADV	_	Typo=Yes	16	mod	_	SpaceAfter=No|wordform=gentiment
+19	gentillement	gentillement	ADV	_	Typo=Yes	16	mod	_	CorrectForm=gentiment|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	mais	mais	CCONJ	_	_	22	cc	_	_
 22	qu'	que	SCONJ	_	_	12	conj	_	SpaceAfter=No
@@ -11499,7 +11499,7 @@
 31	Farka	Farka	PROPN	_	_	30	flat@name	_	_
 32	Touré	Touré	PROPN	_	_	31	flat@name	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	_
-34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Typo=Yes	35	det	_	CorrectGender=Masc|wordform=le
+34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Typo=Yes	35	det	_	CorrectForm=le|CorrectGender=Masc
 35	folk	folk	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
 36	de	de	ADP	_	_	35	udep	_	_
 37	Dylan	Dylan	PROPN	_	_	36	comp:obj	_	SpaceAfter=No
@@ -13926,7 +13926,7 @@
 7	Petrov	Petrov	PROPN	_	_	4	conj	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	9	comp:aux@tense	_	CorrectGender=Fem|wordform=située
+10	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	9	comp:aux@tense	_	CorrectForm=située|CorrectGender=Fem
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	Brno	Brno	PROPN	_	_	11	comp:obj	_	_
 13	en	en	ADP	_	_	10	mod	_	_
@@ -14264,7 +14264,7 @@
 14	de	de	ADP	_	_	13	udep	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	chasse	chasse	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
-17	ou	où	ADV	_	PronType=Rel|Typo=Yes	19	mod	_	wordform=où
+17	ou	où	ADV	_	PronType=Rel|Typo=Yes	19	mod	_	CorrectForm=où
 18	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
 19	excellait	exceller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	mod@relcl	_	_
 20	de	de	ADP	_	_	10	mod	_	_
@@ -14752,7 +14752,7 @@
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem|Typo=Yes	2	det	_	CorrectForm=Cette|CorrectGender=Fem|wordform=ce
 2	stalagmite	stalagmite	NOUN	_	Gender=Fem|Number=Sing	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	délimité	délimiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	3	comp:aux@pass	_	CorrectGender=Fem|wordform=délimitée
+4	délimité	délimiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	3	comp:aux@pass	_	CorrectForm=délimitée|CorrectGender=Fem
 5	par	par	ADP	_	_	4	comp:obl@agent	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	muret	muret	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -15357,7 +15357,7 @@
 17	s'	se	PRON	_	Person=3|PronType=Prs	20	comp	_	InIdiom=Yes|SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 19	déjà	déjà	ADV	_	_	18	mod	_	_
-20	séparé	séparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	18	comp:aux@tense	_	CorrectGender=Fem|ExtPos=VERB|Idiom=Yes|wordform=séparée
+20	séparé	séparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	18	comp:aux@tense	_	CorrectForm=séparée|CorrectGender=Fem|ExtPos=VERB|Idiom=Yes
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -18241,8 +18241,8 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	famille	famille	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	Escors	Escors	PROPN	_	_	7	appos	_	_
-9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectNumber=Plur|wordform=sont
-10	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	9	comp:aux@tense	_	CorrectNumber=Plur|wordform=passés
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=sont|CorrectNumber=Plur
+10	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	9	comp:aux@tense	_	CorrectForm=passés|CorrectNumber=Plur
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	Gérone	Gérone	PROPN	_	_	11	comp:obj	_	_
 13	à	à	ADP	_	_	12	udep	_	_
@@ -18684,7 +18684,7 @@
 7	m	mètre	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-10	voir	voire	ADV	_	Typo=Yes	11	cc	_	wordform=voire
+10	voir	voire	ADV	_	Typo=Yes	11	cc	_	CorrectForm=voire
 11	plus	plus	ADV	_	_	4	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -18692,7 +18692,7 @@
 # text = Feuillage vert foncées et aiguilles regroupées par trois (Le Pin à encens--Pinus Taeda--origine Sud Est USA, possède lui aussi des aiguilles regroupées par trois), les cônes sont tous orientés vers le tronc et peuvent rester 20 ans accrochées au tronc avant de tomber.
 1	Feuillage	feuillage	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	35	parataxis	_	wordform=feuillage
 2	vert	vert	ADJ	_	_	1	mod	_	_
-3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	2	mod	_	CorrectGender=Masc|CorrectNumber=Sing|wordform=foncé
+3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	2	mod	_	CorrectForm=foncé|CorrectGender=Masc|CorrectNumber=Sing
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	aiguilles	aiguille	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
 6	regroupées	regrouper	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	mod	_	_
@@ -19740,7 +19740,7 @@
 7	employées	employé	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	Boeing	Boeing	PROPN	_	_	8	comp:obj	_	_
-10	réunis	réunir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	7	mod	_	CorrectGender=Fem|wordform=réunies
+10	réunis	réunir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	7	mod	_	CorrectForm=réunies|CorrectGender=Fem
 11	en	en	ADP	_	_	10	mod	_	_
 12	procédure	procédure	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 13	en	en	ADP	_	_	12	udep	_	_
@@ -19833,7 +19833,7 @@
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 22	plus	plus	ADV	_	_	23	mod	_	_
-23	haute	haut	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	24	mod	_	CorrectGender=Masc|wordform=haut
+23	haute	haut	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	24	mod	_	CorrectForm=haut|CorrectGender=Masc
 24	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -20681,7 +20681,7 @@
 10	donjon	donjon	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
 11	médiéval	médiéval	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
-13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectNumber=Plur|wordform=ont
+13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=ont|CorrectNumber=Plur
 14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	ajouté	ajouter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@pass	_	_
 16-17	au	_	_	_	_	_	_	_	_
@@ -21016,7 +21016,7 @@
 18	par	par	ADP	_	_	17	udep	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	_
-21	marocaine	marocain	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	20	mod	_	CorrectNumber=Plur|wordform=marocaines
+21	marocaine	marocain	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	20	mod	_	CorrectForm=marocaines|CorrectNumber=Plur
 22	de	de	ADP	_	_	20	udep	_	_
 23	Kamel	Kamel	PROPN	_	_	22	comp:obj	_	_
 24	JENDOUBI	JENDOUBI	PROPN	_	_	23	flat@name	_	SpaceAfter=No
@@ -21565,7 +21565,7 @@
 2	petites	petit	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
 3	bandes	bande	NOUN	_	Gender=Fem|Number=Plur	6	subj	_	_
 4	longitudinales	longitudinal	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
-5	rouge	rouge	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	3	mod	_	CorrectNumber=Plur|wordform=rouges
+5	rouge	rouge	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	3	mod	_	CorrectForm=rouges|CorrectNumber=Plur
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	visibles	visible	ADJ	_	Gender=Fem|Number=Plur	6	comp:pred	_	_
 8	sur	sur	ADP	_	_	6	mod	_	_
@@ -22046,7 +22046,7 @@
 9	hiver	hiver	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	sur	sur	ADP	_	_	5	mod	_	_
 11	ces	ce	DET	_	Number=Plur|PronType=Dem	12	det	_	_
-12	quai	quai	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	10	comp:obj	_	CorrectNumber=Plur|wordform=quais
+12	quai	quai	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	10	comp:obj	_	CorrectForm=quais|CorrectNumber=Plur
 13	brumeux	brumeux	ADJ	_	Gender=Masc	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	entrer	entrer	VERB	_	VerbForm=Inf	5	conj	_	_
@@ -22691,7 +22691,7 @@
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
-20	remis	remettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Fin	6	mod@relcl	_	wordform=remit
+20	remis	remettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Fin	6	mod@relcl	_	CorrectForm=remit
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -23994,7 +23994,7 @@
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	expertise	expertise	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	développé	développer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	mod	_	CorrectGender=Fem|wordform=développée
+12	développé	développer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	mod	_	CorrectForm=développée|CorrectGender=Fem
 13	chez	chez	ADP	_	_	12	mod	_	_
 14	Mayer	Mayer	PROPN	_	_	13	comp:obj	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
@@ -25073,7 +25073,7 @@
 # text = Cette terre riches en attraits naturels est maintenant bien implantée dans le domaine touristique, mais le domaine a constamment besoin de se renouveler.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
 2	terre	terre	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
-3	riches	riche	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	2	mod	_	CorrectNumber=Sing|wordform=riche
+3	riches	riche	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	2	mod	_	CorrectForm=riche|CorrectNumber=Sing
 4	en	en	ADP	_	_	3	mod	_	_
 5	attraits	attrait	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 6	naturels	naturel	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
@@ -25856,7 +25856,7 @@
 17	monument	monument	NOUN	_	Gender=Masc|Number=Sing	15	comp:pred	_	_
 18	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	mod	_	_
 19	dans	dans	ADP	_	_	18	comp:obl	_	_
-20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Typo=Yes	21	det	_	CorrectGender=Masc|wordform=le
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Typo=Yes	21	det	_	CorrectForm=le|CorrectGender=Masc
 21	parc	parc	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	de	de	ADP	_	_	21	udep	_	_
 23	Kalemegdan	Kalemegdan	PROPN	_	_	22	comp:obj	_	_
@@ -26205,7 +26205,7 @@
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	comme	comme	ADP	_	_	17	mod	_	_
 21	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	22	det	_	_
-22	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	20	comp:obj	_	CorrectNumber=Sing|wordform=jumeau
+22	jumeaux	jumeau	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	20	comp:obj	_	CorrectForm=jumeau|CorrectNumber=Sing
 23	Fiat	Fiat	PROPN	_	_	22	appos	_	_
 24	Scudo	Scudo	PROPN	_	_	23	flat@name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
@@ -28281,7 +28281,7 @@
 18	outils	outil	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
 19	pédagogiques	pédagogique	ADJ	_	Gender=Masc|Number=Plur	18	mod	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	accessible	accessible	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	18	mod	_	CorrectNumber=Plur|wordform=accessibles
+21	accessible	accessible	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	18	mod	_	CorrectForm=accessibles|CorrectNumber=Plur
 22	par	par	ADP	_	_	21	comp:obl	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	centrale	centrale	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
@@ -28352,7 +28352,7 @@
 19	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	ne	ne	ADV	_	Polarity=Neg	22	mod	_	_
 21	se	se	PRON	_	Person=3|PronType=Prs	22	comp	_	InIdiom=Yes
-22	préoccupe	préoccuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	14	comp:obj	_	CorrectNumber=Plur|ExtPos=VERB|Idiom=Yes|wordform=préoccupent
+22	préoccupe	préoccuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	14	comp:obj	_	CorrectForm=préoccupent|CorrectNumber=Plur|ExtPos=VERB|Idiom=Yes
 23	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	22	comp:obl	_	_
@@ -28895,7 +28895,7 @@
 15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	trois	trois	NUM	_	Number=Plur	6	conj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
-18	se	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs|Typo=Yes	19	det	_	wordform=ses
+18	se	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs|Typo=Yes	19	det	_	CorrectForm=ses
 19	compagnons	compagnon	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -29432,7 +29432,7 @@
 20	ou	ou	CCONJ	_	_	21	cc	_	_
 21	chocolat	chocolat	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	19	punct	_	_
-23	offerts	offrir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	12	mod	_	CorrectNumber=Sing|wordform=offert
+23	offerts	offrir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	12	mod	_	CorrectForm=offert|CorrectNumber=Sing
 24	de	de	ADP	_	_	23	mod	_	_
 25	bon	bon	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
 26	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
@@ -30274,7 +30274,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	santé	santé	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	SpaceAfter=No
-6	oblige	obliger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectNumber=Plur|wordform=obligent
+6	oblige	obliger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=obligent|CorrectNumber=Plur
 7	à	à	ADP	_	_	6	comp:obl@x	_	_
 8	s'	se	PRON	_	Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
 9	installer	installer	VERB	_	VerbForm=Inf	7	comp:obj	_	_
@@ -31249,16 +31249,16 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
 2	zone	zone	NOUN	_	Gender=Fem|Number=Sing	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	composé	composer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	3	comp:aux@pass	_	CorrectGender=Fem|wordform=composée
+4	composé	composer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	3	comp:aux@pass	_	CorrectForm=composée|CorrectGender=Fem
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	couloirs	couloir	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
-7	constitué	constituer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	mod	_	CorrectNumber=Plur|wordform=constitués
+7	constitué	constituer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	mod	_	CorrectForm=constitués|CorrectNumber=Plur
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	différents	différent	DET	_	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
 10	pièges	piège	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	de	de	ADP	_	_	5	conj	_	_
-13	montres	montre	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	12	comp:obj	_	CorrectGender=Masc|wordform=monstres
+13	montres	montre	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	12	comp:obj	_	CorrectForm=monstres|CorrectGender=Masc
 14	puissants	puissant	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
 15	tels	tel	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
 16	que	que	SCONJ	_	_	15	comp:obj	_	_
@@ -31457,7 +31457,7 @@
 12	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
 13	armée	armée	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 14	vandales	vandale	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
-15	présent	présent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	11	mod	_	CorrectNumber=Plur|wordform=présents
+15	présent	présent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	11	mod	_	CorrectForm=présents|CorrectNumber=Plur
 16	à	à	ADP	_	_	15	comp:obl	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	bataille	bataille	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -31626,8 +31626,8 @@
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	18	det	_	_
 17	faible	faible	ADJ	_	Gender=Fem|Number=Sing	18	mod	_	_
-18	disposions	disposion	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	9	conj	_	CorrectNumber=Sing|wordform=disposition
-19	a	à	ADP	_	Typo=Yes	18	udep	_	wordform=à
+18	disposions	disposion	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	9	conj	_	CorrectForm=disposition|CorrectNumber=Sing
+19	a	à	ADP	_	Typo=Yes	18	udep	_	CorrectForm=à
 20	éclairer	éclairer	VERB	_	VerbForm=Inf	19	comp:obj	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	voisinage	voisinage	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
@@ -31734,7 +31734,7 @@
 18-19	des	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-20	studio	studio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	18	comp:obj	_	CorrectNumber=Plur|wordform=studios
+20	studio	studio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	18	comp:obj	_	CorrectForm=studios|CorrectNumber=Plur
 21	d'	de	ADP	_	_	20	udep	_	SpaceAfter=No
 22	Albertson	Albertson	PROPN	_	_	21	comp:obj	_	_
 23	Ranch	Ranch	PROPN	_	_	22	flat@name	_	_
@@ -31986,7 +31986,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	même	même	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 7	incident	incident	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
-8	rapporté	rapporter	VERB	_	Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	wordform=rapporte
+8	rapporté	rapporter	VERB	_	Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=rapporte
 9	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
@@ -33477,7 +33477,7 @@
 2	accompagner	accompagner	VERB	_	VerbForm=Inf	1	comp:obj	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	lancement	lancement	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
-5	des	de	ADP	_	Typo=Yes	4	udep	_	wordform=de
+5	des	de	ADP	_	Typo=Yes	4	udep	_	CorrectForm=de
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	8	det	_	_
 7	différents	différent	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 8	Macintosh	Macintosh	PROPN	_	Gender=Masc|Number=Plur	5	comp:obj	_	SpaceAfter=No
@@ -35074,7 +35074,7 @@
 67	blancs	blanc	ADJ	_	Gender=Masc|Number=Plur	66	mod	_	SpaceAfter=No
 68	,	,	PUNCT	_	_	70	punct	_	_
 69	mais	mais	CCONJ	_	_	70	cc	_	_
-70	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	59	conj	_	CorrectVerbForm=Fin|wordform=eut
+70	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	59	conj	_	CorrectForm=eut|CorrectVerbForm=Fin
 71	pour	pour	ADP	_	_	70	comp:obl	_	_
 72	résultat	résultat	NOUN	_	Gender=Masc|Number=Sing	71	comp:obj	_	_
 73	de	de	ADP	_	_	70	comp:obj	_	_
@@ -36608,7 +36608,7 @@
 10	de	de	ADP	_	_	8	udep	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	ville	ville	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	6	comp:obj	_	CorrectNumber=Plur|wordform=datent
+13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	6	comp:obj	_	CorrectForm=datent|CorrectNumber=Plur
 14	d'	de	ADP	_	_	13	mod	_	SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	InIdiom=Yes
 16	y	y	PRON	_	Person=3|PronType=Prs	17	comp	_	InIdiom=Yes
@@ -37191,7 +37191,7 @@
 3	à	à	ADP	_	_	6	comp:obl	_	_
 4	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	3	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
-6	attachée	attacher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	5	comp:aux@tense	_	CorrectGender=Masc|wordform=attaché
+6	attachée	attacher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	5	comp:aux@tense	_	CorrectForm=attaché|CorrectGender=Masc
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	titre	titre	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
 9	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -37506,7 +37506,7 @@
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 3	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	5	comp:obj	_	_
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	4	comp:aux@tense	_	CorrectNumber=Plur|wordform=prévenus
+5	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	4	comp:aux@tense	_	CorrectForm=prévenus|CorrectNumber=Plur
 6	avant	avant	ADV	_	_	4	mod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -37697,7 +37697,7 @@
 33	de	de	ADP	_	_	32	comp:obj	_	_
 34	mettre	mettre	VERB	_	VerbForm=Inf	33	comp:obj	_	_
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	pâté	pâté	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	34	comp:obj	_	wordform=pâtée
+36	pâté	pâté	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	34	comp:obj	_	CorrectForm=pâtée
 37-38	aux	_	_	_	_	_	_	_	_
 37	à	à	ADP	_	_	34	comp:obl	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
@@ -37724,7 +37724,7 @@
 7	pour	pour	ADP	_	_	1	comp:obl	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	autorisations	autorisation	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
-10	nécessaire	nécessaire	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	9	mod	_	CorrectNumber=Plur|wordform=nécessaires
+10	nécessaire	nécessaire	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	9	mod	_	CorrectForm=nécessaires|CorrectNumber=Plur
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -37959,7 +37959,7 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	Sandras	Sandras	PROPN	_	_	4	comp:obj	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
-7	viacire	vicaire	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	3	conj	_	wordform=vicaire
+7	viacire	vicaire	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	3	conj	_	CorrectForm=vicaire
 8	généaral	général	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	grand	grand	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
@@ -38383,7 +38383,7 @@
 8	serveur	serveur	NOUN	_	Gender=Masc|Number=Sing	9	subj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	12	mod	_	CorrectGender=Fem|wordform=vraie
+11	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	12	mod	_	CorrectForm=vraie|CorrectGender=Fem
 12	porte	porte	NOUN	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	prison	prison	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
@@ -40621,7 +40621,7 @@
 24	,	,	PUNCT	_	_	18	punct	_	_
 25	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	26	subj	_	_
 26	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-27	présent	présent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	26	comp:pred	_	CorrectNumber=Plur|wordform=présents
+27	présent	présent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	26	comp:pred	_	CorrectForm=présents|CorrectNumber=Plur
 28	sur	sur	ADP	_	_	27	udep	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	rive	rive	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
@@ -40872,7 +40872,7 @@
 9	ne	ne	ADV	_	Polarity=Neg	10	mod	_	_
 10	mérite	mériter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	12	det	_	_
-12	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	10	comp:obj	_	CorrectNumber=Sing|wordform=étoile
+12	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	10	comp:obj	_	CorrectForm=étoile|CorrectNumber=Sing
 13	surtout	surtout	ADV	_	_	14	mod	_	_
 14	pour	pour	ADP	_	_	10	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
