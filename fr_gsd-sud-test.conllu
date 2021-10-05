@@ -252,7 +252,7 @@
 29	qu'	que	SCONJ	_	_	26	comp:cleft	_	SpaceAfter=No
 30	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	subj	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs	33	comp@expl	_	SpaceAfter=No
-32	en	en	PRON	_	Person=3|PronType=Prs	33	comp	_	InIdiom=Yes
+32	en	en	PRON	_	Person=3|PronType=Prs	33	comp@expl	_	_
 33	prennent	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
 
