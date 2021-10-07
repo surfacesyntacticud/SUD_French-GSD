@@ -1720,8 +1720,8 @@
 18	qu'	que	SCONJ	_	_	17	comp:obj	_	SpaceAfter=No
 19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj	_	InIdiom=Yes
 20	n'	ne	ADV	_	Polarity=Neg	22	mod	_	InIdiom=Yes|SpaceAfter=No
-21	en	en	PRON	_	Person=3|PronType=Prs	22	comp	_	InIdiom=Yes
-22	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp:obj	_	ExtPos=VERB|Idiom=Yes
+21	en	en	PRON	_	Person=3|PronType=Prs	22	comp@expl	_	_
+22	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
 23	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	22	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 24	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -9146,8 +9146,8 @@
 39	si	si	SCONJ	_	_	35	parataxis	_	_
 40	en	en	ADP	_	_	43	mod	_	ExtPos=ADV|Idiom=Yes
 41	plus	plus	ADV	_	_	40	comp:obj	_	InIdiom=Yes
-42	y'	y	PRON	_	Person=3|PronType=Prs	43	comp	_	InIdiom=Yes|SpaceAfter=No
-43	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	comp:obj	_	ExtPos=VERB|Idiom=Yes
+42	y'	y	PRON	_	Person=3|PronType=Prs	43	comp@expl	_	SpaceAfter=No
+43	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	comp:obj	_	_
 44	personne	personne	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Neg	43	comp:obj	_	SpaceAfter=No
 45	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	9	punct	_	_
@@ -11648,8 +11648,8 @@
 6	anxieux	anxieux	ADJ	_	Gender=Masc	3	comp:pred	_	_
 7	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes
-10	paraît	paraître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	ExtPos=VERB|Idiom=Yes|SpaceAfter=No
+9	y	y	PRON	_	Person=3|PronType=Prs	10	comp@expl	_	_
+10	paraît	paraître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00421
@@ -11795,8 +11795,8 @@
 # sent_id = fr-ud-dev_00426
 # text = Il y avait près de 1000 personnes au lancement de l'événement à l'Arsenal, le 8 septembre.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
-2	y	y	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
-3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	près	près	ADV	_	_	3	comp:obj	_	ExtPos=PRON
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	1000	1000	NUM	_	Number=Plur	7	det	_	_
@@ -11824,8 +11824,8 @@
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	wordform=ce
 4	qu'	que	SCONJ	_	_	2	comp:pred	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	comp	_	InIdiom=Yes
-7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	ExtPos=VERB|Idiom=Yes
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	poème	poème	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
@@ -16880,8 +16880,8 @@
 11	publique	public	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj@expl	_	_
-14	y	y	PRON	_	Person=3|PronType=Prs	15	comp	_	InIdiom=Yes
-15	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+14	y	y	PRON	_	Person=3|PronType=Prs	15	comp@expl	_	_
+15	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	encore	encore	ADV	_	_	15	mod	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	épidémies	épidémie	NOUN	_	Gender=Fem|Number=Plur	15	comp:obj	_	_
@@ -17572,8 +17572,8 @@
 19	s'	si	SCONJ	_	_	17	mod	_	SpaceAfter=No
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj@expl	_	_
 21	n'	ne	ADV	_	Polarity=Neg	23	mod	_	SpaceAfter=No
-22	y	y	PRON	_	Person=3|PronType=Prs	23	comp	_	InIdiom=Yes
-23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	ExtPos=VERB|Idiom=Yes
+22	y	y	PRON	_	Person=3|PronType=Prs	23	comp@expl	_	_
+23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
 24	plus	plus	ADV	_	Polarity=Neg	23	mod	_	_
 25	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	26	det	_	_
 26	Roland	Roland	PROPN	_	Number=Sing	23	comp:obj	_	_
@@ -18787,8 +18787,8 @@
 7	compris	comprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
-10	y	y	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
-11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+10	y	y	PRON	_	Person=3|PronType=Prs	11	comp@expl	_	_
+11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	année	année	NOUN	_	Gender=Fem|Number=Sing	11	mod	_	_
 14	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
@@ -19863,8 +19863,8 @@
 # sent_id = fr-ud-dev_00717
 # text = Il y a donc le monde de la réalité comprenant les nobles et les artisans et le monde de la magie.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
-2	y	y	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	donc	donc	ADV	_	_	3	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	monde	monde	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -20187,8 +20187,8 @@
 3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
 4	-ci	ci	ADV	_	_	3	mod	_	SpaceAfter=No|wordform=ci
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	comp	_	InIdiom=Yes
-7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	autre	autre	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
 10	élément	élément	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -28429,8 +28429,8 @@
 # text = Il n'y a pas de relégation, le championnat étant étendu à 36 équipes la saison prochaine.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	wordform=il
 2	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
-3	y	y	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
-4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+3	y	y	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	_
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
 7	relégation	relégation	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
@@ -30926,8 +30926,8 @@
 11	plus	plus	ADV	_	_	13	mod	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@expl	_	_
 13	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-14	y	y	PRON	_	Person=3|PronType=Prs	15	comp	_	InIdiom=Yes
-15	avoir	avoir	VERB	_	VerbForm=Inf	13	comp:obj@x	_	ExtPos=VERB|Idiom=Yes
+14	y	y	PRON	_	Person=3|PronType=Prs	15	comp@expl	_	_
+15	avoir	avoir	VERB	_	VerbForm=Inf	13	comp:obj@x	_	_
 16	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	SpaceAfter=No
 17	amibes	amibe	NOUN	_	Gender=Fem|Number=Plur	15	comp:obj	_	_
 18	prêtes	prêt	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
@@ -38348,8 +38348,8 @@
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	que	que	SCONJ	_	_	1	conj	_	_
 9	vous	il	PRON	_	Person=2|PronType=Prs	11	subj	_	_
-10	en	en	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
-11	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	comp:obj	_	ExtPos=VERB|Idiom=Yes
+10	en	en	PRON	_	Person=3|PronType=Prs	11	comp@expl	_	_
+11	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 12	marre	marre	ADV	_	_	11	comp:obj	_	_
 13	de	de	ADP	_	_	11	comp:obl@x	_	_
 14	manger	manger	VERB	_	VerbForm=Inf	13	comp:obj	_	_
