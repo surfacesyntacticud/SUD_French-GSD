@@ -102,7 +102,7 @@
 44	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
 45	ONG	ONG	NOUN	_	Gender=Fem|Number=Sing	43	subj	_	_
 46	internationale	international	ADJ	_	Gender=Fem|Number=Sing	45	mod	_	SpaceAfter=No
-47	,	,	PUNCT	_	_	48	punct	_	_
+47	,	,	PUNCT	_	Shared=Yes	48	punct	_	_
 48	implantée	implanter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	45	mod	_	_
 49	dans	dans	ADP	_	_	48	comp:obl	_	_
 50	35	35	NUM	_	Number=Plur	51	det	_	_
@@ -409,7 +409,7 @@
 17	intégriste	intégriste	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	mais	mais	CCONJ	_	_	20	cc	_	_
-20	que	que	SCONJ	_	_	11	conj	_	_
+20	que	que	SCONJ	_	_	11	conj:emb	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	intégristes	intégriste	NOUN	_	Gender=Masc|Number=Plur	24	subj	_	_
 23	n'	ne	ADV	_	Polarity=Neg	24	mod	_	SpaceAfter=No
@@ -1084,7 +1084,7 @@
 
 # sent_id = fr-ud-test_00043
 # text = En effet, la contre attaque a été massive et a touché pas moins de 174 sites appartenant pour la plupart au gouvernement et à des entreprises du royaume marocain.
-1	En	en	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
+1	En	en	ADP	_	Shared=Yes	7	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -1874,7 +1874,7 @@
 
 # sent_id = fr-ud-test_00068
 # text = Et cet homme d'affaires particulier est partout, il contrôle la plus grande banque du pays, il contrôle l'un des trois opérateurs télécoms, il est actif dans le business du sucre, de l'énergie, il contrôle les centrales laitières et il est associé au groupe Danone.
-1	Et	et	CCONJ	_	_	7	cc	_	wordform=et
+1	Et	et	CCONJ	_	Shared=Yes	7	cc	_	wordform=et
 2	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	homme	homme	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
@@ -2067,7 +2067,7 @@
 2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	guette	guetter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	oui	oui	INTJ	_	_	3	mod	_	SpaceAfter=No
+5	oui	oui	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	guette	guetter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
@@ -3165,13 +3165,13 @@
 41	jeune	jeune	ADJ	_	Gender=Masc|Number=Sing	42	mod	_	_
 42	âge	âge	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	47	punct	_	_
-44	mais	mais	CCONJ	_	_	47	cc	_	_
+44	mais	mais	CCONJ	_	Shared=Yes	47	cc	_	_
 45	aussi	aussi	ADV	_	Shared=Yes	47	mod	_	_
 46	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
 47	innocence	innocence	NOUN	_	Gender=Fem|Number=Sing	42	conj	_	_
 48	et	et	CCONJ	_	_	50	cc	_	_
 49	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
-50	virginité	virginité	NOUN	_	Gender=Fem|Number=Sing	47	conj	_	_
+50	virginité	virginité	NOUN	_	Gender=Fem|Number=Sing	47	conj:emb	_	_
 51	;	;	PUNCT	_	_	21	punct	_	_
 
 # sent_id = fr-ud-test_00107
@@ -3271,7 +3271,7 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	clair	clair	ADJ	_	Gender=Masc|Number=Sing	8	comp:pred	_	_
 10	:	:	PUNCT	_	Shared=Yes	14	punct	_	_
-11	«	«	PUNCT	_	_	14	punct	_	_
+11	«	«	PUNCT	_	Shared=Yes	14	punct	_	_
 12	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	14	subj	_	_
 13	vous	le	PRON	_	Person=2|PronType=Prs	15	comp:obj	_	_
 14	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
@@ -3452,7 +3452,7 @@
 # sent_id = fr-ud-test_00117
 # text = Au sein de cette équipe professionnelle, chacun est important et a son rôle à jouer pour contribuer au rayonnement de la ville de Bayonne et de la culture basque.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	10	mod	_	ExtPos=ADV|Idiom=Yes
+1	à	à	ADP	_	Shared=Yes	10	mod	_	ExtPos=ADV|Idiom=Yes
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
 3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
 4	de	de	ADP	_	_	1	comp:obl	_	_
@@ -3749,7 +3749,7 @@
 22	avec	avec	ADP	_	_	16	mod	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
-25	+	+	SYM	_	_	26	mod	_	ExtPos=ADV
+25	+	+	SYM	_	Shared=Yes	26	mod	_	ExtPos=ADV
 26	Facebookant	facebooker	VERB	_	Tense=Pres|VerbForm=Part	24	mod	_	wordform=facebookant
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	Tweetant	tweeter	VERB	_	Tense=Pres|VerbForm=Part	26	conj	_	wordform=tweetant
@@ -5286,8 +5286,8 @@
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	bien	bien	ADV	_	_	10	mod	_	_
 10	réels	réel	ADJ	_	Gender=Masc|Number=Plur	8	comp:pred	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	15	punct	_	_
-12	mais	mais	CCONJ	_	_	15	cc	_	_
+11	,	,	PUNCT	_	Shared=Yes	15	punct	_	_
+12	mais	mais	CCONJ	_	Shared=Yes	15	cc	_	_
 13	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=Yes	15	subj	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	comp:obj	_	_
 15	limitent	limiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
@@ -5990,7 +5990,7 @@
 # sent_id = fr-ud-test_00198
 # text = « Oui on le sait, mais je dirai qu'il la faut.
 1	«	«	PUNCT	_	Shared=Yes	5	punct	_	_
-2	Oui	oui	ADV	_	_	5	mod	_	wordform=oui
+2	Oui	oui	ADV	_	_	5	discourse	_	wordform=oui
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
 5	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -6462,7 +6462,7 @@
 # sent_id = fr-ud-test_00220
 # text = Cà oui, on peut dire que c'était à la fois futuriste et romantique, comme diner avec ma moitié.
 1	Cà	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	dislocated	_	wordform=cà
-2	oui	oui	INTJ	_	_	1	mod	_	SpaceAfter=No
+2	oui	oui	INTJ	_	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6625,7 +6625,7 @@
 
 # sent_id = fr-ud-test_00228
 # text = En plus il est gentil, à l'écoute et on voit qu'il aime vraiment les animaux.
-1	En	en	ADP	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
+1	En	en	ADP	_	Shared=Yes	4	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7528,7 +7528,7 @@
 
 # sent_id = fr-ud-test_00273
 # text = Par contre l'accueil est impeccable et très chaleureux, la propreté parfaite et le petit jardin très reposant...
-1	Par	par	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes|wordform=par
+1	Par	par	ADP	_	Shared=Yes	5	mod	_	ExtPos=ADV|Idiom=Yes|wordform=par
 2	contre	contre	NOUN	_	_	1	comp:obj	_	InIdiom=Yes
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
@@ -7666,7 +7666,7 @@
 51	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	52	det	_	_
 52	ami	ami	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	_
 53	quelque	quelque	DET	_	Number=Sing|PronType=Ind	54	det	_	InIdiom=Yes
-54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	ExtPos=PRON|Idiom=Yes
+54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	ExtPos=PRON|Idiom=Yes
 55	d'	de	ADP	_	_	54	mod	_	SpaceAfter=No
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	InIdiom=Yes
 57	peu	peu	NOUN	_	_	58	mod	_	ExtPos=ADV|Idiom=Yes
@@ -8217,7 +8217,7 @@
 25	États-Unis	États-Unis	PROPN	_	Number=Plur	23	comp:obj	_	_
 26	d'	de	ADP	_	_	25	udep	_	SpaceAfter=No
 27	Amérique	Amérique	PROPN	_	_	26	comp:obj	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	31	punct	_	_
+28	,	,	PUNCT	_	Shared=Yes	31	punct	_	_
 29	mais	mais	CCONJ	_	_	31	cc	_	_
 30	aussi	aussi	ADV	_	Shared=Yes	31	mod	_	_
 31-32	du	_	_	_	_	_	_	_	_
@@ -9061,7 +9061,7 @@
 2	également	également	ADV	_	_	1	mod	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	sondages	sondage	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
+5	,	,	PUNCT	_	Shared=Yes	7	punct	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=Yes	7	det	_	_
 7	vidéos	vidéo	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
@@ -9540,7 +9540,7 @@
 53	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	56	det	_	_
 54	deux	deux	NUM	_	Number=Plur	56	mod	_	_
 55	autres	autre	ADJ	_	Gender=Fem|Number=Plur	56	mod	_	_
-56	soirées	soirée	NOUN	_	Gender=Fem|Number=Plur	37	conj	_	SpaceAfter=No
+56	soirées	soirée	NOUN	_	Gender=Fem|Number=Plur	36	conj	_	SpaceAfter=No
 57	,	,	PUNCT	_	Shared=Yes	58	punct	_	_
 58	23	23	NUM	_	Number=Plur	56	orphan	_	_
 59	et	et	CCONJ	_	_	60	cc	_	_
@@ -11207,7 +11207,7 @@
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	film	film	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
-30	:	:	PUNCT	_	Shared=Yes	32	punct	_	_
+30	:	:	PUNCT	_	_	32	punct	_	_
 31	Plus	plus	ADV	_	_	32	mod	_	InTitle=Yes|wordform=plus
 32	long	long	ADJ	_	Gender=Masc|Number=Sing	29	appos	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
 33	,	,	PUNCT	_	_	35	punct	_	InTitle=Yes
