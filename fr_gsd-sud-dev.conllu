@@ -6798,7 +6798,7 @@
 
 # sent_id = fr-ud-dev_00244
 # text = Puis, ils se serrent la main et le médecin déclare :.
-1	Puis	puis	CCONJ	_	Shared=No	5	cc	_	SpaceAfter=No|wordform=puis
+1	Puis	puis	CCONJ	_	Shared=Yes	5	cc	_	SpaceAfter=No|wordform=puis
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	5	subj	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	5	comp:obl	_	_
@@ -8351,7 +8351,7 @@
 31	ou	ou	CCONJ	_	_	32	cc	_	_
 32	1387	1387	NUM	_	Number=Plur	30	conj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	29	punct	_	_
-34	et	et	CCONJ	_	Shared=No	35	cc	_	_
+34	et	et	CCONJ	_	Shared=Yes	35	cc	_	_
 35	Johan	Johan	PROPN	_	_	16	conj	_	_
 36	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 37	ou	ou	CCONJ	_	_	38	cc	_	_
@@ -8941,7 +8941,7 @@
 22	que	que	PRON	_	PronType=Rel	24	comp:obj	_	_
 23	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	wordform=on
 24	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
-25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	26	det	_	InIdiom=Yes
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	InIdiom=Yes
 26	long	long	NOUN	_	Gender=Masc|Number=Sing	24	mod	_	ExtPos=ADV|Idiom=Yes
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	26	comp:obl	_	_
@@ -14041,7 +14041,7 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	Łopuszno	Łopuszno	PROPN	_	_	10	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	Miedziana	Miedziana	PROPN	_	_	9	conj	_	_
+13	Miedziana	Miedziana	PROPN	_	_	11	conj	_	_
 14	Góra	Góra	PROPN	_	_	13	flat@name	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	Radoszyce	Radoszyce	PROPN	_	_	13	conj	_	SpaceAfter=No
@@ -15395,7 +15395,7 @@
 
 # sent_id = fr-ud-dev_00552
 # text = L'ASU ou Active Set Update est une valeur entière, proportionnelle à la force du signal reçu, mesurée par le téléphone mobile.
-1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=Yes	2	det	_	SpaceAfter=No|wordform=l'
 2	ASU	ASU	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 3	ou	ou	CCONJ	_	_	4	cc	_	_
 4	Active	Active	PROPN	_	_	2	conj	_	_
@@ -18778,7 +18778,7 @@
 
 # sent_id = fr-ud-dev_00676
 # text = D'après ce que nous avons compris, il y avait cette année de nombreux programmes très intéressants et nous sommes donc particulièrement fiers de figurer parmi les finalistes sélectionnés par la Commission européenne.
-1	D'	de	ADP	_	_	11	mod	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No|wordform=d'
+1	D'	de	ADP	_	Shared=No	11	mod	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No|wordform=d'
 2	après	après	ADP	_	_	1	unk	_	InIdiom=Yes
 3	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	1	comp:obj	_	_
 4	que	que	PRON	_	PronType=Rel	7	comp:obj	_	_
@@ -18816,7 +18816,7 @@
 
 # sent_id = fr-ud-dev_00677
 # text = Les chevaux galopants ou Pony trekking est un type d'attraction que l'on trouve dans les parcs d'attractions.
-1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	2	det	_	wordform=les
 2	chevaux	cheval	NOUN	_	Gender=Masc|Number=Plur	7	subj	_	_
 3	galopants	galopant	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	ou	ou	CCONJ	_	_	5	cc	_	_
@@ -18989,7 +18989,7 @@
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	fondues	fondre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	dans	dans	ADP	_	_	10	comp:obl	_	_
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	13	det	_	_
 13	Coordination	coordination	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	wordform=coordination
 14	Démocratique	démocratique	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	wordform=démocratique
 15	ou	ou	CCONJ	_	_	16	cc	_	_
@@ -23301,7 +23301,7 @@
 31	beaucoup	beaucoup	ADV	_	_	32	mod	_	_
 32	plus	plus	ADV	_	_	33	mod	_	_
 33	réduite	réduire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	mod	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	38	punct	_	_
+34	,	,	PUNCT	_	Shared=Yes	38	punct	_	_
 35	ainsi	ainsi	ADV	_	Shared=Yes	38	cc	_	ExtPos=CCONJ|Idiom=Yes
 36	que	que	SCONJ	_	_	35	unk	_	InIdiom=Yes
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	38	det	_	_
@@ -23370,15 +23370,15 @@
 6	Béni	bénir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	wordform=béni
 7	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	SpaceAfter=No
 8	-Tu	il	PRON	_	Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	subj	_	SpaceAfter=No|wordform=tu
-9	,	,	PUNCT	_	Shared=Yes	11	punct	_	_
+9	,	,	PUNCT	_	_	11	punct	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	Éternel	Éternel	PROPN	_	Number=Sing	8	appos	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	Maître	Maître	PROPN	_	_	11	conj	_	_
+13	Maître	Maître	PROPN	_	_	11	appos	_	_
 14	de	de	ADP	_	_	13	udep	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	Univers	Univers	PROPN	_	Number=Sing	14	comp:obj	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	20	punct	_	_
+17	,	,	PUNCT	_	_	13	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 19	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	21	comp:obj	_	_
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
@@ -25935,7 +25935,7 @@
 
 # sent_id = fr-ud-dev_00937
 # text = Selon les époques et les civilisations, les artistes ont exécuté ces figurines de manière réaliste, ou bien, au contraire, ils ont pris la plus grande liberté pour interpréter leur sujet.
-1	Selon	selon	ADP	_	Shared=No	10	mod	_	wordform=selon
+1	Selon	selon	ADP	_	Shared=Yes	10	mod	_	wordform=selon
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	3	det	_	_
 3	époques	époque	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 4	et	et	CCONJ	_	_	6	cc	_	_
@@ -30708,11 +30708,11 @@
 1	à	à	ADP	_	_	0	root	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	programme	programme	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
-4	:	:	PUNCT	_	_	5	punct	_	_
+4	:	:	PUNCT	_	Shared=Yes	5	punct	_	_
 5	François	François	PROPN	_	_	3	appos	_	_
 6	Grange	Grange	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	Michel	Michel	PROPN	_	_	3	conj	_	_
+8	Michel	Michel	PROPN	_	_	5	conj	_	_
 9	Faubert	Faubert	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	Ben	Ben	PROPN	_	_	8	conj	_	_
@@ -30913,7 +30913,7 @@
 
 # sent_id = fr-ud-dev_01116
 # text = En effet, plus la proximité génétique est grande, plus il devrait y avoir d'amibes prêtes à se sacrifier, par acte altruiste, pour les membres de la capsule.
-1	En	en	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
+1	En	en	ADP	_	Shared=Yes	8	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	plus	plus	ADV	_	_	6	mod	_	_
@@ -33974,7 +33974,7 @@
 36	à	à	ADP	_	_	35	comp:obl@x	_	_
 37	être	être	AUX	_	VerbForm=Inf	36	comp:obj	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
-39	victimes	victime	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	37	comp:pred	_	_
+39	victimes	victime	NOUN	_	Gender=Fem|Number=Plur	37	comp:pred	_	_
 40	de	de	ADP	_	_	39	udep	_	_
 41	graves	grave	ADJ	_	Gender=Masc|Number=Plur	42	mod	_	_
 42	abus	abus	NOUN	_	Gender=Masc|Number=Plur	40	comp:obj	_	_
@@ -34567,7 +34567,7 @@
 9	vins	vin	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	Saint-Pourçain	Saint-Pourçain	PROPN	_	_	10	comp:obj	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	_
+12	,	,	PUNCT	_	Shared=Yes	14	punct	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	14	det	_	_
 14	charcuterie	charcuterie	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
@@ -35751,8 +35751,8 @@
 24	»	»	PUNCT	_	_	23	punct	_	_
 25	et	et	CCONJ	_	_	28	cc	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	nord	nord	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
-28	de	de	ADP	_	_	27	orphan	_	_
+27	nord	nord	NOUN	_	Gender=Masc|Number=Sing	28	orphan	_	_
+28	de	de	ADP	_	_	19	conj	_	_
 29	droit	droit	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 30	coutumier	coutumier	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
@@ -39329,7 +39329,7 @@
 
 # sent_id = fr-ud-dev_01414
 # text = Puis elle se tourne vers le théâtre en 1932 et est engagée au Birmingham Repertory Théâtre.
-1	Puis	puis	CCONJ	_	Shared=No	4	cc	_	wordform=puis
+1	Puis	puis	CCONJ	_	_	4	cc	_	wordform=puis
 2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	4	subj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	4	comp:obj	_	_
 4	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -39408,7 +39408,7 @@
 # sent_id = fr-ud-dev_01418
 # text = Cuisine hyper créative mais aussi traditionnelle pour les puristes.
 1	Cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	wordform=cuisine
-2	hyper	hyper	ADV	_	_	3	mod	_	_
+2	hyper	hyper	ADV	_	Shared=No	3	mod	_	_
 3	créative	créatif	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	_
 4	mais	mais	CCONJ	_	_	6	cc	_	_
 5	aussi	aussi	ADV	_	_	6	mod	_	_
@@ -39475,7 +39475,7 @@
 12	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	:	:	PUNCT	_	Shared=Yes	17	punct	_	_
-15	«	«	PUNCT	_	_	17	punct	_	_
+15	«	«	PUNCT	_	Shared=Yes	17	punct	_	_
 16	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	17	subj	_	SpaceAfter=No|wordform=j'
 17	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
 18	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
