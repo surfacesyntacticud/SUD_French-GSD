@@ -5990,7 +5990,7 @@
 # sent_id = fr-ud-test_00198
 # text = « Oui on le sait, mais je dirai qu'il la faut.
 1	«	«	PUNCT	_	Shared=Yes	5	punct	_	_
-2	Oui	oui	ADV	_	_	5	discourse	_	wordform=oui
+2	Oui	oui	ADV	_	Shared=No	5	discourse	_	wordform=oui
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	5	subj	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	5	comp:obj	_	_
 5	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -7551,7 +7551,7 @@
 
 # sent_id = fr-ud-test_00274
 # text = Petits coups de vin à boire au verre, pour 2-4 €, bière du Montblanc accompagne un repas succulent qui se déguste aussi à la carte.
-1	Petits	petit	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	wordform=petits
+1	Petits	petit	ADJ	_	Gender=Masc|Number=Plur|Shared=No	2	mod	_	wordform=petits
 2	coups	coup	NOUN	_	Gender=Masc|Number=Plur	19	subj	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	vin	vin	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -7676,7 +7676,7 @@
 
 # sent_id = fr-ud-test_00277
 # text = Pour terminer ils disent qu'ils ont internet gratuit, mais il ne marche pratiquement jamais.
-1	Pour	pour	ADP	_	_	4	mod@x	_	wordform=pour
+1	Pour	pour	ADP	_	Shared=No	4	mod@x	_	wordform=pour
 2	terminer	terminer	VERB	_	VerbForm=Inf	1	comp:obj	_	_
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	4	subj	_	_
 4	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7920,7 +7920,7 @@
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	16	det	_	_
 16	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
-17	où	où	ADV	_	PronType=Rel	19	mod	_	_
+17	où	où	ADV	_	PronType=Rel|Shared=No	19	mod	_	_
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	19	subj	_	_
 19	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
@@ -9463,7 +9463,7 @@
 7	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	comp:aux@pass	_	CorrectForm=desservi|CorrectGender=Masc
 8	que	que	ADV	_	_	9	mod	_	_
 9	par	par	ADP	_	_	7	comp:obl@agent	_	_
-10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=Yes	11	det	_	_
 11	voies	voie	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
 12	communales	communal	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
 13	depuis	depuis	ADP	_	_	6	mod	_	_
@@ -10703,7 +10703,7 @@
 17	maximiser	maximiser	VERB	_	VerbForm=Inf	16	comp:obj	_	_
 18	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	19	det	_	_
 19	utilité	utilité	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
-20	et	et	CCONJ	_	_	35	cc	_	_
+20	et	et	CCONJ	_	Shared=Yes	35	cc	_	_
 21	lorsqu'	lorsque	SCONJ	_	Shared=Yes	35	mod	_	SpaceAfter=No
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
