@@ -11032,7 +11032,7 @@
 15	tandis	tandis	ADV	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes
 16	qu'	que	SCONJ	_	_	15	unk	_	InIdiom=Yes|SpaceAfter=No
 17-18	au	_	_	_	_	_	_	_	_
-17	à	à	ADV	_	_	26	mod	_	ExtPos=ADV|Idiom=Yes|wordform=au-dessus
+17	à	à	ADV	_	_	26	mod	_	ExtPos=ADV|wordform=au-dessus
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	goeswith	_	wordform=_
 19	dessus	dessus	NOUN	_	Gender=Masc	17	goeswith	_	wordform=_
 20	de	de	ADP	_	_	17	comp:obl	_	_
