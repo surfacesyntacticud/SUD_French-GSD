@@ -4682,7 +4682,7 @@
 31	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	30	mod	_	_
 32	de	de	ADP	_	_	30	udep	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
-34	Empereur	Empereur	PROPN	_	Number=Sing	32	comp:obj	_	_
+34	Empereur	empereur	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	wordform=empereur
 35	de	de	ADP	_	_	34	udep	_	_
 36	Sainte-Hélène	Sainte-Hélène	PROPN	_	_	35	comp:obj	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	25	punct	_	_
@@ -9847,7 +9847,7 @@
 19	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	19	comp:aux@pass	_	_
 21	en	en	ADP	_	_	20	mod	_	_
-22	évidence	évidence	PROPN	_	_	21	comp:obj	_	_
+22	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 23	par	par	ADP	_	_	20	comp:obl@agent	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	participants	participant	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	_
@@ -11672,7 +11672,7 @@
 16-17	aux	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	15	comp:obl	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	éditions	éditions	PROPN	_	Number=Plur	16	comp:obj	_	_
+18	éditions	édition	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 19	Gallimard	Gallimard	PROPN	_	_	18	appos	_	_
 20	Jeunesse	Jeunesse	PROPN	_	_	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
@@ -13417,7 +13417,7 @@
 10	presse	presse	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 11	défavorables	défavorable	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 12	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
-13	écho	écho	PROPN	_	_	12	comp:obj	_	SpaceAfter=No
+13	écho	écho	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	1	punct	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	salariés	salarié	NOUN	_	Gender=Masc|Number=Plur	21	subj	_	_
@@ -14858,7 +14858,7 @@
 27	quelques	quelque	DET	_	Number=Plur|PronType=Ind	28	det	_	_
 28	fils	fil	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	_
 29	d'	de	ADP	_	_	28	udep	_	SpaceAfter=No
-30	étanchéité	étanchéité	PROPN	_	_	29	comp:obj	_	_
+30	étanchéité	étanchéité	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
 31	!	!	PUNCT	_	_	25	punct	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	25	punct	_	_
 
@@ -17462,11 +17462,11 @@
 6	pour	pour	ADP	_	_	5	mod	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	prix	prix	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
-9	Croûte	Croûte	PROPN	_	_	8	appos	_	_
+9	Croûte	croûte	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	wordform=croûte
 10	&	&	SYM	_	_	11	cc	_	ExtPos=CCONJ
-11	Chef	Chef	PROPN	_	_	9	conj	_	_
+11	Chef	chef	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	wordform=chef
 12	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
-13	Œuvre	Œuvre	PROPN	_	_	12	comp:obj	_	SpaceAfter=No
+13	Œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No|wordform=œuvre
 14	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00629
@@ -32129,10 +32129,10 @@
 
 # sent_id = fr-ud-dev_01162
 # text = Seul, avec Claude est un film canadien (titre original : Being at Home with Claude) de Jean Beaudin de 1992 avec Roy Dupuis, Jacques Godin et Jean-François Pichette.
-1	Seul	Seul	PROPN	_	_	5	subj	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	avec	avec	ADP	_	_	1	udep	_	_
-4	Claude	Claude	PROPN	_	_	3	comp:obj	_	_
+1	Seul	seul	ADJ	_	Gender=Masc|Number=Sing	5	subj	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
+2	,	,	PUNCT	_	_	3	punct	_	InTitle=Yes
+3	avec	avec	ADP	_	_	1	udep	_	InTitle=Yes
+4	Claude	Claude	PROPN	_	_	3	comp:obj	_	InTitle=Yes
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	film	film	NOUN	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
@@ -40163,7 +40163,7 @@
 12	internes	interne	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
 13	mettent	mettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	en	en	ADP	_	_	13	mod	_	_
-15	évidence	évidence	PROPN	_	_	14	comp:obj	_	_
+15	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	17	det	_	_
 17	absence	absence	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
