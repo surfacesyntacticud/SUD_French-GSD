@@ -23910,24 +23910,22 @@
 8	pour	pour	ADP	_	_	7	udep	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	WNBA	WNBA	PROPN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-11	All	All	PROPN	_	_	10	flat@name	_	SpaceAfter=No
-12	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	Star	Star	PROPN	_	_	11	flat@name	_	_
-14	Game	Game	PROPN	_	_	13	flat@name	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	avec	avec	ADP	_	_	3	mod	_	_
-17	15,7	15,7	NUM	_	Number=Plur|Shared=No	18	det	_	_
-18	pts	point	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	21	punct	_	_
-20	4,9	4,9	NUM	_	Number=Plur	21	det	_	_
-21	rbds	rbd	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	24	punct	_	_
-23	1,8	1,8	NUM	_	Number=Plur	24	det	_	_
-24	passes	passe	NOUN	_	Gender=Fem|Number=Plur	21	conj	_	_
-25	et	et	CCONJ	_	_	27	cc	_	_
-26	1,36	1,36	NUM	_	Number=Plur	27	det	_	_
-27	interceptions	interception	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	3	punct	_	_
+11	All-Star	All-Star	PROPN	_	_	10	flat@name	_	_
+12	Game	Game	PROPN	_	_	11	flat@name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	avec	avec	ADP	_	_	3	mod	_	_
+15	15,7	15,7	NUM	_	Number=Plur|Shared=No	16	det	_	_
+16	pts	point	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	4,9	4,9	NUM	_	Number=Plur	19	det	_	_
+19	rbds	rbd	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	1,8	1,8	NUM	_	Number=Plur	22	det	_	_
+22	passes	passe	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	_
+23	et	et	CCONJ	_	_	25	cc	_	_
+24	1,36	1,36	NUM	_	Number=Plur	25	det	_	_
+25	interceptions	interception	NOUN	_	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00865
 # text = Sa population est de 1 231 habitants (01.01.2012).
@@ -24385,20 +24383,18 @@
 15	construit	construire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	mod	_	_
 16	par	par	ADP	_	_	15	comp:obl@agent	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Curtiss	Curtiss	PROPN	_	Gender=Fem|Number=Sing	16	comp:obj	_	SpaceAfter=No
-19	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
-20	Wright	Wright	PROPN	_	_	18	flat@name	_	_
-21	Corporation	Corporation	PROPN	_	_	20	flat@name	_	_
-22	pour	pour	ADP	_	_	15	mod	_	_
-23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	compte	compte	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
-25	de	de	ADP	_	_	24	udep	_	_
-26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
-27	United	United	PROPN	_	Number=Sing	25	comp:obj	_	_
-28	States	States	PROPN	_	_	27	flat@name	_	_
-29	Army	Army	PROPN	_	_	28	flat@name	_	_
-30	Air	Air	PROPN	_	_	29	flat@name	_	_
-31	Corps	Corps	PROPN	_	_	30	flat@name	_	_
+18	Curtiss-Wright	Curtiss-Wright	PROPN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
+19	Corporation	Corporation	PROPN	_	_	18	flat@name	_	_
+20	pour	pour	ADP	_	_	15	mod	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	compte	compte	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
+23	de	de	ADP	_	_	22	udep	_	_
+24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	United	United	PROPN	_	Number=Sing	23	comp:obj	_	_
+26	States	States	PROPN	_	_	25	flat@name	_	_
+27	Army	Army	PROPN	_	_	26	flat@name	_	_
+28	Air	Air	PROPN	_	_	27	flat@name	_	_
+29	Corps	Corps	PROPN	_	_	28	flat@name	_	_
 
 # sent_id = fr-ud-dev_00885
 # text = Le théâtre musical s'installera lui aussi dans la deuxième moitié du siècle avec l'opérette et l'opéra comique que représentent bien les œuvres d'Offenbach.
