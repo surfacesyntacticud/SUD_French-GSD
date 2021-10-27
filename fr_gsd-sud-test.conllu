@@ -9266,7 +9266,7 @@
 10	USS	USS	PROPN	_	_	9	flat@name	_	_
 11	O'Hare	O'Hare	PROPN	_	_	10	flat@name	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	DD-889	DD-889	NUM	_	Number=Plur	8	appos	_	SpaceAfter=No
+13	DD-889	DD-889	X	_	_	8	appos	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	_
 15	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 16	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@pass	_	_

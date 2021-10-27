@@ -6679,7 +6679,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Chicago	Chicago	PROPN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	CA-14	CA-14	NUM	_	Number=Plur	5	appos	_	SpaceAfter=No
+7	CA-14	CA-14	X	_	_	5	appos	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	comp@expl	_	_
@@ -13506,7 +13506,7 @@
 # text = La DeLorean DMC-12 a été popularisée dans la trilogie Retour vers le futur, où elle sert à voyager dans le temps.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	DeLorean	DeLorean	PROPN	_	Gender=Fem|Number=Sing	4	subj@pass	_	_
-3	DMC-12	DMC-12	NUM	_	Number=Plur	2	appos	_	_
+3	DMC-12	DMC-12	X	_	_	2	appos	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	popularisée	populariser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
@@ -13601,7 +13601,7 @@
 3	Gare	gare	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	wordform=gare
 4	de	de	ADP	_	_	3	udep	_	_
 5	Houdan	Houdan	PROPN	_	_	4	comp:obj	_	_
-6	10.JPG	10.JPG	NUM	_	Number=Plur	3	mod	_	_
+6	10.JPG	10.JPG	X	_	_	3	mod	_	_
 7	|	|	PUNCT	_	_	9	punct	_	_
 8	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	wordform=le
 9	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
@@ -24368,7 +24368,7 @@
 # text = Le Curtiss XP-62 était un prototype de chasseur monoplace de hautes performances lourdement armé construit par la Curtiss-Wright Corporation pour le compte de l'United States Army Air Corps
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Curtiss	Curtiss	PROPN	_	Gender=Masc|Number=Sing	4	subj	_	_
-3	XP-62	XP-62	NUM	_	Number=Plur	2	appos	_	_
+3	XP-62	XP-62	X	_	_	2	appos	_	_
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	prototype	prototype	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
@@ -39033,7 +39033,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	U-boot	U-boot	PROPN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	allemand	allemand	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
-11	U-49	U-49	NUM	_	Number=Plur	9	appos	_	_
+11	U-49	U-49	X	_	_	9	appos	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
 13	transportait	transporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	_
 14	à	à	ADP	_	_	13	mod	_	_
