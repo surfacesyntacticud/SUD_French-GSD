@@ -6735,7 +6735,7 @@
 4	Gura	Gura	PROPN	_	_	3	comp:obj	_	_
 5	Vitioarei	Vitioarei	PROPN	_	_	4	flat@name	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+7	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:pred@x	_	_
 8	dans	dans	ADP	_	_	7	comp:obl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	centre-nord	centre-nord	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
@@ -7083,7 +7083,7 @@
 2	site	site	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 3	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:pred@x	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	confluence	confluence	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -7105,7 +7105,7 @@
 # text = Il est situé sur la rive gauche de l'Alagnon, presque à la lisière des bois.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+3	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:pred@x	_	_
 4	sur	sur	ADP	_	_	2	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	rive	rive	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
@@ -11217,7 +11217,7 @@
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
 2	église	église	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
+4	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:pred@x	_	_
 5	dans	dans	ADP	_	_	4	comp:obl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	département	département	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -13926,7 +13926,7 @@
 7	Petrov	Petrov	PROPN	_	_	4	conj	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	9	comp:aux@tense	_	CorrectForm=située|CorrectGender=Fem
+10	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	9	comp:pred@x	_	CorrectForm=située|CorrectGender=Fem
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	Brno	Brno	PROPN	_	_	11	comp:obj	_	_
 13	en	en	ADP	_	_	10	mod	_	_
@@ -21049,7 +21049,7 @@
 9	,	,	PUNCT	_	Shared=Yes	11	punct	_	_
 10	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	11	subj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-12	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
+12	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	comp:pred@x	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	71	71	NUM	_	Number=Plur	15	det	_	_
 15	km	km	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
@@ -31657,7 +31657,7 @@
 # text = Il est situé sur Cat Island.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+3	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:pred@x	_	_
 4	sur	sur	ADP	_	_	2	mod	_	_
 5	Cat	Cat	PROPN	_	_	4	comp:obj	_	_
 6	Island	Island	PROPN	_	_	5	flat@name	_	SpaceAfter=No

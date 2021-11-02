@@ -7150,7 +7150,7 @@
 2	paroisse	paroisse	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	Marie-Reine-des-Coeurs	Marie-Reine-des-Coeurs	PROPN	_	_	2	appos	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:pred@x	_	_
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
