@@ -879,7 +879,7 @@
 2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	4	subj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@pass	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
+5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:pred@x	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	mais	mais	CCONJ	_	_	9	cc	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
@@ -9512,7 +9512,7 @@
 26	qui	qui	PRON	_	PronType=Rel	28	subj	_	_
 27	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	29	comp@pass	_	SpaceAfter=No
 28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	_
-29	jouée	jouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	comp:aux@tense	_	_
+29	jouée	jouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	comp:pred@x	_	_
 30	en	en	ADP	_	_	28	mod	_	_
 31	deux	deux	NUM	_	Number=Plur	32	det	_	_
 32	fois	fois	NOUN	_	Gender=Fem|Number=Plur	30	comp:obj	_	_
@@ -10471,7 +10471,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	Cachoubie	Cachoubie	PROPN	_	_	3	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	réputée	réputer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
+6	réputée	réputer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:pred@x	_	_
 7	plus	plus	ADV	_	Shared=No	8	mod	_	_
 8	savoureuse	savoureux	ADJ	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
 9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
