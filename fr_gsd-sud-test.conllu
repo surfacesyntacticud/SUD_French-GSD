@@ -437,7 +437,7 @@
 7	communication	communication	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	aussi	aussi	ADV	_	_	8	mod	_	_
-10	vouée	vouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
+10	vouée	vouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
 11	à	à	ADP	_	_	10	comp:obl@x	_	_
 12	être	être	AUX	_	VerbForm=Inf	11	comp:obj	_	_
 13	préservée	préserver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@pass	_	SpaceAfter=No
@@ -1674,7 +1674,7 @@
 1	N'	ne	ADV	_	Polarity=Neg	2	mod	_	SpaceAfter=No|wordform=n'
 2	étant	être	AUX	_	Tense=Pres|VerbForm=Part	15	mod	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
-4	préparés	préparer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+4	préparés	préparer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 5	pour	pour	ADP	_	_	2	mod@x	_	_
 6	recevoir	recevoir	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 7	plus	plus	ADV	_	_	6	comp:obj	_	ExtPos=PRON
@@ -1928,7 +1928,7 @@
 49	et	et	CCONJ	_	_	51	cc	_	_
 50	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	subj	_	_
 51	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	conj	_	_
-52	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	comp:aux@tense	_	_
+52	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	comp:aux@pass	_	_
 53-54	au	_	_	_	_	_	_	_	_
 53	à	à	ADP	_	_	52	comp:obl	_	_
 54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
@@ -6655,7 +6655,7 @@
 6	qui	qui	PRON	_	PronType=Rel	7	subj	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 8	parfaitement	parfaitement	ADV	_	_	9	mod	_	_
-9	justifiée	justifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
+9	justifiée	justifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
 10	par	par	ADP	_	_	9	comp:obl@agent	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -9587,7 +9587,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	fortement	fortement	ADV	_	_	4	mod	_	_
-4	bridé	brider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+4	bridé	brider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 5	sur	sur	ADP	_	_	2	mod	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	version	version	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -9784,7 +9784,7 @@
 19	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	21	subj	_	SpaceAfter=No
 20	y	y	PRON	_	Person=3|PronType=Prs	22	comp:obl	_	_
 21	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
-22	retourné	retourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux@tense	_	SpaceAfter=No
+22	retourné	retourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux@pass	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01538
@@ -10707,7 +10707,7 @@
 21	lorsqu'	lorsque	SCONJ	_	Shared=Yes	35	mod	_	SpaceAfter=No
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
-24	amené	amener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@tense	_	_
+24	amené	amener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@pass	_	_
 25	à	à	ADP	_	_	24	comp:obl@x	_	_
 26	faire	faire	VERB	_	VerbForm=Inf	25	comp:obj	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -11496,7 +11496,7 @@
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	communaux	communaux	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-14	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
+14	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@pass	_	_
 15	à	à	ADP	_	_	13	mod	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	issue	issue	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
