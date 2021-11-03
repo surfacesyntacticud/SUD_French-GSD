@@ -367,7 +367,7 @@
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	5	det	_	_
 5	liste	liste	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	qu'	que	SCONJ	_	_	2	comp:cleft	_	SpaceAfter=No
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@pass	_	_
 8	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	comp:obj	_	_
 9	réélu	réélire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
 10	en	en	ADP	_	_	8	mod	_	_
@@ -963,7 +963,7 @@
 
 # sent_id = fr-ud-dev_00036
 # text = Elle est traditionnellement divisée en deux parties : la zone de Sorgenfrei-Tornquist au nord-ouest, et la zone de Teisseyre-Tornquist au sud-est, la jonction s'effectuant au niveau de Bornholm.
-1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	wordform=elle
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	traditionnellement	traditionnellement	ADV	_	_	2	mod	_	_
 4	divisée	diviser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
@@ -1828,7 +1828,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	audace	audace	NOUN	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
-8	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
+8	qui	qui	PRON	_	PronType=Rel	9	subj@pass	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:cleft	_	_
 10	récompensée	récompenser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@pass	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
@@ -2845,7 +2845,7 @@
 # text = Les six suites pour violoncelle seul de Johann Sebastian Bach (BWV 1007 à 1012) sont considérées comme les classiques incontournables du répertoire de cet instrument.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	wordform=les
 2	six	six	NUM	_	Number=Plur	3	mod	_	_
-3	suites	suite	NOUN	_	Gender=Fem|Number=Plur	17	subj	_	_
+3	suites	suite	NOUN	_	Gender=Fem|Number=Plur	17	subj@pass	_	_
 4	pour	pour	ADP	_	_	3	udep	_	_
 5	violoncelle	violoncelle	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	seul	seul	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
@@ -3129,7 +3129,7 @@
 # sent_id = fr-ud-dev_00111
 # text = Le château est classé Monument historique depuis le 3 octobre 1997.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	château	château	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	château	château	NOUN	_	Gender=Masc|Number=Sing	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	classé	classer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	Monument	monument	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	wordform=monument
@@ -4296,7 +4296,7 @@
 
 # sent_id = fr-ud-dev_00157
 # text = Ceci est dû à sa structure amorphe et à l'absence de défauts de taille supérieure à la fraction de micromètre.
-1	Ceci	ceci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=ceci
+1	Ceci	ceci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@pass	_	wordform=ceci
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
@@ -4863,7 +4863,7 @@
 # sent_id = fr-ud-dev_00178
 # text = Le village est niché dans la vallée de l'Euron qui prend sa source au-delà de Passoncourt dans le vallon de Tantozaine à la limite de la commune de Saint-Genest.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	village	village	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	village	village	NOUN	_	Gender=Masc|Number=Sing	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	niché	nicher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	dans	dans	ADP	_	_	4	comp:obl	_	_
@@ -7605,7 +7605,7 @@
 
 # sent_id = fr-ud-dev_00271
 # text = Il est conservé à la Bibliothèque royale des Pays-Bas à La Haye sous la cote 76 F 2.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	conservé	conserver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
@@ -7797,7 +7797,7 @@
 5	mineur	mineur	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 6	et	et	CCONJ	_	_	9	cc	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	métal	métal	NOUN	_	Gender=Masc|Number=Sing	9	subj	_	_
+8	métal	métal	NOUN	_	Gender=Masc|Number=Sing	9	subj@pass	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	produit	produire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@pass	_	_
 11	de	de	ADP	_	_	10	mod	_	_
@@ -8524,7 +8524,7 @@
 
 # sent_id = fr-ud-dev_00305
 # text = Ils sont communément appelés Intercom.
-1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	wordform=ils
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj@pass	_	wordform=ils
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	communément	communément	ADV	_	_	4	mod	_	_
 4	appelés	appeler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
@@ -8755,7 +8755,7 @@
 # sent_id = fr-ud-dev_00315
 # text = Cet inconvénient fut résolu en 1944 avec l'arrivée du Sexton, qui possédait un canon de 25 livres d'origine britannique.
 1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=cet
-2	inconvénient	inconvénient	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	inconvénient	inconvénient	NOUN	_	Gender=Masc|Number=Sing	3	subj@pass	_	_
 3	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	résolu	résoudre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	en	en	ADP	_	_	3	mod	_	_
@@ -11044,7 +11044,7 @@
 
 # sent_id = fr-ud-dev_00401
 # text = Doduo et Dodrio sont initialement nommés Dodo (ドードー, Dōdō) et Dodorio (ドードリオ, Dōdorio) en japonais.
-1	Doduo	Doduo	PROPN	_	_	4	subj	_	_
+1	Doduo	Doduo	PROPN	_	_	4	subj@pass	_	_
 2	et	et	CCONJ	_	_	3	cc	_	_
 3	Dodrio	Dodrio	PROPN	_	_	1	conj	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11329,7 +11329,7 @@
 # sent_id = fr-ud-dev_00410
 # text = L'économie de la commune est dut aux entreprises individuelles, transport routier de marchandises et produits fermiers.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
-2	économie	économie	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
+2	économie	économie	NOUN	_	Gender=Fem|Number=Sing	6	subj@pass	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	commune	commune	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -12175,7 +12175,7 @@
 4	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	comp:obj	_	_
 5	que	que	SCONJ	_	_	2	comp:obj	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	loi	loi	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
+7	loi	loi	NOUN	_	Gender=Fem|Number=Sing	13	subj@pass	_	_
 8	sur	sur	ADP	_	_	7	udep	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	tabac	tabac	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
@@ -12207,7 +12207,7 @@
 # sent_id = fr-ud-dev_00442
 # text = L'occasion était aussi toute trouvée pour évoquer l'enlèvement de trois Européens membres d'une ONG dans les camps de réfugiés sahraouis.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
-2	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+2	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	3	subj@pass	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	aussi	aussi	ADV	_	_	3	mod	_	_
 5	toute	tout	ADJ	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
@@ -12549,7 +12549,7 @@
 # sent_id = fr-ud-dev_00454
 # text = Ce canton est organisé autour de Vic-sur-Aisne dans l'arrondissement de Soissons.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=ce
-2	canton	canton	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	canton	canton	NOUN	_	Gender=Masc|Number=Sing	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	autour	autour	ADV	_	_	4	mod	_	_
@@ -13010,7 +13010,7 @@
 1	Mais	mais	CCONJ	_	_	19	cc	_	wordform=mais
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 3	quatre	quatre	NUM	_	Number=Plur	4	mod	_	_
-4	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	19	subj	_	_
+4	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	19	subj@pass	_	_
 5	(	(	PUNCT	_	Shared=Yes	6	punct	_	SpaceAfter=No
 6	Mark	Mark	PROPN	_	_	4	appos	_	_
 7	Hopkins	Hopkins	PROPN	_	_	6	flat@name	_	SpaceAfter=No
@@ -13356,7 +13356,7 @@
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
-10	permis	permis	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
+10	permis	permis	NOUN	_	Gender=Masc|Number=Sing	13	subj@pass	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	construire	construire	VERB	_	VerbForm=Inf	11	comp:obj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13489,7 +13489,7 @@
 # sent_id = fr-ud-dev_00486
 # text = La formation de craquelures est appelée craquelage (crazing en anglais).
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
-2	formation	formation	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
+2	formation	formation	NOUN	_	Gender=Fem|Number=Sing	5	subj@pass	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	craquelures	craquelure	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13571,7 +13571,7 @@
 # sent_id = fr-ud-dev_00490
 # text = Les utilisateurs ne sont pas supposés devoir lire de la documentation de bas niveau pour réussir à faire compiler des bibliothèques dynamiques.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	utilisateurs	utilisateur	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
+2	utilisateurs	utilisateur	NOUN	_	Gender=Masc|Number=Plur	4	subj@pass	_	_
 3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
@@ -14573,7 +14573,7 @@
 # sent_id = fr-ud-dev_00525
 # text = Un exemplaire en est conservé au musée Carnavalet (ND 0203).
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=un
-2	exemplaire	exemplaire	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
+2	exemplaire	exemplaire	NOUN	_	Gender=Masc|Number=Sing	4	subj@pass	_	_
 3	en	en	PRON	_	Person=3|PronType=Prs	2	udep	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	conservé	conserver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
@@ -15835,7 +15835,7 @@
 15	de	de	ADP	_	_	12	conj	_	_
 16	Bob	Bob	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
-18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
+18	qui	qui	PRON	_	PronType=Rel	19	subj@pass	_	_
 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 20	supposés	supposer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	comp:aux@pass	_	_
 21	physiquement	physiquement	ADV	_	_	22	mod	_	_
@@ -16376,7 +16376,7 @@
 # sent_id = fr-ud-dev_00587
 # text = Les ISA Brown sont reconnues pour leur côté amical et leur proximité avec l'homme.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	ISA	ISA	PROPN	_	Number=Plur	4	subj	_	_
+2	ISA	ISA	PROPN	_	Number=Plur	4	subj@pass	_	_
 3	Brown	Brown	PROPN	_	_	2	flat@name	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	reconnues	reconnaître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
@@ -16577,7 +16577,7 @@
 22	partie	partie	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj@lvc	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	1	punct	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	25	det	_	SpaceAfter=No
-25	appartenance	appartenance	NOUN	_	Gender=Fem|Number=Sing	34	subj	_	_
+25	appartenance	appartenance	NOUN	_	Gender=Fem|Number=Sing	34	subj@pass	_	_
 26	ou	ou	CCONJ	_	_	27	cc	_	_
 27	non	non	ADV	_	Polarity=Neg	25	conj	_	_
 28	à	à	ADP	_	Shared=Yes	27	udep	_	_
@@ -18723,7 +18723,7 @@
 31	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	23	punct	_	_
 33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
-34	cônes	cône	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	35	subj	_	_
+34	cônes	cône	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	35	subj@pass	_	_
 35	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 36	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	35	mod	_	_
 37	orientés	orienter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	35	comp:aux@pass	_	_
@@ -18979,7 +18979,7 @@
 # sent_id = fr-ud-dev_00682
 # text = La Junte Démocratique et la Plateforme de Convergence sont fondues dans la Coordination Démocratique ou Platajunta le 26 mars.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	2	det	_	wordform=la
-2	Junte	junte	NOUN	_	Gender=Fem|Number=Sing	9	subj	_	wordform=junte
+2	Junte	junte	NOUN	_	Gender=Fem|Number=Sing	9	subj@pass	_	wordform=junte
 3	Démocratique	démocratique	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	wordform=démocratique
 4	et	et	CCONJ	_	_	6	cc	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -19188,7 +19188,7 @@
 5	Mont	Mont	PROPN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	Rushmore	Rushmore	PROPN	_	_	5	appos	_	_
 7	et	et	CCONJ	_	_	10	cc	_	_
-8	vous	il	PRON	_	Person=2|PronType=Prs	10	subj	_	_
+8	vous	il	PRON	_	Person=2|PronType=Prs	10	subj@pass	_	_
 9	vous	le	PRON	_	Person=2|PronType=Prs	11	comp:obj	_	_
 10	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
 11	égarés	égarer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	comp:aux@pass	_	_
@@ -19459,7 +19459,7 @@
 8	Mérimée	Mérimée	PROPN	_	_	7	flat@name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	aile	aile	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
+11	aile	aile	NOUN	_	Gender=Fem|Number=Sing	13	subj@pass	_	_
 12	restante	restant	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	utilisée	utiliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@pass	_	_
@@ -23369,7 +23369,7 @@
 5	:	:	PUNCT	_	_	7	punct	_	_
 6	Béni	bénir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	wordform=béni
 7	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	SpaceAfter=No
-8	-Tu	il	PRON	_	Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	subj	_	SpaceAfter=No|wordform=tu
+8	-Tu	il	PRON	_	Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	subj@pass	_	SpaceAfter=No|wordform=tu
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	Éternel	éternel	NOUN	_	Number=Sing	8	appos	_	SpaceAfter=No|wordform=éternel
@@ -25904,7 +25904,7 @@
 # sent_id = fr-ud-dev_00935
 # text = Les lectures de la messe du matin sont tirées de Ac.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	lectures	lecture	NOUN	_	Gender=Fem|Number=Plur	9	subj	_	_
+2	lectures	lecture	NOUN	_	Gender=Fem|Number=Plur	9	subj@pass	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	messe	messe	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -26591,7 +26591,7 @@
 
 # sent_id = fr-ud-dev_00964
 # text = Il est décidé en 1818 d'élever un monument à la mémoire de la révolte des paysans de 1705, mais il n'est inauguré qu'à la Toussaint 1831, à cause de différends de conception.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj@pass	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 4	en	en	ADP	_	_	3	mod	_	_
@@ -28432,7 +28432,7 @@
 7	relégation	relégation	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	championnat	championnat	NOUN	_	Gender=Masc|Number=Sing	11	subj	_	_
+10	championnat	championnat	NOUN	_	Gender=Masc|Number=Sing	11	subj@pass	_	_
 11	étant	être	AUX	_	Tense=Pres|VerbForm=Part	4	mod	_	_
 12	étendu	étendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@pass	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
@@ -28944,7 +28944,7 @@
 2	année	année	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	_
 3	suivante	suivant	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@pass	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	intronisé	introniser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 8-9	au	_	_	_	_	_	_	_	_
@@ -28990,7 +28990,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	tous	tout	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	versants	versant	NOUN	_	Gender=Masc|Number=Plur	14	subj	_	_
+7	versants	versant	NOUN	_	Gender=Masc|Number=Plur	14	subj@pass	_	_
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -29328,7 +29328,7 @@
 29	pour	pour	ADP	_	_	13	udep	_	_
 30	qu'	que	SCONJ	_	_	29	comp:obj	_	SpaceAfter=No
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	cessez-le-feu	cessez-le-feu	NOUN	_	Gender=Masc|Number=Sing	34	subj	_	_
+32	cessez-le-feu	cessez-le-feu	NOUN	_	Gender=Masc|Number=Sing	34	subj@pass	_	_
 33	immédiat	immédiat	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	_
 34	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	comp:obj	_	_
 35	instauré	instaurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	comp:aux@pass	_	SpaceAfter=No
@@ -29624,7 +29624,7 @@
 
 # sent_id = fr-ud-dev_01067
 # text = Ils furent créés en même temps que les tribuns de la plèbe.
-1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	wordform=ils
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj@pass	_	wordform=ils
 2	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	créés	créer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 4	en	en	ADP	_	_	2	mod	_	_
@@ -30892,7 +30892,7 @@
 # sent_id = fr-ud-dev_01115
 # text = Les représentants des médias sont invités à se joindre à l'événement.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
-2	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	6	subj	_	_
+2	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	6	subj@pass	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -33401,7 +33401,7 @@
 19	locaux	local	ADJ	_	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	1	punct	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	participation	participation	NOUN	_	Gender=Fem|Number=Sing	23	subj	_	_
+22	participation	participation	NOUN	_	Gender=Fem|Number=Sing	23	subj@pass	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	toujours	toujours	ADV	_	_	23	mod	_	_
 25	plus	plus	ADV	_	_	26	mod	_	_
@@ -34831,7 +34831,7 @@
 9	à	à	ADP	_	_	8	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	filet	filet	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-12	qui	qui	PRON	_	PronType=Rel	14	subj	_	_
+12	qui	qui	PRON	_	PronType=Rel	14	subj@pass	_	_
 13	y	y	PRON	_	Person=3|PronType=Prs	14	mod	_	_
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	mod@relcl	_	_
 15	pratiquée	pratiquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@pass	_	_
@@ -35337,7 +35337,7 @@
 4	lancée	lancer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	première	premier	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
-7	version	version	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+7	version	version	NOUN	_	Gender=Fem|Number=Sing	3	subj@pass	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	LabVIEW	LabVIEW	PROPN	_	_	8	comp:obj	_	_
 10	pour	pour	ADP	_	_	7	udep	_	_
@@ -37189,7 +37189,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 6	attachée	attacher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	5	comp:aux@pass	_	CorrectForm=attaché|CorrectGender=Masc
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	titre	titre	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+8	titre	titre	NOUN	_	Gender=Masc|Number=Sing	5	subj@pass	_	_
 9	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	9	comp:obl	_	_
@@ -40175,7 +40175,7 @@
 28	dans	dans	ADP	_	_	32	mod	_	_
 29	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	comp:obj	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	grand-maître	grand-maître	NOUN	_	Gender=Masc|Number=Sing	32	subj	_	_
+31	grand-maître	grand-maître	NOUN	_	Gender=Masc|Number=Sing	32	subj@pass	_	_
 32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	_
 33	élu	élire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	comp:aux@pass	_	_
 34	ou	ou	CCONJ	_	_	35	cc	_	_
@@ -40369,7 +40369,7 @@
 18	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	et	et	CCONJ	_	_	22	cc	_	_
-21	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
+21	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	subj@pass	_	_
 22	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
 23	soumise	soumettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@pass	_	_
 24	à	à	ADP	_	_	23	comp:obl	_	_
@@ -40988,7 +40988,7 @@
 9	«	«	PUNCT	_	_	13	punct	_	_
 10	Gremetz	Gremetz	PROPN	_	_	13	dislocated	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	SpaceAfter=No
+12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj@pass	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 14	fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@pass	_	_
 15	!	!	PUNCT	_	_	3	punct	_	_

@@ -432,7 +432,7 @@
 2	donc	donc	ADV	_	_	8	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
-5	voie	voie	NOUN	_	Gender=Fem|Number=Sing	8	subj	_	_
+5	voie	voie	NOUN	_	Gender=Fem|Number=Sing	8	subj@pass	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	communication	communication	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1926,7 +1926,7 @@
 47	centrales	centrale	NOUN	_	Gender=Fem|Number=Plur	45	comp:obj	_	_
 48	laitières	laitier	ADJ	_	Gender=Fem|Number=Plur	47	mod	_	_
 49	et	et	CCONJ	_	_	51	cc	_	_
-50	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	subj	_	_
+50	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	subj@pass	_	_
 51	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	conj	_	_
 52	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	comp:aux@pass	_	_
 53-54	au	_	_	_	_	_	_	_	_
@@ -6652,7 +6652,7 @@
 3	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	douloureuse	douloureuse	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
-6	qui	qui	PRON	_	PronType=Rel	7	subj	_	_
+6	qui	qui	PRON	_	PronType=Rel	7	subj@pass	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 8	parfaitement	parfaitement	ADV	_	_	9	mod	_	_
 9	justifiée	justifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
@@ -9584,7 +9584,7 @@
 
 # sent_id = fr-ud-dev_01531
 # text = Il est fortement bridé sur la version routière, de façon à ne pas afficher de performances beaucoup plus flatteuses que celles de la M3 CSL.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	fortement	fortement	ADV	_	_	4	mod	_	_
 4	bridé	brider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
@@ -9781,7 +9781,7 @@
 16	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	dès	dès	ADP	_	_	11	mod	_	_
 18	que	que	SCONJ	_	_	17	comp:obj	_	_
-19	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	21	subj	_	SpaceAfter=No
+19	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	21	subj@pass	_	SpaceAfter=No
 20	y	y	PRON	_	Person=3|PronType=Prs	22	comp:obl	_	_
 21	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
 22	retourné	retourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux@pass	_	SpaceAfter=No
@@ -10705,7 +10705,7 @@
 19	utilité	utilité	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 20	et	et	CCONJ	_	Shared=Yes	35	cc	_	_
 21	lorsqu'	lorsque	SCONJ	_	Shared=Yes	35	mod	_	SpaceAfter=No
-22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
+22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj@pass	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
 24	amené	amener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@pass	_	_
 25	à	à	ADP	_	_	24	comp:obl@x	_	_
@@ -11481,7 +11481,7 @@
 # sent_id = fr-ud-dev_01595
 # text = Une réunion du conseil national du syndicat des communaux sera organisée à l'issue de la grève pour faire le bilan du mouvement et surtout décider des prochaines actions à entreprendre.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=une
-2	réunion	réunion	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
+2	réunion	réunion	NOUN	_	Gender=Fem|Number=Sing	13	subj@pass	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
