@@ -8693,9 +8693,9 @@
 20	qu'	que	PRON	_	Person=3|PronType=Int	21	comp:pred	_	SpaceAfter=No
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 22	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	21	subj@expl	_	_
-23	que	que	PRON	_	PronType=Rel	25	comp:obj	_	_
+23	que	que	SCONJ	_	_	21	comp:cleft	_	_
 24	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	25	subj	_	_
-25	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	comp:cleft	_	_
+25	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
 26	?	?	PUNCT	_	_	21	punct	_	_
 27	»	»	PUNCT	_	_	21	punct	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	11	punct	_	_
