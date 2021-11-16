@@ -4712,7 +4712,7 @@
 38	5-0	5-0	NUM	_	Number=Plur	36	mod	_	SpaceAfter=No
 39	)	)	PUNCT	_	_	36	punct	_	_
 40	en	en	ADP	_	_	27	mod	_	_
-41	finale	finale	NOUN	_	Gender=Masc|Number=Plur	40	comp:obj	_	_
+41	finale	finale	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj	_	_
 42	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	27	mod	_	_
 43	à	à	ADP	_	_	27	mod	_	_
 44	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
@@ -5444,7 +5444,7 @@
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	toujours	toujours	ADV	_	_	6	mod	_	_
 8	en	en	ADP	_	_	6	comp:pred	_	_
-9	garde	garde	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	ExtPos=NOUN|Idiom=Yes
+9	garde	garde	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	ExtPos=NOUN|Idiom=Yes
 10	à	à	ADP	_	_	9	udep	_	InIdiom=Yes
 11	vue	vue	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
@@ -7394,7 +7394,7 @@
 5	bons	bon	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
 6	(	(	PUNCT	_	Shared=Yes	7	punct	_	SpaceAfter=No
 7	saumon	saumon	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
-8	vapeur	vapeur	NOUN	_	Gender=Masc|Number=Plur	7	mod	_	SpaceAfter=No
+8	vapeur	vapeur	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	SpaceAfter=No
 9	/	/	SYM	_	_	10	cc	_	ExtPos=CCONJ|SpaceAfter=No
 10	tagliatelles	tagliatelle	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
@@ -7719,7 +7719,7 @@
 7	y	y	PRON	_	Person=3|PronType=Prs	8	comp:obl	_	_
 8	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
-10	office	office	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
+10	office	office	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
 11	....	....	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-test_00280
