@@ -6753,7 +6753,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	dans	dans	ADP	_	_	7	comp:obl	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
-24	colline	colline	NOUN	_	CorrectForm=collines|Gender=Fem|Number=Plur	22	comp:obj	_	_
+24	colline	colline	NOUN	_	Gender=Fem|Number=Plur	22	comp:obj	_	CorrectForm=collines
 25	subcarpathiques	subcarpathique	ADJ	_	Gender=Fem|Number=Plur	24	mod	_	_
 26	de	de	ADP	_	_	24	udep	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -7053,7 +7053,7 @@
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	18	mod	_	_
 18	partie	partie	NOUN	_	Gender=Fem|Number=Sing	20	subj	_	_
-19	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	comp:obj	_	_
+19	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	comp@expl	_	_
 20	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	en	en	ADP	_	_	20	mod	_	_
 22	possession	possession	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
@@ -8457,7 +8457,7 @@
 # text = La Selle-en-Luitré se trouve à environ :
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	Selle-en-Luitré	Selle-en-Luitré	PROPN	_	Gender=Fem|Number=Sing	4	subj@pass	_	_
-3	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	comp@pass	_	_
+3	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	comp@expl	_	_
 4	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	environ	environ	ADV	_	_	5	comp:obj	_	_
@@ -10778,7 +10778,7 @@
 31	établissement	établissement	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 32	où	où	ADV	_	PronType=Rel	35	comp:obl	_	_
 33	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj@pass	_	_
-34	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	35	comp@pass	_	_
+34	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	35	comp@expl	_	_
 35	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	mod@relcl	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -12114,7 +12114,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	saison	saison	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	2011	2011	NUM	_	Number=Plur	9	mod	_	_
-11	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp@pass	_	_
+11	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp@expl	_	_
 12	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	sur	sur	ADP	_	_	12	mod	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -16362,7 +16362,7 @@
 1	Son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	2	det	_	wordform=son
 2	siège	siège	NOUN	_	Gender=Masc|Number=Sing	5	subj@pass	_	_
 3	social	social	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
-4	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@pass	_	_
+4	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@expl	_	_
 5	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	Londres	Londres	PROPN	_	_	6	comp:obj	_	SpaceAfter=No
@@ -18308,7 +18308,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	5	det	_	_
 5	gravures	gravure	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
-6	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp@pass	_	_
+6	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp@expl	_	_
 7	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
@@ -20771,7 +20771,7 @@
 # sent_id = fr-ud-dev_00754
 # text = Il s'intéresse notamment au film noir, au burlesque et au cinéma social américains.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
-2	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp:obj	_	SpaceAfter=No
+2	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp@expl	_	SpaceAfter=No
 3	intéresse	intéresser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	notamment	notamment	ADV	_	_	3	mod	_	_
 5-6	au	_	_	_	_	_	_	_	_
@@ -29845,7 +29845,7 @@
 4	de	de	ADP	_	_	3	udep	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	bourg	bourg	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
-7	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp@pass	_	_
+7	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp@expl	_	_
 8	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	plaza	plaza	NOUN	_	Gender=Fem|Number=Sing	8	subj@pass	_	_
@@ -31559,7 +31559,7 @@
 2	de	de	ADP	_	_	1	udep	_	_
 3	100	100	NUM	_	Number=Plur	4	det	_	_
 4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
-5	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@pass	_	_
+5	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@expl	_	_
 6	trouvaient	trouver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	à	à	ADP	_	_	6	comp:obl	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -33089,7 +33089,7 @@
 6	ONU	ONU	PROPN	_	Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	qui	qui	PRON	_	PronType=Rel	10	subj@pass	_	_
-9	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp@pass	_	_
+9	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp@expl	_	_
 10	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 11	dans	dans	ADP	_	_	10	comp:obl	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
