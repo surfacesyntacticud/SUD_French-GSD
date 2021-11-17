@@ -486,7 +486,7 @@
 
 # sent_id = fr-ud-test_00015
 # text = Belle, grande, claire, séduisante à souhait, elle est pourtant déjà à la retraite.
-1	Belle	beau	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	SpaceAfter=No|wordform=belle
+1	Belle	beau	ADJ	_	Gender=Fem|Number=Sing	12	mod@x	_	SpaceAfter=No|wordform=belle
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	grande	grand	ADJ	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -828,7 +828,7 @@
 
 # sent_id = fr-ud-test_00031
 # text = Il est 20h45 en territoire algérien.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	20	20	NUM	_	Number=Plur	4	det	_	SpaceAfter=No
 4	h	heure	NOUN	_	Gender=Masc|Number=Plur	2	comp:pred	_	SpaceAfter=No
@@ -876,14 +876,14 @@
 # sent_id = fr-ud-test_00033
 # text = Le royaume s'est amélioré, mais pas dans le sens voulu par l'UE.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	4	subj	_	_
+2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	4	subj@pass	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@pass	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:pred@x	_	SpaceAfter=No
+5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
-7	mais	mais	CCONJ	_	_	9	cc	_	_
+7	mais	mais	CCONJ	_	_	9	mod	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-9	dans	dans	ADP	_	_	4	conj	_	_
+9	dans	dans	ADP	_	_	5	mod	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	sens	sens	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	_

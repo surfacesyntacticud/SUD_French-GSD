@@ -39792,7 +39792,7 @@
 33	municipal	municipal	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	_
 34	de	de	ADP	_	_	32	udep	_	_
 35	Luxembourg	Luxembourg	PROPN	_	_	34	comp:obj	_	_
-36	qu'	que	PRON	_	PronType=Rel	38	comp:obj	_	SpaceAfter=No
+36	qu'	que	PRON	_	PronType=Rel	40	comp:obj	_	SpaceAfter=No
 37	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	subj	_	_
 38	finit	finir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	mod@relcl	_	_
 39	par	par	ADP	_	_	38	comp:obl@x	_	_
