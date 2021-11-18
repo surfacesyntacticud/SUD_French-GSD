@@ -14843,7 +14843,7 @@
 12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 13	même	même	ADV	_	_	14	mod	_	_
 14	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
-15	comme	comme	SCONJ	_	_	12	mod	_	_
+15	comme	comme	SCONJ	_	_	12	comp:pred	_	_
 16	s'	si	SCONJ	_	_	15	comp:obj	_	SpaceAfter=No
 17	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	subj	_	_
 18	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	comp:obj	_	_
