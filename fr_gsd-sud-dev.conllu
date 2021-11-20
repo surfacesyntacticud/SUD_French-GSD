@@ -6176,9 +6176,9 @@
 21	voitures	voiture	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	_
 22	panoramiques	panoramique	ADJ	_	Gender=Fem|Number=Plur	21	mod	_	_
 23	Apm	Apm	PROPN	_	_	21	appos	_	_
-24	61	61	NUM	_	Number=Plur	23	mod	_	_
-25	85	85	NUM	_	Number=Plur	23	mod	_	_
-26	19-90	19-90	NUM	_	Number=Plur	23	mod	_	_
+24	61	61	NUM	_	Number=Plur	23	flat@name	_	_
+25	85	85	NUM	_	Number=Plur	24	flat@name	_	_
+26	19-90	19-90	NUM	_	Number=Plur	25	flat@name	_	_
 27	pour	pour	ADP	_	_	16	mod	_	_
 28	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	29	det	_	_
 29	liaisons	liaison	NOUN	_	Gender=Fem|Number=Plur	27	comp:obj	_	_
@@ -32662,7 +32662,7 @@
 17	de	de	ADP	_	_	16	udep	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 19	20	20	NUM	_	Number=Plur	23	mod	_	_
-20	6	6	NUM	_	Number=Plur	19	conj	_	SpaceAfter=No
+20	6	6	NUM	_	Number=Plur	23	mod	_	SpaceAfter=No
 21	/	/	SYM	_	_	20	udep	_	ExtPos=ADP|SpaceAfter=No
 22	2	2	NUM	_	Number=Plur	21	comp:obj	_	_
 23	cantons	canton	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
