@@ -2277,8 +2277,8 @@
 
 # sent_id = fr-ud-test_00081
 # text = Tout en estimant que « le Maroc est sous protectorat français », au vu des aides militaires de cette puissance au colonialisme marocain, il a rappelé la position de la France au Conseil de sécurité de l'ONU, en opposant son Veto à l'élargissement des missions de la Minurso pour englober la surveillance et le contrôle des droits de l'homme dans les territoires sahraouis.
-1	Tout	tout	ADV	_	_	30	mod	_	ExtPos=ADP|Idiom=Yes|wordform=tout
-2	en	en	ADP	_	_	1	unk	_	InIdiom=Yes
+1	Tout	tout	ADV	_	_	2	mod	_	wordform=tout
+2	en	en	ADP	_	_	30	mod@x	_	_
 3	estimant	estimer	VERB	_	Tense=Pres|VerbForm=Part	1	comp:obj	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	«	«	PUNCT	_	_	8	punct	_	_
@@ -3757,8 +3757,8 @@
 30	avec	avec	ADP	_	Shared=Yes	28	mod	_	_
 31	passion	passion	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	tout	tout	ADV	_	_	28	mod	_	ExtPos=ADP|Idiom=Yes
-34	en	en	ADP	_	_	33	unk	_	InIdiom=Yes
+33	tout	tout	ADV	_	_	34	mod	_	_
+34	en	en	ADP	_	_	28	mod@x	_	_
 35	participant	participer	VERB	_	Tense=Pres|VerbForm=Part	33	comp:obj	_	_
 36	en	en	ADP	_	_	35	mod	_	_
 37	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	_
@@ -7436,8 +7436,8 @@
 18	meilleures	meilleur	ADJ	_	Gender=Fem|Number=Plur	19	mod	_	_
 19	conditions	condition	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 20	financières	financier	ADJ	_	Gender=Fem|Number=Plur	19	mod	_	_
-21	tout	tout	ADV	_	_	10	mod	_	ExtPos=ADP|Idiom=Yes
-22	en	en	ADP	_	_	21	unk	_	InIdiom=Yes
+21	tout	tout	ADV	_	_	22	mod	_	_
+22	en	en	ADP	_	_	10	mod@x	_	_
 23	préservant	préserver	VERB	_	Tense=Pres|VerbForm=Part	21	comp:obj	_	_
 24	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|PronType=Prs|Shared=No	25	det	_	_
 25	image	image	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
@@ -9977,8 +9977,8 @@
 12	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 13	extrêmement	extrêmement	ADV	_	_	14	mod	_	_
 14	audacieuse	audacieux	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
-15	tout	tout	ADV	_	_	3	mod	_	ExtPos=ADP|Idiom=Yes
-16	en	en	ADP	_	_	15	unk	_	InIdiom=Yes
+15	tout	tout	ADV	_	_	16	mod	_	_
+16	en	en	ADP	_	_	3	mod@x	_	_
 17	respectant	respecter	VERB	_	Tense=Pres|VerbForm=Part	15	comp:obj	_	_
 18	parfaitement	parfaitement	ADV	_	_	17	mod	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
