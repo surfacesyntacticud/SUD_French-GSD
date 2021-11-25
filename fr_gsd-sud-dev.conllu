@@ -30782,7 +30782,7 @@
 13	étrusque	étrusque	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	romain	romain	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
 17	tout	tout	ADV	_	_	18	mod	_	_
 18	en	en	ADP	_	_	3	mod@x	_	_
 19	conservant	conserver	VERB	_	Tense=Pres|VerbForm=Part	18	comp:obj	_	_
@@ -35948,7 +35948,7 @@
 9	partir	partir	VERB	_	VerbForm=Inf	8	comp:obj	_	InIdiom=Yes
 10	de	de	ADP	_	_	8	comp:obl	_	_
 11	1983	1983	NUM	_	Number=Plur	10	comp:obj	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
+12	,	,	PUNCT	_	_	14	punct	_	_
 13	tout	tout	ADV	_	_	14	mod	_	_
 14	en	en	ADP	_	_	2	mod@x	_	_
 15	continuant	continuer	VERB	_	Tense=Pres|VerbForm=Part	14	comp:obj	_	_

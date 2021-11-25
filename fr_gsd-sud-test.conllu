@@ -2307,7 +2307,7 @@
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	colonialisme	colonialisme	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
 27	marocain	marocain	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	1	punct	_	_
+28	,	,	PUNCT	_	_	2	punct	_	_
 29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	subj	_	_
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 31	rappelé	rappeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	comp:aux@tense	_	_
@@ -3756,7 +3756,7 @@
 29	+	+	SYM	_	_	30	mod	_	ExtPos=ADV
 30	avec	avec	ADP	_	Shared=Yes	28	mod	_	_
 31	passion	passion	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	33	punct	_	_
+32	,	,	PUNCT	_	_	34	punct	_	_
 33	tout	tout	ADV	_	_	34	mod	_	_
 34	en	en	ADP	_	_	28	mod@x	_	_
 35	participant	participer	VERB	_	Tense=Pres|VerbForm=Part	34	comp:obj	_	_
