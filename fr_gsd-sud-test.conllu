@@ -2962,7 +2962,7 @@
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	automobilistes	automobiliste	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 11	de	de	ADP	_	_	7	comp:obj@x	_	_
-12	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp:obj	_	_
+12	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp@expl	_	_
 13	déplacer	déplacer	VERB	_	VerbForm=Inf	11	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
