@@ -486,7 +486,7 @@
 
 # sent_id = fr-ud-test_00015
 # text = Belle, grande, claire, séduisante à souhait, elle est pourtant déjà à la retraite.
-1	Belle	beau	ADJ	_	Gender=Fem|Number=Sing	12	mod@x	_	SpaceAfter=No|wordform=belle
+1	Belle	beau	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	SpaceAfter=No|wordform=belle
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	grande	grand	ADJ	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -1025,7 +1025,7 @@
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Nigéria	Nigéria	PROPN	_	Gender=Masc|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	autant	autant	ADV	_	_	7	mod	_	_
+21	autant	autant	ADV	_	_	10	mod	_	_
 22	qu'	que	SCONJ	_	_	21	comp:obj	_	SpaceAfter=No
 23	avec	avec	ADP	_	_	22	comp:obj	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
@@ -1179,7 +1179,7 @@
 21	n'	ne	ADV	_	Polarity=Neg	22	mod	_	SpaceAfter=No
 22	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	conj	_	_
 23	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	24	det	_	_
-24	mal	mal	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
+24	mal	mal	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj@lvc	_	_
 25	à	à	ADP	_	_	22	comp:obl@x	_	_
 26	perdurer	perdurer	VERB	_	VerbForm=Inf	25	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	_
@@ -1216,7 +1216,7 @@
 
 # sent_id = fr-ud-test_00049
 # text = Renommée par Warner France sous le nom de "La Ligue des Justiciers : La Nouvelle Génération", les 8 premiers épisodes de la série animée seront disponibles dès le 30 novembre prochain.
-1	Renommée	renommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	mod@x	_	wordform=renommée
+1	Renommée	renommer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	29	mod@x	_	CorrectForm=renommés|wordform=renommée
 2	par	par	ADP	_	_	1	comp:obl@agent	_	_
 3	Warner	Warner	PROPN	_	_	2	comp:obj	_	_
 4	France	France	PROPN	_	_	3	flat@name	_	_
@@ -1270,10 +1270,10 @@
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	écologie	écologie	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	1	punct	_	_
-14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
+14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj@expl	_	_
 15	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	comp@expl	_	SpaceAfter=No
 16	avère	avérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	que	que	SCONJ	_	_	16	comp:obj	_	_
+17	que	que	SCONJ	_	_	16	comp:obj@agent	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	état	état	NOUN	_	Gender=Masc|Number=Sing	26	subj	_	_
 20	de	de	ADP	_	_	19	udep	_	_
@@ -1502,7 +1502,7 @@
 
 # sent_id = fr-ud-test_00058
 # text = Sidi M'hamed Deddeche et Amgid Sidi Ahmed, deux activistes pacifistes des territoires occupés comme Mme Haïder, s'étaient-ils fait arrêter mercredi dernier à l'entrée de Smara, la capitale spirituelle du Sahara occidental, parce qu'ils étaient des séquestrés qui s'étaient évadés des camps de Tindouf, sans documents de voyage ?
-1	Sidi	Sidi	PROPN	_	_	22	subj@caus	_	_
+1	Sidi	Sidi	PROPN	_	_	22	subj@pass	_	_
 2	M'	M'	PROPN	_	_	1	flat@name	_	SpaceAfter=No
 3	hamed	hamed	PROPN	_	_	2	flat@name	_	_
 4	Deddeche	Deddeche	PROPN	_	_	3	flat@name	_	_
@@ -1523,11 +1523,11 @@
 18	Mme	madame	PROPN	_	_	17	comp:obj	_	_
 19	Haïder	Haïder	PROPN	_	_	18	flat@name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	1	punct	_	_
-21	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	comp:obj@agent	_	SpaceAfter=No
+21	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	comp@pass	_	SpaceAfter=No
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj@expl	_	wordform=il
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
-25	arrêter	arrêter	VERB	_	VerbForm=Inf	24	comp:aux@caus	_	_
+25	arrêter	arrêter	VERB	_	VerbForm=Inf	24	comp:aux@pass	_	_
 26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	22	mod	_	_
 27	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
 28	à	à	ADP	_	_	22	mod	_	_
@@ -1954,7 +1954,7 @@
 3	Marocains	Marocains	PROPN	_	Gender=Masc|Number=Plur	5	subj	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
 5	pensent	penser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	en	en	ADP	_	_	5	mod	_	_
+6	en	en	ADP	_	_	5	mod@x	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 8	hésitant	hésiter	VERB	_	Tense=Pres|VerbForm=Part	6	comp:obj	_	_
 9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
