@@ -18740,7 +18740,7 @@
 47	à	à	ADP	_	_	46	comp:obl	_	_
 48	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	tronc	tronc	NOUN	_	Gender=Masc|Number=Sing	47	comp:obj	_	_
-50	avant	avant	ADV	_	_	46	mod	_	_
+50	avant	avant	ADV	_	_	46	mod@x	_	_
 51	de	de	ADP	_	_	50	comp:obj	_	_
 52	tomber	tomber	VERB	_	VerbForm=Inf	51	comp:obj	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	35	punct	_	_

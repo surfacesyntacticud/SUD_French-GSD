@@ -3400,7 +3400,7 @@
 25	encerclé	encercler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:pred@x	_	_
 26	et	et	CCONJ	_	_	28	cc	_	_
 27	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	28	det	_	_
-28	téléphones	téléphone	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
+28	téléphones	téléphone	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	_
 29	coupés	couper	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	orphan	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	selon	selon	ADP	_	_	19	mod	_	_
@@ -3613,8 +3613,8 @@
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	délai	délai	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	supplémentaire	supplémentaire	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
-13	avant	avant	ADV	_	_	8	mod	_	_
-14	de	de	ADP	_	_	13	comp:obl@x	_	_
+13	avant	avant	ADV	_	_	8	mod@x	_	_
+14	de	de	ADP	_	_	13	comp:obl	_	_
 15	répondre	répondre	VERB	_	VerbForm=Inf	14	comp:obj	_	_
 16-17	aux	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	15	comp:obl	_	_
@@ -4376,7 +4376,7 @@
 # text = Qu'est-ce que 1.000 emplois quand on en détruit et qu'on en créé 20.000 tous les jours en France ?
 1	Qu'	que	PRON	_	Person=3|PronType=Int	2	comp:pred	_	SpaceAfter=No|wordform=qu'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	wordform=ce
+3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=ce
 4	que	que	SCONJ	_	_	2	dislocated	_	_
 5	1.000	1.000	NUM	_	Number=Plur	6	det	_	_
 6	emplois	emploi	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
