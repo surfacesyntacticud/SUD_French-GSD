@@ -11918,7 +11918,7 @@
 # sent_id = fr-ud-dev_00432
 # text = Une élection présidentielle s'est tenue au Guatemala en 2003.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=une
-2	élection	élection	NOUN	_	Gender=Fem|Number=Sing	5	subj:pass	_	_
+2	élection	élection	NOUN	_	Gender=Fem|Number=Sing	5	subj@pass	_	_
 3	présidentielle	présidentiel	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@pass	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12154,7 +12154,7 @@
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Ligue	ligue	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	wordform=ligue
 24	arabe	arabe	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	_
-25	qui	qui	PRON	_	PronType=Rel	27	subj:pass	_	_
+25	qui	qui	PRON	_	PronType=Rel	27	subj@pass	_	_
 26	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	28	comp@pass	_	_
 27	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
 28	tenues	tenir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
@@ -12953,7 +12953,7 @@
 # text = Quand la situation s'est aggravée en 1992, les pays se sont réunis et ça a donné lieu à une convention de protection de la mer Noire contre la pollution. "
 1	Quand	quand	SCONJ	_	Shared=Yes	13	mod	_	wordform=quand
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	situation	situation	NOUN	_	Gender=Fem|Number=Sing	5	subj:pass	_	_
+3	situation	situation	NOUN	_	Gender=Fem|Number=Sing	5	subj@pass	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@pass	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 6	aggravée	aggraver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
@@ -13323,7 +13323,7 @@
 # sent_id = fr-ud-dev_00480
 # text = Ce tournoi de catégorie Tier IV s'est disputé à Rabat du 15 au 21 mai 2006.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=ce
-2	tournoi	tournoi	NOUN	_	Gender=Masc|Number=Sing	8	subj:pass	_	_
+2	tournoi	tournoi	NOUN	_	Gender=Masc|Number=Sing	8	subj@pass	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	catégorie	catégorie	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	Tier	Tier	PROPN	_	_	4	appos	_	_
@@ -25973,7 +25973,7 @@
 # text = Le 43e Forum de Munich s'est tenu du 9 au 11 février 2007 sur le thème "A crises mondiales, responsabilités mondiales" (Globale Krisen--Globale Verantwortung/Global Crises--Global Responsibilities).
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	wordform=le
 2	43e	43e	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
-3	Forum	forum	NOUN	_	Gender=Masc|Number=Sing	7	subj:pass	_	wordform=forum
+3	Forum	forum	NOUN	_	Gender=Masc|Number=Sing	7	subj@pass	_	wordform=forum
 4	de	de	ADP	_	_	3	udep	_	_
 5	Munich	Munich	PROPN	_	_	4	comp:obj	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp@pass	_	SpaceAfter=No
@@ -27816,7 +27816,7 @@
 # sent_id = fr-ud-dev_01002
 # text = Cet hôpital s'est finalement transformé en ce que nous considérons maintenant comme un hôpital, avec des moines et des auxiliaires laïcs prodiguant des soins médicaux aux malades et aux pèlerins victimes des nombreuses épidémies et maladies chroniques qui ont frappé l'Europe occidentale au Moyen Âge.
 1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=cet
-2	hôpital	hôpital	NOUN	_	Gender=Masc|Number=Sing	4	subj:pass	_	_
+2	hôpital	hôpital	NOUN	_	Gender=Masc|Number=Sing	4	subj@pass	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@pass	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	finalement	finalement	ADV	_	_	4	mod	_	_
