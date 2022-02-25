@@ -3988,8 +3988,8 @@
 15	disputé	disputer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	19	mod	_	ExtPos=ADV|Idiom=Yes
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	unk	_	InIdiom=Yes
-18	moins	moins	ADV	_	_	17	unk	_	InIdiom=Yes
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
+18	moins	moins	ADV	_	_	16	comp:obj	_	InIdiom=Yes
 19	20	20	NUM	_	Number=Plur	20	det	_	_
 20	matches	match	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
