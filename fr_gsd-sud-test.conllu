@@ -9325,7 +9325,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	devant	devoir	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
 9	déboucher	déboucher	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
-10	vers	vers	ADP	_	_	9	compl:obl	_	_
+10	vers	vers	ADP	_	_	9	comp:obl	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	mise	mise	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	en	en	ADP	_	_	12	udep	_	_
