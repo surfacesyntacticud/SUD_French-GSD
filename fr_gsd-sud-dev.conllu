@@ -11334,7 +11334,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	commune	commune	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	dut	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	comp:aux@pass	_	_
+7	dut	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	6	comp:aux@pass	_	CorrectForm=due|CorrectVerbForm=Part
 8-9	aux	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	10	det	_	_
@@ -16561,7 +16561,7 @@
 6	États	état	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	wordform=états
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 8	indiscutablement	indiscutablement	ADV	_	_	7	mod	_	_
-9	sur	sur	ADP	_	_	7	mod	_	_
+9	sur	sur	ADP	_	_	7	comp:obl	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	continent	continent	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	européen	européen	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
@@ -26755,7 +26755,7 @@
 38	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	41	subj	_	_
 39	de	de	ADP	_	_	38	udep	_	_
 40	terrain	terrain	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
-41	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	mod@relcl	_	_
+41	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	mod@relcl	_	_
 42	hors-jeu	hors-jeu	NOUN	_	Gender=Masc|Number=Sing	41	comp:pred	_	_
 43	et	et	CCONJ	_	_	44	cc	_	_
 44	refusé	refuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
@@ -37799,7 +37799,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
-5	en	en	ADP	_	_	2	mod	_	_
+5	en	en	ADP	_	_	4	mod	_	_
 6	service	service	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 7	en	en	ADP	_	_	2	mod	_	_
 8	1898	1898	NUM	_	Number=Plur	7	comp:obj	_	SpaceAfter=No
@@ -39575,7 +39575,7 @@
 # sent_id = fr-ud-dev_01426
 # text = Nous y étions depuis les premiers jours de son installation soit depuis le 20 octobre 2010 plus exactement.
 1	Nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	3	subj	_	wordform=nous
-2	y	y	PRON	_	Person=3|PronType=Prs	3	mod	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
 3	étions	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	depuis	depuis	ADP	_	_	3	mod	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_

@@ -1880,7 +1880,7 @@
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
 5	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 6	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	partout	partout	ADV	_	_	7	comp:obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
@@ -2284,8 +2284,8 @@
 5	«	«	PUNCT	_	_	8	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Maroc	Maroc	PROPN	_	Gender=Masc|Number=Sing	8	subj	_	_
-8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-9	sous	sous	ADP	_	_	8	mod	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+9	sous	sous	ADP	_	_	8	comp:pred	_	_
 10	protectorat	protectorat	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	français	français	ADJ	_	Gender=Masc	10	mod	_	_
 12	»	»	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -5037,7 +5037,7 @@
 1	En	en	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	tout	tout	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	5	subj	_	_
+4	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	5	subj@expl	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	près	près	ADV	_	_	5	comp:pred	_	ExtPos=PRON
 7	d'	de	ADP	_	_	6	comp:obl	_	SpaceAfter=No
@@ -6125,7 +6125,7 @@
 10	hote	hôte	NOUN	_	Gender=Masc|Number=Sing|Shared=No	11	subj	_	_
 11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 12	toujours	toujours	ADV	_	_	11	mod	_	_
-13	là	là	ADV	_	_	11	mod	_	_
+13	là	là	ADV	_	_	11	comp:obl	_	_
 14	pour	pour	ADP	_	_	11	mod@x	_	_
 15	vous	le	PRON	_	Person=2|PronType=Prs	16	comp:obj	_	_
 16	aider	aider	VERB	_	VerbForm=Inf	14	comp:obj	_	_
@@ -6188,7 +6188,7 @@
 5	massage	massage	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	8	subj	_	_
-8	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	bien	bien	ADV	_	_	10	mod	_	_
 10	relaxé	relaxer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:pred@x	_	_
 11	et	et	CCONJ	_	_	15	cc	_	_
