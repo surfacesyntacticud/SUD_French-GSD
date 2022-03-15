@@ -8045,8 +8045,8 @@
 20	présentée	présenter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
 21	par	par	ADP	_	_	20	comp:obl@agent	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	globe	globe	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	ExtPos=NOUN|wordform=globe-trotter
-24	trotter	trotter	NOUN	_	Gender=Masc|Number=Sing	23	goeswith	_	wordform=_
+23	globe	globe-trotter	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	21	comp:obj	_	CorrectForm=globe-trotter
+24	trotter	_	X	_	_	23	goeswith	_	_
 25	vedette	vedette	NOUN	_	Gender=Fem|Number=Sing	23	mod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	Simon	Simon	PROPN	_	_	23	appos	_	_
@@ -11268,8 +11268,8 @@
 10	et	et	CCONJ	_	_	15	cc	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	variante	variante	NOUN	_	Gender=Fem|Number=Sing	15	subj@pass	_	_
-13	pick	pick	X	_	_	12	mod	_	ExtPos=NOUN|wordform=pick-up
-14	up	up	X	_	_	13	goeswith	_	wordform=_
+13	pick	pick-up	NOUN	_	Typo=Yes	12	mod	_	CorrectForm=pick-up
+14	up	_	X	_	_	13	goeswith	_	_
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
 17	fournie	fournir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@pass	_	_
@@ -12472,8 +12472,8 @@
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 11	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	récupérer	récupérer	VERB	_	VerbForm=Inf	11	comp:obj@x	_	_
-13	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	12	comp:obj	_	ExtPos=PRON|wordform=celle-ci
-14	ci	ci	ADV	_	_	13	goeswith	_	wordform=_
+13	celle	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem|Typo=Yes	12	comp:obj	_	CorrectForm=celle-ci
+14	ci	_	X	_	_	13	goeswith	_	_
 15	dans	dans	ADP	_	_	12	mod	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	état	état	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
@@ -13251,8 +13251,8 @@
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
 1	Pas	pas	ADV	_	Polarity=Neg|Shared=No	3	mod	_	wordform=pas
 2	de	de	DET	_	Shared=No	3	det	_	_
-3	sèche	sécher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=NOUN|wordform=sèche-cheveux
-4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	wordform=_
+3	sèche	sèche-cheveux	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	0	root	_	CorrectForm=sèche-cheveux
+4	cheveux	_	X	_	_	3	goeswith	_	_
 5	ni	ni	CCONJ	_	_	7	cc	_	_
 6	de	de	DET	_	_	7	det	_	_
 7	prise	prise	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
@@ -41136,8 +41136,8 @@
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	oculus	oculus	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
-24	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	subj@pass	_	ExtPos=PRON|wordform=lui-même
-25	même	même	ADV	_	_	24	goeswith	_	wordform=_
+24	lui	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	26	subj@pass	_	CorrectForm=lui-même
+25	même	_	X	_	_	24	goeswith	_	_
 26	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	mod	_	_
 27	d'	de	ADP	_	_	26	comp:obl	_	SpaceAfter=No
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_

@@ -1088,8 +1088,8 @@
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	contre	contre	ADP	_	Gender=Fem|Number=Sing|Shared=Yes	7	subj	_	ExtPos=NOUN|wordform=contre-attaque
-6	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing	5	goeswith	_	wordform=_
+5	contre	contre-attaque	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes|Typo=Yes	7	subj	_	CorrectForm=contre-attaque
+6	attaque	_	X	_	_	5	goeswith	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	massive	massif	ADJ	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
@@ -11032,9 +11032,9 @@
 15	tandis	tandis	ADV	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes
 16	qu'	que	SCONJ	_	_	15	unk	_	InIdiom=Yes|SpaceAfter=No
 17-18	au	_	_	_	_	_	_	_	_
-17	à	à	ADV	_	_	26	mod	_	ExtPos=ADV|wordform=au-dessus
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	goeswith	_	wordform=_
-19	dessus	dessus	NOUN	_	Gender=Masc	17	goeswith	_	wordform=_
+17	à	au-dessus	ADV	_	Typo=Yes	26	mod	_	CorrectForm=au-dessus
+18	le	_	X	_	_	17	goeswith	_	_
+19	dessus	_	X	_	_	17	goeswith	_	_
 20	de	de	ADP	_	_	17	comp:obl	_	_
 21	1 000	1 000	NUM	_	Number=Plur	22	det	_	_
 22	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	SpaceAfter=No
