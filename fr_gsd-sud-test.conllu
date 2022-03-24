@@ -948,7 +948,7 @@
 3	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	campagnes	campagne	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
-6	présidentielles	présidentielle	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	SpaceAfter=No
+6	présidentielles	présidentiel	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	_
 9	qui	qui	PRON	_	PronType=Rel|Shared=Yes	10	subj	_	_
@@ -1352,7 +1352,7 @@
 9	garage	garage	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	capot	capot	NOUN	_	Gender=Masc|Number=Sing	12	subj@pass	_	_
-12	ouvert	ouvert	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	SpaceAfter=No
+12	ouvert	ouvert	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00054
@@ -3521,7 +3521,7 @@
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
 30	quarts	quart	NOUN	_	Gender=Masc|Number=Plur	28	comp:obj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
-32	finale	finale	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
+32	finale	finale	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
 33	de	de	ADP	_	_	30	udep	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	Ligue	ligue	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	wordform=ligue
