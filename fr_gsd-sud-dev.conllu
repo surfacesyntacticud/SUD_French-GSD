@@ -1971,7 +1971,7 @@
 45-46	des	_	_	_	_	_	_	_	_
 45	de	de	ADP	_	_	44	udep	_	_
 46	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	47	det	_	_
-47	Juifs	Juifs	PROPN	_	Number=Plur	45	comp:obj	_	SpaceAfter=No
+47	Juifs	juif	NOUN	_	Gender=Masc|Number=Plur	45	comp:obj	_	SpaceAfter=No|wordform=juifs
 48	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00075
@@ -8538,7 +8538,7 @@
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	Jésuites	Jésuites	PROPN	_	Number=Plur	3	comp:obj	_	_
+5	Jésuites	jésuites	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	wordform=jésuites
 6	fondé	fonder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
 7	en	en	ADP	_	_	6	mod	_	_
 8	1570	1570	NUM	_	Number=Plur	7	comp:obj	_	_
@@ -11674,7 +11674,7 @@
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	éditions	édition	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 19	Gallimard	Gallimard	PROPN	_	_	18	appos	_	_
-20	Jeunesse	Jeunesse	PROPN	_	_	19	flat@name	_	SpaceAfter=No
+20	Jeunesse	jeunesse	NOUN	_	Gender=Fem|Number=Sing	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	collection	collection	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	_
 23	Page	page	NOUN	_	Gender=Fem|Number=Sing	22	appos	_	wordform=page
@@ -17387,7 +17387,7 @@
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	3	udep	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Journal	Journal	PROPN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
+6	Journal	journal	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	wordform=journal
 7	de	de	ADP	_	_	6	udep	_	_
 8	Québec	Québec	PROPN	_	_	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
