@@ -39196,7 +39196,7 @@
 32	auspices	auspice	NOUN	_	Gender=Masc|Number=Plur	30	comp:obj	_	_
 33	de	de	ADP	_	_	32	udep	_	_
 34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
-35	Inquisition	Inquisition	PROPN	_	Number=Sing	33	comp:obj	_	SpaceAfter=No
+35	Inquisition	inquisition	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	SpaceAfter=No|wordform=inquisition
 36	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01410
