@@ -10242,7 +10242,7 @@
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	Maisons	Maisons	PROPN	_	Number=Plur	10	comp:obj	_	_
+12	Maisons	maison	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	wordform=maisons
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 14	York	York	PROPN	_	_	13	comp:obj	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
@@ -14965,7 +14965,7 @@
 # sent_id = fr-ud-dev_00539
 # text = Le Muséum a publié des recommandations sur la pollution lumineuse et mis à disposition des documents sur les « traits de vie » d'espèces vulnérables à la fragmentation afin d'aider la rédaction des SRCE et l'élaboration des trames et sous-trames des réseaux écologiques régionaux.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	Muséum	Muséum	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
+2	Muséum	muséum	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	wordform=muséum
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
@@ -17082,7 +17082,7 @@
 # sent_id = fr-ud-dev_00614
 # text = Le Monument pour les victimes russes de Neuengamme est un monument qui fait partie des sites commémoratifs du camp de Neuengamme mais il se situe sur le terrain du cimetière de Hambourg-Bergedorf.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	Monument	Monument	PROPN	_	Gender=Masc|Number=Sing|Shared=No	9	subj	_	_
+2	Monument	monument	NOUN	_	Gender=Masc|Number=Sing|Shared=No	9	subj	_	wordform=monument
 3	pour	pour	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	victimes	victime	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
@@ -18313,7 +18313,7 @@
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Musée	Musée	PROPN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+10	Musée	musée	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	wordform=musée
 11	d'	de	ADP	_	_	10	udep	_	SpaceAfter=No
 12	Art	art	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	wordform=art
 13	et	et	CCONJ	_	_	14	cc	_	_
@@ -35411,7 +35411,7 @@
 1	Tournons	tourner	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	wordform=tournons
 2	dans	dans	ADP	_	_	1	mod	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Morsure	Morsure	PROPN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
+4	Morsure	morsure	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	wordform=morsure
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Ah	ah	INTJ	_	_	1	discourse	_	wordform=ah
 7	!	!	PUNCT	_	_	1	punct	_	_
