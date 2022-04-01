@@ -12184,7 +12184,7 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
 15-16	du	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
+15	de	de	ADP	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	InIdiom=Yes
 17	tout	tout	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	InIdiom=Yes
 18	respectée	respecter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@pass	_	SpaceAfter=No
