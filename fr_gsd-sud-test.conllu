@@ -3023,7 +3023,7 @@
 16	Battlefield	Battlefield	PROPN	_	_	18	subj	_	_
 17	3	3	NUM	_	Number=Plur	16	mod	_	_
 18	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	comp:obj	_	_
-19	THE	THE	X	_	Foreign=Yes	18	comp:pred	_	Lang=en
+19	THE	THE	X	_	Foreign=Yes	18	comp:pred	_	ExtPos=PROPN|Lang=en
 20	GAME	GAME	X	_	Foreign=Yes	19	flat@name	_	Lang=en
 21	pour	pour	ADP	_	_	18	mod	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
@@ -3231,7 +3231,7 @@
 6	show	show	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Mamma	Mamma	PROPN	_	_	6	appos	_	_
-9	Mia	Mia	X	_	_	8	mod	_	_
+9	Mia	Mia	X	_	_	8	mod	_	ExtPos=PROPN
 10	!	!	PUNCT	_	_	8	punct	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	8	punct	_	_
 
@@ -3503,7 +3503,7 @@
 12	favori	favori	ADJ	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
 13	contre	contre	ADP	_	_	10	mod	_	_
 14	Schalke	Schalke	PROPN	_	_	13	comp:obj	_	_
-15	04	04	X	_	_	14	mod	_	_
+15	04	04	X	_	_	14	mod	_	ExtPos=PROPN
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	_
 18	effectif	effectif	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
@@ -4150,7 +4150,7 @@
 # sent_id = fr-ud-test_00137
 # text = Si Moody's estime que leur note ne devrait pas baisser de plus d'un cran, la situation n'est pas la même pour la Société Générale, dont la dégradation pourrait atteindre deux crans.
 1	Si	si	SCONJ	_	_	20	mod	_	wordform=si
-2	Moody's	Moody's	X	_	_	3	subj	_	_
+2	Moody's	Moody's	X	_	_	3	subj	_	ExtPos=PROPN
 3	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
@@ -7163,7 +7163,7 @@
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	Québec	Québec	PROPN	_	_	13	mod	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	_
-17	H1M	H1M	X	_	_	11	mod	_	_
+17	H1M	H1M	X	_	_	11	mod	_	ExtPos=PROPN
 18	1N4	1N4	X	_	_	17	flat@name	_	_
 
 # sent_id = fr-ud-test_00255
@@ -8235,7 +8235,7 @@
 1	RADSL	RADSL	NOUN	_	Gender=Masc|Number=Sing	2	subj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	«	«	PUNCT	_	_	2	punct	_	_
-4	Rate-Adaptive	Rate-Adaptive	X	_	Foreign=Yes	2	comp:pred	_	Lang=en
+4	Rate-Adaptive	Rate-Adaptive	X	_	Foreign=Yes	2	comp:pred	_	ExtPos=PROPN|Lang=en
 5	Digital	Digital	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
 6	Subscriber	Subscriber	X	_	Foreign=Yes	5	flat@foreign	_	Lang=en
 7	Line	Line	X	_	Foreign=Yes	6	flat@foreign	_	Lang=en
@@ -9266,7 +9266,7 @@
 10	USS	USS	PROPN	_	_	9	flat@name	_	_
 11	O'Hare	O'Hare	PROPN	_	_	10	flat@name	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	DD-889	DD-889	X	_	_	8	appos	_	SpaceAfter=No
+13	DD-889	DD-889	X	_	_	8	appos	_	ExtPos=PROPN|SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	_
 15	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 16	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@pass	_	_
@@ -9609,7 +9609,7 @@
 23	de	de	ADP	_	_	22	udep	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	M3	M3	X	_	_	26	mod	_	_
-26	CSL	CSL	X	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
+26	CSL	CSL	X	_	Gender=Fem|Number=Sing	23	comp:obj	_	ExtPos=PROPN|SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01532

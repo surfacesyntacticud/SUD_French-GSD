@@ -587,7 +587,7 @@
 6	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 7	musicaux	musical	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
 8	comme	comme	ADP	_	_	6	udep	_	_
-9	Los	Los	X	_	Foreign=Yes	8	comp:obj	_	Lang=es
+9	Los	Los	X	_	Foreign=Yes	8	comp:obj	_	ExtPos=PROPN|Lang=es
 10	Abuelos	Abuelos	X	_	Foreign=Yes	9	flat@name	_	Lang=es
 11	de	de	X	_	Foreign=Yes	10	flat@name	_	Lang=es
 12	la	la	X	_	Foreign=Yes	11	flat@name	_	Lang=es
@@ -1057,7 +1057,7 @@
 # sent_id = fr-ud-dev_00039
 # text = Le lazy bed (littéralement : « plate-bande de paresseux ») est une technique de travail du sol autrefois pratiquée dans certaines régions des Îles britanniques.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	lazy	lazy	X	_	Foreign=Yes	13	subj	_	Lang=en
+2	lazy	lazy	X	_	Foreign=Yes	13	subj	_	ExtPos=PROPN|Lang=en
 3	bed	bed	X	_	Foreign=Yes	2	flat@name	_	Lang=en
 4	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 5	littéralement	littéralement	ADV	_	_	8	mod	_	_
@@ -2071,7 +2071,7 @@
 5	Christ	christ	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	wordform=christ
 6	Rédempteur	rédempteur	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	wordform=rédempteur
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	Cathedral	Cathedral	X	_	Foreign=Yes	2	appos	_	Lang=en
+8	Cathedral	Cathedral	X	_	Foreign=Yes	2	appos	_	ExtPos=PROPN|Lang=en
 9	Church	Church	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	of	of	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
 11	Christ	Christ	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
@@ -2115,7 +2115,7 @@
 17	émission	émission	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	«	«	PUNCT	_	_	20	punct	_	_
 19	Absolutt	Absolutt	X	_	_	20	mod	_	_
-20	underholdning	underholdning	X	_	_	17	appos	_	_
+20	underholdning	underholdning	X	_	_	17	appos	_	ExtPos=PROPN
 21	»	»	PUNCT	_	_	20	punct	_	_
 22	diffusée	diffuser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	mod	_	_
 23	sur	sur	ADP	_	_	22	mod	_	_
@@ -2184,7 +2184,7 @@
 28	d'	de	ADP	_	_	25	comp:obj@x	_	SpaceAfter=No
 29	étendre	étendre	VERB	_	VerbForm=Inf	28	comp:obj	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
-31	IRT	IRT	X	_	Number=Sing	29	comp:obj	_	_
+31	IRT	IRT	X	_	Number=Sing	29	comp:obj	_	ExtPos=PROPN
 32	Flushing	Flushing	X	_	Foreign=Yes	31	flat@name	_	Lang=en
 33	Line	Line	X	_	Foreign=Yes	32	flat@name	_	Lang=en|SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
@@ -2909,7 +2909,7 @@
 9	en	en	ADP	_	_	12	udep	_	_
 10	anglais	anglais	NOUN	_	Gender=Masc	9	comp:obj	_	_
 11	:	:	PUNCT	_	_	9	punct	_	_
-12	Mendelian	Mendelian	X	_	Foreign=Yes	3	appos	_	Lang=en
+12	Mendelian	Mendelian	X	_	Foreign=Yes	3	appos	_	ExtPos=PROPN|Lang=en
 13	Inheritance	Inheritance	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en
 14	in	in	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en
 15	Man	Man	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en|SpaceAfter=No
@@ -3282,7 +3282,7 @@
 # sent_id = fr-ud-dev_00118
 # text = 2000 OK67 mesure environ 160km de diamètre.
 1	2000	2000	NUM	_	Number=Plur	2	det	_	_
-2	OK67	OK67	X	_	_	3	subj	_	_
+2	OK67	OK67	X	_	_	3	subj	_	ExtPos=PROPN
 3	mesure	mesurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	environ	environ	ADV	_	_	5	mod	_	_
 5	160	160	NUM	_	Number=Plur	6	det	_	SpaceAfter=No
@@ -3964,7 +3964,7 @@
 37	en	en	ADP	_	_	36	mod	_	_
 38	position	position	NOUN	_	Gender=Fem|Number=Sing	37	comp:obj	_	_
 39	de	de	ADP	_	_	38	udep	_	_
-40	defensive	defensive	X	_	Number=Sing	39	comp:obj	_	_
+40	defensive	defensive	X	_	Number=Sing	39	comp:obj	_	ExtPos=PROPN
 41	end	end	X	_	Gender=Fem|Number=Sing	40	flat@name	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	44	punct	_	_
 43	mais	mais	CCONJ	_	_	44	cc	_	_
@@ -5981,7 +5981,7 @@
 6	par	par	ADP	_	_	5	comp:obl@agent	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	lignes	ligne	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
-9	Q	Q	X	_	_	8	appos	_	_
+9	Q	Q	X	_	_	8	appos	_	ExtPos=PROPN
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	R	R	X	_	_	9	conj	_	_
 12-13	du	_	_	_	_	_	_	_	_
@@ -6296,7 +6296,7 @@
 7	de	de	ADP	_	_	6	udep	_	_
 8	son	son	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	Academy	Academy	X	_	Foreign=Yes	2	appos	_	Lang=en
+10	Academy	Academy	X	_	Foreign=Yes	2	appos	_	ExtPos=PROPN|Lang=en
 11	Award	Award	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
 12	for	for	X	_	Foreign=Yes	11	flat@foreign	_	Lang=en
 13	Best	Best	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en
@@ -6330,7 +6330,7 @@
 41	)	)	PUNCT	_	_	33	punct	_	_
 42	par	par	ADP	_	_	22	comp:obl@agent	_	_
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
-44	Academy	Academy	X	_	Foreign=Yes	42	comp:obj	_	Lang=en
+44	Academy	Academy	X	_	Foreign=Yes	42	comp:obj	_	ExtPos=PROPN|Lang=en
 45	of	of	X	_	Foreign=Yes	44	flat@foreign	_	Lang=en
 46	Motion	Motion	X	_	Foreign=Yes	45	flat@foreign	_	Lang=en
 47	Picture	Picture	X	_	Foreign=Yes	46	flat@foreign	_	Lang=en
@@ -6374,7 +6374,7 @@
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	19	udep	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	D.III	D.III	X	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
+22	D.III	D.III	X	_	Gender=Masc|Number=Sing	20	comp:obj	_	ExtPos=PROPN|SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00230
@@ -6679,7 +6679,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Chicago	Chicago	PROPN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	CA-14	CA-14	X	_	_	5	appos	_	SpaceAfter=No
+7	CA-14	CA-14	X	_	_	5	appos	_	ExtPos=PROPN|SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	comp@expl	_	_
@@ -7204,7 +7204,7 @@
 13	Hyapatia	Hyapatia	PROPN	_	_	12	appos	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	prononcé	prononcer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	mod	_	_
-16	high-a-PAY-sha	high-a-PAY-sha	X	_	_	15	mod	_	SpaceAfter=No
+16	high-a-PAY-sha	high-a-PAY-sha	X	_	_	15	mod	_	ExtPos=PROPN|SpaceAfter=No
 17	)	)	PUNCT	_	_	15	punct	_	_
 18	en	en	ADP	_	_	10	mod	_	_
 19	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
@@ -7886,7 +7886,7 @@
 10	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	comp:obj	_	SpaceAfter=No
 11	imposer	imposer	VERB	_	VerbForm=Inf	9	comp:obj	_	_
 12	en	en	ADP	_	_	11	mod	_	_
-13	630	630	X	_	_	12	comp:obj	_	SpaceAfter=No
+13	630	630	X	_	_	12	comp:obj	_	ExtPos=PROPN|SpaceAfter=No
 14	/	/	SYM	_	_	15	cc	_	ExtPos=CCONJ|SpaceAfter=No
 15	631	631	NUM	_	Number=Plur	13	conj	_	_
 16	après	après	ADP	_	_	11	mod	_	_
@@ -9227,7 +9227,7 @@
 6	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	rock	rock	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	_
-9	n'roll	n'roll	X	_	_	7	comp:obj	_	_
+9	n'roll	n'roll	X	_	_	7	comp:obj	_	ExtPos=PROPN
 10	parisien	parisien	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -10017,10 +10017,10 @@
 11	urnes	urne	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
 12	de	de	ADP	_	_	7	mod	_	_
 13	12H30	12H30	NUM	_	Number=Plur	12	comp:obj	_	_
-14	GMT	GMT	X	_	_	13	mod	_	_
+14	GMT	GMT	X	_	_	13	mod	_	ExtPos=PROPN
 15	à	à	ADP	_	_	13	udep	_	_
 16	00H30	00H30	NUM	_	Number=Plur	15	comp:obj	_	_
-17	GMT	GMT	X	_	_	16	mod	_	_
+17	GMT	GMT	X	_	_	16	mod	_	ExtPos=PROPN
 18	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -10347,7 +10347,7 @@
 6	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	SpaceAfter=No
 7	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	«	«	PUNCT	_	_	9	punct	_	_
-9	The	The	X	_	Foreign=Yes	7	comp:pred	_	Lang=en
+9	The	The	X	_	Foreign=Yes	7	comp:pred	_	ExtPos=PROPN|Lang=en
 10	king	king	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
 11	of	of	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
 12	comedy	comedy	X	_	Foreign=Yes	11	flat@foreign	_	Lang=en
@@ -11052,14 +11052,14 @@
 6	nommés	nommer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
 7	Dodo	Dodo	PROPN	_	_	6	comp:pred	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	ドードー	ドードー	X	_	_	7	appos	_	SpaceAfter=No
+9	ドードー	ドードー	X	_	_	7	appos	_	ExtPos=PROPN|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	Dōdō	Dōdō	PROPN	_	_	9	appos	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	9	punct	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	Dodorio	Dodorio	PROPN	_	_	7	conj	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	ドードリオ	ドードリオ	X	_	_	14	appos	_	SpaceAfter=No
+16	ドードリオ	ドードリオ	X	_	_	14	appos	_	ExtPos=PROPN|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	Dōdorio	Dōdorio	PROPN	_	_	16	appos	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	_
@@ -11099,7 +11099,7 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	lignes	ligne	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
-11	TER	TER	X	_	_	10	appos	_	_
+11	TER	TER	X	_	_	10	appos	_	ExtPos=PROPN
 12	Nantes	Nantes	PROPN	_	_	10	appos	_	SpaceAfter=No
 13	--	--	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	Cholet	Cholet	PROPN	_	_	12	mod	_	_
@@ -11151,7 +11151,7 @@
 29-30	des	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	28	udep	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
-31	Special	Special	X	_	Foreign=Yes	29	comp:obj	_	Lang=en
+31	Special	Special	X	_	Foreign=Yes	29	comp:obj	_	ExtPos=PROPN|Lang=en
 32	Forces	Forces	X	_	Foreign=Yes	31	flat@foreign	_	Lang=en
 33	et	et	CCONJ	_	_	35	cc	_	_
 34	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	35	det	_	_
@@ -11187,7 +11187,7 @@
 11	ARN	ARN	PROPN	_	Number=Sing	9	comp:pred	_	_
 12	messager	messager	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	ARNm	ARNm	X	_	_	11	appos	_	SpaceAfter=No
+14	ARNm	ARNm	X	_	_	11	appos	_	ExtPos=PROPN|SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	_
 16	qui	qui	PRON	_	PronType=Rel|Shared=Yes	17	subj@pass	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
@@ -13506,7 +13506,7 @@
 # text = La DeLorean DMC-12 a été popularisée dans la trilogie Retour vers le futur, où elle sert à voyager dans le temps.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	DeLorean	DeLorean	PROPN	_	Gender=Fem|Number=Sing	4	subj@pass	_	_
-3	DMC-12	DMC-12	X	_	_	2	appos	_	_
+3	DMC-12	DMC-12	X	_	_	2	appos	_	ExtPos=PROPN
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	popularisée	populariser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
@@ -13601,7 +13601,7 @@
 3	Gare	gare	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	wordform=gare
 4	de	de	ADP	_	_	3	udep	_	_
 5	Houdan	Houdan	PROPN	_	_	4	comp:obj	_	_
-6	10.JPG	10.JPG	X	_	_	3	mod	_	_
+6	10.JPG	10.JPG	X	_	_	3	mod	_	ExtPos=PROPN
 7	|	|	PUNCT	_	_	9	punct	_	_
 8	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	wordform=le
 9	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
@@ -13679,7 +13679,7 @@
 4	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 5	Inde	Inde	PROPN	_	_	4	comp:obj	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	Communist	Communist	X	_	Foreign=Yes	2	appos	_	Lang=en
+7	Communist	Communist	X	_	Foreign=Yes	2	appos	_	ExtPos=PROPN|Lang=en
 8	Party	Party	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
 9	of	of	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	India	India	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en|SpaceAfter=No
@@ -14583,7 +14583,7 @@
 8	musée	musée	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	Carnavalet	Carnavalet	PROPN	_	_	8	appos	_	_
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	ND	ND	X	_	_	8	appos	_	_
+11	ND	ND	X	_	_	8	appos	_	ExtPos=PROPN
 12	0203	0203	NUM	_	Number=Plur	11	mod	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
@@ -15284,7 +15284,7 @@
 12	encore	encore	ADV	_	_	13	mod	_	_
 13	de	de	ADP	_	_	5	conj	_	_
 14	ovocné	ovocné	X	_	_	15	mod	_	_
-15	knedliky	knedliky	X	_	_	13	comp:obj	_	_
+15	knedliky	knedliky	X	_	_	13	comp:obj	_	ExtPos=PROPN
 16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	quenelles	quenelle	NOUN	_	Gender=Fem|Number=Plur	15	appos	_	_
 18-19	aux	_	_	_	_	_	_	_	_
@@ -16232,7 +16232,7 @@
 14	August	August	PROPN	_	_	13	comp:obj	_	_
 15	Gloup	Gloup	PROPN	_	_	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	Men	Men	X	_	Foreign=Yes	2	conj	_	Lang=en
+17	Men	Men	X	_	Foreign=Yes	2	conj	_	ExtPos=PROPN|Lang=en
 18	in	in	X	_	Foreign=Yes	17	flat@foreign	_	Lang=en
 19	Black	Black	X	_	Foreign=Yes	18	flat@foreign	_	Lang=en|wordform=black
 20	pour	pour	ADP	_	_	17	orphan	_	_
@@ -17351,7 +17351,7 @@
 32	fitness	fitness	NOUN	_	Gender=Masc	31	comp:obj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	clairement	clairement	ADV	_	_	35	mod	_	_
-35	90's	90's	X	_	_	26	mod	_	_
+35	90's	90's	X	_	_	26	mod	_	ExtPos=PROPN
 36	avec	avec	ADP	_	_	26	udep	_	_
 37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	peinture	peinture	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
@@ -17528,7 +17528,7 @@
 
 # sent_id = fr-ud-dev_00631
 # text = Can You Feel It a été enregistré en mars 1980 et est sorti en single le 23 septembre 1980.
-1	Can	Can	X	_	Foreign=Yes|Shared=Yes	5	subj@pass	_	Lang=en
+1	Can	Can	X	_	Foreign=Yes|Shared=Yes	5	subj@pass	_	ExtPos=PROPN|Lang=en
 2	You	You	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
 3	Feel	Feel	X	_	Foreign=Yes	2	flat@foreign	_	Lang=en
 4	It	It	X	_	Foreign=Yes	3	flat@foreign	_	Lang=en
@@ -17971,7 +17971,7 @@
 15	friands	friand	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	_
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
-18	new	new	X	_	Foreign=Yes	17	mod	_	Lang=en
+18	new	new	X	_	Foreign=Yes	17	mod	_	ExtPos=PROPN|Lang=en
 19	wave	wave	X	_	Foreign=Yes	18	flat@name	_	Lang=en
 20	à	à	ADP	_	_	15	mod	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -19125,7 +19125,7 @@
 # text = Le baron zu Guttenberg, 39 ans, le plus populaire des ministres de la chancelière Angela Merkel, obtient un indice de satisfaction de 73%, selon un sondage réalisé mardi pour la chaîne de télévision publique ARD.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	baron	baron	NOUN	_	Gender=Masc|Number=Sing	21	subj	_	_
-3	zu	zu	X	_	_	2	mod	_	_
+3	zu	zu	X	_	_	2	mod	_	ExtPos=PROPN
 4	Guttenberg	Guttenberg	PROPN	_	_	3	flat@name	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	39	39	NUM	_	Number=Plur	7	det	_	_
@@ -19801,7 +19801,7 @@
 11	dans	dans	ADP	_	_	4	mod	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	album	album	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
-14	Some	Some	X	_	Foreign=Yes	13	appos	_	Lang=en
+14	Some	Some	X	_	Foreign=Yes	13	appos	_	ExtPos=PROPN|Lang=en
 15	Time	Time	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en
 16	in	in	X	_	Foreign=Yes	15	flat@foreign	_	Lang=en
 17	New	New	X	_	Foreign=Yes	16	flat@foreign	_	Lang=en
@@ -20262,12 +20262,12 @@
 6	d'	de	ADP	_	_	5	udep	_	SpaceAfter=No
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	pédale	pédale	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
-9	wah	wah	X	_	_	8	appos	_	_
+9	wah	wah	X	_	_	8	appos	_	ExtPos=PROPN
 10	issue	issu	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	custom	custom	X	_	Foreign=Yes	11	comp:obj	_	Lang=en
+13	custom	custom	X	_	Foreign=Yes	11	comp:obj	_	ExtPos=PROPN|Lang=en
 14	shop	shop	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en
 15	Dunlop	Dunlop	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en|SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
@@ -21403,7 +21403,7 @@
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
-7	Bound	Bound	X	_	Foreign=Yes	4	comp:obj	_	Lang=en
+7	Bound	Bound	X	_	Foreign=Yes	4	comp:obj	_	ExtPos=PROPN|Lang=en
 8	for	for	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
 9	Glory	Glory	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
@@ -22169,7 +22169,7 @@
 36	en	en	ADP	_	_	35	udep	_	_
 37	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 38	face	face	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
-39	B	B	X	_	_	38	appos	_	SpaceAfter=No
+39	B	B	X	_	_	38	appos	_	ExtPos=PROPN|SpaceAfter=No
 40	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 41	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	30	punct	_	_
@@ -22894,7 +22894,7 @@
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Basketball	Basketball	X	_	Foreign=Yes	6	comp:obj	_	Lang=en
+8	Basketball	Basketball	X	_	Foreign=Yes	6	comp:obj	_	ExtPos=PROPN|Lang=en
 9	Hall	Hall	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	of	of	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
 11	Fame	Fame	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
@@ -23643,7 +23643,7 @@
 6	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp:obj	_	_
 7	transformer	transformer	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 8	en	en	ADP	_	_	7	comp:obl	_	_
-9	Ultimate	Ultimate	X	_	Foreign=Yes	8	comp:obj	_	Lang=en
+9	Ultimate	Ultimate	X	_	Foreign=Yes	8	comp:obj	_	ExtPos=PROPN|Lang=en
 10	Echo	Echo	X	_	Foreign=Yes	9	flat@name	_	Lang=en
 11	Echo	Echo	X	_	Foreign=Yes	10	flat@name	_	Lang=en
 12	pour	pour	ADP	_	_	7	mod@x	_	_
@@ -24368,7 +24368,7 @@
 # text = Le Curtiss XP-62 était un prototype de chasseur monoplace de hautes performances lourdement armé construit par la Curtiss-Wright Corporation pour le compte de l'United States Army Air Corps
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Curtiss	Curtiss	PROPN	_	Gender=Masc|Number=Sing	4	subj	_	_
-3	XP-62	XP-62	X	_	_	2	appos	_	_
+3	XP-62	XP-62	X	_	_	2	appos	_	ExtPos=PROPN
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	prototype	prototype	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
@@ -24731,7 +24731,7 @@
 12	termina	terminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 13	sur	sur	ADP	_	_	12	mod	_	_
 14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	Whole	Whole	X	_	_	13	comp:obj	_	_
+15	Whole	Whole	X	_	_	13	comp:obj	_	ExtPos=PROPN
 16	Lotta	Lotta	X	_	_	15	flat@name	_	_
 17	Love	Love	X	_	_	16	flat@name	_	SpaceAfter=No
 18	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
@@ -24750,7 +24750,7 @@
 31	sur	sur	ADP	_	_	29	mod	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	CD	CD	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
-34	Last	Last	X	_	Foreign=Yes	33	appos	_	Lang=en
+34	Last	Last	X	_	Foreign=Yes	33	appos	_	ExtPos=PROPN|Lang=en
 35	Live	Live	X	_	Foreign=Yes	34	flat@name	_	Lang=en
 36	at	at	X	_	Foreign=Yes	35	flat@name	_	Lang=en
 37	CBGB	CBGB	X	_	_	36	flat@name	_	SpaceAfter=No
@@ -25635,7 +25635,7 @@
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 18	japonais	japonais	ADJ	_	Gender=Masc	17	mod	_	_
-19	Pocket	Pocket	X	_	_	17	appos	_	_
+19	Pocket	Pocket	X	_	_	17	appos	_	ExtPos=PROPN
 20	Monsters	Monsters	X	_	_	19	flat@foreign	_	_
 21	Kin	Kin	X	_	_	20	flat@foreign	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
@@ -30575,8 +30575,8 @@
 7	participe	participer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	dark	dark	X	_	Foreign=Yes	8	comp:obj	_	Lang=en
-11	match	match	X	_	Foreign=Yes	10	flat@name	_	Lang=en
+10	dark	dark	X	_	Foreign=Yes	8	comp:obj	_	ExtPos=NOUN|Lang=en
+11	match	match	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
 12	face	face	NOUN	_	_	7	mod	_	ExtPos=ADV
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	Elijah	Elijah	PROPN	_	_	13	comp:obj	_	_
@@ -30997,7 +30997,7 @@
 7	par	par	ADP	_	_	5	mod	_	_
 8	décision	décision	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	DC	DC	X	_	_	8	appos	_	_
+10	DC	DC	X	_	_	8	appos	_	ExtPos=PROPN
 11	n°	n°	SYM	_	_	10	mod	_	ExtPos=NOUN
 12	2010-626	2010-626	NUM	_	Number=Plur	10	mod	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	10	punct	_	_
@@ -31512,7 +31512,7 @@
 24	présentant	présenter	VERB	_	Tense=Pres|VerbForm=Part	12	parataxis	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
-27	E	E	X	_	_	26	appos	_	SpaceAfter=No
+27	E	E	X	_	_	26	appos	_	ExtPos=PROPN|SpaceAfter=No
 28	/	/	SYM	_	_	29	cc	_	ExtPos=CCONJ|SpaceAfter=No
 29	H	H	SYM	_	_	27	conj	_	_
 30	constant	conster	VERB	_	Tense=Pres|VerbForm=Part	26	mod	_	_
@@ -32317,7 +32317,7 @@
 5	de	de	ADP	_	_	8	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	latin	latin	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-8	stella	stella	X	_	Foreign=Yes	2	appos	_	Lang=en
+8	stella	stella	X	_	Foreign=Yes	2	appos	_	ExtPos=PROPN|Lang=en
 9	fixa	fixa	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en|SpaceAfter=No
 10	)	)	PUNCT	_	_	8	punct	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -32710,7 +32710,7 @@
 31	de	de	ADP	_	_	30	udep	_	_
 32	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
 33	vidéo	vidéo	ADJ	_	_	32	mod	_	_
-34	American	American	X	_	Foreign=Yes	30	appos	_	Lang=en
+34	American	American	X	_	Foreign=Yes	30	appos	_	ExtPos=PROPN|Lang=en
 35	McGee	McGee	PROPN	_	_	34	flat@name	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -34374,7 +34374,7 @@
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	de	de	ADP	_	_	14	udep	_	_
-16	heavy	heavy	X	_	Foreign=Yes	15	comp:obj	_	Lang=en
+16	heavy	heavy	X	_	Foreign=Yes	15	comp:obj	_	ExtPos=PROPN|Lang=en
 17	metal	metal	X	_	Foreign=Yes	16	flat@name	_	Lang=en|SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -35309,7 +35309,7 @@
 4	H.R.F.	H.R.F.	PROPN	_	_	6	subj	_	_
 5	Keating	Keating	PROPN	_	_	4	flat@name	_	_
 6	classa	classer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	The	The	X	_	Foreign=Yes	6	comp:obj	_	Lang=en
+7	The	The	X	_	Foreign=Yes	6	comp:obj	_	ExtPos=PROPN|Lang=en
 8	Sands	Sands	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
 9	of	of	X	_	Foreign=Yes	8	flat@foreign	_	Lang=en
 10	Windee	Windee	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
@@ -35393,7 +35393,7 @@
 38	à	à	ADP	_	_	36	mod	_	_
 39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	_
 40	articles	article	NOUN	_	Gender=Masc|Number=Plur	38	comp:obj	_	_
-41	L.	L.	X	_	_	40	appos	_	_
+41	L.	L.	X	_	_	40	appos	_	ExtPos=PROPN
 42	642-3	642-3	NUM	_	Number=Plur	41	mod	_	_
 43	et	et	CCONJ	_	_	44	cc	_	_
 44	suivants	suivant	ADJ	_	Gender=Masc|Number=Plur	41	conj	_	_
@@ -35529,7 +35529,7 @@
 10	9	9	NUM	_	Number=Plur	11	det	_	_
 11	albums	album	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
 12	depuis	depuis	ADP	_	_	2	mod	_	_
-13	Delaney	Delaney	X	_	Foreign=Yes	12	comp:obj	_	Lang=en|SpaceAfter=No
+13	Delaney	Delaney	X	_	Foreign=Yes	12	comp:obj	_	ExtPos=PROPN|Lang=en|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	Bonnie	Bonnie	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en
 16	and	and	X	_	Foreign=Yes	15	flat@foreign	_	Lang=en
@@ -36493,7 +36493,7 @@
 10	Brigade	brigade	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	wordform=brigade
 11	volante	volant	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	The	The	X	_	Foreign=Yes	10	appos	_	Lang=en
+13	The	The	X	_	Foreign=Yes	10	appos	_	ExtPos=PROPN|Lang=en
 14	Bill	Bill	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|SpaceAfter=No
 15	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
@@ -36887,15 +36887,15 @@
 26	terme	terme	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	28	det	_	SpaceAfter=No
 28	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
-29	A1	A1	X	_	_	28	appos	_	_
+29	A1	A1	X	_	_	28	appos	_	ExtPos=PROPN
 30	et	et	CCONJ	_	_	32	cc	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	_
-33	A104	A104	X	_	_	32	appos	_	_
+33	A104	A104	X	_	_	32	appos	_	ExtPos=PROPN
 34	à	à	ADP	_	_	24	comp:obl	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
 36	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	34	comp:obj	_	_
-37	A15	A15	X	_	_	36	appos	_	SpaceAfter=No
+37	A15	A15	X	_	_	36	appos	_	ExtPos=PROPN|SpaceAfter=No
 38	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = fr-ud-dev_01333
@@ -39033,7 +39033,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	U-boot	U-boot	PROPN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	allemand	allemand	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
-11	U-49	U-49	X	_	_	9	appos	_	_
+11	U-49	U-49	X	_	_	9	appos	_	ExtPos=PROPN
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
 13	transportait	transporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	_
 14	à	à	ADP	_	_	13	mod	_	_
@@ -39375,7 +39375,7 @@
 9	donc	donc	ADV	_	_	8	mod	_	_
 10	énormément	énormément	ADV	_	_	8	mod	_	_
 11	de	de	ADP	_	_	8	comp:obl	_	_
-12	Secret	Secret	X	_	Foreign=Yes	11	comp:obj	_	Lang=en
+12	Secret	Secret	X	_	Foreign=Yes	11	comp:obj	_	ExtPos=PROPN|Lang=en
 13	of	of	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en
 14	Mana	Mana	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
@@ -40386,7 +40386,7 @@
 
 # sent_id = fr-ud-dev_01451
 # text = Tunes of Wacken--Live est le premier live du groupe de thrash metal allemand Grave Digger.
-1	Tunes	Tunes	X	_	Foreign=Yes	6	subj	_	Lang=en
+1	Tunes	Tunes	X	_	Foreign=Yes	6	subj	_	ExtPos=PROPN|Lang=en
 2	of	of	X	_	Foreign=Yes	1	flat@foreign	_	Lang=en
 3	Wacken	Wacken	X	_	Foreign=Yes	2	flat@foreign	_	Lang=en|SpaceAfter=No
 4	--	--	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -40950,13 +40950,13 @@
 45	envoie	envoyer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	mod@relcl	_	_
 46	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	47	det	_	_
 47	corps	corps	NOUN	_	Gender=Masc|Number=Sing	45	comp:obj	_	_
-48	K	K	X	_	_	47	appos	_	_
+48	K	K	X	_	_	47	appos	_	ExtPos=PROPN
 49	sur	sur	ADP	_	_	45	mod	_	_
 50	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
 51	clôture	clôture	NOUN	_	Gender=Fem|Number=Sing	49	comp:obj	_	_
 52	algébrique	algébrique	ADJ	_	Gender=Fem|Number=Sing	51	mod	_	_
 53	de	de	ADP	_	_	51	udep	_	_
-54	K	K	X	_	_	53	comp:obj	_	SpaceAfter=No
+54	K	K	X	_	_	53	comp:obj	_	ExtPos=PROPN|SpaceAfter=No
 55	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
 56	.	.	PUNCT	_	_	2	punct	_	_
 
