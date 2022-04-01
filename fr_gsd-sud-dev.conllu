@@ -3150,7 +3150,7 @@
 5	blog	blog	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	intitulé	intituler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	mod	_	_
 7	Dancing	Dancing	PROPN	_	_	6	comp:pred	_	_
-8	shoes	shoe	NOUN	_	Gender=Fem|Number=Plur	7	flat@name	_	_
+8	shoes	shoes	PROPN	_	_	7	flat@name	_	_
 9	(	(	PUNCT	_	Shared=Yes	10	punct	_	SpaceAfter=No
 10	mode	mode	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
@@ -37484,7 +37484,7 @@
 17	,	,	PUNCT	_	_	1	punct	_	_
 18	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
 19	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	InTitle=Yes|wordform=un
-20	oeil	œil	NOUN	_	Gender=Masc|Number=Sing	26	subj	_	ExtPos=PROPN|Title=Yes|wordform=œil
+20	oeil	œil	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	26	subj	_	CorrectForm=œil|ExtPos=PROPN|Title=Yes
 21	sur	sur	ADP	_	_	20	udep	_	InTitle=Yes
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	InTitle=Yes
 23	planète	planète	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	InTitle=Yes|SpaceAfter=No
