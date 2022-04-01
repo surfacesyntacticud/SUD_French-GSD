@@ -296,7 +296,7 @@
 36	parce	parce	ADV	_	_	6	mod	_	ExtPos=SCONJ|Idiom=Yes
 37	que	que	SCONJ	_	_	36	unk	_	InIdiom=Yes
 38	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	39	det	_	_
-39	coeur	cœur	NOUN	_	Gender=Masc|Number=Sing	40	subj	_	wordform=cœur
+39	coeur	cœur	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	40	subj	_	CorrectForm=cœur
 40	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	comp:obj	_	_
 41	comme	comme	ADP	_	_	40	mod	_	_
 42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	_
