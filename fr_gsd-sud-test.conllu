@@ -6986,7 +6986,7 @@
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 6	à	à	ADP	_	_	2	comp:obl	_	_
-7	tous	tout	DET	_	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+7	tous	tout	ADJ	_	Gender=Masc|Number=Plur|PronType=Ind	8	mod	_	_
 8	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	6	comp:obj	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
 10	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
