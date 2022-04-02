@@ -2109,7 +2109,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	reporter	reporter	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
-14	présentatrice	présentateur	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+14	présentatrice	présentatrice	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
 15	pour	pour	ADP	_	_	7	mod	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	émission	émission	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
@@ -3204,7 +3204,7 @@
 2	peu	peu	ADV	_	_	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
-5	créatrice	créateur	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
+5	créatrice	créatrice	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
 6	inspirée	inspiré	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 7	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	aussi	aussi	ADV	_	_	7	mod	_	_
@@ -3664,7 +3664,7 @@
 5	élue	élire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
 6	en	en	ADP	_	_	5	mod	_	_
 7	2001	2001	NUM	_	Number=Plur	6	comp:obj	_	_
-8	conseillère	conseiller	NOUN	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
+8	conseillère	conseillère	NOUN	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
 9	générale	général	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	8	udep	_	_
@@ -3673,7 +3673,7 @@
 13	de	de	ADP	_	_	12	udep	_	_
 14	Bagnolet	Bagnolet	PROPN	_	_	13	comp:obj	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
-16	vice-présidente	vice-président	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+16	vice-présidente	vice-présidente	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -4730,7 +4730,7 @@
 6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	présidente	président	NOUN	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
+9	présidente	présidente	NOUN	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -13721,7 +13721,7 @@
 5	films	film	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	réalisatrice	réalisateur	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
+8	réalisatrice	réalisatrice	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	:	:	PUNCT	_	Shared=Yes	10	punct	_	_
 10	Border-line	border-line	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No|wordform=border-line
 11	,	,	PUNCT	_	_	13	punct	_	_
@@ -19140,7 +19140,7 @@
 14	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	chancelière	chancelier	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
+17	chancelière	chancelière	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	Angela	Angela	PROPN	_	_	17	appos	_	_
 19	Merkel	Merkel	PROPN	_	_	18	flat@name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	11	punct	_	_
@@ -21547,7 +21547,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	désignée	désigner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 4	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
-5	joueuse	joueur	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
+5	joueuse	joueuse	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 6	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 7	de	de	ADP	_	_	5	udep	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -23085,7 +23085,7 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Dauphins	Dauphins	PROPN	_	Number=Plur	4	comp:obj	_	_
 7	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-8	championne	champion	NOUN	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
+8	championne	championne	NOUN	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	France	France	PROPN	_	_	9	comp:obj	_	_
 11	huit	huit	NUM	_	Number=Plur	12	det	_	_
@@ -26682,7 +26682,7 @@
 21	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	InIdiom=Yes
 22	enfant	enfant	NOUN	_	Gender=Fem|Number=Sing	18	comp:pred	_	_
 23	et	et	CCONJ	_	_	24	cc	_	_
-24	actrice	acteur	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+24	actrice	actrice	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00967
@@ -33435,7 +33435,7 @@
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	ancienne	ancien	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
-15	joueuse	joueur	NOUN	_	Gender=Fem|Number=Sing	12	comp:pred	_	_
+15	joueuse	joueuse	NOUN	_	Gender=Fem|Number=Sing	12	comp:pred	_	_
 16	australienne	australien	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 17	de	de	ADP	_	_	15	udep	_	_
 18	squash	squash	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	SpaceAfter=No
@@ -33798,7 +33798,7 @@
 5	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	joueuse	joueur	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
+8	joueuse	joueuse	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	agressive	agressif	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 10	en	en	ADP	_	_	8	udep	_	_
 11	fond	fond	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
@@ -35813,7 +35813,7 @@
 6	Friederich	Friederich	PROPN	_	_	5	flat@name	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	nommée	nommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
-9	présidente	président	NOUN	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
+9	présidente	présidente	NOUN	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	Association	association	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	wordform=association
@@ -40820,7 +40820,7 @@
 2	Patrick	Patrick	PROPN	_	_	1	flat@name	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	5	det	_	_
-5	actrice	acteur	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
+5	actrice	actrice	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
 7	productrice	producteur	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
 8	américaine	américain	ADJ	_	Gender=Fem|Number=Sing|Shared=Yes	7	mod	_	SpaceAfter=No

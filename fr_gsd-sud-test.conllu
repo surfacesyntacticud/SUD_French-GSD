@@ -3670,7 +3670,7 @@
 6	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	candidate	candidat	NOUN	_	Gender=Fem|Number=Sing	29	subj	_	_
+9	candidate	candidate	NOUN	_	Gender=Fem|Number=Sing	29	subj	_	_
 10	à	à	ADP	_	_	9	udep	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	primaire	primaire	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
