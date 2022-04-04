@@ -831,7 +831,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	20	20	NUM	_	Number=Plur	4	det	_	SpaceAfter=No
-4	h	heure	NOUN	_	Gender=Masc|Number=Plur	2	comp:pred	_	SpaceAfter=No
+4	h	h	NOUN	_	Gender=Masc|Number=Plur	2	comp:pred	_	SpaceAfter=No
 5	45	45	NUM	_	Number=Plur	4	mod	_	_
 6	en	en	ADP	_	_	2	mod	_	_
 7	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
@@ -1358,7 +1358,7 @@
 # sent_id = fr-ud-test_00054
 # text = 19h15.
 1	19	19	NUM	_	Number=Plur	2	det	_	SpaceAfter=No
-2	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	h	h	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 3	15	15	NUM	_	Number=Plur	2	mod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -2171,7 +2171,7 @@
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	de	de	ADP	_	_	7	conj	_	_
 12	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	_
-13	énérgie	énergie	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
+13	énérgie	énergie	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	11	comp:obj	_	CorrectForm=énergie
 14	exclusivement	exclusivement	ADV	_	_	1	mod	_	_
 15-16	aux	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	1	comp:obl	_	_
@@ -4401,16 +4401,16 @@
 # text = De 10h à 12h et 14h à 17h office de tourisme.
 1	De	de	ADP	_	_	13	udep	_	wordform=de
 2	10	10	NUM	_	Number=Plur|Shared=No	3	det	_	SpaceAfter=No
-3	h	heure	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
+3	h	h	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 4	à	à	ADP	_	_	3	udep	_	_
 5	12	12	NUM	_	Number=Plur	6	det	_	SpaceAfter=No
-6	h	heure	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
+6	h	h	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	14	14	NUM	_	Number=Plur	9	det	_	SpaceAfter=No
-9	h	heure	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
+9	h	h	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
 10	à	à	ADP	_	_	9	udep	_	_
 11	17	17	NUM	_	Number=Plur	12	det	_	SpaceAfter=No
-12	h	heure	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
+12	h	h	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	office	office	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 14	de	de	ADP	_	_	13	udep	_	_
 15	tourisme	tourisme	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	SpaceAfter=No
@@ -5795,7 +5795,7 @@
 22	jour	jour	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	gréve	grève	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
+25	gréve	grève	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	23	comp:obj	_	CorrectForm=grève|SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00193
@@ -7033,7 +7033,7 @@
 31	(	(	PUNCT	_	Shared=Yes	32	punct	_	SpaceAfter=No
 32	ayurvéda	ayurvéda	NOUN	_	_	29	appos	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
-34	rdanse	danse	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
+34	rdanse	danse	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	32	conj	_	CorrectForm=danse
 35	indienne	indien	ADJ	_	Gender=Fem|Number=Sing	34	mod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	kalaripayat	kalaripayat	NOUN	_	_	34	conj	_	SpaceAfter=No
@@ -7306,7 +7306,7 @@
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	SpaceAfter=No
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	seule	seul	NOUN	_	Gender=Fem|Number=Sing	14	comp:pred	_	_
+16	seule	seul	ADJ	_	Gender=Fem|Number=Sing	14	comp:pred	_	_
 17	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	mod	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	17	mod	_	SpaceAfter=No
@@ -7478,7 +7478,7 @@
 1	Nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	2	subj	_	wordform=nous
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
-4	possesion	possession	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	_
+4	possesion	possession	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	3	comp:obj@lvc	_	CorrectForm=possession
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	2	2	NUM	_	Number=Plur	7	det	_	_
 7	chambres	chambre	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
@@ -7954,7 +7954,7 @@
 6	dans	dans	ADP	_	_	5	mod	_	_
 7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	_
 8	grande	grand	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
-9	naîveté	naïveté	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	naîveté	naïveté	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	6	comp:obj	_	CorrectForm=naïveté
 10	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	service	service	NOUN	_	Gender=Masc|Number=Sing	13	subj@pass	_	_
@@ -9953,7 +9953,7 @@
 28	tout	tout	NOUN	_	Gender=Masc|Number=Sing	29	subj@pass	_	_
 29	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
 30	de	de	ADP	_	_	29	comp:obl@agent	_	_
-31	gariguettes	gariguette	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	_
+31	gariguettes	gariguette	NOUN	_	Gender=Fem|Number=Plur	30	comp:obj	_	_
 32	et	et	CCONJ	_	_	33	cc	_	_
 33	de	de	ADP	_	_	30	conj	_	_
 34	crème	crème	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_

@@ -2222,7 +2222,7 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	à	à	ADP	_	_	10	udep	_	_
 18	20	20	NUM	_	Number=Plur	19	det	_	SpaceAfter=No
-19	h	heure	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	SpaceAfter=No
+19	h	h	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	SpaceAfter=No
 20	30	30	NUM	_	Number=Plur	19	mod	_	_
 21	;	;	PUNCT	_	_	2	punct	_	_
 
@@ -3850,7 +3850,7 @@
 22	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	23	comp:obj	_	SpaceAfter=No
 23	emploie	employer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
 24	comme	comme	ADP	_	_	23	mod	_	_
-25	figurante	figurant	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
+25	figurante	figurante	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00141
@@ -4910,7 +4910,7 @@
 12	12961	12961	NUM	_	Number=Plur	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	naine	nain	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
+15	naine	naine	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
 16	rouge	rouge	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 17	de	de	ADP	_	_	15	udep	_	_
 18	0,67	0,67	NUM	_	Number=Plur	19	det	_	_
@@ -5159,7 +5159,7 @@
 15	KLM	KLM	PROPN	_	_	16	subj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	seule	seul	NOUN	_	Gender=Fem|Number=Sing	16	comp:pred	_	_
+18	seule	seul	ADJ	_	Gender=Fem|Number=Sing	16	comp:pred	_	_
 19	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 20	vole	voler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
 21	depuis	depuis	ADP	_	_	20	mod	_	_
@@ -6124,7 +6124,7 @@
 3	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	4	det	_	_
 4	travail	travail	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
-6	productrice	producteur	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
+6	productrice	productrice	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	de	de	ADP	_	_	5	conj	_	_
 9	chanteuse	chanteuse	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
@@ -13086,7 +13086,7 @@
 47	de	de	ADP	_	_	46	udep	_	_
 48	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	latin	latin	NOUN	_	Gender=Masc|Number=Sing	47	comp:obj	_	_
-50	camera	caméra	NOUN	_	Gender=Fem|Number=Sing	49	appos	_	_
+50	camera	caméra	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	49	appos	_	CorrectForm=caméra
 51	qui	qui	PRON	_	PronType=Rel	52	subj	_	_
 52	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	mod@relcl	_	_
 53	«	«	PUNCT	_	_	54	punct	_	_
@@ -16925,7 +16925,7 @@
 11	littérature	littérature	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 12	enfantine	enfantin	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
-14	illustratrice	illustrateur	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+14	illustratrice	illustratrice	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 15	d'	de	ADP	_	_	14	udep	_	SpaceAfter=No
 16	une	un	NUM	_	Gender=Fem|Number=Sing	17	det	_	_
 17	douzaine	douzaine	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
@@ -17016,7 +17016,7 @@
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	temps	temps	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 5	comme	comme	ADP	_	_	2	mod	_	_
-6	surveillante	surveillant	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
+6	surveillante	surveillante	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	dans	dans	ADP	_	_	2	mod	_	_
 8	divers	divers	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
 9	pensionnats	pensionnat	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
@@ -23274,7 +23274,7 @@
 4	dépassée	dépasser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	comp:obj	_	_
 5	par	par	ADP	_	_	4	comp:obl@agent	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
-7	concurrente	concurrent	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
+7	concurrente	concurrente	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	TI-58C	TI-58C	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
 9	pourtant	pourtant	ADV	_	Shared=Yes	11	mod	_	_
 10	plus	plus	ADV	_	Shared=No	11	mod	_	_
@@ -32192,7 +32192,7 @@
 12	cependant	cependant	ADV	_	_	11	mod	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	grosse	gros	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
-15	productrice	producteur	NOUN	_	Gender=Fem|Number=Sing	11	comp:pred	_	SpaceAfter=No
+15	productrice	productrice	NOUN	_	Gender=Fem|Number=Sing	11	comp:pred	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_01165
@@ -40822,7 +40822,7 @@
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	5	det	_	_
 5	actrice	actrice	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
-7	productrice	producteur	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+7	productrice	productrice	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
 8	américaine	américain	ADJ	_	Gender=Fem|Number=Sing|Shared=Yes	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	Shared=Yes	10	punct	_	_
 10	née	naître	VERB	_	Gender=Fem|Number=Sing|Shared=Yes|Tense=Past|VerbForm=Part	7	mod	_	_
@@ -40920,7 +40920,7 @@
 16	article	article	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	indéfini	indéfini	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
 18	«	«	PUNCT	_	_	19	punct	_	_
-19	une	un	NOUN	_	Gender=Fem|Number=Sing	16	appos	_	_
+19	une	une	NOUN	_	Gender=Fem|Number=Sing	16	appos	_	_
 20	»	»	PUNCT	_	_	19	punct	_	_
 21	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -40998,7 +40998,7 @@
 1	Dovre	Dovre	PROPN	_	_	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	kommune	commune	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
+4	kommune	commune	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	2	comp:pred	_	CorrectForm=commune
 5	de	de	ADP	_	_	4	udep	_	_
 6	Norvège	Norvège	PROPN	_	_	5	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
