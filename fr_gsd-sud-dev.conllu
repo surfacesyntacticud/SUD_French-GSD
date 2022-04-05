@@ -28457,7 +28457,7 @@
 10	tandis	tandis	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	Écossais	Écossais	PROPN	_	Gender=Masc|Number=Plur	14	subj	_	_
+13	Écossais	écossais	NOUN	_	Gender=Masc|Number=Plur	14	subj	_	wordform=écossais
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 15	«	«	PUNCT	_	_	16	punct	_	_
 16	nus	nu	ADJ	_	Gender=Masc|Number=Plur	14	comp:pred	_	_
@@ -30854,7 +30854,7 @@
 7	éditions	édition	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	Homme	Homme	PROPN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+10	Homme	homme	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	wordform=homme
 11	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	5	punct	_	_
 13	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
