@@ -407,9 +407,9 @@
 15	traditionaliste	traditionaliste	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
 16	ET	et	CCONJ	_	_	17	cc	_	wordform=et
 17	intégriste	intégriste	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	20	punct	_	_
-19	mais	mais	CCONJ	_	Shared=No	20	cc	_	_
-20	que	que	SCONJ	_	_	11	conj@emb	_	_
+18	,	,	PUNCT	_	Shared=Yes	20	punct	_	_
+19	mais	mais	CCONJ	_	Shared=Yes	20	cc	_	_
+20	que	que	SCONJ	_	_	11	conj	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	intégristes	intégriste	NOUN	_	Gender=Masc|Number=Plur	24	subj	_	_
 23	n'	ne	ADV	_	Polarity=Neg	24	mod	_	SpaceAfter=No
@@ -876,7 +876,7 @@
 # sent_id = fr-ud-test_00033
 # text = Le royaume s'est amélioré, mais pas dans le sens voulu par l'UE.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	4	subj@pass	_	_
+2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	4	subj@pass	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@pass	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
@@ -2408,7 +2408,7 @@
 
 # sent_id = fr-ud-test_00083
 # text = c'est-à-dire--poursuit-il son argument--, " avant, le Maroc pensait que les indépendantistes étaient tout au mieux un 5%, les militants, mais quand on nous a vus tous unis, main dans la main, on n'en revenait pas ;
-1	c'est-à-dire	c'est-à-dire	ADV	_	Shared=No	14	mod	_	SpaceAfter=No
+1	c'est-à-dire	c'est-à-dire	ADV	_	Shared=Yes	14	mod	_	SpaceAfter=No
 2	--	--	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	poursuit	poursuivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	14	parataxis	_	SpaceAfter=No
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
@@ -2791,7 +2791,7 @@
 1	Pour	pour	ADP	_	_	20	mod	_	wordform=pour
 2	rappel	rappel	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=Yes	5	det	_	SpaceAfter=No
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Opep	Opep	PROPN	_	Number=Sing	20	subj	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	udep	_	_
@@ -3395,7 +3395,7 @@
 20	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
 21	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	20	mod	_	_
 22	matin	matin	NOUN	_	Gender=Masc|Number=Sing	21	mod	_	_
-23	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	24	det	_	_
+23	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	24	det	_	_
 24	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 25	encerclé	encercler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:pred@x	_	_
 26	et	et	CCONJ	_	_	28	cc	_	_
@@ -3403,7 +3403,7 @@
 28	téléphones	téléphone	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	_
 29	coupés	couper	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	orphan	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	selon	selon	ADP	_	_	19	mod	_	_
+31	selon	selon	ADP	_	Shared=Yes	28	mod	_	_
 32	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	33	det	_	_
 33	site	site	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
 34	internet	internet	NOUN	_	Gender=Masc|Number=Sing	33	mod	_	SpaceAfter=No
@@ -3749,7 +3749,7 @@
 22	avec	avec	ADP	_	_	16	mod	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
-25	+	+	SYM	_	Shared=Yes	26	mod	_	ExtPos=ADV
+25	+	+	SYM	_	_	26	mod	_	ExtPos=ADV
 26	Facebookant	facebooker	VERB	_	Tense=Pres|VerbForm=Part	24	mod	_	wordform=facebookant
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	Tweetant	tweeter	VERB	_	Tense=Pres|VerbForm=Part	26	conj	_	wordform=tweetant
@@ -4052,7 +4052,7 @@
 22	Lorenzo	Lorenzo	PROPN	_	_	21	flat@name	_	SpaceAfter=No
 23	,	,	PUNCT	_	Shared=Yes	26	punct	_	_
 24	tous	tout	ADJ	_	Gender=Masc|Number=Plur	25	mod	_	_
-25	deux	deux	NUM	_	Number=Plur|Shared=No	26	mod	_	_
+25	deux	deux	NUM	_	Number=Plur	26	mod	_	_
 26	sur	sur	ADP	_	Shared=Yes	21	udep	_	_
 27	Yamaha	Yamaha	PROPN	_	_	26	comp:obj	_	_
 28	M1	M1	PROPN	_	_	27	flat@name	_	_
@@ -4896,7 +4896,7 @@
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	euro	euro	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
-12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=Yes	13	det	_	SpaceAfter=No
+12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	EUR	EUR	PROPN	_	Number=Sing	16	subj	_	SpaceAfter=No
 14	/	/	SYM	_	_	15	cc	_	ExtPos=CCONJ|SpaceAfter=No
 15	GBP	GBP	PROPN	_	_	13	conj	_	_
@@ -5389,10 +5389,10 @@
 24	tomber	tomber	VERB	_	VerbForm=Inf	23	comp:aux@caus	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	seuil	seuil	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj@agent	_	_
-27	de	de	ADP	_	_	24	mod	_	_
+27	de	de	ADP	_	_	24	comp:obl	_	_
 28	250	250	NUM	_	Number=Plur	29	det	_	_
 29	UA	UA	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
-30	à	à	ADP	_	_	29	udep	_	_
+30	à	à	ADP	_	_	27	comp:obl	_	_
 31	75	75	NUM	_	Number=Plur	32	det	_	_
 32	UA	UA	NOUN	_	Gender=Masc|Number=Plur	30	comp:obj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	21	punct	_	_
@@ -8025,7 +8025,7 @@
 6	menus	menu	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 7	à	à	ADP	_	_	6	udep	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-9	cher	cher	ADJ	_	Gender=Masc|Number=Sing|Shared=No	11	mod	_	_
+9	cher	cher	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	11	mod	_	_
 10	deux	deux	NUM	_	Number=Plur|Shared=No	11	det	_	_
 11	kirs	kir	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 12	une	un	NUM	_	Gender=Fem|Number=Sing	13	det	_	_
@@ -8218,7 +8218,7 @@
 26	d'	de	ADP	_	_	25	udep	_	SpaceAfter=No
 27	Amérique	Amérique	PROPN	_	_	26	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	Shared=Yes	31	punct	_	_
-29	mais	mais	CCONJ	_	Shared=No	31	cc	_	_
+29	mais	mais	CCONJ	_	Shared=Yes	31	cc	_	_
 30	aussi	aussi	ADV	_	Shared=Yes	31	mod	_	_
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	23	conj	_	_

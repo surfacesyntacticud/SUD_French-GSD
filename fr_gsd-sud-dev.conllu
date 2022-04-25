@@ -2037,7 +2037,7 @@
 11	administratives	administratif	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	juridiques	juridique	ADJ	_	Gender=Fem|Number=Plur	11	conj	_	_
-14	déjà	déjà	ADV	_	Shared=Yes	15	mod	_	_
+14	déjà	déjà	ADV	_	Shared=No	15	mod	_	_
 15	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	mod	_	_
 16	ou	ou	CCONJ	_	_	17	cc	_	_
 17	encours	encours	NOUN	_	Gender=Masc	15	conj	_	_
@@ -3826,7 +3826,7 @@
 
 # sent_id = fr-ud-dev_00140
 # text = Arrivées à Nice, elles découvrent que l'homme a tenu parole, et Merle est présentée à Rex Ingram qui l'emploie comme figurante.
-1	Arrivées	arriver	VERB	_	Gender=Fem|Number=Plur|Shared=No|Tense=Past|VerbForm=Part	6	mod@x	_	wordform=arrivées
+1	Arrivées	arriver	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	mod@x	_	wordform=arrivées
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	Nice	Nice	PROPN	_	_	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -7652,7 +7652,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	heure	heure	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	...	...	PUNCT	_	Shared=Yes	12	punct	_	_
-11	Trés	trés	ADV	_	Shared=Yes|Typo=Yes	12	mod	_	CorrectForm=très
+11	Trés	trés	ADV	_	Typo=Yes	12	mod	_	CorrectForm=très
 12	compétente	compétent	ADJ	_	Gender=Fem|Number=Sing	3	parataxis	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	tarifs	tarif	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
@@ -8332,7 +8332,7 @@
 12	vers	vers	ADP	_	_	11	comp:obl	_	_
 13	1385	1385	NUM	_	Number=Plur	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
-15	puis	puis	CCONJ	_	_	16	cc	_	_
+15	puis	puis	CCONJ	_	Shared=Yes	16	cc	_	_
 16	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 17	Paul	Paul	PROPN	_	_	16	subj	_	_
 18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
@@ -8351,8 +8351,8 @@
 31	ou	ou	CCONJ	_	_	32	cc	_	_
 32	1387	1387	NUM	_	Number=Plur	30	conj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	29	punct	_	_
-34	et	et	CCONJ	_	Shared=Yes	35	cc	_	_
-35	Johan	Johan	PROPN	_	_	16	conj	_	_
+34	et	et	CCONJ	_	_	35	cc	_	_
+35	Johan	Johan	PROPN	_	_	16	conj@emb	_	_
 36	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 37	ou	ou	CCONJ	_	_	38	cc	_	_
 38	Johanneke	Johanneke	PROPN	_	_	35	conj@emb	_	SpaceAfter=No
@@ -9109,7 +9109,7 @@
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
 3	peu	peu	NOUN	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes
 4	plus	plus	ADV	_	_	5	mod	_	_
-5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing|Shared=No	9	mod	_	SpaceAfter=No
+5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	9	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	Souchon	Souchon	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes	9	subj	_	_
 8	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs|Shared=No	9	comp:obl	_	_
@@ -9197,11 +9197,11 @@
 19	chargée	charger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	mod	_	_
 20	de	de	ADP	_	_	19	comp:obl@x	_	_
 21	déterminer	déterminer	VERB	_	VerbForm=Inf	20	comp:obj	_	_
-22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	23	det	_	SpaceAfter=No
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	architecture	architecture	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	SpaceAfter=No
-24	--	--	PUNCT	_	_	27	punct	_	SpaceAfter=No
+24	--	--	PUNCT	_	Shared=Yes	27	punct	_	SpaceAfter=No
 25	c'est-à-dire	c'est-à-dire	ADV	_	_	27	mod	_	_
-26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	27	det	_	_
 27	nature	nature	NOUN	_	Gender=Fem|Number=Sing	23	appos	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -14658,10 +14658,10 @@
 18	avec	avec	ADP	_	_	14	udep	_	_
 19	quelques	quelque	DET	_	Number=Plur|PronType=Ind	20	det	_	_
 20	dents	dent	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	25	punct	_	_
-22	ainsi	ainsi	ADV	_	_	25	cc	_	ExtPos=CCONJ|Idiom=Yes
+21	,	,	PUNCT	_	Shared=Yes	25	punct	_	_
+22	ainsi	ainsi	ADV	_	Shared=Yes	25	cc	_	ExtPos=CCONJ|Idiom=Yes
 23	que	que	SCONJ	_	_	22	unk	_	InIdiom=Yes
-24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	25	det	_	_
 25	vertèbres	vertèbre	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
 26	de	de	ADP	_	_	25	udep	_	_
 27	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	29	mod	_	_
@@ -18816,7 +18816,7 @@
 
 # sent_id = fr-ud-dev_00677
 # text = Les chevaux galopants ou Pony trekking est un type d'attraction que l'on trouve dans les parcs d'attractions.
-1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	2	det	_	wordform=les
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	chevaux	cheval	NOUN	_	Gender=Masc|Number=Plur	7	subj	_	_
 3	galopants	galopant	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 4	ou	ou	CCONJ	_	_	5	cc	_	_
@@ -18989,7 +18989,7 @@
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	fondues	fondre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	comp:aux@pass	_	_
 11	dans	dans	ADP	_	_	10	comp:obl	_	_
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	13	det	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Coordination	coordination	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	wordform=coordination
 14	Démocratique	démocratique	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	wordform=démocratique
 15	ou	ou	CCONJ	_	_	16	cc	_	_
@@ -22714,7 +22714,7 @@
 
 # sent_id = fr-ud-dev_00823
 # text = Puis viens et suis-moi !
-1	Puis	puis	CCONJ	_	Shared=No	2	cc	_	wordform=puis
+1	Puis	puis	CCONJ	_	Shared=Yes	2	cc	_	wordform=puis
 2	viens	venir	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	suis	suivre	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
@@ -25353,7 +25353,7 @@
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	seule	seul	ADJ	_	Gender=Fem|Number=Sing	26	mod	_	_
 26	personne	personne	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
-27	parfois	parfois	ADV	_	Shared=Yes	29	mod	_	_
+27	parfois	parfois	ADV	_	_	29	mod	_	_
 28	très	très	ADV	_	Shared=No	29	mod	_	_
 29	incompétente	incompétent	ADJ	_	Gender=Fem|Number=Sing	26	mod	_	_
 30	et	et	CCONJ	_	_	32	cc	_	_
@@ -26323,21 +26323,21 @@
 
 # sent_id = fr-ud-dev_00952
 # text = Identifié à Shou, il porte deux hautes plumes sur la tête et un pagne long.
-1	Identifié	identifier	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	6	mod@x	_	wordform=identifié
+1	Identifié	identifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	mod@x	_	wordform=identifié
 2	à	à	ADP	_	_	1	mod	_	_
 3	Shou	Shou	PROPN	_	_	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	6	subj	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	deux	deux	NUM	_	Number=Plur	9	det	_	_
-8	hautes	haut	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
+7	deux	deux	NUM	_	Number=Plur|Shared=No	9	det	_	_
+8	hautes	haut	ADJ	_	Gender=Fem|Number=Plur|Shared=No	9	mod	_	_
 9	plumes	plume	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
 10	sur	sur	ADP	_	_	9	udep	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	tête	tête	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	pagne	pagne	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
+15	pagne	pagne	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 16	long	long	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -26845,7 +26845,7 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	légende	légende	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	sainte	saint	ADJ	_	Gender=Fem|Number=Sing|Shared=Yes	7	mod	_	_
+6	sainte	saint	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
 7	Elisa	Elisa	PROPN	_	Gender=Fem|Number=Sing	12	subj	_	_
 8	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 9	ou	ou	CCONJ	_	_	10	cc	_	_
@@ -26895,7 +26895,7 @@
 5	XP	XP	PROPN	_	_	4	flat@name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	mode	mode	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	12	subj	_	_
+8	mode	mode	NOUN	_	Gender=Masc|Number=Sing|Shared=No	12	subj	_	_
 9	DirectX	DirectX	PROPN	_	_	8	appos	_	_
 10	10	10	NUM	_	Number=Plur	9	mod	_	_
 11	ne	ne	ADV	_	Polarity=Neg|Shared=No	12	mod	_	_
@@ -28752,9 +28752,9 @@
 26	à	à	ADP	_	_	24	udep	_	_
 27	Londres	Londres	PROPN	_	_	26	comp:obj	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	32	punct	_	_
-30	puis	puis	CCONJ	_	_	32	cc	_	_
-31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+29	,	,	PUNCT	_	Shared=Yes	32	punct	_	_
+30	puis	puis	CCONJ	_	Shared=Yes	32	cc	_	_
+31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	32	det	_	_
 32	25	25	NUM	_	Number=Sing	16	conj	_	_
 33	février	février	NOUN	_	Gender=Masc|Number=Sing	32	mod	_	_
 34	1871	1871	NUM	_	Number=Plur	33	mod	_	SpaceAfter=No
@@ -30912,7 +30912,7 @@
 1	En	en	ADP	_	Shared=Yes	8	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	plus	plus	ADV	_	_	6	mod	_	_
+4	plus	plus	ADV	_	Shared=No	8	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing|Shared=No	8	subj	_	_
 7	génétique	génétique	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
@@ -35738,7 +35738,7 @@
 15	,	,	PUNCT	_	Shared=Yes	19	punct	_	_
 16	dont	dont	PRON	_	PronType=Rel	18	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Sud	sud	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	19	subj	_	wordform=sud
+18	Sud	sud	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	wordform=sud
 19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	mod@relcl	_	_
 20	de	de	ADP	_	_	19	comp:pred	_	_
 21	droit	droit	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
@@ -37954,12 +37954,12 @@
 3	abbé	abbé	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	Sandras	Sandras	PROPN	_	_	4	comp:obj	_	_
-6	et	et	CCONJ	_	Shared=No	7	cc	_	_
+6	et	et	CCONJ	_	_	7	cc	_	_
 7	viacire	vicaire	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	3	conj	_	CorrectForm=vicaire
 8	généaral	général	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	grand	grand	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
-11	acrchidiacre	archidiacre	NOUN	_	Gender=Masc|Number=Sing	7	conj@emb	_	_
+11	acrchidiacre	archidiacre	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	Shared=Yes	11	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -39824,7 +39824,7 @@
 8	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	2	punct	_	_
 10	notamment	notamment	ADV	_	_	11	mod	_	_
-11	avec	avec	ADP	_	Shared=No	39	mod	_	_
+11	avec	avec	ADP	_	_	39	mod	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	libéralisation	libéralisation	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	de	de	ADP	_	_	13	udep	_	_
