@@ -1874,7 +1874,7 @@
 
 # sent_id = fr-ud-test_00068
 # text = Et cet homme d'affaires particulier est partout, il contrôle la plus grande banque du pays, il contrôle l'un des trois opérateurs télécoms, il est actif dans le business du sucre, de l'énergie, il contrôle les centrales laitières et il est associé au groupe Danone.
-1	Et	et	CCONJ	_	Shared=Yes	7	cc	_	wordform=et
+1	Et	et	CCONJ	_	_	7	cc	_	wordform=et
 2	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	homme	homme	NOUN	_	Gender=Masc|Number=Sing|Shared=No	7	subj	_	_
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
@@ -9463,19 +9463,19 @@
 7	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	comp:aux@pass	_	CorrectForm=desservi|CorrectGender=Masc
 8	que	que	ADV	_	_	9	mod	_	_
 9	par	par	ADP	_	_	7	comp:obl@agent	_	_
-10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=Yes	11	det	_	_
+10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	11	det	_	_
 11	voies	voie	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
 12	communales	communal	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
 13	depuis	depuis	ADP	_	_	6	mod	_	_
 14	Avilly	Avilly	PROPN	_	_	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	Courteuil	Courteuil	PROPN	_	_	11	conj	_	_
+16	Courteuil	Courteuil	PROPN	_	_	14	conj	_	_
 17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
-18	RD	RD	PROPN	_	_	16	orphan	_	_
+18	RD	RD	PROPN	_	_	11	appos	_	_
 19	924	924	NUM	_	Number=Plur	18	mod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	18	punct	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
-22	Saint-Nicolas-d'Acy	Saint-Nicolas-d'Acy	PROPN	_	_	16	conj	_	_
+22	Saint-Nicolas-d'Acy	Saint-Nicolas-d'Acy	PROPN	_	_	11	conj	_	_
 23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	RD	RD	PROPN	_	Shared=No	22	orphan	_	_
 25	924	924	NUM	_	Number=Plur	24	mod	_	SpaceAfter=No
@@ -11207,7 +11207,7 @@
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	film	film	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
-30	:	:	PUNCT	_	_	32	punct	_	_
+30	:	:	PUNCT	_	Shared:Yes	32	punct	_	_
 31	Plus	plus	ADV	_	Shared=No	32	mod	_	InTitle=Yes|wordform=plus
 32	long	long	ADJ	_	Gender=Masc|Number=Sing	29	appos	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
 33	,	,	PUNCT	_	_	35	punct	_	InTitle=Yes

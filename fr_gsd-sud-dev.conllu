@@ -6798,7 +6798,7 @@
 
 # sent_id = fr-ud-dev_00244
 # text = Puis, ils se serrent la main et le médecin déclare :.
-1	Puis	puis	CCONJ	_	Shared=Yes	5	cc	_	SpaceAfter=No|wordform=puis
+1	Puis	puis	CCONJ	_	_	5	cc	_	SpaceAfter=No|wordform=puis
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	5	subj	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	5	comp:obl	_	_
@@ -8332,7 +8332,7 @@
 12	vers	vers	ADP	_	_	11	comp:obl	_	_
 13	1385	1385	NUM	_	Number=Plur	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
-15	puis	puis	CCONJ	_	Shared=Yes	16	cc	_	_
+15	puis	puis	CCONJ	_	_	16	cc	_	_
 16	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 17	Paul	Paul	PROPN	_	_	16	subj	_	_
 18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
@@ -15395,7 +15395,7 @@
 
 # sent_id = fr-ud-dev_00552
 # text = L'ASU ou Active Set Update est une valeur entière, proportionnelle à la force du signal reçu, mesurée par le téléphone mobile.
-1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=Yes	2	det	_	SpaceAfter=No|wordform=l'
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
 2	ASU	ASU	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 3	ou	ou	CCONJ	_	_	4	cc	_	_
 4	Active	Active	PROPN	_	_	2	conj	_	_
@@ -16472,7 +16472,7 @@
 1	En	en	ADP	_	Shared=No	5	mod	_	wordform=en
 2	1945	1945	NUM	_	Number=Plur	1	comp:obj	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	production	production	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	5	subj	_	_
+4	production	production	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	de	de	ADP	_	_	5	comp:pred	_	_
 7	25 000	25 000	NUM	_	Number=Plur	8	det	_	_
@@ -22714,7 +22714,7 @@
 
 # sent_id = fr-ud-dev_00823
 # text = Puis viens et suis-moi !
-1	Puis	puis	CCONJ	_	Shared=Yes	2	cc	_	wordform=puis
+1	Puis	puis	CCONJ	_	_	2	cc	_	wordform=puis
 2	viens	venir	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	suis	suivre	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
@@ -37799,7 +37799,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
-5	en	en	ADP	_	_	4	mod	_	_
+5	en	en	ADP	_	_	4	comp:obl	_	_
 6	service	service	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 7	en	en	ADP	_	_	2	mod	_	_
 8	1898	1898	NUM	_	Number=Plur	7	comp:obj	_	SpaceAfter=No
