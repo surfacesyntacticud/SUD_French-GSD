@@ -1672,7 +1672,7 @@
 2	ferté-imbault	Ferté-Imbault	PROPN	_	Gender=Fem|Number=Sing|Typo=Yes	6	subj	_	CorrectForm=Ferté-Imbault
 3	en	en	ADP	_	_	2	udep	_	_
 4	Sologne	Sologne	PROPN	_	_	3	comp:obj	_	_
-5	vous	lui	PRON	_	Person=2|PronType=Prs	6	comp:obl	_	_
+5	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obl	_	_
 6	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	choix	choix	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
@@ -2491,7 +2491,7 @@
 
 # sent_id = fr-ud-dev_00091
 # text = Vous êtes abonné au site ?
-1	Vous	il	PRON	_	Person=2|PronType=Prs	2	subj	_	wordform=vous
+1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	wordform=vous
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	abonné	abonner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:pred	_	_
 4-5	au	_	_	_	_	_	_	_	_
@@ -5924,7 +5924,7 @@
 
 # sent_id = fr-ud-dev_00215
 # text = Vous n'avez qu'à apporter vos valises, tout est pensé pour un séjour des plus agréable.
-1	Vous	il	PRON	_	Person=2|PronType=Prs|Shared=No	3	subj	_	wordform=vous
+1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs|Shared=No	3	subj	_	wordform=vous
 2	n'	ne	ADV	_	Polarity=Neg|Shared=No	3	mod	_	SpaceAfter=No
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	que	ADV	_	_	5	mod	_	SpaceAfter=No
@@ -7646,7 +7646,7 @@
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
-5	vous	le	PRON	_	Person=2|PronType=Prs	6	comp:obj	_	_
+5	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obj	_	_
 6	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 7	à	à	ADP	_	_	6	mod	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -15610,7 +15610,7 @@
 12	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	mod@relcl	_	_
 13	:	:	PUNCT	_	Shared=Yes	16	punct	_	_
 14	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=Yes	16	subj	_	wordform=je
-15	vous	le	PRON	_	Person=2|PronType=Prs|Shared=No	16	comp:obj	_	_
+15	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs|Shared=No	16	comp:obj	_	_
 16	installe	installer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 17	dans	dans	ADP	_	_	16	comp:obl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -17727,7 +17727,7 @@
 # sent_id = fr-ud-dev_00638
 # text = Si vous avez envie de manger dans un endroit où l'hygiène laisse à désirer, je vous conseille vivement ce restaurant.
 1	Si	si	SCONJ	_	_	19	mod	_	wordform=si
-2	vous	il	PRON	_	Person=2|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	envie	envie	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	_
 5	de	de	ADP	_	_	4	comp:obl@x	_	_
@@ -17743,7 +17743,7 @@
 15	désirer	désirer	VERB	_	VerbForm=Inf	14	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	1	punct	_	_
 17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	_
-18	vous	lui	PRON	_	Person=2|PronType=Prs	19	comp:obl	_	_
+18	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	19	comp:obl	_	_
 19	conseille	conseiller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	vivement	vivement	ADV	_	_	19	mod	_	_
 21	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
@@ -19181,15 +19181,15 @@
 
 # sent_id = fr-ud-dev_00690
 # text = Vous vouliez visiter le Mont Rushmore et vous vous êtes égarés ?...
-1	Vous	il	PRON	_	Person=2|PronType=Prs|Shared=No	2	subj	_	wordform=vous
+1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs|Shared=No	2	subj	_	wordform=vous
 2	vouliez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	visiter	visiter	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Mont	Mont	PROPN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	Rushmore	Rushmore	PROPN	_	_	5	appos	_	_
 7	et	et	CCONJ	_	_	10	cc	_	_
-8	vous	il	PRON	_	Person=2|PronType=Prs	10	subj@pass	_	_
-9	vous	le	PRON	_	Person=2|PronType=Prs	11	comp:obj	_	_
+8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	subj@pass	_	_
+9	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	11	comp:obj	_	_
 10	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
 11	égarés	égarer	VERB	_	Gender=Masc|Number=Plur|Shared=No|Tense=Past|VerbForm=Part	10	comp:aux@pass	_	_
 12	?	?	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -23792,7 +23792,7 @@
 # sent_id = fr-ud-dev_00860
 # text = Je vous recommande la fondue avec son pain de campagne et la crêpe au coulis de fraise maison en dessert.
 1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	wordform=je
-2	vous	lui	PRON	_	Person=2|PronType=Prs	3	comp:obl	_	_
+2	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	3	comp:obl	_	_
 3	recommande	recommander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	5	det	_	_
 5	fondue	fondue	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -25319,7 +25319,7 @@
 10	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 11	adresse	adresse	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 12	pour	pour	ADP	_	Shared=No	11	udep	_	_
-13	vous	lui	PRON	_	Person=2|PronType=Prs	12	comp:obj	_	_
+13	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	12	comp:obj	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	16	det	_	_
 16	enfants	enfant	NOUN	_	Number=Plur	13	conj	_	_
@@ -28242,7 +28242,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	pendant	pendant	ADP	_	_	1	mod	_	_
 17	que	que	SCONJ	_	_	16	comp:obj	_	_
-18	vous	il	PRON	_	Person=2|PronType=Prs	19	subj	_	_
+18	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	19	subj	_	_
 19	dégusterez	déguster	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	17	comp:obj	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 21	différents	différent	ADJ	_	Gender=Masc|Number=Plur	22	mod	_	_
@@ -30594,7 +30594,7 @@
 4	à	à	ADP	_	_	3	comp:obl@x	_	_
 5	vérifier	vérifier	VERB	_	VerbForm=Inf	4	comp:obj	_	_
 6	que	que	SCONJ	_	_	5	comp:obj	_	_
-7	vous	il	PRON	_	Person=2|PronType=Prs	9	subj	_	_
+7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 8	n'	ne	ADV	_	Polarity=Neg	9	mod	_	SpaceAfter=No
 9	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
@@ -34556,7 +34556,7 @@
 2	et	et	CCONJ	_	_	3	cc	_	_
 3	Pierre	Pierre	PROPN	_	_	1	conj	_	_
 4	Laederich	Laederich	PROPN	_	Shared=Yes	3	flat@name	_	_
-5	vous	lui	PRON	_	Person=2|PronType=Prs	6	comp:obl@agent	_	_
+5	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obl@agent	_	_
 6	feront	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	découvrir	découvrir	VERB	_	VerbForm=Inf	6	comp:aux@caus	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	9	det	_	_
@@ -35144,7 +35144,7 @@
 1	Premier	premier	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	wordform=premier
 2	point	point	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	:	:	PUNCT	_	_	6	punct	_	_
-4	vous	il	PRON	_	Person=2|PronType=Prs	6	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 5	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	SpaceAfter=No
 6	accusez	accuser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
@@ -38336,14 +38336,14 @@
 # sent_id = fr-ud-dev_01381
 # text = Si vous travaillez dans le quartier et que vous en avez marre de manger à la cantine de l'entreprise, allez vous restaurer aux Jardins d'Epicure.
 1	Si	si	SCONJ	_	_	22	mod	_	wordform=si
-2	vous	il	PRON	_	Person=2|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	travaillez	travailler	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	dans	dans	ADP	_	_	3	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	que	que	SCONJ	_	_	1	conj	_	_
-9	vous	il	PRON	_	Person=2|PronType=Prs	11	subj	_	_
+9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	11	subj	_	_
 10	en	en	PRON	_	Person=3|PronType=Prs	11	comp@expl	_	_
 11	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Shared=No|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 12	marre	marre	ADV	_	_	11	comp:obj	_	_
@@ -38357,7 +38357,7 @@
 20	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	1	punct	_	_
 22	allez	aller	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-23	vous	le	PRON	_	Person=2|PronType=Prs	24	comp:obj	_	_
+23	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	24	comp:obj	_	_
 24	restaurer	restaurer	VERB	_	VerbForm=Inf	22	comp:obj@x	_	_
 25-26	aux	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	24	mod	_	_
@@ -39733,7 +39733,7 @@
 
 # sent_id = fr-ud-dev_01432
 # text = Vous êtes quelques uns à ne pas avoir pu suivre l'actualité sur iPhoneAddict.fr au jour le jour.
-1	Vous	il	PRON	_	Person=2|PronType=Prs	2	subj	_	wordform=vous
+1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	wordform=vous
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	quelques	quelque	DET	_	Number=Plur|PronType=Ind	4	det	_	InIdiom=Yes
 4	uns	un	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	2	comp:pred	_	ExtPos=PRON|Idiom=Yes
@@ -40579,7 +40579,7 @@
 22	à	à	ADP	_	_	21	comp:obl@x	_	_
 23	conclure	conclure	VERB	_	VerbForm=Inf	22	comp:obj	_	_
 24	que	que	SCONJ	_	_	23	comp:obj	_	_
-25	vous	il	PRON	_	Person=2|PronType=Prs	26	subj	_	_
+25	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	26	subj	_	_
 26	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
 27	fiscalement	fiscalement	ADV	_	_	26	mod	_	_
 28	résident	résident	NOUN	_	Gender=Masc|Number=Sing	26	comp:pred	_	_
