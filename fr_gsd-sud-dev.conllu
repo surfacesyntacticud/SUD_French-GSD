@@ -18691,8 +18691,8 @@
 # sent_id = fr-ud-dev_00674
 # text = Feuillage vert foncées et aiguilles regroupées par trois (Le Pin à encens--Pinus Taeda--origine Sud Est USA, possède lui aussi des aiguilles regroupées par trois), les cônes sont tous orientés vers le tronc et peuvent rester 20 ans accrochées au tronc avant de tomber.
 1	Feuillage	feuillage	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	35	parataxis	_	wordform=feuillage
-2	vert	vert	ADJ	_	_	1	mod	_	_
-3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur|Typo=Yes	2	mod	_	CorrectForm=foncé|CorrectGender=Masc|CorrectNumber=Sing
+2	vert	vert	NOUN	_	Gender=Masc|Number=Sing	1	mod	_	_
+3	foncées	foncé	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	2	mod	_	CorrectForm=foncé|CorrectGender=Masc|CorrectNumber=Sing
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	aiguilles	aiguille	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
 6	regroupées	regrouper	VERB	_	Gender=Fem|Number=Plur|Shared=No|Tense=Past|VerbForm=Part	5	mod	_	_
@@ -37886,7 +37886,7 @@
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	mondial	mondial	ADJ	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
+17	mondial	mondial	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	brésilien	brésilien	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	_
 19	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	mod@relcl	_	_
 20	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
