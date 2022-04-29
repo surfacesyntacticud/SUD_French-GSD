@@ -976,7 +976,7 @@
 4	ne	ne	ADV	_	Polarity=Neg|Shared=No	5	mod	_	_
 5	célébrons	célébrer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	-nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	5	subj	_	wordform=nous
-7	que	que	ADV	_	_	8	mod	_	_
+7	que	que	ADV	_	Polarity=Neg	8	mod	_	_
 8	nous-mêmes	lui-même	PRON	_	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	5	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
@@ -1075,7 +1075,7 @@
 4	n'	ne	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
-7	qu'	que	ADV	_	Shared=Yes	8	mod	_	SpaceAfter=No
+7	qu'	que	ADV	_	Polarity=Neg|Shared=Yes	8	mod	_	SpaceAfter=No
 8	obéir	obéir	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	comp@expl	_	_
@@ -6044,7 +6044,7 @@
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
 16	ne	ne	ADV	_	Polarity=Neg	17	mod	_	_
 17	saurai	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	parataxis	_	_
-18	que	que	ADV	_	_	19	mod	_	_
+18	que	que	ADV	_	Polarity=Neg	19	mod	_	_
 19	déconseiller	déconseiller	VERB	_	VerbForm=Inf	17	comp:obj@x	_	_
 20	en	en	ADP	_	_	19	mod	_	_
 21	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
@@ -6903,7 +6903,7 @@
 5	de	de	ADP	_	_	4	comp:obj@x	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj	_	_
-8	qu'	que	ADV	_	Shared=Yes	10	mod	_	SpaceAfter=No
+8	qu'	que	ADV	_	Polarity=Neg|Shared=Yes	10	mod	_	SpaceAfter=No
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	10	det	_	_
 10	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 11	+	+	SYM	_	_	12	cc	_	ExtPos=CCONJ
@@ -7240,7 +7240,7 @@
 15	table	table	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 16	n'	ne	ADV	_	Polarity=Neg|Shared=No	17	mod	_	SpaceAfter=No
 17	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis	_	_
-18	que	que	ADV	_	_	20	mod	_	_
+18	que	que	ADV	_	Polarity=Neg	20	mod	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
 20	habitués	habitué	NOUN	_	Gender=Masc|Number=Plur	17	comp:pred	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	25	punct	_	_
@@ -9461,7 +9461,7 @@
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	comp:aux@pass	_	CorrectForm=desservi|CorrectGender=Masc
-8	que	que	ADV	_	_	9	mod	_	_
+8	que	que	ADV	_	Polarity=Neg	9	mod	_	_
 9	par	par	ADP	_	_	7	comp:obl@agent	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	11	det	_	_
 11	voies	voie	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_

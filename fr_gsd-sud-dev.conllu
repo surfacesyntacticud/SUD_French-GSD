@@ -1167,7 +1167,7 @@
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	présent	présent	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
-5	que	que	ADV	_	_	6	mod	_	_
+5	que	que	ADV	_	Polarity=Neg	6	mod	_	_
 6	durant	durant	ADP	_	_	3	mod	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 8	10	10	NUM	_	Number=Plur	10	mod	_	_
@@ -1282,7 +1282,7 @@
 15	mais	mais	CCONJ	_	_	17	cc	_	_
 16	ne	ne	ADV	_	Polarity=Neg	17	mod	_	_
 17	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	8	conj	_	CorrectForm=réussit|CorrectTense=Pres|CorrectVerbForm=Fin
-18	qu'	que	ADV	_	_	21	mod	_	SpaceAfter=No
+18	qu'	que	ADV	_	Polarity=Neg	21	mod	_	SpaceAfter=No
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 20	seule	seul	ADJ	_	Gender=Fem|Number=Sing	21	mod	_	_
 21	passe	passe	NOUN	_	Gender=Fem|Number=Sing|Shared=No	17	comp:obj	_	_
@@ -2814,7 +2814,7 @@
 8	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 9	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	effectué	effectuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@pass	_	_
-11	que	que	ADV	_	Shared=Yes	12	mod	_	_
+11	que	que	ADV	_	Polarity=Neg|Shared=Yes	12	mod	_	_
 12	si	si	SCONJ	_	_	9	mod	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	malade	malade	NOUN	_	Gender=Masc|Number=Sing	17	subj	_	_
@@ -5927,7 +5927,7 @@
 1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs|Shared=No	3	subj	_	wordform=vous
 2	n'	ne	ADV	_	Polarity=Neg|Shared=No	3	mod	_	SpaceAfter=No
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	qu'	que	ADV	_	_	5	mod	_	SpaceAfter=No
+4	qu'	que	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 5	à	à	ADP	_	_	3	comp:obl@x	_	_
 6	apporter	apporter	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 7	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	8	det	_	_
@@ -6631,7 +6631,7 @@
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	encore	encore	ADV	_	_	6	mod	_	_
-8	qu'	que	ADV	_	_	11	mod	_	SpaceAfter=No
+8	qu'	que	ADV	_	Polarity=Neg	11	mod	_	SpaceAfter=No
 9	environ	environ	ADV	_	_	10	mod	_	_
 10	4600	4600	NUM	_	Number=Plur	11	det	_	_
 11	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	SpaceAfter=No
@@ -9305,7 +9305,7 @@
 15	jusqu'	jusque	ADP	_	_	14	mod	_	SpaceAfter=No
 16	en	en	ADP	_	_	15	comp:obj	_	_
 17	1278	1278	NUM	_	Number=Plur	16	comp:obj	_	_
-18	que	que	ADV	_	_	20	mod	_	_
+18	que	que	ADV	_	Polarity=Neg	20	mod	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	titre	titre	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 21	de	de	ADP	_	_	20	udep	_	_
@@ -9596,7 +9596,7 @@
 4	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 5	pouvons	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	répondre	répondre	VERB	_	VerbForm=Inf	5	comp:obj@x	_	_
-7	qu'	que	ADV	_	_	9	mod	_	SpaceAfter=No
+7	qu'	que	ADV	_	Polarity=Neg	9	mod	_	SpaceAfter=No
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	chose	chose	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 10	:	:	PUNCT	_	_	11	punct	_	_
@@ -10057,7 +10057,7 @@
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	11	subj	_	_
 10	ne	ne	ADV	_	Polarity=Neg|Shared=No	11	mod	_	_
 11	dispute	disputer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	que	que	ADV	_	_	14	mod	_	_
+12	que	que	ADV	_	Polarity=Neg	14	mod	_	_
 13	41	41	NUM	_	Number=Plur	14	det	_	_
 14	parties	partie	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 15-16	au	_	_	_	_	_	_	_	_
@@ -10078,7 +10078,7 @@
 28	bâton	bâton	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
 29	n'	ne	ADV	_	Polarity=Neg	30	mod	_	SpaceAfter=No
 30	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
-31	que	que	ADV	_	_	32	mod	_	_
+31	que	que	ADV	_	Polarity=Neg	32	mod	_	_
 32	de	de	ADP	_	Shared=No	30	comp:pred	_	_
 33	0,185	0,185	NUM	_	Number=Plur	32	comp:obj	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	11	punct	_	_
@@ -13048,7 +13048,7 @@
 11	à	à	ADP	_	_	10	udep	_	_
 12	coucher	coucher	VERB	_	VerbForm=Inf	11	comp:obj	_	_
 13	»	»	PUNCT	_	_	10	punct	_	_
-14	que	que	ADV	_	_	16	mod	_	_
+14	que	que	ADV	_	Polarity=Neg	16	mod	_	_
 15	plus	plus	ADV	_	_	16	mod	_	_
 16	tard	tard	ADV	_	_	5	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
@@ -13079,7 +13079,7 @@
 41	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	43	subj	_	_
 42	n'	ne	ADV	_	Polarity=Neg	43	mod	_	SpaceAfter=No
 43	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	comp:obj	_	_
-44	qu'	que	ADV	_	_	46	mod	_	SpaceAfter=No
+44	qu'	que	ADV	_	Polarity=Neg	46	mod	_	SpaceAfter=No
 45	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	dérivé	dérivé	NOUN	_	Gender=Masc|Number=Sing	43	comp:pred	_	_
 47-48	du	_	_	_	_	_	_	_	_
@@ -19701,7 +19701,7 @@
 13	Capitole	Capitole	PROPN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 14	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 15	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-16	qu'	que	ADV	_	_	17	mod	_	SpaceAfter=No
+16	qu'	que	ADV	_	Polarity=Neg	17	mod	_	SpaceAfter=No
 17	un	un	NUM	_	Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -21824,7 +21824,7 @@
 9	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	en	en	ADP	_	_	9	mod	_	_
 11	compte	compte	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-12	que	que	ADV	_	_	14	mod	_	_
+12	que	que	ADV	_	Polarity=Neg	14	mod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	rendement	rendement	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 15	garanti	garantir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	mod	_	_
@@ -26618,7 +26618,7 @@
 24	n'	ne	ADV	_	Polarity=Neg	25	mod	_	SpaceAfter=No
 25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 26	inauguré	inaugurer	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	25	comp:aux@pass	_	_
-27	qu'	que	ADV	_	_	28	mod	_	SpaceAfter=No
+27	qu'	que	ADV	_	Polarity=Neg	28	mod	_	SpaceAfter=No
 28	à	à	ADP	_	Shared=No	25	mod	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	Toussaint	Toussaint	PROPN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
@@ -28861,7 +28861,7 @@
 3	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 4	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	_
 5	rejoindront	rejoindre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-6	que	que	ADV	_	_	8	mod	_	_
+6	que	que	ADV	_	Polarity=Neg	8	mod	_	_
 7	quatre	quatre	NUM	_	Number=Plur	8	det	_	_
 8	ans	an	NOUN	_	Gender=Masc|Number=Plur	5	mod	_	_
 9	plus	plus	ADV	_	_	10	mod	_	_
@@ -31516,7 +31516,7 @@
 28	/	/	SYM	_	_	29	cc	_	ExtPos=CCONJ|SpaceAfter=No
 29	H	H	SYM	_	_	27	conj	_	_
 30	constant	conster	VERB	_	Tense=Pres|VerbForm=Part	26	mod	_	_
-31	qu'	que	ADV	_	_	32	mod	_	SpaceAfter=No
+31	qu'	que	ADV	_	Polarity=Neg	32	mod	_	SpaceAfter=No
 32	à	à	ADP	_	_	30	mod	_	_
 33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	distance	distance	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	_
@@ -32236,7 +32236,7 @@
 5	grenouilles	grenouille	NOUN	_	Gender=Fem|Number=Plur	7	subj	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	respirent	respirer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	que	que	ADV	_	_	9	mod	_	_
+8	que	que	ADV	_	Polarity=Neg	9	mod	_	_
 9	de	de	ADP	_	_	7	mod	_	_
 10	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	manière	manière	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
@@ -35576,7 +35576,7 @@
 28	repris	reprendre	VERB	_	Gender=Masc|Shared=No|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
 30	entraînement	entraînement	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
-31	que	que	ADV	_	_	32	mod	_	_
+31	que	que	ADV	_	Polarity=Neg	32	mod	_	_
 32	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing|Shared=No	27	mod	_	_
 33	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
@@ -36267,7 +36267,7 @@
 1	Ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	wordform=ce
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	qu'	que	ADV	_	_	5	mod	_	SpaceAfter=No
+4	qu'	que	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 5	à	à	ADP	_	_	3	comp:pred	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	issue	issue	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -39530,7 +39530,7 @@
 1	Kenshin	Kenshin	PROPN	_	_	14	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	1	mod	_	_
-4	que	que	ADV	_	_	6	mod	_	_
+4	que	que	ADV	_	Polarity=Neg	6	mod	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	intention	intention	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
@@ -40353,7 +40353,7 @@
 3	ne	ne	ADV	_	Polarity=Neg|Shared=No	4	mod	_	_
 4	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	possible	possible	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
-6	qu'	que	ADV	_	_	7	mod	_	SpaceAfter=No
+6	qu'	que	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
