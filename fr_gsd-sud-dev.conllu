@@ -18769,7 +18769,7 @@
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
 20	trouver	trouver	VERB	_	VerbForm=Inf	18	comp:obj	_	_
 21	si	si	SCONJ	_	_	20	mod	_	_
-22	jamais	jamais	ADV	_	_	24	mod	_	_
+22	jamais	jamais	ADV	_	Polarity=Pos	24	mod	_	_
 23	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	subj	_	_
 24	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
 25	à	à	ADP	_	_	24	comp:obl	_	_
