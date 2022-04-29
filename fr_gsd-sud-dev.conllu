@@ -4576,7 +4576,7 @@
 14	oppressées	oppressé	ADJ	_	Gender=Fem|Number=Plur	13	comp:pred	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	mais	mais	CCONJ	_	_	19	cc	_	_
-17	aucune	aucun	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	19	subj	_	_
+17	aucune	aucun	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Neg	19	subj	_	_
 18	ne	ne	ADV	_	Polarity=Neg	19	mod	_	_
 19	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 20	part	part	NOUN	_	Gender=Fem|Number=Sing|Shared=No	19	comp:obj@lvc	_	_
@@ -31709,7 +31709,7 @@
 
 # sent_id = fr-ud-dev_01145
 # text = Aucune des scènes n'a été tournée en Irlande et les décors en extérieur sont ceux des studio d'Albertson Ranch à Cottonwood et Rowland V. Lee Ranch.
-1	Aucune	aucun	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind|Shared=No	6	subj@pass	_	wordform=aucune
+1	Aucune	aucun	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Neg|Shared=No	6	subj@pass	_	wordform=aucune
 2-3	des	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	udep	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
