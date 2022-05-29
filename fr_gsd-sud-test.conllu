@@ -685,7 +685,7 @@
 6	mort	mort	NOUN	_	Gender=Fem|Number=Sing	10	subj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	Mouammar	Mouammar	PROPN	_	_	7	comp:obj	_	_
-9	el-Kadhafi	el-Kadhafi	PROPN	_	_	8	flat@name	_	_
+9	el-Kadhafi	el-Kadhafi	X	_	_	8	flat@name	_	_
 10	ouvre	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	période	période	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -1504,7 +1504,7 @@
 # text = Sidi M'hamed Deddeche et Amgid Sidi Ahmed, deux activistes pacifistes des territoires occupés comme Mme Haïder, s'étaient-ils fait arrêter mercredi dernier à l'entrée de Smara, la capitale spirituelle du Sahara occidental, parce qu'ils étaient des séquestrés qui s'étaient évadés des camps de Tindouf, sans documents de voyage ?
 1	Sidi	Sidi	PROPN	_	_	22	subj@pass	_	_
 2	M'	M'	PROPN	_	_	1	flat@name	_	SpaceAfter=No
-3	hamed	hamed	PROPN	_	_	2	flat@name	_	_
+3	hamed	hamed	X	_	_	2	flat@name	_	_
 4	Deddeche	Deddeche	PROPN	_	_	3	flat@name	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	Amgid	Amgid	PROPN	_	_	1	conj	_	_
@@ -9009,7 +9009,7 @@
 12	Bassora	Bassora	PROPN	_	_	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	Abdullah	Abdullah	PROPN	_	_	10	appos	_	_
-15	bin	bin	PROPN	_	_	14	flat@name	_	_
+15	bin	bin	X	_	_	14	flat@name	_	_
 16	Yahya	Yahya	PROPN	_	_	15	flat@name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
 18	parvient	parvenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10101,7 +10101,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	comme	comme	ADP	_	Shared=No	5	udep	_	_
 14	Amnesty	Amnesty	PROPN	_	_	13	comp:obj	_	_
-15	international	international	PROPN	_	_	14	flat@name	_	SpaceAfter=No
+15	international	international	X	_	_	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	3	punct	_	_
 17	demandent	demander	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
