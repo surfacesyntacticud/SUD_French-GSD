@@ -2302,7 +2302,7 @@
 9	entrainement	entraînement	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	lors	lors	ADV	_	_	6	mod	_	_
 11-12	des	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	10	comp:obl	_	_
+11	de	de	ADP	_	_	10	comp:obj	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	championnats	championnat	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14-15	du	_	_	_	_	_	_	_	_
@@ -5867,7 +5867,7 @@
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	exhaussé	exhausser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
 9	lors	lors	ADV	_	_	6	mod	_	_
-10	de	de	ADP	_	_	9	comp:obl	_	_
+10	de	de	ADP	_	_	9	comp:obj	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	construction	construction	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13-14	du	_	_	_	_	_	_	_	_
@@ -7842,7 +7842,7 @@
 20	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	_
 21	1960	1960	NUM	_	Number=Plur	20	mod	_	_
 22	lors	lors	ADV	_	_	14	mod	_	_
-23	d'	de	ADP	_	_	22	comp:obl	_	SpaceAfter=No
+23	d'	de	ADP	_	_	22	comp:obj	_	SpaceAfter=No
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	défaite	défaite	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 26	contre	contre	ADP	_	_	25	udep	_	_
@@ -10500,7 +10500,7 @@
 27	de	de	ADP	_	_	25	comp:obl	_	_
 28	1863	1863	NUM	_	Number=Plur	27	comp:obj	_	_
 29	avant	avant	ADV	_	_	3	mod	_	_
-30	de	de	ADP	_	_	29	comp:obl@x	_	_
+30	de	de	ADP	_	_	29	comp:obj	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	32	comp:obj	_	SpaceAfter=No
 32	intaller	installer	VERB	_	Typo=Yes|VerbForm=Inf	30	comp:obj	_	CorrectForm=installer
 33	en	en	ADP	_	_	32	mod	_	_
@@ -12884,7 +12884,7 @@
 14	arts	art	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	avant	avant	ADV	_	_	2	mod	_	_
-17	d'	de	ADP	_	_	16	comp:obl@x	_	SpaceAfter=No
+17	d'	de	ADP	_	_	16	comp:obj	_	SpaceAfter=No
 18	aller	aller	VERB	_	VerbForm=Inf	17	comp:obj	_	_
 19	à	à	ADP	_	_	18	comp:obl	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
@@ -16225,7 +16225,7 @@
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	sirènes	sirène	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
 9	lors	lors	ADV	_	_	2	mod	_	_
-10	de	de	ADP	_	_	9	comp:obl	_	_
+10	de	de	ADP	_	_	9	comp:obj	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
@@ -22138,7 +22138,7 @@
 6	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 7	interprétées	interpréter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	mod	_	_
 8	lors	lors	ADV	_	_	7	mod	_	_
-9	de	de	ADP	_	_	8	comp:obl	_	_
+9	de	de	ADP	_	_	8	comp:obj	_	_
 10	divers	divers	DET	_	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
 11	concerts	concert	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
 12	par	par	ADP	_	_	7	comp:obl@agent	_	_
@@ -22183,7 +22183,7 @@
 50	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	48	comp:obj	_	_
 51	interprétées	interpréter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	50	mod	_	_
 52	lors	lors	ADV	_	_	51	mod	_	_
-53	de	de	ADP	_	_	52	comp:obl	_	_
+53	de	de	ADP	_	_	52	comp:obj	_	_
 54	divers	divers	DET	_	Gender=Masc|Number=Plur|PronType=Ind	55	det	_	_
 55	concerts	concert	NOUN	_	Gender=Masc|Number=Plur	53	comp:obj	_	_
 56	par	par	ADP	_	_	51	comp:obl@agent	_	_
@@ -22431,7 +22431,7 @@
 11	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	avant	avant	ADV	_	_	2	mod	_	_
-14	de	de	ADP	_	_	13	comp:obl@x	_	_
+14	de	de	ADP	_	_	13	comp:obj	_	_
 15	mourir	mourir	VERB	_	VerbForm=Inf	14	comp:obj	_	_
 16	en	en	ADP	_	_	15	comp:obl	_	_
 17	1925	1925	NUM	_	Number=Plur	16	comp:obj	_	SpaceAfter=No
@@ -25468,7 +25468,7 @@
 8	défait	défaire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
 9	lors	lors	ADV	_	_	8	mod	_	_
 10-11	du	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	9	comp:obl	_	_
+10	de	de	ADP	_	_	9	comp:obj	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	barrage	barrage	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
@@ -26734,7 +26734,7 @@
 18	et	et	CCONJ	_	_	26	cc	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	lors	lors	ADV	_	_	26	mod	_	_
-21	de	de	ADP	_	_	20	comp:obl	_	_
+21	de	de	ADP	_	_	20	comp:obj	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	20	punct	_	_
@@ -26861,7 +26861,7 @@
 19	île	île	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	avant	avant	ADV	_	_	12	mod	_	_
-22	d'	de	ADP	_	_	21	comp:obl@x	_	SpaceAfter=No
+22	d'	de	ADP	_	_	21	comp:obj	_	SpaceAfter=No
 23	être	être	AUX	_	VerbForm=Inf	22	comp:obj	_	_
 24	tuée	tuer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@pass	_	_
 25	en	en	ADP	_	_	24	mod	_	_
@@ -28732,7 +28732,7 @@
 7	déjà	déjà	ADV	_	_	5	mod	_	_
 8	rencontrées	rencontrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 9	lors	lors	ADV	_	_	5	mod	_	_
-10	de	de	ADP	_	_	9	comp:obl	_	_
+10	de	de	ADP	_	_	9	comp:obj	_	_
 11	matchs	match	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 12	non	non	ADV	_	Polarity=Neg	13	mod	_	_
 13	officiels	officiel	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
@@ -31090,7 +31090,7 @@
 6	ultime	ultime	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 7	rebondissement	rebondissement	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 8	lors	lors	ADV	_	_	4	mod	_	_
-9	de	de	ADP	_	_	8	comp:obl	_	_
+9	de	de	ADP	_	_	8	comp:obj	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	convocation	convocation	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	en	en	ADP	_	_	11	udep	_	_
@@ -32779,7 +32779,7 @@
 10	bronze	bronze	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	lors	lors	ADV	_	_	6	mod	_	_
 12-13	des	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	11	comp:obl	_	_
+12	de	de	ADP	_	_	11	comp:obj	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	mondiaux	mondial	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
 15	indoor	indoor	ADJ	_	Gender=Masc	14	mod	_	_
@@ -35000,7 +35000,7 @@
 # sent_id = fr-ud-dev_01265
 # text = Lors de la Guerre de Tuscarora, qui s'achève en 1715 par une remontée des indiens vers le Nord puis lors de la Guerre de Yamasee, entre 1715 et 1717, la ville de Charleston et ses environs servent de refuge aux planteurs poursuivis par les amérindiens en colère, pendant un conflit qui fit plus de 400 morts parmi les colons blancs, mais eu pour résultat de libérer des terres au Sud de la Caroline.
 1	Lors	lors	ADV	_	_	42	mod	_	wordform=lors
-2	de	de	ADP	_	_	1	comp:obl	_	_
+2	de	de	ADP	_	_	1	comp:obj	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	wordform=guerre
 5	de	de	ADP	_	_	4	udep	_	_
@@ -35023,7 +35023,7 @@
 21	Nord	nord	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	wordform=nord
 22	puis	puis	CCONJ	_	_	23	cc	_	_
 23	lors	lors	ADV	_	_	1	conj	_	_
-24	de	de	ADP	_	Shared=No	23	comp:obl	_	_
+24	de	de	ADP	_	Shared=No	23	comp:obj	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	wordform=guerre
 27	de	de	ADP	_	_	26	udep	_	_
@@ -36677,7 +36677,7 @@
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	lors	lors	ADV	_	_	20	mod	_	_
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	10	comp:obl	_	_
+11	de	de	ADP	_	_	10	comp:obj	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	vote	vote	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 14-15	du	_	_	_	_	_	_	_	_
@@ -38811,7 +38811,7 @@
 # sent_id = fr-ud-dev_01399
 # text = Lors de sa première tournée européenne en 1931, elle se produisit en France et en Grande-Bretagne.
 1	Lors	lors	ADV	_	_	12	mod	_	wordform=lors
-2	de	de	ADP	_	_	1	comp:obl	_	_
+2	de	de	ADP	_	_	1	comp:obj	_	_
 3	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	_
 4	première	premier	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 5	tournée	tournée	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -38923,7 +38923,7 @@
 6	ces	ce	DET	_	Number=Plur|PronType=Dem	7	det	_	_
 7	consultations	consultation	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 8	avant	avant	ADV	_	_	4	mod	_	_
-9	de	de	ADP	_	_	8	comp:obl@x	_	_
+9	de	de	ADP	_	_	8	comp:obj	_	_
 10	désigner	désigner	VERB	_	VerbForm=Inf	9	comp:obj	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 12	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
@@ -40326,7 +40326,7 @@
 4	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@pass	_	_
 5	manifesta	manifester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	lors	lors	ADV	_	_	5	mod	_	_
-7	de	de	ADP	_	_	6	comp:obl	_	_
+7	de	de	ADP	_	_	6	comp:obj	_	_
 8	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	_
 9	études	étude	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 10	secondaires	secondaire	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	SpaceAfter=No
@@ -41017,7 +41017,7 @@
 10	Real	Real	PROPN	_	Gender=Masc|Number=Sing	6	conj	_	_
 11	Madrid	Madrid	PROPN	_	Shared=No	10	flat@name	_	_
 12	avant	avant	ADV	_	_	2	mod	_	_
-13	de	de	ADP	_	_	12	comp:obl@x	_	_
+13	de	de	ADP	_	_	12	comp:obj	_	_
 14	rejoindre	rejoindre	VERB	_	VerbForm=Inf	13	comp:obj	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	Basques	Basques	PROPN	_	Number=Plur	14	comp:obj	_	_
@@ -41039,7 +41039,7 @@
 9	,	,	PUNCT	_	Shared=Yes	10	punct	_	_
 10	sergent	sergent	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
 11	lors	lors	ADV	_	_	10	mod	_	_
-12	de	de	ADP	_	_	11	comp:obl	_	_
+12	de	de	ADP	_	_	11	comp:obj	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	Première	premier	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	wordform=première
 15	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	wordform=guerre
