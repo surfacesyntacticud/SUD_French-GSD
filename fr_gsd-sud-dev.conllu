@@ -13250,11 +13250,11 @@
 # sent_id = fr-ud-dev_00477
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
 1	Pas	pas	ADV	_	Polarity=Neg|Shared=No	3	mod	_	wordform=pas
-2	de	de	DET	_	Shared=No	3	det	_	_
+2	de	un	DET	_	Shared=No	3	det	_	_
 3	sèche	sèche-cheveux	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	0	root	_	CorrectForm=sèche-cheveux
 4	cheveux	_	X	_	_	3	goeswith	_	_
 5	ni	ni	CCONJ	_	_	7	cc	_	_
-6	de	de	DET	_	_	7	det	_	_
+6	de	un	DET	_	_	7	det	_	_
 7	prise	prise	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
 8	rasoir	rasoir	NOUN	_	Gender=Masc|Number=Sing|Shared=No	7	mod	_	_
 9	dans	dans	ADP	_	Shared=No	7	udep	_	_
@@ -16567,7 +16567,7 @@
 12	européen	européen	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	si	si	SCONJ	_	_	1	conj	_	_
-15	d'	de	DET	_	Definite=Ind|PronType=Art	16	det	_	SpaceAfter=No
+15	d'	un	DET	_	Definite=Ind|PronType=Art	16	det	_	SpaceAfter=No
 16	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	19	subj	_	_
 17	n'	ne	ADV	_	Polarity=Neg	19	mod	_	SpaceAfter=No
 18	en	en	PRON	_	Person=3|PronType=Prs	19	comp:obl	_	_
@@ -19985,10 +19985,10 @@
 18	catégorisation	catégorisation	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	15	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
-21	de	de	DET	_	_	22	det	_	_
+21	de	un	DET	_	_	22	det	_	_
 22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 23	ni	ni	CCONJ	_	_	25	cc	_	_
-24	de	de	DET	_	_	25	det	_	_
+24	de	un	DET	_	_	25	det	_	_
 25	ségrégation	ségrégation	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -28891,7 +28891,7 @@
 15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	trois	trois	NUM	_	Number=Plur	6	conj	_	_
 17	de	de	ADP	_	Shared=No	16	udep	_	_
-18	se	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs|Typo=Yes	19	det	_	CorrectForm=ses
+18	se	son	DET	_	Number=Plur|PronType=Prs|Typo=Yes	19	det	_	CorrectForm=ses
 19	compagnons	compagnon	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -29524,7 +29524,7 @@
 3	hésite	hésiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
-6	de	de	DET	_	_	7	det	_	_
+6	de	un	DET	_	_	7	det	_	_
 7	panique	panique	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	Michelle	Michelle	PROPN	_	_	10	subj	_	_

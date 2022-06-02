@@ -1210,7 +1210,7 @@
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
-8	de	de	DET	_	Definite=Ind|PronType=Art	9	det	_	_
+8	de	un	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1949,7 +1949,7 @@
 
 # sent_id = fr-ud-test_00070
 # text = De nombreux Marocains le pensent en n'hésitant pas à l'accuser, en tant que premier opérateur du pays, d'abandonner des pans entiers de l'économie marocaine entre les mains des réseaux affairistes et des milieux de la corruption et à grossir les rangs des mécontents.
-1	De	de	DET	_	Definite=Ind|PronType=Art	3	det	_	wordform=de
+1	De	un	DET	_	Definite=Ind|PronType=Art	3	det	_	wordform=de
 2	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	_
 3	Marocains	Marocains	PROPN	_	Gender=Masc|Number=Plur	5	subj	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
