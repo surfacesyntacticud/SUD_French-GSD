@@ -2134,7 +2134,7 @@
 16	de	de	ADP	_	_	14	udep	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	Impôts	impôt	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	wordform=impôts
-19	français	français	ADJ	_	Gender=Masc	14	mod	_	_
+19	français	français	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	CGI	CGI	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	21	punct	_	_
@@ -2287,7 +2287,7 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 9	sous	sous	ADP	_	_	8	comp:pred	_	_
 10	protectorat	protectorat	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-11	français	français	ADJ	_	Gender=Masc	10	mod	_	_
+11	français	français	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
 12	»	»	PUNCT	_	_	8	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14-15	au	_	_	_	_	_	_	_	_
@@ -2633,7 +2633,7 @@
 34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
 35	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
 36	"	"	PUNCT	_	Shared=Yes	37	punct	_	SpaceAfter=No
-37	courageux	courageux	ADJ	_	Gender=Masc	32	mod	_	SpaceAfter=No
+37	courageux	courageux	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	pacifique	pacifique	ADJ	_	Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
@@ -4198,7 +4198,7 @@
 8	voyaient	voir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	mod@relcl	_	_
 9	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	mauvais	mauvais	ADJ	_	Gender=Masc	12	mod	_	_
+11	mauvais	mauvais	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
 12	œil	œil	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	accumulation	accumulation	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
@@ -4437,7 +4437,7 @@
 17	constaté	constater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
-20	désastreux	désastreux	ADJ	_	Gender=Masc	19	mod	_	_
+20	désastreux	désastreux	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	19	udep	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -4512,7 +4512,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Football	football	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	wordform=football
 3	Atlantique	atlantique	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	wordform=atlantique
-4	Rochelais	rochelais	ADJ	_	Gender=Masc	2	mod	_	wordform=rochelais
+4	Rochelais	rochelais	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	wordform=rochelais
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	FAR	FAR	PROPN	_	_	2	appos	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	6	punct	_	_
@@ -4821,7 +4821,7 @@
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 25	80	80	NUM	_	Number=Plur	26	mod	_	_
 26	bénévoles	bénévole	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	28	subj	_	_
-27	canéjanais	canéjanais	ADJ	_	Gender=Masc	26	mod	_	_
+27	canéjanais	canéjanais	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	_
 28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 29	en	en	ADP	_	_	28	comp:pred	_	ExtPos=ADV|Idiom=Yes
 30	plein	plein	ADJ	_	Gender=Masc|Number=Sing	29	comp:obj	_	InIdiom=Yes
@@ -4861,7 +4861,7 @@
 11	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	réaliste	réaliste	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
-14	heureux	heureux	ADJ	_	Gender=Masc	13	mod	_	SpaceAfter=No
+14	heureux	heureux	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-test_00161
@@ -5573,7 +5573,7 @@
 12	comme	comme	ADP	_	_	1	mod	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	postulant	postulant	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
-15	sérieux	sérieux	ADJ	_	Gender=Masc	14	mod	_	_
+15	sérieux	sérieux	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 16	à	à	ADP	_	_	14	udep	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	succession	succession	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -6101,7 +6101,7 @@
 28	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	29	det	_	_
 29	prix	prix	NOUN	_	Gender=Masc|Number=Plur|Shared=No	27	comp:obj	_	_
 30	très	très	ADV	_	_	31	mod	_	_
-31	doux	doux	ADJ	_	Gender=Masc	29	mod	_	SpaceAfter=No
+31	doux	doux	ADJ	_	Gender=Masc|Number=Plur	29	mod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00203
@@ -6602,7 +6602,7 @@
 5	genre	genre	NOUN	_	Gender=Masc|Number=Sing	11	subj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	salon	salon	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-8	sérieux	sérieux	ADJ	_	Gender=Masc	7	mod	_	_
+8	sérieux	sérieux	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	pro	professionnel	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
 11	survivra	survivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	comp:obj	_	_
@@ -7188,7 +7188,7 @@
 18	d'	de	ADP	_	_	17	udep	_	SpaceAfter=No
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Pub	pub	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	wordform=pub
-21	anglais	anglais	ADJ	_	Gender=Masc	20	mod	_	SpaceAfter=No
+21	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	20	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	par	par	ADP	_	Shared=No	11	mod	_	_
 24	manque	manque	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
@@ -7536,7 +7536,7 @@
 6	impeccable	impeccable	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	très	très	ADV	_	_	9	mod	_	_
-9	chaleureux	chaleureux	ADJ	_	Gender=Masc	6	conj	_	SpaceAfter=No
+9	chaleureux	chaleureux	ADJ	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	propreté	propreté	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
@@ -8437,7 +8437,7 @@
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	Parti	parti	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	wordform=parti
 39	communiste	communiste	ADJ	_	Gender=Masc|Number=Sing	38	mod	_	_
-40	chinois	chinois	ADJ	_	Gender=Masc	38	mod	_	_
+40	chinois	chinois	ADJ	_	Gender=Masc|Number=Sing	38	mod	_	_
 41	avant	avant	ADP	_	_	29	mod@x	_	_
 42	de	de	ADP	_	_	41	comp:obj	_	_
 43	connaître	connaître	VERB	_	VerbForm=Inf	42	comp:obj	_	_
@@ -8467,7 +8467,7 @@
 8	par	par	ADP	_	_	3	comp:obl@agent	_	_
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	gouvernements	gouvernement	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
-11	français	français	ADJ	_	Gender=Masc	10	mod	_	_
+11	français	français	ADJ	_	Gender=Masc|Number=Plur	10	mod	_	_
 12	(	(	PUNCT	_	Shared=Yes	13	punct	_	SpaceAfter=No
 13	de	de	ADP	_	_	10	udep	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -8557,7 +8557,7 @@
 4	abandonner	abandonner	VERB	_	VerbForm=Inf	3	comp:obj	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	matériaux	matériau	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
-7	coûteux	coûteux	ADJ	_	Gender=Masc	6	mod	_	SpaceAfter=No
+7	coûteux	coûteux	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	comme	comme	ADP	_	_	6	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -9434,7 +9434,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	général	général	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	_
-5	français	français	ADJ	_	Gender=Masc	4	mod	_	_
+5	français	français	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
 6	Philippe	Philippe	PROPN	_	_	4	appos	_	_
 7	Morillon	Morillon	PROPN	_	_	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
@@ -10202,7 +10202,7 @@
 # sent_id = fr-ud-dev_01553
 # text = Candidat malheureux à l'élection présidentielle d'août 2007, Marcus Stephen remporte néanmoins la présidence de la République le 19 décembre 2007 lorsque son prédécesseur Ludwig Scotty est écarté de cette fonction par une motion de censure parlementaire.
 1	Candidat	candidat	NOUN	_	Gender=Masc|Number=Sing	13	mod@x	_	wordform=candidat
-2	malheureux	malheureux	ADJ	_	Gender=Masc	1	mod	_	_
+2	malheureux	malheureux	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
 3	à	à	ADP	_	_	1	udep	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	élection	élection	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -10810,7 +10810,7 @@
 7	par	par	ADP	_	_	6	comp:obl@agent	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	club	club	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
-10	congolais	congolais	ADJ	_	Gender=Masc	9	mod	_	_
+10	congolais	congolais	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 11	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No
 12	Elecsport	Elecsport	PROPN	_	_	11	comp:obj	_	_
 13	Bouansa	Bouansa	PROPN	_	_	12	flat@name	_	_
@@ -10922,7 +10922,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	peintre	peintre	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
-9	français	français	ADJ	_	Gender=Masc	8	mod	_	SpaceAfter=No
+9	français	français	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_01576
@@ -11275,7 +11275,7 @@
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
 8	musical	musical	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
-9	français	français	ADJ	_	Gender=Masc	7	mod	_	_
+9	français	français	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 10	de	de	ADP	_	_	7	udep	_	_
 11	musique	musique	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 12	baroque	baroque	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	SpaceAfter=No
