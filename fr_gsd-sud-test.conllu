@@ -3193,7 +3193,7 @@
 15	si	si	SCONJ	_	_	43	mod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 17	32	32	NUM	_	Number=Plur	18	mod	_	_
-18	États	État	NOUN	_	Gender=Masc|Number=Plur	35	subj	_	wordform=états
+18	États	état	NOUN	_	Gender=Masc|Number=Plur	35	subj	_	wordform=états
 19	qui	qui	PRON	_	PronType=Rel	21	subj	_	_
 20	n'	ne	ADV	_	Polarity=Neg	21	mod	_	SpaceAfter=No
 21	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	mod@relcl	_	_

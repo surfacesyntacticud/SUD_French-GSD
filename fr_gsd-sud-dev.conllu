@@ -2049,7 +2049,7 @@
 22	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
-25	État	État	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	wordform=état
+25	État	état	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	wordform=état
 26	vue	vue	NOUN	_	Gender=Fem|Number=Sing	3	mod	_	_
 27	d'	de	ADP	_	_	26	udep	_	SpaceAfter=No
 28	améliorer	améliorer	VERB	_	VerbForm=Inf	27	comp:obj	_	_
@@ -13450,7 +13450,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	concept	concept	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
-4	État	État	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	wordform=état
+4	État	état	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	wordform=état
 5	tampon	tampon	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -16558,7 +16558,7 @@
 3	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	certains	certain	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
-6	États	État	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	wordform=états
+6	États	état	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	wordform=états
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 8	indiscutablement	indiscutablement	ADV	_	_	7	mod	_	_
 9	sur	sur	ADP	_	_	7	comp:obl	_	_
@@ -19027,7 +19027,7 @@
 7	distance	distance	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	avec	avec	ADP	_	_	5	comp:obl	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-10	États	État	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	wordform=états
+10	États	état	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	wordform=états
 11	arabes	arabe	ADJ	_	Gender=Masc|Number=Plur	10	mod	_	_
 12	qu'	que	PRON	_	PronType=Rel	14	comp:obj	_	SpaceAfter=No
 13	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	subj	_	_
@@ -19480,7 +19480,7 @@
 28	acquis	acquérir	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	27	comp:aux@pass	_	_
 29	par	par	ADP	_	_	28	comp:obl@agent	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
-31	État	État	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	wordform=état
+31	État	état	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	wordform=état
 32	en	en	ADP	_	_	27	mod	_	_
 33	1934	1934	NUM	_	Number=Plur	32	comp:obj	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	13	punct	_	_
@@ -28179,7 +28179,7 @@
 9	Scott	Scott	PROPN	_	_	8	comp:obj	_	_
 10	dans	dans	ADP	_	_	7	udep	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	État	État	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	wordform=état
+12	État	état	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	wordform=état
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -34279,7 +34279,7 @@
 18	de	de	ADP	_	_	17	udep	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	nouvel	nouveau	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	_
-21	État	État	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No|wordform=état
+21	État	état	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No|wordform=état
 22	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-dev_01237
@@ -35250,7 +35250,7 @@
 14	chef	chef	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	18	subj	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
-17	État	État	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	wordform=état
+17	État	état	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	wordform=état
 18	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	de	de	ADP	_	_	18	comp:obj@x	_	_
 20	suivre	suivre	VERB	_	VerbForm=Inf	19	comp:obj	_	_
@@ -38137,7 +38137,7 @@
 8	1964	1964	NUM	_	Number=Plur	7	comp:obj	_	_
 9	dans	dans	ADP	_	_	4	mod	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	État	État	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	wordform=état
+11	État	état	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	wordform=état
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -40642,7 +40642,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	secrétaire	secrétaire	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
-4	État	État	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	wordform=état
+4	État	état	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	wordform=état
 5	soulignera	souligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 6	que	que	SCONJ	_	_	5	comp:obj	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
