@@ -8344,7 +8344,7 @@
 24	suivant	suivant	ADP	_	Shared=Yes	22	udep	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	sources	source	NOUN	_	Gender=Fem|Number=Plur	24	comp:obj	_	SpaceAfter=No
-27	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	en	en	ADP	_	_	16	mod	_	_
 30	1386	1386	NUM	_	Number=Plur	29	comp:obj	_	_
@@ -36087,14 +36087,14 @@
 # text = Betty Boo (de son vrai nom Alison Clarkson née le 6 mars 1970 à Kensington, Londres) est un OVNI dans le paysage de la pop-music Britannique du début des années 1990 : son succès fut aussi fulgurant que court.
 1	Betty	Betty	PROPN	_	_	20	subj	_	_
 2	Boo	Boo	PROPN	_	_	1	flat@name	_	_
-3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	de	de	ADP	_	_	1	udep	_	_
+3	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+4	de	de	ADP	_	_	8	udep	_	_
 5	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
 6	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 7	nom	nom	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
-8	Alison	Alison	PROPN	_	_	7	appos	_	_
+8	Alison	Alison	PROPN	_	_	1	appos	_	_
 9	Clarkson	Clarkson	PROPN	_	_	8	flat@name	_	_
-10	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	mod	_	_
+10	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	mod	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	6	6	NUM	_	Number=Sing	10	comp:obl	_	_
 13	mars	mars	NOUN	_	Gender=Masc|Number=Sing	12	mod	_	_
@@ -36103,7 +36103,7 @@
 16	Kensington	Kensington	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	Londres	Londres	PROPN	_	_	16	mod	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	10	punct	_	_
+19	)	)	PUNCT	_	_	8	punct	_	_
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	OVNI	ovni	NOUN	_	Gender=Masc|Number=Sing	20	comp:pred	_	_

@@ -8236,7 +8236,7 @@
 # text = RADSL signifie « Rate-Adaptive Digital Subscriber Line » soit en français : « ligne d'abonné numérique à débit adaptable ».
 1	RADSL	RADSL	NOUN	_	Gender=Masc|Number=Sing	2	subj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	«	«	PUNCT	_	_	2	punct	_	_
+3	«	«	PUNCT	_	_	4	punct	_	_
 4	Rate-Adaptive	Rate-Adaptive	X	_	Foreign=Yes	2	comp:pred	_	ExtPos=PROPN|Lang=en
 5	Digital	Digital	X	_	Foreign=Yes	4	flat@foreign	_	Lang=en
 6	Subscriber	Subscriber	X	_	Foreign=Yes	5	flat@foreign	_	Lang=en
