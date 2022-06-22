@@ -17801,8 +17801,8 @@
 
 # sent_id = fr-ud-dev_00641
 # text = Contrairement à la ville de Park City qui occupait une place de premier rang à l'époque de la voie de chemin de fer, Cave City a su tirer parti du réseau autoroutier.
-1	Contrairement	contrairement	ADV	_	_	2	mod	_	wordform=contrairement
-2	à	à	ADP	_	_	28	mod	_	_
+1	Contrairement	contrairement	ADV	_	_	28	mod	_	wordform=contrairement
+2	à	à	ADP	_	_	1	comp:obl	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	ville	ville	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
@@ -17825,7 +17825,7 @@
 22	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	fer	fer	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	2	punct	_	_
+25	,	,	PUNCT	_	_	1	punct	_	_
 26	Cave	Cave	PROPN	_	_	28	subj	_	_
 27	City	City	PROPN	_	_	26	flat@name	_	_
 28	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -28772,13 +28772,13 @@
 
 # sent_id = fr-ud-dev_01034
 # text = Contrairement à celui de Wonder Woman, celui de Cassie est une arme pouvant projeter la lumière de Zeus.
-1	Contrairement	contrairement	ADV	_	_	2	mod	_	wordform=contrairement
-2	à	à	ADP	_	_	11	mod	_	_
+1	Contrairement	contrairement	ADV	_	_	11	mod	_	wordform=contrairement
+2	à	à	ADP	_	_	1	comp:obl	_	_
 3	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	Wonder	Wonder	PROPN	_	_	4	comp:obj	_	_
 6	Woman	Woman	PROPN	_	_	5	flat@name	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	2	punct	_	_
+7	,	,	PUNCT	_	_	1	punct	_	_
 8	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	Cassie	Cassie	PROPN	_	_	9	comp:obj	_	_
@@ -34217,7 +34217,7 @@
 41	élites	élite	NOUN	_	Gender=Fem|Number=Plur	39	comp:obj	_	_
 42	urbaines	urbain	ADJ	_	Gender=Fem|Number=Plur	41	mod	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	45	punct	_	_
-44	mêmes	mêmes	ADV	_	_	45	mod	_	_
+44	mêmes	même	ADV	_	Typo=Yes	45	mod	_	CorrectForm=même
 45	si	si	SCONJ	_	_	38	mod	_	_
 46	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	47	det	_	_
 47	ruraux	rural	NOUN	_	Gender=Masc|Number=Plur	53	subj	_	_
