@@ -3182,7 +3182,7 @@
 2	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	subj	_	wordform=ils
 3	impuissants	impuissant	ADJ	_	Gender=Masc|Number=Plur	1	comp:pred	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
-5	voire	voire	ADV	_	_	6	cc	_	_
+5	voire	voire	CCONJ	_	_	6	cc	_	_
 6	incompétents	incompétent	ADJ	_	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	pour	pour	ADP	_	_	1	mod@x	_	_
@@ -18684,7 +18684,7 @@
 7	m	mètre	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-10	voir	voire	ADV	_	Typo=Yes	11	cc	_	CorrectForm=voire
+10	voir	voire	CCONJ	_	Typo=Yes	11	cc	_	CorrectForm=voire
 11	plus	plus	ADV	_	_	4	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -32760,7 +32760,7 @@
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	musique	musique	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
-11	voire	voire	ADV	_	_	13	cc	_	_
+11	voire	voire	CCONJ	_	_	13	cc	_	_
 12	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	_
 13	arranger	arranger	VERB	_	VerbForm=Inf	4	conj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
@@ -36922,7 +36922,7 @@
 20	verrouillage	verrouillage	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
 21	centralisé	centraliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
-23	voire	voire	ADV	_	_	24	cc	_	_
+23	voire	voire	CCONJ	_	_	24	cc	_	_
 24	climatisation	climatisation	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	1	punct	_	_
@@ -40289,7 +40289,7 @@
 13	silex	silex	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	néolithiques	néolithique	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
-16	voire	voire	ADV	_	_	17	cc	_	_
+16	voire	voire	CCONJ	_	_	17	cc	_	_
 17	mésolithiques	mésolithique	ADJ	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	trouvés	trouver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	mod	_	_
