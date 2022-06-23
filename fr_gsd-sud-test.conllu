@@ -11220,12 +11220,12 @@
 38	coupé	couper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	conj	_	InTitle=Yes
 39	et	et	CCONJ	_	_	40	cc	_	_
 40	dans	dans	ADP	_	_	24	conj	_	_
-41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-42	story	story	NOUN	_	Gender=Masc|Number=Sing	43	mod	_	_
-43	arc	arc	NOUN	_	Gender=Masc|Number=Sing|Shared=No	40	comp:obj	_	_
+41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	story	story	X	_	Foreign=Yes	43	mod	_	ExtPos=NOUN|Lang=en
+43	arc	arc	X	_	Gender=Masc|Number=Sing|Shared=No	42	mod	_	_
 44	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	InTitle=Yes|wordform=les
 45	handicapés	handicapé	NOUN	_	Gender=Masc|Number=Plur	46	subj	_	InTitle=Yes
-46	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	appos	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
+46	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	appos	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
 47	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	46	subj@expl	_	InTitle=Yes|wordform=ils
 48	en	en	ADP	_	_	46	mod	_	InTitle=Yes
 49	enfer	enfer	NOUN	_	Gender=Masc|Number=Sing	48	comp:obj	_	InTitle=Yes

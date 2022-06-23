@@ -1092,11 +1092,11 @@
 # sent_id = fr-ud-dev_00040
 # text = Tarzan, l'homme singe, règne en maître sur son domaine, la jungle.
 1	Tarzan	Tarzan	PROPN	_	_	7	subj	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	5	punct	_	_
-3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-4	homme	homme	NOUN	_	Gender=Masc|Number=Sing	5	mod	_	_
-5	singe	singe	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	homme	homme	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	singe	singe	NOUN	_	Gender=Masc|Number=Sing	4	mod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
 7	règne	régner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	en	en	ADP	_	_	7	mod	_	_
 9	maître	maître	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
@@ -9155,10 +9155,10 @@
 # sent_id = fr-ud-dev_00330
 # text = Après les bandes annonces de son dernier film montées spécialement pour Youtube, Jean-Luc Godard innove à nouveau.
 1	Après	après	ADP	_	_	16	mod	_	wordform=après
-2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-3	bandes	bande	NOUN	_	Gender=Fem|Number=Plur	4	mod	_	_
-4	annonces	annonce	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
-5	de	de	ADP	_	_	4	udep	_	_
+2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	bandes	bande	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
+4	annonces	annonce	NOUN	_	Gender=Fem|Number=Plur	3	mod	_	_
+5	de	de	ADP	_	_	3	udep	_	_
 6	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	_
 7	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
 8	film	film	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -18708,9 +18708,9 @@
 16	Taeda	Taeda	PROPN	_	_	15	flat@name	_	SpaceAfter=No
 17	--	--	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	origine	origine	NOUN	_	Gender=Fem|Number=Sing	11	mod	_	_
-19	Sud	sud	NOUN	_	Gender=Masc|Number=Sing	20	mod	_	wordform=sud
-20	Est	est	NOUN	_	Gender=Masc|Number=Sing	21	mod	_	wordform=est
-21	USA	USA	NOUN	_	Gender=Masc|Number=Plur	18	appos	_	SpaceAfter=No
+19	Sud	sud	NOUN	_	Gender=Masc|Number=Sing	18	mod	_	wordform=sud
+20	Est	est	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	wordform=est
+21	USA	USA	NOUN	_	Gender=Masc|Number=Plur	19	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	18	punct	_	_
 23	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
 24	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	mod	_	_
@@ -20824,8 +20824,8 @@
 9	de	de	ADP	_	_	8	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-12	pop	pop	NOUN	_	Gender=Fem|Number=Sing	13	mod	_	_
-13	rock	rock	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
+12	pop	pop	NOUN	_	Gender=Fem|Number=Sing	11	mod	_	_
+13	rock	rock	NOUN	_	Gender=Masc|Number=Sing	12	mod	_	_
 14	Duran	Duran	PROPN	_	_	11	appos	_	_
 15	Duran	Duran	PROPN	_	_	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
@@ -21294,9 +21294,9 @@
 19	libération	libération	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	19	udep	_	_
-21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-22	colonel	colonel	NOUN	_	Gender=Masc|Number=Sing	23	mod	_	_
-23	major	major	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	colonel	colonel	NOUN	_	Gender=Masc|Number=Sing	20	conj:obj	_	_
+23	major	major	NOUN	_	Gender=Masc|Number=Sing	22	mod	_	_
 24	Kaddour	Kaddour	PROPN	_	_	23	appos	_	_
 25	Terhzaz	Terhzaz	PROPN	_	_	24	flat@name	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	11	punct	_	_
@@ -40400,8 +40400,8 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
-14	thrash	thrash	NOUN	_	Gender=Masc|Number=Sing	15	mod	_	_
-15	metal	metal	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
+14	thrash	thrash	X	_	Foreign=Yes	15	mod	_	ExtPos=NOUN|Lang=en
+15	metal	metal	X	_	Foreign=Yes	13	comp:obj	_	Lang=en
 16	allemand	allemand	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
 17	Grave	Grave	PROPN	_	_	12	appos	_	_
 18	Digger	Digger	PROPN	_	_	17	flat@name	_	SpaceAfter=No
