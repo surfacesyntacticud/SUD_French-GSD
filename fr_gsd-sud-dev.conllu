@@ -10705,7 +10705,7 @@
 7	de	de	ADP	_	_	3	comp:obj@x	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	comp:obj	_	_
 9	sentir	sentir	VERB	_	VerbForm=Inf	7	comp:obj	_	_
-10	plus	plus	ADV	_	_	9	mod	_	_
+10	plus	plus	ADV	_	_	11	mod	_	_
 11	concernés	concerner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	comp:pred@x	_	_
 12	par	par	ADP	_	_	11	comp:obl@agent	_	_
 13	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	14	det	_	_
