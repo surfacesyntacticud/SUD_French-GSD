@@ -1527,7 +1527,7 @@
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj@expl	_	wordform=il
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
-25	arrêter	arrêter	VERB	_	VerbForm=Inf	24	comp:aux@pass	_	_
+25	arrêter	arrêter	VERB	_	VerbForm=Inf	24	comp:aux@caus	_	_
 26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	22	mod	_	_
 27	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
 28	à	à	ADP	_	_	22	mod	_	_
