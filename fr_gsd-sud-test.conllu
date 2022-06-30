@@ -531,9 +531,9 @@
 22	empêché	empêcher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
-25	de	de	ADP	_	_	22	comp:obl@x	_	_
+25	de	de	ADP	_	_	22	comp:obl	_	_
 26	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	comp@expl	_	_
-27	rendre	rendre	VERB	_	VerbForm=Inf	25	comp:obj	_	_
+27	rendre	rendre	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=ObjRaising
 28-29	au	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	_	27	comp:obl	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -1180,8 +1180,8 @@
 22	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	conj	_	_
 23	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	24	det	_	_
 24	mal	mal	NOUN	_	Gender=Masc|Number=Sing|Shared=No	22	comp:obj@lvc	_	_
-25	à	à	ADP	_	Shared=No	22	comp:obl@x	_	_
-26	perdurer	perdurer	VERB	_	VerbForm=Inf	25	comp:obj	_	SpaceAfter=No
+25	à	à	ADP	_	Shared=No	22	comp:obl	_	_
+26	perdurer	perdurer	VERB	_	VerbForm=Inf	25	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00047
@@ -1427,8 +1427,8 @@
 60	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	61	det	_	_
 61	Nations	Nations	PROPN	_	Gender=Fem|Number=Plur	59	comp:obj	_	_
 62	unies	uni	ADJ	_	Gender=Fem|Number=Plur	61	mod	_	_
-63	à	à	ADP	_	_	59	comp:obl@x	_	_
-64	organiser	organiser	VERB	_	VerbForm=Inf	63	comp:obj	_	_
+63	à	à	ADP	_	_	59	comp:obl	_	_
+64	organiser	organiser	VERB	_	VerbForm=Inf	63	comp:obj	_	Subject=ObjRaising
 65	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
 66	référendum	référendum	NOUN	_	Gender=Masc|Number=Sing	64	comp:obj	_	_
 67	d'	de	ADP	_	_	66	udep	_	SpaceAfter=No
@@ -1972,8 +1972,8 @@
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	pays	pays	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	14	punct	_	_
-23	d'	de	ADP	_	_	12	comp:obl@x	_	SpaceAfter=No
-24	abandonner	abandonner	VERB	_	VerbForm=Inf	23	comp:obj	_	_
+23	d'	de	ADP	_	_	12	comp:obl	_	SpaceAfter=No
+24	abandonner	abandonner	VERB	_	VerbForm=Inf	23	comp:obj	_	Subject=ObjRaising
 25	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
 26	pans	pan	NOUN	_	Gender=Masc|Number=Plur	24	comp:obj	_	_
 27	entiers	entier	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	_
@@ -2091,8 +2091,8 @@
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 15	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	_
 16	invite	inviter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	à	à	ADP	_	_	16	comp:obl@x	_	_
-18	tirer	tirer	VERB	_	VerbForm=Inf	17	comp:obj	_	_
+17	à	à	ADP	_	_	16	comp:obl	_	_
+18	tirer	tirer	VERB	_	VerbForm=Inf	17	comp:obj	_	Subject=ObjRaising
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	leçons	leçon	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	_
 21-22	du	_	_	_	_	_	_	_	_
@@ -6131,8 +6131,8 @@
 14	pour	pour	ADP	_	_	11	mod@x	_	_
 15	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	16	comp:obj	_	_
 16	aider	aider	VERB	_	VerbForm=Inf	14	comp:obj	_	_
-17	à	à	ADP	_	_	16	comp:obl@x	_	_
-18	trouver	trouver	VERB	_	VerbForm=Inf	17	comp:obj	_	_
+17	à	à	ADP	_	_	16	comp:obl	_	_
+18	trouver	trouver	VERB	_	VerbForm=Inf	17	comp:obj	_	Subject=ObjRaising
 19	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	20	det	_	_
 20	bonheur	bonheur	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
@@ -9841,9 +9841,9 @@
 6	chasseurs	chasseur	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	trésor	trésor	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
-9	de	de	ADP	_	_	4	comp:obl@x	_	_
+9	de	de	ADP	_	_	4	comp:obl	_	_
 10	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	comp@expl	_	SpaceAfter=No
-11	aventurer	aventurer	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+11	aventurer	aventurer	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=ObjRaising
 12	sur	sur	ADP	_	_	11	mod	_	_
 13	ces	ce	DET	_	Number=Plur|PronType=Dem	14	det	_	_
 14	territoires	territoire	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
