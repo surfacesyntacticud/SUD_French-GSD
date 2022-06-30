@@ -8339,7 +8339,7 @@
 19	ou	ou	CCONJ	_	_	20	cc	_	_
 20	Polleke	Polleke	PROPN	_	_	17	conj	_	_
 21	ou	ou	CCONJ	_	_	22	cc	_	_
-22	Polequinen	Polequinen	PROPN	_	_	20	conj	_	SpaceAfter=No
+22	Polequinen	Polequinen	PROPN	_	_	20	conj@emb	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	suivant	suivant	ADP	_	Shared=Yes	22	udep	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
