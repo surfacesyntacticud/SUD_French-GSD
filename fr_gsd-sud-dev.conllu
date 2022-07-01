@@ -158,8 +158,8 @@
 # text = Elle lutte pour échapper aux tueurs à ses trousses.
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
 2	lutte	lutter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pour	pour	ADP	_	_	2	mod@x	_	_
-4	échapper	échapper	VERB	_	VerbForm=Inf	3	comp:obj	_	_
+3	pour	pour	ADP	_	_	2	mod	_	_
+4	échapper	échapper	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 5-6	aux	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -536,8 +536,8 @@
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	nègre	nègre	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	engagé	engager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	mod	_	_
-19	pour	pour	ADP	_	_	18	mod@x	_	_
-20	terminer	terminer	VERB	_	VerbForm=Inf	19	comp:obj	_	_
+19	pour	pour	ADP	_	_	18	mod	_	_
+20	terminer	terminer	VERB	_	VerbForm=Inf	19	comp:obj	_	Subject=SubjRaising
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	mémoires	mémoire	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 23	d'	de	ADP	_	_	22	udep	_	SpaceAfter=No
@@ -1038,7 +1038,7 @@
 12	capitaine	capitaine	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	Sig	Sig	PROPN	_	_	12	appos	_	_
 14	Hansen	Hansen	PROPN	_	_	13	flat@name	_	_
-15	en	en	ADP	_	_	7	mod@x	_	_
+15	en	en	ADP	_	_	7	mod	_	_
 16	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	15	comp:obj	_	_
 17	jeter	jeter	VERB	_	VerbForm=Inf	16	comp:aux@caus	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -1689,8 +1689,8 @@
 19	richesses	richesse	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 20	locales	local	ADJ	_	Gender=Fem|Number=Plur	19	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	pour	pour	ADP	_	_	6	mod@x	_	_
-23	prolonger	prolonger	VERB	_	VerbForm=Inf	22	comp:obj	_	_
+22	pour	pour	ADP	_	_	6	mod	_	_
+23	prolonger	prolonger	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
 24	agréablement	agréablement	ADV	_	_	23	mod	_	_
 25	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	26	det	_	_
 26	visite	visite	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
@@ -3577,7 +3577,7 @@
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 31	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	32	mod	_	_
 32	humeur	humeur	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	_
-33	en	en	ADP	_	Shared=No	22	mod@x	_	_
+33	en	en	ADP	_	Shared=No	22	mod	_	_
 34	jouant	jouer	VERB	_	Tense=Pres|VerbForm=Part	33	comp:obj	_	_
 35	de	de	ADP	_	_	34	comp:obl	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -4250,7 +4250,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	viciée	vicié	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
-13	en	en	ADP	_	_	9	mod@x	_	_
+13	en	en	ADP	_	_	9	mod	_	_
 14	recevant	recevoir	VERB	_	Tense=Pres|VerbForm=Part	13	comp:obj	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	dédommagement	dédommagement	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
@@ -4563,7 +4563,7 @@
 1	Elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs|Shared=Yes	3	subj	_	wordform=elles
 2	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	3	comp@expl	_	_
 3	perdent	perdre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	en	en	ADP	_	_	3	mod@x	_	_
+4	en	en	ADP	_	_	3	mod	_	_
 5	cherchant	chercher	VERB	_	Tense=Pres|VerbForm=Part	4	comp:obj	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	Petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	wordform=petit
@@ -5606,8 +5606,8 @@
 
 # sent_id = fr-ud-dev_00204
 # text = Après avoir atteint l'Arctique, Inglefield explora et cartographia la côte occidentale du Groenland ;
-1	Après	après	ADP	_	Shared=Yes	8	mod@x	_	wordform=après
-2	avoir	avoir	AUX	_	VerbForm=Inf	1	comp:obj	_	_
+1	Après	après	ADP	_	Shared=Yes	8	mod	_	wordform=après
+2	avoir	avoir	AUX	_	VerbForm=Inf	1	comp:obj	_	Subject=SubjRaising
 3	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Arctique	Arctique	PROPN	_	Number=Sing	3	comp:obj	_	SpaceAfter=No
@@ -5715,7 +5715,7 @@
 9	de	de	ADP	_	_	8	udep	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Chapelle	Chapelle	PROPN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	en	en	ADP	_	_	2	mod@x	_	_
+12	en	en	ADP	_	_	2	mod	_	_
 13	introduisant	introduire	VERB	_	Tense=Pres|VerbForm=Part	12	comp:obj	_	_
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
 15	œuvres	œuvre	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	_
@@ -6081,9 +6081,9 @@
 15	mère	mère	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 16	à	à	ADP	_	Shared=No	12	mod	_	_
 17	Tacubaya	Tacubaya	PROPN	_	_	16	comp:obj	_	_
-18	pour	pour	ADP	_	Shared=No	12	mod@x	_	_
+18	pour	pour	ADP	_	Shared=No	12	mod	_	_
 19	y	y	PRON	_	Person=3|PronType=Prs	20	mod	_	_
-20	attendre	attendre	VERB	_	VerbForm=Inf	18	comp:obj	_	_
+20	attendre	attendre	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	nouvelle	nouvelle	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
@@ -6263,9 +6263,9 @@
 2	quitta	quitter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	4	det	_	_
 4	famille	famille	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
-5	pour	pour	ADP	_	_	2	mod@x	_	_
+5	pour	pour	ADP	_	_	2	mod	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp:obj	_	SpaceAfter=No
-7	installer	installer	VERB	_	VerbForm=Inf	5	comp:obj	_	_
+7	installer	installer	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	Greenwich	Greenwich	PROPN	_	_	8	comp:obj	_	_
 10	Village	Village	PROPN	_	_	9	flat@name	_	SpaceAfter=No
@@ -7403,7 +7403,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	plan	plan	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	marocain	marocain	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
-6	en	en	ADP	_	_	2	mod@x	_	_
+6	en	en	ADP	_	_	2	mod	_	_
 7	soulignant	souligner	VERB	_	Tense=Pres|VerbForm=Part	6	comp:obj	_	_
 8	qu'	que	SCONJ	_	_	7	comp:obj	_	SpaceAfter=No
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -8997,7 +8997,7 @@
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 18	Afrique	Afrique	PROPN	_	Number=Sing	15	conj	_	_
-19	en	en	ADP	_	_	9	mod@x	_	_
+19	en	en	ADP	_	_	9	mod	_	_
 20	parlant	parler	VERB	_	Tense=Pres|VerbForm=Part	19	comp:obj	_	_
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
@@ -9008,9 +9008,9 @@
 27	changer	changer	VERB	_	VerbForm=Inf	26	comp:obj	_	Subject=ObjRaising
 28	de	de	ADP	_	_	27	comp:obl	_	_
 29	vocabulaire	vocabulaire	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
-30	pour	pour	ADP	_	_	27	mod@x	_	_
+30	pour	pour	ADP	_	_	27	mod	_	_
 31	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	comp:obj	_	_
-32	remplacer	remplacer	VERB	_	VerbForm=Inf	30	comp:obj	_	_
+32	remplacer	remplacer	VERB	_	VerbForm=Inf	30	comp:obj	_	Subject=SubjRaising
 33	par	par	ADP	_	_	32	comp:obl	_	_
 34	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
 35	escroquerie	escroquerie	NOUN	_	Gender=Fem|Number=Sing	33	comp:obj	_	_
@@ -9095,7 +9095,7 @@
 12	diversifier	diversifier	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	économie	économie	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-15	en	en	ADP	_	_	12	mod@x	_	_
+15	en	en	ADP	_	_	12	mod	_	_
 16	menant	mener	VERB	_	Tense=Pres|VerbForm=Part	15	comp:obj	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	plan	plan	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
@@ -9127,7 +9127,7 @@
 20	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	subj	_	_
 21	penche	pencher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	En	en	ADP	_	_	21	mod@x	_	wordform=en
+23	En	en	ADP	_	_	21	mod	_	wordform=en
 24	collant	coller	VERB	_	Tense=Pres|VerbForm=Part	23	comp:obj	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	oreille	oreille	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
@@ -13193,7 +13193,7 @@
 25	de	de	ADP	_	_	24	udep	_	_
 26	haute-justice	haute-justice	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	24	punct	_	_
-28	en	en	ADP	_	_	16	mod@x	_	_
+28	en	en	ADP	_	_	16	mod	_	_
 29	dressant	dresser	VERB	_	Tense=Pres|VerbForm=Part	28	comp:obj	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	terrier	terrier	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
@@ -13584,8 +13584,8 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	bas	bas	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 14	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
-15	pour	pour	ADP	_	_	8	mod@x	_	_
-16	réussir	réussir	VERB	_	VerbForm=Inf	15	comp:obj	_	_
+15	pour	pour	ADP	_	_	8	mod	_	_
+16	réussir	réussir	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	à	à	ADP	_	_	16	comp:obl	_	_
 18	faire	faire	AUX	_	VerbForm=Inf	17	comp:obj	_	Subject=SubjRaising
 19	compiler	compiler	VERB	_	VerbForm=Inf	18	comp:aux@caus	_	_
@@ -13846,8 +13846,8 @@
 13	de	de	ADP	_	_	12	udep	_	_
 14	Kerckhoffs	Kerckhoffs	PROPN	_	_	13	comp:obj	_	_
 15	:	:	PUNCT	_	_	22	punct	_	_
-16	pour	pour	ADP	_	_	22	mod@x	_	_
-17	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	_
+16	pour	pour	ADP	_	_	22	mod	_	_
+17	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
 18	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	17	comp:pred	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	16	punct	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
@@ -14109,8 +14109,8 @@
 22	,	,	PUNCT	_	_	25	punct	_	_
 23	12	12	NUM	_	Number=Plur	24	det	_	_
 24	ans	an	NOUN	_	Gender=Masc|Number=Plur	25	mod	_	_
-25	après	après	ADP	_	Shared=No	20	mod@x	_	_
-26	avoir	avoir	AUX	_	VerbForm=Inf	25	comp:obj	_	_
+25	après	après	ADP	_	Shared=No	20	mod	_	_
+26	avoir	avoir	AUX	_	VerbForm=Inf	25	comp:obj	_	Subject=SubjRaising
 27	quitté	quitter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	pouvoir	pouvoir	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	SpaceAfter=No
@@ -14128,7 +14128,7 @@
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	catégories	catégorie	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 10	juniors	junior	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
-11	en	en	ADP	_	_	4	mod@x	_	_
+11	en	en	ADP	_	_	4	mod	_	_
 12	remportant	remporter	VERB	_	Tense=Pres|VerbForm=Part	11	comp:obj	_	_
 13	notamment	notamment	ADV	_	_	12	mod	_	_
 14	deux	deux	NUM	_	Number=Plur	15	det	_	_
@@ -14924,8 +14924,8 @@
 12	à	à	ADP	_	_	10	comp:obl	_	_
 13	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp:obj	_	SpaceAfter=No
 14	entendre	entendre	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
-15	pour	pour	ADP	_	_	10	mod@x	_	_
-16	balayer	balayer	VERB	_	VerbForm=Inf	15	comp:obj	_	_
+15	pour	pour	ADP	_	_	10	mod	_	_
+16	balayer	balayer	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	devant	devant	ADP	_	_	16	mod	_	_
 18	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	portes	porte	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	SpaceAfter=No
@@ -15072,7 +15072,7 @@
 15	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
 16	de	de	ADP	_	Shared=No	15	udep	_	_
 17	Constantinople	Constantinople	PROPN	_	_	16	comp:obj	_	_
-18	en	en	ADP	_	_	10	mod@x	_	_
+18	en	en	ADP	_	_	10	mod	_	_
 19	promouvant	promouvoir	VERB	_	Tense=Pres|VerbForm=Part	18	comp:obj	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	position	position	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
@@ -15620,9 +15620,9 @@
 22	de	de	ADP	_	_	19	udep	_	_
 23	Paris	Paris	PROPN	_	_	22	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	pour	pour	ADP	_	_	16	mod@x	_	_
+25	pour	pour	ADP	_	_	16	mod	_	_
 26	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	SpaceAfter=No
-27	exercer	exercer	VERB	_	VerbForm=Inf	25	comp:obj	_	_
+27	exercer	exercer	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=SubjRaising
 28	dignement	dignement	ADV	_	_	27	mod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	et	et	CCONJ	_	_	31	cc	_	_
@@ -16185,8 +16185,8 @@
 
 # sent_id = fr-ud-dev_00580
 # text = Pour favoriser le transport de tous les composés à travers la colonne (élution), il faut déterminer la bonne température du four.
-1	Pour	pour	ADP	_	_	18	mod@x	_	wordform=pour
-2	favoriser	favoriser	VERB	_	VerbForm=Inf	1	comp:obj	_	_
+1	Pour	pour	ADP	_	_	18	mod	_	wordform=pour
+2	favoriser	favoriser	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=SubjRaising
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	transport	transport	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
@@ -17405,9 +17405,9 @@
 
 # sent_id = fr-ud-dev_00626
 # text = Pour le garder sous sa coupe, Robert lui donne une promotion, au déplaisir de MCarson.
-1	Pour	pour	ADP	_	_	10	mod@x	_	wordform=pour
+1	Pour	pour	ADP	_	_	10	mod	_	wordform=pour
 2	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
-3	garder	garder	VERB	_	VerbForm=Inf	1	comp:obj	_	_
+3	garder	garder	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=SubjRaising
 4	sous	sous	ADP	_	_	3	mod	_	_
 5	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
 6	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
@@ -18355,8 +18355,8 @@
 6	amis	ami	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
 7	tenteront	tenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 8	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	comp:obj	_	_
-9	pour	pour	ADP	_	_	7	mod@x	_	_
-10	combatttre	combattre	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+9	pour	pour	ADP	_	_	7	mod	_	_
+10	combatttre	combattre	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	Hercule	Hercule	PROPN	_	_	10	comp:obj	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	ramener	ramener	VERB	_	VerbForm=Inf	10	conj	_	_
@@ -18485,8 +18485,8 @@
 14	club	club	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	dix	dix	NUM	_	Number=Plur	16	det	_	_
 16	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	17	mod	_	_
-17	après	après	ADP	_	_	8	mod@x	_	_
-18	être	être	AUX	_	VerbForm=Inf	17	comp:obj	_	_
+17	après	après	ADP	_	_	8	mod	_	_
+18	être	être	AUX	_	VerbForm=Inf	17	comp:obj	_	Subject=SubjRaising
 19	entré	entrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20	en	en	ADP	_	_	18	mod	_	_
 21	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
@@ -19006,7 +19006,7 @@
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	livrets	livret	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 5	tout	tout	ADV	_	_	6	mod	_	_
-6	en	en	ADP	_	_	2	mod@x	_	_
+6	en	en	ADP	_	_	2	mod	_	_
 7	endossant	endosser	VERB	_	Tense=Pres|VerbForm=Part	6	comp:obj	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -19566,9 +19566,9 @@
 9	avec	avec	ADP	_	_	6	comp:obl	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	droite	droite	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	pour	pour	ADP	_	_	6	mod@x	_	_
+12	pour	pour	ADP	_	_	6	mod	_	_
 13	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp:obj	_	_
-14	rallier	rallier	VERB	_	VerbForm=Inf	12	comp:obj	_	_
+14	rallier	rallier	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 15	définitivement	définitivement	ADV	_	_	14	mod	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	14	comp:obl	_	_
@@ -20943,7 +20943,7 @@
 16	radio	radio	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 17	Ouï	Ouï	PROPN	_	_	16	appos	_	_
 18	FM	FM	PROPN	_	_	17	flat@name	_	_
-19	en	en	ADP	_	_	7	mod@x	_	_
+19	en	en	ADP	_	_	7	mod	_	_
 20	insultant	insulter	VERB	_	Tense=Pres|VerbForm=Part	19	comp:obj	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	menaçant	menacer	VERB	_	Tense=Pres|VerbForm=Part	20	conj	_	_
@@ -21180,8 +21180,8 @@
 5	à	à	ADP	_	_	2	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Haganah	Haganah	PROPN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-8	pour	pour	ADP	_	_	2	mod@x	_	_
-9	évacuer	évacuer	VERB	_	VerbForm=Inf	8	comp:obj	_	_
+8	pour	pour	ADP	_	_	2	mod	_	_
+9	évacuer	évacuer	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 10	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
 11	blessés	blessé	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
@@ -21229,9 +21229,9 @@
 13	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
 14	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 15	concession	concession	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-16	pour	pour	ADP	_	_	6	mod@x	_	_
+16	pour	pour	ADP	_	_	6	mod	_	_
 17	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	18	comp:obj	_	_
-18	porter	porter	VERB	_	VerbForm=Inf	16	comp:obj	_	_
+18	porter	porter	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
 19-20	au	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	18	comp:obl	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -21334,8 +21334,8 @@
 8	diplomatique	diplomatique	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
 9	très	très	ADV	_	_	10	mod	_	_
 10	intense	intense	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
-11	pour	pour	ADP	_	_	5	mod@x	_	_
-12	faire	faire	AUX	_	VerbForm=Inf	11	comp:obj	_	_
+11	pour	pour	ADP	_	_	5	mod	_	_
+12	faire	faire	AUX	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13	connaître	connaître	VERB	_	VerbForm=Inf	12	comp:aux@caus	_	_
 14	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
 15	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -21460,8 +21460,8 @@
 5	régulation	régulation	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	VIH-1	VIH-1	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-8	pour	pour	ADP	_	_	2	mod@x	_	_
-9	retenir	retenir	VERB	_	VerbForm=Inf	8	comp:obj	_	_
+8	pour	pour	ADP	_	_	2	mod	_	_
+9	retenir	retenir	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	ARN	ARN	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	non	non	ADV	_	Polarity=Neg|Shared=No	13	mod	_	_
@@ -21626,7 +21626,7 @@
 13	via	via	ADP	_	_	9	udep	_	_
 14	internet	internet	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	en	en	ADP	_	_	2	mod@x	_	_
+16	en	en	ADP	_	_	2	mod	_	_
 17	assurant	assurer	VERB	_	Tense=Pres|VerbForm=Part	16	comp:obj	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	forte	fort	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	_
@@ -22309,7 +22309,7 @@
 9	de	de	ADP	_	_	8	udep	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
 11	souveraineté	souveraineté	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	en	en	ADP	_	_	4	mod@x	_	_
+12	en	en	ADP	_	_	4	mod	_	_
 13	réduisant	réduire	VERB	_	Tense=Pres|VerbForm=Part	12	comp:obj	_	_
 14	par	par	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
 15	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	InIdiom=Yes
@@ -23646,9 +23646,9 @@
 9	Ultimate	Ultimate	X	_	Foreign=Yes	8	comp:obj	_	ExtPos=PROPN|Lang=en
 10	Echo	Echo	X	_	Foreign=Yes	9	flat@name	_	Lang=en
 11	Echo	Echo	X	_	Foreign=Yes	10	flat@name	_	Lang=en
-12	pour	pour	ADP	_	_	7	mod@x	_	_
+12	pour	pour	ADP	_	_	7	mod	_	_
 13	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	_
-14	terrasser	terrasser	VERB	_	VerbForm=Inf	12	comp:obj	_	SpaceAfter=No
+14	terrasser	terrasser	VERB	_	VerbForm=Inf	12	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00856
@@ -24335,8 +24335,8 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
 2	y	y	PRON	_	Person=3|PronType=Prs	3	mod	_	_
 3	siège	siéger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	sans	sans	ADP	_	_	3	mod@x	_	_
-5	faire	faire	VERB	_	VerbForm=Inf	4	comp:obj	_	_
+4	sans	sans	ADP	_	_	3	mod	_	_
+5	faire	faire	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
 6	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
 7	bruit	bruit	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	avec	avec	ADP	_	_	3	mod	_	_
@@ -25299,8 +25299,8 @@
 12	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	mod@relcl	_	_
 13	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	vendre	vendre	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
-15	pour	pour	ADP	_	_	14	mod@x	_	_
-16	éponger	éponger	VERB	_	VerbForm=Inf	15	comp:obj	_	_
+15	pour	pour	ADP	_	_	14	mod	_	_
+16	éponger	éponger	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	_
 18	dettes	dette	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
@@ -27155,8 +27155,8 @@
 17	joignent	joindre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	efforts	effort	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
-20	pour	pour	ADP	_	_	17	mod@x	_	_
-21	préparer	préparer	VERB	_	VerbForm=Inf	20	comp:obj	_	_
+20	pour	pour	ADP	_	_	17	mod	_	_
+21	préparer	préparer	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	effort	effort	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 24	de	de	ADP	_	_	23	udep	_	_
@@ -27231,7 +27231,7 @@
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Cernon	Cernon	PROPN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
 26	tout	tout	ADV	_	_	27	mod	_	_
-27	en	en	ADP	_	Shared=No	20	mod@x	_	_
+27	en	en	ADP	_	Shared=No	20	mod	_	_
 28	étant	être	AUX	_	Tense=Pres|VerbForm=Part	27	comp:obj	_	_
 29	abrité	abriter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	comp:aux@pass	_	_
 30	par	par	ADP	_	_	29	comp:obl@agent	_	_
@@ -27411,9 +27411,9 @@
 10	usine	usine	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	d'	de	ADP	_	_	10	udep	_	SpaceAfter=No
 12	Abidjan	Abidjan	PROPN	_	_	11	comp:obj	_	_
-13	pour	pour	ADP	_	_	5	mod@x	_	_
+13	pour	pour	ADP	_	_	5	mod	_	_
 14	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	_
-15	porter	porter	VERB	_	VerbForm=Inf	13	comp:obj	_	_
+15	porter	porter	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	21500	21500	NUM	_	Number=Plur	18	det	_	_
 18	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
@@ -27681,7 +27681,7 @@
 
 # sent_id = fr-ud-dev_01000
 # text = En mélangeant le calvados avec du jus de pomme, on obtient le pommeau de Normandie, qui titre entre 16 ° et 18 ° d'alcool.
-1	En	en	ADP	_	_	12	mod@x	_	wordform=en
+1	En	en	ADP	_	_	12	mod	_	wordform=en
 2	mélangeant	mélanger	VERB	_	Tense=Pres|VerbForm=Part	1	comp:obj	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	calvados	calvados	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
@@ -27767,8 +27767,8 @@
 53	parmi	parmi	ADP	_	_	52	mod	_	_
 54	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	55	det	_	_
 55	Justes	juste	NOUN	_	Gender=Masc|Number=Plur	53	comp:obj	_	wordform=justes
-56	pour	pour	ADP	_	_	52	mod@x	_	_
-57	avoir	avoir	AUX	_	VerbForm=Inf	56	comp:obj	_	SpaceAfter=No
+56	pour	pour	ADP	_	_	52	mod	_	_
+57	avoir	avoir	AUX	_	VerbForm=Inf	56	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 58	,	,	PUNCT	_	_	59	punct	_	_
 59	pendant	pendant	ADP	_	_	57	mod	_	_
 60	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
@@ -28641,8 +28641,8 @@
 15	nationalistes	nationaliste	NOUN	_	Gender=Masc|Number=Plur	17	subj	_	_
 16	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	comp:obj	_	SpaceAfter=No
 17	unissent	unir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
-18	pour	pour	ADP	_	_	17	mod@x	_	_
-19	lutter	lutter	VERB	_	VerbForm=Inf	18	comp:obj	_	_
+18	pour	pour	ADP	_	_	17	mod	_	_
+19	lutter	lutter	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
 20	contre	contre	ADP	_	_	19	mod	_	_
 21	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	20	comp:obj	_	_
 22	qu'	que	PRON	_	PronType=Rel	24	comp:obj	_	SpaceAfter=No
@@ -29206,7 +29206,7 @@
 9	de	de	ADP	_	_	8	udep	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Kaiser	Kaiser	PROPN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-12	en	en	ADP	_	_	4	mod@x	_	_
+12	en	en	ADP	_	_	4	mod	_	_
 13	nommant	nommer	VERB	_	Tense=Pres|VerbForm=Part	12	comp:obj	_	_
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
 15	fonctionnaires	fonctionnaire	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
@@ -29263,8 +29263,8 @@
 
 # sent_id = fr-ud-dev_01054
 # text = Pour réaliser cet ouvrage très précis, ils firent appel à des charpentiers métalliques (en anglais, ironworkers) qui officiaient sur divers chantiers dangereux à travers le monde.
-1	Pour	pour	ADP	_	_	9	mod@x	_	wordform=pour
-2	réaliser	réaliser	VERB	_	VerbForm=Inf	1	comp:obj	_	_
+1	Pour	pour	ADP	_	_	9	mod	_	wordform=pour
+2	réaliser	réaliser	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=SubjRaising
 3	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	ouvrage	ouvrage	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	très	très	ADV	_	_	6	mod	_	_
@@ -29530,9 +29530,9 @@
 9	Michelle	Michelle	PROPN	_	_	10	subj	_	_
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 11	là	là	ADV	_	_	10	comp:obl	_	_
-12	pour	pour	ADP	_	_	10	mod@x	_	_
+12	pour	pour	ADP	_	_	10	mod	_	_
 13	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	14	comp:obl	_	_
-14	donner	donner	VERB	_	VerbForm=Inf	12	comp:obj	_	_
+14	donner	donner	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 15	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 16	précieux	précieux	ADJ	_	Gender=Masc|Number=Plur	17	mod	_	_
 17	conseils	conseil	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	SpaceAfter=No
@@ -29616,7 +29616,7 @@
 25	ne	ne	ADV	_	Polarity=Neg	27	mod	_	_
 26	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	comp@pass	_	_
 27	brise	briser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
-28	en	en	ADP	_	_	27	mod@x	_	_
+28	en	en	ADP	_	_	27	mod	_	_
 29	déclenchant	déclencher	VERB	_	Tense=Pres|VerbForm=Part	28	comp:obj	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	fuite	fuite	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	SpaceAfter=No
@@ -29681,8 +29681,8 @@
 16	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	_
 17	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	18	comp:obj	_	_
 18	détourne	détourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-19	pour	pour	ADP	_	Shared=No	18	mod@x	_	_
-20	aller	aller	VERB	_	VerbForm=Inf	19	comp:obj	_	_
+19	pour	pour	ADP	_	Shared=No	18	mod	_	_
+20	aller	aller	VERB	_	VerbForm=Inf	19	comp:obj	_	Subject=SubjRaising
 21	dormir	dormir	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	faire	faire	AUX	_	VerbForm=Inf	20	conj	_	_
@@ -30082,7 +30082,7 @@
 47	instantanéité	instantanéité	NOUN	_	Gender=Fem|Number=Sing	44	comp:pred	_	_
 48	»	»	PUNCT	_	_	47	punct	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	50	punct	_	_
-50	en	en	ADP	_	_	7	mod@x	_	_
+50	en	en	ADP	_	_	7	mod	_	_
 51	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	50	comp:obj	_	_
 52	remarquer	remarquer	VERB	_	VerbForm=Inf	51	comp:aux@caus	_	_
 53	:	:	PUNCT	_	_	56	punct	_	_
@@ -30435,7 +30435,7 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	mémoire	mémoire	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 12	vive	vif	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
-13	en	en	ADP	_	_	7	mod@x	_	_
+13	en	en	ADP	_	_	7	mod	_	_
 14	utilisant	utiliser	VERB	_	Tense=Pres|VerbForm=Part	13	comp:obj	_	_
 15	de	de	ADP	_	_	17	det	_	ExtPos=DET|Idiom=Yes
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	unk	_	InIdiom=Yes
@@ -31810,8 +31810,8 @@
 3	mets	mets	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
 4	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	là	là	ADV	_	_	4	comp:obl	_	_
-6	pour	pour	ADP	_	_	4	mod@x	_	_
-7	accompagner	accompagner	VERB	_	VerbForm=Inf	6	comp:obj	_	_
+6	pour	pour	ADP	_	_	4	mod	_	_
+7	accompagner	accompagner	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	dégustation	dégustation	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
@@ -33136,8 +33136,8 @@
 
 # sent_id = fr-ud-dev_01202
 # text = Pour remédier à cela, les Chinois conduisaient d'abord le gaz dans un grand réservoir en bois de forme conique, placé 3 m sous le niveau du sol, où un autre conduit amenait l'air.
-1	Pour	pour	ADP	_	_	8	mod@x	_	wordform=pour
-2	remédier	remédier	VERB	_	VerbForm=Inf	1	comp:obj	_	_
+1	Pour	pour	ADP	_	_	8	mod	_	wordform=pour
+2	remédier	remédier	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=SubjRaising
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
@@ -34910,7 +34910,7 @@
 16	Finlay	Finlay	PROPN	_	_	15	flat@name	_	_
 17	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	_
 18	devance	devancer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
-19	en	en	ADP	_	_	18	mod@x	_	_
+19	en	en	ADP	_	_	18	mod	_	_
 20	égalant	égaler	VERB	_	Tense=Pres|VerbForm=Part	19	comp:obj	_	_
 21	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	22	det	_	_
 22	record	record	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
@@ -35236,8 +35236,8 @@
 # text = Toutefois, après avoir consulté les partis de l'alliance gouvernementale, le chef de l'État décide de suivre leurs recommandations et nomme Pedro Santana Lopes, alors maire de Lisbonne, à la direction du gouvernement.
 1	Toutefois	toutefois	ADV	_	Shared=Yes	18	mod	_	SpaceAfter=No|wordform=toutefois
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	après	après	ADP	_	Shared=Yes	18	mod@x	_	_
-4	avoir	avoir	AUX	_	VerbForm=Inf	3	comp:obj	_	_
+3	après	après	ADP	_	Shared=Yes	18	mod	_	_
+4	avoir	avoir	AUX	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 5	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	partis	parti	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
@@ -35838,8 +35838,8 @@
 3	donc	donc	ADV	_	_	2	mod	_	_
 4	à	à	ADP	_	_	2	comp:obl	_	_
 5	Londres	Londres	PROPN	_	_	4	comp:obj	_	_
-6	pour	pour	ADP	_	_	2	mod@x	_	_
-7	rencontrer	rencontrer	VERB	_	VerbForm=Inf	6	comp:obj	_	_
+6	pour	pour	ADP	_	_	2	mod	_	_
+7	rencontrer	rencontrer	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	directeur	directeur	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	éditorial	éditorial	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
@@ -36722,8 +36722,8 @@
 11	,	,	PUNCT	_	_	25	punct	_	_
 12	et	et	CCONJ	_	_	25	cc	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	après	après	ADP	_	_	25	mod@x	_	_
-15	avoir	avoir	AUX	_	VerbForm=Inf	14	comp:obj	_	_
+14	après	après	ADP	_	_	25	mod	_	_
+15	avoir	avoir	AUX	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16	persuadé	persuader	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 18	empereur	empereur	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
@@ -37937,8 +37937,8 @@
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	lavis	lavis	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	clair	clair	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
-8	pour	pour	ADP	_	_	4	mod@x	_	_
-9	rendre	rendre	VERB	_	VerbForm=Inf	8	comp:obj	_	_
+8	pour	pour	ADP	_	_	4	mod	_	_
+9	rendre	rendre	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	modelé	modelé	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12-13	des	_	_	_	_	_	_	_	_
@@ -38929,8 +38929,8 @@
 12	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 13	Premier	premier	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	wordform=premier
 14	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-15	pour	pour	ADP	_	_	10	mod@x	_	_
-16	remplacer	remplacer	VERB	_	VerbForm=Inf	15	comp:obj	_	_
+15	pour	pour	ADP	_	_	10	mod	_	_
+16	remplacer	remplacer	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	Saad	Saad	PROPN	_	_	16	comp:obj	_	_
 18	Hariri	Hariri	PROPN	_	_	17	flat@name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	26	punct	_	_
@@ -39110,9 +39110,9 @@
 13	Suèves	Suèves	PROPN	_	Number=Plur|Shared=No	11	comp:obj	_	_
 14	qui	qui	PRON	_	PronType=Rel|Shared=Yes	24	subj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	après	après	ADP	_	Shared=Yes	24	mod@x	_	_
+16	après	après	ADP	_	Shared=Yes	24	mod	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	19	comp@expl	_	SpaceAfter=No
-18	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	_
+18	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
 19	alliés	allier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20-21	aux	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	19	comp:obl	_	_
@@ -39777,9 +39777,9 @@
 18	)	)	PUNCT	_	_	17	punct	_	_
 19	loue	louer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	pour	pour	ADP	_	_	19	mod@x	_	_
+21	pour	pour	ADP	_	_	19	mod	_	_
 22	y	y	PRON	_	Person=3|PronType=Prs	23	mod	_	_
-23	établir	établir	VERB	_	VerbForm=Inf	21	comp:obj	_	_
+23	établir	établir	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=SubjRaising
 24	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	25	det	_	_
 25	siège	siège	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	21	punct	_	_
@@ -40072,9 +40072,9 @@
 12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
 13	ressources	ressource	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 14	additionnelles	additionnel	ADJ	_	Gender=Fem|Number=Plur	13	mod	_	_
-15	pour	pour	ADP	_	_	8	mod@x	_	_
+15	pour	pour	ADP	_	_	8	mod	_	_
 16	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	comp@expl	_	SpaceAfter=No
-17	acquitter	acquitter	VERB	_	VerbForm=Inf	15	comp:obj	_	_
+17	acquitter	acquitter	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 18	correctement	correctement	ADV	_	_	17	mod	_	_
 19	de	de	ADP	_	_	17	comp:obl	_	_
 20	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	21	det	_	_
