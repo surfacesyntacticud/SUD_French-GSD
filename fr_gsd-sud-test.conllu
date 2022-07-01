@@ -2214,7 +2214,7 @@
 18	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 20	d'	de	ADP	_	_	19	udep	_	SpaceAfter=No
-21	œuvrer	œuvrer	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=Generic
+21	œuvrer	œuvrer	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
 22	à	à	ADP	_	_	21	comp:obl	_	_
 23	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	24	det	_	_
 24	renforcement	renforcement	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
@@ -2771,7 +2771,7 @@
 9	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	pays	pays	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	de	de	ADP	_	_	7	udep	_	_
-12	renforcer	renforcer	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=Generic
+12	renforcer	renforcer	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=Instantiated
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	consolider	consolider	VERB	_	VerbForm=Inf	12	conj	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -2932,7 +2932,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	opportunité	opportunité	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
-7	camper	camper	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=Generic
+7	camper	camper	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	11	det	_	_
@@ -3470,9 +3470,9 @@
 14	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
 15	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing|Shared=No	13	comp:obj	_	_
 16	à	à	ADP	_	_	15	udep	_	_
-17	jouer	jouer	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=Generic
+17	jouer	jouer	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
 18	pour	pour	ADP	_	_	15	udep	_	_
-19	contribuer	contribuer	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=Generic
+19	contribuer	contribuer	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -3615,9 +3615,9 @@
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	délai	délai	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	supplémentaire	supplémentaire	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
-13	avant	avant	ADV	_	_	8	mod@x	_	_
+13	avant	avant	ADV	_	_	8	mod	_	_
 14	de	de	ADP	_	_	13	comp:obj	_	_
-15	répondre	répondre	VERB	_	VerbForm=Inf	14	comp:obj	_	_
+15	répondre	répondre	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16-17	aux	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	15	comp:obl	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -8440,9 +8440,9 @@
 38	Parti	parti	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	wordform=parti
 39	communiste	communiste	ADJ	_	Gender=Masc|Number=Sing	38	mod	_	_
 40	chinois	chinois	ADJ	_	Gender=Masc|Number=Sing	38	mod	_	_
-41	avant	avant	ADP	_	_	29	mod@x	_	_
+41	avant	avant	ADP	_	_	29	mod	_	_
 42	de	de	ADP	_	_	41	comp:obj	_	_
-43	connaître	connaître	VERB	_	VerbForm=Inf	42	comp:obj	_	_
+43	connaître	connaître	VERB	_	VerbForm=Inf	42	comp:obj	_	Subject=SubjRaising
 44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	disgrâce	disgrâce	NOUN	_	Gender=Fem|Number=Sing	43	comp:obj	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	48	punct	_	_
@@ -9600,7 +9600,7 @@
 12	à	à	ADP	_	_	11	udep	_	_
 13	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 14	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
-15	afficher	afficher	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Generic
+15	afficher	afficher	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 16	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 17	performances	performance	NOUN	_	Gender=Fem|Number=Plur	15	comp:obj	_	_
 18	beaucoup	beaucoup	ADV	_	_	19	mod	_	_
