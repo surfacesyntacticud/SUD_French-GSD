@@ -915,9 +915,9 @@
 19	bons	bon	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
 20	intermédiaires	intermédiaire	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
 21	»	»	PUNCT	_	_	20	punct	_	_
-22	pour	pour	ADP	_	_	14	mod@x	_	_
+22	pour	pour	ADP	_	_	14	mod	_	_
 23	«	«	PUNCT	_	_	24	punct	_	_
-24	négocier	négocier	VERB	_	VerbForm=Inf	22	comp:obj	_	_
+24	négocier	négocier	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
 25	»	»	PUNCT	_	_	24	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1675,8 +1675,8 @@
 2	étant	être	AUX	_	Tense=Pres|VerbForm=Part	15	mod	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4	préparés	préparer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
-5	pour	pour	ADP	_	_	2	mod@x	_	_
-6	recevoir	recevoir	VERB	_	VerbForm=Inf	5	comp:obj	_	_
+5	pour	pour	ADP	_	_	2	mod	_	_
+6	recevoir	recevoir	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	plus	plus	ADV	_	_	6	comp:obj	_	ExtPos=PRON
 8	de	de	ADP	_	_	7	udep	_	_
 9	dix	dix	NUM	_	Number=Plur	12	det	_	_
@@ -1781,7 +1781,7 @@
 25	indigènes	indigène	NOUN	_	Gender=Masc|Number=Plur	21	comp:obj	_	_
 26	»	»	PUNCT	_	_	25	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
-28	en	en	ADP	_	_	16	mod@x	_	_
+28	en	en	ADP	_	_	16	mod	_	_
 29	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	30	comp:obj	_	_
 30	agressant	agresser	VERB	_	Tense=Pres|VerbForm=Part	28	comp:obj	_	_
 31	à	à	ADP	_	_	30	mod	_	ExtPos=ADV|Idiom=Yes
@@ -2193,8 +2193,8 @@
 
 # sent_id = fr-ud-test_00078
 # text = Après avoir examiné l'état des relations bilatérales, les deux chefs d'Etat ont réitéré leur volonté d'œuvrer à leur renforcement et à leur diversification.
-1	Après	après	ADP	_	_	16	mod@x	_	wordform=après
-2	avoir	avoir	AUX	_	VerbForm=Inf	1	comp:obj	_	_
+1	Après	après	ADP	_	_	16	mod	_	wordform=après
+2	avoir	avoir	AUX	_	VerbForm=Inf	1	comp:obj	_	Subject=SubjRaising
 3	examiné	examiner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	état	état	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -2278,7 +2278,7 @@
 # sent_id = fr-ud-test_00081
 # text = Tout en estimant que « le Maroc est sous protectorat français », au vu des aides militaires de cette puissance au colonialisme marocain, il a rappelé la position de la France au Conseil de sécurité de l'ONU, en opposant son Veto à l'élargissement des missions de la Minurso pour englober la surveillance et le contrôle des droits de l'homme dans les territoires sahraouis.
 1	Tout	tout	ADV	_	_	2	mod	_	wordform=tout
-2	en	en	ADP	_	_	30	mod@x	_	_
+2	en	en	ADP	_	_	30	mod	_	_
 3	estimant	estimer	VERB	_	Tense=Pres|VerbForm=Part	2	comp:obj	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	«	«	PUNCT	_	_	8	punct	_	_
@@ -2326,7 +2326,7 @@
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
 44	ONU	ONU	PROPN	_	Number=Sing	42	comp:obj	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	_
-46	en	en	ADP	_	_	30	mod@x	_	_
+46	en	en	ADP	_	_	30	mod	_	_
 47	opposant	opposer	VERB	_	Tense=Pres|VerbForm=Part	46	comp:obj	_	_
 48	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	49	det	_	_
 49	Veto	Veto	PROPN	_	Number=Sing	47	comp:obj	_	_
@@ -3894,7 +3894,7 @@
 19	millions	million	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
 20	de	de	ADP	_	_	19	udep	_	_
 21	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
-22	en	en	ADP	_	_	16	mod@x	_	_
+22	en	en	ADP	_	_	16	mod	_	_
 23	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	22	comp:obj	_	_
 24	croire	croire	VERB	_	VerbForm=Inf	23	comp:aux@caus	_	_
 25-26	aux	_	_	_	_	_	_	_	_
@@ -4434,8 +4434,8 @@
 12	concept	concept	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	en	en	ADP	_	_	9	mod	_	_
 14	Afrique	Afrique	PROPN	_	_	13	comp:obj	_	_
-15	après	après	ADP	_	_	9	mod@x	_	_
-16	avoir	avoir	AUX	_	VerbForm=Inf	15	comp:obj	_	_
+15	après	après	ADP	_	_	9	mod	_	_
+16	avoir	avoir	AUX	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	constaté	constater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
@@ -4699,7 +4699,7 @@
 23	en	en	ADP	_	_	22	udep	_	_
 24	1987	1987	NUM	_	Number=Plur	23	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	en	en	ADP	_	_	3	mod@x	_	_
+26	en	en	ADP	_	_	3	mod	_	_
 27	battant	battre	VERB	_	Tense=Pres|VerbForm=Part	26	comp:obj	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	XV	XV	PROPN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
@@ -5011,8 +5011,8 @@
 9	délégués	délégué	NOUN	_	Gender=Masc|Number=Plur	10	subj	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	intervenus	intervenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
-12	pour	pour	ADP	_	_	10	mod@x	_	_
-13	parler	parler	VERB	_	VerbForm=Inf	12	comp:obj	_	_
+12	pour	pour	ADP	_	_	10	mod	_	_
+13	parler	parler	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 14-15	aux	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	13	comp:obl	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	16	det	_	_
@@ -5401,8 +5401,8 @@
 
 # sent_id = fr-ud-test_00180
 # text = Pour souligner les 35 ans du Théâtre du Trillium, la directrice artistique Anne-Marie White a décidé de faire éclater le quatrième mur entre les artistes et le public.
-1	Pour	pour	ADP	_	_	18	mod@x	_	wordform=pour
-2	souligner	souligner	VERB	_	VerbForm=Inf	1	comp:obj	_	_
+1	Pour	pour	ADP	_	_	18	mod	_	wordform=pour
+2	souligner	souligner	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=SubjRaising
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 4	35	35	NUM	_	Number=Plur	5	mod	_	_
 5	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
@@ -5522,8 +5522,8 @@
 16	de	de	ADP	_	_	12	udep	_	_
 17	Las	Las	PROPN	_	_	16	comp:obj	_	_
 18	Vegas	Vegas	PROPN	_	_	17	flat@name	_	_
-19	pour	pour	ADP	_	_	7	mod@x	_	_
-20	assurer	assurer	VERB	_	VerbForm=Inf	19	comp:obj	_	_
+19	pour	pour	ADP	_	_	7	mod	_	_
+20	assurer	assurer	VERB	_	VerbForm=Inf	19	comp:obj	_	Subject=SubjRaising
 21	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	22	det	_	_
 22	défense	défense	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	7	punct	_	_
@@ -6839,9 +6839,9 @@
 28	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	subj	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 30	excellent	excellent	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	29	comp:pred	_	CorrectForm=excellents|CorrectNumber=Plur
-31	pour	pour	ADP	_	_	29	mod@x	_	_
+31	pour	pour	ADP	_	_	29	mod	_	_
 32	'	'	PUNCT	_	_	33	punct	_	SpaceAfter=No
-33	bullshitter	bullshitter	VERB	_	VerbForm=Inf	31	comp:obj	_	SpaceAfter=No
+33	bullshitter	bullshitter	VERB	_	VerbForm=Inf	31	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 34	'	'	PUNCT	_	_	33	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -6941,7 +6941,7 @@
 4	par	par	ADP	_	_	3	mod	_	_
 5	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	Lionel	Lionel	PROPN	_	_	3	comp:obj	_	_
-7	en	en	ADP	_	_	2	mod@x	_	_
+7	en	en	ADP	_	_	2	mod	_	_
 8	cherchant	chercher	VERB	_	Tense=Pres|VerbForm=Part	7	comp:obj	_	_
 9	sur	sur	ADP	_	_	8	mod	_	_
 10	Google	Google	PROPN	_	_	9	comp:obj	_	_
@@ -8036,8 +8036,8 @@
 
 # sent_id = fr-ud-test_00295
 # text = pour mettre aux normes l'installation électrique de mon appart, j'ai fait appel à eux car les avis semblaient bons.
-1	pour	pour	ADP	_	Shared=No	14	mod@x	_	_
-2	mettre	mettre	VERB	_	VerbForm=Inf	1	comp:obj	_	_
+1	pour	pour	ADP	_	Shared=No	14	mod	_	_
+2	mettre	mettre	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=SubjRaising
 3-4	aux	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -8264,8 +8264,8 @@
 3	même	même	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
 4	perspective	perspective	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 5	et	et	CCONJ	_	_	21	cc	_	_
-6	pour	pour	ADP	_	_	21	mod@x	_	_
-7	accélérer	accélérer	VERB	_	VerbForm=Inf	6	comp:obj	_	_
+6	pour	pour	ADP	_	_	21	mod	_	_
+7	accélérer	accélérer	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	diffusion	diffusion	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10-11	des	_	_	_	_	_	_	_	_
@@ -9980,7 +9980,7 @@
 13	extrêmement	extrêmement	ADV	_	_	14	mod	_	_
 14	audacieuse	audacieux	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 15	tout	tout	ADV	_	_	16	mod	_	_
-16	en	en	ADP	_	_	3	mod@x	_	_
+16	en	en	ADP	_	_	3	mod	_	_
 17	respectant	respecter	VERB	_	Tense=Pres|VerbForm=Part	16	comp:obj	_	_
 18	parfaitement	parfaitement	ADV	_	_	17	mod	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
@@ -10189,8 +10189,8 @@
 8	sélection	sélection	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	2012	2012	NUM	_	Number=Plur	9	comp:obj	_	_
-11	pour	pour	ADP	_	_	4	mod@x	_	_
-12	organiser	organiser	VERB	_	VerbForm=Inf	11	comp:obj	_	_
+11	pour	pour	ADP	_	_	4	mod	_	_
+12	organiser	organiser	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Championnats	Championnats	PROPN	_	Number=Plur	12	comp:obj	_	_
 15-16	du	_	_	_	_	_	_	_	_
