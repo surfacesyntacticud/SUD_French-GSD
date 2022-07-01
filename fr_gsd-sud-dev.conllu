@@ -297,8 +297,8 @@
 10	à	à	ADP	_	_	21	mod	_	ExtPos=ADV|Idiom=Yes
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
 12	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	InIdiom=Yes
-13	de	de	ADP	_	_	10	comp:obl@x	_	_
-14	souligner	souligner	VERB	_	VerbForm=Inf	13	comp:obj	_	_
+13	de	de	ADP	_	_	10	comp:obl	_	_
+14	souligner	souligner	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	thématique	thématique	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 17-18	du	_	_	_	_	_	_	_	_
@@ -4942,8 +4942,8 @@
 5	procès	procès	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	loin	loin	ADV	_	_	6	comp:pred	_	_
-8	d'	de	ADP	_	_	7	comp:obl@x	_	SpaceAfter=No
-9	avoir	avoir	AUX	_	VerbForm=Inf	8	comp:obj	_	_
+8	d'	de	ADP	_	_	7	comp:obl	_	SpaceAfter=No
+9	avoir	avoir	AUX	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 10	disparu	disparaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	même	même	ADV	_	_	13	mod	_	_
@@ -10610,8 +10610,8 @@
 13	de	de	ADP	_	_	11	udep	_	_
 14	religion	religion	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	sans	sans	ADP	_	_	2	comp:obl@x	_	_
-17	tomber	tomber	VERB	_	VerbForm=Inf	16	comp:obj	_	_
+16	sans	sans	ADP	_	_	2	comp:obl	_	_
+17	tomber	tomber	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=OblRaising
 18	dans	dans	ADP	_	_	17	comp:obl	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	excès	excès	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
@@ -16731,8 +16731,8 @@
 21	deux	deux	NUM	_	Number=Plur	22	subj	_	_
 22	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
 23	loin	loin	ADV	_	_	22	comp:pred	_	_
-24	d'	de	ADP	_	_	23	comp:obl@x	_	SpaceAfter=No
-25	être	être	AUX	_	VerbForm=Inf	24	comp:obj	_	_
+24	d'	de	ADP	_	_	23	comp:obl	_	SpaceAfter=No
+25	être	être	AUX	_	VerbForm=Inf	24	comp:obj	_	Subject=SubjRaising
 26	inconnus	inconnu	ADJ	_	Gender=Masc|Number=Plur	25	comp:pred	_	_
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	25	mod	_	_
