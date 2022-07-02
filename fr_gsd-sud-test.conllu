@@ -6178,7 +6178,7 @@
 18	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
 19	plus	plus	ADV	_	Polarity=Neg	18	mod	_	_
 20	à	à	ADP	_	_	18	comp:pred	_	_
-21	prouver	prouver	VERB	_	VerbForm=Inf	20	comp:obj	_	SpaceAfter=No
+21	prouver	prouver	VERB	_	VerbForm=Inf	20	comp:obj	_	SpaceAfter=No|Subject=Generic
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00206
