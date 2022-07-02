@@ -3285,7 +3285,7 @@
 20	temps	temps	NOUN	_	Gender=Masc|Number=Sing|Shared=No	19	comp:pred	_	InIdiom=Yes
 21	de	de	ADP	_	Shared=No	19	comp:obj@agent	_	_
 22	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	23	comp:obl	_	_
-23	rendre	rendre	VERB	_	VerbForm=Inf	21	comp:obj	_	_
+23	rendre	rendre	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=Generic
 24	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	25	det	_	_
 25	bienfaits	bienfait	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	_
 26	»	»	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -3826,7 +3826,7 @@
 # text = Il faut savoir que les appareils de la dernière génération exposent la couche supérieure de la main à 40°C et que les couches plus profondes atteindront la température de 60°C, il est donc normal de ressentir un peu de douleur.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj@expl	_	wordform=il
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	savoir	savoir	VERB	_	VerbForm=Inf	2	comp:obj	_	_
+3	savoir	savoir	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=Generic
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	appareils	appareil	NOUN	_	Gender=Masc|Number=Plur	11	subj	_	_
@@ -3864,7 +3864,7 @@
 38	donc	donc	ADV	_	Shared=No	37	mod	_	_
 39	normal	normal	ADJ	_	Gender=Masc|Number=Sing|Shared=No	37	comp:pred	_	_
 40	de	de	ADP	_	Shared=No	37	comp:obj@agent	_	_
-41	ressentir	ressentir	VERB	_	VerbForm=Inf	40	comp:obj	_	_
+41	ressentir	ressentir	VERB	_	VerbForm=Inf	40	comp:obj	_	Subject=Generic
 42	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	InIdiom=Yes
 43	peu	peu	ADV	_	Gender=Masc|Number=Sing	41	comp:obj	_	ExtPos=PRON|Idiom=Yes
 44	de	de	ADP	_	_	43	udep	_	_
@@ -4349,7 +4349,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	toutefois	toutefois	ADV	_	_	4	mod	_	_
-4	noter	noter	VERB	_	VerbForm=Inf	2	comp:obj	_	_
+4	noter	noter	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=Generic
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
@@ -4367,7 +4367,7 @@
 19	financière	financier	ADJ	_	Gender=Fem|Number=Sing	18	mod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	de	de	ADP	_	_	7	comp:obj@agent	_	_
-22	posséder	posséder	VERB	_	VerbForm=Inf	21	comp:obj	_	_
+22	posséder	posséder	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=Generic
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 24	ou	ou	CCONJ	_	_	25	cc	_	_
 25	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	23	conj	_	_
@@ -4870,7 +4870,7 @@
 # text = Faut-il éviter de se rendre dans les pays du sous-continent indien ?
 1	Faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|wordform=faut
 2	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	subj@expl	_	wordform=il
-3	éviter	éviter	VERB	_	VerbForm=Inf	1	comp:obj	_	_
+3	éviter	éviter	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=Generic
 4	de	de	ADP	_	_	3	comp:obj	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@expl	_	_
 6	rendre	rendre	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
@@ -5708,7 +5708,7 @@
 4	plus	plus	ADV	_	_	5	mod	_	_
 5	libérateur	libérateur	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 6	de	de	ADP	_	_	2	comp:obj@agent	_	_
-7	crier	crier	VERB	_	VerbForm=Inf	6	comp:obj	_	_
+7	crier	crier	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=Generic
 8	bien	bien	ADV	_	_	9	mod	_	_
 9	fort	fort	ADV	_	_	7	mod	_	_
 10	:	:	PUNCT	_	_	11	punct	_	_
@@ -6286,7 +6286,7 @@
 20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:obj	_	ExtPos=VERB|Idiom=Yes
 21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	20	comp:pred	_	InIdiom=Yes
 22	de	de	ADP	_	_	20	comp:obj@agent	_	_
-23	quitter	quitter	VERB	_	VerbForm=Inf	22	comp:obj	_	_
+23	quitter	quitter	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=Generic
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
 25	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	7	punct	_	_
@@ -6425,7 +6425,7 @@
 3	tellement	tellement	ADV	_	_	4	mod	_	_
 4	rare	rare	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 5	de	de	ADP	_	_	2	comp:obj@agent	_	_
-6	pouvoir	pouvoir	VERB	_	VerbForm=Inf	5	comp:obj	_	_
+6	pouvoir	pouvoir	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=Generic
 7	dîner	dîner	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	7	mod	_	_
@@ -6763,7 +6763,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj@expl	_	wordform=il
 2	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mieux	mieux	ADV	_	_	2	mod	_	_
-4	réserver	réserver	VERB	_	VerbForm=Inf	2	comp:obj	_	_
+4	réserver	réserver	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=Generic
 5	car	car	CCONJ	_	_	11	cc	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
