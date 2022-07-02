@@ -1040,7 +1040,7 @@
 14	Hansen	Hansen	PROPN	_	_	13	flat@name	_	_
 15	en	en	ADP	_	_	7	mod	_	_
 16	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	15	comp:obj	_	_
-17	jeter	jeter	VERB	_	VerbForm=Inf	16	comp:aux@caus	_	_
+17	jeter	jeter	VERB	_	VerbForm=Inf	16	comp:aux@caus	_	Subject=Generic
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	mannequin	mannequin	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	déguisé	déguiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	mod	_	_
@@ -3546,7 +3546,7 @@
 # text = Bès fait fuir, par ses danses grotesques et ses grimaces affreuses, toutes les forces du mal mais il apporte également la joie, le divertissement et la bonne humeur en jouant de la harpe et de la lyre dans les foyers.
 1	Bès	Bès	PROPN	_	Shared=No	2	subj@caus	_	_
 2	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	fuir	fuir	VERB	_	VerbForm=Inf	2	comp:aux@caus	_	SpaceAfter=No
+3	fuir	fuir	VERB	_	VerbForm=Inf	2	comp:aux@caus	_	SpaceAfter=No|Subject=ObjRaising
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	par	par	ADP	_	_	2	mod	_	_
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	7	det	_	_
@@ -3647,7 +3647,7 @@
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 9	même	même	ADV	_	_	8	mod	_	_
 10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
-11	venir	venir	VERB	_	VerbForm=Inf	10	comp:aux@caus	_	_
+11	venir	venir	VERB	_	VerbForm=Inf	10	comp:aux@caus	_	Subject=ObjRaising
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	taxi	taxi	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj@agent	_	_
 14	pour	pour	ADP	_	_	8	mod	_	_
@@ -5905,7 +5905,7 @@
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	Pathé	Pathé	PROPN	_	Shared=Yes	8	subj@caus	_	_
 8	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	monter	monter	VERB	_	VerbForm=Inf	8	comp:aux@caus	_	_
+9	monter	monter	VERB	_	VerbForm=Inf	8	comp:aux@caus	_	Subject=Generic
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	usine	usine	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
@@ -8236,7 +8236,7 @@
 17	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	comp:obj	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 19	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
-20	remarquer	remarquer	VERB	_	VerbForm=Inf	19	comp:aux@caus	_	SpaceAfter=No
+20	remarquer	remarquer	VERB	_	VerbForm=Inf	19	comp:aux@caus	_	SpaceAfter=No|Subject=Generic
 21	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00292
@@ -9436,7 +9436,7 @@
 11	vins	vin	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
 12	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	13	comp:obj@agent	_	_
 13	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-14	voyager	voyager	VERB	_	Shared=No|VerbForm=Inf	13	comp:aux@caus	_	_
+14	voyager	voyager	VERB	_	Shared=No|VerbForm=Inf	13	comp:aux@caus	_	Subject=ObjRaising
 15	de	de	ADP	_	Shared=No	13	mod	_	_
 16	France	France	PROPN	_	_	15	comp:obj	_	_
 17	en	en	ADP	_	Shared=No	13	mod	_	_
@@ -12855,7 +12855,7 @@
 19	pas	pas	ADV	_	Polarity=Neg|Shared=No	18	mod	_	_
 20	à	à	ADP	_	Shared=No	18	comp:obl	_	_
 21	faire	faire	AUX	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
-22	battre	battre	VERB	_	VerbForm=Inf	21	comp:aux@caus	_	_
+22	battre	battre	VERB	_	VerbForm=Inf	21	comp:aux@caus	_	Subject=Generic
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	parti	parti	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 25	Libéral	libéral	ADJ	_	Gender=Masc|Number=Sing	24	mod	_	wordform=libéral
@@ -13588,7 +13588,7 @@
 16	réussir	réussir	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	à	à	ADP	_	_	16	comp:obl	_	_
 18	faire	faire	AUX	_	VerbForm=Inf	17	comp:obj	_	Subject=SubjRaising
-19	compiler	compiler	VERB	_	VerbForm=Inf	18	comp:aux@caus	_	_
+19	compiler	compiler	VERB	_	VerbForm=Inf	18	comp:aux@caus	_	Subject=Generic
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
 21	bibliothèques	bibliothèque	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	_
 22	dynamiques	dynamique	ADJ	_	Gender=Fem|Number=Plur	21	mod	_	SpaceAfter=No
@@ -16965,7 +16965,7 @@
 10	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
-13	chuter	chuter	VERB	_	Shared=No|VerbForm=Inf	12	comp:aux@caus	_	_
+13	chuter	chuter	VERB	_	Shared=No|VerbForm=Inf	12	comp:aux@caus	_	Subject=ObjRaising
 14	immédiatement	immédiatement	ADV	_	Shared=No	12	mod	_	_
 15	tous	tout	ADJ	_	Gender=Masc|Number=Plur|PronType=Ind	16	mod	_	_
 16	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem|Shared=No	12	comp:obj@agent	_	_
@@ -18159,7 +18159,7 @@
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 14	pas	pas	ADV	_	Polarity=Neg|Shared=No	13	mod	_	_
 15	fait	faire	AUX	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
-16	rire	rire	VERB	_	VerbForm=Inf	15	comp:aux@caus	_	SpaceAfter=No
+16	rire	rire	VERB	_	VerbForm=Inf	15	comp:aux@caus	_	SpaceAfter=No|Subject=ObjRaising
 17	...	...	PUNCT	_	_	1	punct	_	_
 18	!	!	PUNCT	_	_	1	punct	_	_
 
@@ -20076,7 +20076,7 @@
 21	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	comp:obl	_	SpaceAfter=No
 22	y	y	PRON	_	Person=3|PronType=Prs	23	mod	_	_
 23	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
-24	construire	construire	VERB	_	Shared=No|VerbForm=Inf	23	comp:aux@caus	_	_
+24	construire	construire	VERB	_	Shared=No|VerbForm=Inf	23	comp:aux@caus	_	Subject=Generic
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	maison	maison	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	8	punct	_	_
@@ -21336,7 +21336,7 @@
 10	intense	intense	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
 11	pour	pour	ADP	_	_	5	mod	_	_
 12	faire	faire	AUX	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
-13	connaître	connaître	VERB	_	VerbForm=Inf	12	comp:aux@caus	_	_
+13	connaître	connaître	VERB	_	VerbForm=Inf	12	comp:aux@caus	_	Subject=Generic
 14	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
 15	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
@@ -28019,7 +28019,7 @@
 12	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	InIdiom=Yes
 14	peu	peu	NOUN	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
-15	penser	penser	VERB	_	Shared=No|VerbForm=Inf	12	comp:aux@caus	_	_
+15	penser	penser	VERB	_	Shared=No|VerbForm=Inf	12	comp:aux@caus	_	Subject=Generic
 16	à	à	ADP	_	_	15	comp:obl	_	_
 17	Knock	Knock	PROPN	_	_	16	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	3	punct	_	_
@@ -28484,7 +28484,7 @@
 8	activement	activement	ADV	_	_	7	mod	_	_
 9	à	à	ADP	_	_	7	comp:obl	_	_
 10	faire	faire	AUX	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
-11	évoluer	évoluer	VERB	_	VerbForm=Inf	10	comp:aux@caus	_	_
+11	évoluer	évoluer	VERB	_	VerbForm=Inf	10	comp:aux@caus	_	Subject=ObjRaising
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	vie	vie	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj@agent	_	_
 14	nocturne	nocturne	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
@@ -29686,7 +29686,7 @@
 21	dormir	dormir	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	faire	faire	AUX	_	VerbForm=Inf	20	conj	_	_
-24	partir	partir	VERB	_	Shared=No|VerbForm=Inf	23	comp:aux@caus	_	_
+24	partir	partir	VERB	_	Shared=No|VerbForm=Inf	23	comp:aux@caus	_	Subject=ObjRaising
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	humain	humain	NOUN	_	Gender=Masc|Number=Sing|Shared=No	23	comp:obj@agent	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
@@ -30084,7 +30084,7 @@
 49	,	,	PUNCT	_	_	50	punct	_	_
 50	en	en	ADP	_	_	7	mod	_	_
 51	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	50	comp:obj	_	_
-52	remarquer	remarquer	VERB	_	VerbForm=Inf	51	comp:aux@caus	_	_
+52	remarquer	remarquer	VERB	_	VerbForm=Inf	51	comp:aux@caus	_	Subject=Generic
 53	:	:	PUNCT	_	_	56	punct	_	_
 54	«	«	PUNCT	_	_	56	punct	_	_
 55	Et	et	CCONJ	_	_	56	cc	_	wordform=et
@@ -31750,7 +31750,7 @@
 3	ami	ami	NOUN	_	Gender=Masc|Number=Sing	5	subj@caus	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
 5	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	engager	engager	VERB	_	VerbForm=Inf	5	comp:aux@caus	_	_
+6	engager	engager	VERB	_	VerbForm=Inf	5	comp:aux@caus	_	Subject=Generic
 7	comme	comme	ADP	_	_	5	mod	_	_
 8	figurant	figurer	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	sur	sur	ADP	_	_	5	mod	_	_
@@ -34558,7 +34558,7 @@
 4	Laederich	Laederich	PROPN	_	Shared=Yes	3	flat@name	_	_
 5	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obl@agent	_	_
 6	feront	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-7	découvrir	découvrir	VERB	_	VerbForm=Inf	6	comp:aux@caus	_	_
+7	découvrir	découvrir	VERB	_	VerbForm=Inf	6	comp:aux@caus	_	Subject=Generic
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	9	det	_	_
 9	vins	vin	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
@@ -38570,7 +38570,7 @@
 5	plus	plus	ADV	_	Polarity=Neg	4	mod	_	_
 6	de	de	ADP	_	_	4	comp:obl	_	_
 7	faire	faire	AUX	_	VerbForm=Inf	6	comp:obj	_	_
-8	fondre	fondre	VERB	_	VerbForm=Inf	7	comp:aux@caus	_	_
+8	fondre	fondre	VERB	_	VerbForm=Inf	7	comp:aux@caus	_	Subject=ObjRaising
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	neige	neige	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj@agent	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
@@ -40151,7 +40151,7 @@
 4	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	mod	_	_
 5	pour	pour	ADP	_	_	4	mod	_	_
 6	faire	faire	AUX	_	VerbForm=Inf	5	comp:obj	_	_
-7	cesser	cesser	VERB	_	VerbForm=Inf	6	comp:aux@caus	_	_
+7	cesser	cesser	VERB	_	VerbForm=Inf	6	comp:aux@caus	_	Subject=ObjRaising
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	sanctionner	sanctionner	VERB	_	VerbForm=Inf	7	conj	_	_
 10	ces	ce	DET	_	Number=Plur|PronType=Dem	11	det	_	_
