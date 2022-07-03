@@ -927,7 +927,7 @@
 7	à	à	ADP	_	_	6	udep	_	_
 8	feu	feu	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	pour	pour	ADP	_	_	2	mod	_	_
-10	approvisionner	approvisionner	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+10	approvisionner	approvisionner	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=Generic
 11	Paris	Paris	PROPN	_	_	10	comp:obj	_	_
 12	en	en	ADP	_	_	10	mod	_	_
 13	eau	eau	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
@@ -9345,7 +9345,7 @@
 14	en	en	ADP	_	_	4	mod	_	_
 15	1962	1962	NUM	_	Number=Plur	14	comp:obj	_	_
 16	pour	pour	ADP	_	_	4	mod	_	_
-17	célébrer	célébrer	VERB	_	VerbForm=Inf	16	comp:obj	_	_
+17	célébrer	célébrer	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=Generic
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 19	200	200	NUM	_	Number=Plur	20	mod	_	_
 20	ans	an	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
@@ -10818,7 +10818,7 @@
 7	davantage	davantage	ADV	_	_	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	pour	pour	ADP	_	_	3	mod	_	_
-10	poser	poser	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+10	poser	poser	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=Generic
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	jalons	jalon	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
@@ -11588,7 +11588,7 @@
 1	De	de	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes|wordform=de
 2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes
 3	pour	pour	ADP	_	_	8	mod	_	_
-4	couronner	couronner	VERB	_	VerbForm=Inf	3	comp:obj	_	_
+4	couronner	couronner	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=Generic
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	tout	tout	PRON	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
@@ -12213,7 +12213,7 @@
 5	toute	tout	ADJ	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
 6	trouvée	trouver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 7	pour	pour	ADP	_	_	3	mod	_	_
-8	évoquer	évoquer	VERB	_	VerbForm=Inf	7	comp:obj	_	_
+8	évoquer	évoquer	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=Generic
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	enlèvement	enlèvement	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	de	de	ADP	_	_	10	udep	_	_
@@ -12616,7 +12616,7 @@
 15	souple	souple	ADJ	_	Gender=Fem|Number=Sing	11	comp:pred	_	_
 16	pour	pour	ADP	_	_	15	mod	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	18	comp:obj	_	SpaceAfter=No
-18	adapter	adapter	VERB	_	VerbForm=Inf	16	comp:obj	_	_
+18	adapter	adapter	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=Generic
 19-20	aux	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	18	comp:obl	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
@@ -12635,7 +12635,7 @@
 32	et	et	CCONJ	_	_	33	cc	_	_
 33	immuable	immuable	ADJ	_	Gender=Fem|Number=Sing	31	conj@emb	_	_
 34	pour	pour	ADP	_	Shared=Yes	33	mod	_	_
-35	imprimer	imprimer	VERB	_	VerbForm=Inf	34	comp:obj	_	_
+35	imprimer	imprimer	VERB	_	VerbForm=Inf	34	comp:obj	_	Subject=Generic
 36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
 38	de	de	ADP	_	_	37	udep	_	_
@@ -13311,7 +13311,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	conçu	concevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 8	pour	pour	ADP	_	_	6	mod	_	_
-9	accueillir	accueillir	VERB	_	VerbForm=Inf	8	comp:obj	_	_
+9	accueillir	accueillir	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=Generic
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	pavillons	pavillon	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
 12-13	des	_	_	_	_	_	_	_	_
@@ -15151,7 +15151,7 @@
 37	communiqué	communiqué	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	SpaceAfter=No
 38	,	,	PUNCT	_	Shared=Yes	39	punct	_	_
 39	pour	pour	ADP	_	_	29	mod	_	_
-40	soutenir	soutenir	VERB	_	VerbForm=Inf	39	comp:obj	_	_
+40	soutenir	soutenir	VERB	_	VerbForm=Inf	39	comp:obj	_	Subject=Generic
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	démarche	démarche	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
 43	de	de	ADP	_	_	42	udep	_	_
@@ -20037,7 +20037,7 @@
 9	pour	pour	ADP	_	_	8	mod	_	_
 10	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
 11	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
-12	dire	dire	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+12	dire	dire	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=Generic
 13	ambiguë	ambigu	ADJ	_	Gender=Fem|Number=Sing	12	comp:pred	_	_
 14	de	de	ADP	_	_	6	udep	_	_
 15	Rabat	Rabat	PROPN	_	_	14	comp:obj	_	_
@@ -20964,7 +20964,7 @@
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	nécessaires	nécessaire	ADJ	_	Gender=Masc|Number=Plur	5	comp:pred	_	_
 7	pour	pour	ADP	_	_	5	mod	_	_
-8	parcourir	parcourir	VERB	_	VerbForm=Inf	7	comp:obj	_	_
+8	parcourir	parcourir	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=Generic
 9	tout	tout	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	littoral	littoral	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
@@ -28287,7 +28287,7 @@
 28	)	)	PUNCT	_	_	21	punct	_	_
 29	«	«	PUNCT	_	_	30	punct	_	_
 30	pour	pour	ADP	_	_	7	mod	_	_
-31	permettre	permettre	VERB	_	VerbForm=Inf	30	comp:obj	_	_
+31	permettre	permettre	VERB	_	VerbForm=Inf	30	comp:obj	_	Subject=Generic
 32-33	aux	_	_	_	_	_	_	_	_
 32	à	à	ADP	_	_	31	comp:obl	_	_
 33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
@@ -28978,7 +28978,7 @@
 11	à	à	ADP	_	Shared=No	10	comp:obl	_	_
 12	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	comp:obj	_	_
 13	pour	pour	ADP	_	Shared=No	10	mod	_	_
-14	être	être	AUX	_	VerbForm=Inf	13	comp:obj	_	_
+14	être	être	AUX	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
 15	populaire	populaire	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -35434,7 +35434,7 @@
 14	sentait	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	comp:obj	_	_
 15	prêt	prêt	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
 16	pour	pour	ADP	_	_	15	mod	_	_
-17	réaliser	réaliser	VERB	_	VerbForm=Inf	16	comp:obj	_	_
+17	réaliser	réaliser	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
 18	5,80	5,80	NUM	_	Number=Plur	19	det	_	_
 19	m	mètre	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	33	punct	_	_
@@ -38721,7 +38721,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	utilisateur	utilisateur	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	pour	pour	ADP	_	_	4	mod	_	_
-11	vérifier	vérifier	VERB	_	VerbForm=Inf	10	comp:obj	_	_
+11	vérifier	vérifier	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Generic
 12	que	que	SCONJ	_	_	11	comp:obj	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	sources	source	NOUN	_	Gender=Fem|Number=Plur	23	subj	_	_
@@ -40150,7 +40150,7 @@
 3	disciplinaires	disciplinaire	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
 4	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	mod	_	_
 5	pour	pour	ADP	_	_	4	mod	_	_
-6	faire	faire	AUX	_	VerbForm=Inf	5	comp:obj	_	_
+6	faire	faire	AUX	_	VerbForm=Inf	5	comp:obj	_	Subject=Generic
 7	cesser	cesser	VERB	_	VerbForm=Inf	6	comp:aux@caus	_	Subject=ObjRaising
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	sanctionner	sanctionner	VERB	_	VerbForm=Inf	7	conj	_	Subject=ObjRaising

@@ -576,7 +576,7 @@
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	profit	profit	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	pour	pour	ADP	_	_	6	mod	_	_
-11	étudier	étudier	VERB	_	VerbForm=Inf	10	comp:obj	_	_
+11	étudier	étudier	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Generic
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	13	det	_	_
 13	conséquences	conséquence	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 14	de	de	ADP	_	_	13	udep	_	_
@@ -3334,7 +3334,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	5	mod	_	CorrectForm=créée|CorrectGender=Fem
 9	pour	pour	ADP	_	_	8	mod	_	_
-10	lutter	lutter	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+10	lutter	lutter	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=Generic
 11	contre	contre	ADP	_	_	10	mod	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	gangs	gang	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
@@ -3421,7 +3421,7 @@
 6	en	en	ADP	_	_	3	mod	_	_
 7	Israël	Israël	PROPN	_	_	6	comp:obj	_	_
 8	pour	pour	ADP	_	_	3	mod	_	_
-9	marquer	marquer	VERB	_	VerbForm=Inf	8	comp:obj	_	_
+9	marquer	marquer	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=Generic
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	150e	150e	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
 12	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
@@ -4301,7 +4301,7 @@
 10	Comité	Comité	PROPN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	Fal	Fal	PROPN	_	_	10	flat@name	_	_
 12	pour	pour	ADP	_	_	7	mod	_	_
-13	établir	établir	VERB	_	VerbForm=Inf	12	comp:obj	_	_
+13	établir	établir	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Generic
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	baromètre	baromètre	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16-17	du	_	_	_	_	_	_	_	_
@@ -5052,7 +5052,7 @@
 14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	comp:aux@pass	_	_
 16	pour	pour	ADP	_	_	13	mod	_	_
-17	créer	créer	VERB	_	VerbForm=Inf	16	comp:obj	_	_
+17	créer	créer	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=Generic
 18	ces	ce	DET	_	Number=Plur|PronType=Dem	19	det	_	_
 19	logements	logement	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
 20	étudiants	étudiant	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	SpaceAfter=No
@@ -7589,7 +7589,7 @@
 # sent_id = fr-ud-test_00275
 # text = Pour couronner le tout, les personnes de la réception ne sont pas aimable, ni compétent... je dirais même totalement antipathiques.
 1	Pour	pour	ADP	_	_	12	mod	_	wordform=pour
-2	couronner	couronner	VERB	_	VerbForm=Inf	1	comp:obj	_	_
+2	couronner	couronner	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=Generic
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	tout	tout	PRON	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
@@ -7679,7 +7679,7 @@
 # sent_id = fr-ud-test_00277
 # text = Pour terminer ils disent qu'ils ont internet gratuit, mais il ne marche pratiquement jamais.
 1	Pour	pour	ADP	_	Shared=No	4	mod	_	wordform=pour
-2	terminer	terminer	VERB	_	VerbForm=Inf	1	comp:obj	_	_
+2	terminer	terminer	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=Generic
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	4	subj	_	_
 4	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
@@ -10584,7 +10584,7 @@
 12	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	comp:obj	_	_
 13	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	comp:aux@pass	_	_
 14	pour	pour	ADP	_	_	12	mod	_	_
-15	faire	faire	VERB	_	VerbForm=Inf	14	comp:obj	_	_
+15	faire	faire	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=Generic
 16	face	face	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj@lvc	_	_
 17	à	à	ADP	_	_	15	comp:obl	_	_
 18	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
@@ -11506,7 +11506,7 @@
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	grève	grève	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 21	pour	pour	ADP	_	_	13	mod	_	_
-22	faire	faire	VERB	_	VerbForm=Inf	21	comp:obj	_	_
+22	faire	faire	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=Generic
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 25-26	du	_	_	_	_	_	_	_	_
