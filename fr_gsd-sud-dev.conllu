@@ -7261,7 +7261,7 @@
 7	,	,	PUNCT	_	_	22	punct	_	_
 8	afin	afin	ADV	_	_	22	mod	_	_
 9	de	de	ADP	_	_	8	comp:obj	_	_
-10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	approcher	approcher	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
@@ -8155,7 +8155,7 @@
 34	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	33	comp:aux@pass	_	_
 35	afin	afin	ADV	_	_	33	mod	_	_
 36	d'	de	ADP	_	_	35	comp:obj	_	SpaceAfter=No
-37	effectuer	effectuer	VERB	_	VerbForm=Inf	36	comp:obj	_	_
+37	effectuer	effectuer	VERB	_	VerbForm=Inf	36	comp:obj	_	Subject=Generic
 38	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	39	det	_	_
 39	recherches	recherche	NOUN	_	Gender=Fem|Number=Plur	37	comp:obj	_	_
 40	dans	dans	ADP	_	_	37	mod	_	_
@@ -14995,7 +14995,7 @@
 29	fragmentation	fragmentation	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	_
 30	afin	afin	ADV	_	Shared=No	12	mod	_	_
 31	d'	de	ADP	_	_	30	comp:obj	_	SpaceAfter=No
-32	aider	aider	VERB	_	VerbForm=Inf	31	comp:obj	_	_
+32	aider	aider	VERB	_	VerbForm=Inf	31	comp:obj	_	Subject=Generic
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	34	det	_	_
 34	rédaction	rédaction	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	_
 35-36	des	_	_	_	_	_	_	_	_
@@ -16351,7 +16351,7 @@
 24	mobiles	mobile	ADJ	_	Gender=Fem|Number=Plur	23	mod	_	_
 25	afin	afin	ADV	_	_	9	mod	_	_
 26	de	de	ADP	_	_	25	comp:obj	_	_
-27	subvenir	subvenir	VERB	_	VerbForm=Inf	26	comp:obj	_	_
+27	subvenir	subvenir	VERB	_	VerbForm=Inf	26	comp:obj	_	Subject=Generic
 28	à	à	ADP	_	_	27	comp:obl	_	_
 29	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	30	det	_	_
 30	besoins	besoin	NOUN	_	Gender=Masc|Number=Plur	28	comp:obj	_	SpaceAfter=No
@@ -18119,7 +18119,7 @@
 10	bois	bois	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	afin	afin	ADV	_	_	8	mod	_	_
 12	de	de	ADP	_	_	11	comp:obj	_	_
-13	réaliser	réaliser	VERB	_	VerbForm=Inf	12	comp:obj	_	_
+13	réaliser	réaliser	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 14	ou	ou	CCONJ	_	_	15	cc	_	_
 15	de	de	ADP	_	_	12	conj	_	_
 16	restaurer	restaurer	VERB	_	Shared=No|VerbForm=Inf	15	comp:obj	_	_
@@ -26087,7 +26087,7 @@
 16	financières	financier	ADJ	_	Gender=Fem|Number=Plur	14	conj	_	_
 17	afin	afin	ADV	_	_	2	mod	_	_
 18	de	de	ADP	_	_	17	comp:obj	_	_
-19	satisfaire	satisfaire	VERB	_	VerbForm=Inf	18	comp:obj	_	_
+19	satisfaire	satisfaire	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=Generic
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
 21	intérêts	intérêt	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
 22	de	de	ADP	_	_	26	mod	_	ExtPos=ADV|Idiom=Yes
@@ -30399,7 +30399,7 @@
 14	afin	afin	ADV	_	_	5	mod	_	_
 15	de	de	ADP	_	_	14	comp:obj	_	_
 16	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
-17	enlever	enlever	VERB	_	VerbForm=Inf	15	comp:obj	_	_
+17	enlever	enlever	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 18	de	de	ADP	_	_	17	mod	_	_
 19	vive	vif	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	_
 20	force	force	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
@@ -30602,7 +30602,7 @@
 12	robot	robot	NOUN	_	Gender=Masc|Number=Sing	9	comp:pred	_	_
 13	afin	afin	ADV	_	_	5	mod	_	_
 14	de	de	ADP	_	_	13	comp:obj	_	_
-15	prévenir	prévenir	VERB	_	VerbForm=Inf	14	comp:obj	_	_
+15	prévenir	prévenir	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=Generic
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	spam	spam	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	automatique	automatique	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	SpaceAfter=No
@@ -34260,7 +34260,7 @@
 # text = Afin de ménager encore l'Empire ottoman, la Conférence de Londres de 1830 fixa les frontières du nouvel État.
 1	Afin	afin	ADV	_	_	15	mod	_	wordform=afin
 2	de	de	ADP	_	_	1	comp:obj	_	_
-3	ménager	ménager	VERB	_	VerbForm=Inf	2	comp:obj	_	_
+3	ménager	ménager	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=Generic
 4	encore	encore	ADV	_	_	3	mod	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	Empire	empire	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	wordform=empire
@@ -34334,7 +34334,7 @@
 16	de	de	ADP	_	_	15	comp:obj	_	_
 17	ne	ne	ADV	_	Polarity=Neg	19	mod	_	_
 18	pas	pas	ADV	_	Polarity=Neg	19	mod	_	_
-19	transgresser	transgresser	VERB	_	VerbForm=Inf	16	comp:obj	_	_
+19	transgresser	transgresser	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=Generic
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	interdit	interdit	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	de	de	ADP	_	_	21	udep	_	_
@@ -37691,7 +37691,7 @@
 31	front	front	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 32	afin	afin	ADV	_	_	27	mod	_	_
 33	de	de	ADP	_	_	32	comp:obj	_	_
-34	mettre	mettre	VERB	_	VerbForm=Inf	33	comp:obj	_	_
+34	mettre	mettre	VERB	_	VerbForm=Inf	33	comp:obj	_	Subject=SubjRaising
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	pâté	pâté	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	34	comp:obj	_	CorrectForm=pâtée
 37-38	aux	_	_	_	_	_	_	_	_

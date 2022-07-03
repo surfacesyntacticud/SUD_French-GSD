@@ -8600,7 +8600,7 @@
 24	2001	2001	NUM	_	Number=Plur	23	comp:obj	_	_
 25	afin	afin	ADV	_	Shared=No	16	mod	_	_
 26	d'	de	ADP	_	_	25	comp:obj	_	SpaceAfter=No
-27	agrandir	agrandir	VERB	_	VerbForm=Inf	26	comp:obj	_	_
+27	agrandir	agrandir	VERB	_	VerbForm=Inf	26	comp:obj	_	Subject=Generic
 28	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	29	det	_	_
 29	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
@@ -10557,7 +10557,7 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	afin	afin	ADV	_	_	7	mod	_	_
 18	de	de	ADP	_	_	17	comp:obj	_	_
-19	sortir	sortir	VERB	_	VerbForm=Inf	18	comp:obj	_	_
+19	sortir	sortir	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=Generic
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	termes	terme	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
 22	chorégraphie	chorégraphie	NOUN	_	Gender=Fem|Number=Sing	21	appos	_	_
