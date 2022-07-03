@@ -278,7 +278,7 @@
 18	de	de	ADP	_	_	17	udep	_	_
 19	conscience	conscience	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
-21	commettre	commettre	VERB	_	VerbForm=Inf	11	conj	_	_
+21	commettre	commettre	VERB	_	VerbForm=Inf	11	conj	_	Subject=SubjRaising
 22	telle	tel	DET	_	Gender=Fem|Number=Sing|PronType=Ind|Shared=No	25	det	_	_
 23	ou	ou	CCONJ	_	_	24	cc	_	_
 24	telle	tel	DET	_	Gender=Fem|Number=Sing|PronType=Ind	22	conj	_	_
@@ -1079,7 +1079,7 @@
 8	obéir	obéir	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	comp@expl	_	_
-11	déjuger	déjuger	VERB	_	VerbForm=Inf	8	conj	_	SpaceAfter=No
+11	déjuger	déjuger	VERB	_	VerbForm=Inf	8	conj	_	SpaceAfter=No|Subject=SubjRaising
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00043
@@ -1403,7 +1403,7 @@
 37	région	région	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
 38	colonisée	colonisé	ADJ	_	Gender=Fem|Number=Sing	37	mod	_	_
 39	et	et	CCONJ	_	_	40	cc	_	_
-40	mettre	mettre	VERB	_	VerbForm=Inf	29	conj	_	_
+40	mettre	mettre	VERB	_	VerbForm=Inf	29	conj	_	Subject=SubjRaising
 41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	terme	terme	NOUN	_	Gender=Masc|Number=Sing|Shared=No	40	comp:obj	_	_
 43	à	à	ADP	_	Shared=No	40	comp:obl	_	_
@@ -1436,7 +1436,7 @@
 69	libre	libre	ADJ	_	Gender=Fem|Number=Sing	68	mod	_	_
 70	et	et	CCONJ	_	_	71	cc	_	_
 71	à	à	ADP	_	_	63	conj	_	_
-72	mettre	mettre	VERB	_	Shared=No|VerbForm=Inf	71	comp:obj	_	_
+72	mettre	mettre	VERB	_	Shared=No|VerbForm=Inf	71	comp:obj	_	Subject=ObjRaising
 73	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
 74	terme	terme	NOUN	_	Gender=Masc|Number=Sing	72	comp:obj	_	_
 75	à	à	ADP	_	_	72	comp:obl	_	_
@@ -1999,7 +1999,7 @@
 45	corruption	corruption	NOUN	_	Gender=Fem|Number=Sing	43	comp:obj	_	_
 46	et	et	CCONJ	_	_	47	cc	_	_
 47	à	à	ADP	_	_	10	conj	_	_
-48	grossir	grossir	VERB	_	Shared=No|VerbForm=Inf	47	comp:obj	_	_
+48	grossir	grossir	VERB	_	Shared=No|VerbForm=Inf	47	comp:obj	_	Subject=SubjRaising
 49	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	50	det	_	_
 50	rangs	rang	NOUN	_	Gender=Masc|Number=Plur	48	comp:obj	_	_
 51-52	des	_	_	_	_	_	_	_	_
@@ -2369,7 +2369,7 @@
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	éblouissement	éblouissement	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	savoir	savoir	VERB	_	VerbForm=Inf	1	conj	_	_
+8	savoir	savoir	VERB	_	VerbForm=Inf	1	conj	_	Subject=Generic
 9	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp:obj	_	_
 10	lâcher	lâcher	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 11	dans	dans	ADP	_	_	10	comp:obl	_	_
@@ -2383,7 +2383,7 @@
 19	pas	pas	ADV	_	Polarity=Neg	18	mod	_	_
 20	soi	soi	PRON	_	Number=Sing|Person=3|PronType=Prs	18	comp:pred	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	céder	céder	VERB	_	VerbForm=Inf	8	conj	_	_
+22	céder	céder	VERB	_	VerbForm=Inf	8	conj	_	Subject=Generic
 23	à	à	ADP	_	Shared=No	22	comp:obl	_	_
 24	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
 25	savoir	savoir	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
@@ -2773,7 +2773,7 @@
 11	de	de	ADP	_	_	7	udep	_	_
 12	renforcer	renforcer	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=Instantiated
 13	et	et	CCONJ	_	_	14	cc	_	_
-14	consolider	consolider	VERB	_	VerbForm=Inf	12	conj	_	_
+14	consolider	consolider	VERB	_	VerbForm=Inf	12	conj	_	Subject=Instantiated
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	relations	relation	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	14	comp:obj	_	_
 17	bilatérales	bilatéral	ADJ	_	Gender=Fem|Number=Plur	16	mod	_	_
@@ -10385,7 +10385,7 @@
 9	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	émotions	émotion	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	dire	dire	VERB	_	VerbForm=Inf	8	conj	_	_
+12	dire	dire	VERB	_	VerbForm=Inf	8	conj	_	Subject=SubjRaising
 13	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem|Shared=No	12	comp:obj	_	_
 14	qu'	que	PRON	_	PronType=Rel	16	comp:obj	_	SpaceAfter=No
 15	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
