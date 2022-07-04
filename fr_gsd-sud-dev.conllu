@@ -26862,7 +26862,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	avant	avant	ADV	_	_	12	mod	_	_
 22	d'	de	ADP	_	_	21	comp:obj	_	SpaceAfter=No
-23	être	être	AUX	_	VerbForm=Inf	22	comp:obj	_	_
+23	être	être	AUX	_	VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
 24	tuée	tuer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@pass	_	_
 25	en	en	ADP	_	_	24	mod	_	_
 26	375	375	NUM	_	Number=Plur	25	comp:obj	_	_
