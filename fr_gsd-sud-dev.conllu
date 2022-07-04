@@ -4763,7 +4763,7 @@
 17	pour	pour	ADP	_	_	15	comp:obl	_	_
 18	effet	effet	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 19	d'	de	ADP	_	_	15	comp:obj	_	SpaceAfter=No
-20	engager	engager	VERB	_	VerbForm=Inf	19	comp:obj	_	_
+20	engager	engager	VERB	_	VerbForm=Inf	19	comp:obj	_	Subject=Generic
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	réflexion	réflexion	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
 23	sur	sur	ADP	_	_	22	udep	_	_
@@ -4826,7 +4826,7 @@
 41	langues	langue	NOUN	_	Gender=Fem|Number=Plur|Shared=No	39	comp:obj	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	43	punct	_	_
 43	à	à	ADP	_	Shared=No	39	mod	_	_
-44	commencer	commencer	VERB	_	VerbForm=Inf	43	comp:obj	_	_
+44	commencer	commencer	VERB	_	VerbForm=Inf	43	comp:obj	_	Subject=Generic
 45	par	par	ADP	_	_	44	comp:obl	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	chinois	chinois	NOUN	_	Gender=Masc|Number=Sing	45	comp:obj	_	SpaceAfter=No
@@ -8852,7 +8852,7 @@
 14	effet	effet	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 15	de	de	ADP	_	_	12	comp:obj	_	_
 16	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
-17	niveler	niveler	VERB	_	VerbForm=Inf	15	comp:obj	_	_
+17	niveler	niveler	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=Generic
 18	avec	avec	ADP	_	_	17	comp:obl	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 20	nette	net	ADJ	_	Gender=Fem|Number=Sing	21	mod	_	_
@@ -10502,7 +10502,7 @@
 29	avant	avant	ADV	_	_	3	mod	_	_
 30	de	de	ADP	_	_	29	comp:obj	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	32	comp:obj	_	SpaceAfter=No
-32	intaller	installer	VERB	_	Typo=Yes|VerbForm=Inf	30	comp:obj	_	CorrectForm=installer
+32	intaller	installer	VERB	_	Typo=Yes|VerbForm=Inf	30	comp:obj	_	CorrectForm=installer|Subject=SubjRaising
 33	en	en	ADP	_	_	32	mod	_	_
 34	1925	1925	NUM	_	Number=Plur	33	comp:obj	_	_
 35	à	à	ADP	_	_	32	comp:obl	_	_
@@ -11452,7 +11452,7 @@
 14	dire	dire	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Generic
 15	sans	sans	ADP	_	_	11	mod	_	_
 16	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	comp@expl	_	_
-17	soucier	soucier	VERB	_	VerbForm=Inf	15	comp:obj	_	_
+17	soucier	soucier	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 18-19	des	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	17	comp:obl	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
@@ -12885,7 +12885,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	avant	avant	ADV	_	_	2	mod	_	_
 17	d'	de	ADP	_	_	16	comp:obj	_	SpaceAfter=No
-18	aller	aller	VERB	_	VerbForm=Inf	17	comp:obj	_	_
+18	aller	aller	VERB	_	VerbForm=Inf	17	comp:obj	_	Subject=SubjRaising
 19	à	à	ADP	_	_	18	comp:obl	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	Université	université	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	wordform=université
@@ -17567,7 +17567,7 @@
 14	:	:	PUNCT	_	_	17	punct	_	_
 15	«	«	PUNCT	_	_	17	punct	_	_
 16	pourquoi	pourquoi	ADV	_	_	17	mod	_	_
-17	chanter	chanter	VERB	_	VerbForm=Inf	8	comp:obj	_	_
+17	chanter	chanter	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=Generic
 18	Roland	Roland	PROPN	_	_	17	comp:obj	_	_
 19	s'	si	SCONJ	_	_	17	mod	_	SpaceAfter=No
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj@expl	_	_
@@ -17740,7 +17740,7 @@
 12	hygiène	hygiène	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
 13	laisse	laisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 14	à	à	ADP	_	_	13	comp:obl	_	_
-15	désirer	désirer	VERB	_	VerbForm=Inf	14	comp:obj	_	SpaceAfter=No
+15	désirer	désirer	VERB	_	VerbForm=Inf	14	comp:obj	_	SpaceAfter=No|Subject=Generic
 16	,	,	PUNCT	_	_	1	punct	_	_
 17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	_
 18	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	19	comp:obl	_	_
@@ -18122,7 +18122,7 @@
 13	réaliser	réaliser	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 14	ou	ou	CCONJ	_	_	15	cc	_	_
 15	de	de	ADP	_	_	12	conj	_	_
-16	restaurer	restaurer	VERB	_	Shared=No|VerbForm=Inf	15	comp:obj	_	_
+16	restaurer	restaurer	VERB	_	Shared=No|VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 18	plus	plus	ADV	_	_	19	mod	_	_
 19	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
@@ -18742,7 +18742,7 @@
 49	tronc	tronc	NOUN	_	Gender=Masc|Number=Sing	47	comp:obj	_	_
 50	avant	avant	ADV	_	_	46	mod	_	_
 51	de	de	ADP	_	_	50	comp:obj	_	_
-52	tomber	tomber	VERB	_	VerbForm=Inf	51	comp:obj	_	SpaceAfter=No
+52	tomber	tomber	VERB	_	VerbForm=Inf	51	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 53	.	.	PUNCT	_	_	35	punct	_	_
 
 # sent_id = fr-ud-dev_00675
@@ -22432,7 +22432,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	avant	avant	ADV	_	_	2	mod	_	_
 14	de	de	ADP	_	_	13	comp:obj	_	_
-15	mourir	mourir	VERB	_	VerbForm=Inf	14	comp:obj	_	_
+15	mourir	mourir	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16	en	en	ADP	_	_	15	comp:obl	_	_
 17	1925	1925	NUM	_	Number=Plur	16	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
@@ -33865,7 +33865,7 @@
 # sent_id = fr-ud-dev_01225
 # text = À vouloir tous être anglo-saxons, il ne faut pas s'étonner que ce soient les anglo-saxons qui gagnent ».
 1	À	à	ADP	_	_	9	mod	_	wordform=à
-2	vouloir	vouloir	VERB	_	VerbForm=Inf	1	comp:obj	_	_
+2	vouloir	vouloir	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=Generic
 3	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	4	subj	_	_
 4	être	être	AUX	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 5	anglo-saxons	anglo-saxon	ADJ	_	Gender=Masc|Number=Plur	4	comp:pred	_	SpaceAfter=No
@@ -35074,7 +35074,7 @@
 71	pour	pour	ADP	_	Shared=No	70	comp:obl	_	_
 72	résultat	résultat	NOUN	_	Gender=Masc|Number=Sing	71	comp:obj	_	_
 73	de	de	ADP	_	Shared=No	70	comp:obj	_	_
-74	libérer	libérer	VERB	_	VerbForm=Inf	73	comp:obj	_	_
+74	libérer	libérer	VERB	_	VerbForm=Inf	73	comp:obj	_	Subject=Generic
 75	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	76	det	_	_
 76	terres	terre	NOUN	_	Gender=Fem|Number=Plur	74	comp:obj	_	_
 77-78	au	_	_	_	_	_	_	_	_
@@ -36052,7 +36052,7 @@
 9	grandir	grandir	VERB	_	Shared=No|VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 10	jusqu'	jusque	ADP	_	Shared=Yes	9	mod	_	SpaceAfter=No
 11	à	à	ADP	_	_	10	comp:obj	_	_
-12	atteindre	atteindre	VERB	_	VerbForm=Inf	11	comp:obj	_	_
+12	atteindre	atteindre	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	nuages	nuage	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
@@ -36792,7 +36792,7 @@
 19	et	et	CCONJ	_	_	20	cc	_	_
 20	à	à	ADP	_	_	12	conj	_	_
 21	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	22	comp:obj	_	SpaceAfter=No
-22	institutionnaliser	institutionnaliser	VERB	_	Shared=No|VerbForm=Inf	20	comp:obj	_	SpaceAfter=No
+22	institutionnaliser	institutionnaliser	VERB	_	Shared=No|VerbForm=Inf	20	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 23	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_01331
@@ -38427,7 +38427,7 @@
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	sans	sans	ADP	_	_	11	conj	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	comp:obj	_	_
-15	ruiner	ruiner	VERB	_	Shared=No|VerbForm=Inf	13	comp:obj	_	_
+15	ruiner	ruiner	VERB	_	Shared=No|VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
 
 # sent_id = fr-ud-dev_01385
 # text = Il dénonce Robert McNamara comme étant l'homme qui a permis de transformer la Banque mondiale en un moyen d'asservissement du tiers monde à l'empire global.
@@ -38924,7 +38924,7 @@
 7	consultations	consultation	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 8	avant	avant	ADV	_	_	4	mod	_	_
 9	de	de	ADP	_	_	8	comp:obj	_	_
-10	désigner	désigner	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+10	désigner	désigner	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 12	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 13	Premier	premier	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	wordform=premier
@@ -41018,7 +41018,7 @@
 11	Madrid	Madrid	PROPN	_	Shared=No	10	flat@name	_	_
 12	avant	avant	ADV	_	_	2	mod	_	_
 13	de	de	ADP	_	_	12	comp:obj	_	_
-14	rejoindre	rejoindre	VERB	_	VerbForm=Inf	13	comp:obj	_	_
+14	rejoindre	rejoindre	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	Basques	Basques	PROPN	_	Number=Plur	14	comp:obj	_	_
 17	de	de	ADP	_	_	16	udep	_	_
