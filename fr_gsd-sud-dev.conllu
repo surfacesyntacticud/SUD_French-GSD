@@ -20405,7 +20405,7 @@
 20	2003	2003	NUM	_	Number=Plur	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	10	punct	_	_
 22	dérange	déranger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-23	Paris	Paris	PROPN	_	_	22	flat@name	_	SpaceAfter=No
+23	Paris	Paris	PROPN	_	_	22	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = fr-ud-dev_00739
