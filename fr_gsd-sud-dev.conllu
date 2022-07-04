@@ -37699,7 +37699,7 @@
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
 39	Allemands	Allemands	PROPN	_	Number=Plur	37	comp:obj	_	_
 40	et	et	CCONJ	_	_	41	cc	_	_
-41	redonner	redonner	VERB	_	VerbForm=Inf	34	conj	_	_
+41	redonner	redonner	VERB	_	VerbForm=Inf	34	conj	_	Subject=SubjRaising
 42	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	courage	courage	NOUN	_	Gender=Masc|Number=Sing|Shared=No	41	comp:obj	_	_
 44-45	aux	_	_	_	_	_	_	_	_

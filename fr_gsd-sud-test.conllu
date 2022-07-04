@@ -11515,7 +11515,7 @@
 27	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 28	et	et	CCONJ	_	_	30	cc	_	_
 29	surtout	surtout	ADV	_	_	30	mod	_	_
-30	décider	décider	VERB	_	VerbForm=Inf	22	conj	_	_
+30	décider	décider	VERB	_	VerbForm=Inf	22	conj	_	Subject=Generic
 31	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	33	det	_	_
 32	prochaines	prochain	ADJ	_	Gender=Fem|Number=Plur	33	mod	_	_
 33	actions	action	NOUN	_	Gender=Fem|Number=Plur|Shared=No	30	comp:obj	_	_
