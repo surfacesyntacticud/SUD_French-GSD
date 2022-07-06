@@ -3541,7 +3541,7 @@
 45	à	à	ADP	_	_	43	udep	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	corps	corps	NOUN	_	Gender=Masc|Number=Sing	45	comp:obj	_	_
-48	comme	comme	SCONJ	_	_	49	cc	_	_
+48	comme	comme	CCONJ	_	_	49	cc	_	_
 49	à	à	ADP	_	_	45	conj	_	_
 50	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	51	det	_	SpaceAfter=No
 51	âme	âme	NOUN	_	Gender=Fem|Number=Sing|Shared=No	49	comp:obj	_	SpaceAfter=No
