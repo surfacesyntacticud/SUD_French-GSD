@@ -6098,7 +6098,7 @@
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=ce
 2	taux	taux	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	atteint	atteindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	même	même	ADV	_	_	5	mod	_	_
+4	même	même	ADV	_	_		mod	_	_
 5	50	50	NUM	_	Number=Plur	6	det	_	SpaceAfter=No
 6	%	%	SYM	_	Number=Plur	3	comp:obj	_	ExtPos=NOUN
 7	dans	dans	ADP	_	_	3	mod	_	_
@@ -13576,7 +13576,7 @@
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	supposés	supposer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
-7	devoir	devoir	VERB	_	VerbForm=Inf	6	comp:pred	_	Subject=SubjRaising
+7	devoir	devoir	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	lire	lire	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
 9	de	de	ADP	_	_	11	det	_	ExtPos=DET|Idiom=Yes
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	unk	_	InIdiom=Yes
