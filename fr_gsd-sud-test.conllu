@@ -114,7 +114,7 @@
 56	agence	agence	NOUN	_	Gender=Fem|Number=Sing	54	comp:obj	_	_
 57	de	de	ADP	_	_	56	udep	_	_
 58	presse	presse	NOUN	_	Gender=Fem|Number=Sing	57	comp:obj	_	_
-59	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing	58	mod	_	SpaceAfter=No
+59	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing	56	mod	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00004
