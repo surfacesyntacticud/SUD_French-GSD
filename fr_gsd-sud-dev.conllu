@@ -967,7 +967,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	traditionnellement	traditionnellement	ADV	_	_	2	mod	_	_
 4	divisée	diviser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
-5	en	en	ADP	_	_	2	mod	_	_
+5	en	en	ADP	_	_	4	comp:obl	_	_
 6	deux	deux	NUM	_	Number=Plur	7	det	_	_
 7	parties	partie	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 8	:	:	PUNCT	_	Shared=Yes	10	punct	_	_
@@ -11450,7 +11450,7 @@
 12	de	de	ADP	_	_	11	comp:obj	_	_
 13	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	comp:obj	_	_
 14	dire	dire	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Generic
-15	sans	sans	ADP	_	_	11	mod	_	_
+15	sans	sans	ADP	_	_	14	mod	_	_
 16	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	comp@expl	_	_
 17	soucier	soucier	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 18-19	des	_	_	_	_	_	_	_	_
@@ -14924,7 +14924,7 @@
 12	à	à	ADP	_	_	10	comp:obl	_	_
 13	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp:obj	_	SpaceAfter=No
 14	entendre	entendre	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
-15	pour	pour	ADP	_	_	10	mod	_	_
+15	pour	pour	ADP	_	_	14	mod	_	_
 16	balayer	balayer	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	devant	devant	ADP	_	_	16	mod	_	_
 18	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
@@ -15893,7 +15893,7 @@
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	progressivement	progressivement	ADV	_	_	6	mod	_	_
 6	réaménagé	réaménager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
-7	comme	comme	ADP	_	_	3	mod	_	_
+7	comme	comme	ADP	_	_	6	mod	_	_
 8	résidence	résidence	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 9	présidentielle	présidentiel	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
@@ -21900,7 +21900,7 @@
 5	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	déjà	déjà	ADV	_	_	5	mod	_	_
 7	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
-8	sur	sur	ADP	_	_	5	mod	_	_
+8	sur	sur	ADP	_	_	7	comp:obl	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 10	précédents	précédent	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
 11	opus	opus	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
@@ -27821,7 +27821,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	finalement	finalement	ADV	_	_	4	mod	_	_
 6	transformé	transformer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
-7	en	en	ADP	_	_	4	mod	_	_
+7	en	en	ADP	_	_	6	comp:obl	_	_
 8	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	7	comp:obj	_	_
 9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	_
 10	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	11	subj	_	_
@@ -29219,7 +29219,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	principalement	principalement	ADV	_	_	4	mod	_	_
 4	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
-5	pour	pour	ADP	_	_	2	mod	_	_
+5	pour	pour	ADP	_	_	4	mod	_	_
 6	accueillir	accueillir	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	matchs	match	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
@@ -29930,7 +29930,7 @@
 47	1968	1968	NUM	_	Number=Plur	46	comp:obj	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	49	punct	_	_
 49	membre	membre	NOUN	_	Gender=Masc|Number=Sing	37	conj	_	_
-50	correspondant	correspondre	VERB	_	Shared=No|Tense=Pres|VerbForm=Part	49	mod	_	_
+50	correspondant	correspondant	NOUN	_	Gender=Masc|Number=Sing|Shared=No	49	mod	_	_
 51	de	de	ADP	_	Shared=No	49	udep	_	_
 52	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	53	det	_	SpaceAfter=No
 53	Académie	académie	NOUN	_	Gender=Fem|Number=Sing	51	comp:obj	_	wordform=académie
@@ -30026,8 +30026,8 @@
 12	envoient	envoyer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	en	en	ADP	_	_	12	mod	_	_
 14	NBA	NBA	PROPN	_	_	13	comp:obj	_	_
-15	Development	development	NOUN	_	Gender=Masc|Number=Sing	14	flat@name	_	wordform=development
-16	League	league	NOUN	_	Gender=Masc|Number=Sing	15	flat@name	_	SpaceAfter=No|wordform=league
+15	Development	Development	X	_	Foreign=Yes	14	flat@name	_	Lang=en
+16	League	League	NOUN	_	X	15	flat@name	_	Lang=en|SpaceAfter=No
 17	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_01083
@@ -37263,7 +37263,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	toutefois	toutefois	ADV	_	_	6	mod	_	_
 8	conservé	conserver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
-9	par	par	ADP	_	_	6	mod	_	_
+9	par	par	ADP	_	_	8	mod	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	série	série	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	de	de	ADP	_	_	11	udep	_	_
@@ -39543,7 +39543,7 @@
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 16	resté	rester	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
-17	sur	sur	ADP	_	_	14	mod	_	_
+17	sur	sur	ADP	_	_	16	mod	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	terres	terre	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	_
 20-21	du	_	_	_	_	_	_	_	_
@@ -40022,7 +40022,7 @@
 15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	populairement	populairement	ADV	_	_	17	mod	_	_
 17	désignée	désigner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@pass	_	_
-18	sous	sous	ADP	_	_	15	mod	_	_
+18	sous	sous	ADP	_	_	17	mod	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	nom	nom	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 21	de	de	ADP	_	_	20	udep	_	_
