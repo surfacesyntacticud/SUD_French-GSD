@@ -1735,12 +1735,12 @@
 5	de	de	ADP	_	_	4	udep	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Hall	Hall	PROPN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-8	of	of	ADP	_	_	7	flat@name	_	_
+8	of	of	X	_	Foreign=Yes	7	flat@name	_	Lang=en
 9	Famer	Famer	PROPN	_	_	8	flat@name	_	_
 10	Ricky	Ricky	PROPN	_	_	9	flat@name	_	_
 11	The	The	PROPN	_	_	10	flat@name	_	_
 12	Dragon	Dragon	PROPN	_	_	11	flat@name	_	_
-13	Steamboat	Steamboat	PROPN	_	_	7	mod	_	SpaceAfter=No
+13	Steamboat	Steamboat	PROPN	_	_	12	flat@name	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
@@ -8568,7 +8568,7 @@
 31	roi	roi	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 32	de	de	ADP	_	_	31	udep	_	_
 33	Pologne	Pologne	PROPN	_	_	32	comp:obj	_	_
-34	Étienne	Étienne	PROPN	_	_	33	appos	_	_
+34	Étienne	Étienne	PROPN	_	_	31	appos	_	_
 35	Bathory	Bathory	PROPN	_	_	34	flat@name	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
 37	bénédiction	bénédiction	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	_
@@ -9929,7 +9929,7 @@
 20	ou	ou	CCONJ	_	_	22	cc	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Pass	Pass	PROPN	_	Gender=Masc|Number=Sing	17	conj	_	_
-23	Internet	Internet	PROPN	_	Shared=No	22	appos	_	SpaceAfter=No
+23	Internet	Internet	PROPN	_	Shared=No	22	mod	_	SpaceAfter=No
 24	)	)	PUNCT	_	Shared=No	22	punct	_	_
 25	dont	dont	PRON	_	PronType=Rel	27	udep	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -14326,9 +14326,9 @@
 6	chantier	chantier	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	naval	naval	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
-9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-10	USS	USS	PROPN	_	_	11	mod	_	_
-11	Newark	Newark	PROPN	_	Number=Sing	12	subj@pass	_	_
+9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	USS	USS	PROPN	_	_	12	subj@pass	_	_
+11	Newark	Newark	PROPN	_	Number=Sing	10	flat@name	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	remis	remettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	12	comp:aux@pass	_	_
 14	en	en	ADP	_	_	12	mod	_	_
@@ -19644,7 +19644,7 @@
 8	champion	champion	NOUN	_	Gender=Masc|Number=Sing	7	comp:pred	_	_
 9	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
 10	Europe	Europe	PROPN	_	_	9	comp:obj	_	_
-11	EBU	EBU	PROPN	_	_	8	appos	_	_
+11	EBU	EBU	PROPN	_	_	8	mod	_	_
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	8	udep	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -21556,7 +21556,7 @@
 11	par	par	ADP	_	_	5	udep	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	FIBA	FIBA	PROPN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
-14	Europe	Europe	PROPN	_	_	13	mod	_	SpaceAfter=No
+14	Europe	Europe	PROPN	_	_	13	flat@name	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00785
@@ -26404,10 +26404,10 @@
 17	deux	deux	NUM	_	Number=Plur	18	det	_	_
 18	fois	fois	NOUN	_	Gender=Fem|Number=Plur	19	mod	_	_
 19	à	à	ADP	_	_	4	conj	_	_
-20	St.	saint	NOUN	_	Gender=Masc|Number=Sing	22	mod	_	wordform=st.
+20	St.	saint	NOUN	_	Gender=Masc|Number=Sing|Shared=No	19	comp:obj	_	wordform=st.
 21	Silas	Silas	PROPN	_	_	20	flat@name	_	_
-22	Church	Church	PROPN	_	Shared=No	19	comp:obj	_	_
-23	à	à	ADP	_	_	22	udep	_	_
+22	Church	Church	X	_	Foreign=Yes	21	flat@name	_	Lang=en
+23	à	à	ADP	_	_	20	udep	_	_
 24	Londres	Londres	PROPN	_	_	23	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
