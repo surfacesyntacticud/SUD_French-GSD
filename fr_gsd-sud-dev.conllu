@@ -13815,7 +13815,7 @@
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	principalement	principalement	ADV	_	_	40	mod	_	_
 40-41	au	_	_	_	_	_	_	_	_
-40	à	à	ADP	_	_	31	mod	_	ExtPos=ADV|Idiom=Yes
+40	à	à	ADP	_	_	31	udep	_	ExtPos=ADV|Idiom=Yes
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	InIdiom=Yes
 42	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj	_	InIdiom=Yes
 43-44	du	_	_	_	_	_	_	_	_
