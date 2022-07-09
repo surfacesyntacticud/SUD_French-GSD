@@ -36998,7 +36998,7 @@
 # text = Ils sont de rite hindou, généralement shivaïtes.
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	wordform=ils
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	2	mod	_	_
+3	de	de	ADP	_	_	2	comp:pred	_	_
 4	rite	rite	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	hindou	hindou	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
