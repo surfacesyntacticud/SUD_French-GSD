@@ -8453,7 +8453,7 @@
 51	Pékin	Pékin	PROPN	_	_	50	comp:obj	_	_
 52	de	de	ADP	_	Shared=No	48	mod	_	_
 53	1983	1983	NUM	_	Number=Plur	52	comp:obj	_	_
-54	à	à	ADP	_	_	53	udep	_	_
+54	à	à	ADP	_	_	52	comp:obl	_	_
 55	1993	1993	NUM	_	Number=Plur	54	comp:obj	_	SpaceAfter=No
 56	.	.	PUNCT	_	_	17	punct	_	_
 
