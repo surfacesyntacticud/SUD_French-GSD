@@ -26531,7 +26531,7 @@
 
 # sent_id = fr-ud-dev_00962
 # text = La chasse des oiseaux adultes et de leurs œufs, à des fins alimentaires, a présenté un grand danger pour l'espèce qui, au cours des années 1970, a vécu un déclin préoccupant.
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	2	det	_	wordform=la
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	chasse	chasse	NOUN	_	Gender=Fem|Number=Sing	17	subj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
@@ -26543,7 +26543,7 @@
 9	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	œufs	œuf	NOUN	_	Gender=Masc|Number=Plur|Shared=No	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	à	à	ADP	_	_	2	conj	_	_
+12	à	à	ADP	_	_	2	udep	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	fins	fin	NOUN	_	Gender=Fem|Number=Plur|Shared=No	12	comp:obj	_	_
 15	alimentaires	alimentaire	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	SpaceAfter=No
@@ -39609,7 +39609,7 @@
 10	chevalements	chevalement	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	19	punct	_	_
 12	dont	dont	PRON	_	PronType=Rel|Shared=Yes	15	udep	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	15	det	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	15	det	_	_
 14	plus	plus	ADV	_	Shared=No	15	mod	_	_
 15	grand	grand	ADJ	_	Gender=Masc|Number=Sing	19	subj	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
