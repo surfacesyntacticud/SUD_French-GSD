@@ -395,7 +395,7 @@
 3	avec	avec	ADP	_	_	10	mod	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
 5	peu	peu	ADV	_	Gender=Masc|Number=Sing	3	comp:obj	_	ExtPos=PRON|Idiom=Yes
-6	de	de	ADP	_	_	5	udep	_	_
+6	de	de	ADP	_	_	5	comp:obl	_	_
 7	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 8	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	subj	_	_
@@ -971,7 +971,7 @@
 # sent_id = fr-ud-test_00038
 # text = Combien de fois ne célébrons-nous que nous-mêmes, et ne prenons-nous même pas conscience de sa présence ?
 1	Combien	combien	ADV	_	Shared=Yes	5	mod	_	ExtPos=PRON|wordform=combien
-2	de	de	ADP	_	_	1	udep	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	fois	fois	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 4	ne	ne	ADV	_	Polarity=Neg|Shared=No	5	mod	_	_
 5	célébrons	célébrer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1098,7 +1098,7 @@
 12	touché	toucher	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 14	moins	moins	ADV	_	_	12	comp:obj	_	ExtPos=PRON
-15	de	de	ADP	_	_	14	udep	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
 16	174	174	NUM	_	Number=Plur	17	det	_	_
 17	sites	site	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 18	appartenant	appartenir	VERB	_	Tense=Pres|VerbForm=Part	17	mod	_	_
@@ -1678,7 +1678,7 @@
 5	pour	pour	ADP	_	_	2	mod	_	_
 6	recevoir	recevoir	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	plus	plus	ADV	_	_	6	comp:obj	_	ExtPos=PRON
-8	de	de	ADP	_	_	7	udep	_	_
+8	de	de	ADP	_	_	7	comp:obl	_	_
 9	dix	dix	NUM	_	Number=Plur	12	det	_	_
 10	quinze	quinze	NUM	_	Number=Plur	9	flat	_	_
 11	mille	mille	NUM	_	Number=Plur	10	flat	_	_
@@ -3867,7 +3867,7 @@
 41	ressentir	ressentir	VERB	_	VerbForm=Inf	40	comp:obj	_	Subject=Generic
 42	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	InIdiom=Yes
 43	peu	peu	ADV	_	Gender=Masc|Number=Sing	41	comp:obj	_	ExtPos=PRON|Idiom=Yes
-44	de	de	ADP	_	_	43	udep	_	_
+44	de	de	ADP	_	_	43	comp:obl	_	_
 45	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	44	comp:obj	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -4062,7 +4062,7 @@
 30	distancés	distancer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	conj	_	_
 31	de	de	ADP	_	Shared=No	30	comp:obl	_	_
 32	moins	moins	ADV	_	_	31	comp:obj	_	ExtPos=PRON
-33	de	de	ADP	_	_	32	udep	_	_
+33	de	de	ADP	_	_	32	comp:obl	_	_
 34	8/10e	8/10e	NUM	_	Number=Plur	33	comp:obj	_	_
 35	de	de	ADP	_	_	34	udep	_	_
 36	seconde	seconde	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
@@ -4163,7 +4163,7 @@
 10	baisser	baisser	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	plus	plus	ADV	_	_	11	comp:obj	_	ExtPos=PRON
-13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
+13	d'	de	ADP	_	_	12	comp:obl	_	SpaceAfter=No
 14	un	un	NUM	_	Number=Sing	15	det	_	_
 15	cran	cran	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	1	punct	_	_
@@ -4228,7 +4228,7 @@
 1	Ca	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	2	subj	_	wordform=ca
 2	énerve	énerver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	beaucoup	beaucoup	ADV	_	_	2	comp:obj	_	ExtPos=PRON
-4	de	de	ADP	_	_	3	udep	_	_
+4	de	de	ADP	_	_	3	comp:obl	_	_
 5	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	14	punct	_	_
 7	mais	mais	CCONJ	_	_	14	cc	_	_
@@ -4525,11 +4525,11 @@
 12	réunissant	réunir	VERB	_	Tense=Pres|VerbForm=Part	11	mod	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	moins	moins	ADV	_	Number=Plur	12	comp:obj	_	ExtPos=PRON
-15	de	de	ADP	_	_	14	udep	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
 16	15	15	NUM	_	Number=Plur	17	det	_	_
 17	ans	an	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 18-19	des	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	14	udep	_	_
+18	de	de	ADP	_	_	14	comp:obl	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	centres	centre	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
 21	de	de	ADP	_	_	20	udep	_	_
@@ -4628,7 +4628,7 @@
 33	chômage	chômage	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
 34	à	à	ADP	_	Shared=No	33	udep	_	_
 35	plus	plus	ADV	_	_	34	comp:obj	_	ExtPos=PRON
-36	de	de	ADP	_	_	35	udep	_	_
+36	de	de	ADP	_	_	35	comp:obl	_	_
 37	11	11	NUM	_	Number=Plur	38	det	_	SpaceAfter=No
 38	%	%	SYM	_	Number=Plur	36	comp:obj	_	ExtPos=NOUN|SpaceAfter=No
 39	.	.	PUNCT	_	_	14	punct	_	_
@@ -4962,7 +4962,7 @@
 # sent_id = fr-ud-test_00165
 # text = Plus de 20 personnes ont en outre été blessées, dont une grièvement, lors d'affrontements survenus dans des villages chiites des environs de la capitale, Manama, selon ces témoins.
 1	Plus	plus	ADV	_	_	5	subj@pass	_	ExtPos=PRON|wordform=plus
-2	de	de	ADP	_	_	1	udep	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	20	20	NUM	_	Number=Plur	4	det	_	_
 4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6053,7 +6053,7 @@
 22	cas	cas	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 23	pour	pour	ADP	_	_	19	mod	_	_
 24	plus	plus	ADV	_	_	23	comp:obj	_	ExtPos=PRON
-25	de	de	ADP	_	_	24	udep	_	_
+25	de	de	ADP	_	_	24	comp:obl	_	_
 26	5	5	NUM	_	Number=Plur	27	det	_	_
 27	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	25	comp:obj	_	_
 28	!	!	PUNCT	_	_	3	punct	_	_
@@ -6224,7 +6224,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	avec	avec	ADP	_	_	9	udep	_	_
 14	beaucoup	beaucoup	ADV	_	_	13	comp:obj	_	ExtPos=PRON
-15	de	de	ADP	_	_	14	udep	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
 16	salade	salade	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 17	autour	autour	ADV	_	_	14	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
@@ -6295,7 +6295,7 @@
 # text = Avec plus de 40000 références, on est assuré d'une livraison rapide dans toute la France.
 1	Avec	avec	ADP	_	_	8	mod	_	wordform=avec
 2	plus	plus	ADV	_	_	1	comp:obj	_	ExtPos=PRON
-3	de	de	ADP	_	_	2	udep	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
 4	40000	40000	NUM	_	Number=Plur	5	det	_	_
 5	références	référence	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
@@ -7263,7 +7263,7 @@
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 8	beaucoup	beaucoup	ADV	_	_	7	comp:obj	_	ExtPos=PRON
-9	de	de	ADP	_	_	8	udep	_	_
+9	de	de	ADP	_	_	8	comp:obl	_	_
 10	retard	retard	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	prennent	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
@@ -8020,7 +8020,7 @@
 # sent_id = fr-ud-test_00294
 # text = plus de 80 euros 2 menus à pas cher deux kirs une bouteille.
 1	plus	plus	ADV	_	_	6	mod	_	ExtPos=PRON
-2	de	de	ADP	_	_	1	udep	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	80	80	NUM	_	Number=Plur	4	det	_	_
 4	euros	euro	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 5	2	2	NUM	_	Number=Plur	6	det	_	_

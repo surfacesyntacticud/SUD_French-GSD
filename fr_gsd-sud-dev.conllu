@@ -1814,7 +1814,7 @@
 6	de	de	ADP	_	_	5	udep	_	_
 7	Manon	Manon	PROPN	_	_	6	comp:obj	_	_
 8	peu	peu	ADV	_	_	11	mod	_	ExtPos=PRON
-9	de	de	ADP	_	_	8	udep	_	_
+9	de	de	ADP	_	_	8	comp:obl	_	_
 10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	après	après	ADV	_	_	3	mod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -4953,7 +4953,7 @@
 16	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	13	punct	_	_
 18	plus	plus	ADV	_	_	9	mod	_	ExtPos=PRON
-19	de	de	ADP	_	_	18	udep	_	_
+19	de	de	ADP	_	_	18	comp:obl	_	_
 20	trois	trois	NUM	_	Number=Plur	21	det	_	_
 21	siècles	siècle	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
@@ -9759,7 +9759,7 @@
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	inspiré	inspirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	beaucoup	beaucoup	ADV	_	_	13	comp:obj	_	ExtPos=PRON
-15	de	de	ADP	_	_	14	udep	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
 16	pratiques	pratique	NOUN	_	Gender=Fem|Number=Plur	15	comp:obj	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	de	de	ADP	_	_	15	conj	_	_
@@ -10236,7 +10236,7 @@
 4	médiévales	médiéval	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	plus	plus	ADV	_	Shared=No	19	subj	_	ExtPos=PRON
-7	de	de	ADP	_	_	6	udep	_	_
+7	de	de	ADP	_	_	6	comp:obl	_	_
 8	50 000	50 000	NUM	_	Number=Plur	9	det	_	_
 9	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 10-11	des	_	_	_	_	_	_	_	_
@@ -10558,7 +10558,7 @@
 # text = Préparé peu de temps après, il avait en réalité été entamé dès 2003.
 1	Préparé	préparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	mod	_	Subject=Instantiated|wordform=préparé
 2	peu	peu	ADV	_	_	5	mod	_	ExtPos=PRON
-3	de	de	ADP	_	_	2	udep	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
 4	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	après	après	ADV	_	_	1	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
@@ -14015,7 +14015,7 @@
 13	successions	succession	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	moins	moins	ADV	_	_	6	conj	_	ExtPos=PRON
-16	d'	de	ADP	_	Shared=No	15	udep	_	SpaceAfter=No
+16	d'	de	ADP	_	Shared=No	15	comp:obl	_	SpaceAfter=No
 17	une	un	NUM	_	Gender=Fem|Number=Sing	18	det	_	_
 18	dizaine	dizaine	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 19	de	de	ADP	_	_	18	udep	_	_
@@ -14849,7 +14849,7 @@
 18	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	comp:obj	_	_
 19	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20	beaucoup	beaucoup	ADV	_	_	19	comp:obj	_	ExtPos=PRON
-21	de	de	ADP	_	_	20	udep	_	_
+21	de	de	ADP	_	_	20	comp:obl	_	_
 22	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 23	(	(	PUNCT	_	Shared=Yes	25	punct	_	SpaceAfter=No
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	25	det	_	_
@@ -18011,7 +18011,7 @@
 54	américaines	américain	ADJ	_	Gender=Fem|Number=Plur	53	mod	_	_
 55	à	à	ADP	_	_	50	mod	_	_
 56	plus	plus	ADV	_	_	55	comp:obj	_	ExtPos=PRON
-57	de	de	ADP	_	_	56	udep	_	_
+57	de	de	ADP	_	_	56	comp:obl	_	_
 58	5	5	NUM	_	Number=Plur	59	det	_	_
 59	millions	million	NOUN	_	Gender=Masc|Number=Plur	57	comp:obj	_	_
 60	d'	de	ADP	_	_	59	udep	_	SpaceAfter=No
@@ -21894,7 +21894,7 @@
 # text = Beaucoup des développeurs avaient déjà travaillé sur les précédents opus de la série.
 1	Beaucoup	beaucoup	ADV	_	_	5	subj	_	ExtPos=PRON|wordform=beaucoup
 2-3	des	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	1	udep	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	développeurs	développeur	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 5	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -23448,10 +23448,10 @@
 13	Bryant	Bryant	PROPN	_	_	14	subj	_	_
 14	marque	marquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 15	plus	plus	ADV	_	_	14	comp:obj	_	ExtPos=PRON
-16	de	de	ADP	_	_	15	udep	_	_
+16	de	de	ADP	_	_	15	comp:obl	_	_
 17	30	30	NUM	_	Number=Plur	18	det	_	_
 18	points	point	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
-19	de	de	ADP	_	_	15	udep	_	_
+19	de	de	ADP	_	_	15	comp:obl	_	_
 20	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
@@ -24195,7 +24195,7 @@
 30	et	et	CCONJ	_	_	31	cc	_	_
 31	remporte	remporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 32	plus	plus	ADV	_	Shared=No	31	comp:obj	_	ExtPos=PRON
-33	de	de	ADP	_	_	32	udep	_	_
+33	de	de	ADP	_	_	32	comp:obl	_	_
 34	223 000	223 000	NUM	_	Number=Plur	35	det	_	_
 35	voix	voix	NOUN	_	Gender=Fem|Number=Plur	33	comp:obj	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	41	punct	_	_
@@ -24282,7 +24282,7 @@
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	de	de	ADP	_	_	11	conj	_	_
 16	beaucoup	beaucoup	ADV	_	Shared=No	15	comp:obj	_	ExtPos=PRON
-17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
+17	d'	de	ADP	_	_	16	comp:obl	_	SpaceAfter=No
 18	embarras	embarras	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 19	chez	chez	ADP	_	_	18	udep	_	_
 20	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	21	det	_	_
@@ -24757,7 +24757,7 @@
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	sorti	sortir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	mod	_	_
 40	plus	plus	ADV	_	_	44	mod	_	ExtPos=PRON
-41	de	de	ADP	_	_	40	udep	_	_
+41	de	de	ADP	_	_	40	comp:obl	_	_
 42	dix	dix	NUM	_	Number=Plur	43	det	_	_
 43	ans	an	NOUN	_	Gender=Masc|Number=Plur	41	comp:obj	_	_
 44	après	après	ADV	_	_	39	mod	_	_
@@ -25249,7 +25249,7 @@
 3	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	4	det	_	_
 4	excuses	excuse	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 5	peu	peu	ADV	_	_	8	mod	_	ExtPos=PRON
-6	de	de	ADP	_	_	5	udep	_	_
+6	de	de	ADP	_	_	5	comp:obl	_	_
 7	temps	temps	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	après	après	ADV	_	_	2	mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
@@ -25328,7 +25328,7 @@
 # sent_id = fr-ud-dev_00915
 # text = Beaucoup de boites de prestation s'inventent un passé et surtout un présent glorieux alors qu'en réalité il s'agit juste d'une seule personne parfois très incompétente et qui utilise son adresse personnelle comme adresse de domiciliation de la dite entreprise.
 1	Beaucoup	beaucoup	ADV	_	_	7	subj	_	ExtPos=PRON|wordform=beaucoup
-2	de	de	ADP	_	_	1	udep	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	boites	boîte	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	prestation	prestation	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
@@ -27497,7 +27497,7 @@
 5	choix	choix	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	plus	plus	ADV	_	_	6	comp:obj	_	ExtPos=PRON
-8	de	de	ADP	_	_	7	udep	_	_
+8	de	de	ADP	_	_	7	comp:obl	_	_
 9	10'000	10'000	NUM	_	Number=Plur	10	det	_	_
 10	bijoux	bijou	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 11	de	de	ADP	_	_	10	udep	_	_
@@ -30208,7 +30208,7 @@
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
 15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
 16	peu	peu	ADV	_	_	15	comp:obj	_	ExtPos=PRON
-17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
+17	d'	de	ADP	_	_	16	comp:obl	_	SpaceAfter=No
 18	autoroutes	autoroute	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	excepté	excepté	ADP	_	_	15	mod	_	_
@@ -31556,7 +31556,7 @@
 # sent_id = fr-ud-dev_01138
 # text = Plus de 100 personnes se trouvaient à l'intérieur de l'usine au moment de l'explosion.
 1	Plus	plus	ADV	_	_	6	subj@pass	_	ExtPos=PRON|wordform=plus
-2	de	de	ADP	_	_	1	udep	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	100	100	NUM	_	Number=Plur	4	det	_	_
 4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@expl	_	_
@@ -32731,7 +32731,7 @@
 13	Marseillais	marseillais	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	wordform=marseillais
 14	avec	avec	ADP	_	_	12	udep	_	_
 15	beaucoup	beaucoup	ADV	_	_	14	comp:obj	_	ExtPos=PRON
-16	de	de	ADP	_	_	15	udep	_	_
+16	de	de	ADP	_	_	15	comp:obl	_	_
 17	références	référence	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 18	bien	bien	ADV	_	_	19	mod	_	InIdiom=Yes
 19	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	mod	_	ExtPos=ADV|Idiom=Yes
@@ -34039,7 +34039,7 @@
 10	avec	avec	ADP	_	_	8	mod	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
 12	peu	peu	ADV	_	Gender=Masc|Number=Sing	10	comp:obj	_	ExtPos=PRON|Idiom=Yes
-13	de	de	ADP	_	_	12	udep	_	_
+13	de	de	ADP	_	_	12	comp:obl	_	_
 14	sauce	sauce	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	!	!	PUNCT	_	_	2	punct	_	_
 
@@ -35061,7 +35061,7 @@
 58	qui	qui	PRON	_	PronType=Rel|Shared=Yes	59	subj	_	_
 59	fit	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	57	mod@relcl	_	_
 60	plus	plus	ADV	_	_	59	comp:obj	_	ExtPos=PRON
-61	de	de	ADP	_	_	60	udep	_	_
+61	de	de	ADP	_	_	60	comp:obl	_	_
 62	400	400	NUM	_	Number=Plur	63	det	_	_
 63	morts	mort	NOUN	_	Gender=Masc|Number=Plur	61	comp:obj	_	_
 64	parmi	parmi	ADP	_	_	63	udep	_	_
@@ -36160,7 +36160,7 @@
 # text = Pour plus d'informations, consulter notre Portail de pièces et accessoires automobiles dans les Pyrénées-Orientales : http://www.papa66.com
 1	Pour	pour	ADP	_	_	6	mod	_	wordform=pour
 2	plus	plus	ADV	_	_	1	comp:obj	_	ExtPos=PRON
-3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
+3	d'	de	ADP	_	_	2	comp:obl	_	SpaceAfter=No
 4	informations	information	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	consulter	consulter	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
@@ -36610,7 +36610,7 @@
 16	y	y	PRON	_	Person=3|PronType=Prs	17	comp	_	InIdiom=Yes
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	ExtPos=ADP|Idiom=Yes
 18	plus	plus	ADV	_	_	17	comp:obj	_	ExtPos=PRON
-19	de	de	ADP	_	_	18	udep	_	_
+19	de	de	ADP	_	_	18	comp:obl	_	_
 20	3	3	NUM	_	Number=Plur	21	det	_	_
 21	ans	an	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	_
 22	!	!	PUNCT	_	_	2	punct	_	_
@@ -37456,7 +37456,7 @@
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	plus	plus	ADV	_	_	14	comp:obj	_	ExtPos=PRON
-16	de	de	ADP	_	_	15	udep	_	_
+16	de	de	ADP	_	_	15	comp:obl	_	_
 17	200	200	NUM	_	Number=Plur	18	det	_	_
 18	millimètres	millimètre	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
 19	de	de	ADP	_	_	18	udep	_	_
