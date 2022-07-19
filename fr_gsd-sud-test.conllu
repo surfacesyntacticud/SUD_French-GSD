@@ -3644,7 +3644,7 @@
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp:obj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:pred	_	_
+8	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	dans	dans	ADP	_	_	8	comp:obl	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	logement	logement	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
@@ -6750,9 +6750,9 @@
 
 # sent_id = fr-ud-test_00236
 # text = Il sont formés à vous arnaquer.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	2	subj	_	CorrectForm=Ils|CorrectNumber=Plur|wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	2	subj@pass	_	CorrectForm=Ils|CorrectNumber=Plur|wordform=il
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	formés	former	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:pred	_	_
+3	formés	former	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obj	_	_
 6	arnaquer	arnaquer	VERB	_	VerbForm=Inf	4	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
