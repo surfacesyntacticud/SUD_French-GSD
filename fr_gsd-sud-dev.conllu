@@ -30027,7 +30027,7 @@
 13	en	en	ADP	_	_	12	mod	_	_
 14	NBA	NBA	PROPN	_	_	13	comp:obj	_	_
 15	Development	Development	X	_	Foreign=Yes	14	flat@name	_	Lang=en
-16	League	League	NOUN	_	_	15	flat@name	_	Lang=en|SpaceAfter=No|X=__NOVALUE__
+16	League	League	X	_	Foreign=Yes	15	flat@name	_	Lang=en|SpaceAfter=No
 17	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_01083
