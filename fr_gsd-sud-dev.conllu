@@ -37001,9 +37001,9 @@
 3	de	de	ADP	_	_	2	comp:pred	_	_
 4	rite	rite	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	hindou	hindou	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	3	punct	_	_
-7	généralement	généralement	ADV	_	_	2	mod	_	_
-8	shivaïtes	shivaïte	ADJ	_	Gender=Masc|Number=Plur	2	comp:pred	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	généralement	généralement	ADV	_	_	8	mod	_	_
+8	shivaïtes	shivaïte	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01337
