@@ -1527,7 +1527,7 @@
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj@expl	_	wordform=il
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
-25	arrêter	arrêter	VERB	_	VerbForm=Inf	24	comp:aux@caus	_	Subject=Generic
+25	arrêter	arrêter	VERB	_	VerbForm=Inf	24	comp:aux@pass	_	Subject=Generic
 26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	22	mod	_	_
 27	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
 28	à	à	ADP	_	_	22	mod	_	_
@@ -1773,7 +1773,7 @@
 17	permis	permettre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	de	de	ADP	_	_	17	comp:obj	_	_
 19	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	20	comp:obj	_	_
-20	traiter	traiter	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=Generic
+20	traiter	traiter	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
 21	en	en	ADP	_	_	20	mod	_	ExtPos=ADP|Idiom=Yes
 22	tant	tant	ADV	_	_	21	unk	_	InIdiom=Yes
 23	qu'	que	SCONJ	_	_	22	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -3203,7 +3203,7 @@
 25	de	de	ADP	_	_	24	udep	_	_
 26	80	80	NUM	_	Number=Plur	27	det	_	_
 27	mg	mg	NOUN	_	Number=Plur	25	comp:obj	_	SpaceAfter=No
-28	/	/	SYM	_	_	27	udep	_	SpaceAfter=No
+28	/	/	SYM	_	_	27	udep	_	ExtPos=ADP|SpaceAfter=No
 29	100	100	NUM	_	_	30	det	_	_
 30	ml	ml	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -3399,7 +3399,7 @@
 22	matin	matin	NOUN	_	Gender=Masc|Number=Sing	21	mod	_	_
 23	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	24	det	_	_
 24	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
-25	encerclé	encercler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:pred	_	Subject=SubjRaising
+25	encerclé	encercler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:pred	_	Subject=ObjRaising
 26	et	et	CCONJ	_	_	28	cc	_	_
 27	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	28	det	_	_
 28	téléphones	téléphone	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	_
@@ -11209,7 +11209,7 @@
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	film	film	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
-30	:	:	PUNCT	_	_	32	punct	_	_
+30	:	:	PUNCT	_	Shared=Yes	32	punct	_	_
 31	Plus	plus	ADV	_	Shared=No	32	mod	_	InTitle=Yes|wordform=plus
 32	long	long	ADJ	_	Gender=Masc|Number=Sing	29	appos	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
 33	,	,	PUNCT	_	_	35	punct	_	InTitle=Yes
@@ -11222,7 +11222,7 @@
 40	dans	dans	ADP	_	_	24	conj	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	story	story	X	_	Foreign=Yes	40	comp:obj	_	ExtPos=NOUN|Lang=en
-43	arc	arc	X	_	Gender=Masc|Number=Sing|Shared=No	42	mod	_	_
+43	arc	arc	X	_	Gender=Masc|Number=Sing	42	mod	_	_
 44	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	InTitle=Yes|wordform=les
 45	handicapés	handicapé	NOUN	_	Gender=Masc|Number=Plur	46	subj	_	InTitle=Yes
 46	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	appos	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
