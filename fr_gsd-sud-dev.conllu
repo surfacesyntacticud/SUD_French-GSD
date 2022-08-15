@@ -31286,7 +31286,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	paysage	paysage	NOUN	_	Gender=Masc|Number=Sing|Shared=No	6	subj	_	_
 6	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	plus	plus	ADV	_	_	6	mod	_	_
+7	plus	plus	ADV	_	_	8	mod	_	_
 8	vallonné	vallonné	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
 9	et	et	CCONJ	_	_	12	cc	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -31478,7 +31478,7 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	politique	politique	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
 13	devint	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-14	plus	plus	ADV	_	_	13	mod	_	_
+14	plus	plus	ADV	_	_	15	mod	_	_
 15	importante	important	ADJ	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
 16	dans	dans	ADP	_	_	13	mod	_	_
 17	Bild	Bild	PROPN	_	_	16	comp:obj	_	SpaceAfter=No
@@ -39265,7 +39265,7 @@
 # sent_id = fr-ud-dev_01412
 # text = Surnommé King Fish ou Mr. Angel, Tim Salmon est considéré comme un des meilleurs joueurs de l'histoire des Angels.
 1	Surnommé	surnommer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	Subject=Instantiated|wordform=surnommé
-2	King	King	PROPN	_	_	1	comp:obj	_	_
+2	King	King	PROPN	_	_	1	comp:pred	_	_
 3	Fish	Fish	PROPN	_	_	2	flat@name	_	_
 4	ou	ou	CCONJ	_	_	5	cc	_	_
 5	Mr.	Mr.	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	wordform=mr.
