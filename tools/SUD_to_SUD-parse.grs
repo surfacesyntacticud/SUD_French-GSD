@@ -1,3 +1,13 @@
+rule mwt {
+  pattern { N1 [textform]; N2 [textform="_"]; N1 < N2 }
+  commands {
+    N1.form = N1.textform;
+    N2.form = "";
+    del_feat N1.textform; 
+    del_feat N2.textform;
+  }
+}
+
 %Conversion of a SUD annotation into a SUD-parse annotation suitable for learning by parsers.
 % When two consecutive tokens result from the dissociation of an amalgam, the first token takes the form and the lemma of the amalgam as its "form" and "lemma" features and the second has its "form" feature empty.
 rule reconstr_amalgam{
@@ -77,8 +87,9 @@ commands{del_node N}
 
 strat main {
 Seq(
-  Onf(reconstr_amalgam),
-%  Onf(init_sent),
+%  Onf(reconstr_amalgam),   % disabled: see line above
+  Onf(mwt),                 % replace "reconstr_amalgam": Use info given by textform for a more correct form prédiction (for instance "Au")
+%  Onf(init_sent),          % disabled: we loose initial capital letter with it
   Onf(shunt_form-null),
   Onf(rise_punct),
   Onf(del_node_form-null),
