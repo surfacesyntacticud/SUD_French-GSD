@@ -6,6 +6,7 @@ N1[form=lex1.form1];
 N2[form=lex1.form2]; 
 N1 < N2}
 without{N2.form =""}
+without{N2[upos=PRON]; G[upos=VERB]; G -[comp:obj]-> N2}
 commands{
 N1.form=lex1.amalgam;
 N1.lemma=lex1.lemma;
