@@ -78,7 +78,7 @@ commands{del_node N}
 strat main {
 Seq(
   Onf(reconstr_amalgam),
-  Onf(init_sent),
+%  Onf(init_sent),
   Onf(shunt_form-null),
   Onf(rise_punct),
   Onf(del_node_form-null),
