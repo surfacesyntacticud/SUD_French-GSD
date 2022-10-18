@@ -793,7 +793,7 @@
 # sent_id = fr-ud-test_00028
 # text = N'hésitez-pas à la faire circuler largement autour de vous !
 1	N'	ne	ADV	_	Polarity=Neg	2	mod	_	SpaceAfter=No|wordform=n'
-2	hésitez	hésiter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	hésitez	hésiter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CorrectSpaceAfter=Yes|SpaceAfter=No
 3	-pas	pas	ADV	_	Polarity=Neg|Typo=Yes	2	mod	_	CorrectForm=pas
 4	à	à	ADP	_	_	2	comp:obl	_	_
 5	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj@agent	_	_
@@ -1216,7 +1216,7 @@
 
 # sent_id = fr-ud-test_00049
 # text = Renommée par Warner France sous le nom de "La Ligue des Justiciers : La Nouvelle Génération", les 8 premiers épisodes de la série animée seront disponibles dès le 30 novembre prochain.
-1	Renommée	renommer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	29	mod	_	CorrectForm=renommés|Subject=Instantiated|wordform=renommée
+1	Renommée	renommer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	29	mod	_	CorrectForm=Renommés|Subject=Instantiated|wordform=renommée
 2	par	par	ADP	_	_	1	comp:obl@agent	_	_
 3	Warner	Warner	PROPN	_	_	2	comp:obj	_	_
 4	France	France	PROPN	_	_	3	flat@name	_	_
@@ -1317,7 +1317,7 @@
 22	«	«	PUNCT	_	Shared=Yes	23	punct	_	_
 23	expérimentale	expérimental	ADJ	_	Gender=Fem|Number=Sing	21	mod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	avantgardiste	avant-gardiste	ADJ	_	Gender=Fem|Number=Sing	23	conj	_	_
+25	avantgardiste	avant-gardiste	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	23	conj	_	CorrectForm=avant-gardiste
 26	et	et	CCONJ	_	_	28	cc	_	_
 27	politiquement	politiquement	ADV	_	_	28	mod	_	_
 28	engagée	engagé	ADJ	_	Gender=Fem|Number=Sing	25	conj	_	_
@@ -7982,7 +7982,7 @@
 14	titre	titre	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 15	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
-17	professionel	professionnel	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+17	professionel	professionnel	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	15	conj	_	CorrectForm=professionnel|SpaceAfter=No
 18	,	,	PUNCT	_	_	24	punct	_	_
 19	et	et	CCONJ	_	_	24	cc	_	_
 20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
@@ -8407,7 +8407,7 @@
 7	1930	1930	NUM	_	Number=Plur	6	mod	_	_
 8	dans	dans	ADP	_	_	4	comp:obl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	disctict	district	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+10	disctict	district	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	8	comp:obj	_	CorrectForm=district
 11	d'	de	ADP	_	_	10	udep	_	SpaceAfter=No
 12	Anyue	Anyue	PROPN	_	_	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
@@ -10850,7 +10850,7 @@
 17	noms	nom	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 18	de	de	ADP	_	_	17	udep	_	_
 19	peintres	peintre	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
-20	célébres	célèbre	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	SpaceAfter=No
+20	célébres	célèbre	ADJ	_	Gender=Masc|Number=Plur|Typo=Yes	19	mod	_	CorrectForm=célèbres|SpaceAfter=No
 21	,	,	PUNCT	_	_	10	punct	_	_
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_

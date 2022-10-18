@@ -395,7 +395,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	quand	quand	SCONJ	_	_	25	mod	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-6	Georgiens	Georgiens	PROPN	_	Number=Plur	7	subj	_	_
+6	Georgiens	géorgien	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	7	subj	_	CorrectForm=Géorgiens
 7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 8	repris	reprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -2286,7 +2286,7 @@
 35	retourne	retourner	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	comp:obj	_	_
 36	à	à	ADP	_	_	35	comp:obl	_	_
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
-38	hopital	hôpital	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	SpaceAfter=No
+38	hopital	hôpital	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	36	comp:obj	_	CorrectForm=hôpital|SpaceAfter=No
 39	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-dev_00085
@@ -8249,7 +8249,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
 8	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
-9	Japonnais	japonais	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	wordform=japonnais
+9	Japonnais	japonais	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	8	mod	_	CorrectForm=japonais
 10	de	de	ADP	_	_	8	udep	_	_
 11	Caen	Caen	PROPN	_	_	10	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
@@ -10899,7 +10899,7 @@
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	_
 12	remercie	remercier	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
-13	ironiquemmnt	ironiquemmnt	ADV	_	_	12	mod	_	_
+13	ironiquemmnt	ironiquement	ADV	_	Typo=Yes	12	mod	_	CorrectForm=ironiquement
 14	de	de	ADP	_	_	12	comp:obl	_	_
 15	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	17	comp:obj	_	_
 16	avoir	avoir	AUX	_	VerbForm=Inf	14	comp:obj	_	Subject=ObjRaising
@@ -18356,7 +18356,7 @@
 7	tenteront	tenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 8	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	comp:obj	_	_
 9	pour	pour	ADP	_	_	7	mod	_	_
-10	combatttre	combattre	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
+10	combatttre	combattre	VERB	_	Typo=Yes|VerbForm=Inf	9	comp:obj	_	CorrectForm=combattre|Subject=SubjRaising
 11	Hercule	Hercule	PROPN	_	_	10	comp:obj	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	ramener	ramener	VERB	_	VerbForm=Inf	10	conj	_	Subject=SubjRaising
@@ -22461,7 +22461,7 @@
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	refugiés	réfugié	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	SpaceAfter=No
+8	refugiés	réfugié	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	6	comp:obj	_	CorrectForm=refugiés|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00816
@@ -33720,7 +33720,7 @@
 9	Valladolid	Valladolid	PROPN	_	_	8	comp:obj	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	entre	entrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
-12	brievement	brievement	ADV	_	Shared=No	11	mod	_	_
+12	brievement	brièvement	ADV	_	Shared=No|Typo=Yes	11	mod	_	brièvement
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	Shared=No	11	comp:obl	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
