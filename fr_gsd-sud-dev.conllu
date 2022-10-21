@@ -26546,9 +26546,9 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	à	à	ADP	_	_	2	udep	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
-14	fins	fin	NOUN	_	Gender=Fem|Number=Plur|Shared=No	12	comp:obj	_	_
+14	fins	fin	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	_
 15	alimentaires	alimentaire	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	SpaceAfter=No
-16	,	,	PUNCT	_	Shared=No	12	punct	_	_
+16	,	,	PUNCT	_	_	12	punct	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -36051,7 +36051,7 @@
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	à	à	ADP	_	_	5	conj	_	_
 9	grandir	grandir	VERB	_	Shared=No|VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
-10	jusqu'	jusque	ADP	_	Shared=Yes	9	mod	_	SpaceAfter=No
+10	jusqu'	jusque	ADP	_	Shared=No	9	mod	_	SpaceAfter=No
 11	à	à	ADP	_	_	10	comp:obj	_	_
 12	atteindre	atteindre	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
