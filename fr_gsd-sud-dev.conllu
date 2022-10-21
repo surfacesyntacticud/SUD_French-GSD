@@ -15538,16 +15538,17 @@
 
 # sent_id = fr-ud-dev_00557
 # text = Lorgue de Barbarie portatif a été créé en 1890.
-1	Lorgue	Lorgue	PROPN	_	Gender=Masc|Number=Sing	5	subj@pass	_	_
-2	de	de	ADP	_	_	1	udep	_	_
-3	Barbarie	Barbarie	PROPN	_	_	2	comp:obj	_	_
-4	portatif	portatif	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
-5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
-7	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
-8	en	en	ADP	_	_	5	mod	_	_
-9	1890	1890	NUM	_	Number=Plur	8	comp:obj	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	5	punct	_	_
+1	L	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Typo=Yes	2	det	_	CorrectForm=L'|SpaceAfter=No|wordform=l'
+2	orgue	orgue	NOUN	_	Gender=Masc|Number=Sing	6	subj@pass	_	_
+3	de	de	ADP	_	_	2	udep	_	_
+4	Barbarie	Barbarie	PROPN	_	_	3	comp:obj	_	_
+5	portatif	portatif	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+8	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
+9	en	en	ADP	_	_	6	mod	_	_
+10	1890	1890	NUM	_	Number=Plur	9	comp:obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00558
 # text = Outre leur signification historique, les couleurs andalouses se distinguent par leur charge symbolique recueillie dans l'hymne de la communauté : le vert et le blanc représentent le désir de paix et l'espérance du peuple d'Andalousie.
