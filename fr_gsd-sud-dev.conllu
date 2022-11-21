@@ -37991,10 +37991,10 @@
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	langue	langue	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 20	prestigieuse	prestigieux	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	_
-21	que	que	PRON	_	PronType=Rel	22	subj	_	_
+21	que	que	PRON	_	PronType=Rel	22	comp:obj	_	_
 22	représentait	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	mod@relcl	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	français	français	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
+24	français	français	NOUN	_	Gender=Masc|Number=Sing	22	subj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01371
