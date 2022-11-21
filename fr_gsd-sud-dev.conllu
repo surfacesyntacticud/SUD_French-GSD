@@ -36829,10 +36829,10 @@
 28	et	et	CCONJ	_	_	29	cc	_	_
 29	antimilitaristes	antimilitariste	ADJ	_	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	parmi	parmi	ADP	_	_	26	udep	_	_
+31	parmi	parmi	ADP	_	_	34	udep	_	_
 32	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	31	comp:obj	_	_
 33	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	34	det	_	wordform=les
-34	Temps	temps	NOUN	_	Gender=Masc|Number=Plur	32	appos	_	wordform=temps
+34	Temps	temps	NOUN	_	Gender=Masc|Number=Plur	26	mod@relcl	_	wordform=temps
 35	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	34	mod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	38	punct	_	_
 37	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	wordform=la
@@ -37227,7 +37227,7 @@
 7	Mais	mais	CCONJ	_	_	9	cc	_	wordform=mais
 8	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	9	det	_	_
 9	importance	importance	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	_
-10	que	que	SCONJ	_	_	9	dislocated	_	_
+10	que	que	SCONJ	_	_	9	parataxis	_	_
 11	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	12	subj	_	_
 12	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 13	irrationnel	irrationnel	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
