@@ -9181,7 +9181,7 @@
 3	dont	dont	PRON	_	PronType=Rel	5	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	tâche	tâche	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
-6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 7	de	de	ADP	_	_	6	comp:pred	_	_
 8	préparer	préparer	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=Generic
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
@@ -11820,7 +11820,7 @@
 # sent_id = fr-ud-dev_00427
 # text = « Est-ce qu'il y a un poème ce matin ?
 1	«	«	PUNCT	_	_	2	punct	_	_
-2	Est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|wordform=est
+2	Est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|wordform=est
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	wordform=ce
 4	qu'	que	SCONJ	_	_	2	comp:pred	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
@@ -22520,7 +22520,7 @@
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	12	det	_	_
 11	seule	seul	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 12	chance	chance	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
-13	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	_
+13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	_
 14	de	de	ADP	_	_	13	comp:pred	_	_
 15	jouer	jouer	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=Generic
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -38538,7 +38538,7 @@
 10	Ki-Moon	Ki-Moon	PROPN	_	_	9	flat@name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	SpaceAfter=No
-13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	que	que	SCONJ	_	_	13	comp:pred	_	_
 15	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	subj	_	_
 16	consacre	consacrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
@@ -40930,7 +40930,7 @@
 25	de	de	ADP	_	_	24	udep	_	_
 26	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	_
 27	voir	voir	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=Generic
-28	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 29	qu'	que	SCONJ	_	_	28	comp:pred	_	SpaceAfter=No
 30	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	subj@expl	_	_
 31	n'	ne	ADV	_	Polarity=Neg	32	mod	_	SpaceAfter=No
