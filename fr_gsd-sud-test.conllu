@@ -1494,7 +1494,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	7	subj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
-7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	comme	comme	SCONJ	_	_	7	comp:pred	_	_
 10	aujourd'hui	aujourd'hui	ADV	_	_	9	comp:obj	_	SpaceAfter=No
@@ -6175,7 +6175,7 @@
 15	solaire	solaire	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	_
 16	photovoltaïque	photovoltaïque	ADJ	_	Gender=Masc|Number=Sing|Shared=No	15	mod	_	_
 17	ne	ne	ADV	_	Polarity=Neg	18	mod	_	_
-18	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+18	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
 19	plus	plus	ADV	_	Polarity=Neg	18	mod	_	_
 20	à	à	ADP	_	_	18	comp:pred	_	_
 21	prouver	prouver	VERB	_	VerbForm=Inf	20	comp:obj	_	SpaceAfter=No|Subject=Generic
