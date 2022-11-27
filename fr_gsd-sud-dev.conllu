@@ -11334,7 +11334,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	commune	commune	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	dut	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	6	comp:aux@pass	_	CorrectForm=due|CorrectVerbForm=Part
+7	dut	devoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	6	comp:aux@pass	_	CorrectForm=due|CorrectVerbForm=Part
 8-9	aux	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	10	det	_	_
@@ -29556,7 +29556,7 @@
 12	pont	pont	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	Faverolles-et-Coëmy	Faverolles-et-Coëmy	PROPN	_	_	13	comp:obj	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
+15	,	,	PUNCT	_	_	20	punct	_	_
 16	c'est-à-dire	c'est-à-dire	CCONJ	_	_	20	cc	_	ExtPos=CCONJ|Idiom=Yes
 17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes
 18	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	wordform=on
@@ -40936,8 +40936,8 @@
 31	n'	ne	ADV	_	Polarity=Neg	32	mod	_	SpaceAfter=No
 32	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	_
 33	pas	pas	ADV	_	Polarity=Neg	32	mod	_	_
-34	de	de	ADP	_	_	32	comp:obj@agent	_	_
-35	foncteur	foncteur	NOUN	_	Gender=Masc|Number=Sing	34	comp:obj	_	_
+34	de	de	DET	_	_	35	det	_	_
+35	foncteur	foncteur	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj@agent	_	_
 36	de	de	ADP	_	_	35	udep	_	_
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	catégorie	catégorie	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
