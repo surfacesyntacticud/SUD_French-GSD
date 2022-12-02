@@ -1748,7 +1748,7 @@
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	Vénézuéliens	vénézuélien	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No|wordform=vénézuéliens
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	etc	etc	X	_	_	23	conj	_	SpaceAfter=No
+25	etc	etc	ADV	_	_	23	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	Shared=No	25	punct	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	7	punct	_	_
 
