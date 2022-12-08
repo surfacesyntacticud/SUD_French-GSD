@@ -2522,7 +2522,7 @@
 1	Sous	sous	ADP	_	_	24	mod	_	wordform=sous
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	arcades	arcade	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
 5	dans	dans	ADP	_	_	24	mod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	cantons	canton	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
@@ -5899,7 +5899,7 @@
 # text = De même, en 1906, Pathé fait monter une usine de coloriage pour ses films, mais rien de bien convaincant encore.
 1	De	de	ADP	_	Shared=No	8	mod	_	ExtPos=ADV|Idiom=Yes|wordform=de
 2	même	même	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
 4	en	en	ADP	_	Shared=No	8	mod	_	_
 5	1906	1906	NUM	_	Number=Plur	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
@@ -6644,7 +6644,7 @@
 3	côté	côté	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	Sam	Sam	PROPN	_	Shared=Yes	15	subj	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	Shared=Yes	15	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -10992,7 +10992,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	légitimé	légitimé	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	internationale	international	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	2	punct	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
 8	selon	selon	ADP	_	_	17	mod	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	charte	charte	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
@@ -13284,7 +13284,7 @@
 15	coup	coup	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16	décisif	décisif	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
 17	qui	qui	PRON	_	PronType=Rel	25	subj	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	17	punct	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
 19	sous	sous	ADP	_	_	25	mod	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	commandement	commandement	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
@@ -15056,7 +15056,7 @@
 # sent_id = fr-ud-dev_00542
 # text = Cependant, durant son court règne, Basiliscus s'aliène l'Église et le peuple de Constantinople en promouvant la position christologique monophysite en opposition à la l'orthodoxie chalcédonienne largement acceptée.
 1	Cependant	cependant	ADV	_	_	10	mod	_	SpaceAfter=No|wordform=cependant
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	durant	durant	ADP	_	_	10	mod	_	_
 4	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
 5	court	court	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
@@ -15339,7 +15339,7 @@
 # text = Cette flottille, sous le commandement du capitaine de la Royal Navy Bernard Warburton-Lee, s'était déjà séparé du Renown durant sa poursuite du Scharnhorst et du Gneisenau, après avoir reçu l'ordre de monter la garde devant l'entrée du Vestfjord.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	wordform=cette
 2	flottille	flottille	NOUN	_	Gender=Fem|Number=Sing	18	subj	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
 4	sous	sous	ADP	_	_	18	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	commandement	commandement	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
@@ -21772,7 +21772,7 @@
 8	d'	de	ADP	_	_	7	udep	_	SpaceAfter=No
 9	Avanguardia	avanguardia	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No|wordform=avanguardia
 10	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	4	punct	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
 12	sous	sous	ADP	_	_	25	mod	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	impulsion	impulsion	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
@@ -24510,7 +24510,7 @@
 # text = D'or, à la croix de sable, la branche cadette portait les mêmes avec un lambel en chef à trois pendants.
 1	D'	de	ADP	_	_	13	mod	_	SpaceAfter=No|wordform=d'
 2	or	or	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
 4	à	à	ADP	_	_	13	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	croix	croix	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
@@ -26558,7 +26558,7 @@
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
 25	qui	qui	PRON	_	PronType=Rel	35	subj	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	25	punct	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
 27-28	au	_	_	_	_	_	_	_	_
 27	à	à	ADP	_	_	35	mod	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -26890,7 +26890,7 @@
 # sent_id = fr-ud-dev_00973
 # text = Cependant, sous Windows XP, le mode DirectX 10 ne pourra pas être activé, car ne le supportant pas.
 1	Cependant	cependant	ADV	_	Shared=No	12	mod	_	SpaceAfter=No|wordform=cependant
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	sous	sous	ADP	_	Shared=No	12	mod	_	_
 4	Windows	Windows	PROPN	_	_	3	comp:obj	_	_
 5	XP	XP	PROPN	_	_	4	flat@name	_	SpaceAfter=No
@@ -27541,7 +27541,7 @@
 12	Marge	Marge	PROPN	_	_	11	comp:obj	_	_
 13	Simpson	Simpson	PROPN	_	_	12	flat@name	_	_
 14	qui	qui	PRON	_	PronType=Rel	19	subj	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	14	punct	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
 16	en	en	ADP	_	_	19	mod	_	_
 17	échange	échange	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	16	punct	_	_
@@ -29718,7 +29718,7 @@
 # text = L'Algérie, par la voix de son premier responsable, multiplie les initiatives concrètes.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
 2	Algérie	Algérie	PROPN	_	Number=Sing	12	subj	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
 4	par	par	ADP	_	_	12	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	voix	voix	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
@@ -30136,7 +30136,7 @@
 # text = En 1862, à Lille, Claude Auguste Lamy identifie et isole 14 grammes de l'élément thallium grâce au spectroscope prêté par son beau-frère, le chimiste Jules Frédéric Kuhlmann.
 1	En	en	ADP	_	Shared=Yes	10	mod	_	wordform=en
 2	1862	1862	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
 4	à	à	ADP	_	Shared=Yes	10	mod	_	_
 5	Lille	Lille	PROPN	_	_	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
@@ -30797,7 +30797,7 @@
 # sent_id = fr-ud-dev_01112
 # text = Cependant, avec son développement, des films non-narratifs, des documentaires-fiction, ou des œuvres expérimentales telles que Koyaanisqatsi donnent au terme de cinéma un sens différent.
 1	Cependant	cependant	ADV	_	_	21	mod	_	SpaceAfter=No|wordform=cependant
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	avec	avec	ADP	_	_	21	mod	_	_
 4	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	_
 5	développement	développement	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
@@ -31489,7 +31489,7 @@
 # text = En effet, en fréquences basses, les sources de parasites sont généralement des sources de champ électrique (l'onde électromagnétique ne présentant un rapport E/H constant qu'à une distance de la source égale environ à un quart de la longueur d'onde).
 1	En	en	ADP	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
 4	en	en	ADP	_	_	12	mod	_	_
 5	fréquences	fréquence	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 6	basses	bas	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	SpaceAfter=No
@@ -31580,7 +31580,7 @@
 # sent_id = fr-ud-dev_01139
 # text = Ainsi, en novembre 1944, Georges Suarez, directeur du journal Aujourd'hui, auteur de Pétain ou la démocratie ?
 1	Ainsi	ainsi	ADV	_	_	7	mod	_	SpaceAfter=No|wordform=ainsi
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	en	en	ADP	_	_	7	udep	_	_
 4	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	1944	1944	NUM	_	Number=Plur	4	mod	_	SpaceAfter=No
@@ -34854,7 +34854,7 @@
 # text = En effet, au moment même de l'exécution de cette mission, le Président du Conseil de surveillance d'Areva (Frédéric Lemoine) était Senior Advisor de McKinsey depuis 2004.
 1	En	en	ADP	_	_	28	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	28	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -35236,7 +35236,7 @@
 # sent_id = fr-ud-dev_01271
 # text = Toutefois, après avoir consulté les partis de l'alliance gouvernementale, le chef de l'État décide de suivre leurs recommandations et nomme Pedro Santana Lopes, alors maire de Lisbonne, à la direction du gouvernement.
 1	Toutefois	toutefois	ADV	_	Shared=Yes	18	mod	_	SpaceAfter=No|wordform=toutefois
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	après	après	ADP	_	Shared=Yes	18	mod	_	_
 4	avoir	avoir	AUX	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 5	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
@@ -36668,7 +36668,7 @@
 # text = » Déjà, au mois d'avril, lors du vote du budget primitif, ils avaient tiré la sonnette d'alarme.
 1	»	»	PUNCT	_	_	20	punct	_	_
 2	Déjà	déjà	ADV	_	_	20	mod	_	SpaceAfter=No|wordform=déjà
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	20	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -37142,7 +37142,7 @@
 # sent_id = fr-ud-dev_01343
 # text = Ainsi, pour Hobbes, la dignité n'est pas une valeur intrinsèque de l'homme, mais seulement la « valeur publique » de l'homme qui lui est conféré par la République (ou Commonwealth).
 1	Ainsi	ainsi	ADV	_	_	9	mod	_	SpaceAfter=No|wordform=ainsi
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	pour	pour	ADP	_	_	9	mod	_	_
 4	Hobbes	Hobbes	PROPN	_	_	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
@@ -39110,7 +39110,7 @@
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	Suèves	Suèves	PROPN	_	Number=Plur|Shared=No	11	comp:obj	_	_
 14	qui	qui	PRON	_	PronType=Rel|Shared=Yes	24	subj	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	14	punct	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
 16	après	après	ADP	_	Shared=Yes	24	mod	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	19	comp@expl	_	SpaceAfter=No
 18	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
@@ -40598,7 +40598,7 @@
 4	à	à	ADP	_	_	3	udep	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	P5	P5	PROPN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	4	punct	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
 8	de	de	ADP	_	_	26	mod	_	_
 9	2	2	NUM	_	Number=Plur	12	det	_	_
 10	à	à	ADP	_	_	9	udep	_	_

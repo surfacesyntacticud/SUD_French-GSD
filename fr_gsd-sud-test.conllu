@@ -391,7 +391,7 @@
 # sent_id = fr-ud-test_00012
 # text = Maintenant, avec un peu de bonne volonté vous observerez que l'on peut être traditionaliste ET intégriste, mais que les intégristes n'ont pas le monopole du traditionalisme, et réciproquement.
 1	Maintenant	maintenant	ADV	_	_	10	mod	_	SpaceAfter=No|wordform=maintenant
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	avec	avec	ADP	_	_	10	mod	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
 5	peu	peu	ADV	_	Gender=Masc|Number=Sing	3	comp:obj	_	ExtPos=PRON|Idiom=Yes
@@ -2469,7 +2469,7 @@
 6	bien	bien	ADV	_	_	7	mod	_	_
 7	rodé	roder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	mod	_	SpaceAfter=No
 8	--	--	PUNCT	_	_	7	punct	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	1	punct	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
 10	avec	avec	ADP	_	_	28	mod	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	12	det	_	_
 12	mort	mort	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -2530,7 +2530,7 @@
 # sent_id = fr-ud-test_00086
 # text = Toutefois, dans des camps de réfugiés, la cause politique importe plus que la cause humaine.
 1	Toutefois	toutefois	ADV	_	_	12	mod	_	SpaceAfter=No|wordform=toutefois
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	dans	dans	ADP	_	_	12	mod	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	camps	camp	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
@@ -6213,7 +6213,7 @@
 1	à	à	ADP	_	_	9	udep	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	menu	menu	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
 5	en	en	ADP	_	_	9	udep	_	_
 6	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
@@ -6384,7 +6384,7 @@
 # sent_id = fr-ud-test_00215
 # text = Bref, à déconseiller !
 1	Bref	bref	INTJ	_	_	3	discourse	_	SpaceAfter=No|wordform=bref
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	à	à	ADP	_	_	0	root	_	_
 4	déconseiller	déconseiller	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=Generic
 5	!	!	PUNCT	_	_	3	punct	_	_
@@ -10688,7 +10688,7 @@
 # text = En effet, dans le cadre de la théorie néoclassique, l'agent économique cherche à maximiser son utilité et lorsqu'il est amené à faire un arbitrage entre consommation et épargne, il va considérer ce que lui rapportera l'épargne, autrement dit, il va considérer le taux d'intérêt.
 1	En	en	ADP	_	Shared=No	15	mod	_	ExtPos=ADV|Idiom=Yes|wordform=en
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
 4	dans	dans	ADP	_	Shared=No	15	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
@@ -11417,7 +11417,7 @@
 28	compositeurs	compositeur	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	38	punct	_	_
 30	qui	qui	PRON	_	PronType=Rel	38	subj	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	30	punct	_	_
+31	,	,	PUNCT	_	_	32	punct	_	_
 32	à	à	ADP	_	_	38	mod	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
 34	aide	aide	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	_
