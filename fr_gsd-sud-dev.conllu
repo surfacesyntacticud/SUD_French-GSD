@@ -28251,8 +28251,8 @@
 23-24	du	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-25	petit	petit	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	InIdiom=Yes
-26	déjeuner	déjeuner	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	ExtPos=NOUN|Idiom=Yes|SpaceAfter=No
+25	petit	petit	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
+26	déjeuner	déjeuner	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_01017
@@ -34771,8 +34771,8 @@
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	17	conj	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
-23	faits	fait	NOUN	_	Gender=Masc|Number=Plur|Shared=No	21	comp:obj	_	ExtPos=NOUN|Idiom=Yes
-24	divers	divers	ADJ	_	Gender=Masc|Number=Plur	23	mod	_	InIdiom=Yes|SpaceAfter=No
+23	faits	fait	NOUN	_	Gender=Masc|Number=Plur|Shared=No	21	comp:obj	_	_
+24	divers	divers	ADJ	_	Gender=Masc|Number=Plur	23	mod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_01255

@@ -5446,9 +5446,9 @@
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	toujours	toujours	ADV	_	_	6	mod	_	_
 8	en	en	ADP	_	_	6	comp:pred	_	_
-9	garde	garde	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	ExtPos=NOUN|Idiom=Yes
-10	à	à	ADP	_	_	9	udep	_	InIdiom=Yes
-11	vue	vue	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+9	garde	garde	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+10	à	à	ADP	_	_	9	udep	_	_
+11	vue	vue	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-test_00182
