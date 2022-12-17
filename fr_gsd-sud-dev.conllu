@@ -18711,7 +18711,7 @@
 18	origine	origine	NOUN	_	Gender=Fem|Number=Sing	11	mod	_	_
 19	Sud	sud	NOUN	_	Gender=Masc|Number=Sing	18	mod	_	wordform=sud
 20	Est	est	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	wordform=est
-21	USA	USA	NOUN	_	Gender=Masc|Number=Plur	19	mod	_	SpaceAfter=No
+21	USA	USA	PROPN	_	Gender=Masc|Number=Plur	19	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	18	punct	_	_
 23	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
 24	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	mod	_	_
