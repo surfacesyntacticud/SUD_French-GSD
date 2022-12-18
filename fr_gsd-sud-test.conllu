@@ -2066,11 +2066,11 @@
 1	Mais	mais	CCONJ	_	_	3	cc	_	wordform=mais
 2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	guette	guetter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
+4	,	,	PUNCT	_	_	8	punct	_	_
 5	oui	oui	INTJ	_	_	3	discourse	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	8	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
-8	guette	guetter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+8	guette	guetter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00075
@@ -6384,7 +6384,7 @@
 # sent_id = fr-ud-test_00215
 # text = Bref, à déconseiller !
 1	Bref	bref	INTJ	_	_	3	discourse	_	SpaceAfter=No|wordform=bref
-2	,	,	PUNCT	_	_	3	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	à	à	ADP	_	_	0	root	_	_
 4	déconseiller	déconseiller	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=Generic
 5	!	!	PUNCT	_	_	3	punct	_	_
