@@ -31987,7 +31987,7 @@
 9	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
-12	effectivement	effectivement	ADV	_	Shared=No	13	mod	_	_
+12	effectivement	effectivement	ADV	_	Shared=No	11	mod	_	_
 13	lutté	lutter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	match	match	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
