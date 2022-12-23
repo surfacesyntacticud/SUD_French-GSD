@@ -12766,7 +12766,7 @@
 19	inversement	inversement	ADV	_	_	21	mod	_	_
 20	ne	ne	ADV	_	Polarity=Neg	21	mod	_	_
 21	comprennent	comprendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-22	pas	pas	ADV	_	Polarity=Neg	21	mod	_	_
+22	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
 23	toujours	toujours	ADV	_	_	21	mod	_	_
 24	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
 25	officier	officier	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_

@@ -3732,7 +3732,7 @@
 3	"	"	PUNCT	_	Shared=Yes	5	punct	_	SpaceAfter=No
 4	n'	ne	ADV	_	Polarity=Neg|Shared=No	5	mod	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
+6	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 7	seulement	seulement	ADV	_	_	5	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	plus	plus	ADV	_	_	10	mod	_	_
