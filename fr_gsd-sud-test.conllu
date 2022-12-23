@@ -1283,7 +1283,7 @@
 24	eau	eau	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	_
 25	ne	ne	ADV	_	Polarity=Neg	26	mod	_	_
 26	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
-27	pas	pas	ADV	_	Polarity=Neg	26	mod	_	_
+27	pas	pas	ADV	_	Polarity=Neg	28	mod	_	_
 28	si	si	ADV	_	_	29	mod	_	_
 29	brillant	brillant	ADJ	_	Gender=Masc|Number=Sing	26	comp:pred	_	_
 30	que	que	SCONJ	_	_	28	comp:obj	_	_
