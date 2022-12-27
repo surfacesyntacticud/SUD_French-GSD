@@ -5629,7 +5629,7 @@
 5	DARGAUD	DARGAUD	PROPN	_	_	3	appos	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	5	punct	_	_
 7	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	mod	_	_
-8	de	de	ADP	_	_	7	comp:obl	_	_
+8	de	de	ADP	_	_	7	comp:obl@agent	_	_
 9	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	_
 10	coordonnées	coordonnée	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 11-12	au	_	_	_	_	_	_	_	_
