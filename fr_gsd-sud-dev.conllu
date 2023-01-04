@@ -1486,7 +1486,7 @@
 16	période	période	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	mais	mais	CCONJ	_	_	22	cc	_	_
-19	aussi	aussi	ADV	_	_	22	mod	_	_
+19	aussi	aussi	ADV	_	_	18	mod	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
 22	journaliste	journaliste	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
@@ -15159,7 +15159,7 @@
 45	Wiel	Wiel	PROPN	_	_	44	flat@name	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	49	punct	_	_
 47	mais	mais	CCONJ	_	_	49	cc	_	_
-48	aussi	aussi	ADV	_	_	49	mod	_	_
+48	aussi	aussi	ADV	_	_	47	mod	_	_
 49	pour	pour	ADP	_	_	39	conj	_	_
 50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	53	det	_	_
 51	deux	deux	NUM	_	Number=Plur|Shared=No	53	mod	_	_
@@ -18885,7 +18885,7 @@
 42	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
 43	)	)	PUNCT	_	_	9	punct	_	_
 44	mais	mais	CCONJ	_	_	46	cc	_	_
-45	aussi	aussi	ADV	_	_	46	mod	_	_
+45	aussi	aussi	ADV	_	_	44	mod	_	_
 46	collectives	collectif	ADJ	_	Gender=Fem|Number=Plur	7	conj	_	_
 47	(	(	PUNCT	_	Shared=Yes	48	punct	_	SpaceAfter=No
 48	Salon	salon	NOUN	_	Gender=Masc|Number=Sing|Shared=No	46	mod	_	wordform=salon
@@ -39408,7 +39408,7 @@
 2	hyper	hyper	ADV	_	Shared=No	3	mod	_	_
 3	créative	créatif	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	_
 4	mais	mais	CCONJ	_	_	6	cc	_	_
-5	aussi	aussi	ADV	_	_	6	mod	_	_
+5	aussi	aussi	ADV	_	_	4	mod	_	_
 6	traditionnelle	traditionnel	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	_
 7	pour	pour	ADP	_	Shared=No	6	mod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
