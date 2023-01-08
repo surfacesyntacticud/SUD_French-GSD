@@ -1203,8 +1203,8 @@
 2	verra	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	puits	puits	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	mod	_	ExtPos=ADV|Idiom=Yes
-6	plus	plus	ADV	_	_	5	unk	_	InIdiom=Yes
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	plus	plus	ADV	_	_	7	mod	_	_
 7	profond	profond	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
 8	de	de	ADP	_	_	4	udep	_	_
 9	France	France	PROPN	_	_	8	comp:obj	_	_
@@ -3530,8 +3530,8 @@
 # text = Le bâtiment le plus imposant est l'église, avec son gavit.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	mod	_	ExtPos=ADV|Idiom=Yes
-4	plus	plus	ADV	_	_	3	unk	_	InIdiom=Yes
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	plus	plus	ADV	_	_	5	mod	_	_
 5	imposant	imposant	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
@@ -4615,8 +4615,8 @@
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	villes	ville	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	_
 23	fantômes	fantôme	ADJ	_	Gender=Fem|Number=Plur	22	mod	_	_
-24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	mod	_	ExtPos=ADV|Idiom=Yes
-25	plus	plus	ADV	_	_	24	unk	_	InIdiom=Yes
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+25	plus	plus	ADV	_	_	26	mod	_	_
 26	connues	connu	ADJ	_	Gender=Fem|Number=Plur	22	mod	_	_
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	26	mod	_	_
@@ -6057,8 +6057,8 @@
 37	de	de	ADP	_	_	36	udep	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
 39	quasars	quasar	NOUN	_	Gender=Masc|Number=Plur	37	comp:obj	_	_
-40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	mod	_	ExtPos=ADV|Idiom=Yes
-41	plus	plus	ADV	_	_	40	unk	_	InIdiom=Yes
+40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
+41	plus	plus	ADV	_	_	42	mod	_	_
 42	lointains	lointain	ADJ	_	Gender=Masc|Number=Plur	39	mod	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -9815,8 +9815,8 @@
 12	toujours	toujours	ADV	_	Shared=No	11	mod	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	solution	solution	NOUN	_	Gender=Fem|Number=Sing|Shared=No	11	comp:obj	_	_
-15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	mod	_	ExtPos=ADV|Idiom=Yes
-16	plus	plus	ADV	_	_	15	unk	_	InIdiom=Yes
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	plus	plus	ADV	_	_	17	mod	_	_
 17	adaptée	adapté	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	_
 18	à	à	ADP	_	_	17	comp:obl	_	_
 19	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	20	det	_	_
@@ -10297,8 +10297,8 @@
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	preuve	preuve	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	mod	_	ExtPos=ADV|Idiom=Yes
-8	plus	plus	ADV	_	_	7	unk	_	InIdiom=Yes
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	plus	plus	ADV	_	_	9	mod	_	_
 9	évidente	évident	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
 10	permettant	permettre	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	_
 11	d'	de	ADP	_	_	10	comp:obj	_	SpaceAfter=No
@@ -30832,8 +30832,8 @@
 # text = L'année la plus meurtrière avait été 2002 avec 6.995 décès.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
 2	année	année	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	mod	_	ExtPos=ADV|Idiom=Yes
-4	plus	plus	ADV	_	_	3	unk	_	InIdiom=Yes
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	plus	plus	ADV	_	_	5	mod	_	_
 5	meurtrière	meurtrier	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
@@ -37678,8 +37678,8 @@
 18	de	de	ADP	_	_	17	comp:obl	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	technologies	technologie	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	_
-21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	mod	_	ExtPos=ADV|Idiom=Yes
-22	plus	plus	ADV	_	_	21	unk	_	InIdiom=Yes
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+22	plus	plus	ADV	_	_	23	mod	_	_
 23	avancées	avancé	ADJ	_	Gender=Fem|Number=Plur	20	mod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	1	punct	_	_
 25	Captain	Captain	PROPN	_	_	27	subj@pass	_	_
