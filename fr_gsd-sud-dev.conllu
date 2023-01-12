@@ -6321,7 +6321,7 @@
 32	n'	ne	ADV	_	Polarity=Neg	33	mod	_	SpaceAfter=No
 33	étant	être	AUX	_	Tense=Pres|VerbForm=Part	22	mod	_	_
 34	pas	pas	ADV	_	Polarity=Neg	33	mod	_	_
-35	encore	encore	ADV	_	_	33	mod	_	_
+35	encore	encore	ADV	_	_	34	mod	_	_
 36	assez	assez	ADV	_	_	37	mod	_	_
 37	répandu	répandu	ADJ	_	Gender=Masc|Number=Sing	33	comp:pred	_	_
 38	avant	avant	ADP	_	_	33	mod	_	_
