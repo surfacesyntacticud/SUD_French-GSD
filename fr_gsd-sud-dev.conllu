@@ -236,7 +236,7 @@
 31	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
 32	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	30	comp:obj	_	_
 33-34	au	_	_	_	_	_	_	_	_
-33	à	à	ADP	_	_	30	mod	_	_
+33	à	à	ADP	_	_	30	comp:obl	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	Front	Front	PROPN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
 36	Polisario	Polisario	PROPN	_	_	35	flat@name	_	_
@@ -411,7 +411,7 @@
 18	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	mod@relcl	_	_
 19	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20	réélu	réélire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@pass	_	_
-21	par	par	ADP	_	_	18	mod	_	_
+21	par	par	ADP	_	_	20	mod	_	_
 22	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
 23	point	point	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	18	punct	_	_
