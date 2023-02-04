@@ -22692,7 +22692,7 @@
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
-20	remis	remettre	VERB	_	Mood=Ind|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Fin	6	mod@relcl	_	CorrectForm=remit
+20	remis	remettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	6	mod@relcl	_	CorrectForm=remit
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -31983,7 +31983,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	même	même	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 7	incident	incident	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
-8	rapporté	rapporter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=rapporte
+8	rapporté	rapporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=rapporte
 9	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
