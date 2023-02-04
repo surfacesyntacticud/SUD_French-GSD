@@ -8098,7 +8098,7 @@
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00287
-# text = Livré aux Britanniques et adaptés par eux, le M10 prit le nom dAchilles.
+# text = Livré aux Britanniques et adaptés par eux, le M10 prit le nom d'Achilles.
 1	Livré	livrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	Subject=Instantiated|wordform=livré
 2-3	aux	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
@@ -8114,8 +8114,9 @@
 12	prit	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	nom	nom	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
-15	dAchilles	dAchilles	PROPN	_	_	14	appos	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	12	punct	_	_
+15	d'	de	ADP	_	_	14	mod	_	SpaceAfter=No
+16	Achilles	Achilles	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_00288
 # text = La base de données, fondée en 1990 par Col Needham, de l'université de Cardiff (Pays de Galles), était à l'origine une collection de scripts pouvant être utilisés afin d'effectuer des recherches dans les FAQ postés dans les groupes de discussion Usenet rec.arts.movies.
@@ -21214,7 +21215,7 @@
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00770
-# text = GNER s'est engagée à moderniser ses HST dans le cadre de sa nouvelle concession pour les porter au même standard Mallard que son parc dIntercity 225 récemment réhabilité.
+# text = GNER s'est engagée à moderniser ses HST dans le cadre de sa nouvelle concession pour les porter au même standard Mallard que son parc d'Intercity 225 récemment réhabilité.
 1	GNER	GNER	PROPN	_	_	3	subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	comp:obj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21242,11 +21243,12 @@
 24	que	que	SCONJ	_	_	21	comp:obl	_	_
 25	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	26	det	_	_
 26	parc	parc	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
-27	dIntercity	dIntercity	PROPN	_	_	26	appos	_	_
-28	225	225	NUM	_	Number=Plur	27	mod	_	_
-29	récemment	récemment	ADV	_	_	30	mod	_	_
-30	réhabilité	réhabiliter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	mod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	3	punct	_	_
+27	d'	de	ADP	_	_	26	mod	_	SpaceAfter=No
+28	Intercity	Intercity	PROPN	_	_	27	comp:obj	_	_
+29	225	225	NUM	_	Number=Plur	28	mod	_	_
+30	récemment	récemment	ADV	_	_	31	mod	_	_
+31	réhabilité	réhabiliter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	mod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00771
 # text = La plaque est recouverte d'une feuille de papier gravure préalablement humidifiée, recouverte de langes et passée sous presse.
