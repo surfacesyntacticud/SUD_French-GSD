@@ -22692,7 +22692,7 @@
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
-20	remis	remettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Fin	6	mod@relcl	_	CorrectForm=remit
+20	remis	remettre	VERB	_	Mood=Ind|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Fin	6	mod@relcl	_	CorrectForm=remit
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
