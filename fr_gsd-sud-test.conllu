@@ -3202,7 +3202,7 @@
 24	limite	limite	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 25	de	de	ADP	_	_	24	udep	_	_
 26	80	80	NUM	_	Number=Plur	27	det	_	_
-27	mg	mg	NOUN	_	Number=Plur	25	comp:obj	_	SpaceAfter=No
+27	mg	mg	NOUN	_	Gender=Masc|Number=Plur	25	comp:obj	_	SpaceAfter=No
 28	/	/	SYM	_	_	27	udep	_	ExtPos=ADP|SpaceAfter=No
 29	100	100	NUM	_	_	30	det	_	_
 30	ml	ml	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
