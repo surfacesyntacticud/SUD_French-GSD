@@ -1520,7 +1520,7 @@
 15	territoires	territoire	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
 16	occupés	occupé	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	_
 17	comme	comme	ADP	_	_	11	udep	_	_
-18	Mme	madame	PROPN	_	_	17	comp:obj	_	_
+18	Mme	Mme	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 19	Haïder	Haïder	PROPN	_	_	18	flat@name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	1	punct	_	_
 21	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	comp@pass	_	SpaceAfter=No
