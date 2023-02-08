@@ -16806,7 +16806,7 @@
 30	qui	qui	PRON	_	PronType=Rel	31	subj	_	_
 31	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	mod@relcl	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	ExtPos=PRON|Idiom=Yes
-33	plus	plus	ADV	_	Gender=Masc|Number=Sing	31	comp:obj	_	ExtPos=PRON|InIdiom=Yes
+33	plus	plus	ADV	_	_	31	comp:obj	_	ExtPos=PRON|InIdiom=Yes
 34	de	de	ADP	_	_	33	comp:obl	_	_
 35	lecteurs	lecteur	NOUN	_	Gender=Masc|Number=Plur	34	comp:obj	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
@@ -34041,7 +34041,7 @@
 9	exquises	exquis	ADJ	_	Gender=Fem|Number=Plur	8	comp:pred	_	_
 10	avec	avec	ADP	_	_	8	mod	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
-12	peu	peu	ADV	_	Gender=Masc|Number=Sing	10	comp:obj	_	ExtPos=PRON|Idiom=Yes
+12	peu	peu	ADV	_	_	10	comp:obj	_	ExtPos=PRON|Idiom=Yes
 13	de	de	ADP	_	_	12	comp:obl	_	_
 14	sauce	sauce	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	!	!	PUNCT	_	_	2	punct	_	_
