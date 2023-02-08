@@ -4366,7 +4366,8 @@
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00160
-# text = Sigismond II utilise le meurtre de son émissaire Lancki par le fils du landmeister comme prétexte pour envahir le sud de la Livonie avec une armée de hommes.
+# text = Sigismond II utilise le meurtre de son émissaire Lancki par le fils du landmeister comme prétexte pour envahir le sud de la Livonie avec une armée de 80 000 hommes.
+# source = https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Pasvalys
 1	Sigismond	Sigismond	PROPN	_	_	3	subj	_	_
 2	II	II	NUM	_	Number=Plur	1	mod	_	_
 3	utilise	utiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4396,8 +4397,9 @@
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	armée	armée	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 28	de	de	ADP	_	_	27	udep	_	_
-29	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	28	comp:obj	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	3	punct	_	_
+29	80 000	80 000	NUM	_	Number=Plur	30	det	_	_
+30	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	28	comp:obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00161
 # text = Escles est une commune française, située dans le département des Vosges et la région Lorraine.
