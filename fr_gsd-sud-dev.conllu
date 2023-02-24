@@ -4238,6 +4238,7 @@
 
 # sent_id = fr-ud-dev_00155
 # text = L'action estimatoire permet à l'acheteur de garder la chose viciée en recevant un dédommagement (articles 1645 et 1646 du Code civil).
+# source = https://fr.wikipedia.org/wiki/Garantie_des_vices_cach%C3%A9s_en_droit_fran%C3%A7ais
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
 2	action	action	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
 3	estimatoire	estimatoire	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
