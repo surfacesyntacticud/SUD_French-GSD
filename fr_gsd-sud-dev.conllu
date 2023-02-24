@@ -5519,8 +5519,8 @@
 9	personne	personne	NOUN	_	Gender=Fem|Number=Sing|Shared=No	10	subj	_	_
 10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 11	consacrer	consacrer	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	ExtPos=PRON|Idiom=Yes
-13	plus	plus	ADV	_	_	11	comp:obj	_	ExtPos=PRON|InIdiom=Yes
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	InIdiom=Yes
+13	plus	plus	ADV	_	_	11	comp:obj	_	ExtPos=PRON|Idiom=Yes
 14	de	de	ADP	_	_	13	comp:obl	_	_
 15	temps	temps	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 16	ou	ou	CCONJ	_	_	18	cc	_	_
@@ -16808,8 +16808,8 @@
 29	septentrionales	septentrional	ADJ	_	Gender=Fem|Number=Plur	28	mod	_	_
 30	qui	qui	PRON	_	PronType=Rel	31	subj	_	_
 31	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	mod@relcl	_	_
-32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	ExtPos=PRON|Idiom=Yes
-33	plus	plus	ADV	_	_	31	comp:obj	_	ExtPos=PRON|InIdiom=Yes
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	InIdiom=Yes
+33	plus	plus	ADV	_	_	31	comp:obj	_	ExtPos=PRON|Idiom=Yes
 34	de	de	ADP	_	_	33	comp:obl	_	_
 35	lecteurs	lecteur	NOUN	_	Gender=Masc|Number=Plur	34	comp:obj	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
