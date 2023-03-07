@@ -2641,7 +2641,7 @@
 # sent_id = fr-ud-dev_00097
 # text = « Tu es donc las de la corvée politique ?
 1	«	«	PUNCT	_	_	3	punct	_	_
-2	Tu	il	PROPN	_	Gender=Masc	3	subj	_	_
+2	Tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	wordform=tu
 3	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	donc	donc	ADV	_	_	3	mod	_	_
 5	las	las	ADJ	_	Gender=Masc	3	comp:pred	_	_
@@ -3756,7 +3756,7 @@
 2	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 3	2010	2010	NUM	_	Number=Plur	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	Il	il	PROPN	_	_	8	subj	_	_
+5	Il	Il	PROPN	_	_	8	subj	_	_
 6	Seminario	Seminario	PROPN	_	_	5	flat@name	_	_
 7	Musicale	Musicale	PROPN	_	_	6	flat@name	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14075,9 +14075,9 @@
 11	atténué	atténuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
 12	par	par	ADP	_	_	11	comp:obl@agent	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	Loi	Loi	PROPN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
+14	Loi	loi	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	wordform=loi
 15	de	de	ADP	_	_	14	udep	_	_
-16	1948	1948	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
+16	1948	1948	NUM	_	Number=Plur	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	11	punct	_	_
 18	ne	ne	ADV	_	Polarity=Neg	19	mod	_	_
 19	favorise	favoriser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -35298,7 +35298,7 @@
 12	de	de	ADP	_	_	9	udep	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	CAN	CAN	PROPN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-15	2010	2010	PROPN	_	_	14	mod	_	SpaceAfter=No
+15	2010	2010	NUM	_	Number=Plur	14	mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	première	première	NOUN	_	Gender=Fem|Number=Sing	7	parataxis	_	_
@@ -35338,7 +35338,7 @@
 # sent_id = fr-ud-dev_01274
 # text = En 1992 est lancée la première version de LabVIEW pour PC sous Windows et Unix.
 1	En	en	ADP	_	_	3	mod	_	wordform=en
-2	1992	1992	PROPN	_	_	1	comp:obj	_	_
+2	1992	1992	NUM	_	Number=Plur	1	comp:obj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	lancée	lancer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_

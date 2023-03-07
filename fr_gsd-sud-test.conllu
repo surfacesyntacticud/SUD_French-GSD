@@ -4702,7 +4702,7 @@
 26	en	en	ADP	_	_	3	mod	_	_
 27	battant	battre	VERB	_	Tense=Pres|VerbForm=Part	26	comp:obj	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	XV	XV	PROPN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
+29	XV	XV	NUM	_	Number=Plur	27	comp:obj	_	_
 30	de	de	ADP	_	_	29	udep	_	_
 31	France	France	PROPN	_	_	30	comp:obj	_	_
 32	8	8	NUM	_	Number=Plur	27	mod	_	_
