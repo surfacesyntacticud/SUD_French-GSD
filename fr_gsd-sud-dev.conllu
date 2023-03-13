@@ -5290,7 +5290,7 @@
 12	pays	pays	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	»	»	PUNCT	_	_	2	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:insert	_	_
 16	déclaré	déclarer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
 17	hier	hier	ADV	_	_	15	mod	_	_
 18	sur	sur	ADP	_	_	15	mod	_	_
@@ -9549,7 +9549,7 @@
 20	ONU	ONU	PROPN	_	Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	que	que	PRON	_	Person=3|PronType=Int	26	comp:obj	_	_
-23	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
+23	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis:insert	_	SpaceAfter=No
 24	-vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	23	subj	_	wordform=vous
 25	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	26	comp:obl	_	_
 26	apporter	apporter	VERB	_	VerbForm=Inf	23	comp:obj	_	Subject=SubjRaising
@@ -13995,7 +13995,7 @@
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	Japon	Japon	PROPN	_	Gender=Masc|Number=Sing	42	comp:obj	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	_
-46	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+46	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis:insert	_	SpaceAfter=No
 47	-t-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	subj	_	wordform=il
 48	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	comp:aux@tense	_	_
 49	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	46	mod	_	_
@@ -17170,7 +17170,7 @@
 16	rongé	ronger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	SpaceAfter=No|Subject=Instantiated
 17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	parataxis	_	SpaceAfter=No
+19	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	parataxis:insert	_	SpaceAfter=No
 20	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	wordform=il
 21	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
@@ -19962,7 +19962,7 @@
 24	diplômes	diplôme	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
 25	universitaires	universitaire	ADJ	_	Gender=Masc|Number=Plur	24	mod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
-27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:insert	_	_
 28	précisé	préciser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
 29	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
 30	source	source	NOUN	_	Gender=Fem|Number=Sing	27	subj	_	SpaceAfter=No
@@ -22085,7 +22085,7 @@
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	UE	UE	PROPN	_	Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:insert	_	_
 13	souligné	souligner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	même	même	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	_
@@ -24295,7 +24295,7 @@
 21	clients	client	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	SpaceAfter=No
 22	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+24	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis:insert	_	_
 25	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	selon	selon	ADP	_	_	24	mod	_	_
@@ -27015,7 +27015,7 @@
 26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
 27	R.E.M.	R.E.M.	PROPN	_	_	24	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	17	punct	_	_
-29	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+29	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis:insert	_	SpaceAfter=No
 30	-nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	29	subj	_	wordform=nous
 31	encore	encore	ADV	_	_	29	mod	_	_
 32	R.E.M.	R.E.M.	PROPN	_	_	29	comp:pred	_	_
@@ -29805,7 +29805,7 @@
 37	reconnaissants	reconnaissant	ADJ	_	Gender=Masc|Number=Plur|Shared=No	35	comp:pred	_	SpaceAfter=No
 38	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
-40	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+40	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:insert	_	_
 41	affirmé	affirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	comp:aux@tense	_	_
 42	M.	M.	NOUN	_	Gender=Masc|Number=Sing	40	subj	_	_
 43	Benjamin	Benjamin	PROPN	_	_	42	flat@name	_	_
@@ -33982,7 +33982,7 @@
 42	abus	abus	NOUN	_	Gender=Masc|Number=Plur	40	comp:obj	_	_
 43	»	»	PUNCT	_	_	10	punct	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
-45	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+45	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis:insert	_	_
 46	ajouté	ajouter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	comp:aux@tense	_	_
 47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	jury	jury	NOUN	_	Gender=Masc|Number=Sing	45	subj	_	_
@@ -38499,7 +38499,7 @@
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	patrimoines	patrimoine	NOUN	_	Gender=Masc|Number=Plur	25	conj:coord	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	5	punct	_	_
-29	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+29	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:insert	_	_
 30	rapporté	rapporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	comp:aux@tense	_	_
 31	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	29	mod	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_

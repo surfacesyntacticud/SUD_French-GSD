@@ -3365,7 +3365,7 @@
 14	acceptées	accepter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	comp:aux@pass	_	_
 15	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis:insert	_	_
 18	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	_
@@ -3997,7 +3997,7 @@
 21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
 22	saison	saison	NOUN	_	Gender=Fem|Number=Sing	14	mod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis:insert	_	_
 25	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	MLS	MLS	PROPN	_	Gender=Fem|Number=Sing	24	subj	_	SpaceAfter=No
@@ -4339,7 +4339,7 @@
 21	plus	plus	ADV	_	_	18	mod	_	SpaceAfter=No
 22	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	3	punct	_	_
-24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:insert	_	_
 25	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 26	Véronique	Véronique	PROPN	_	_	24	subj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	3	punct	_	_
@@ -4485,7 +4485,7 @@
 13	victime	victime	NOUN	_	Gender=Fem|Number=Sing|Shared=No	11	comp:pred	_	_
 14	»	»	PUNCT	_	_	4	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis:insert	_	_
 17	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	patron	patron	NOUN	_	Gender=Masc|Number=Sing	16	subj	_	_
@@ -5827,7 +5827,7 @@
 23	»	»	PUNCT	_	_	5	punct	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	5	punct	_	_
 25	n'	ne	ADV	_	Polarity=Neg	26	mod	_	SpaceAfter=No
-26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:insert	_	_
 27	cessé	cesser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
 28	de	de	ADP	_	_	27	comp:obj	_	_
 29	répéter	répéter	VERB	_	VerbForm=Inf	28	comp:obj	_	Subject=SubjRaising
