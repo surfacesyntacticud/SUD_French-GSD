@@ -23395,7 +23395,7 @@
 25	pour	pour	ADP	_	_	20	mod	_	_
 26	être	être	AUX	_	VerbForm=Inf	25	comp:obj	_	Subject=SubjRaising
 27	torturés	torturer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	comp:aux@pass	_	_
-28	jour	jour	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
+28	jour	jour	NOUN	_	Gender=Masc|Number=Sing	27	comp:obl	_	_
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	28	conj:coord	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
@@ -39652,7 +39652,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	mod	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
-23	année	année	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
+23	année	année	NOUN	_	Gender=Fem|Number=Sing	21	comp:obl	_	_
 24	suivante	suivant	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	_
 25	dans	dans	ADP	_	_	21	mod	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
