@@ -25207,7 +25207,7 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	disposition	disposition	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	de	de	ADP	_	_	8	udep	_	_
-10	Voies	voie	PROPN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
+10	Voies	voie	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	wordform=voies
 11	Navigables	navigable	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	wordform=navigables
 12	de	de	ADP	_	_	10	udep	_	_
 13	France	France	PROPN	_	_	12	comp:obj	_	_
@@ -25232,7 +25232,7 @@
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	Rhone	Rhone	PROPN	_	Gender=Masc|Number=Sing	29	comp:obj	_	_
 32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
-33	CNR	CNR	PROPN	_	_	31	conj:appos	_	SpaceAfter=No
+33	CNR	CNR	PROPN	_	_	27	conj:appos	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	42	punct	_	_
 36	et	et	CCONJ	_	_	42	cc	_	_
