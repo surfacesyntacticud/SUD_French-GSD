@@ -33726,7 +33726,7 @@
 9	Valladolid	Valladolid	PROPN	_	_	8	comp:obj	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	entre	entrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:coord	_	_
-12	brievement	brièvement	ADV	_	Shared=No|Typo=Yes	11	mod	_	brièvement
+12	brievement	brièvement	ADV	_	Shared=No|Typo=Yes	11	mod	_	CorrectForm=brièvement
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	Shared=No	11	comp:obl	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
