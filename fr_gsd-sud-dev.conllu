@@ -2819,7 +2819,7 @@
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	malade	malade	NOUN	_	Gender=Masc|Number=Sing	17	subj	_	_
 15	compatible	compatible	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
-16	en	en	PRON	_	Person=3|PronType=Prs	17	comp:obl	_	_
+16	en	en	PRON	_	Person=3|PronType=Prs	19	comp:obl	_	_
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 18	effectivement	effectivement	ADV	_	_	17	mod	_	_
 19	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj@lvc	_	_
@@ -5571,7 +5571,7 @@
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
 20	fait	faire	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
 21	appel	appel	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj@lvc	_	_
-22	à	à	ADP	_	_	20	comp:obl	_	_
+22	à	à	ADP	_	_	21	comp:obl	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	aide	aide	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
 25	communautaire	communautaire	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	_
@@ -21182,7 +21182,7 @@
 2	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	alors	alors	ADV	_	_	2	mod	_	_
 4	appel	appel	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj@lvc	_	_
-5	à	à	ADP	_	_	2	comp:obl	_	_
+5	à	à	ADP	_	_	4	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Haganah	Haganah	PROPN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	pour	pour	ADP	_	_	2	mod	_	_
@@ -29279,7 +29279,7 @@
 8	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	subj	_	_
 9	firent	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 10	appel	appel	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj@lvc	_	_
-11	à	à	ADP	_	_	9	comp:obl	_	_
+11	à	à	ADP	_	_	10	comp:obl	_	_
 12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
 13	charpentiers	charpentier	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	métalliques	métallique	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
@@ -33491,7 +33491,7 @@
 14	de	de	ADP	_	_	13	comp:obl	_	_
 15	manière	manière	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 16	récurrente	récurrent	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
-17	à	à	ADP	_	_	12	comp:obl	_	_
+17	à	à	ADP	_	_	13	comp:obl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	publicité	publicité	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	11	punct	_	_
@@ -34234,7 +34234,7 @@
 52	riches	riche	ADJ	_	Gender=Fem|Number=Plur|Shared=No	50	mod	_	_
 53	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	comp:obj	_	_
 54	aussi	aussi	ADV	_	_	53	mod	_	_
-55	en	en	PRON	_	Person=3|PronType=Prs	57	comp:obl	_	_
+55	en	en	PRON	_	Person=3|PronType=Prs	56	comp:obl	_	_
 56	faire	faire	VERB	_	VerbForm=Inf	53	comp:obj	_	Subject=SubjRaising
 57	partie	partie	NOUN	_	Gender=Fem|Number=Sing	56	comp:obj@lvc	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	2	punct	_	_
