@@ -1,0 +1,60 @@
+% This grs transfers the "initform" feature of every token to its "form" feature and delete the second token of every dissociated amalgam.
+
+% Determination of the lemma for the first token of a dissociated amalgam.
+rule amalgam_lemma{
+pattern{N1[initform=lex.form];N2[initform=""]; N1 < N2;}
+without{N1.lemma=lex.lemma}
+commands{N1.lemma=lex.lemma}
+}
+#BEGIN lex
+form	lemma
+%--------------
+au	au
+auquel	auquel
+aux	au
+auxquelles	auquel
+du	du
+duquel	duquel
+des	des
+desquels	duquel
+desquelles	duquel
+#END
+
+% When the second token N2 of a dissociated amalgam has a dependent N3,which is not a punctuation sign, N2 is deleted and its incoming dependency is shifted to N3.
+rule shunt_initform-null{
+pattern{
+e:N1 -> N2;N2[initform=""];
+f: N2 -[^punct]-> N3}
+commands{add_edge g: N1 -> N3; g.label=e.label;
+del_edge e; del_edge f}
+}
+
+% When the second token N2 of a dissociated amalgam has a dependent N3,which is a punctuation sign, N2 is deleted and N3 is attached to the first element of the amalgam with a PUNCT dependency.
+rule rise_punct{
+pattern{
+e:N1 -> N2; N2[initform=""];
+f: N2 -[punct]-> N3}
+commands{add_edge N1 -[punct]-> N3;
+del_edge e; del_edge f}
+}
+
+% All tokens with the feature "initform=""" are the second element of a dissociated amalgam, and they are deleted.
+rule del_node_initform-null{
+pattern{N[initform=""]}
+commands{del_node N}
+}
+
+% The "initform" feature of every token is transferred to its "form" feature.
+rule change_form{
+pattern{N[form,initform]}
+commands{N.form=N.initform; del_feat N.initform}
+}
+
+strat main{
+Seq(Onf(amalgam_lemma),
+    Onf(shunt_initform-null),
+    Onf(rise_punct),
+    Onf(del_node_initform-null),
+    Onf(change_form))
+}
+

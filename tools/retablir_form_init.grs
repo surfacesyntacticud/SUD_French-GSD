@@ -1,0 +1,56 @@
+% This grs provides every token with a "initform" feature, which is different from the "form" feature in two cases, amalgams and sentence starts.
+
+% When two consecutive tokens result from the dissociation of an amalgam, the first token takes the form of the amalgam as its initform feature and the second has its initform feature empty.
+rule amalgame{
+pattern {
+N1[form=lex1.form1,!initform];
+N2[form=lex1.form2,!initform]; 
+N1 < N2}
+commands{
+N1.initform=lex1.amalgam;
+N2.initform=""}
+}
+#BEGIN lex1
+form1	form2	amalgam
+%----------------------
+à	le	au
+à	lequel	auquel
+à	les	aux
+à	lesquels	auxquels
+à	lesquelles	auxquelles
+de	le	du
+de	lequel	duquel
+de	les	des
+de	lesquels	desquels
+de	lesquelles	desquelles
+A	le	au
+A	lequel	auquel
+A	les	aux
+A	lesquels	auxquels
+A	lesquelles	auxquelles
+À	le	au
+À	lequel	auquel
+À	les	aux
+À	lesquels	auxquels
+À	lesquelles	auxquelles
+De	le	du
+De	lequel	duquel
+De	les	des
+De	lesquels	desquels
+De	lesquelles	desquelles
+#END
+
+% The "initform" feature of a sentence start is its "wordform" feature.
+rule init_sent{
+pattern{N1[wordform,!initform]}
+without{N0[upos]; N0 < N1}
+commands{N1.initform=N1.wordform}
+}
+
+% By default, the "initform" feature of a token is its "form" feature.
+rule defaut{
+pattern{N[form,!initform]}
+commands{N.initform=N.form}
+}
+
+strat main {Seq(Onf(amalgame), Onf(init_sent), Onf(defaut))}

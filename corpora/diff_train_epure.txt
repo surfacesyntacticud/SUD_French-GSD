@@ -1,0 +1,5386 @@
+69c69
+< 22	auprès	auprès	ADV	_	_	16	mod	_	_
+---
+> 22	auprès	auprès	ADV	_	_	19	mod	_	_
+
+74c74
+< 27	en	en	ADP	_	_	25	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 27	en	en	ADP	_	_	23	mod	_	ExtPos=ADV|Idiom=Yes
+
+506c506
+< 9	même	même	ADV	_	_	8	mod	_	_
+---
+> 9	même	même	ADV	_	_	11	mod	_	_
+
+685c685
+< 18	sur	sur	ADP	_	_	17	mod	_	_
+---
+> 18	sur	sur	ADP	_	_	16	mod	_	_
+
+1154c1154
+< 6	par	par	ADP	_	_	5	mod	_	_
+---
+> 6	par	par	ADP	_	_	4	mod	_	_
+
+1444c1444
+< 45	sur	sur	ADP	_	_	44	mod	_	_
+---
+> 45	sur	sur	ADP	_	_	40	mod	_	_
+
+1841c1841
+< 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	5	det	_	_
+---
+> 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	5	det	_	_
+
+1844,1845c1844,1845
+< 7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+< 8	ou	ou	CCONJ	_	_	9	cc	_	_
+---
+> 7	(	(	PUNCT	_	Shared=Yes	9	punct	_	SpaceAfter=No
+> 8	ou	ou	CCONJ	_	Shared=Yes	9	cc	_	_
+
+1851c1851
+< 14	...	...	PUNCT	_	Shared=Yes	11	punct	_	SpaceAfter=No
+---
+> 14	...	...	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+2048,2049c2048,2049
+< 13	États-Unis	États-Unis	PROPN	_	Number=Plur|Shared=No	11	comp:obj	_	SpaceAfter=No
+< 14	,	,	PUNCT	_	_	15	punct	_	_
+---
+> 13	États-Unis	États-Unis	PROPN	_	Number=Plur	11	comp:obj	_	SpaceAfter=No
+> 14	,	,	PUNCT	_	_	16	punct	_	_
+
+2240c2240
+< 14	rincer	rincer	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
+---
+> 14	rincer	rincer	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=ObjRaising
+
+3533,3534c3533,3534
+< 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	17	det	_	_
+< 16	seul	seul	ADJ	_	Gender=Masc|Number=Sing|Shared=No	17	mod	_	_
+---
+> 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	17	det	_	_
+> 16	seul	seul	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	_
+
+3702c3702
+< 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	18	det	_	_
+---
+> 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+
+4477c4477
+< 29	,	,	PUNCT	_	_	28	punct	_	_
+---
+> 29	,	,	PUNCT	_	_	55	punct	_	_
+
+5089c5089
+< 28	,	,	PUNCT	_	_	26	punct	_	_
+---
+> 28	,	,	PUNCT	_	_	31	punct	_	_
+
+5135c5135
+< 21	,	,	PUNCT	_	_	22	punct	_	_
+---
+> 21	,	,	PUNCT	_	_	23	punct	_	_
+
+5201c5201
+< 14	bombs	bombs	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|SpaceAfter=No
+---
+> 14	bombs	bombs	X	_	Foreign=Yes|Shared=No	13	flat@foreign	_	Lang=en|SpaceAfter=No
+
+5210c5210
+< 5	avec	avec	ADP	_	_	4	mod	_	_
+---
+> 5	avec	avec	ADP	_	_	3	mod	_	_
+
+5447c5447
+< 6	autour	autour	ADV	_	_	5	mod	_	_
+---
+> 6	autour	autour	ADV	_	_	3	mod	_	_
+
+5543c5543
+< 9	et	et	CCONJ	_	_	10	cc	_	_
+---
+> 9	et	et	CCONJ	_	Shared=Yes	10	cc	_	_
+
+5545c5545
+< 11	ordonné	ordonner	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	10	comp:aux@pass	_	_
+---
+> 11	ordonné	ordonner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@pass	_	_
+
+5551c5551
+< 17	inductif	inductif	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+---
+> 17	inductif	inductif	ADJ	_	Gender=Masc|Number=Sing	10	conj@emb	_	SpaceAfter=No
+
+5601c5601
+< 46	et	et	CCONJ	_	Shared=No	47	cc	_	_
+---
+> 46	et	et	CCONJ	_	Shared=Yes	47	cc	_	_
+
+5868c5868
+< 7	actions	action	NOUN	_	Gender=Fem|Number=Plur	13	subj	_	_
+---
+> 7	actions	action	NOUN	_	Gender=Fem|Number=Plur|Shared=No	13	subj	_	_
+
+6129c6129
+< 34	dans	dans	ADP	_	_	33	mod	_	_
+---
+> 34	dans	dans	ADP	_	_	31	mod	_	_
+
+6371,6372c6371,6372
+< 20	et	et	CCONJ	_	Shared=No	30	cc	_	SpaceAfter=No
+< 21	,	,	PUNCT	_	_	20	punct	_	_
+---
+> 20	et	et	CCONJ	_	Shared=Yes	30	cc	_	SpaceAfter=No
+> 21	,	,	PUNCT	_	Shared=Yes	30	punct	_	_
+
+7156c7156
+< 43	de	de	ADP	_	_	42	mod	_	_
+---
+> 43	de	de	ADP	_	_	40	mod	_	_
+
+7212c7212
+< 30	seulement	seulement	ADV	_	_	27	mod	_	SpaceAfter=No
+---
+> 30	seulement	seulement	ADV	_	_	25	mod	_	SpaceAfter=No
+
+7696c7696
+< 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	mod	_	_
+---
+> 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	mod	_	_
+
+8444,8445c8444,8445
+< 19	01	01	NUM	_	Number=Plur	17	conj@emb	_	_
+< 20	et	et	CCONJ	_	Shared=No	21	cc	_	_
+---
+> 19	01	01	NUM	_	Number=Plur	17	conj	_	_
+> 20	et	et	CCONJ	_	Shared=Yes	21	cc	_	_
+
+9751c9751
+< 17	sous	sous	ADP	_	_	16	mod	_	_
+---
+> 17	sous	sous	ADP	_	_	15	mod	_	_
+
+9755c9755
+< 21	,	,	PUNCT	_	_	22	punct	_	_
+---
+> 21	,	,	PUNCT	_	Shared=Yes	22	punct	_	_
+
+9760,9761c9760,9761
+< 26	mais	mais	CCONJ	_	Shared=No	28	cc	_	_
+< 27	aussi	aussi	ADV	_	Shared=Yes	28	mod	_	_
+---
+> 26	mais	mais	CCONJ	_	Shared=Yes	28	cc	_	_
+> 27	aussi	aussi	ADV	_	_	28	mod	_	_
+
+10018c10018
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	4	punct	_	_
+
+10370c10370
+< 18	dans	dans	ADP	_	_	17	mod	_	_
+---
+> 18	dans	dans	ADP	_	_	15	mod	_	_
+
+10473c10473
+< 39	par	par	ADP	_	_	37	comp:obl@agent	_	_
+---
+> 39	par	par	ADP	_	_	38	comp:obl@agent	_	_
+
+10540c10540
+< 4	dans	dans	ADP	_	_	3	mod	_	_
+---
+> 4	dans	dans	ADP	_	_	2	mod	_	_
+
+11102c11102
+< 4	à	à	ADP	_	_	3	mod	_	_
+---
+> 4	à	à	ADP	_	_	2	mod	_	_
+
+11484c11484
+< 47	--	--	PUNCT	_	_	46	punct	_	SpaceAfter=No
+---
+> 47	--	--	PUNCT	_	Shared=No	44	punct	_	SpaceAfter=No
+
+11522,11523c11522,11523
+< 24	avec	avec	ADP	_	_	23	mod	_	_
+< 25	rattrape	rattraper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+---
+> 24	avec	avec	ADP	_	_	23	unk	_	_
+> 25	rattrape	rattraper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+
+11862c11862
+< 30	mais	mais	CCONJ	_	Shared=No	31	cc	_	_
+---
+> 30	mais	mais	CCONJ	_	Shared=Yes	31	cc	_	_
+
+12386c12386
+< 7	en	en	ADP	_	_	6	mod	_	_
+---
+> 7	en	en	ADP	_	_	3	mod	_	_
+
+12605c12605
+< 40	dont	dont	PRON	_	PronType=Rel	44	mod	_	_
+---
+> 40	dont	dont	PRON	_	PronType=Rel	43	mod	_	_
+
+12997c12997
+< 18	,	,	PUNCT	_	_	17	punct	_	_
+---
+> 18	,	,	PUNCT	_	_	22	punct	_	_
+
+13106c13106
+< 5	donner	donner	VERB	_	VerbForm=Inf	3	comp:pred	_	Subject=SubjRaising
+---
+> 5	donner	donner	VERB	_	VerbForm=Inf	3	comp:pred	_	Subject=ObjRaising
+
+13120c13120
+< 19	,	,	PUNCT	_	_	18	punct	_	_
+---
+> 19	,	,	PUNCT	_	_	23	punct	_	_
+
+13265c13265
+< 18	mais	mais	CCONJ	_	Shared=No	19	cc	_	_
+---
+> 18	mais	mais	CCONJ	_	Shared=Yes	19	cc	_	_
+
+14503c14503
+< 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	2	det	_	wordform=la
+---
+> 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
+
+15202c15202
+< 2	défense	défense	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	14	dislocated	_	_
+---
+> 2	défense	défense	NOUN	_	Gender=Fem|Number=Sing	14	dislocated	_	_
+
+15554c15554
+< 38	auprès	auprès	ADV	_	_	36	mod	_	_
+---
+> 38	auprès	auprès	ADV	_	_	34	mod	_	_
+
+15774c15774
+< 10	en	en	ADP	_	_	9	mod	_	_
+---
+> 10	en	en	ADP	_	_	7	mod	_	_
+
+16322c16322
+< 27	et	et	CCONJ	_	Shared=No	29	cc	_	_
+---
+> 27	et	et	CCONJ	_	Shared=Yes	29	cc	_	_
+
+16675c16675
+< 14	modifié	modifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:pred	_	SpaceAfter=No|Subject=SubjRaising
+---
+> 14	modifié	modifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:pred	_	SpaceAfter=No|Subject=ObjRaising
+
+17314c17314
+< 17	,	,	PUNCT	_	_	18	punct	_	_
+---
+> 17	,	,	PUNCT	_	_	20	punct	_	_
+
+17511c17511
+< 15	contrôle	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj@emb	_	_
+---
+> 15	contrôle	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+
+17513c17513
+< 17	château	château	NOUN	_	Gender=Masc|Number=Sing|Shared=No	15	comp:obj	_	_
+---
+> 17	château	château	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
+
+18678c18678
+< 7	avoir	avoir	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=OblRaising
+---
+> 7	avoir	avoir	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
+
+18865c18865
+< 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	13	det	_	_
+---
+> 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	13	det	_	_
+
+19235c19235
+< 18	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	14	mod	_	Subject=Instantiated
+---
+> 18	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	15	mod	_	Subject=Instantiated
+
+19609,19610c19609,19610
+< 9	rameaux	rameau	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	7	comp:obj	_	_
+< 10	d'	de	ADP	_	Shared=No	12	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+---
+> 9	rameaux	rameau	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
+> 10	d'	de	ADP	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+
+19903c19903
+< 13	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	14	det	_	wordform=une
+---
+> 13	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	wordform=une
+
+20883c20883
+< 8	excédé	excéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:pred	_	Subject=SubjRaising
+---
+> 8	excédé	excéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:pred	_	Subject=ObjRaising
+
+23431c23431
+< 12	découvrir	découvrir	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
+---
+> 12	découvrir	découvrir	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=ObjRaising
+
+23663c23663
+< 5	,	,	PUNCT	_	_	4	punct	_	_
+---
+> 5	,	,	PUNCT	_	_	10	punct	_	_
+
+23829c23829
+< 6	"	"	PUNCT	_	Shared=Yes	7	punct	_	SpaceAfter=No
+---
+> 6	"	"	PUNCT	_	Shared=No	7	punct	_	SpaceAfter=No
+
+24409c24409
+< 14	allant	aller	VERB	_	Tense=Pres|VerbForm=Part	10	mod	_	Subject=Instantiated
+---
+> 14	allant	aller	VERB	_	Tense=Pres|VerbForm=Part	12	mod	_	Subject=Instantiated
+
+24980c24980
+< 6	dans	dans	ADP	_	_	5	mod	_	_
+---
+> 6	dans	dans	ADP	_	_	3	mod	_	_
+
+25418c25418
+< 13	fin	fin	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj@lvc	_	_
+---
+> 13	fin	fin	NOUN	_	Gender=Fem|Number=Sing|Shared=No	12	comp:obj@lvc	_	_
+
+25420c25420
+< 14	à	à	ADP	_	_	12	comp:obl	_	_
+---
+> 14	à	à	ADP	_	Shared=No	12	comp:obl	_	_
+
+25426c25426
+< 20	,	,	PUNCT	_	_	12	punct	_	_
+---
+> 20	,	,	PUNCT	_	Shared=No	12	punct	_	_
+
+25820c25820
+< 34	4	4	NUM	_	Number=Sing	31	mod	_	_
+---
+> 34	4	4	NUM	_	Number=Sing	32	mod	_	_
+
+27705c27705
+< 14	:	:	PUNCT	_	_	15	punct	_	_
+---
+> 14	:	:	PUNCT	_	Shared=Yes	15	punct	_	_
+
+28288c28288
+< 31	de	de	ADP	_	_	23	conj	_	_
+---
+> 31	de	de	ADP	_	_	21	conj@emb	_	_
+
+28290,28291c28290,28291
+< 33	fraîcheur	fraîcheur	NOUN	_	Gender=Fem|Number=Sing|Shared=No	31	comp:obj	_	SpaceAfter=No
+< 34	)	)	PUNCT	_	Shared=No	31	punct	_	SpaceAfter=No
+---
+> 33	fraîcheur	fraîcheur	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	SpaceAfter=No
+> 34	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+28295c28295
+< 38	pizzas	pizza	NOUN	_	Gender=Fem|Number=Plur	21	conj@emb	_	_
+---
+> 38	pizzas	pizza	NOUN	_	Gender=Fem|Number=Plur	31	conj@emb	_	_
+
+28856c28856
+< 3	d'	de	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+---
+> 3	d'	de	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+
+29782c29782
+< 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	2	det	_	wordform=le
+---
+> 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+
+29785c29785
+< 4	/	/	SYM	_	Shared=No	5	cc	_	ExtPos=CCONJ|SpaceAfter=No
+---
+> 4	/	/	SYM	_	Shared=Yes	5	cc	_	ExtPos=CCONJ|SpaceAfter=No
+
+30791c30791
+< 21	en	en	ADP	_	_	20	mod	_	_
+---
+> 21	en	en	ADP	_	_	18	mod	_	_
+
+31300c31300
+< 14	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	6	parataxis	_	_
+---
+> 14	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	10	parataxis	_	_
+
+32043c32043
+< 17	,	,	PUNCT	_	_	16	punct	_	_
+---
+> 17	,	,	PUNCT	_	_	21	punct	_	_
+
+32173c32173
+< 14	proposer	proposer	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
+---
+> 14	proposer	proposer	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=ObjRaising
+
+32437,32438c32437,32438
+< 30	,	,	PUNCT	_	_	32	punct	_	_
+< 31	mais	mais	CCONJ	_	_	32	cc	_	_
+---
+> 30	,	,	PUNCT	_	Shared=Yes	32	punct	_	_
+> 31	mais	mais	CCONJ	_	Shared=Yes	32	cc	_	_
+
+32441c32441
+< 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	32	comp:obj	_	_
+---
+> 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	comp:obj	_	_
+
+32444c32444
+< 37	comme	comme	SCONJ	_	_	35	conj	_	_
+---
+> 37	comme	comme	SCONJ	_	_	32	conj@emb	_	_
+
+33094c33094
+< 72	»	»	PUNCT	_	_	71	punct	_	SpaceAfter=No
+---
+> 72	»	»	PUNCT	_	_	69	punct	_	SpaceAfter=No
+
+33116c33116
+< 9	comme	comme	ADP	_	_	8	mod	_	_
+---
+> 9	comme	comme	ADP	_	_	6	mod	_	_
+
+33851c33851
+< 9	avec	avec	ADP	_	_	8	mod	_	_
+---
+> 9	avec	avec	ADP	_	_	5	mod	_	_
+
+34308c34308
+< 7	pour	pour	ADP	_	_	3	mod	_	_
+---
+> 7	pour	pour	ADP	_	_	6	mod	_	_
+
+34469c34469
+< 24	plus	plus	ADV	_	Shared=No	26	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 24	plus	plus	ADV	_	_	23	mod	_	ExtPos=ADV|Idiom=Yes
+
+34619c34619
+< 12	,	,	PUNCT	_	_	11	punct	_	_
+---
+> 12	,	,	PUNCT	_	_	22	punct	_	_
+
+34894c34894
+< 5	et	et	CCONJ	_	Shared=No	9	cc	_	_
+---
+> 5	et	et	CCONJ	_	Shared=Yes	9	cc	_	_
+
+36442c36442
+< 21	à	à	ADP	_	_	17	mod	_	_
+---
+> 21	à	à	ADP	_	_	19	udep	_	_
+
+36958c36958
+< 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=Yes	2	subj	_	SpaceAfter=No|wordform=c'
+---
+> 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No|wordform=c'
+
+37017c37017
+< 3	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
+---
+> 3	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	7	subj	_	_
+
+37305c37305
+< 9	:	:	PUNCT	_	Shared=Yes	12	punct	_	_
+---
+> 9	:	:	PUNCT	_	Shared=No	12	punct	_	_
+
+37800c37800
+< 10	et	et	CCONJ	_	Shared=No	11	cc	_	_
+---
+> 10	et	et	CCONJ	_	Shared=Yes	11	cc	_	_
+
+37804c37804
+< 14	pour	pour	ADP	_	_	13	mod	_	_
+---
+> 14	pour	pour	ADP	_	_	13	unk	_	_
+
+37876c37876
+< 15	position	position	X	_	Foreign=Yes	14	flat:foreign	_	Lang=en
+---
+> 15	position	position	X	_	Foreign=Yes	14	flat@foreign	_	Lang=en
+
+37930c37930
+< 7	puis	puis	CCONJ	_	_	8	cc	_	_
+---
+> 7	puis	puis	CCONJ	_	Shared=Yes	8	cc	_	_
+
+38587c38587
+< 20	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	21	det	_	wordform=le
+---
+> 20	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	wordform=le
+
+39857,39859c39857,39859
+< 1	Mais	mais	CCONJ	_	Shared=No	12	cc	_	SpaceAfter=No|wordform=mais
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+< 3	contrairement	contrairement	ADV	_	Shared=No	12	mod	_	_
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	12	cc	_	SpaceAfter=No|wordform=mais
+> 2	,	,	PUNCT	_	Shared=Yes	12	punct	_	_
+> 3	contrairement	contrairement	ADV	_	Shared=Yes	12	mod	_	_
+
+40622c40622
+< 26	qu'	que	SCONJ	_	_	4	comp:cleft	_	SpaceAfter=No
+---
+> 26	qu'	que	SCONJ	_	Shared=Yes	16	comp:cleft	_	SpaceAfter=No
+
+41297c41297
+< 4	en	en	ADP	_	_	3	mod	_	_
+---
+> 4	en	en	ADP	_	_	2	mod	_	_
+
+42240c42240
+< 54	et	et	CCONJ	_	Shared=No	56	cc	_	_
+---
+> 54	et	et	CCONJ	_	Shared=Yes	56	cc	_	_
+
+43203c43203
+< 7	avec	avec	ADP	_	_	4	comp:obl	_	_
+---
+> 7	avec	avec	ADP	_	_	5	comp:obl	_	_
+
+43328c43328
+< 23	et	et	CCONJ	_	Shared=No	25	cc	_	_
+---
+> 23	et	et	CCONJ	_	Shared=Yes	25	cc	_	_
+
+44615c44615
+< 5	pas	pas	NOUN	_	Gender=Masc|Number=Plur	6	mod	_	_
+---
+> 5	pas	pas	NOUN	_	Gender=Masc|Number=Plur	2	mod	_	_
+
+44622c44622
+< 11	à	à	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 11	à	à	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
+
+45098,45099c45098,45099
+< 2	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+< 3	ou	ou	CCONJ	_	_	4	cc	_	_
+---
+> 2	(	(	PUNCT	_	Shared=Yes	4	punct	_	SpaceAfter=No
+> 3	ou	ou	CCONJ	_	Shared=Yes	4	cc	_	_
+
+45103c45103
+< 7	)	)	PUNCT	_	Shared=No	4	punct	_	_
+---
+> 7	)	)	PUNCT	_	_	4	punct	_	_
+
+45111c45111
+< 15	22	22	NUM	_	Number=Sing	11	comp:arg	_	_
+---
+> 15	22	22	NUM	_	Number=Sing	11	comp	_	_
+
+45913c45913
+< 12	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	10	comp:aux@caus	_	CorrectForm=appeler|CorrectVerbForm=Inf
+---
+> 12	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	10	comp:aux@caus	_	CorrectForm=appeler|CorrectVerbForm=Inf|Subject=ObjRaising
+
+46326c46326
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	24	punct	_	_
+
+46413c46413
+< 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	reparandum	_	_
+---
+> 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	reparandum	_	_
+
+46987c46987
+< 18	menacé	menacer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:pred	_	SpaceAfter=No|Subject=SubjRaising
+---
+> 18	menacé	menacer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:pred	_	SpaceAfter=No|Subject=ObjRaising
+
+48129c48129
+< 1	(	(	PUNCT	_	Shared=Yes	2	punct	_	SpaceAfter=No
+---
+> 1	(	(	PUNCT	_	Shared=No	2	punct	_	SpaceAfter=No
+
+48473c48473
+< 8	aussi	aussi	ADV	_	_	9	mod	_	_
+---
+> 8	aussi	aussi	ADV	_	_	6	mod	_	_
+
+48501c48501
+< 14	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	15	det	_	wordform=la
+---
+> 14	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	wordform=la
+
+48575c48575
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	9	punct	_	_
+
+48802c48802
+< 37	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	38	det	_	_
+---
+> 37	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	38	det	_	_
+
+48940c48940
+< 10	proche	proche	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
+---
+> 10	proche	proche	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
+
+50450c50450
+< 30	mais	mais	CCONJ	_	Shared=No	33	cc	_	_
+---
+> 30	mais	mais	CCONJ	_	Shared=Yes	33	cc	_	_
+
+50492c50492
+< 11	ment	mentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj@emb	_	SpaceAfter=No
+---
+> 11	ment	mentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+
+50516c50516
+< 9	pour	pour	ADP	_	_	3	mod	_	_
+---
+> 9	pour	pour	ADP	_	_	2	mod	_	_
+
+50520c50520
+< 13	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	3	parataxis	_	_
+---
+> 13	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	2	parataxis	_	_
+
+50598c50598
+< 5	pour	pour	ADP	_	_	4	mod	_	_
+---
+> 5	pour	pour	ADP	_	_	2	mod	_	_
+
+50611c50611
+< 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	19	det	_	_
+---
+> 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+
+50815c50815
+< 10	plus	plus	ADV	_	Polarity=Neg	11	mod	_	_
+---
+> 10	plus	plus	ADV	_	Polarity=Neg	9	mod	_	_
+
+51118c51118
+< 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	6	det	_	_
+---
+> 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+
+51294,51295c51294,51295
+< 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
+< 12	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp:obj	_	SpaceAfter=No
+---
+> 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	13	subj	_	_
+> 12	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	13	comp:obj	_	SpaceAfter=No
+
+52446c52446
+< 1	Mais	mais	CCONJ	_	Shared=No	6	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	_	6	cc	_	wordform=mais
+
+53165,53166c53165,53166
+< 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	6	det	_	_
+< 5	deux	deux	NUM	_	Number=Plur|Shared=No	6	mod	_	_
+---
+> 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+> 5	deux	deux	NUM	_	Number=Plur	6	mod	_	_
+
+53174c53174
+< 12	et	et	CCONJ	_	Shared=No	13	cc	_	_
+---
+> 12	et	et	CCONJ	_	Shared=Yes	13	cc	_	_
+
+53636c53636
+< 12	enfermés	enfermer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:pred	_	Subject=SubjRaising
+---
+> 12	enfermés	enfermer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:pred	_	Subject=ObjRaising
+
+54108c54108
+< 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing|PronType=Ind	4	mod	_	_
+---
+> 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing|PronType=Ind	2	mod	_	_
+
+54398c54398
+< 15	près	près	ADV	_	_	8	mod	_	_
+---
+> 15	près	près	ADV	_	_	7	mod	_	_
+
+54603c54603
+< 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=Yes	2	subj	_	SpaceAfter=No|wordform=c'
+---
+> 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No|wordform=c'
+
+54606c54606
+< 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+---
+> 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	5	det	_	_
+
+54713c54713
+< 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	2	det	_	wordform=les
+---
+> 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
+
+55011c55011
+< 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj@emb	_	_
+---
+> 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+
+55013c55013
+< 11	agréable	agréable	ADJ	_	Gender=Fem|Number=Sing|Shared=No	9	comp:pred	_	SpaceAfter=No
+---
+> 11	agréable	agréable	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	SpaceAfter=No
+
+55993c55993
+< 75	si	si	SCONJ	_	Shared=No	68	mod	_	_
+---
+> 75	si	si	SCONJ	_	_	71	udep	_	_
+
+56031c56031
+< 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+---
+> 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	3	det	_	SpaceAfter=No
+
+56315c56315
+< 7	auprès	auprès	ADV	_	_	6	mod	_	_
+---
+> 7	auprès	auprès	ADV	_	_	3	mod	_	_
+
+56587c56587
+< 5	en	en	ADP	_	_	4	mod	_	_
+---
+> 5	en	en	ADP	_	_	3	mod	_	_
+
+56817c56817
+< 44	en	en	PRON	_	Person=3|PronType=Prs	46	mod	_	_
+---
+> 44	en	en	PRON	_	Person=3|PronType=Prs	45	mod	_	_
+
+56848c56848
+< 9	avec	avec	ADP	_	_	8	mod	_	_
+---
+> 9	avec	avec	ADP	_	_	6	mod	_	_
+
+57115c57115
+< 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	24	det	_	_
+---
+> 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+
+57219c57219
+< 40	de	de	ADP	_	_	39	udep	_	SpaceAfter=No
+---
+> 40	de	de	ADP	_	_	39	unk	_	SpaceAfter=No
+
+57371c57371
+< 5	en	en	ADP	_	_	4	mod	_	_
+---
+> 5	en	en	ADP	_	_	3	mod	_	_
+
+57692c57692
+< 27	plus	plus	ADV	_	Polarity=Neg	28	mod	_	_
+---
+> 27	plus	plus	ADV	_	Polarity=Neg	26	mod	_	_
+
+58106c58106
+< 1	Mais	mais	CCONJ	_	Shared=No	5	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	_	5	cc	_	wordform=mais
+
+58117c58117
+< 12	plus	plus	ADV	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 12	plus	plus	ADV	_	Shared=No	11	mod	_	ExtPos=ADV|Idiom=Yes
+
+58376c58376
+< 30	de	de	ADP	_	_	29	comp:obl	_	_
+---
+> 30	de	de	ADP	_	Shared=No	27	comp:obl	_	_
+
+58575c58575
+< 6	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	4	mod	_	_
+---
+> 6	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	5	mod	_	_
+
+58780c58780
+< 11	an	an	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
+---
+> 11	an	an	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	_
+
+58857c58857
+< 11	pouvant	pouvoir	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	Subject=Instantiated
+---
+> 11	pouvant	pouvoir	VERB	_	Tense=Pres|VerbForm=Part	9	mod	_	Subject=Instantiated
+
+60289c60289
+< 10	avec	avec	ADP	_	_	7	comp:obl	_	_
+---
+> 10	avec	avec	ADP	_	_	8	comp:obl	_	_
+
+61282c61282
+< 5	comme	comme	ADP	_	_	4	mod	_	_
+---
+> 5	comme	comme	ADP	_	_	2	mod	_	_
+
+61825c61825
+< 2	produits	produit	NOUN	_	Gender=Masc|Number=Plur	3	subj@pass	_	_
+---
+> 2	produits	produit	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	3	subj@pass	_	_
+
+61829c61829
+< 6	en	en	ADP	_	_	5	mod	_	_
+---
+> 6	en	en	ADP	_	_	3	mod	_	_
+
+61888c61888
+< 1	Changer	changer	VERB	_	Shared=Yes|VerbForm=Inf	13	dislocated	_	Subject=Generic|wordform=changer
+---
+> 1	Changer	changer	VERB	_	VerbForm=Inf	13	dislocated	_	Subject=Generic|wordform=changer
+
+62460c62460
+< 3	si	si	SCONJ	_	_	1	mod	_	_
+---
+> 3	si	si	SCONJ	_	_	2	mod	_	_
+
+62963,62964c62963,62964
+< 21	double	double	NOUN	_	Gender=Masc|Number=Sing	6	conj@emb	_	SpaceAfter=No
+< 22	)	)	PUNCT	_	Shared=No	21	punct	_	_
+---
+> 21	double	double	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+> 22	)	)	PUNCT	_	_	21	punct	_	_
+
+63084c63084
+< 1	Puis	puis	CCONJ	_	Shared=No	17	cc	_	wordform=puis
+---
+> 1	Puis	puis	CCONJ	_	Shared=Yes	17	cc	_	wordform=puis
+
+63213c63213
+< 9	même	même	ADV	_	_	8	mod	_	SpaceAfter=No
+---
+> 9	même	même	ADV	_	_	6	mod	_	SpaceAfter=No
+
+63741c63741
+< 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	10	subj	_	_
+---
+> 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+
+64136,64137c64136,64137
+< 13	,	,	PUNCT	_	Shared=Yes	15	punct	_	_
+< 14	tout	tout	ADV	_	Shared=No	15	mod	_	_
+---
+> 13	,	,	PUNCT	_	_	15	punct	_	_
+> 14	tout	tout	ADV	_	_	15	mod	_	_
+
+64227,64228c64227,64228
+< 30	pourquoi	pourquoi	ADV	_	Shared=No	31	mod	_	_
+< 31	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+---
+> 30	pourquoi	pourquoi	ADV	_	_	31	mod	_	_
+> 31	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+
+64478c64478
+< 28	là	là	ADV	_	_	27	comp:obl	_	_
+---
+> 28	là	là	ADV	_	_	31	comp:obl	_	_
+
+64695c64695
+< 11	,	,	PUNCT	_	Shared=Yes	16	punct	_	_
+---
+> 11	,	,	PUNCT	_	Shared=No	16	punct	_	_
+
+64860,64861c64860,64861
+< 26	,	,	PUNCT	_	Shared=No	40	punct	_	_
+< 27	mais	mais	CCONJ	_	Shared=No	40	cc	_	_
+---
+> 26	,	,	PUNCT	_	Shared=Yes	40	punct	_	_
+> 27	mais	mais	CCONJ	_	Shared=Yes	40	cc	_	_
+
+65331c65331
+< 26	marié	marier	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	25	comp:pred	_	Subject=SubjRaising
+---
+> 26	marié	marier	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	25	comp:pred	_	Subject=ObjRaising
+
+66193c66193
+< 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	23	det	_	_
+---
+> 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+
+66643c66643
+< 8	qu'	que	PRON	_	PronType=Rel|Shared=No	10	comp:obj	_	SpaceAfter=No
+---
+> 8	qu'	que	PRON	_	PronType=Rel|Shared=Yes	10	comp:obj	_	SpaceAfter=No
+
+66693c66693
+< 3	«	«	PUNCT	_	_	4	punct	_	_
+---
+> 3	«	«	PUNCT	_	Shared=Yes	4	punct	_	_
+
+66716c66716
+< 26	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	4	mod	_	_
+---
+> 26	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem|Shared=Yes	20	mod	_	_
+
+66757c66757
+< 10	à	à	ADP	_	_	9	mod	_	_
+---
+> 10	à	à	ADP	_	_	8	mod	_	_
+
+67290c67290
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	4	punct	_	_
+
+67454,67455c67454,67455
+< 10	,	,	PUNCT	_	_	14	punct	_	_
+< 11	mais	mais	CCONJ	_	Shared=No	14	cc	_	_
+---
+> 10	,	,	PUNCT	_	Shared=Yes	14	punct	_	_
+> 11	mais	mais	CCONJ	_	Shared=Yes	14	cc	_	_
+
+67770c67770
+< 24	qu'	que	SCONJ	_	_	14	mod	_	SpaceAfter=No
+---
+> 24	qu'	que	SCONJ	_	Shared=Yes	19	udep	_	SpaceAfter=No
+
+69032c69032
+< 20	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	22	det	_	_
+---
+> 20	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	21	det	_	_
+
+69037c69037
+< 25	de	de	ADP	_	_	22	udep	_	_
+---
+> 25	de	de	ADP	_	_	21	udep	_	_
+
+69495c69495
+< 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	10	det	_	SpaceAfter=No
+---
+> 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+
+69564c69564
+< 6	pour	pour	ADP	_	_	5	mod	_	_
+---
+> 6	pour	pour	ADP	_	_	3	mod	_	_
+
+69881,69882c69881,69882
+< 11	,	,	PUNCT	_	_	20	punct	_	_
+< 12	mais	mais	CCONJ	_	Shared=No	20	cc	_	_
+---
+> 11	,	,	PUNCT	_	Shared=Yes	20	punct	_	_
+> 12	mais	mais	CCONJ	_	Shared=Yes	20	cc	_	_
+
+71856c71856
+< 6	pour	pour	ADP	_	_	5	mod	_	_
+---
+> 6	pour	pour	ADP	_	_	3	mod	_	_
+
+71871,71872c71871,71872
+< 21	mais	mais	CCONJ	_	Shared=No	23	cc	_	_
+< 22	également	également	ADV	_	Shared=Yes	23	mod	_	_
+---
+> 21	mais	mais	CCONJ	_	Shared=Yes	23	cc	_	_
+> 22	également	également	ADV	_	_	23	mod	_	_
+
+73057c73057
+< 33	en	en	ADP	_	_	29	mod	_	_
+---
+> 33	en	en	ADP	_	_	30	mod	_	_
+
+73187c73187
+< 12	pour	pour	ADP	_	_	9	mod	_	_
+---
+> 12	pour	pour	ADP	_	Shared=No	8	mod	_	_
+
+74437c74437
+< 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
+---
+> 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=elle
+
+74692c74692
+< 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=Yes	2	subj	_	SpaceAfter=No|wordform=c'
+---
+> 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No|wordform=c'
+
+74695c74695
+< 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+---
+> 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	5	det	_	_
+
+75227c75227
+< 52	en	en	PRON	_	Person=3|PronType=Prs	54	mod	_	_
+---
+> 52	en	en	PRON	_	Person=3|PronType=Prs	53	mod	_	_
+
+75258c75258
+< 2	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj	_	_
+---
+> 2	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+
+75552c75552
+< 20	comme	comme	CCONJ	_	_	21	cc	_	_
+---
+> 20	comme	comme	CCONJ	_	Shared=Yes	21	cc	_	_
+
+75641c75641
+< 16	à	à	ADP	_	_	15	udep	_	ExtPos=ADJ|Idiom=Yes
+---
+> 16	à	à	ADP	_	_	15	unk	_	ExtPos=ADJ|Idiom=Yes
+
+75835c75835
+< 58	comme	comme	SCONJ	_	_	47	mod	_	_
+---
+> 58	comme	comme	SCONJ	_	Shared=Yes	50	mod	_	_
+
+75936,75938c75936,75938
+< 51	et	et	CCONJ	_	Shared=No	56	cc	_	SpaceAfter=No
+< 52	,	,	PUNCT	_	_	51	punct	_	_
+< 53	accessoirement	accessoirement	ADV	_	Shared=Yes	56	mod	_	SpaceAfter=No
+---
+> 51	et	et	CCONJ	_	Shared=Yes	56	cc	_	SpaceAfter=No
+> 52	,	,	PUNCT	_	Shared=Yes	56	punct	_	_
+> 53	accessoirement	accessoirement	ADV	_	_	56	mod	_	SpaceAfter=No
+
+76256c76256
+< 8	,	,	PUNCT	_	_	12	punct	_	_
+---
+> 8	,	,	PUNCT	_	Shared=Yes	12	punct	_	_
+
+76258c76258
+< 10	plats	plat	NOUN	_	Gender=Masc|Number=Plur	12	subj	_	_
+---
+> 10	plats	plat	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	12	subj	_	_
+
+76263c76263
+< 15	réchauffé	réchauffé	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|Typo=Yes|VerbForm=Part	12	comp:pred	_	CorrectForm=réchauffés|CorrectNumber=Plur
+---
+> 15	réchauffé	réchauffé	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	12	comp:pred	_	CorrectForm=réchauffés|CorrectNumber=Plur
+
+76272c76272
+< 23	bon	bon	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	_
+---
+> 23	bon	bon	ADJ	_	Gender=Masc|Number=Sing	12	conj@emb	_	_
+
+77954c77954
+< 15	et	et	CCONJ	_	Shared=No	17	cc	_	_
+---
+> 15	et	et	CCONJ	_	Shared=Yes	17	cc	_	_
+
+78192c78192
+< 6	être	être	AUX	_	VerbForm=Inf	2	comp:pred	_	Subject=ObjRaising
+---
+> 6	être	être	AUX	_	VerbForm=Inf	2	comp:pred	_	Subject=SubjRaising
+
+78395c78395
+< 6	près	près	ADV	_	_	5	mod	_	_
+---
+> 6	près	près	ADV	_	_	3	mod	_	_
+
+78508,78509c78508,78509
+< 25	,	,	PUNCT	_	_	28	punct	_	_
+< 26	ainsi	ainsi	ADV	_	_	28	cc	_	ExtPos=CCONJ|Idiom=Yes
+---
+> 25	,	,	PUNCT	_	Shared=Yes	28	punct	_	_
+> 26	ainsi	ainsi	ADV	_	Shared=Yes	28	cc	_	ExtPos=CCONJ|Idiom=Yes
+
+78700c78700
+< 25	assisté	assister	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	Subject=Instantiated
+---
+> 25	assisté	assister	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	Subject=Instantiated
+
+79588c79588
+< 19	tout	tout	ADV	_	_	20	mod	_	_
+---
+> 19	tout	tout	ADV	_	_	21	mod	_	_
+
+79762c79762
+< 28	comme	comme	ADP	_	_	26	mod	_	_
+---
+> 28	comme	comme	ADP	_	_	27	mod	_	_
+
+80835c80835
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	8	punct	_	_
+
+81483c81483
+< 6	regard	regard	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
+---
+> 6	regard	regard	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
+
+81535c81535
+< 18	D'	de	ADP	_	Shared=No	20	comp:obl	_	InTitle=Yes|SpaceAfter=No|wordform=d'
+---
+> 18	D'	de	ADP	_	_	20	comp:obl	_	InTitle=Yes|SpaceAfter=No|wordform=d'
+
+82030c82030
+< 21	,	,	PUNCT	_	_	20	punct	_	_
+---
+> 21	,	,	PUNCT	_	_	26	punct	_	_
+
+82278c82278
+< 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+---
+> 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	21	det	_	_
+
+82455c82455
+< 4	tandis	tandis	ADV	_	_	37	mod	_	ExtPos=SCONJ|Idiom=Yes
+---
+> 4	tandis	tandis	ADV	_	_	36	mod	_	ExtPos=SCONJ|Idiom=Yes
+
+82581c82581
+< 26	durant	durer	VERB	_	Shared=No|Tense=Pres|VerbForm=Part	22	mod	_	Subject=Instantiated
+---
+> 26	durant	durer	VERB	_	Tense=Pres|VerbForm=Part	24	mod	_	Subject=Instantiated
+
+82794c82794
+< 14	autour	autour	ADV	_	_	13	mod	_	_
+---
+> 14	autour	autour	ADV	_	_	11	mod	_	_
+
+82940c82940
+< 18	et	et	CCONJ	_	Shared=No	25	cc	_	_
+---
+> 18	et	et	CCONJ	_	Shared=Yes	25	cc	_	_
+
+83179c83179
+< 3	dresseur	dresseur	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
+---
+> 3	dresseur	dresseur	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	6	subj	_	_
+
+83277c83277
+< 19	dommage	dommage	INTJ	_	_	17	discourse	_	SpaceAfter=No
+---
+> 19	dommage	dommage	INTJ	_	Shared=No	16	discourse	_	SpaceAfter=No
+
+83798c83798
+< 33	[	[	PUNCT	_	Shared=Yes	34	punct	_	SpaceAfter=No
+---
+> 33	[	[	PUNCT	_	Shared=No	34	punct	_	SpaceAfter=No
+
+83903c83903
+< 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	19	det	_	_
+---
+> 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+
+84188,84189c84188,84189
+< 1	Puis	puis	CCONJ	_	Shared=No	10	cc	_	wordform=puis
+< 2	lors	lors	ADV	_	Shared=No	10	mod	_	_
+---
+> 1	Puis	puis	CCONJ	_	_	10	cc	_	wordform=puis
+> 2	lors	lors	ADV	_	_	10	mod	_	_
+
+84581c84581
+< 4	surtout	surtout	ADV	_	_	5	mod	_	_
+---
+> 4	surtout	surtout	ADV	_	_	3	mod	_	_
+
+84759c84759
+< 5	dans	dans	ADP	_	_	2	comp:obl	_	_
+---
+> 5	dans	dans	ADP	_	_	3	comp:obl	_	_
+
+85083c85083
+< 40	sans	sans	ADP	_	_	39	mod	_	SpaceAfter=No
+---
+> 40	sans	sans	ADP	_	Shared=No	39	unk	_	SpaceAfter=No
+
+85094c85094
+< 7	que	que	SCONJ	_	_	6	comp:obl@agent	_	_
+---
+> 7	que	que	SCONJ	_	_	6	comp	_	_
+
+85167c85167
+< 13	,	,	PUNCT	_	_	14	punct	_	_
+---
+> 13	,	,	PUNCT	_	Shared=Yes	14	punct	_	_
+
+86550c86550
+< 28	"	"	PUNCT	_	Shared=Yes	29	punct	_	SpaceAfter=No
+---
+> 28	"	"	PUNCT	_	Shared=No	29	punct	_	SpaceAfter=No
+
+87502c87502
+< 15	de	de	ADP	_	Shared=No	13	comp:obl	_	_
+---
+> 15	de	de	ADP	_	_	14	comp:obl	_	_
+
+88034c88034
+< 33	,	,	PUNCT	_	_	32	punct	_	_
+---
+> 33	,	,	PUNCT	_	_	29	punct	_	_
+
+88036c88036
+< 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+---
+> 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+
+89169c89169
+< 9	mais	mais	CCONJ	_	_	13	cc	_	_
+---
+> 9	mais	mais	CCONJ	_	Shared=Yes	13	cc	_	_
+
+89171,89172c89171,89172
+< 11	peur	peur	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
+< 12	ne	ne	ADV	_	Polarity=Neg	13	mod	_	_
+---
+> 11	peur	peur	NOUN	_	Gender=Fem|Number=Sing|Shared=No	13	subj	_	_
+> 12	ne	ne	ADV	_	Polarity=Neg|Shared=No	13	mod	_	_
+
+89518c89518
+< 10	et	et	CCONJ	_	Shared=No	12	cc	_	_
+---
+> 10	et	et	CCONJ	_	Shared=Yes	12	cc	_	_
+
+89752c89752
+< 21	reliés	relier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	mod	_	_
+---
+> 21	reliés	relier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	mod	_	_
+
+89824c89824
+< 11	mère	mère	NOUN	_	Gender=Fem|Number=Sing|Shared=No	12	subj	_	_
+---
+> 11	mère	mère	NOUN	_	Gender=Fem|Number=Sing	12	subj	_	_
+
+91068c91068
+< 20	que	que	SCONJ	_	_	14	comp:obj	_	SpaceAfter=No
+---
+> 20	que	que	SCONJ	_	_	14	comp	_	SpaceAfter=No
+
+91546,91547c91546,91547
+< 15	mais	mais	CCONJ	_	Shared=No	18	cc	_	_
+< 16	aussi	aussi	ADV	_	Shared=Yes	18	mod	_	_
+---
+> 15	mais	mais	CCONJ	_	Shared=Yes	18	cc	_	_
+> 16	aussi	aussi	ADV	_	_	18	mod	_	_
+
+92318c92318
+< 33	chercher	chercher	VERB	_	VerbForm=Inf	32	comp:obj	_	Subject=SubjRaising
+---
+> 33	chercher	chercher	VERB	_	VerbForm=Inf	32	comp:obj	_	Subject=ObjRaising
+
+93329c93329
+< 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	5	det	_	_
+---
+> 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+
+93573c93573
+< 36	,	,	PUNCT	_	_	35	punct	_	_
+---
+> 36	,	,	PUNCT	_	_	53	punct	_	_
+
+93740c93740
+< 1	Mais	mais	CCONJ	_	Shared=No	14	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	_	14	cc	_	wordform=mais
+
+93803c93803
+< 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	36	det	_	_
+---
+> 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+
+94096,94097c94096,94097
+< 30	,	,	PUNCT	_	_	31	punct	_	_
+< 31	de	de	ADP	_	_	27	appos	_	_
+---
+> 30	,	,	PUNCT	_	Shared=Yes	31	punct	_	_
+> 31	de	de	ADP	_	_	29	appos	_	_
+
+94101c94101
+< 35	de	de	ADP	_	_	31	conj@emb	_	_
+---
+> 35	de	de	ADP	_	_	31	conj	_	_
+
+94192c94192
+< 20	que	que	PRON	_	PronType=Rel|Shared=No	22	comp:obj	_	_
+---
+> 20	que	que	PRON	_	PronType=Rel|Shared=Yes	22	comp:obj	_	_
+
+94213c94213
+< 7	Ou	ou	CCONJ	_	Shared=No	9	cc	_	wordform=ou
+---
+> 7	Ou	ou	CCONJ	_	_	9	cc	_	wordform=ou
+
+95354c95354
+< 11	fois	fois	NOUN	_	Gender=Fem|Number=Plur	12	mod	_	_
+---
+> 11	fois	fois	NOUN	_	Gender=Fem|Number=Plur	9	mod	_	_
+
+95585,95586c95585,95586
+< 4	,	,	PUNCT	_	Shared=Yes	6	punct	_	_
+< 5	"	"	PUNCT	_	Shared=Yes	6	punct	_	SpaceAfter=No
+---
+> 4	,	,	PUNCT	_	Shared=No	6	punct	_	_
+> 5	"	"	PUNCT	_	Shared=No	6	punct	_	SpaceAfter=No
+
+96162c96162
+< 11	afin	afin	ADV	_	_	3	mod	_	_
+---
+> 11	afin	afin	ADV	_	_	5	mod	_	_
+
+96477c96477
+< 21	pour	pour	ADP	_	Shared=Yes	20	mod	_	_
+---
+> 21	pour	pour	ADP	_	Shared=Yes	12	mod	_	_
+
+96552c96552
+< 28	rock	rock	X	_	Foreign=Yes	27	flat@foreign	_	Lang=en|SpaceAfter=No
+---
+> 28	rock	rock	X	_	Foreign=Yes|Shared=No	27	flat@foreign	_	Lang=en|SpaceAfter=No
+
+96799c96799
+< 18	à	à	ADP	_	_	16	comp:obl	_	_
+---
+> 18	à	à	ADP	_	Shared=No	16	comp:obl	_	_
+
+101159c101159
+< 74	mais	mais	CCONJ	_	Shared=No	77	cc	_	_
+---
+> 74	mais	mais	CCONJ	_	Shared=Yes	77	cc	_	_
+
+101432c101432
+< 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	12	det	_	_
+---
+> 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+
+102140,102141c102140,102141
+< 36	et	et	CCONJ	_	Shared=Yes	38	cc	_	_
+< 37	notamment	notamment	ADV	_	Shared=Yes	38	mod	_	_
+---
+> 36	et	et	CCONJ	_	_	38	cc	_	_
+> 37	notamment	notamment	ADV	_	_	38	mod	_	_
+
+102146c102146
+< 42	Raymond	Raymond	PROPN	_	_	38	conj@emb	_	_
+---
+> 42	Raymond	Raymond	PROPN	_	_	38	conj	_	_
+
+102173c102173
+< 19	,	,	PUNCT	_	_	20	punct	_	_
+---
+> 19	,	,	PUNCT	_	Shared=Yes	20	punct	_	_
+
+102176c102176
+< 22	quatre	quatre	NUM	_	Number=Plur|Shared=No	23	det	_	_
+---
+> 22	quatre	quatre	NUM	_	Number=Plur	23	det	_	_
+
+102181c102181
+< 26	à	à	ADP	_	Shared=Yes	25	mod	_	_
+---
+> 26	à	à	ADP	_	_	23	udep	_	_
+
+102369,102371c102369,102371
+< 29	et	et	CCONJ	_	Shared=No	32	cc	_	SpaceAfter=No
+< 30	,	,	PUNCT	_	_	29	punct	_	_
+< 31	respectivement	respectivement	ADV	_	Shared=Yes	32	mod	_	_
+---
+> 29	et	et	CCONJ	_	Shared=Yes	32	cc	_	SpaceAfter=No
+> 30	,	,	PUNCT	_	Shared=Yes	32	punct	_	_
+> 31	respectivement	respectivement	ADV	_	_	32	mod	_	_
+
+103075c103075
+< 17	au-dessus	au-dessus	ADV	_	_	8	mod	_	_
+---
+> 17	au-dessus	au-dessus	ADV	_	_	10	mod	_	_
+
+103089c103089
+< 31	réagissant	réagir	VERB	_	Tense=Pres|VerbForm=Part	8	mod	_	_
+---
+> 31	réagissant	réagir	VERB	_	Tense=Pres|VerbForm=Part	10	mod	_	_
+
+103316c103316
+< 42	lors	lors	ADV	_	_	33	mod	_	_
+---
+> 42	lors	lors	ADV	_	_	31	mod	_	_
+
+103598c103598
+< 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	2	det	_	wordform=la
+---
+> 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
+
+104338,104339c104338,104339
+< 12	,	,	PUNCT	_	_	16	punct	_	_
+< 13	mais	mais	CCONJ	_	_	16	cc	_	_
+---
+> 12	,	,	PUNCT	_	Shared=Yes	16	punct	_	_
+> 13	mais	mais	CCONJ	_	Shared=Yes	16	cc	_	_
+
+104341c104341
+< 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+---
+> 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	16	det	_	_
+
+104539c104539
+< 9	tard	tard	ADV	_	_	4	conj@emb	_	SpaceAfter=No
+---
+> 9	tard	tard	ADV	_	_	4	conj	_	SpaceAfter=No
+
+104817c104817
+< 12	trés	trés	ADV	_	Typo=Yes	13	mod	_	CorrectForm=très
+---
+> 12	trés	trés	ADV	_	Shared=No|Typo=Yes	10	mod	_	CorrectForm=très
+
+106014c106014
+< 5	par	par	ADP	_	_	3	comp:obl@agent	_	_
+---
+> 5	par	par	ADP	_	_	4	comp:obl@agent	_	_
+
+106157c106157
+< 1	Or	or	CCONJ	_	Shared=No	5	cc	_	wordform=or
+---
+> 1	Or	or	CCONJ	_	Shared=Yes	5	cc	_	wordform=or
+
+106329c106329
+< 37	à	à	ADP	_	_	27	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 37	à	à	ADP	_	_	29	mod	_	ExtPos=ADV|Idiom=Yes
+
+106386c106386
+< 9	et	et	CCONJ	_	Shared=No	10	cc	_	_
+---
+> 9	et	et	CCONJ	_	Shared=Yes	10	cc	_	_
+
+106547,106548c106547,106548
+< 32	d'	de	ADP	_	_	28	comp:obl	_	SpaceAfter=No
+< 33	émettre	émettre	VERB	_	VerbForm=Inf	32	comp:obj	_	Subject=OblRaising
+---
+> 32	d'	de	ADP	_	Shared=No	28	comp:obl	_	SpaceAfter=No
+> 33	émettre	émettre	VERB	_	VerbForm=Inf	32	comp:obj	_	Subject=SubjRaising
+
+106790c106790
+< 16	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	17	det	_	wordform=la
+---
+> 16	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	wordform=la
+
+107417c107417
+< 17	4	4	NUM	_	Number=Sing	11	mod	_	_
+---
+> 17	4	4	NUM	_	Number=Sing	13	mod	_	_
+
+107557c107557
+< 23	--	--	PUNCT	_	_	18	punct	_	SpaceAfter=No
+---
+> 23	--	--	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+108791c108791
+< 17	pour	pour	ADP	_	_	16	mod	_	_
+---
+> 17	pour	pour	ADP	_	_	14	mod	_	_
+
+108891c108891
+< 19	que	que	SCONJ	_	Shared=No	18	reparandum	_	_
+---
+> 19	que	que	SCONJ	_	_	21	reparandum	_	_
+
+108893c108893
+< 21	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
+---
+> 21	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing|Shared=No	18	comp:obj	_	SpaceAfter=No
+
+109795c109795
+< 26	mais	mais	CCONJ	_	Shared=No	29	cc	_	_
+---
+> 26	mais	mais	CCONJ	_	Shared=Yes	29	cc	_	_
+
+109897c109897
+< 18	étant	être	AUX	_	Tense=Pres|VerbForm=Part	4	mod	_	_
+---
+> 18	étant	être	AUX	_	Tense=Pres|VerbForm=Part	6	mod	_	_
+
+110063c110063
+< 26	et	et	CCONJ	_	Shared=No	32	cc	_	_
+---
+> 26	et	et	CCONJ	_	Shared=Yes	32	cc	_	_
+
+110639,110640c110639,110640
+< 17	prix	prix	NOUN	_	Gender=Masc|Number=Sing	5	conj@emb	_	_
+< 18	de	de	ADP	_	Shared=No	17	udep	_	_
+---
+> 17	prix	prix	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+> 18	de	de	ADP	_	_	17	udep	_	_
+
+110645c110645
+< 22	à	à	ADP	_	_	5	mod	_	_
+---
+> 22	à	à	ADP	_	Shared=Yes	17	mod	_	_
+
+111032c111032
+< 1	Mais	mais	CCONJ	_	Shared=No	9	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	9	cc	_	wordform=mais
+
+111081c111081
+< 27	afin	afin	ADV	_	_	8	mod	_	_
+---
+> 27	afin	afin	ADV	_	_	7	mod	_	_
+
+111174c111174
+< 18	draguer	draguer	VERB	_	VerbForm=Inf	17	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+---
+> 18	draguer	draguer	VERB	_	VerbForm=Inf	17	comp:obj	_	SpaceAfter=No|Subject=ObjRaising
+
+111212c111212
+< 12	dévoré	dévorer	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	11	comp:pred	_	Subject=SubjRaising
+---
+> 12	dévoré	dévorer	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	11	comp:pred	_	Subject=ObjRaising
+
+111773c111773
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	5	punct	_	_
+
+112259c112259
+< 7	4e	4e	ADJ	_	Gender=Masc|Number=Plur	6	mod:pred	_	_
+---
+> 7	4e	4e	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
+
+113404c113404
+< 29	car	car	CCONJ	_	Shared=No	31	cc	_	_
+---
+> 29	car	car	CCONJ	_	Shared=Yes	31	cc	_	_
+
+113712c113712
+< 20	dans	dans	ADP	_	_	17	mod	_	_
+---
+> 20	dans	dans	ADP	_	_	19	mod	_	_
+
+114319c114319
+< 13	,	,	PUNCT	_	_	12	punct	_	_
+---
+> 13	,	,	PUNCT	_	_	15	punct	_	_
+
+114537c114537
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	9	punct	_	_
+
+114607c114607
+< 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
+---
+> 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	2	det	_	wordform=les
+
+114617c114617
+< 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	12	det	_	_
+---
+> 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+
+114634c114634
+< 28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
+---
+> 28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
+
+114784,114786c114784,114786
+< 12	mais	mais	CCONJ	_	Shared=No	15	cc	_	_
+< 13	qui	qui	PRON	_	PronType=Rel|Shared=Yes	15	subj	_	_
+< 14	n'	ne	ADV	_	Polarity=Neg|Shared=No	15	mod	_	SpaceAfter=No
+---
+> 12	mais	mais	CCONJ	_	_	15	cc	_	_
+> 13	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
+> 14	n'	ne	ADV	_	Polarity=Neg	15	mod	_	SpaceAfter=No
+
+114788,114789c114788,114789
+< 16	ni	ni	CCONJ	_	_	17	cc	_	_
+< 17	droit	droit	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
+---
+> 16	ni	ni	CCONJ	_	Shared=No	17	cc	_	_
+> 17	droit	droit	NOUN	_	Gender=Masc|Number=Sing|Shared=No	15	comp:obj	_	_
+
+115196c115196
+< 27	en	en	ADP	_	_	24	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 27	en	en	ADP	_	_	26	mod	_	ExtPos=ADV|Idiom=Yes
+
+116227c116227
+< 16	faire	faire	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
+---
+> 16	faire	faire	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=ObjRaising
+
+116478,116479c116478,116479
+< 29	,	,	PUNCT	_	_	31	punct	_	_
+< 30	mais	mais	CCONJ	_	_	31	cc	_	_
+---
+> 29	,	,	PUNCT	_	Shared=Yes	31	punct	_	_
+> 30	mais	mais	CCONJ	_	Shared=Yes	31	cc	_	_
+
+116712c116712
+< 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	2	det	_	wordform=la
+---
+> 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
+
+116840c116840
+< 4	Boulevard	Boulevard	PROPN	_	_	2	mod	_	_
+---
+> 4	Boulevard	Boulevard	PROPN	_	_	3	mod	_	_
+
+116895c116895
+< 5	respecter	respecter	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
+---
+> 5	respecter	respecter	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=ObjRaising
+
+117111c117111
+< 11	dont	dont	PRON	_	PronType=Rel	14	mod	_	_
+---
+> 11	dont	dont	PRON	_	PronType=Rel	13	mod	_	_
+
+117133c117133
+< 33	,	,	PUNCT	_	_	32	punct	_	_
+---
+> 33	,	,	PUNCT	_	_	39	punct	_	_
+
+117206c117206
+< 5	25	25	NUM	_	Number=Sing	3	comp:arg	_	_
+---
+> 5	25	25	NUM	_	Number=Sing	3	comp	_	_
+
+118051c118051
+< 18	surtout	surtout	ADV	_	_	19	mod	_	_
+---
+> 18	surtout	surtout	ADV	_	_	17	mod	_	_
+
+118536,118537c118536,118537
+< 1	»	»	PUNCT	_	Shared=Yes	3	punct	_	_
+< 2	(	(	PUNCT	_	Shared=Yes	3	punct	_	SpaceAfter=No
+---
+> 1	»	»	PUNCT	_	Shared=No	3	punct	_	_
+> 2	(	(	PUNCT	_	Shared=No	3	punct	_	SpaceAfter=No
+
+118692c118692
+< 1	Mais	mais	CCONJ	_	Shared=No	4	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	_	4	cc	_	wordform=mais
+
+118825c118825
+< 20	mais	mais	CCONJ	_	Shared=No	30	cc	_	_
+---
+> 20	mais	mais	CCONJ	_	Shared=Yes	30	cc	_	_
+
+119239c119239
+< 41	et	et	CCONJ	_	Shared=No	43	cc	_	_
+---
+> 41	et	et	CCONJ	_	Shared=Yes	43	cc	_	_
+
+119449c119449
+< 1	Quelle	quel	ADJ	_	Gender=Fem|Number=Sing|Shared=No	2	comp:pred	_	wordform=quelle
+---
+> 1	Quelle	quel	ADJ	_	Gender=Fem|Number=Sing	2	comp:pred	_	wordform=quelle
+
+119691,119692c119691,119692
+< 15	mais	mais	CCONJ	_	_	17	cc	_	_
+< 16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
+---
+> 15	mais	mais	CCONJ	_	Shared=Yes	17	cc	_	_
+> 16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	17	subj@expl	_	_
+
+119773c119773
+< 46	à	à	ADP	_	_	19	udep	_	_
+---
+> 46	à	à	ADP	_	Shared=Yes	25	udep	_	_
+
+119800c119800
+< 12	mais	mais	CCONJ	_	Shared=No	14	cc	_	_
+---
+> 12	mais	mais	CCONJ	_	Shared=Yes	14	cc	_	_
+
+120508c120508
+< 34	Groupement	groupement	NOUN	_	Gender=Masc|Number=Sing|Shared=No	32	comp:obj	_	wordform=groupement
+---
+> 34	Groupement	groupement	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	wordform=groupement
+
+120783c120783
+< 11	réparer	réparer	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
+---
+> 11	réparer	réparer	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=ObjRaising
+
+121436c121436
+< 20	traduits	traduire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	14	comp:pred	_	CorrectForm=traduit|CorrectNumber=Sing|Subject=SubjRaising
+---
+> 20	traduits	traduire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	14	comp:pred	_	CorrectForm=traduit|CorrectNumber=Sing|Subject=ObjRaising
+
+122108,122109c122108,122109
+< 10	,	,	PUNCT	_	_	15	punct	_	_
+< 11	mais	mais	CCONJ	_	Shared=No	15	cc	_	_
+---
+> 10	,	,	PUNCT	_	Shared=Yes	15	punct	_	_
+> 11	mais	mais	CCONJ	_	Shared=Yes	15	cc	_	_
+
+123224c123224
+< 19	à	à	ADP	_	_	18	comp:obl	_	_
+---
+> 19	à	à	ADP	_	Shared=No	16	comp:obl	_	_
+
+123498c123498
+< 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+---
+> 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
+
+123716c123716
+< 18	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	Subject=Instantiated
+---
+> 18	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	Subject=Instantiated
+
+123993c123993
+< 13	signer	signer	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
+---
+> 13	signer	signer	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=ObjRaising
+
+124819c124819
+< 19	dans	dans	ADP	_	_	18	mod	_	InTitle=Yes|SpaceAfter=No
+---
+> 19	dans	dans	ADP	_	_	18	unk	_	InTitle=Yes|SpaceAfter=No
+
+125212c125212
+< 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	2	det	_	wordform=le
+---
+> 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+
+125536c125536
+< 65	lors	lors	ADV	_	_	52	mod	_	_
+---
+> 65	lors	lors	ADV	_	Shared=No	50	mod	_	_
+
+125778c125778
+< 17	,	,	PUNCT	_	_	16	punct	_	_
+---
+> 17	,	,	PUNCT	_	_	22	punct	_	_
+
+126291c126291
+< 8	mettez	mettre	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+---
+> 8	mettez	mettre	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+
+128001c128001
+< 9	,	,	PUNCT	_	_	8	punct	_	_
+---
+> 9	,	,	PUNCT	_	_	15	punct	_	_
+
+128574c128574
+< 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@pass	_	_
+---
+> 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	6	subj@pass	_	_
+
+128623c128623
+< 53	Branko	Branko	PROPN	_	Shared=No	52	flat@name	_	_
+---
+> 53	Branko	Branko	PROPN	_	_	52	flat@name	_	_
+
+128917c128917
+< 11	qu'	que	PRON	_	PronType=Rel|Shared=No	13	comp:obj	_	SpaceAfter=No
+---
+> 11	qu'	que	PRON	_	PronType=Rel|Shared=Yes	13	comp:obj	_	SpaceAfter=No
+
+129238c129238
+< 12	,	,	PUNCT	_	Shared=Yes	15	punct	_	_
+---
+> 12	,	,	PUNCT	_	Shared=No	15	punct	_	_
+
+129240c129240
+< 14	"	"	PUNCT	_	Shared=Yes	15	punct	_	SpaceAfter=No
+---
+> 14	"	"	PUNCT	_	Shared=No	15	punct	_	SpaceAfter=No
+
+129631c129631
+< 9	client	client	NOUN	_	Gender=Masc|Number=Sing|Shared=No	12	dislocated	_	_
+---
+> 9	client	client	NOUN	_	Gender=Masc|Number=Sing	12	dislocated	_	_
+
+130346c130346
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	7	punct	_	_
+
+130790c130790
+< 41	,	,	PUNCT	_	_	40	punct	_	_
+---
+> 41	,	,	PUNCT	_	_	46	punct	_	_
+
+130959c130959
+< 14	voir	voir	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
+---
+> 14	voir	voir	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=ObjRaising
+
+132757c132757
+< 1	Mais	mais	CCONJ	_	Shared=No	4	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	_	4	cc	_	wordform=mais
+
+132762c132762
+< 6	maintenir	maintenir	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
+---
+> 6	maintenir	maintenir	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=ObjRaising
+
+132777c132777
+< 21	maintenir	maintenir	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
+---
+> 21	maintenir	maintenir	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=ObjRaising
+
+133177c133177
+< 24	aussi	aussi	ADV	_	_	25	mod	_	_
+---
+> 24	aussi	aussi	ADV	_	_	23	mod	_	_
+
+136127c136127
+< 26	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing|Shared=No	30	subj	_	_
+---
+> 26	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	30	subj	_	_
+
+136362c136362
+< 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	5	det	_	_
+---
+> 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+
+136365c136365
+< 7	ou	ou	CCONJ	_	_	8	cc	_	_
+---
+> 7	ou	ou	CCONJ	_	Shared=Yes	8	cc	_	_
+
+137055c137055
+< 5	dont	dont	PRON	_	PronType=Rel|Shared=No	11	comp:obl	_	_
+---
+> 5	dont	dont	PRON	_	PronType=Rel|Shared=Yes	11	comp:obl	_	_
+
+137106,137107c137106,137107
+< 19	ayants	ayant	VERB	_	Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part	17	conj@emb	_	ExtPos=NOUN|Idiom=Yes
+< 20	droit	droit	NOUN	_	Gender=Masc|Number=Sing|Shared=No	19	comp:obj	_	InIdiom=Yes
+---
+> 19	ayants	ayant	VERB	_	Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part	17	conj	_	ExtPos=NOUN|Idiom=Yes
+> 20	droit	droit	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	InIdiom=Yes
+
+137198c137198
+< 9	pour	pour	ADP	_	_	5	mod	_	_
+---
+> 9	pour	pour	ADP	_	_	2	mod	_	_
+
+138481c138481
+< 6	entre	entre	ADP	_	_	3	mod	_	_
+---
+> 6	entre	entre	ADP	_	_	2	mod	_	_
+
+138487c138487
+< 12	pour	pour	ADP	_	_	3	mod	_	_
+---
+> 12	pour	pour	ADP	_	_	2	mod	_	_
+
+140852c140852
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	8	punct	_	_
+
+141312c141312
+< 32	mais	mais	CCONJ	_	Shared=No	54	cc	_	_
+---
+> 32	mais	mais	CCONJ	_	Shared=Yes	54	cc	_	_
+
+141318,141319c141318,141319
+< 38	,	,	PUNCT	_	Shared=No	54	punct	_	_
+< 39	alors	alors	ADV	_	Shared=No	54	mod	_	ExtPos=SCONJ|Idiom=Yes
+---
+> 38	,	,	PUNCT	_	Shared=Yes	54	punct	_	_
+> 39	alors	alors	ADV	_	Shared=Yes	54	mod	_	ExtPos=SCONJ|Idiom=Yes
+
+141399c141399
+< 2	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+---
+> 2	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj	_	_
+
+141411c141411
+< 13	:	:	PUNCT	_	Shared=Yes	14	punct	_	_
+---
+> 13	:	:	PUNCT	_	_	14	punct	_	_
+
+142274c142274
+< 2	dos	dos	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj	_	_
+---
+> 2	dos	dos	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+
+142386c142386
+< 17	rééditant	rééditer	VERB	_	Tense=Pres|VerbForm=Part	3	mod	_	Subject=Instantiated
+---
+> 17	rééditant	rééditer	VERB	_	Tense=Pres|VerbForm=Part	7	mod	_	Subject=Instantiated
+
+143067c143067
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	10	punct	_	_
+
+143681c143681
+< 26	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	3	mod	_	_
+---
+> 26	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	6	mod	_	_
+
+144026c144026
+< 37	et	et	CCONJ	_	Shared=No	38	cc	_	_
+---
+> 37	et	et	CCONJ	_	Shared=Yes	38	cc	_	_
+
+144364c144364
+< 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	42	det	_	_
+---
+> 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
+
+144850c144850
+< 3	si	si	SCONJ	_	_	1	mod	_	_
+---
+> 3	si	si	SCONJ	_	_	2	mod	_	_
+
+145137c145137
+< 5	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	7	subj@pass	_	_
+---
+> 5	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	7	subj@pass	_	_
+
+145145,145146c145145,145146
+< 13	blessés	blesser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
+< 14	lors	lors	ADV	_	Shared=Yes	13	mod	_	_
+---
+> 13	blessés	blesser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	_
+> 14	lors	lors	ADV	_	_	7	mod	_	_
+
+145471c145471
+< 38	entouré	entourer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	conj@emb	_	_
+---
+> 38	entouré	entourer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	conj	_	_
+
+145473c145473
+< 39	de	de	ADP	_	Shared=No	38	comp:obl@agent	_	_
+---
+> 39	de	de	ADP	_	_	38	comp:obl@agent	_	_
+
+145477c145477
+< 43	,	,	PUNCT	_	Shared=Yes	44	punct	_	_
+---
+> 43	,	,	PUNCT	_	_	44	punct	_	_
+
+145482,145483c145482,145483
+< 48	,	,	PUNCT	_	_	51	punct	_	_
+< 49	puis	puis	CCONJ	_	Shared=No	51	cc	_	_
+---
+> 48	,	,	PUNCT	_	Shared=Yes	51	punct	_	_
+> 49	puis	puis	CCONJ	_	Shared=Yes	51	cc	_	_
+
+145655c145655
+< 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	29	det	_	_
+---
+> 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+
+146103c146103
+< 12	celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem|Shared=No	13	subj	_	_
+---
+> 12	celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	13	subj	_	_
+
+147434c147434
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	8	punct	_	_
+
+147594c147594
+< 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	7	det	_	_
+---
+> 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+
+147793c147793
+< 36	et	et	CCONJ	_	Shared=No	37	cc	_	_
+---
+> 36	et	et	CCONJ	_	_	37	cc	_	_
+
+148009c148009
+< 9	et	et	CCONJ	_	Shared=No	10	cc	_	_
+---
+> 9	et	et	CCONJ	_	Shared=Yes	10	cc	_	_
+
+148642c148642
+< 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	24	det	_	_
+---
+> 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+
+149402c149402
+< 11	mais	mais	CCONJ	_	Shared=No	13	cc	_	_
+---
+> 11	mais	mais	CCONJ	_	Shared=Yes	13	cc	_	_
+
+151069c151069
+< 18	mais	mais	CCONJ	_	Shared=No	21	cc	_	_
+---
+> 18	mais	mais	CCONJ	_	Shared=Yes	21	cc	_	_
+
+151828c151828
+< 1	Mais	mais	CCONJ	_	Shared=No	11	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	11	cc	_	wordform=mais
+
+152653c152653
+< 25	et	et	CCONJ	_	Shared=No	30	cc	_	_
+---
+> 25	et	et	CCONJ	_	Shared=Yes	30	cc	_	_
+
+152764,152765c152764,152765
+< 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	3	det	_	wordform=les
+< 2	Quatre	quatre	NUM	_	Number=Plur|Shared=No	3	mod	_	wordform=quatre
+---
+> 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	wordform=les
+> 2	Quatre	quatre	NUM	_	Number=Plur	3	mod	_	wordform=quatre
+
+153024c153024
+< 58	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	59	det	_	_
+---
+> 58	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	59	det	_	_
+
+153105,153106c153105,153106
+< 1	Mais	mais	CCONJ	_	Shared=No	10	cc	_	wordform=mais
+< 2	barré	barrer	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	10	mod	_	Subject=Instantiated
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	10	cc	_	wordform=mais
+> 2	barré	barrer	VERB	_	Gender=Masc|Number=Sing|Shared=Yes|Tense=Past|VerbForm=Part	10	mod	_	Subject=Instantiated
+
+153856c153856
+< 6	autour	autour	ADV	_	_	5	mod	_	_
+---
+> 6	autour	autour	ADV	_	_	4	mod	_	_
+
+153907c153907
+< 17	7	7	NUM	_	Number=Sing	11	mod	_	_
+---
+> 17	7	7	NUM	_	Number=Sing	14	mod	_	_
+
+154389c154389
+< 7	uniquement	uniquement	ADV	_	_	8	mod	_	_
+---
+> 7	uniquement	uniquement	ADV	_	_	6	mod	_	_
+
+154968c154968
+< 20	,	,	PUNCT	_	_	19	punct	_	_
+---
+> 20	,	,	PUNCT	_	_	28	punct	_	_
+
+155041c155041
+< 10	résidents	résident	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	6	comp:obj	_	_
+---
+> 10	résidents	résident	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
+
+156103c156103
+< 25	en	en	ADP	_	_	23	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 25	en	en	ADP	_	Shared=No	21	mod	_	ExtPos=ADV|Idiom=Yes
+
+156519c156519
+< 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	7	det	_	_
+---
+> 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+
+156578c156578
+< 16	régiment	régiment	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	_
+---
+> 16	régiment	régiment	NOUN	_	Gender=Masc|Number=Sing	19	subj@pass	_	_
+
+156687c156687
+< 59	,	,	PUNCT	_	_	58	punct	_	_
+---
+> 59	,	,	PUNCT	_	_	64	punct	_	_
+
+156788c156788
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	12	punct	_	_
+
+156985c156985
+< 26	,	,	PUNCT	_	_	25	punct	_	_
+---
+> 26	,	,	PUNCT	_	_	32	punct	_	_
+
+157260c157260
+< 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No|wordform=c'
+---
+> 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	2	subj	_	SpaceAfter=No|wordform=c'
+
+157875c157875
+< 16	,	,	PUNCT	_	_	15	punct	_	_
+---
+> 16	,	,	PUNCT	_	_	19	punct	_	_
+
+157880c157880
+< 21	former	former	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=OblRaising
+---
+> 21	former	former	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
+
+157932c157932
+< 1	D'	de	ADP	_	Shared=No	3	comp:obl	_	SpaceAfter=No|wordform=d'
+---
+> 1	D'	de	ADP	_	_	3	comp:obl	_	SpaceAfter=No|wordform=d'
+
+158322c158322
+< 5	puis	puis	CCONJ	_	Shared=No	6	cc	_	_
+---
+> 5	puis	puis	CCONJ	_	Shared=Yes	6	cc	_	_
+
+158513c158513
+< 21	de	de	ADP	_	_	18	mod	_	_
+---
+> 21	de	de	ADP	_	_	19	udep	_	_
+
+158866c158866
+< 8	pour	pour	ADP	_	_	7	mod	_	_
+---
+> 8	pour	pour	ADP	_	_	6	mod	_	_
+
+159027c159027
+< 7	depuis	depuis	ADP	_	_	4	mod	_	_
+---
+> 7	depuis	depuis	ADP	_	_	5	mod	_	_
+
+159038c159038
+< 18	jouissant	jouir	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	Subject=Instantiated
+---
+> 18	jouissant	jouir	VERB	_	Tense=Pres|VerbForm=Part	5	mod	_	Subject=Instantiated
+
+159409c159409
+< 9	devenant	devenir	VERB	_	Tense=Pres|VerbForm=Part	3	mod	_	Subject=Instantiated
+---
+> 9	devenant	devenir	VERB	_	Shared=Yes|Tense=Pres|VerbForm=Part	7	mod	_	Subject=Instantiated
+
+159842c159842
+< 50	lors	lors	ADV	_	_	46	mod	_	_
+---
+> 50	lors	lors	ADV	_	_	44	mod	_	_
+
+159957c159957
+< 24	durant	durant	ADP	_	Shared=No	17	mod	_	_
+---
+> 24	durant	durant	ADP	_	_	20	mod	_	_
+
+160634c160634
+< 25	plus	plus	ADV	_	Polarity=Neg	26	mod	_	_
+---
+> 25	plus	plus	ADV	_	Polarity=Neg	24	mod	_	_
+
+160731c160731
+< 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	31	det	_	SpaceAfter=No
+---
+> 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+
+160775c160775
+< 17	,	,	PUNCT	_	_	16	punct	_	_
+---
+> 17	,	,	PUNCT	_	_	24	punct	_	_
+
+161060c161060
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	4	punct	_	_
+
+161082c161082
+< 13	,	,	PUNCT	_	_	12	punct	_	_
+---
+> 13	,	,	PUNCT	_	_	18	punct	_	_
+
+161418c161418
+< 18	dont	dont	PRON	_	PronType=Rel	23	mod	_	_
+---
+> 18	dont	dont	PRON	_	PronType=Rel	21	mod	_	_
+
+161728c161728
+< 12	année	année	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
+---
+> 12	année	année	NOUN	_	Gender=Fem|Number=Sing	10	mod	_	SpaceAfter=No
+
+162682c162682
+< 11	réapparaître	réapparaître	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
+---
+> 11	réapparaître	réapparaître	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=ObjRaising
+
+162907c162907
+< 13	plus	plus	ADV	_	Polarity=Neg	14	mod	_	_
+---
+> 13	plus	plus	ADV	_	Polarity=Neg	12	mod	_	_
+
+163452c163452
+< 14	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	wordform=il
+---
+> 14	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	wordform=il
+
+163460c163460
+< 22	certaines	certain	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind|Shared=Yes	23	subj@pass	_	_
+---
+> 22	certaines	certain	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	23	subj@pass	_	_
+
+164322c164322
+< 18	perdue	perdre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	comp:pred	_	Subject=SubjRaising
+---
+> 18	perdue	perdre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	comp:pred	_	Subject=ObjRaising
+
+164560c164560
+< 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+---
+> 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	11	det	_	_
+
+164959c164959
+< 60	en	en	ADP	_	_	59	mod	_	_
+---
+> 60	en	en	ADP	_	_	58	mod	_	_
+
+165012c165012
+< 47	mais	mais	CCONJ	_	Shared=No	49	cc	_	_
+---
+> 47	mais	mais	CCONJ	_	Shared=Yes	49	cc	_	_
+
+166721c166721
+< 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	13	det	_	_
+---
+> 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+
+167191c167191
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	7	punct	_	_
+
+167606c167606
+< 22	pour	pour	ADP	_	Shared=No	21	mod	_	_
+---
+> 22	pour	pour	ADP	_	_	25	udep	_	_
+
+168159c168159
+< 11	attirer	attirer	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Generic
+---
+> 11	attirer	attirer	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
+
+168433,168434c168433,168434
+< 45	,	,	PUNCT	_	_	47	punct	_	_
+< 46	ou	ou	CCONJ	_	Shared=No	47	cc	_	_
+---
+> 45	,	,	PUNCT	_	Shared=Yes	47	punct	_	_
+> 46	ou	ou	CCONJ	_	Shared=Yes	47	cc	_	_
+
+168445c168445
+< 57	puis	puis	CCONJ	_	Shared=No	58	cc	_	_
+---
+> 57	puis	puis	CCONJ	_	_	58	cc	_	_
+
+169282c169282
+< 21	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	22	subj	_	_
+---
+> 21	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
+
+169476c169476
+< 12	qu'	que	PRON	_	PronType=Rel|Shared=No	14	comp:obj	_	SpaceAfter=No
+---
+> 12	qu'	que	PRON	_	PronType=Rel|Shared=Yes	14	comp:obj	_	SpaceAfter=No
+
+169744c169744
+< 5	et	et	CCONJ	_	Shared=No	9	cc	_	_
+---
+> 5	et	et	CCONJ	_	_	9	cc	_	_
+
+169812c169812
+< 7	convainquant	convaincre	VERB	_	Tense=Pres|VerbForm=Part	4	comp:pred	_	Subject=SubjRaising
+---
+> 7	convainquant	convaincre	VERB	_	Tense=Pres|VerbForm=Part	4	comp:pred	_	Subject=ObjRaising
+
+170464c170464
+< 15	,	,	PUNCT	_	_	14	punct	_	_
+---
+> 15	,	,	PUNCT	_	_	25	punct	_	_
+
+171014c171014
+< 11	où	où	ADV	_	PronType=Rel|Shared=No	13	comp:obl	_	_
+---
+> 11	où	où	ADV	_	PronType=Rel|Shared=Yes	13	comp:obl	_	_
+
+171424c171424
+< 20	,	,	PUNCT	_	_	19	punct	_	_
+---
+> 20	,	,	PUNCT	_	_	29	punct	_	_
+
+172527c172527
+< 54	,	,	PUNCT	_	_	56	punct	_	_
+---
+> 54	,	,	PUNCT	_	Shared=Yes	56	punct	_	_
+
+172631c172631
+< 6	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	7	comp:obj	_	_
+---
+> 6	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	comp:obj	_	_
+
+172690c172690
+< 14	mais	mais	CCONJ	_	Shared=No	15	cc	_	_
+---
+> 14	mais	mais	CCONJ	_	_	15	cc	_	_
+
+173290c173290
+< 12	21	21	NUM	_	Number=Plur|Shared=No	22	subj@pass	_	_
+---
+> 12	21	21	NUM	_	Number=Plur	22	subj@pass	_	_
+
+173985c173985
+< 32	Théodosie	Théodosie	PROPN	_	Shared=No	30	appos	_	_
+---
+> 32	Théodosie	Théodosie	PROPN	_	_	30	appos	_	_
+
+174456c174456
+< 11	allant	aller	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	_
+---
+> 11	allant	aller	VERB	_	Tense=Pres|VerbForm=Part	5	mod	_	_
+
+175384,175385c175384,175385
+< 26	mais	mais	CCONJ	_	Shared=No	34	cc	_	SpaceAfter=No
+< 27	,	,	PUNCT	_	_	26	punct	_	_
+---
+> 26	mais	mais	CCONJ	_	Shared=Yes	34	cc	_	SpaceAfter=No
+> 27	,	,	PUNCT	_	Shared=Yes	34	punct	_	_
+
+176570c176570
+< 25	et	et	CCONJ	_	Shared=No	26	cc	_	_
+---
+> 25	et	et	CCONJ	_	Shared=Yes	26	cc	_	_
+
+176593c176593
+< 9	moins	moins	ADV	_	_	7	mod	_	_
+---
+> 9	moins	moins	ADV	_	Shared=No	10	mod	_	_
+
+177271c177271
+< 13	que	que	SCONJ	_	_	2	comp:cleft	_	_
+---
+> 13	que	que	SCONJ	_	_	4	comp:cleft	_	_
+
+177797c177797
+< 13	(	(	PUNCT	_	Shared=Yes	14	punct	_	SpaceAfter=No
+---
+> 13	(	(	PUNCT	_	Shared=No	14	punct	_	SpaceAfter=No
+
+178045c178045
+< 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing|PronType=Ind	4	mod	_	_
+---
+> 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing|PronType=Ind	2	mod	_	_
+
+178097c178097
+< 2	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+---
+> 2	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	3	subj	_	_
+
+178866c178866
+< 33	:	:	PUNCT	_	Shared=Yes	36	punct	_	_
+---
+> 33	:	:	PUNCT	_	Shared=No	36	punct	_	_
+
+180173c180173
+< 9	accueillir	accueillir	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
+---
+> 9	accueillir	accueillir	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=ObjRaising
+
+180542c180542
+< 8	être	être	AUX	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
+---
+> 8	être	être	AUX	_	VerbForm=Inf	7	comp:pred@obj	_	Subject=SubjRaising
+
+180754,180756c180754,180756
+< 43	,	,	PUNCT	_	_	46	punct	_	_
+< 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+< 45	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
+---
+> 43	,	,	PUNCT	_	Shared=No	46	punct	_	_
+> 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	46	det	_	_
+> 45	"	"	PUNCT	_	Shared=No	46	punct	_	SpaceAfter=No
+
+180842c180842
+< 128	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	130	det	_	_
+---
+> 128	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	130	det	_	_
+
+180846,180847c180846,180847
+< 132	,	,	PUNCT	_	Shared=No	134	punct	_	_
+< 133	"	"	PUNCT	_	Shared=No	134	punct	_	SpaceAfter=No
+---
+> 132	,	,	PUNCT	_	_	134	punct	_	_
+> 133	"	"	PUNCT	_	_	134	punct	_	SpaceAfter=No
+
+180964c180964
+< 249	saucisse	saucisse	NOUN	_	Gender=Fem|Number=Sing|Shared=No	247	appos	_	_
+---
+> 249	saucisse	saucisse	NOUN	_	Gender=Fem|Number=Sing	247	appos	_	_
+
+181092c181092
+< 374	de	de	ADP	_	_	370	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 374	de	de	ADP	_	_	372	mod	_	ExtPos=ADV|Idiom=Yes
+
+181128c181128
+< 16	.	.	PUNCT	_	_	9	punct	_	_
+---
+> 16	.	.	PUNCT	_	_	8	punct	_	_
+
+181143c181143
+< 12	retour	retour	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj@agent	_	_
+---
+> 12	retour	retour	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+
+181656c181656
+< 19	dans	dans	ADP	_	_	18	mod	_	InTitle=Yes|SpaceAfter=No
+---
+> 19	dans	dans	ADP	_	_	18	unk	_	InTitle=Yes|SpaceAfter=No
+
+182422c182422
+< 15	fournir	fournir	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
+---
+> 15	fournir	fournir	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=ObjRaising
+
+182511c182511
+< 18	:	:	PUNCT	_	_	20	punct	_	_
+---
+> 18	:	:	PUNCT	_	Shared=Yes	20	punct	_	_
+
+183227,183228c183227,183228
+< 6	:	:	PUNCT	_	_	8	punct	_	_
+< 7	excellente	excellent	ADJ	_	Gender=Fem|Number=Sing	8	parataxis	_	_
+---
+> 6	:	:	PUNCT	_	Shared=Yes	8	punct	_	_
+> 7	excellente	excellent	ADJ	_	Gender=Fem|Number=Sing|Shared=Yes	8	parataxis	_	_
+
+183270c183270
+< 20	apres	après-midi	ADP	_	Gender=Masc|Number=Sing|Typo=Yes	19	mod	_	CorrectForm=après-midi
+---
+> 20	apres	après-midi	ADP	_	Gender=Masc|Number=Sing|Typo=Yes	19	unk	_	CorrectForm=après-midi
+
+183852c183852
+< 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	9	det	_	_
+---
+> 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+
+185038c185038
+< 5	qu'	que	SCONJ	_	_	2	comp:obj@agent	_	SpaceAfter=No
+---
+> 5	qu'	que	SCONJ	_	_	4	comp:obj@agent	_	SpaceAfter=No
+
+185567,185568c185567,185568
+< 4	(	(	PUNCT	_	Shared=Yes	7	punct	_	SpaceAfter=No
+< 5	parfois	parfois	ADV	_	Shared=Yes	7	mod	_	_
+---
+> 4	(	(	PUNCT	_	Shared=No	7	punct	_	SpaceAfter=No
+> 5	parfois	parfois	ADV	_	Shared=No	7	mod	_	_
+
+185721c185721
+< 8	proposant	proposer	VERB	_	Tense=Pres|VerbForm=Part	5	mod	_	Subject=Instantiated
+---
+> 8	proposant	proposer	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	Subject=Instantiated
+
+186413c186413
+< 16	,	,	PUNCT	_	_	15	punct	_	_
+---
+> 16	,	,	PUNCT	_	_	18	punct	_	_
+
+187527c187527
+< 10	encore	encore	ADV	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes
+---
+> 10	encore	encore	ADV	_	Shared=Yes	8	mod	_	ExtPos=SCONJ|Idiom=Yes
+
+188179c188179
+< 7	longtemps	longtemps	ADV	_	_	6	mod	_	_
+---
+> 7	longtemps	longtemps	ADV	_	_	8	mod	_	_
+
+188480c188480
+< 23	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	24	comp:obj	_	_
+---
+> 23	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	comp:obj	_	_
+
+188487c188487
+< 30	,	,	PUNCT	_	_	29	punct	_	_
+---
+> 30	,	,	PUNCT	_	_	56	punct	_	_
+
+188770c188770
+< 11	,	,	PUNCT	_	_	10	punct	_	_
+---
+> 11	,	,	PUNCT	_	_	19	punct	_	_
+
+189079c189079
+< 8	,	,	PUNCT	_	_	7	punct	_	_
+---
+> 8	,	,	PUNCT	_	_	12	punct	_	_
+
+189194c189194
+< 7	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	4	mod	_	_
+---
+> 7	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
+
+189368c189368
+< 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	6	det	_	SpaceAfter=No
+---
+> 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+
+189934c189934
+< 5	trés	trés	ADV	_	Typo=Yes	6	mod	_	CorrectForm=très
+---
+> 5	trés	trés	ADV	_	Typo=Yes	4	mod	_	CorrectForm=très
+
+189949c189949
+< 20	trés	trés	ADV	_	Typo=Yes	21	mod	_	CorrectForm=très
+---
+> 20	trés	trés	ADV	_	Shared=No|Typo=Yes	18	mod	_	CorrectForm=très
+
+190317c190317
+< 1	Mais	mais	CCONJ	_	Shared=No	3	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	_	3	cc	_	wordform=mais
+
+191219c191219
+< 7	adresse	adresse	NOUN	_	Gender=Fem|Number=Sing|Shared=No	8	subj	_	_
+---
+> 7	adresse	adresse	NOUN	_	Gender=Fem|Number=Sing	8	subj	_	_
+
+191734c191734
+< 13	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+---
+> 13	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+191736c191736
+< 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+---
+> 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+
+191839c191839
+< 11	:	:	PUNCT	_	Shared=Yes	15	punct	_	_
+---
+> 11	:	:	PUNCT	_	Shared=No	15	punct	_	_
+
+192500c192500
+< 5	[	[	PUNCT	_	Shared=Yes	6	punct	_	SpaceAfter=No
+---
+> 5	[	[	PUNCT	_	Shared=No	6	punct	_	SpaceAfter=No
+
+193075c193075
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	6	punct	_	_
+
+194172c194172
+< 1	Mais	mais	CCONJ	_	Shared=No	8	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	8	cc	_	wordform=mais
+
+194272c194272
+< 37	garder	garder	VERB	_	VerbForm=Inf	36	comp:obj	_	Subject=SubjRaising
+---
+> 37	garder	garder	VERB	_	VerbForm=Inf	36	comp:obj	_	Subject=ObjRaising
+
+195221c195221
+< 17	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
+---
+> 17	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	14	mod	_	_
+
+195912c195912
+< 12	et	et	CCONJ	_	Shared=No	13	cc	_	_
+---
+> 12	et	et	CCONJ	_	Shared=Yes	13	cc	_	_
+
+196260c196260
+< 16	en	en	ADP	_	Shared=No	14	mod	_	_
+---
+> 16	en	en	ADP	_	_	15	mod	_	_
+
+196262c196262
+< 18	de	de	ADP	_	Shared=No	14	mod	_	_
+---
+> 18	de	de	ADP	_	_	15	mod	_	_
+
+196267c196267
+< 23	1994	1994	NUM	_	Number=Plur|Shared=No	14	mod	_	SpaceAfter=No
+---
+> 23	1994	1994	NUM	_	Number=Plur	15	mod	_	SpaceAfter=No
+
+196271c196271
+< 27	obtenant	obtenir	VERB	_	Shared=No|Tense=Pres|VerbForm=Part	14	mod	_	Subject=Instantiated
+---
+> 27	obtenant	obtenir	VERB	_	Tense=Pres|VerbForm=Part	15	mod	_	Subject=Instantiated
+
+196401c196401
+< 8	autant	autant	ADV	_	_	6	mod	_	_
+---
+> 8	autant	autant	ADV	_	_	7	mod	_	_
+
+196773c196773
+< 23	duo	duo	NOUN	_	Gender=Masc|Number=Sing|Shared=No	28	subj	_	_
+---
+> 23	duo	duo	NOUN	_	Gender=Masc|Number=Sing	28	subj	_	_
+
+196972,196973c196972,196973
+< 1	Puis	puis	CCONJ	_	Shared=No	4	cc	_	wordform=puis
+< 2	en	en	ADP	_	Shared=No	4	mod	_	_
+---
+> 1	Puis	puis	CCONJ	_	Shared=Yes	4	cc	_	wordform=puis
+> 2	en	en	ADP	_	Shared=Yes	4	mod	_	_
+
+197759c197759
+< 10	et	et	CCONJ	_	Shared=No	11	cc	_	_
+---
+> 10	et	et	CCONJ	_	Shared=Yes	11	cc	_	_
+
+197812c197812
+< 5	%	%	SYM	_	Number=Plur	9	subj	_	ExtPos=NOUN
+---
+> 5	%	%	SYM	_	Number=Plur|Shared=No	9	subj	_	ExtPos=NOUN
+
+198186c198186
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	14	punct	_	_
+
+198238c198238
+< 6	à	à	ADP	_	Shared=No	10	comp:obl	_	_
+---
+> 6	à	à	ADP	_	_	10	comp:obl	_	_
+
+199277c199277
+< 34	Houphouët-Boigny	Houphouët-Boigny	PROPN	_	Shared=No	33	flat@name	_	SpaceAfter=No
+---
+> 34	Houphouët-Boigny	Houphouët-Boigny	PROPN	_	_	33	flat@name	_	SpaceAfter=No
+
+199822c199822
+< 33	précédemment	précédemment	ADV	_	_	32	mod	_	SpaceAfter=No
+---
+> 33	précédemment	précédemment	ADV	_	_	30	mod	_	SpaceAfter=No
+
+200314c200314
+< 31	mesurer	mesurer	VERB	_	VerbForm=Inf	30	comp:obj	_	Subject=OblRaising
+---
+> 31	mesurer	mesurer	VERB	_	VerbForm=Inf	30	comp:obj	_	Subject=SubjRaising
+
+200988c200988
+< 5	soit	soit	CCONJ	_	Shared=No	6	cc	_	_
+---
+> 5	soit	soit	CCONJ	_	_	6	cc	_	_
+
+201731c201731
+< 8	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	3	mod	_	_
+---
+> 8	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	_
+
+202606c202606
+< 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	9	subj	_	_
+---
+> 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
+
+202775c202775
+< 11	que	que	SCONJ	_	_	2	comp:cleft	_	_
+---
+> 11	que	que	SCONJ	_	_	4	comp:cleft	_	_
+
+202829c202829
+< 36	à	à	ADP	_	_	34	comp:obl	_	_
+---
+> 36	à	à	ADP	_	Shared=No	34	comp:obl	_	_
+
+203308c203308
+< 6	sur	sur	ADP	_	_	3	mod	_	_
+---
+> 6	sur	sur	ADP	_	_	5	mod	_	_
+
+203316c203316
+< 14	étant	être	AUX	_	Tense=Pres|VerbForm=Part	3	mod	_	_
+---
+> 14	étant	être	AUX	_	Tense=Pres|VerbForm=Part	5	mod	_	_
+
+203465c203465
+< 7	mangeant	manger	VERB	_	Tense=Pres|VerbForm=Part	3	mod	_	Subject=Instantiated
+---
+> 7	mangeant	manger	VERB	_	Tense=Pres|VerbForm=Part	5	mod	_	Subject=Instantiated
+
+203930c203930
+< 40	pour	pour	ADP	_	_	39	udep	_	SpaceAfter=No
+---
+> 40	pour	pour	ADP	_	_	39	unk	_	SpaceAfter=No
+
+203935c203935
+< 45	contre	contre	ADP	_	_	44	udep	_	SpaceAfter=No
+---
+> 45	contre	contre	ADP	_	_	44	unk	_	SpaceAfter=No
+
+204407c204407
+< 23	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	24	det	_	wordform=la
+---
+> 23	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	wordform=la
+
+204595c204595
+< 16	à	à	ADP	_	Shared=Yes	19	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 16	à	à	ADP	_	_	21	mod	_	ExtPos=ADV|Idiom=Yes
+
+204599c204599
+< 19	à	à	ADP	_	Shared=No	15	comp:obl	_	_
+---
+> 19	à	à	ADP	_	_	15	comp:obl	_	_
+
+204628c204628
+< 19	meurtri	meurtrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:pred	_	Subject=SubjRaising
+---
+> 19	meurtri	meurtrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:pred	_	Subject=ObjRaising
+
+204757c204757
+< 13	:	:	PUNCT	_	_	14	punct	_	_
+---
+> 13	:	:	PUNCT	_	Shared=Yes	14	punct	_	_
+
+204769c204769
+< 25	basses	basse	NOUN	_	Gender=Fem|Number=Plur|Shared=No	28	subj	_	_
+---
+> 25	basses	basse	NOUN	_	Gender=Fem|Number=Plur	28	subj	_	_
+
+205472c205472
+< 27	"	"	PUNCT	_	Shared=Yes	29	punct	_	SpaceAfter=No
+---
+> 27	"	"	PUNCT	_	Shared=No	29	punct	_	SpaceAfter=No
+
+206322c206322
+< 20	,	,	PUNCT	_	Shared=Yes	21	punct	_	_
+---
+> 20	,	,	PUNCT	_	_	21	punct	_	_
+
+206738,206740c206738,206740
+< 7	,	,	PUNCT	_	_	9	punct	_	_
+< 8	mais	mais	CCONJ	_	Shared=No	9	cc	_	_
+< 9	relax	relax	ADJ	_	Gender=Masc|Number=Sing	6	conj	_	_
+---
+> 7	,	,	PUNCT	_	Shared=Yes	9	punct	_	_
+> 8	mais	mais	CCONJ	_	Shared=Yes	9	cc	_	_
+> 9	relax	relax	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
+
+207032c207032
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	8	punct	_	_
+
+207694c207694
+< 22	plus	plus	ADV	_	Polarity=Neg	24	mod	_	_
+---
+> 22	plus	plus	ADV	_	Polarity=Neg|Shared=No	21	mod	_	_
+
+207769c207769
+< 19	horreur	horreur	NOUN	_	Gender=Fem|Number=Sing	9	parataxis	_	_
+---
+> 19	horreur	horreur	NOUN	_	Gender=Fem|Number=Sing	8	parataxis	_	_
+
+208133c208133
+< 21	par	par	ADP	_	_	19	comp:obl@agent	_	_
+---
+> 21	par	par	ADP	_	_	20	comp:obl@agent	_	_
+
+208186c208186
+< 19	église	église	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	SpaceAfter=No
+---
+> 19	église	église	NOUN	_	Gender=Fem|Number=Sing|Shared=No	17	appos	_	SpaceAfter=No
+
+209081c209081
+< 21	âge	âge	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
+---
+> 21	âge	âge	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	Subject=OblRaising
+
+209473c209473
+< 38	Attention	attention	INTJ	_	_	42	discourse	_	SpaceAfter=No|wordform=attention
+---
+> 38	Attention	attention	INTJ	_	Shared=Yes	42	discourse	_	SpaceAfter=No|wordform=attention
+
+209884c209884
+< 23	asseoir	asseoir	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=SubjRaising
+---
+> 23	asseoir	asseoir	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=ObjRaising
+
+210539c210539
+< 34	naturellement	naturellement	ADV	_	_	28	mod	_	SpaceAfter=No
+---
+> 34	naturellement	naturellement	ADV	_	_	31	mod	_	SpaceAfter=No
+
+210943c210943
+< 3	en	en	ADP	_	_	1	mod	_	_
+---
+> 3	en	en	ADP	_	_	2	udep	_	_
+
+210948c210948
+< 8	1962	1962	NUM	_	Number=Plur|Shared=No	6	mod	_	_
+---
+> 8	1962	1962	NUM	_	Number=Plur	7	mod	_	_
+
+211222c211222
+< 24	mais	mais	CCONJ	_	Shared=No	28	cc	_	_
+---
+> 24	mais	mais	CCONJ	_	Shared=Yes	28	cc	_	_
+
+211237c211237
+< 1	Mais	mais	CCONJ	_	Shared=No	4	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	_	4	cc	_	wordform=mais
+
+211242c211242
+< 6	et	et	CCONJ	_	Shared=No	9	cc	_	_
+---
+> 6	et	et	CCONJ	_	Shared=Yes	9	cc	_	_
+
+212128c212128
+< 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	13	det	_	InIdiom=Yes
+---
+> 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	InIdiom=Yes
+
+212143c212143
+< 25	un	un	NUM	_	Number=Sing|Shared=No	26	det	_	_
+---
+> 25	un	un	NUM	_	Number=Sing	26	det	_	_
+
+212227c212227
+< 24	à	à	ADP	_	Shared=Yes	28	comp:obl	_	_
+---
+> 24	à	à	ADP	_	_	28	comp:obl	_	_
+
+213157c213157
+< 26	intégré	intégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	mod	_	_
+---
+> 26	intégré	intégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	_
+
+213747c213747
+< 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	7	det	_	_
+---
+> 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+
+213785c213785
+< 10	mais	mais	CCONJ	_	Shared=No	15	cc	_	_
+---
+> 10	mais	mais	CCONJ	_	Shared=Yes	15	cc	_	_
+
+214158c214158
+< 3	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 3	,	,	PUNCT	_	_	6	punct	_	_
+
+214269c214269
+< 24	25	25	NUM	_	Number=Sing	21	mod	_	_
+---
+> 24	25	25	NUM	_	Number=Sing	22	mod	_	_
+
+214509c214509
+< 23	longtemps	longtemps	ADV	_	_	22	mod	_	_
+---
+> 23	longtemps	longtemps	ADV	_	_	24	mod	_	_
+
+214704c214704
+< 28	étant	être	AUX	_	Tense=Pres|VerbForm=Part	19	mod	_	_
+---
+> 28	étant	être	AUX	_	Tense=Pres|VerbForm=Part	20	mod	_	_
+
+214929c214929
+< 8	(	(	PUNCT	_	Shared=Yes	9	punct	_	SpaceAfter=No
+---
+> 8	(	(	PUNCT	_	Shared=No	9	punct	_	SpaceAfter=No
+
+215531,215532c215531,215532
+< 15	mais	mais	CCONJ	_	Shared=No	24	cc	_	_
+< 16	quand	quand	SCONJ	_	Shared=No	24	mod	_	_
+---
+> 15	mais	mais	CCONJ	_	_	24	cc	_	_
+> 16	quand	quand	SCONJ	_	_	24	mod	_	_
+
+215539c215539
+< 23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	24	subj@expl	_	_
+---
+> 23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	subj@expl	_	_
+
+215872c215872
+< 6	de	de	ADP	_	Shared=Yes	2	comp:obj@agent	_	_
+---
+> 6	de	de	ADP	_	_	2	comp:obj@agent	_	_
+
+216274,216275c216274,216275
+< 59	*	*	SYM	_	Shared=Yes	62	mod	_	ExtPos=ADV
+< 60	1552-1554	1552-1554	NUM	_	Number=Plur|Shared=Yes	62	mod	_	_
+---
+> 59	*	*	SYM	_	_	62	mod	_	ExtPos=ADV
+> 60	1552-1554	1552-1554	NUM	_	Number=Plur	62	det	_	_
+
+216319c216319
+< 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	2	det	_	wordform=le
+---
+> 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+
+216966c216966
+< 12	,	,	PUNCT	_	Shared=Yes	13	punct	_	_
+---
+> 12	,	,	PUNCT	_	_	13	punct	_	_
+
+216972c216972
+< 18	Ennemy	Ennemy	PROPN	_	Shared=No	17	flat@name	_	SpaceAfter=No
+---
+> 18	Ennemy	Ennemy	PROPN	_	_	17	flat@name	_	SpaceAfter=No
+
+217400c217400
+< 17	en	en	ADP	_	_	16	mod	_	_
+---
+> 17	en	en	ADP	_	_	14	mod	_	_
+
+218534c218534
+< 5	victoires	victoire	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj@agent	_	_
+---
+> 5	victoires	victoire	NOUN	_	Gender=Fem|Number=Plur	2	subj	_	_
+
+219614c219614
+< 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	14	det	_	InIdiom=Yes
+---
+> 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	InIdiom=Yes
+
+221397c221397
+< 3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	udep	_	_
+---
+> 3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	mod	_	_
+
+221487c221487
+< 22	mais	mais	CCONJ	_	Shared=No	24	cc	_	_
+---
+> 22	mais	mais	CCONJ	_	Shared=Yes	24	cc	_	_
+
+221635c221635
+< 15	puis	puis	CCONJ	_	Shared=No	16	cc	_	_
+---
+> 15	puis	puis	CCONJ	_	_	16	cc	_	_
+
+222010c222010
+< 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	7	det	_	_
+---
+> 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+
+222064c222064
+< 18	kilomètre	kilomètre	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
+---
+> 18	kilomètre	kilomètre	NOUN	_	Gender=Masc|Number=Sing|Shared=No	17	comp:obj	_	_
+
+222229c222229
+< 15	perdre	perdre	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=OblRaising
+---
+> 15	perdre	perdre	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
+
+222808c222808
+< 23	lors	lors	ADV	_	_	18	mod	_	_
+---
+> 23	lors	lors	ADV	_	_	15	mod	_	_
+
+223295c223295
+< 2	Pythagore	Pythagore	PROPN	_	Gender=Masc|Number=Sing	7	subj	_	_
+---
+> 2	Pythagore	Pythagore	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes	7	subj	_	_
+
+223576c223576
+< 24	»	»	PUNCT	_	Shared=No	23	punct	_	SpaceAfter=No
+---
+> 24	»	»	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+223579,223580c223579,223580
+< 27	païens	païen	ADJ	_	Gender=Masc|Number=Plur|Shared=No	23	conj	_	SpaceAfter=No
+< 28	,	,	PUNCT	_	_	27	punct	_	_
+---
+> 27	païens	païen	ADJ	_	Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+> 28	,	,	PUNCT	_	Shared=No	27	punct	_	_
+
+223914c223914
+< 13	car	car	CCONJ	_	Shared=No	20	cc	_	_
+---
+> 13	car	car	CCONJ	_	Shared=Yes	20	cc	_	_
+
+224240c224240
+< 14	center	center	X	_	Foreign=Yes	13	flat@foreign	_	Lang=en|SpaceAfter=No
+---
+> 14	center	center	X	_	Foreign=Yes|Shared=No	13	flat@foreign	_	Lang=en|SpaceAfter=No
+
+224373c224373
+< 22	mais	mais	CCONJ	_	Shared=No	27	cc	_	_
+---
+> 22	mais	mais	CCONJ	_	Shared=Yes	27	cc	_	_
+
+224765c224765
+< 17	déclenche	déclencher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj@emb	_	_
+---
+> 17	déclenche	déclencher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+
+224767,224768c224767,224768
+< 19	tard	tard	ADV	_	Shared=No	17	mod	_	SpaceAfter=No
+< 20	)	)	PUNCT	_	Shared=No	17	punct	_	_
+---
+> 19	tard	tard	ADV	_	_	17	mod	_	SpaceAfter=No
+> 20	)	)	PUNCT	_	_	17	punct	_	_
+
+224834c224834
+< 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	20	det	_	_
+---
+> 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+
+226576c226576
+< 13	"	"	PUNCT	_	Shared=Yes	14	punct	_	SpaceAfter=No
+---
+> 13	"	"	PUNCT	_	Shared=No	14	punct	_	SpaceAfter=No
+
+227111,227112c227111,227112
+< 13	car	car	CCONJ	_	_	15	cc	_	_
+< 14	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	15	subj	_	_
+---
+> 13	car	car	CCONJ	_	Shared=Yes	15	cc	_	_
+> 14	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs|Shared=Yes	15	subj	_	_
+
+227343c227343
+< 17	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+---
+> 17	être	être	AUX	_	VerbForm=Inf	16	comp:pred@obj	_	SpaceAfter=No|Subject=SubjRaising
+
+227591c227591
+< 55	ainsi	ainsi	ADV	_	Shared=No	59	cc	_	ExtPos=CCONJ|Idiom=Yes
+---
+> 55	ainsi	ainsi	ADV	_	Shared=Yes	59	cc	_	ExtPos=CCONJ|Idiom=Yes
+
+227674c227674
+< 18	et	et	CCONJ	_	Shared=No	20	cc	_	_
+---
+> 18	et	et	CCONJ	_	Shared=Yes	20	cc	_	_
+
+227844c227844
+< 33	aujourd'hui	aujourd'hui	ADV	_	_	32	mod	_	SpaceAfter=No
+---
+> 33	aujourd'hui	aujourd'hui	ADV	_	_	30	mod	_	SpaceAfter=No
+
+228081c228081
+< 10	vivant	vivre	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	Subject=Instantiated
+---
+> 10	vivant	vivre	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	Subject=Instantiated
+
+229008c229008
+< 17	ainsi	ainsi	ADV	_	Shared=No	19	cc	_	ExtPos=CCONJ|Idiom=Yes
+---
+> 17	ainsi	ainsi	ADV	_	Shared=Yes	19	cc	_	ExtPos=CCONJ|Idiom=Yes
+
+229228c229228
+< 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	2	det	_	wordform=les
+---
+> 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
+
+230159c230159
+< 18	Williams	Williams	PROPN	_	Shared=No	17	flat@name	_	_
+---
+> 18	Williams	Williams	PROPN	_	_	17	flat@name	_	_
+
+230878c230878
+< 26	mais	mais	CCONJ	_	_	28	cc	_	_
+---
+> 26	mais	mais	CCONJ	_	Shared=Yes	28	cc	_	_
+
+231428c231428
+< 9	et	et	CCONJ	_	Shared=No	12	cc	_	_
+---
+> 9	et	et	CCONJ	_	Shared=Yes	12	cc	_	_
+
+231995c231995
+< 38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	39	det	_	_
+---
+> 38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+
+232031c232031
+< 11	15	15	NUM	_	Number=Sing	3	comp:arg	_	_
+---
+> 11	15	15	NUM	_	Number=Sing	3	comp	_	_
+
+232691c232691
+< 18	risque	risque	NOUN	_	Gender=Masc|Number=Sing|Shared=No	19	subj	_	_
+---
+> 18	risque	risque	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	_
+
+232758c232758
+< 3	être	être	AUX	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
+---
+> 3	être	être	AUX	_	VerbForm=Inf	2	comp:pred@obj	_	Subject=SubjRaising
+
+232924c232924
+< 25	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=No	26	subj	_	_
+---
+> 25	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	subj	_	_
+
+232950c232950
+< 51	renouveler	renouveler	VERB	_	VerbForm=Inf	50	comp:obj	_	Subject=SubjRaising
+---
+> 51	renouveler	renouveler	VERB	_	VerbForm=Inf	50	comp:obj	_	Subject=ObjRaising
+
+233726c233726
+< 14	que	que	SCONJ	_	_	13	comp:obj	_	SpaceAfter=No
+---
+> 14	que	que	SCONJ	_	_	13	comp	_	SpaceAfter=No
+
+233943c233943
+< 10	auprès	auprès	ADV	_	_	5	mod	_	_
+---
+> 10	auprès	auprès	ADV	_	_	3	mod	_	_
+
+234283c234283
+< 1	Mais	mais	CCONJ	_	Shared=No	4	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	4	cc	_	wordform=mais
+
+234895c234895
+< 13	chercher	chercher	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Generic
+---
+> 13	chercher	chercher	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
+
+236114c236114
+< 24	(	(	PUNCT	_	Shared=Yes	27	punct	_	SpaceAfter=No
+---
+> 24	(	(	PUNCT	_	Shared=No	27	punct	_	SpaceAfter=No
+
+236215c236215
+< 13	et	et	CCONJ	_	Shared=No	15	cc	_	_
+---
+> 13	et	et	CCONJ	_	Shared=Yes	15	cc	_	_
+
+236310c236310
+< 5	lors	lors	ADV	_	_	3	mod	_	_
+---
+> 5	lors	lors	ADV	_	_	4	mod	_	_
+
+236322c236322
+< 15	dans	dans	ADP	_	_	3	mod	_	_
+---
+> 15	dans	dans	ADP	_	_	4	mod	_	_
+
+236327c236327
+< 20	début	début	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
+---
+> 20	début	début	NOUN	_	Gender=Masc|Number=Sing	4	mod	_	_
+
+236329,236331c236329,236331
+< 22	,	,	PUNCT	_	_	25	punct	_	_
+< 23	mais	mais	CCONJ	_	_	25	cc	_	_
+< 24	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	subj@pass	_	_
+---
+> 22	,	,	PUNCT	_	Shared=Yes	25	punct	_	_
+> 23	mais	mais	CCONJ	_	Shared=Yes	25	cc	_	_
+> 24	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=Yes	25	subj@pass	_	_
+
+236380c236380
+< 9	et	et	CCONJ	_	Shared=No	11	cc	_	_
+---
+> 9	et	et	CCONJ	_	Shared=Yes	11	cc	_	_
+
+236549c236549
+< 28	par	par	ADP	_	_	21	comp:obl@agent	_	_
+---
+> 28	par	par	ADP	_	_	20	comp:obl@agent	_	_
+
+236641c236641
+< 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	2	det	_	wordform=le
+---
+> 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+
+236805c236805
+< 11	en	en	ADP	_	_	10	mod	_	_
+---
+> 11	en	en	ADP	_	_	8	mod	_	_
+
+238129c238129
+< 7	longtemps	longtemps	ADV	_	_	6	mod	_	_
+---
+> 7	longtemps	longtemps	ADV	_	_	8	mod	_	_
+
+238264c238264
+< 4	longtemps	longtemps	ADV	_	_	3	mod	_	_
+---
+> 4	longtemps	longtemps	ADV	_	_	5	mod	_	_
+
+239989c239989
+< 6	et	et	CCONJ	_	Shared=No	7	cc	_	_
+---
+> 6	et	et	CCONJ	_	Shared=Yes	7	cc	_	_
+
+240407c240407
+< 14	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	15	det	_	wordform=les
+---
+> 14	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	wordform=les
+
+240953,240954c240953,240954
+< 18	10	10	NUM	_	Number=Plur	16	conj@emb	_	_
+< 19	et	et	CCONJ	_	Shared=No	20	cc	_	_
+---
+> 18	10	10	NUM	_	Number=Plur	16	conj	_	_
+> 19	et	et	CCONJ	_	Shared=Yes	20	cc	_	_
+
+241284c241284
+< 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	3	det	_	wordform=la
+---
+> 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	wordform=la
+
+241385c241385
+< 24	lors	lors	ADV	_	_	22	mod	_	_
+---
+> 24	lors	lors	ADV	_	_	19	mod	_	_
+
+241511c241511
+< 21	qu'	que	SCONJ	_	Shared=No	16	comp:cleft	_	SpaceAfter=No
+---
+> 21	qu'	que	SCONJ	_	_	18	comp:cleft	_	SpaceAfter=No
+
+241953c241953
+< 6	7	7	NUM	_	Number=Sing	4	comp:arg	_	_
+---
+> 6	7	7	NUM	_	Number=Sing	4	comp	_	_
+
+242223c242223
+< 5	depuis	depuis	ADP	_	_	4	mod	_	_
+---
+> 5	depuis	depuis	ADP	_	_	8	udep	_	_
+
+242316c242316
+< 15	détruits	détruire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	mod	_	Subject=Instantiated
+---
+> 15	détruits	détruire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	mod	_	Subject=Instantiated
+
+242370c242370
+< 5	préserver	préserver	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
+---
+> 5	préserver	préserver	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=ObjRaising
+
+242938c242938
+< 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	2	det	_	wordform=la
+---
+> 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
+
+243272c243272
+< 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	2	det	_	wordform=le
+---
+> 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+
+243675c243675
+< 41	même	même	ADV	_	_	40	mod	_	SpaceAfter=No
+---
+> 41	même	même	ADV	_	_	39	mod	_	SpaceAfter=No
+
+243950c243950
+< 6	5	5	NUM	_	Number=Sing	3	mod	_	_
+---
+> 6	5	5	NUM	_	Number=Sing	4	mod	_	_
+
+245197c245197
+< 12	de	de	ADP	_	_	10	comp:obl@agent	_	_
+---
+> 12	de	de	ADP	_	_	9	comp:obl@agent	_	_
+
+245576c245576
+< 36	,	,	PUNCT	_	_	35	punct	_	_
+---
+> 36	,	,	PUNCT	_	_	40	punct	_	_
+
+245666c245666
+< 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	30	det	_	_
+---
+> 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+
+245700c245700
+< 22	puis	puis	CCONJ	_	Shared=No	23	cc	_	_
+---
+> 22	puis	puis	CCONJ	_	Shared=Yes	23	cc	_	_
+
+246591c246591
+< 21	certains	certain	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	22	subj	_	_
+---
+> 21	certains	certain	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind|Shared=No	22	subj	_	_
+
+247685c247685
+< 7	ou	ou	CCONJ	_	Shared=No	8	cc	_	_
+---
+> 7	ou	ou	CCONJ	_	Shared=Yes	8	cc	_	_
+
+247827,247828c247827,247828
+< 1	Mais	mais	CCONJ	_	Shared=No	25	cc	_	wordform=mais
+< 2	alors	alors	ADV	_	Shared=No	25	mod	_	ExtPos=SCONJ|Idiom=Yes
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	25	cc	_	wordform=mais
+> 2	alors	alors	ADV	_	Shared=Yes	25	mod	_	ExtPos=SCONJ|Idiom=Yes
+
+248322c248322
+< 31	si	si	SCONJ	_	_	14	mod	_	_
+---
+> 31	si	si	SCONJ	_	Shared=Yes	21	mod	_	_
+
+248538,248539c248538,248539
+< 10	,	,	PUNCT	_	_	14	punct	_	_
+< 11	ainsi	ainsi	ADV	_	_	14	cc	_	ExtPos=CCONJ|Idiom=Yes
+---
+> 10	,	,	PUNCT	_	Shared=Yes	14	punct	_	_
+> 11	ainsi	ainsi	ADV	_	Shared=Yes	14	cc	_	ExtPos=CCONJ|Idiom=Yes
+
+248541c248541
+< 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+---
+> 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	14	det	_	_
+
+248632c248632
+< 8	Walkyrie	Walkyrie	PROPN	_	Shared=No	13	dislocated	_	SpaceAfter=No
+---
+> 8	Walkyrie	Walkyrie	PROPN	_	_	13	dislocated	_	SpaceAfter=No
+
+248640c248640
+< 16	,	,	PUNCT	_	_	15	punct	_	_
+---
+> 16	,	,	PUNCT	_	_	23	punct	_	_
+
+248778c248778
+< 41	même	même	ADV	_	_	39	mod	_	SpaceAfter=No
+---
+> 41	même	même	ADV	_	_	38	mod	_	SpaceAfter=No
+
+249221c249221
+< 18	avoir	avoir	AUX	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
+---
+> 18	avoir	avoir	AUX	_	VerbForm=Inf	16	comp:obj	_	Subject=ObjRaising
+
+249322c249322
+< 17	,	,	PUNCT	_	Shared=Yes	18	punct	_	_
+---
+> 17	,	,	PUNCT	_	_	18	punct	_	_
+
+249331,249332c249331,249332
+< 26	,	,	PUNCT	_	_	29	punct	_	_
+< 27	ainsi	ainsi	ADV	_	_	29	cc	_	ExtPos=CCONJ|Idiom=Yes
+---
+> 26	,	,	PUNCT	_	Shared=Yes	29	punct	_	_
+> 27	ainsi	ainsi	ADV	_	Shared=Yes	29	cc	_	ExtPos=CCONJ|Idiom=Yes
+
+249947c249947
+< 17	de	de	ADP	_	_	16	udep	_	InIdiom=Yes|SpaceAfter=No
+---
+> 17	de	de	ADP	_	_	16	unk	_	InIdiom=Yes|SpaceAfter=No
+
+250775c250775
+< 16	,	,	PUNCT	_	_	18	punct	_	_
+---
+> 16	,	,	PUNCT	_	Shared=Yes	18	punct	_	_
+
+250778c250778
+< 19	un	un	NUM	_	Number=Sing|Shared=No	20	det	_	_
+---
+> 19	un	un	NUM	_	Number=Sing	20	det	_	_
+
+251697c251697
+< 36	fois	fois	NOUN	_	Gender=Fem|Number=Sing|Shared=No	28	mod	_	SpaceAfter=No
+---
+> 36	fois	fois	NOUN	_	Gender=Fem|Number=Sing	33	mod	_	SpaceAfter=No
+
+252110c252110
+< 12	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	_
+---
+> 12	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	13	det	_	_
+
+252112,252113c252112,252113
+< 14	,	,	PUNCT	_	Shared=Yes	16	punct	_	_
+< 15	soit	soit	ADV	_	Shared=Yes	16	mod	_	_
+---
+> 14	,	,	PUNCT	_	_	16	punct	_	_
+> 15	soit	soit	ADV	_	_	16	mod	_	_
+
+253295c253295
+< 26	mais	mais	CCONJ	_	Shared=No	27	cc	_	_
+---
+> 26	mais	mais	CCONJ	_	Shared=Yes	27	cc	_	_
+
+253311c253311
+< 41	à	à	ADP	_	_	37	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 41	à	à	ADP	_	_	40	mod	_	ExtPos=ADV|Idiom=Yes
+
+254400c254400
+< 3	en	en	PRON	_	Person=3|PronType=Prs|Shared=No	6	mod	_	_
+---
+> 3	en	en	PRON	_	Person=3|PronType=Prs	4	mod	_	_
+
+255221c255221
+< 10	avec	avec	ADP	_	_	6	mod	_	_
+---
+> 10	avec	avec	ADP	_	_	9	udep	_	_
+
+255643c255643
+< 1	Mais	mais	CCONJ	_	Shared=No	20	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	20	cc	_	wordform=mais
+
+255860,255861c255860,255861
+< 1	Et	et	CCONJ	_	Shared=No	8	cc	_	wordform=et
+< 2	en	en	ADP	_	Shared=No	8	mod	_	_
+---
+> 1	Et	et	CCONJ	_	Shared=Yes	8	cc	_	wordform=et
+> 2	en	en	ADP	_	Shared=Yes	8	mod	_	_
+
+256173,256174c256173,256174
+< 18	,	,	PUNCT	_	_	21	punct	_	_
+< 19	mais	mais	CCONJ	_	_	21	cc	_	_
+---
+> 18	,	,	PUNCT	_	Shared=Yes	21	punct	_	_
+> 19	mais	mais	CCONJ	_	Shared=Yes	21	cc	_	_
+
+256266c256266
+< 7	Chapel	Chapel	PROPN	_	_	6	comp:obj	_	_
+---
+> 7	Chapel	Chapel	PROPN	_	Shared=No	6	comp:obj	_	_
+
+256268,256269c256268,256269
+< 9	,	,	PUNCT	_	_	6	punct	_	_
+< 10	en	en	ADP	_	_	6	mod	_	_
+---
+> 9	,	,	PUNCT	_	_	7	punct	_	_
+> 10	en	en	ADP	_	_	7	udep	_	_
+
+256360,256361c256360,256361
+< 13	,	,	PUNCT	_	Shared=Yes	17	punct	_	_
+< 14	dont	dont	PRON	_	PronType=Rel|Shared=Yes	17	udep	_	_
+---
+> 13	,	,	PUNCT	_	Shared=No	17	punct	_	_
+> 14	dont	dont	PRON	_	PronType=Rel|Shared=No	17	udep	_	_
+
+256606c256606
+< 12	10	10	NUM	_	Number=Sing	9	mod	_	_
+---
+> 12	10	10	NUM	_	Number=Sing	10	mod	_	_
+
+257568c257568
+< 28	»	»	PUNCT	_	Shared=No	25	punct	_	SpaceAfter=No
+---
+> 28	»	»	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+257741c257741
+< 9	dans	dans	ADP	_	_	7	mod	_	_
+---
+> 9	dans	dans	ADP	_	_	8	udep	_	_
+
+258292c258292
+< 3	longent	longtemps	ADV	_	Typo=Yes	2	mod	_	CorrectForm=longtemps
+---
+> 3	longent	longtemps	ADV	_	Typo=Yes	6	mod	_	CorrectForm=longtemps
+
+258544c258544
+< 15	enfermé	enfermer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:pred	_	Subject=SubjRaising
+---
+> 15	enfermé	enfermer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:pred	_	Subject=ObjRaising
+
+258580c258580
+< 21	5 000	5 000	NUM	_	Number=Plur	22	det	_	_
+---
+> 21	5 000	5 000	NUM	_	Number=Plur|Shared=No	22	det	_	_
+
+258836c258836
+< 26	à	à	ADP	_	_	24	comp:obl	_	_
+---
+> 26	à	à	ADP	_	Shared=No	24	comp:obl	_	_
+
+258862c258862
+< 21	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	22	subj	_	_
+---
+> 21	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	subj	_	_
+
+259119c259119
+< 8	7	7	NUM	_	Number=Sing	4	comp:arg	_	_
+---
+> 8	7	7	NUM	_	Number=Sing	4	comp	_	_
+
+259313c259313
+< 1	Mais	mais	CCONJ	_	Shared=No	5	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	_	5	cc	_	wordform=mais
+
+260323c260323
+< 12	5	5	NUM	_	Number=Sing	1	comp:arg	_	_
+---
+> 12	5	5	NUM	_	Number=Sing	1	comp	_	_
+
+262231c262231
+< 17	à	à	ADP	_	_	15	comp:obl	_	_
+---
+> 17	à	à	ADP	_	Shared=No	15	comp:obl	_	_
+
+263571,263572c263571,263572
+< 13	mais	mais	CCONJ	_	Shared=No	23	cc	_	SpaceAfter=No
+< 14	,	,	PUNCT	_	_	13	punct	_	_
+---
+> 13	mais	mais	CCONJ	_	Shared=Yes	23	cc	_	SpaceAfter=No
+> 14	,	,	PUNCT	_	Shared=Yes	23	punct	_	_
+
+264397c264397
+< 14	à	à	ADP	_	_	13	comp:obl	_	_
+---
+> 14	à	à	ADP	_	Shared=No	13	comp:obl	_	_
+
+264399c264399
+< 16	conclusions	conclusion	NOUN	_	Gender=Fem|Number=Plur|Shared=No	14	comp:obj	_	_
+---
+> 16	conclusions	conclusion	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
+
+264885c264885
+< 28	"	"	PUNCT	_	Shared=Yes	29	punct	_	SpaceAfter=No
+---
+> 28	"	"	PUNCT	_	Shared=No	29	punct	_	SpaceAfter=No
+
+265821c265821
+< 50	condamné	condamner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	comp:pred	_	SpaceAfter=No|Subject=SubjRaising
+---
+> 50	condamné	condamner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	comp:pred	_	SpaceAfter=No|Subject=ObjRaising
+
+266845c266845
+< 33	par	par	ADP	_	_	31	comp:obl@agent	_	_
+---
+> 33	par	par	ADP	_	_	32	comp:obl@agent	_	_
+
+267333c267333
+< 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod	_	_
+---
+> 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod	_	_
+
+267614c267614
+< 6	en	en	ADP	_	_	5	mod	_	_
+---
+> 6	en	en	ADP	_	_	3	mod	_	_
+
+269104c269104
+< 26	,	,	PUNCT	_	_	28	punct	_	_
+---
+> 26	,	,	PUNCT	_	Shared=Yes	28	punct	_	_
+
+269541c269541
+< 11	soir	soir	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	SpaceAfter=No
+---
+> 11	soir	soir	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	6	mod	_	SpaceAfter=No
+
+270913c270913
+< 30	,	,	PUNCT	_	_	29	punct	_	_
+---
+> 30	,	,	PUNCT	_	_	31	punct	_	_
+
+272544c272544
+< 21	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=Yes	22	subj	_	SpaceAfter=No
+---
+> 21	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	subj	_	SpaceAfter=No
+
+273684c273684
+< 24	E0	E0	X	_	_	20	conj@emb	_	SpaceAfter=No
+---
+> 24	E0	E0	X	_	_	20	conj	_	SpaceAfter=No
+
+273695c273695
+< 35	répandu	répandu	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	33	comp:pred	_	SpaceAfter=No
+---
+> 35	répandu	répandu	ADJ	_	Gender=Masc|Number=Sing	33	comp:pred	_	SpaceAfter=No
+
+273854c273854
+< 24	mais	mais	CCONJ	_	Shared=No	27	cc	_	_
+---
+> 24	mais	mais	CCONJ	_	Shared=Yes	27	cc	_	_
+
+273989c273989
+< 42	ambu	ambu	X	_	Foreign=Yes	41	flat@foreign	_	_
+---
+> 42	ambu	ambu	X	_	Foreign=Yes|Shared=No	41	flat@foreign	_	_
+
+276250,276251c276250,276251
+< 1	Ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=Yes	3	subj@expl	_	wordform=ce
+< 2	n'	ne	ADV	_	Polarity=Neg|Shared=No	3	mod	_	SpaceAfter=No
+---
+> 1	Ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	wordform=ce
+> 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
+
+276488c276488
+< 18	car	car	CCONJ	_	_	21	cc	_	_
+---
+> 18	car	car	CCONJ	_	Shared=Yes	21	cc	_	_
+
+276490c276490
+< 20	situation	situation	NOUN	_	Gender=Fem|Number=Sing	21	subj	_	_
+---
+> 20	situation	situation	NOUN	_	Gender=Fem|Number=Sing|Shared=No	21	subj	_	_
+
+277444c277444
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	13	punct	_	_
+
+278824c278824
+< 10	adaptées	adapter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	comp:pred	_	Subject=SubjRaising
+---
+> 10	adaptées	adapter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	comp:pred	_	Subject=ObjRaising
+
+279281,279282c279281,279282
+< 16	,	,	PUNCT	_	Shared=Yes	18	punct	_	_
+< 17	Saroumane	Saroumane	PROPN	_	Shared=No	18	subj	_	_
+---
+> 16	,	,	PUNCT	_	_	18	punct	_	_
+> 17	Saroumane	Saroumane	PROPN	_	_	18	subj	_	_
+
+279292c279292
+< 27	en	en	ADP	_	_	18	mod	_	_
+---
+> 27	en	en	ADP	_	_	19	mod	_	_
+
+279296c279296
+< 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	32	det	_	_
+---
+> 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+
+279535c279535
+< 2	vie	vie	NOUN	_	Gender=Fem|Number=Sing	4	subj@pass	_	_
+---
+> 2	vie	vie	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	4	subj@pass	_	_
+
+280344c280344
+< 5	si	si	SCONJ	_	_	1	mod	_	_
+---
+> 5	si	si	SCONJ	_	_	4	mod	_	_
+
+280818c280818
+< 23	mais	mais	CCONJ	_	Shared=No	25	cc	_	_
+---
+> 23	mais	mais	CCONJ	_	Shared=Yes	25	cc	_	_
+
+280935c280935
+< 20	avec	avec	ADP	_	_	14	mod	_	_
+---
+> 20	avec	avec	ADP	_	_	11	mod	_	_
+
+281708c281708
+< 15	sur	sur	ADP	_	_	14	mod	_	_
+---
+> 15	sur	sur	ADP	_	_	12	mod	_	_
+
+282131c282131
+< 21	marrer	marrer	VERB	_	VerbForm=Inf	19	comp:obj	_	Subject=SubjRaising
+---
+> 21	marrer	marrer	VERB	_	VerbForm=Inf	19	comp:obj	_	Subject=ObjRaising
+
+282203c282203
+< 3	,	,	PUNCT	_	_	4	punct	_	_
+---
+> 3	,	,	PUNCT	_	Shared=Yes	4	punct	_	_
+
+283089c283089
+< 15	en	en	ADP	_	_	14	mod	_	_
+---
+> 15	en	en	ADP	_	_	12	mod	_	_
+
+283319c283319
+< 47	à	à	ADP	_	_	45	comp:obl	_	_
+---
+> 47	à	à	ADP	_	Shared=No	45	comp:obl	_	_
+
+283592c283592
+< 16	,	,	PUNCT	_	_	15	punct	_	_
+---
+> 16	,	,	PUNCT	_	_	25	punct	_	_
+
+284475c284475
+< 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	5	det	_	_
+---
+> 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+
+285259c285259
+< 25	à	à	ADP	_	_	23	comp:obl	_	_
+---
+> 25	à	à	ADP	_	Shared=No	23	comp:obl	_	_
+
+285318c285318
+< 49	larguer	larguer	VERB	_	VerbForm=Inf	48	comp:obj	_	Subject=OblRaising
+---
+> 49	larguer	larguer	VERB	_	VerbForm=Inf	48	comp:obj	_	Subject=SubjRaising
+
+285988c285988
+< 21	ou	ou	CCONJ	_	Shared=No	23	cc	_	_
+---
+> 21	ou	ou	CCONJ	_	Shared=Yes	23	cc	_	_
+
+286106c286106
+< 5	qu'	que	SCONJ	_	_	2	comp:obj@agent	_	SpaceAfter=No
+---
+> 5	qu'	que	SCONJ	_	_	4	comp:obj@agent	_	SpaceAfter=No
+
+286656c286656
+< 22	en	en	ADP	_	_	21	mod	_	_
+---
+> 22	en	en	ADP	_	_	19	mod	_	_
+
+286727c286727
+< 1	Et	eh	INTJ	_	Shared=Yes|Typo=Yes	4	discourse	_	CorrectForm=Eh|ExtPos=INTJ|Idiom=Yes|wordform=et
+---
+> 1	Et	eh	INTJ	_	Typo=Yes	4	discourse	_	CorrectForm=Eh|ExtPos=INTJ|Idiom=Yes|wordform=et
+
+287387c287387
+< 7	«	«	PUNCT	_	_	8	punct	_	_
+---
+> 7	«	«	PUNCT	_	Shared=No	8	punct	_	_
+
+287537,287538c287537,287538
+< 18	,	,	PUNCT	_	_	22	punct	_	_
+< 19	mais	mais	CCONJ	_	_	22	cc	_	_
+---
+> 18	,	,	PUNCT	_	Shared=Yes	22	punct	_	_
+> 19	mais	mais	CCONJ	_	Shared=Yes	22	cc	_	_
+
+287540c287540
+< 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+---
+> 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	22	det	_	_
+
+287548c287548
+< 29	jouets	jouet	NOUN	_	Gender=Masc|Number=Plur	22	conj@emb	_	_
+---
+> 29	jouets	jouet	NOUN	_	Gender=Masc|Number=Plur	26	conj@emb	_	_
+
+287963c287963
+< 9	montrant	montrer	VERB	_	Tense=Pres|VerbForm=Part	4	mod	_	Subject=Instantiated
+---
+> 9	montrant	montrer	VERB	_	Tense=Pres|VerbForm=Part	7	mod	_	Subject=Instantiated
+
+287985c287985
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	4	punct	_	_
+
+288590c288590
+< 23	,	,	PUNCT	_	_	24	punct	_	_
+---
+> 23	,	,	PUNCT	_	Shared=Yes	24	punct	_	_
+
+289044c289044
+< 35	en	en	PRON	_	Person=3|PronType=Prs	39	mod	_	_
+---
+> 35	en	en	PRON	_	Person=3|PronType=Prs	36	mod	_	_
+
+289199c289199
+< 48	à	à	ADP	_	_	47	comp:obl	_	_
+---
+> 48	à	à	ADP	_	_	46	comp:obl	_	_
+
+289542c289542
+< 2	fiancée	fiancée	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	8	dislocated	_	_
+---
+> 2	fiancée	fiancée	NOUN	_	Gender=Fem|Number=Sing	8	dislocated	_	_
+
+289566c289566
+< 26	trouver	trouver	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=SubjRaising
+---
+> 26	trouver	trouver	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=ObjRaising
+
+289731c289731
+< 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	28	det	_	_
+---
+> 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+
+289743c289743
+< 39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	40	det	_	_
+---
+> 39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	_
+
+290035c290035
+< 9	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:pred	_	SpaceAfter=No|Subject=SubjRaising
+---
+> 9	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:pred	_	SpaceAfter=No|Subject=ObjRaising
+
+290189c290189
+< 26	7.363.782	7.363.782	NUM	_	Number=Plur	27	det	_	_
+---
+> 26	7.363.782	7.363.782	NUM	_	Number=Plur|Shared=No	27	det	_	_
+
+291737c291737
+< 2	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	3	subj@pass	_	_
+---
+> 2	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing|Shared=No	3	subj@pass	_	_
+
+291808c291808
+< 25	"	"	PUNCT	_	Shared=Yes	26	punct	_	SpaceAfter=No
+---
+> 25	"	"	PUNCT	_	Shared=No	26	punct	_	SpaceAfter=No
+
+293336c293336
+< 48	autour	autour	ADV	_	_	38	mod	_	_
+---
+> 48	autour	autour	ADV	_	_	37	mod	_	_
+
+293618c293618
+< 23	codex	codex	X	_	_	21	conj@emb	_	_
+---
+> 23	codex	codex	X	_	_	21	conj	_	_
+
+293852c293852
+< 15	,	,	PUNCT	_	_	14	punct	_	_
+---
+> 15	,	,	PUNCT	_	_	18	punct	_	_
+
+294095c294095
+< 12	surtout	surtout	ADV	_	_	13	mod	_	_
+---
+> 12	surtout	surtout	ADV	_	Shared=No	11	mod	_	_
+
+294319c294319
+< 12	plus	plus	ADV	_	Polarity=Neg	13	mod	_	_
+---
+> 12	plus	plus	ADV	_	Polarity=Neg	11	mod	_	_
+
+294644c294644
+< 10	"	"	PUNCT	_	Shared=Yes	11	punct	_	SpaceAfter=No
+---
+> 10	"	"	PUNCT	_	Shared=No	11	punct	_	SpaceAfter=No
+
+294997c294997
+< 6	,	,	PUNCT	_	_	5	punct	_	_
+---
+> 6	,	,	PUNCT	_	_	14	punct	_	_
+
+295115c295115
+< 16	«	«	PUNCT	_	_	17	punct	_	_
+---
+> 16	«	«	PUNCT	_	Shared=No	17	punct	_	_
+
+295122c295122
+< 23	,	,	PUNCT	_	_	22	punct	_	_
+---
+> 23	,	,	PUNCT	_	_	24	punct	_	_
+
+295260c295260
+< 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	9	det	_	_
+---
+> 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+
+295746c295746
+< 46	A	A	X	_	Foreign=Yes|Shared=No	45	appos	_	ExtPos=PROPN|Lang=en
+---
+> 46	A	A	X	_	Foreign=Yes	45	appos	_	ExtPos=PROPN|Lang=en
+
+295859c295859
+< 21	,	,	PUNCT	_	_	20	punct	_	_
+---
+> 21	,	,	PUNCT	_	_	28	punct	_	_
+
+296610,296611c296610,296611
+< 1	Puis	puis	CCONJ	_	Shared=No	4	cc	_	SpaceAfter=No|wordform=puis
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 1	Puis	puis	CCONJ	_	Shared=Yes	4	cc	_	SpaceAfter=No|wordform=puis
+> 2	,	,	PUNCT	_	Shared=Yes	4	punct	_	_
+
+296649c296649
+< 8	Moubarak	Moubarak	PROPN	_	_	7	comp:obj	_	SpaceAfter=No
+---
+> 8	Moubarak	Moubarak	PROPN	_	_	5	comp:obj	_	SpaceAfter=No
+
+296698c296698
+< 5	ainsi	ainsi	ADV	_	_	8	cc	_	ExtPos=CCONJ|Idiom=Yes
+---
+> 5	ainsi	ainsi	ADV	_	Shared=Yes	8	cc	_	ExtPos=CCONJ|Idiom=Yes
+
+296700c296700
+< 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+---
+> 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	8	det	_	_
+
+297193c297193
+< 16	puis	puis	CCONJ	_	Shared=No	17	cc	_	_
+---
+> 16	puis	puis	CCONJ	_	_	17	cc	_	_
+
+298443c298443
+< 24	et	et	CCONJ	_	Shared=No	27	cc	_	_
+---
+> 24	et	et	CCONJ	_	_	27	cc	_	_
+
+298445c298445
+< 26	corps	corps	NOUN	_	Gender=Masc|Number=Sing|Shared=No	27	subj@pass	_	_
+---
+> 26	corps	corps	NOUN	_	Gender=Masc|Number=Sing	27	subj@pass	_	_
+
+298799c298799
+< 28	,	,	PUNCT	_	_	27	punct	_	_
+---
+> 28	,	,	PUNCT	_	_	33	punct	_	_
+
+299012c299012
+< 1	Mais	mais	CCONJ	_	Shared=No	9	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	9	cc	_	wordform=mais
+
+299084c299084
+< 18	,	,	PUNCT	_	_	17	punct	_	_
+---
+> 18	,	,	PUNCT	_	_	25	punct	_	_
+
+299484c299484
+< 3	tout	tout	ADV	_	_	4	mod	_	_
+---
+> 3	tout	tout	ADV	_	_	5	mod	_	_
+
+299604c299604
+< 26	,	,	PUNCT	_	_	25	punct	_	_
+---
+> 26	,	,	PUNCT	_	_	46	punct	_	_
+
+299680c299680
+< 2	bombardiers	bombardier	NOUN	_	Gender=Masc|Number=Plur|Shared=No	3	subj@pass	_	_
+---
+> 2	bombardiers	bombardier	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	3	subj@pass	_	_
+
+300325c300325
+< 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	28	det	_	_
+---
+> 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+
+300460,300461c300460,300461
+< 25	,	,	PUNCT	_	_	28	punct	_	_
+< 26	mais	mais	CCONJ	_	_	28	cc	_	_
+---
+> 25	,	,	PUNCT	_	Shared=Yes	28	punct	_	_
+> 26	mais	mais	CCONJ	_	Shared=Yes	28	cc	_	_
+
+300916c300916
+< 8	car	car	CCONJ	_	Shared=No	9	cc	_	_
+---
+> 8	car	car	CCONJ	_	Shared=Yes	9	cc	_	_
+
+301105,301106c301105,301106
+< 14	,	,	PUNCT	_	_	16	punct	_	_
+< 15	sinon	sinon	SCONJ	_	_	16	cc	_	_
+---
+> 14	,	,	PUNCT	_	Shared=Yes	16	punct	_	_
+> 15	sinon	sinon	SCONJ	_	Shared=Yes	16	cc	_	_
+
+301324c301324
+< 5	original	original	ADJ	_	Gender=Masc|Number=Sing	3	conj@emb	_	_
+---
+> 5	original	original	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
+
+301485c301485
+< 1	Mais	mais	CCONJ	_	Shared=No	7	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	7	cc	_	wordform=mais
+
+301489c301489
+< 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	7	subj	_	_
+---
+> 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	7	subj	_	_
+
+301773c301773
+< 2	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+---
+> 2	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	3	subj	_	_
+
+302130c302130
+< 7	:	:	PUNCT	_	Shared=Yes	10	punct	_	_
+---
+> 7	:	:	PUNCT	_	Shared=No	10	punct	_	_
+
+303058c303058
+< 26	augmenter	augmenter	VERB	_	VerbForm=Inf	23	comp:pred	_	Subject=SubjRaising
+---
+> 26	augmenter	augmenter	VERB	_	VerbForm=Inf	23	comp:pred	_	Subject=ObjRaising
+
+303351,303352c303351,303352
+< 10	mais	mais	CCONJ	_	Shared=No	12	cc	_	_
+< 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	12	subj	_	_
+---
+> 10	mais	mais	CCONJ	_	_	12	cc	_	_
+> 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+
+304774c304774
+< 10	pour	pour	ADP	_	_	3	mod	_	_
+---
+> 10	pour	pour	ADP	_	_	5	mod	_	_
+
+304867c304867
+< 33	à	à	ADP	_	_	27	mod	_	_
+---
+> 33	à	à	ADP	_	_	26	mod	_	_
+
+304873c304873
+< 39	à	à	ADP	_	_	33	conj@emb	_	_
+---
+> 39	à	à	ADP	_	_	33	conj	_	_
+
+304974c304974
+< 5	mais	mais	CCONJ	_	Shared=No	9	cc	_	_
+---
+> 5	mais	mais	CCONJ	_	Shared=Yes	9	cc	_	_
+
+305041c305041
+< 5	longtemps	longtemps	ADV	_	_	4	mod	_	_
+---
+> 5	longtemps	longtemps	ADV	_	_	6	mod	_	_
+
+306007c306007
+< 26	fils	fils	NOUN	_	Gender=Masc|Number=Plur	23	conj@emb	_	_
+---
+> 26	fils	fils	NOUN	_	Gender=Masc|Number=Plur	23	conj	_	_
+
+306657,306658c306657,306658
+< 11	perd	perdre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj@emb	_	_
+< 12	chez	chez	ADP	_	Shared=No	11	mod	_	_
+---
+> 11	perd	perdre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+> 12	chez	chez	ADP	_	_	11	mod	_	_
+
+306678c306678
+< 30	,	,	PUNCT	_	_	33	punct	_	_
+---
+> 30	,	,	PUNCT	_	Shared=Yes	33	punct	_	_
+
+307529c307529
+< 17	plus	plus	ADV	_	_	16	mod	_	ExtPos=PRON
+---
+> 17	plus	plus	ADV	_	_	14	mod	_	ExtPos=PRON
+
+308473c308473
+< 11	voir	voir	VERB	_	VerbForm=Inf	10	comp:obl	_	Subject=SubjRaising
+---
+> 11	voir	voir	VERB	_	VerbForm=Inf	10	comp:obl	_	Subject=ObjRaising
+
+308583c308583
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	7	punct	_	_
+
+310253c310253
+< 14	qu'	que	PRON	_	PronType=Rel|Shared=No	15	comp:pred	_	SpaceAfter=No
+---
+> 14	qu'	que	PRON	_	PronType=Rel|Shared=Yes	15	comp:pred	_	SpaceAfter=No
+
+310257c310257
+< 18	être	être	AUX	_	Shared=No|VerbForm=Inf	17	comp:obj	_	Subject=SubjRaising
+---
+> 18	être	être	AUX	_	Shared=No|VerbForm=Inf	17	comp:pred@obj	_	Subject=SubjRaising
+
+310385c310385
+< 20	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	22	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+---
+> 20	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	22	comp:pred@obj	_	SpaceAfter=No|Subject=SubjRaising
+
+311109c311109
+< 41	plus	plus	ADV	_	Polarity=Neg	42	mod	_	_
+---
+> 41	plus	plus	ADV	_	Polarity=Neg	40	mod	_	_
+
+311245c311245
+< 18	3h00	3h00	NUM	_	Number=Plur	16	comp:obj	_	_
+---
+> 18	3h00	3h00	NUM	_	Number=Plur	17	comp:obj	_	_
+
+311371c311371
+< 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+---
+> 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	19	det	_	_
+
+311872c311872
+< 1	De	de	ADP	_	_	39	mod	_	wordform=de
+---
+> 1	De	de	ADP	_	_	38	mod	_	wordform=de
+
+312678c312678
+< 14	dont	dont	PRON	_	PronType=Rel	16	mod	_	_
+---
+> 14	dont	dont	PRON	_	PronType=Rel	15	mod	_	_
+
+312904c312904
+< 14	mais	mais	CCONJ	_	Shared=No	18	cc	_	_
+---
+> 14	mais	mais	CCONJ	_	Shared=Yes	18	cc	_	_
+
+313499c313499
+< 7	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
+---
+> 7	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	5	mod	_	_
+
+313516c313516
+< 7	de	de	ADP	_	_	6	udep	_	SpaceAfter=No
+---
+> 7	de	de	ADP	_	_	6	unk	_	SpaceAfter=No
+
+313745c313745
+< 28	par	par	ADP	_	_	26	comp:obl@agent	_	_
+---
+> 28	par	par	ADP	_	_	27	comp:obl@agent	_	_
+
+314227c314227
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	5	punct	_	_
+
+315171c315171
+< 6	de	de	ADP	_	_	3	mod	_	_
+---
+> 6	de	de	ADP	_	_	2	mod	_	_
+
+315224c315224
+< 4	alors	alors	ADV	_	_	19	mod	_	ExtPos=SCONJ|Idiom=Yes
+---
+> 4	alors	alors	ADV	_	_	18	mod	_	ExtPos=SCONJ|Idiom=Yes
+
+315771c315771
+< 1	Lazare	Lazare	PROPN	_	Gender=Masc|Number=Sing	16	subj	_	SpaceAfter=No
+---
+> 1	Lazare	Lazare	PROPN	_	Gender=Masc|Number=Sing|Shared=Yes	16	subj	_	SpaceAfter=No
+
+317252c317252
+< 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	2	det	_	wordform=le
+---
+> 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+
+317350c317350
+< 12	,	,	PUNCT	_	_	11	punct	_	_
+---
+> 12	,	,	PUNCT	_	_	16	punct	_	_
+
+317353c317353
+< 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	16	subj	_	_
+---
+> 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
+
+317432c317432
+< 24	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	parataxis	_	SpaceAfter=No
+---
+> 24	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	parataxis	_	SpaceAfter=No
+
+317461c317461
+< 53	longtemps	longtemps	ADV	_	_	52	mod	_	_
+---
+> 53	longtemps	longtemps	ADV	_	_	54	mod	_	_
+
+317675c317675
+< 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	7	det	_	_
+---
+> 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+
+317912c317912
+< 36	inscrits	inscrire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	33	comp:pred	_	CorrectForm=inscrit|CorrectNumber=Sing|Subject=SubjRaising
+---
+> 36	inscrits	inscrire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part	33	comp:pred	_	CorrectForm=inscrit|CorrectNumber=Sing|Subject=ObjRaising
+
+318085c318085
+< 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+---
+> 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	wordform=il
+
+318276c318276
+< 2	hotel	hôtel	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	3	subj	_	CorrectForm=hôtel
+---
+> 2	hotel	hôtel	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes|Typo=Yes	3	subj	_	CorrectForm=hôtel
+
+318286c318286
+< 12	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	10	parataxis	_	_
+---
+> 12	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem|Shared=No	10	parataxis	_	_
+
+318294c318294
+< 20	.	.	PUNCT	_	_	5	punct	_	_
+---
+> 20	.	.	PUNCT	_	_	3	punct	_	_
+
+318594c318594
+< 10	à	à	ADP	_	_	7	mod	_	_
+---
+> 10	à	à	ADP	_	_	8	udep	_	_
+
+318778c318778
+< 19	,	,	PUNCT	_	_	22	punct	_	_
+---
+> 19	,	,	PUNCT	_	Shared=Yes	22	punct	_	_
+
+318780c318780
+< 21	idée	idée	NOUN	_	Gender=Fem|Number=Sing	22	subj	_	_
+---
+> 21	idée	idée	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	22	subj	_	_
+
+319111c319111
+< 8	?	?	PUNCT	_	_	3	punct	_	_
+---
+> 8	?	?	PUNCT	_	_	1	punct	_	_
+
+319233c319233
+< 5	surtout	surtout	ADV	_	_	6	mod	_	_
+---
+> 5	surtout	surtout	ADV	_	_	4	mod	_	_
+
+319689c319689
+< 5	contraint	contraindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:pred	_	Subject=SubjRaising
+---
+> 5	contraint	contraindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:pred	_	Subject=ObjRaising
+
+320151c320151
+< 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	10	det	_	_
+---
+> 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+
+320474c320474
+< 26	dictatures	dictature	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	23	comp:obj	_	SpaceAfter=No
+---
+> 26	dictatures	dictature	NOUN	_	Gender=Fem|Number=Plur	23	comp:obj	_	SpaceAfter=No
+
+320527c320527
+< 14	mais	mais	CCONJ	_	Shared=No	15	cc	_	_
+---
+> 14	mais	mais	CCONJ	_	Shared=Yes	15	cc	_	_
+
+320772c320772
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	9	punct	_	_
+
+321993,321994c321993,321994
+< 9	Monoprix	Monoprix	PROPN	_	Gender=Masc|Number=Sing|Shared=No	11	subj	_	_
+< 10	n'	ne	ADV	_	Polarity=Neg|Shared=No	11	mod	_	SpaceAfter=No
+---
+> 9	Monoprix	Monoprix	PROPN	_	Gender=Masc|Number=Sing	11	subj	_	_
+> 10	n'	ne	ADV	_	Polarity=Neg	11	mod	_	SpaceAfter=No
+
+322150c322150
+< 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+---
+> 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	22	det	_	_
+
+322171c322171
+< 42	produit	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	mod@relcl	_	_
+---
+> 42	produit	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	39	mod@relcl	_	_
+
+322460c322460
+< 15	et	et	CCONJ	_	Shared=No	16	cc	_	_
+---
+> 15	et	et	CCONJ	_	Shared=Yes	16	cc	_	_
+
+323543c323543
+< 23	,	,	PUNCT	_	_	22	punct	_	_
+---
+> 23	,	,	PUNCT	_	_	34	punct	_	_
+
+323619c323619
+< 4	(	(	PUNCT	_	Shared=Yes	6	punct	_	SpaceAfter=No
+---
+> 4	(	(	PUNCT	_	Shared=No	6	punct	_	SpaceAfter=No
+
+324729c324729
+< 48	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj@emb	_	_
+---
+> 48	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+
+325113c325113
+< 16	,	,	PUNCT	_	_	15	punct	_	_
+---
+> 16	,	,	PUNCT	_	_	20	punct	_	_
+
+325128c325128
+< 7	mais	mais	CCONJ	_	Shared=No	9	cc	_	_
+---
+> 7	mais	mais	CCONJ	_	Shared=Yes	9	cc	_	_
+
+325298c325298
+< 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
+---
+> 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+
+325308c325308
+< 11	après	après	ADP	_	_	2	mod	_	_
+---
+> 11	après	après	ADP	_	_	4	mod	_	_
+
+326243c326243
+< 15	positionnant	positionner	VERB	_	Shared=Yes|Tense=Pres|VerbForm=Part	9	mod	_	Subject=Instantiated
+---
+> 15	positionnant	positionner	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	Subject=Instantiated
+
+326616c326616
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	4	punct	_	_
+
+327659c327659
+< 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=Yes	2	det	_	wordform=la
+---
+> 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
+
+327723c327723
+< 8	entraîner	entraîner	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
+---
+> 8	entraîner	entraîner	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=ObjRaising
+
+328350,328351c328350,328351
+< 3	12	12	NUM	_	Number=Plur	2	flat:name	_	_
+< 4	HP	HP	PROPN	_	_	3	flat:name	_	_
+---
+> 3	12	12	NUM	_	Number=Plur	2	flat@name	_	_
+> 4	HP	HP	PROPN	_	_	3	flat@name	_	_
+
+328715c328715
+< 3	notamment	notamment	ADV	_	_	4	mod	_	_
+---
+> 3	notamment	notamment	ADV	_	_	2	mod	_	_
+
+328932c328932
+< 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	7	det	_	_
+---
+> 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+
+329573c329573
+< 7	,	,	PUNCT	_	_	6	punct	_	_
+---
+> 7	,	,	PUNCT	_	_	15	punct	_	_
+
+329703c329703
+< 19	aussi	aussi	ADV	_	Shared=No	18	mod	_	_
+---
+> 19	aussi	aussi	ADV	_	_	22	mod	_	_
+
+330041c330041
+< 13	matière	matière	NOUN	_	Gender=Fem|Number=Sing|Shared=No	10	comp:obj	_	_
+---
+> 13	matière	matière	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
+
+330453c330453
+< 9	qu'	que	SCONJ	_	_	2	comp:cleft	_	SpaceAfter=No
+---
+> 9	qu'	que	SCONJ	_	_	4	comp:cleft	_	SpaceAfter=No
+
+330680c330680
+< 8	jetant	jeter	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	Subject=Instantiated
+---
+> 8	jetant	jeter	VERB	_	Tense=Pres|VerbForm=Part	3	mod	_	Subject=Instantiated
+
+331438c331438
+< 27	épaulés	épauler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	comp:pred	_	Subject=SubjRaising
+---
+> 27	épaulés	épauler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	comp:pred	_	Subject=ObjRaising
+
+331545c331545
+< 56	et	et	CCONJ	_	_	58	cc	_	_
+---
+> 56	et	et	CCONJ	_	Shared=Yes	58	cc	_	_
+
+333254c333254
+< 2	service	service	NOUN	_	Gender=Masc|Number=Sing|Shared=No	3	subj	_	_
+---
+> 2	service	service	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
+
+333270c333270
+< 18	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	10	parataxis	_	ExtPos=VERB|Idiom=Yes
+---
+> 18	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	ExtPos=VERB|Idiom=Yes
+
+333571c333571
+< 9	,	,	PUNCT	_	_	8	punct	_	_
+---
+> 9	,	,	PUNCT	_	_	19	punct	_	_
+
+334543c334543
+< 43	»	»	PUNCT	_	Shared=No	40	punct	_	SpaceAfter=No
+---
+> 43	»	»	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+335263,335264c335263,335264
+< 1	Or	or	CCONJ	_	Shared=No	14	cc	_	SpaceAfter=No|wordform=or
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 1	Or	or	CCONJ	_	Shared=Yes	14	cc	_	SpaceAfter=No|wordform=or
+> 2	,	,	PUNCT	_	Shared=Yes	14	punct	_	_
+
+335749c335749
+< 7	,	,	PUNCT	_	_	8	punct	_	_
+---
+> 7	,	,	PUNCT	_	Shared=Yes	8	punct	_	_
+
+335797c335797
+< 4	:	:	PUNCT	_	_	5	punct	_	_
+---
+> 4	:	:	PUNCT	_	Shared=Yes	5	punct	_	_
+
+335800c335800
+< 7	partenaire	partenaire	ADJ	_	Gender=Fem|Number=Sing	6	flat@name	_	_
+---
+> 7	partenaire	partenaire	ADJ	_	Gender=Fem|Number=Sing|Shared=No	6	flat@name	_	_
+
+335802c335802
+< 9	Musée	musée	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	wordform=musée
+---
+> 9	Musée	musée	NOUN	_	Gender=Masc|Number=Sing|Shared=No	6	appos	_	wordform=musée
+
+336888c336888
+< 5	autour	autour	ADV	_	_	4	mod	_	_
+---
+> 5	autour	autour	ADV	_	_	3	mod	_	_
+
+337128c337128
+< 33	ou	ou	CCONJ	_	Shared=No	35	cc	_	_
+---
+> 33	ou	ou	CCONJ	_	Shared=Yes	35	cc	_	_
+
+337208,337209c337208,337209
+< 14	dans	dans	ADP	_	_	4	appos	_	_
+< 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+---
+> 14	dans	dans	ADP	_	_	6	appos	_	_
+> 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	16	det	_	_
+
+337211c337211
+< 17	pour	pour	ADP	_	_	14	mod	_	_
+---
+> 17	pour	pour	ADP	_	_	16	udep	_	_
+
+337220c337220
+< 26	pour	pour	ADP	_	_	21	mod	_	_
+---
+> 26	pour	pour	ADP	_	_	23	udep	_	_
+
+337232c337232
+< 38	pour	pour	ADP	_	_	30	mod	_	_
+---
+> 38	pour	pour	ADP	_	_	32	udep	_	_
+
+337237,337239c337237,337239
+< 43	rideaux	rideau	NOUN	_	Gender=Masc|Number=Plur	30	conj	_	_
+< 44	latéraux	latéral	ADJ	_	Gender=Masc|Number=Plur	43	mod	_	_
+< 45	pour	pour	ADP	_	_	43	udep	_	_
+---
+> 43	rideaux	rideau	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
+> 44	latéraux	latéral	ADJ	_	Gender=Masc|Number=Plur|Shared=No	43	mod	_	_
+> 45	pour	pour	ADP	_	Shared=No	43	udep	_	_
+
+337249c337249
+< 55	pour	pour	ADP	_	Shared=No	50	mod	_	_
+---
+> 55	pour	pour	ADP	_	_	52	udep	_	_
+
+338317c338317
+< 18	60	60	NUM	_	Number=Plur	19	det	_	_
+---
+> 18	60	60	NUM	_	Number=Plur|Shared=No	19	det	_	_
+
+339021c339021
+< 2	sanguinea	sanguinea	PROPN	_	_	3	subj@pass	_	_
+---
+> 2	sanguinea	sanguinea	PROPN	_	Shared=Yes	3	subj@pass	_	_
+
+339083c339083
+< 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	11	det	_	_
+---
+> 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+
+339148c339148
+< 13	,	,	PUNCT	_	_	12	punct	_	_
+---
+> 13	,	,	PUNCT	_	_	19	punct	_	_
+
+339285c339285
+< 8	en	en	ADP	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 8	en	en	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
+
+339662c339662
+< 4	abandonnés	abandonner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	comp:pred	_	Subject=SubjRaising
+---
+> 4	abandonnés	abandonner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	comp:pred	_	Subject=ObjRaising
+
+340076c340076
+< 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+---
+> 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	16	det	_	_
+
+340095c340095
+< 33	religion	religion	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	SpaceAfter=No
+---
+> 33	religion	religion	NOUN	_	Gender=Fem|Number=Sing|Shared=No	31	comp:obj	_	SpaceAfter=No
+
+340180c340180
+< 44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	45	det	_	_
+---
+> 44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	_
+
+341051c341051
+< 46	,	,	PUNCT	_	_	45	punct	_	_
+---
+> 46	,	,	PUNCT	_	_	51	punct	_	_
+
+341071c341071
+< 7	et	et	CCONJ	_	Shared=No	8	cc	_	_
+---
+> 7	et	et	CCONJ	_	Shared=Yes	8	cc	_	_
+
+341324,341325c341324,341325
+< 6	à	à	ADP	_	_	5	comp:obl	_	_
+< 7	certaines	certain	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind|Shared=No	6	comp:obj	_	_
+---
+> 6	à	à	ADP	_	Shared=No	5	comp:obl	_	_
+> 7	certaines	certain	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	6	comp:obj	_	_
+
+341460c341460
+< 2	message	message	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
+---
+> 2	message	message	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	13	subj	_	_
+
+341724c341724
+< 13	également	également	ADV	_	_	10	mod	_	_
+---
+> 13	également	également	ADV	_	_	12	mod	_	_
+
+341728c341728
+< 17	soir	soir	NOUN	_	Gender=Masc|Number=Sing	10	mod	_	_
+---
+> 17	soir	soir	NOUN	_	Gender=Masc|Number=Sing	12	mod	_	_
+
+342055c342055
+< 36	:	:	PUNCT	_	_	35	punct	_	_
+---
+> 36	:	:	PUNCT	_	_	32	punct	_	_
+
+342263c342263
+< 29	étant	être	AUX	_	Tense=Pres|VerbForm=Part	21	mod	_	_
+---
+> 29	étant	être	AUX	_	Tense=Pres|VerbForm=Part	24	mod	_	_
+
+342616c342616
+< 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+---
+> 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	19	det	_	SpaceAfter=No
+
+343055c343055
+< 25	,	,	PUNCT	_	_	24	punct	_	_
+---
+> 25	,	,	PUNCT	_	_	33	punct	_	_
+
+343506c343506
+< 5	autour	autour	ADV	_	_	4	mod	_	_
+---
+> 5	autour	autour	ADV	_	_	3	mod	_	_
+
+344552c344552
+< 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=Yes	7	det	_	_
+---
+> 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
+
+345599c345599
+< 22	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+---
+> 22	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+
+345795c345795
+< 33	...	...	PUNCT	_	_	32	punct	_	_
+---
+> 33	...	...	PUNCT	_	_	34	punct	_	_
+
+345975c345975
+< 29	1825	1825	NUM	_	Number=Plur|Shared=Yes	28	mod	_	_
+---
+> 29	1825	1825	NUM	_	Number=Plur	24	mod	_	_
+
+346262c346262
+< 12	par	par	ADP	_	Shared=No	10	comp:obl@agent	_	_
+---
+> 12	par	par	ADP	_	_	11	comp:obl@agent	_	_
+
+346393c346393
+< 9	bien	bien	ADV	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
+---
+> 9	bien	bien	ADV	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
+
+346456c346456
+< 45	et	et	CCONJ	_	Shared=No	47	cc	_	_
+---
+> 45	et	et	CCONJ	_	Shared=Yes	47	cc	_	_
+
+346704,346705c346704,346705
+< 20	mais	mais	CCONJ	_	Shared=No	23	cc	_	_
+< 21	pas	pas	ADV	_	Polarity=Neg|Shared=Yes	23	mod	_	_
+---
+> 20	mais	mais	CCONJ	_	Shared=Yes	23	cc	_	_
+> 21	pas	pas	ADV	_	Polarity=Neg|Shared=No	23	mod	_	_
+
+346780c346780
+< 5	bien	bien	ADV	_	_	4	mod	_	_
+---
+> 5	bien	bien	ADV	_	_	7	mod	_	_
+
+346811c346811
+< 2	amour	amour	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	25	dislocated	_	_
+---
+> 2	amour	amour	NOUN	_	Gender=Masc|Number=Sing	25	dislocated	_	_
+
+346988c346988
+< 23	être	être	AUX	_	Shared=No|VerbForm=Inf	22	comp:pred	_	Subject=ObjRaising
+---
+> 23	être	être	AUX	_	Shared=No|VerbForm=Inf	22	comp:pred	_	Subject=SubjRaising
+
+348349c348349
+< 3	ou	ou	CCONJ	_	Shared=No	4	cc	_	_
+---
+> 3	ou	ou	CCONJ	_	Shared=Yes	4	cc	_	_
+
+348785c348785
+< 16	manger	manger	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=OblRaising
+---
+> 16	manger	manger	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
+
+349126c349126
+< 14	abandonnée	abandonner	VERB	_	Gender=Fem|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	11	comp:aux@pass	_	SpaceAfter=No
+---
+> 14	abandonnée	abandonner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@pass	_	SpaceAfter=No
+
+349662c349662
+< 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=Yes	15	det	_	_
+---
+> 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+
+349986,349987c349986,349987
+< 33	mais	mais	CCONJ	_	Shared=No	35	cc	_	_
+< 34	largement	largement	ADV	_	Shared=No	35	mod	_	_
+---
+> 33	mais	mais	CCONJ	_	_	35	cc	_	_
+> 34	largement	largement	ADV	_	_	35	mod	_	_
+
+350895c350895
+< 9	à	à	ADP	_	_	7	comp:obl	_	_
+---
+> 9	à	à	ADP	_	Shared=No	7	comp:obl	_	_
+
+351137c351137
+< 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj@emb	_	_
+---
+> 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+
+351139c351139
+< 10	amis	ami	NOUN	_	Gender=Masc|Number=Plur|Shared=No	8	comp:pred	_	_
+---
+> 10	amis	ami	NOUN	_	Gender=Masc|Number=Plur	8	comp:pred	_	_
+
+351144c351144
+< 15	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Shared=No|Tense=Imp|VerbForm=Fin	8	comp:cleft	_	_
+---
+> 15	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	comp:cleft	_	_
+
+351150c351150
+< 20	mais	mais	CCONJ	_	Shared=No	26	cc	_	_
+---
+> 20	mais	mais	CCONJ	_	_	26	cc	_	_
+
+351155c351155
+< 24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	26	subj@pass	_	_
+---
+> 24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	subj@pass	_	_
+
+351526c351526
+< 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	7	det	_	_
+---
+> 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+
+351605c351605
+< 9	et	et	CCONJ	_	Shared=No	10	cc	_	_
+---
+> 9	et	et	CCONJ	_	Shared=Yes	10	cc	_	_
+
+351620c351620
+< 24	,	,	PUNCT	_	_	23	punct	_	_
+---
+> 24	,	,	PUNCT	_	_	28	punct	_	_
+
+352877c352877
+< 55	disputant	disputer	VERB	_	Tense=Pres|VerbForm=Part	27	mod	_	Subject=Instantiated
+---
+> 55	disputant	disputer	VERB	_	Tense=Pres|VerbForm=Part	33	mod	_	Subject=Instantiated
+
+352981c352981
+< 18	de	de	ADP	_	_	5	conj@emb	_	_
+---
+> 18	de	de	ADP	_	_	5	conj	_	_
+
+352986c352986
+< 23	de	de	ADP	_	_	18	conj@emb	_	_
+---
+> 23	de	de	ADP	_	_	18	conj	_	_
+
+352988c352988
+< 25	naturaliser	naturaliser	VERB	_	Shared=No|VerbForm=Inf	23	comp:obj	_	SpaceAfter=No|Subject=Generic
+---
+> 25	naturaliser	naturaliser	VERB	_	VerbForm=Inf	23	comp:obj	_	SpaceAfter=No|Subject=Generic
+
+353010c353010
+< 47	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	45	comp:obj	_	SpaceAfter=No
+---
+> 47	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	32	comp:obj	_	SpaceAfter=No
+
+354446c354446
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	13	punct	_	_
+
+354729c354729
+< 10	,	,	PUNCT	_	_	9	punct	_	_
+---
+> 10	,	,	PUNCT	_	_	15	punct	_	_
+
+354910c354910
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	14	punct	_	_
+
+355479,355480c355479,355480
+< 36	de	de	ADP	_	_	35	udep	_	_
+< 37	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	36	comp:obj	_	_
+---
+> 36	de	de	ADP	_	_	37	comp	_	_
+> 37	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	35	unk	_	_
+
+356154c356154
+< 16	entre	entre	ADP	_	_	14	mod	_	_
+---
+> 16	entre	entre	ADP	_	_	15	mod	_	_
+
+356594c356594
+< 13	que	que	SCONJ	_	_	7	parataxis	_	_
+---
+> 13	que	que	SCONJ	_	_	9	parataxis	_	_
+
+356697c356697
+< 11	participer	participer	VERB	_	VerbForm=Inf	5	comp:pred	_	Subject=ObjRaising
+---
+> 11	participer	participer	VERB	_	VerbForm=Inf	5	comp:pred	_	Subject=SubjRaising
+
+357370,357371c357370,357371
+< 8	,	,	PUNCT	_	_	12	punct	_	_
+< 9	donc	donc	CCONJ	_	_	12	cc	_	_
+---
+> 8	,	,	PUNCT	_	Shared=Yes	12	punct	_	_
+> 9	donc	donc	CCONJ	_	Shared=Yes	12	cc	_	_
+
+357373c357373
+< 11	de	un	DET	_	_	12	det	_	_
+---
+> 11	de	un	DET	_	Shared=No	12	det	_	_
+
+358027c358027
+< 26	jouer	jouer	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=OblRaising
+---
+> 26	jouer	jouer	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=SubjRaising
+
+358084c358084
+< 8	,	,	PUNCT	_	_	12	punct	_	_
+---
+> 8	,	,	PUNCT	_	Shared=Yes	12	punct	_	_
+
+358087c358087
+< 11	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind|Shared=Yes	12	det	_	_
+---
+> 11	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+
+358753,358756c358753,358756
+< 10	pro	pro	X	_	Foreign=Yes	9	flat:foreign	_	Lang=en
+< 11	of	of	X	_	Foreign=Yes	10	flat:foreign	_	Lang=en
+< 12	the	the	X	_	Foreign=Yes	11	flat:foreign	_	Lang=en
+< 13	group	group	X	_	Foreign=Yes	12	flat:foreign	_	Lang=en
+---
+> 10	pro	pro	X	_	Foreign=Yes	9	flat@foreign	_	Lang=en
+> 11	of	of	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
+> 12	the	the	X	_	Foreign=Yes	11	flat@foreign	_	Lang=en
+> 13	group	group	X	_	Foreign=Yes	12	flat@foreign	_	Lang=en
+
+358858c358858
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	20	punct	_	_
+
+359548c359548
+< 9	organiser	organiser	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=OblRaising
+---
+> 9	organiser	organiser	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
+
+359555c359555
+< 15	par	par	ADP	_	Shared=Yes	20	comp:obl	_	_
+---
+> 15	par	par	ADP	_	_	20	comp:obl	_	_
+
+359949,359950c359949,359950
+< 18	,	,	PUNCT	_	_	21	punct	_	_
+< 19	mais	mais	CCONJ	_	Shared=No	21	cc	_	_
+---
+> 18	,	,	PUNCT	_	Shared=Yes	21	punct	_	_
+> 19	mais	mais	CCONJ	_	Shared=Yes	21	cc	_	_
+
+360452c360452
+< 9	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 9	,	,	PUNCT	_	_	2	punct	_	_
+
+360457c360457
+< 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+---
+> 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+
+361508c361508
+< 20	surtout	surtout	ADV	_	_	21	mod	_	_
+---
+> 20	surtout	surtout	ADV	_	Shared=No	19	mod	_	_
+
+361854c361854
+< 2	marocains	marocain	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	6	dislocated	_	SpaceAfter=No
+---
+> 2	marocains	marocain	NOUN	_	Gender=Masc|Number=Plur	6	dislocated	_	SpaceAfter=No
+
+361856c361856
+< 4	plus	plus	SCONJ	_	Shared=No	6	cc	_	_
+---
+> 4	plus	plus	SCONJ	_	_	6	cc	_	_
+
+362423c362423
+< 11	parler	parler	VERB	_	VerbForm=Inf	10	comp:obj	_	SpaceAfter=No|Subject=OblRaising
+---
+> 11	parler	parler	VERB	_	VerbForm=Inf	10	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+
+362869c362869
+< 8	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=Yes	9	det	_	_
+---
+> 8	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	_
+
+362928c362928
+< 14	longtemps	longtemps	ADV	_	_	13	mod	_	_
+---
+> 14	longtemps	longtemps	ADV	_	_	16	mod	_	_
+
+362955c362955
+< 12	partout	partout	ADV	_	_	13	mod	_	_
+---
+> 12	partout	partout	ADV	_	Shared=No	11	mod	_	_
+
+363312c363312
+< 8	,	,	PUNCT	_	_	7	punct	_	_
+---
+> 8	,	,	PUNCT	_	_	15	punct	_	_
+
+363968c363968
+< 23	bien	bien	ADV	_	_	22	mod	_	_
+---
+> 23	bien	bien	ADV	_	_	24	mod	_	_
+
+363975c363975
+< 29	,	,	PUNCT	_	Shared=No	34	punct	_	_
+---
+> 29	,	,	PUNCT	_	_	34	punct	_	_
+
+363977,363979c363977,363979
+< 31	seulement	seulement	ADV	_	Shared=No	34	mod	_	ExtPos=ADV|Idiom=Yes
+< 32	car	car	CCONJ	_	Shared=No	34	cc	_	_
+< 33	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	34	subj@expl	_	SpaceAfter=No
+---
+> 31	seulement	seulement	ADV	_	_	34	mod	_	ExtPos=ADV|Idiom=Yes
+> 32	car	car	CCONJ	_	_	34	cc	_	_
+> 33	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	34	subj@expl	_	SpaceAfter=No
+
+364053c364053
+< 39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	40	det	_	_
+---
+> 39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	_
+
+364107c364107
+< 92	,	,	PUNCT	_	_	93	punct	_	_
+---
+> 92	,	,	PUNCT	_	Shared=Yes	93	punct	_	_
+
+364110,364111c364110,364111
+< 94	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	95	det	_	_
+< 95	méthodes	méthode	NOUN	_	Gender=Fem|Number=Plur|Shared=No	93	comp:obj	_	_
+---
+> 94	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	95	det	_	_
+> 95	méthodes	méthode	NOUN	_	Gender=Fem|Number=Plur	93	comp:obj	_	_
+
+364117c364117
+< 101	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	95	conj	_	_
+---
+> 101	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	93	conj@emb	_	_
+
+364291c364291
+< 22	Charlie	Charlie	PROPN	_	_	19	comp:obl	_	_
+---
+> 22	Charlie	Charlie	PROPN	_	_	19	comp	_	_
+
+365627c365627
+< 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+---
+> 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	18	det	_	_
+
+365913c365913
+< 1	«	«	PUNCT	_	Shared=Yes	5	punct	_	_
+---
+> 1	«	«	PUNCT	_	Shared=No	5	punct	_	_
+
+366569c366569
+< 25	de	de	ADP	_	Shared=Yes	24	comp:obl	_	_
+---
+> 25	de	de	ADP	_	Shared=Yes	20	comp:obl	_	_
+
+366579c366579
+< 34	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur|Shared=Yes	26	mod@relcl	_	_
+---
+> 34	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	26	mod@relcl	_	_
+
+366856c366856
+< 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	10	det	_	_
+---
+> 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+
+367866c367866
+< 27	pour	pour	ADP	_	_	15	mod	_	_
+---
+> 27	pour	pour	ADP	_	Shared=Yes	23	mod	_	_
+
+368034c368034
+< 8	pop	pop	X	_	Foreign=Yes	7	flat@foreign	_	Lang=en
+---
+> 8	pop	pop	X	_	Foreign=Yes|Shared=No	7	flat@foreign	_	Lang=en
+
+368219c368219
+< 11	dans	dans	ADP	_	_	2	comp:obl	_	_
+---
+> 11	dans	dans	ADP	_	_	4	comp:obl	_	_
+
+368873c368873
+< 28	participer	participer	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=SubjRaising
+---
+> 28	participer	participer	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=ObjRaising
+
+369670c369670
+< 12	où	où	ADV	_	PronType=Rel|Shared=Yes	14	orphan	_	_
+---
+> 12	où	où	ADV	_	PronType=Rel|Shared=No	14	orphan	_	_
+
+369806c369806
+< 8	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
+---
+> 8	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
+
+369970c369970
+< 3	si	si	SCONJ	_	_	1	mod	_	_
+---
+> 3	si	si	SCONJ	_	_	2	mod	_	_
+
+370700c370700
+< 11	:	:	PUNCT	_	_	17	punct	_	_
+---
+> 11	:	:	PUNCT	_	Shared=Yes	17	punct	_	_
+
+370702c370702
+< 13	service	service	NOUN	_	Gender=Masc|Number=Sing	17	subj	_	_
+---
+> 13	service	service	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	17	subj	_	_
+
+370762c370762
+< 33	signe	signe	NOUN	_	Gender=Masc|Number=Sing	11	parataxis	_	_
+---
+> 33	signe	signe	NOUN	_	Gender=Masc|Number=Sing	18	parataxis	_	_
+
+370831c370831
+< 7	année	année	NOUN	_	Gender=Fem|Number=Sing	3	mod	_	SpaceAfter=No
+---
+> 7	année	année	NOUN	_	Gender=Fem|Number=Sing	4	mod	_	SpaceAfter=No
+
+371604c371604
+< 9	:	:	PUNCT	_	Shared=Yes	12	punct	_	_
+---
+> 9	:	:	PUNCT	_	Shared=No	12	punct	_	_
+
+371621,371623c371621,371623
+< 26	,	,	PUNCT	_	_	29	punct	_	_
+< 27	mais	mais	CCONJ	_	_	29	cc	_	_
+< 28	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	29	subj	_	SpaceAfter=No
+---
+> 26	,	,	PUNCT	_	Shared=Yes	29	punct	_	_
+> 27	mais	mais	CCONJ	_	Shared=Yes	29	cc	_	_
+> 28	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	29	subj	_	SpaceAfter=No
+
+371632c371632
+< 37	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	38	det	_	_
+---
+> 37	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	38	det	_	_
+
+371880c371880
+< 5	autour	autour	ADV	_	_	4	mod	_	_
+---
+> 5	autour	autour	ADV	_	_	3	mod	_	_
+
+372096c372096
+< 22	pour	pour	ADP	_	_	21	mod	_	_
+---
+> 22	pour	pour	ADP	_	_	20	mod	_	_
+
+372952c372952
+< 6	puis	puis	CCONJ	_	Shared=No	7	cc	_	_
+---
+> 6	puis	puis	CCONJ	_	Shared=Yes	7	cc	_	_
+
+373823,373824c373823,373824
+< 37	ogives	ogive	NOUN	_	Gender=Fem|Number=Plur|Shared=No	24	conj	_	_
+< 38	à	à	ADP	_	_	37	udep	_	_
+---
+> 37	ogives	ogive	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
+> 38	à	à	ADP	_	Shared=No	37	udep	_	_
+
+374467c374467
+< 31	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	32	comp:obj	_	SpaceAfter=No
+---
+> 31	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	32	comp:obj	_	SpaceAfter=No
+
+374575c374575
+< 4	escrocs	escroc	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	11	vocative	_	SpaceAfter=No
+---
+> 4	escrocs	escroc	NOUN	_	Gender=Masc|Number=Plur	11	vocative	_	SpaceAfter=No
+
+374582c374582
+< 11	FUYEZ	fuir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	wordform=fuyez
+---
+> 11	FUYEZ	fuir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	wordform=fuyez
+
+374946c374946
+< 8	pour	pour	ADP	_	_	7	mod	_	_
+---
+> 8	pour	pour	ADP	_	_	5	mod	_	_
+
+375082,375083c375082,375083
+< 59	11	11	NUM	_	Number=Sing	52	orphan	_	_
+< 60	mars	mars	NOUN	_	Gender=Masc|Number=Sing|Shared=No	59	mod	_	_
+---
+> 59	11	11	NUM	_	Number=Sing|Shared=No	52	orphan	_	_
+> 60	mars	mars	NOUN	_	Gender=Masc|Number=Sing	59	mod	_	_
+
+375618c375618
+< 19	emmené	emmener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:pred	_	Subject=SubjRaising
+---
+> 19	emmené	emmener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:pred	_	Subject=ObjRaising
+
+376468c376468
+< 1	Mais	mais	CCONJ	_	Shared=No	11	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	11	cc	_	wordform=mais
+
+377426c377426
+< 5	Brown	Brown	PROPN	_	Shared=Yes	7	subj	_	_
+---
+> 5	Brown	Brown	PROPN	_	Shared=No	7	subj	_	_
+
+377937c377937
+< 29	unes	un	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	24	mod	_	_
+---
+> 29	unes	un	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	27	mod	_	_
+
+379047c379047
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 2	,	,	PUNCT	_	_	4	punct	_	_
+
+379132c379132
+< 8	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
+---
+> 8	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	9	subj	_	_
+
+379217c379217
+< 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	2	det	_	wordform=les
+---
+> 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
+
+379239c379239
+< 22	auprès	auprès	ADV	_	_	21	mod	_	_
+---
+> 22	auprès	auprès	ADV	_	_	20	mod	_	_
+
+380330c380330
+< 17	et	et	CCONJ	_	Shared=No	19	cc	_	_
+---
+> 17	et	et	CCONJ	_	Shared=Yes	19	cc	_	_
+
+380752c380752
+< 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	4	det	_	_
+---
+> 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+
+380925c380925
+< 10	autour	autour	ADV	_	_	4	mod	_	_
+---
+> 10	autour	autour	ADV	_	_	3	mod	_	_
+
+381362c381362
+< 31	"	"	PUNCT	_	Shared=Yes	32	punct	_	SpaceAfter=No
+---
+> 31	"	"	PUNCT	_	Shared=No	32	punct	_	SpaceAfter=No
+
+381777c381777
+< 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+---
+> 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
+
+383219c383219
+< 8	plus	plus	ADV	_	Polarity=Neg	9	mod	_	_
+---
+> 8	plus	plus	ADV	_	Polarity=Neg	7	mod	_	_
+
+384141c384141
+< 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	wordform=il
+---
+> 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj@pass	_	wordform=il
+
+384148c384148
+< 7	à	à	ADP	_	_	3	mod	_	_
+---
+> 7	à	à	ADP	_	_	2	mod	_	_
+
+384313,384314c384313,384314
+< 21	mais	mais	CCONJ	_	Shared=No	23	cc	_	_
+< 22	également	également	ADV	_	Shared=Yes	23	mod	_	_
+---
+> 21	mais	mais	CCONJ	_	Shared=Yes	23	cc	_	_
+> 22	également	également	ADV	_	_	23	mod	_	_
+
+385020c385020
+< 7	en	en	ADP	_	_	6	mod	_	_
+---
+> 7	en	en	ADP	_	_	5	mod	_	_
+
+385033c385033
+< 20	autour	autour	ADV	_	_	6	mod	_	_
+---
+> 20	autour	autour	ADV	_	_	5	mod	_	_
+
+386755c386755
+< 11	utiliser	utiliser	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=OblRaising
+---
+> 11	utiliser	utiliser	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
+
+387144c387144
+< 10	depuis	depuis	ADP	_	_	2	mod	_	_
+---
+> 10	depuis	depuis	ADP	_	_	6	udep	_	_
+
+388001c388001
+< 1	Mais	mais	CCONJ	_	Shared=No	5	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	_	5	cc	_	wordform=mais
+
+388184c388184
+< 18	Renaissance	renaissance	NOUN	_	Gender=Fem|Number=Sing	16	conj@emb	_	SpaceAfter=No|wordform=renaissance
+---
+> 18	Renaissance	renaissance	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No|wordform=renaissance
+
+388192c388192
+< 26	Classique	classique	NOUN	_	Gender=Masc|Number=Sing	24	conj@emb	_	|wordform=classique
+---
+> 26	Classique	classique	NOUN	_	Gender=Masc|Number=Sing	24	conj@emb	_	wordform=classique
+
+388628c388628
+< 13	,	,	PUNCT	_	_	12	punct	_	_
+---
+> 13	,	,	PUNCT	_	_	20	punct	_	_
+
+388745c388745
+< 6	attaqués	attaquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	comp:pred	_	Subject=SubjRaising
+---
+> 6	attaqués	attaquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	comp:pred	_	Subject=ObjRaising
+
+389034c389034
+< 3	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 3	,	,	PUNCT	_	_	5	punct	_	_
+
+389310c389310
+< 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
+---
+> 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	9	subj	_	_
+
+389313c389313
+< 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	12	det	_	_
+---
+> 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+
+389596c389596
+< 7	et	et	CCONJ	_	Shared=No	9	cc	_	_
+---
+> 7	et	et	CCONJ	_	Shared=Yes	9	cc	_	_
+
+390138,390139c390138,390139
+< 58	ou	ou	CCONJ	_	Shared=No	61	cc	_	_
+< 59	encore	encore	ADV	_	Shared=No	61	mod	_	_
+---
+> 58	ou	ou	CCONJ	_	Shared=Yes	61	cc	_	_
+> 59	encore	encore	ADV	_	_	61	mod	_	_
+
+390628c390628
+< 16	partir	partir	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
+---
+> 16	partir	partir	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=ObjRaising
+
+391107c391107
+< 56	dans	dans	ADP	_	_	51	mod	_	_
+---
+> 56	dans	dans	ADP	_	Shared=No	50	mod	_	_
+
+391112c391112
+< 61	sans	sans	ADP	_	_	51	mod	_	_
+---
+> 61	sans	sans	ADP	_	Shared=No	50	mod	_	_
+
+392032c392032
+< 15	listée	lister	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	mod	_	Subject=Instantiated
+---
+> 15	listée	lister	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	mod	_	Subject=Instantiated
+
+392653c392653
+< 24	dans	dans	ADP	_	_	23	mod	_	_
+---
+> 24	dans	dans	ADP	_	_	20	mod	_	_
+
+392744c392744
+< 16	lugsail	lugsail	X	_	Foreign=Yes	10	conj@emb	_	Lang=en|SpaceAfter=No
+---
+> 16	lugsail	lugsail	X	_	Foreign=Yes	10	conj	_	Lang=en|SpaceAfter=No
+
+392747,392748c392747,392748
+< 19	voile	voile	NOUN	_	Gender=Fem|Number=Sing|Shared=No	16	conj	_	_
+< 20	de	de	ADP	_	_	19	udep	_	_
+---
+> 19	voile	voile	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+> 20	de	de	ADP	_	Shared=No	19	udep	_	_
+
+393786,393787c393786,393787
+< 1	Puis	puis	CCONJ	_	Shared=No	4	cc	_	SpaceAfter=No|wordform=puis
+< 2	,	,	PUNCT	_	_	1	punct	_	_
+---
+> 1	Puis	puis	CCONJ	_	_	4	cc	_	SpaceAfter=No|wordform=puis
+> 2	,	,	PUNCT	_	Shared=Yes	4	punct	_	_
+
+393835c393835
+< 21	attendez	attendre	VERB	_	Mood=Imp|Number=Plur|Person=2|Shared=Yes|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+---
+> 21	attendez	attendre	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+
+394182c394182
+< 53	plus	plus	ADV	_	Polarity=Neg|Shared=No	55	mod	_	_
+---
+> 53	plus	plus	ADV	_	Polarity=Neg	52	mod	_	_
+
+394627c394627
+< 11	,	,	PUNCT	_	_	10	punct	_	_
+---
+> 11	,	,	PUNCT	_	_	33	punct	_	_
+
+394761c394761
+< 14	déployant	déployer	VERB	_	Tense=Pres|VerbForm=Part	8	mod	_	Subject=Instantiated
+---
+> 14	déployant	déployer	VERB	_	Tense=Pres|VerbForm=Part	12	mod	_	Subject=Instantiated
+
+395595c395595
+< 9	15	15	NUM	_	Number=Sing	7	comp:arg	_	_
+---
+> 9	15	15	NUM	_	Number=Sing	7	comp	_	_
+
+395704c395704
+< 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	18	det	_	_
+---
+> 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+
+395712,395714c395712,395714
+< 25	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	28	subj	_	_
+< 26	n'	ne	ADV	_	Polarity=Neg	28	mod	_	SpaceAfter=No
+< 27	en	en	PRON	_	Person=3|PronType=Prs	28	comp:obj	_	_
+---
+> 25	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	28	subj	_	_
+> 26	n'	ne	ADV	_	Polarity=Neg|Shared=No	28	mod	_	SpaceAfter=No
+> 27	en	en	PRON	_	Person=3|PronType=Prs|Shared=No	28	comp:obj	_	_
+
+396102c396102
+< 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	10	subj	_	SpaceAfter=No
+---
+> 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	SpaceAfter=No
+
+398155c398155
+< 1	Mais	mais	CCONJ	_	Shared=No	9	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	9	cc	_	wordform=mais
+
+400077c400077
+< 57	synthèse	synthèse	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	39	appos	_	_
+---
+> 57	synthèse	synthèse	NOUN	_	Gender=Fem|Number=Sing	39	appos	_	_
+
+401018c401018
+< 9	isthme	isthme	NOUN	_	Gender=Masc|Number=Sing|Shared=Yes	7	comp:obj	_	SpaceAfter=No
+---
+> 9	isthme	isthme	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
+
+401081c401081
+< 13	tuent	tuer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	10	comp:obl	_	CorrectForm=tuer|Subject=SubjRaising
+---
+> 13	tuent	tuer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	10	comp:obl	_	CorrectForm=tuer|Subject=ObjRaising
+
+401754c401754
+< 18	puis	puis	CCONJ	_	_	19	cc	_	_
+---
+> 18	puis	puis	CCONJ	_	Shared=Yes	19	cc	_	_
+
+402369c402369
+< 1	Mais	mais	CCONJ	_	Shared=No	5	cc	_	wordform=mais
+---
+> 1	Mais	mais	CCONJ	_	Shared=Yes	5	cc	_	wordform=mais
+
+402728c402728
+< 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	5	det	_	_
+---
+> 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+
+403214c403214
+< 5	derrière	derrière	ADP	_	_	3	mod	_	_
+---
+> 5	derrière	derrière	ADP	_	_	4	mod	_	_
+
+403218c403218
+< 9	difficile	difficile	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
+---
+> 9	difficile	difficile	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
+
+404179c404179
+< 6	,	,	PUNCT	_	_	5	punct	_	_
+---
+> 6	,	,	PUNCT	_	_	10	punct	_	_
+
+404237c404237
+< 31	"	"	PUNCT	_	Shared=Yes	32	punct	_	SpaceAfter=No
+---
+> 31	"	"	PUNCT	_	Shared=No	32	punct	_	SpaceAfter=No
+
+404551c404551
+< 2	président	président	NOUN	_	Gender=Masc|Number=Sing|Shared=No	5	dislocated	_	_
+---
+> 2	président	président	NOUN	_	Gender=Masc|Number=Sing	5	dislocated	_	_
+
+404685c404685
+< 10	vendu	vendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	mod	_	Subject=Instantiated
+---
+> 10	vendu	vendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	Subject=Instantiated
+
+404863c404863
+< 10	année	année	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	SpaceAfter=No
+---
+> 10	année	année	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
+
+405830c405830
+< 8	,	,	PUNCT	_	Shared=Yes	10	punct	_	_
+---
+> 8	,	,	PUNCT	_	Shared=No	10	punct	_	_
+
+406162,406163c406162,406163
+< 4	suite	suite	NOUN	_	Shared=No	17	mod	_	ExtPos=ADV
+< 5	notamment	notamment	ADV	_	_	4	mod	_	_
+---
+> 4	suite	suite	NOUN	_	Shared=Yes	17	mod	_	ExtPos=ADV
+> 5	notamment	notamment	ADV	_	_	9	mod	_	_
+
+406266c406266
+< 8	revenu	revenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:pred	_	Subject=SubjRaising
+---
+> 8	revenu	revenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:pred	_	Subject=ObjRaising
+
+407436c407436
+< 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem|Shared=Yes	2	det	_	wordform=ce
+---
+> 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=ce
+
+407484c407484
+< 48	31e	31e	ADJ	_	Gender=Fem|Number=Sing	49	comp:pred	_	_
+---
+> 48	31e	31e	ADJ	_	Gender=Fem|Number=Sing	47	comp:pred	_	_
+

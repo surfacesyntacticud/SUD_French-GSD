@@ -877,7 +877,7 @@
 # text = Le royaume s'est amélioré, mais pas dans le sens voulu par l'UE.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	4	subj@pass	_	_
-3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@pass	_	SpaceAfter=No
+3	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@pass	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
@@ -1173,7 +1173,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	qu'	que	SCONJ	_	_	8	conj:coord	_	SpaceAfter=No
 17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	19	subj@pass	_	_
-18	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	19	comp@pass	_	_
+18	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	19	comp@pass	_	_
 19	maintient	maintenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 20	et	et	CCONJ	_	_	22	cc	_	_
 21	n'	ne	ADV	_	Polarity=Neg	22	mod	_	SpaceAfter=No
@@ -1305,7 +1305,7 @@
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	Territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	14	subj@pass	_	_
 12	perdu	perdu	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
-13	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp@pass	_	SpaceAfter=No
+13	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp@pass	_	SpaceAfter=No
 14	inscrit	inscrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	pleinement	pleinement	ADV	_	_	14	mod	_	_
 16	dans	dans	ADP	_	_	14	comp:obl	_	_
@@ -1523,7 +1523,7 @@
 18	Mme	Mme	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 19	Haïder	Haïder	PROPN	_	_	18	flat@name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	1	punct	_	_
-21	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	comp@pass	_	SpaceAfter=No
+21	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	comp@pass	_	SpaceAfter=No
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 23	-ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj@expl	_	wordform=il
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
@@ -6019,7 +6019,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	musique	musique	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	classique	classique	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
-11	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp@pass	_	_
+11	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp@pass	_	_
 12	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
 14	année	année	NOUN	_	Gender=Fem|Number=Sing	12	mod	_	_
@@ -7578,7 +7578,7 @@
 21	repas	repas	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	succulent	succulent	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	_
 23	qui	qui	PRON	_	PronType=Rel	25	subj@pass	_	_
-24	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	25	comp@pass	_	_
+24	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	25	comp@pass	_	_
 25	déguste	déguster	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	mod@relcl	_	_
 26	aussi	aussi	ADV	_	_	25	mod	_	_
 27	à	à	ADP	_	_	25	mod	_	_
@@ -9512,7 +9512,7 @@
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	tragédie	tragédie	NOUN	_	Gender=Fem|Number=Sing	8	conj:appos	_	_
 26	qui	qui	PRON	_	PronType=Rel	28	subj	_	_
-27	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	29	comp@pass	_	SpaceAfter=No
+27	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	29	comp@pass	_	SpaceAfter=No
 28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	_
 29	jouée	jouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	comp:aux@tense	_	_
 30	en	en	ADP	_	_	28	mod	_	_
@@ -10458,7 +10458,7 @@
 9	commun	commun	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
 10	qui	qui	PRON	_	PronType=Rel	13	subj@pass	_	_
 11	ne	ne	ADV	_	Polarity=Neg	13	mod	_	_
-12	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp@pass	_	_
+12	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp@pass	_	_
 13	vend	vendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
 15	sur	sur	ADP	_	_	13	mod	_	_
@@ -11081,7 +11081,7 @@
 # text = Les transactions se font essentiellement en espèces.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	transactions	transaction	NOUN	_	Gender=Fem|Number=Plur	4	subj@pass	_	_
-3	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	comp@pass	_	_
+3	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	comp@pass	_	_
 4	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	essentiellement	essentiellement	ADV	_	_	4	mod	_	_
 6	en	en	ADP	_	_	4	mod	_	_
@@ -11372,7 +11372,7 @@
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	complémentaire	complémentaire	ADJ	_	Gender=Fem|Number=Sing	10	comp:pred	_	_
 12	ou	ou	CCONJ	_	_	14	cc	_	_
-13	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp@pass	_	SpaceAfter=No
+13	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp@pass	_	SpaceAfter=No
 14	oppose	opposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
 15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	subj	_	SpaceAfter=No
