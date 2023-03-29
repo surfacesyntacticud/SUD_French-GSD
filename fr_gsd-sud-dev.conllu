@@ -15502,7 +15502,7 @@
 17	,	,	PUNCT	_	Shared=Yes	18	punct	_	_
 18	cousues	coudre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	mod	_	_
 19	entre	entre	ADP	_	_	18	mod	_	_
-20	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	comp:obj	_	SpaceAfter=No
+20	elles	eux	PRON	_	Emph=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	contenant	contenir	VERB	_	Tense=Pres|VerbForm=Part	18	conj:coord	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -20310,7 +20310,7 @@
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	reliées	relier	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	comp:pred	_	_
 5	entre	entre	ADP	_	_	3	mod	_	_
-6	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	_
+6	elles	eux	PRON	_	Emph=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	_
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	exécutent	exécuter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -30748,7 +30748,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	quant	quant	ADV	_	_	4	mod	_	ExtPos=ADP|Idiom=Yes
 7	à	à	ADP	_	_	6	unk	_	InIdiom=Yes
-8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	SpaceAfter=No
+8	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	de	de	ADP	_	_	4	comp:pred	_	_
 11	«	«	PUNCT	_	_	12	punct	_	_
@@ -40988,7 +40988,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	quant	quant	ADV	_	_	3	mod	_	ExtPos=ADP|Idiom=Yes
 5	à	à	ADP	_	_	4	unk	_	InIdiom=Yes
-6	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
+6	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
 7	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 8	:	:	PUNCT	_	_	13	punct	_	_
 9	«	«	PUNCT	_	_	13	punct	_	_
