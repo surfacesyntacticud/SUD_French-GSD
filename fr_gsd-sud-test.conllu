@@ -796,7 +796,7 @@
 2	hésitez	hésiter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CorrectSpaceAfter=Yes|SpaceAfter=No
 3	-pas	pas	ADV	_	Polarity=Neg|Typo=Yes	2	mod	_	CorrectForm=pas
 4	à	à	ADP	_	_	2	comp:obl	_	_
-5	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj@agent	_	_
+5	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj@agent	_	_
 6	faire	faire	AUX	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
 7	circuler	circuler	VERB	_	VerbForm=Inf	6	comp:aux@caus	_	Subject=ObjRaising
 8	largement	largement	ADV	_	_	7	mod	_	_
@@ -926,7 +926,7 @@
 1	Son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	2	det	_	wordform=son
 2	destin	destin	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
+4	-il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Poussière	poussière	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	wordform=poussière
 7	?	?	PUNCT	_	_	3	punct	_	_
@@ -975,14 +975,14 @@
 3	fois	fois	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 4	ne	ne	ADV	_	Polarity=Neg|Shared=No	5	mod	_	_
 5	célébrons	célébrer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	5	subj	_	wordform=nous
+6	-nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	subj	_	wordform=nous
 7	que	que	ADV	_	Polarity=Neg	8	mod	_	_
 8	nous-mêmes	lui-même	PRON	_	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	5	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
 12	prenons	prendre	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj:coord	_	SpaceAfter=No
-13	-nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs|Shared=No	12	subj	_	wordform=nous
+13	-nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs|Shared=No	12	subj	_	wordform=nous
 14	même	même	ADV	_	_	15	mod	_	_
 15	pas	pas	ADV	_	Polarity=Neg|Shared=No	12	mod	_	_
 16	conscience	conscience	NOUN	_	Gender=Fem|Number=Sing|Shared=No	12	comp:obj@lvc	_	_
@@ -1188,7 +1188,7 @@
 # text = Y a-t-il un risque de voir les choses tourner mal en Syrie ?
 1	Y	y	PRON	_	Person=3|PronType=Prs	2	comp@expl	_	wordform=y
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
+3	-t-il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	risque	risque	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
@@ -1525,7 +1525,7 @@
 20	,	,	PUNCT	_	_	1	punct	_	_
 21	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	comp@pass	_	SpaceAfter=No
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj@expl	_	wordform=il
+23	-ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj@expl	_	wordform=il
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
 25	arrêter	arrêter	VERB	_	VerbForm=Inf	24	comp:aux@pass	_	Subject=Generic
 26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	22	mod	_	_
@@ -2411,7 +2411,7 @@
 1	c'est-à-dire	c'est-à-dire	CCONJ	_	Shared=Yes	14	cc	_	SpaceAfter=No
 2	--	--	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	poursuit	poursuivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	14	parataxis:insert	_	SpaceAfter=No
-4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
+4	-il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
 5	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
 6	argument	argument	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 7	--	--	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -2848,7 +2848,7 @@
 5	France	France	PROPN	_	Gender=Fem|Number=Sing	7	subj	_	_
 6	officielle	officiel	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 7	maintiendra	maintenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	-t-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	wordform=elle
+8	-t-elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	wordform=elle
 9	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	préférence	préférence	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 11	pour	pour	ADP	_	_	10	udep	_	_
@@ -2882,7 +2882,7 @@
 1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 2	Ross	Ross	PROPN	_	_	1	flat@name	_	_
 3	réussira	réussir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
+4	-t-il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
 5	à	à	ADP	_	_	3	comp:obl	_	_
 6	faire	faire	AUX	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	valoir	valoir	VERB	_	VerbForm=Inf	6	comp:aux@caus	_	Subject=ObjRaising
@@ -4424,7 +4424,7 @@
 2	2004	2004	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis:insert	_	SpaceAfter=No
-5	-t-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	wordform=il
+5	-t-il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	wordform=il
 6	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	9	subj	_	_
@@ -4869,7 +4869,7 @@
 # sent_id = fr-ud-test_00161
 # text = Faut-il éviter de se rendre dans les pays du sous-continent indien ?
 1	Faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|wordform=faut
-2	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	subj@expl	_	wordform=il
+2	-il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	subj@expl	_	wordform=il
 3	éviter	éviter	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=Generic
 4	de	de	ADP	_	_	3	comp:obj	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@expl	_	_
@@ -4915,7 +4915,7 @@
 # sent_id = fr-ud-test_00163
 # text = " J'ai senti, au cours de mon déplacement à Prague, que les Tchèques étaient probablement les plus ouverts.
 1	"	"	PUNCT	_	_	3	punct	_	_
-2	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No|wordform=j'
+2	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No|wordform=j'
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	senti	sentir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -5556,7 +5556,7 @@
 24	attente	attente	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	sourit	sourire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis:insert	_	SpaceAfter=No
-27	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	subj	_	SpaceAfter=No|wordform=elle
+27	-elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	subj	_	SpaceAfter=No|wordform=elle
 28	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-test_00187
@@ -5704,7 +5704,7 @@
 # text = Peut-être serait-il plus libérateur de crier bien fort : OUACHE !...
 1	Peut-être	peut-être	ADV	_	_	2	mod	_	wordform=peut-être
 2	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
+3	-il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
 4	plus	plus	ADV	_	_	5	mod	_	_
 5	libérateur	libérateur	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 6	de	de	ADP	_	_	2	comp:obj@agent	_	_
@@ -6002,7 +6002,7 @@
 9	dirai	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	5	conj:coord	_	_
 10	qu'	que	SCONJ	_	Shared=No	9	comp:obj	_	SpaceAfter=No
 11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@expl	_	_
-12	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	_
+12	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	_
 13	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6866,7 +6866,7 @@
 
 # sent_id = fr-ud-test_00243
 # text = J'y vais très souvent, car comme on dit on change pas une équipe qui gagne.
-1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	3	subj	_	SpaceAfter=No|wordform=j'
+1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs|Shared=No	3	subj	_	SpaceAfter=No|wordform=j'
 2	y	y	PRON	_	Person=3|PronType=Prs|Shared=No	3	comp:obl	_	_
 3	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	très	très	ADV	_	_	5	mod	_	_
@@ -6887,7 +6887,7 @@
 
 # sent_id = fr-ud-test_00244
 # text = J'adore la bouffe et le style.
-1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|wordform=j'
+1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|wordform=j'
 2	adore	adorer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	4	det	_	_
 4	bouffe	bouffe	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -6898,7 +6898,7 @@
 
 # sent_id = fr-ud-test_00245
 # text = J'ai donc choisi de ne faire qu'une coupe + balayage.
-1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|wordform=j'
+1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|wordform=j'
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	donc	donc	ADV	_	_	2	mod	_	_
 4	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
@@ -6914,7 +6914,7 @@
 
 # sent_id = fr-ud-test_00246
 # text = J'ai installé une chaudière à condensation dans ma maison, initialement chauffée par des radiateurs électriques.
-1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|wordform=j'
+1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|wordform=j'
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -6935,7 +6935,7 @@
 
 # sent_id = fr-ud-test_00247
 # text = J'ai rencontré par hasard Lionel en cherchant sur Google un coiffeur à domicile... le hasard fait bien les choses !
-1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|wordform=j'
+1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|wordform=j'
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	par	par	ADP	_	_	3	mod	_	_
@@ -6960,7 +6960,7 @@
 
 # sent_id = fr-ud-test_00248
 # text = J'y suis allé 2 fois à une semaine d'intervalle et je n'ai pas été déçu.
-1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	3	subj	_	SpaceAfter=No|wordform=j'
+1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs|Shared=No	3	subj	_	SpaceAfter=No|wordform=j'
 2	y	y	PRON	_	Person=3|PronType=Prs	4	comp:obl	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
@@ -7041,7 +7041,7 @@
 37	kalaripayat	kalaripayat	X	_	Foreign=Yes	34	conj:coord	_	SpaceAfter=No
 38	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	11	punct	_	_
-40	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	41	subj	_	SpaceAfter=No
+40	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	41	subj	_	SpaceAfter=No
 41	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
 42	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	41	comp:aux@tense	_	_
 43	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	44	comp:obj	_	SpaceAfter=No
@@ -7620,7 +7620,7 @@
 3	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
 4	fois	fois	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
-6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	7	subj	_	SpaceAfter=No
+6	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs|Shared=No	7	subj	_	SpaceAfter=No
 7	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj@lvc	_	_
 9	d'	de	ADP	_	_	8	comp:obl	_	SpaceAfter=No
@@ -7629,7 +7629,7 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	lunette	lunette	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
-15	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj@pass	_	SpaceAfter=No
+15	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	subj@pass	_	SpaceAfter=No
 16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj:coord	_	_
 17	été	être	AUX	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	ainsi	ainsi	ADV	_	_	17	mod	_	ExtPos=ADP|Idiom=Yes
@@ -7908,7 +7908,7 @@
 # text = Voila, j'espère que ce commentaire pourra prouver un peu que Mendes est un lycée où on travaille, où on apprend mais surtout un lycée où on découvre.
 1	Voila	voilà	VERB	_	Typo=Yes	4	parataxis	_	CorrectForm=Voilà|SpaceAfter=No|wordform=voila
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
+3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
@@ -7948,7 +7948,7 @@
 
 # sent_id = fr-ud-test_00291
 # text = j'ai appelé, croyant dans ma grande naîveté qu'un service serait proposé.
-1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -7966,7 +7966,7 @@
 
 # sent_id = fr-ud-test_00292
 # text = j'ai eu besoin de faire rénover mes serrures à la fois à titre particulier et professionel, et "Actif Dépannage" a, dans les deux cas été à la hauteur.
-1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	2	subj	_	SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs|Shared=No	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj@lvc	_	_
@@ -8049,7 +8049,7 @@
 10	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
 11	appart	appart	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
-13	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	14	subj	_	SpaceAfter=No
+13	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs|Shared=No	14	subj	_	SpaceAfter=No
 14	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	appel	appel	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@lvc	_	_
@@ -9783,7 +9783,7 @@
 16	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	dès	dès	ADP	_	Shared=No	11	mod	_	_
 18	que	que	SCONJ	_	_	17	comp:obj	_	_
-19	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	21	subj@pass	_	SpaceAfter=No
+19	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	21	subj@pass	_	SpaceAfter=No
 20	y	y	PRON	_	Person=3|PronType=Prs	22	comp:obl	_	_
 21	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
 22	retourné	retourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux@pass	_	SpaceAfter=No
@@ -11226,7 +11226,7 @@
 44	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	InTitle=Yes|wordform=les
 45	handicapés	handicapé	NOUN	_	Gender=Masc|Number=Plur	46	subj	_	InTitle=Yes
 46	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	conj:appos	_	ExtPos=PROPN|SpaceAfter=No|Title=Yes
-47	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	46	subj@expl	_	InTitle=Yes|wordform=ils
+47	-ils	eux	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	46	subj@expl	_	InTitle=Yes|wordform=ils
 48	en	en	ADP	_	_	46	mod	_	InTitle=Yes
 49	enfer	enfer	NOUN	_	Gender=Masc|Number=Sing	48	comp:obj	_	InTitle=Yes
 50	?	?	PUNCT	_	_	46	punct	_	InTitle=Yes|SpaceAfter=No
