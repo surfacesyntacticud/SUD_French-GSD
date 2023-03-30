@@ -16545,7 +16545,7 @@
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	autorité	autorité	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
 5	judiciaire	judiciaire	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
-6	elle-même	lui-même	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	mod	_	_
+6	elle-même	lui-même	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	mod	_	_
 7	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
 8	reconnaît	reconnaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -16978,7 +16978,7 @@
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	président	président	NOUN	_	Gender=Masc|Number=Sing	20	subj	_	_
 20	formerait	former	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
-21	lui-même	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	20	mod	_	SpaceAfter=No
+21	lui-même	lui-même	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	20	mod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00609
@@ -27810,7 +27810,7 @@
 89	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	91	subj	_	_
 90	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	91	comp@expl	_	_
 91	qualifiait	qualifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	88	comp:obj	_	_
-92	lui-même	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	91	mod	_	SpaceAfter=No
+92	lui-même	lui-même	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	91	mod	_	SpaceAfter=No
 93	)	)	PUNCT	_	_	88	punct	_	_
 94	:	:	PUNCT	_	_	96	punct	_	_
 95	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	96	det	_	_
@@ -39924,7 +39924,7 @@
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	1901-1985	1901-1985	NUM	_	Number=Plur	1	mod	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
-6	lui-même	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	mod	_	_
+6	lui-même	lui-même	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	mod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	en	en	ADP	_	_	7	comp:pred	_	_
 9	pleine	plein	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
@@ -40196,7 +40196,7 @@
 43	dont	dont	PRON	_	PronType=Rel	50	udep	_	_
 44	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	subj	_	_
 45	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	mod@relcl	_	_
-46	lui-même	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	45	mod	_	_
+46	lui-même	lui-même	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	45	mod	_	_
 47	désigné	désigner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	comp:aux@tense	_	_
 48	préalablement	préalablement	ADV	_	_	47	mod	_	_
 49	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	50	det	_	_
@@ -40951,7 +40951,7 @@
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
 41	corps	corps	NOUN	_	Gender=Masc|Number=Plur	39	comp:obj	_	_
 42	dans	dans	ADP	_	_	35	udep	_	_
-43	elle-même	lui-même	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	42	comp:obj	_	_
+43	elle-même	lui-même	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	42	comp:obj	_	_
 44	qui	qui	PRON	_	PronType=Rel	45	subj	_	_
 45	envoie	envoyer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	mod@relcl	_	_
 46	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	47	det	_	_
