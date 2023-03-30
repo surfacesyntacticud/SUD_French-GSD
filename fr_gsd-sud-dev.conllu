@@ -1382,7 +1382,7 @@
 2	gardien	gardien	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 3	algérien	algérien	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	mod	_	_
+5	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	mod	_	_
 6	aussi	aussi	ADV	_	_	5	mod	_	_
 7	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 8	filer	filer	VERB	_	VerbForm=Inf	7	comp:pred	_	Subject=ObjRaising
@@ -2809,7 +2809,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	moelle	moelle	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	mod	_	SpaceAfter=No
+6	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 9	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -18448,7 +18448,7 @@
 # text = C'est lui qui recruta le successeur de Graham, le français Arsène Wenger.
 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No|wordform=c'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	comp:pred	_	_
+3	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	comp:pred	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	recruta	recruter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:cleft	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -18718,7 +18718,7 @@
 21	USA	USA	PROPN	_	Gender=Masc|Number=Plur	19	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	18	punct	_	_
 23	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
-24	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	mod	_	_
+24	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	mod	_	_
 25	aussi	aussi	ADV	_	_	24	mod	_	_
 26	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
 27	aiguilles	aiguille	NOUN	_	Gender=Fem|Number=Plur	23	comp:obj	_	_
@@ -23369,7 +23369,7 @@
 # sent_id = fr-ud-dev_00847
 # text = Comment Lui dirais-je : Béni sois-Tu, l'Éternel, Maître de l'Univers, qui nous a élus parmi les peuples pour être torturés jour et nuit, pour voir nos pères, nos mères, nos frères finir au crématoire ?
 1	Comment	comment	ADV	_	_	3	mod	_	wordform=comment
-2	Lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	wordform=lui
+2	Lui	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	wordform=lui
 3	dirais	dire	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	wordform=je
 5	:	:	PUNCT	_	_	7	punct	_	_
@@ -24409,7 +24409,7 @@
 3	musical	musical	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 4	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@pass	_	SpaceAfter=No
 5	installera	installer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-6	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	mod	_	_
+6	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	mod	_	_
 7	aussi	aussi	ADV	_	_	6	mod	_	_
 8	dans	dans	ADP	_	_	5	comp:obl	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -38052,7 +38052,7 @@
 4	origine	origine	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	iranienne	iranien	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	mod	_	_
+7	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	mod	_	_
 8	aussi	aussi	ADV	_	_	7	mod	_	_
 9	député	député	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
 10-11	au	_	_	_	_	_	_	_	_
@@ -41142,7 +41142,7 @@
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	oculus	oculus	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
-24	lui	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	26	subj@pass	_	CorrectForm=lui-même
+24	lui	lui-même	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	26	subj@pass	_	CorrectForm=lui-même
 25	même	_	X	_	_	24	goeswith	_	_
 26	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	mod	_	_
 27	d'	de	ADP	_	_	26	comp:obl	_	SpaceAfter=No
