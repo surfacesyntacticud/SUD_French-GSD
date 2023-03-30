@@ -12196,7 +12196,7 @@
 20	pour	pour	ADP	_	_	13	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	parataxis	_	_
-23	t'il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj@expl	_	SpaceAfter=No
+23	t'il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj@expl	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	22	punct	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 26	plus	plus	ADV	_	_	27	mod	_	_
@@ -23375,10 +23375,10 @@
 5	:	:	PUNCT	_	_	7	punct	_	_
 6	Béni	bénir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	wordform=béni
 7	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	SpaceAfter=No
-8	-Tu	il	PRON	_	Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	subj@pass	_	SpaceAfter=No|wordform=tu
+8	-Tu	toi	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	subj@pass	_	SpaceAfter=No|wordform=tu
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	Éternel	éternel	ADJ	_	Gender=Masc|Number=Sing	8	conj:appos	_	SpaceAfter=No|wordform=éternel
+11	Éternel	éternel	ADJ	_	Gender=Masc|Number=Sing	6	dislocated	_	SpaceAfter=No|wordform=éternel
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	Maître	maître	NOUN	_	Gender=Masc|Number=Sing	11	conj:appos	_	wordform=maître
 14	de	de	ADP	_	_	13	udep	_	_
@@ -23387,7 +23387,7 @@
 17	,	,	PUNCT	_	_	13	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 19	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	21	comp:obj	_	_
-20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
+20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 21	élus	élire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 22	parmi	parmi	ADP	_	_	20	mod	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
