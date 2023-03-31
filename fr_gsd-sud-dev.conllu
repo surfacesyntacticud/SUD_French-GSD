@@ -10441,7 +10441,7 @@
 11	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	_
 12	gros	gros	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	_
 13	bec	bec	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-14	disproportionné	disproportionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	mod	_	_
+14	disproportionné	disproportionné	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	par	par	ADP	_	_	14	mod	_	_
 16	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 17	à	à	ADP	_	_	16	udep	_	_
