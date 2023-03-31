@@ -7599,7 +7599,7 @@
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	très	très	ADV	_	_	7	mod	_	_
 7	belles	beau	ADJ	_	Gender=Fem|Number=Plur	5	comp:pred	_	_
-8	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	5	conj:appos	_	_
+8	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	5	parataxis	_	_
 9	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 10	ne	ne	ADV	_	Polarity=Neg	11	mod	_	_
 11	gâte	gâter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
@@ -15454,7 +15454,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	piano	piano	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	5	conj:appos	_	_
+11	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	5	parataxis	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	mod@relcl	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -19829,7 +19829,7 @@
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
 12	nulles	nulle	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	12	conj:appos	_	_
+14	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	12	parataxis	_	_
 15	qui	qui	PRON	_	PronType=Rel	17	subj	_	_
 16	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	17	comp:obj	_	SpaceAfter=No
 17	empêche	empêcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	_
@@ -31872,7 +31872,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	statu	statu	X	_	Gender=Masc|Number=Sing	7	comp:obj	_	ExtPos=NOUN|Idiom=Yes
 10	quo	quo	X	_	_	9	unk	_	InIdiom=Yes
-11	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	6	conj:appos	_	_
+11	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	6	parataxis	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
 13	accroît	accroître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -33825,7 +33825,7 @@
 26	plat	plat	NOUN	_	Gender=Masc|Number=Sing|Shared=No	25	comp:obj	_	_
 27	recouvert	recouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	mod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	16	conj:appos	_	_
+29	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	16	parataxis	_	_
 30	qui	qui	PRON	_	PronType=Rel	34	subj	_	_
 31	à	à	ADP	_	_	34	mod	_	_
 32	certains	certain	DET	_	Gender=Masc|Number=Plur|PronType=Ind	33	det	_	_
