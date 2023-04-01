@@ -39,7 +39,7 @@
 4	parler	parler	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 5	à	à	ADP	_	_	4	mod	_	ExtPos=ADV|Idiom=Yes
 6	propos	propos	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	InIdiom=Yes
-7	d'	de	ADP	_	_	5	comp:obl	_	SpaceAfter=No
+7	d'	de	ADP	_	_	6	comp:obl	_	SpaceAfter=No
 8	Averroès	Averroès	PROPN	_	_	7	comp:obj	_	_
 9	de	de	ADP	_	_	4	comp:obl	_	_
 10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
@@ -1786,7 +1786,7 @@
 30	agressant	agresser	VERB	_	Tense=Pres|VerbForm=Part	28	comp:obj	_	_
 31	à	à	ADP	_	_	30	mod	_	ExtPos=ADV|Idiom=Yes
 32	propos	propos	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	InIdiom=Yes
-33	d'	de	ADP	_	_	31	comp:obl	_	SpaceAfter=No
+33	d'	de	ADP	_	_	32	comp:obl	_	SpaceAfter=No
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	match	match	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
 36	de	de	ADP	_	_	35	udep	_	_
@@ -2295,7 +2295,7 @@
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	InIdiom=Yes
 16	vu	vu	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	InIdiom=Yes
 17-18	des	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	14	comp:obl	_	_
+17	de	de	ADP	_	_	16	comp:obl	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	aides	aide	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	_
 20	militaires	militaire	ADJ	_	Gender=Fem|Number=Plur	19	mod	_	_
@@ -2973,7 +2973,7 @@
 3	provient	provenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes
 5	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	InIdiom=Yes
-6	de	de	ADP	_	_	4	comp:obl	_	_
+6	de	de	ADP	_	_	5	comp:obl	_	_
 7	18,5	18,5	NUM	_	Number=Plur	8	det	_	_
 8	ME	ME	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
 9	de	de	ADP	_	_	3	comp:obl	_	_
@@ -3457,7 +3457,7 @@
 1	à	à	ADP	_	Shared=Yes	10	mod	_	ExtPos=ADV|Idiom=Yes
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
 3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
-4	de	de	ADP	_	_	1	comp:obl	_	_
+4	de	de	ADP	_	_	3	comp:obl	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	SpaceAfter=No
@@ -4827,7 +4827,7 @@
 28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 29	en	en	ADP	_	_	28	comp:pred	_	ExtPos=ADV|Idiom=Yes
 30	plein	plein	ADJ	_	Gender=Masc|Number=Sing	29	comp:obj	_	InIdiom=Yes
-31	dans	dans	ADP	_	_	29	comp:obl	_	_
+31	dans	dans	ADP	_	_	30	comp:obl	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
 33	préparatifs	préparatif	NOUN	_	Gender=Masc|Number=Plur	31	comp:obj	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
@@ -8199,7 +8199,7 @@
 7	à	à	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
 8	partir	partir	VERB	_	VerbForm=Inf	7	comp:obj	_	InIdiom=Yes
 9-10	des	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	7	comp:obl	_	_
+9	de	de	ADP	_	_	8	comp:obl	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	côtes	côte	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
 12	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9347,7 +9347,7 @@
 27	entre	entre	ADP	_	_	24	mod	_	_
 28	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	27	comp:obj	_	_
 29-30	des	_	_	_	_	_	_	_	_
-29	de	de	ADP	_	_	24	comp:obl	_	_
+29	de	de	ADP	_	_	25	comp:obl	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	divergences	divergence	NOUN	_	Gender=Fem|Number=Plur	29	comp:obj	_	_
 32	nées	naître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	31	mod	_	_
@@ -9363,7 +9363,7 @@
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	InIdiom=Yes
 42	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj	_	InIdiom=Yes
 43-44	du	_	_	_	_	_	_	_	_
-43	de	de	ADP	_	_	40	comp:obl	_	_
+43	de	de	ADP	_	_	42	comp:obl	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	siège	siège	NOUN	_	Gender=Masc|Number=Sing	43	comp:obj	_	_
 46	de	de	ADP	_	_	45	udep	_	_
@@ -11295,7 +11295,7 @@
 8	siège	siège	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	à	à	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
 10	côté	côté	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	InIdiom=Yes
-11	de	de	ADP	_	_	9	comp:obl	_	_
+11	de	de	ADP	_	_	10	comp:obl	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	maison	maison	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14-15	des	_	_	_	_	_	_	_	_
