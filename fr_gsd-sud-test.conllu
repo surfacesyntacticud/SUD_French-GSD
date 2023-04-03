@@ -3281,8 +3281,8 @@
 16	longtemps	longtemps	ADV	_	_	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	_
-19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj:coord	_	ExtPos=VERB|Idiom=Yes
-20	temps	temps	NOUN	_	Gender=Masc|Number=Sing|Shared=No	19	comp:pred	_	InIdiom=Yes
+19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj:coord	_	_
+20	temps	temps	NOUN	_	Gender=Masc|Number=Sing|Shared=No	19	comp:pred	_	_
 21	de	de	ADP	_	Shared=No	19	comp:obj@agent	_	_
 22	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	23	comp:obl	_	_
 23	rendre	rendre	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=Generic
@@ -6283,8 +6283,8 @@
 17	comprendre	comprendre	VERB	_	VerbForm=Inf	16	comp:aux@caus	_	Subject=Generic
 18	qu'	que	SCONJ	_	_	17	comp:obj	_	SpaceAfter=No
 19	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
-20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:obj	_	ExtPos=VERB|Idiom=Yes
-21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	20	comp:pred	_	InIdiom=Yes
+20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:obj	_	_
+21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	20	comp:pred	_	_
 22	de	de	ADP	_	_	20	comp:obj@agent	_	_
 23	quitter	quitter	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=Generic
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
