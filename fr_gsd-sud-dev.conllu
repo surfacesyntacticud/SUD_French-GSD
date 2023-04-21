@@ -32,7 +32,7 @@
 # sent_id = fr-ud-dev_00003
 # text = Mais comment faire dans un contexte structurellement raciste ?
 1	Mais	mais	CCONJ	_	_	3	cc	_	wordform=mais
-2	comment	comment	ADV	_	_	3	mod	_	_
+2	comment	comment	ADV	_	PronType=Int	3	mod	_	_
 3	faire	faire	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
 4	dans	dans	ADP	_	_	3	mod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -6111,10 +6111,10 @@
 
 # sent_id = fr-ud-dev_00222
 # text = Pourquoi, mais pourquoi Le bénirais-je ?
-1	Pourquoi	pourquoi	ADV	_	_	6	mod	_	SpaceAfter=No|wordform=pourquoi
+1	Pourquoi	pourquoi	ADV	_	PronType=Int	6	mod	_	SpaceAfter=No|wordform=pourquoi
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	mais	mais	CCONJ	_	_	4	cc	_	_
-4	pourquoi	pourquoi	ADV	_	_	1	conj:coord	_	_
+4	pourquoi	pourquoi	ADV	_	PronType=Int	1	conj:coord	_	_
 5	Le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	wordform=le
 6	bénirais	bénir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	-je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	wordform=je
@@ -6454,7 +6454,7 @@
 
 # sent_id = fr-ud-dev_00233
 # text = Comment remédier aux contradictions et au désarroi des relations humaines ?
-1	Comment	comment	ADV	_	_	2	mod	_	wordform=comment
+1	Comment	comment	ADV	_	PronType=Int	2	mod	_	wordform=comment
 2	remédier	remédier	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
 3-4	aux	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
@@ -9611,7 +9611,7 @@
 
 # sent_id = fr-ud-dev_00347
 # text = Pourquoi, d'ailleurs, les préservatifs seraient-ils détenus par la femme, alors qu'ils concernent l'homme ?
-1	Pourquoi	pourquoi	ADV	_	_	8	mod	_	SpaceAfter=No|wordform=pourquoi
+1	Pourquoi	pourquoi	ADV	_	PronType=Int	8	mod	_	SpaceAfter=No|wordform=pourquoi
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	d'	de	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes|SpaceAfter=No
@@ -12060,7 +12060,7 @@
 10	sections	section	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 11	précédentes	précédent	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
-13	quel	quel	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
+13	quel	quel	ADJ	_	Gender=Masc|Number=Sing|PronType=Int	14	comp:pred	_	_
 14	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	en	en	ADP	_	_	14	mod	_	_
@@ -12465,7 +12465,7 @@
 # sent_id = fr-ud-dev_00450
 # text = Mais quelle ne fut pas ma surprise lorsque j'ai pu récupérer celle ci dans un état proche du neuf !
 1	Mais	mais	CCONJ	_	_	4	cc	_	wordform=mais
-2	quelle	quel	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
+2	quelle	quel	ADJ	_	Gender=Fem|Number=Sing|PronType=Exc	4	comp:pred	_	_
 3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
@@ -14817,7 +14817,7 @@
 
 # sent_id = fr-ud-dev_00533
 # text = Quels sont les objectifs à long terme et les stratégies à développer ?
-1	Quels	quel	ADJ	_	Gender=Masc|Number=Plur	2	comp:pred	_	wordform=quels
+1	Quels	quel	ADJ	_	Gender=Masc|Number=Plur|PronType=Int	2	comp:pred	_	wordform=quels
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	4	det	_	_
 4	objectifs	objectif	NOUN	_	Gender=Masc|Number=Plur	2	subj	_	_
@@ -17571,7 +17571,7 @@
 13	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	:	:	PUNCT	_	_	17	punct	_	_
 15	«	«	PUNCT	_	_	17	punct	_	_
-16	pourquoi	pourquoi	ADV	_	_	17	mod	_	_
+16	pourquoi	pourquoi	ADV	_	PronType=Int	17	mod	_	_
 17	chanter	chanter	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=Generic
 18	Roland	Roland	PROPN	_	_	17	comp:obj	_	_
 19	s'	si	SCONJ	_	_	17	mod	_	SpaceAfter=No
@@ -17887,7 +17887,7 @@
 # sent_id = fr-ud-dev_00644
 # text = Mais quel est son rapport au christianisme ?
 1	Mais	mais	CCONJ	_	_	3	cc	_	wordform=mais
-2	quel	quel	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
+2	quel	quel	ADJ	_	Gender=Masc|Number=Sing|PronType=Int	3	comp:pred	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	_
 5	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
@@ -20922,7 +20922,7 @@
 27	ne	ne	ADV	_	Polarity=Neg	28	mod	_	_
 28	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	_
 29	pas	pas	ADV	_	Polarity=Neg	28	mod	_	_
-30	comment	comment	ADV	_	_	33	comp:obl	_	_
+30	comment	comment	ADV	_	PronType=Int	33	comp:obl	_	_
 31	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	comp@expl	_	SpaceAfter=No
 32	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	33	comp@expl	_	_
 33	prendre	prendre	VERB	_	VerbForm=Inf	28	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
@@ -32421,7 +32421,7 @@
 
 # sent_id = fr-ud-dev_01175
 # text = Pourquoi pas un tournage dans notre capitale puisque dans le dernier épisode Andy, Silas et Shane ont pris l'avion pour Paris.
-1	Pourquoi	pourquoi	ADV	_	_	4	mod	_	wordform=pourquoi
+1	Pourquoi	pourquoi	ADV	_	PronType=Int	4	mod	_	wordform=pourquoi
 2	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	tournage	tournage	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
