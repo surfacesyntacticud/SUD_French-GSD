@@ -6687,7 +6687,7 @@
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	comp@expl	_	_
 11	vit	voir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj:coord	_	_
-12	confier	confier	VERB	_	Shared=No|VerbForm=Inf	11	comp:obj	_	Subject=Generic
+12	confier	confier	VERB	_	Shared=No|VerbForm=Inf	11	comp:aux	_	Subject=Generic
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	commandement	commandement	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	de	de	ADP	_	_	14	udep	_	_
