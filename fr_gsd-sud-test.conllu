@@ -970,7 +970,7 @@
 
 # sent_id = fr-ud-test_00038
 # text = Combien de fois ne célébrons-nous que nous-mêmes, et ne prenons-nous même pas conscience de sa présence ?
-1	Combien	combien	ADV	_	Shared=Yes	5	mod	_	ExtPos=PRON|wordform=combien
+1	Combien	combien	ADV	_	Shared=Yes|PronType=Int	5	mod	_	ExtPos=PRON|wordform=combien
 2	de	de	ADP	_	_	1	comp:obl	_	_
 3	fois	fois	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 4	ne	ne	ADV	_	Polarity=Neg|Shared=No	5	mod	_	_
@@ -2843,7 +2843,7 @@
 # text = Jusqu'à quand la France officielle maintiendra-t-elle sa préférence pour la protection des agresseurs des droits de l'homme ?
 1	Jusqu'	jusque	ADP	_	_	7	mod	_	SpaceAfter=No|wordform=jusqu'
 2	à	à	ADP	_	_	1	comp:obj	_	_
-3	quand	quand	ADV	_	_	2	comp:obj	_	_
+3	quand	quand	ADV	_	PronType=Int	2	comp:obj	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	France	France	PROPN	_	Gender=Fem|Number=Sing	7	subj	_	_
 6	officielle	officiel	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
@@ -3714,7 +3714,7 @@
 46	Affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	40	conj:appos	_	ExtPos=PROPN|Title=Yes|wordform=affaire
 47	DSK	DSK	PROPN	_	_	46	conj:appos	_	InTitle=Yes
 48	:	:	PUNCT	_	_	54	punct	_	InTitle=Yes
-49	comment	comment	ADV	_	_	54	mod	_	InTitle=Yes
+49	comment	comment	ADV	_	PronType=Int	54	mod	_	InTitle=Yes
 50	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	InTitle=Yes
 51	position	position	NOUN	_	Gender=Fem|Number=Sing	54	subj	_	InTitle=Yes
 52	d'	de	ADP	_	_	51	udep	_	InTitle=Yes|SpaceAfter=No
@@ -4496,7 +4496,7 @@
 
 # sent_id = fr-ud-test_00150
 # text = Comment repoussez vous les bateaux d'immigrés dans les eaux internationales ?
-1	Comment	comment	ADV	_	_	2	mod	_	wordform=comment
+1	Comment	comment	ADV	_	PronType=Int	2	mod	_	wordform=comment
 2	repoussez	repousser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vous	vous	PRON	_	Emph=No|Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -5352,7 +5352,7 @@
 
 # sent_id = fr-ud-test_00178
 # text = Quel est le coût d'un tel projet ?
-1	Quel	quel	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	wordform=quel
+1	Quel	quel	ADJ	_	Gender=Masc|Number=Sing|PronType=Int	2	comp:pred	_	wordform=quel
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coût	coût	NOUN	_	Gender=Masc|Number=Sing	2	subj	_	_
