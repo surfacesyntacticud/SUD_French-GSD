@@ -6095,7 +6095,7 @@
 20	espagnols	espagnol	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	tout	tout	PRON	_	Gender=Masc|Number=Sing|Shared=Yes	13	conj:appos	_	_
+23	tout	tout	PRON	_	Gender=Masc|Number=Sing|PronType=Ind|Shared=Yes	13	conj:appos	_	_
 24	sans	sans	ADP	_	_	23	udep	_	_
 25	chichis	chichi	NOUN	_	Gender=Masc|Number=Plur	24	comp:obj	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
