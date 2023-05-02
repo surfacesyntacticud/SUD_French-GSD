@@ -5148,7 +5148,7 @@
 1	À	à	ADP	_	_	8	mod	_	ExtPos=ADP|Idiom=Yes|wordform=à
 2	travers	travers	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	années	année	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
+4	années	année	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 5	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	6	det	_	_
 6	compagnies	compagnie	NOUN	_	Gender=Fem|Number=Plur	8	subj	_	_
 7	aériennes	aérien	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
@@ -16201,7 +16201,7 @@
 9	à	à	ADP	_	_	4	udep	_	ExtPos=ADP|Idiom=Yes
 10	travers	travers	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	InIdiom=Yes
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	colonne	colonne	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
+12	colonne	colonne	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	élution	élution	NOUN	_	Gender=Fem|Number=Sing	4	conj:appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -29298,7 +29298,7 @@
 27	à	à	ADP	_	_	22	mod	_	ExtPos=ADP|Idiom=Yes
 28	travers	travers	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	InIdiom=Yes
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	monde	monde	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	SpaceAfter=No
+30	monde	monde	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_01055
