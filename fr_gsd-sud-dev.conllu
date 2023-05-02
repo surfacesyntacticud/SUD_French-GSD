@@ -40943,7 +40943,7 @@
 33	pas	pas	ADV	_	Polarity=Neg	32	mod	_	_
 34	de	de	ADP	_	_	32	comp:obj@agent	_	_
 35	foncteur	foncteur	NOUN	_	Gender=Masc|Number=Sing	34	comp:obj	_	_
-36	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	35	udep	_	_
+36	de	de	ADP	_	_	35	udep	_	_
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	catégorie	catégorie	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
 39-40	des	_	_	_	_	_	_	_	_
