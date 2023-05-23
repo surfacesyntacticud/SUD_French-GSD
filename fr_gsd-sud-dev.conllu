@@ -24374,7 +24374,7 @@
 # text = Le Curtiss XP-62 était un prototype de chasseur monoplace de hautes performances lourdement armé construit par la Curtiss-Wright Corporation pour le compte de l'United States Army Air Corps
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Curtiss	Curtiss	PROPN	_	Gender=Masc|Number=Sing	4	subj	_	_
-3	XP-62	XP-62	X	_	_	2	conj:appos	_	ExtPos=PROPN
+3	XP-62	XP-62	PROPN	_	_	2	flat@name	_	_
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	prototype	prototype	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
@@ -31758,7 +31758,7 @@
 5	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	engager	engager	VERB	_	VerbForm=Inf	5	comp:aux@caus	_	Subject=Generic
 7	comme	comme	ADP	_	_	5	mod	_	_
-8	figurant	figurer	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
+8	figurant	figurant	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	sur	sur	ADP	_	_	5	mod	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	tournage	tournage	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
