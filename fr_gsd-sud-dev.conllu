@@ -13254,11 +13254,11 @@
 # sent_id = fr-ud-dev_00477
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
 1	Pas	pas	ADV	_	Polarity=Neg|Shared=No	3	mod	_	wordform=pas
-2	de	un	DET	_	Shared=No	3	det	_	_
+2	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	3	det	_	_
 3	sèche	sèche-cheveux	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	0	root	_	CorrectForm=sèche-cheveux
 4	cheveux	_	X	_	_	3	goeswith	_	_
 5	ni	ni	CCONJ	_	_	7	cc	_	_
-6	de	un	DET	_	_	7	det	_	_
+6	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	prise	prise	NOUN	_	Gender=Fem|Number=Sing	3	conj:coord	_	_
 8	rasoir	rasoir	NOUN	_	Gender=Masc|Number=Sing|Shared=No	7	mod	_	_
 9	dans	dans	ADP	_	Shared=No	7	udep	_	_
@@ -19990,10 +19990,10 @@
 18	catégorisation	catégorisation	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	15	conj:appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
-21	de	un	DET	_	_	22	det	_	_
+21	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	18	conj:coord	_	_
 23	ni	ni	CCONJ	_	_	25	cc	_	_
-24	de	un	DET	_	_	25	det	_	_
+24	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	ségrégation	ségrégation	NOUN	_	Gender=Fem|Number=Sing	22	conj:coord	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -29530,7 +29530,7 @@
 3	hésite	hésiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
-6	de	un	DET	_	_	7	det	_	_
+6	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	panique	panique	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	Michelle	Michelle	PROPN	_	_	10	subj	_	_
