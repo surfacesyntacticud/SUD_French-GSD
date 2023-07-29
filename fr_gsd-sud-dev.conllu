@@ -32051,7 +32051,7 @@
 15	étions	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
 16	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind|Shared=No	15	mod	_	_
 17	évidemment	évidemment	ADV	_	Shared=No	15	mod	_	_
-18	dans	dans	ADP	_	Shared=No	15	comp:obl	_	_
+18	dans	dans	ADP	_	Shared=No	15	comp:pred	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	expectative	expectative	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	4	punct	_	_
