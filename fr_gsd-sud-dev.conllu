@@ -18683,10 +18683,10 @@
 1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mesurer	mesurer	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
-4	jusqu'	jusque	ADP	_	_	7	det	_	SpaceAfter=No
+4	jusqu'	jusque	ADP	_	_	3	comp:obj	_	SpaceAfter=No
 5	à	à	ADP	_	_	4	comp:obj	_	_
-6	2	2	NUM	_	Number=Plur	5	comp:obj	_	SpaceAfter=No
-7	m	mètre	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
+6	2	2	NUM	_	Number=Plur	7	det	_	SpaceAfter=No
+7	m	mètre	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	voir	voire	CCONJ	_	Typo=Yes	11	cc	_	CorrectForm=voire
@@ -36612,7 +36612,7 @@
 12	ville	ville	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	6	comp:obj	_	CorrectForm=datent|CorrectNumber=Plur
 14	d'	de	ADP	_	_	13	mod	_	SpaceAfter=No
-15	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	InIdiom=Yes
+15	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj	_	InIdiom=Yes
 16	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	17	comp	_	InIdiom=Yes
 17	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	Idiom=Yes
 18	plus	plus	ADV	_	ExtPos=PRON	17	comp:obj	_	_
