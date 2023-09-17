@@ -8943,7 +8943,7 @@
 20	prés	pré	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	que	que	PRON	_	PronType=Rel	24	comp:obj	_	_
-23	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	wordform=on
+23	l'on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	wordform=on
 24	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	InIdiom=Yes
 26	long	long	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	24	mod	_	Idiom=Yes
@@ -15251,7 +15251,7 @@
 # text = Et déjà l'on fait cas de la réouverture imminente des frontières longtemps réclamée par nos voisins de l'Ouest.
 1	Et	et	CCONJ	_	_	4	cc	_	wordform=et
 2	déjà	déjà	ADV	_	_	4	mod	_	_
-3	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	wordform=on
+3	l'on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	wordform=on
 4	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	cas	cas	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj@lvc	_	_
 6	de	de	ADP	_	_	4	comp:obl	_	_
@@ -18833,7 +18833,7 @@
 10	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No
 11	attraction	attraction	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 12	que	que	PRON	_	PronType=Rel	14	comp:obj	_	_
-13	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	subj	_	wordform=on
+13	l'on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	subj	_	wordform=on
 14	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 15	dans	dans	ADP	_	_	14	mod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -23898,7 +23898,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:pred	_	SpaceAfter=No|wordform=peut
-7	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	wordform=on
+7	-on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	wordform=on
 8	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	9	mod	_	_
 9	prendre	prendre	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 10	épouse	épouse	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj@lvc	_	_
@@ -24497,7 +24497,7 @@
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	23	comp:pred	_	_
 26	puisque	puisque	SCONJ	_	_	23	mod	_	_
-27	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	28	subj	_	wordform=on
+27	l'on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	28	subj	_	wordform=on
 28	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	comp:obj	_	_
 29	depuis	depuis	ADP	_	_	28	mod	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -29564,7 +29564,7 @@
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	20	cc	_	Idiom=Yes
 17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes
-18	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	wordform=on
+18	l'on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	wordform=on
 19	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	20	mod	_	_
 20	pêche	pêcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
 21	avant	avant	ADP	_	Shared=No	20	mod	_	_
