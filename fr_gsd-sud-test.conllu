@@ -803,7 +803,7 @@
 8	largement	largement	ADV	_	_	7	mod	_	_
 9	autour	autour	ADV	_	_	7	mod	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
-11	vous	vous	PRON	_	Emph=No|Number=Plur|Person=2|PronType=Prs	10	comp:obj	_	_
+11	vous	vous	PRON	_	Emph=Yes|Number=Plur|Person=2|PronType=Prs	10	comp:obj	_	_
 12	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00029
@@ -2264,7 +2264,7 @@
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	loi	loi	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	chez	chez	ADP	_	_	7	mod	_	_
-11	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	10	comp:obj	_	_
+11	nous	nous	PRON	_	Emph=Yes|Number=Plur|Person=1|PronType=Prs	10	comp:obj	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
 13	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 14	condamner	condamner	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
@@ -5295,7 +5295,7 @@
 14	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	15	comp@expl	_	_
 15	limitent	limiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
 16	selon	selon	ADP	_	_	15	mod	_	_
-17	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	_
+17	nous	nous	PRON	_	Emph=Yes|Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	_
 18-19	aux	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	15	comp:obl	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
