@@ -10196,7 +10196,7 @@
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	région	région	NOUN	_	Gender=Fem|Number=Sing	10	conj:coord	_	_
-16	Centre	Centre	PROPN	_	Shared=No	15	conj:appos	_	SpaceAfter=No
+16	Centre	centre	NOUN	_	Gender=Masc|Number=Sing|Shared=No	15	conj:appos	_	wordform=centre|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00369
@@ -17081,7 +17081,7 @@
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	région	région	NOUN	_	Gender=Fem|Number=Sing	10	conj:coord	_	_
-16	Centre	Centre	PROPN	_	Shared=No	15	conj:appos	_	SpaceAfter=No
+16	Centre	centre	NOUN	_	Gender=Masc|Number=Sing|Shared=No	15	conj:appos	_	wordform=centre|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00614
@@ -17881,7 +17881,7 @@
 25	et	et	CCONJ	_	_	27	cc	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	région	région	NOUN	_	Gender=Fem|Number=Sing	22	conj:coord	_	_
-28	Centre	Centre	PROPN	_	Shared=No	27	conj:appos	_	SpaceAfter=No
+28	Centre	centre	NOUN	_	Gender=Masc|Number=Sing|Shared=No	27	conj:appos	_	wordform=centre|SpaceAfter=No
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00644
@@ -33303,10 +33303,10 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	chanson	chanson	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 6	"	"	PUNCT	_	Shared=No	7	punct	_	SpaceAfter=No
-7	Não	Não	PROPN	_	_	5	conj:appos	_	_
-8	me	me	X	_	_	7	flat@name	_	_
-9	Deixe	Deixe	PROPN	_	_	8	flat@name	_	_
-10	Só	Só	PROPN	_	_	9	flat@name	_	SpaceAfter=No
+7	Não	Não	PROPN	_	Foreign=Yes	5	conj:appos	_	Lang=pt
+8	me	me	X	_	Foreign=Yes	7	flat@foreign	_	Lang=pt
+9	Deixe	Deixe	PROPN	_	Foreign=Yes	8	flat@foreign	_	Lang=pt
+10	Só	Só	PROPN	_	Foreign=Yes	9	flat@foreign	_	Lang=pt|SpaceAfter=No
 11	"	"	PUNCT	_	_	7	punct	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
 13	connut	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	mod@relcl	_	_
