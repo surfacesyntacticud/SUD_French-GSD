@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = fr-ud-dev_00001
 # text = Aviator, un film sur la vie de Hughes.
 1	Aviator	Aviator	PROPN	_	_	0	root	_	SpaceAfter=No
@@ -10196,7 +10195,7 @@
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	région	région	NOUN	_	Gender=Fem|Number=Sing	10	conj:coord	_	_
-16	Centre	centre	NOUN	_	Gender=Masc|Number=Sing|Shared=No	15	conj:appos	_	wordform=centre|SpaceAfter=No
+16	Centre	centre	NOUN	_	Gender=Masc|Number=Sing|Shared=No	15	conj:appos	_	SpaceAfter=No|wordform=centre
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00369
@@ -17081,7 +17080,7 @@
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	région	région	NOUN	_	Gender=Fem|Number=Sing	10	conj:coord	_	_
-16	Centre	centre	NOUN	_	Gender=Masc|Number=Sing|Shared=No	15	conj:appos	_	wordform=centre|SpaceAfter=No
+16	Centre	centre	NOUN	_	Gender=Masc|Number=Sing|Shared=No	15	conj:appos	_	SpaceAfter=No|wordform=centre
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00614
@@ -17881,7 +17880,7 @@
 25	et	et	CCONJ	_	_	27	cc	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	région	région	NOUN	_	Gender=Fem|Number=Sing	22	conj:coord	_	_
-28	Centre	centre	NOUN	_	Gender=Masc|Number=Sing|Shared=No	27	conj:appos	_	wordform=centre|SpaceAfter=No
+28	Centre	centre	NOUN	_	Gender=Masc|Number=Sing|Shared=No	27	conj:appos	_	SpaceAfter=No|wordform=centre
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00644
@@ -33872,7 +33871,7 @@
 # text = À vouloir tous être anglo-saxons, il ne faut pas s'étonner que ce soient les anglo-saxons qui gagnent ».
 1	À	à	ADP	_	_	9	mod	_	wordform=à
 2	vouloir	vouloir	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=Generic
-3	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	4	subj	_	_
+3	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	4	mod	_	_
 4	être	être	AUX	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 5	anglo-saxons	anglo-saxon	ADJ	_	Gender=Masc|Number=Plur	4	comp:pred	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
@@ -36705,7 +36704,7 @@
 # text = Le Funtenseealma été actif jusqu'en 1964.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Funtenseealma	Funtenseealma	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
-3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CorrectForm="était"|CorrectGender=none|CorrectPerson=3|CorrectTense=Imp|CorrectVerbForm=Fin
 4	actif	actif	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5	jusqu'	jusque	ADP	_	_	3	mod	_	SpaceAfter=No
 6	en	en	ADP	_	_	5	comp:obj	_	_
