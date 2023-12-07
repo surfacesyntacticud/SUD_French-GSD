@@ -36704,7 +36704,7 @@
 # text = Le Funtenseealma été actif jusqu'en 1964.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Funtenseealma	Funtenseealma	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
-3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CorrectForm="était"|CorrectGender=none|CorrectPerson=3|CorrectTense=Imp|CorrectVerbForm=Fin
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	0	root	_	CorrectForm="était"|CorrectGender=none|CorrectPerson=3|CorrectTense=Imp|CorrectVerbForm=Fin
 4	actif	actif	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5	jusqu'	jusque	ADP	_	_	3	mod	_	SpaceAfter=No
 6	en	en	ADP	_	_	5	comp:obj	_	_
