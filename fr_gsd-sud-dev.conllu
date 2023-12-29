@@ -12361,7 +12361,7 @@
 28	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
 29	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	mod	_	_
 30	entre	entre	ADP	_	_	29	mod	_	_
-31	1	1	NUM	_	Number=Plur	34	det	_	_
+31	1	1	NUM	_	Number=Sing	34	det	_	_
 32	et	et	CCONJ	_	_	33	cc	_	_
 33	3	3	NUM	_	Number=Plur	31	conj:coord	_	_
 34	cm	cm	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	SpaceAfter=No
@@ -33332,7 +33332,7 @@
 
 # sent_id = fr-ud-dev_01208
 # text = 1, un succès dans son pays d'origine, Croatie, il est très populaire chez les jeunes en Europe.
-1	1	1	NUM	_	Number=Plur	14	parataxis	_	SpaceAfter=No
+1	1	1	NUM	_	Number=Sing	14	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	succès	succès	NOUN	_	Gender=Masc|Number=Sing	1	conj:appos	_	_
@@ -36339,7 +36339,7 @@
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	passée	passer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	_
 12	à	à	ADP	_	_	11	comp:obl	_	_
-13	1	1	NUM	_	Number=Plur	14	det	_	SpaceAfter=No
+13	1	1	NUM	_	Number=Sing	14	det	_	SpaceAfter=No
 14	%	%	SYM	_	ExtPos=NOUN|Number=Plur	12	comp:obj	_	_
 15	sur	sur	ADP	_	_	14	udep	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -36704,7 +36704,7 @@
 # text = Le Funtenseealma été actif jusqu'en 1964.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Funtenseealma	Funtenseealma	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
-3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	0	root	_	CorrectForm="était"|CorrectGender=none|CorrectPerson=3|CorrectTense=Imp|CorrectVerbForm=Fin
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	0	root	_	CorrectForm=était|CorrectGender=none|CorrectPerson=3|CorrectTense=Imp|CorrectVerbForm=Fin
 4	actif	actif	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5	jusqu'	jusque	ADP	_	_	3	mod	_	SpaceAfter=No
 6	en	en	ADP	_	_	5	comp:obj	_	_

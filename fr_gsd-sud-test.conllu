@@ -11073,7 +11073,7 @@
 17	ZNIEFF	ZNIEFF	PROPN	_	_	16	conj:appos	_	_
 18	de	de	ADP	_	_	16	udep	_	_
 19	type	type	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
-20	1	1	NUM	_	Number=Plur	19	mod	_	_
+20	1	1	NUM	_	Number=Sing	19	mod	_	_
 21	en	en	ADP	_	_	11	mod	_	_
 22	1990	1990	NUM	_	Number=Plur	21	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	11	punct	_	_
