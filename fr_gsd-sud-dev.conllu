@@ -12706,11 +12706,11 @@
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	_
 5	siège	siège	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	Cour	Cour	PROPN	_	_	3	mod	_	_
+6	Cour	cour	NOUN	_	Gender=Fem|Number=Sing	3	mod	_	wordform=cours
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Château	Château	PROPN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
+9	Château	château	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No|wordform=château
 10	--	--	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	BP	BP	NOUN	_	Gender=Masc|Number=Sing	6	conj:appos	_	_
 12	40	40	NUM	_	Number=Plur	11	mod	_	SpaceAfter=No
@@ -14543,10 +14543,10 @@
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Lac	Lac	PROPN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
+13	Lac	lac	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	wordform=lac
 14	de	de	ADP	_	_	13	udep	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Vieille	Vieille	PROPN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
+16	Vieille	vieille	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	wordform=vieille
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	poursuit	poursuivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
 19	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	20	det	_	_
@@ -15618,7 +15618,7 @@
 16	installe	installer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 17	dans	dans	ADP	_	_	16	comp:obl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Charge	Charge	PROPN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
+19	Charge	charge	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	wordform=charge
 20	de	de	ADP	_	_	19	udep	_	_
 21	Prévôt	Prévôt	PROPN	_	_	20	comp:obj	_	_
 22	de	de	ADP	_	_	19	udep	_	_
@@ -15637,12 +15637,12 @@
 34-35	du	_	_	_	_	_	_	_	_
 34	de	de	ADP	_	_	33	udep	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	Roi	Roi	PROPN	_	Gender=Masc|Number=Sing	34	comp:obj	_	_
+36	Roi	roi	NOUN	_	Gender=Masc|Number=Sing	34	comp:obj	_	wordform=roi
 37	et	et	CCONJ	_	_	38	cc	_	_
 38-39	du	_	_	_	_	_	_	_	_
 38	de	de	ADP	_	_	34	conj:coord	_	_
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	Public	Public	PROPN	_	Gender=Masc|Number=Sing|Shared=No	38	comp:obj	_	SpaceAfter=No
+40	Public	public	NOUN	_	Gender=Masc|Number=Sing|Shared=No	38	comp:obj	_	SpaceAfter=No|wordform=public
 41	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00560
@@ -15783,16 +15783,16 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	citons	citer	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	7	det	_	_
-7	Tunnel	Tunnel	PROPN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
+7	Tunnel	tunnel	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	wordform=tunnel
 8	de	de	ADP	_	_	7	udep	_	_
 9	Rebaix	Rebaix	PROPN	_	_	8	comp:obj	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Tunnel	Tunnel	PROPN	_	Gender=Masc|Number=Sing	7	conj:coord	_	_
+12	Tunnel	tunnel	NOUN	_	Gender=Masc|Number=Sing	7	conj:coord	_	wordform=tunnel
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	Shared=No	12	udep	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	Bois	Bois	PROPN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
+15	Bois	bois	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	wordform=bois
 16	d'	de	ADP	_	_	15	udep	_	SpaceAfter=No
 17	Houtaing	Houtaing	PROPN	_	_	16	comp:obj	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
@@ -16460,7 +16460,7 @@
 12	Occident	Occident	PROPN	_	Number=Sing	10	comp:obj	_	_
 13	contre	contre	ADP	_	_	7	mod	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	Turcs	Turcs	PROPN	_	Number=Plur	13	comp:obj	_	SpaceAfter=No
+15	Turcs	turc	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	SpaceAfter=No|wordform=turcs
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	18	comp@expl	_	_
 18	convertissant	convertir	VERB	_	Tense=Pres|VerbForm=Part	7	mod	_	_
@@ -20048,7 +20048,7 @@
 16	vis-à-vis	vis-à-vis	ADV	_	_	6	mod	_	_
 17	de	de	ADP	_	_	16	comp:obl	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
-19	Union	Union	PROPN	_	Number=Sing	17	comp:obj	_	_
+19	Union	union	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	wordform=union
 20	pour	pour	ADP	_	_	19	udep	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Méditerranée	Méditerranée	PROPN	_	Gender=Fem|Number=Sing	20	comp:obj	_	SpaceAfter=No
@@ -30872,7 +30872,7 @@
 20	Ratzinger	Ratzinger	PROPN	_	_	19	conj:appos	_	_
 21	sur	sur	ADP	_	_	16	udep	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
-23	Unité	Unité	PROPN	_	Number=Sing	21	comp:obj	_	_
+23	Unité	unité	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	wordform=unité
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	23	udep	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
@@ -41071,11 +41071,11 @@
 36-37	des	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	35	udep	_	_
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
-38	Camelots	Camelots	PROPN	_	Number=Plur	36	comp:obj	_	_
+38	Camelots	camelot	NOUN	_	Gender=Masc|Number=Plur	36	comp:obj	_	wordform=camelots
 39-40	du	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	38	udep	_	_
 40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-41	Roi	Roi	PROPN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
+41	Roi	roi	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	wordform=roi
 42	en	en	ADP	_	_	35	udep	_	_
 43	1908	1908	NUM	_	Number=Plur	42	comp:obj	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	6	punct	_	_

@@ -603,7 +603,7 @@
 33	versés	verser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	mod	_	_
 34	par	par	ADP	_	_	33	comp:obl@agent	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
-36	Union	Union	PROPN	_	Gender=Fem|Number=Sing	34	comp:obj	_	_
+36	Union	union	NOUN	_	Gender=Fem|Number=Sing	34	comp:obj	_	wordform=union
 37	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	36	mod	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	sur	sur	ADP	_	_	11	mod	_	_
@@ -1304,7 +1304,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Berlinale	Berlinale	PROPN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
-11	Territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	14	subj@pass	_	_
+11	Territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	14	subj@pass	_	wordform=territoire
 12	perdu	perdu	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 13	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp@pass	_	SpaceAfter=No
 14	inscrit	inscrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9506,7 +9506,7 @@
 17	flute	flute	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	sur	sur	ADP	_	_	17	udep	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Rivière	Rivière	PROPN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
+20	Rivière	rivière	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	wordform=rivière
 21	Ô	Ô	PROPN	_	_	20	conj:appos	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
@@ -10193,13 +10193,13 @@
 11	pour	pour	ADP	_	_	4	mod	_	_
 12	organiser	organiser	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	Championnats	Championnats	PROPN	_	Number=Plur	12	comp:obj	_	_
+14	Championnats	championnat	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	wordform=championnats
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Monde	Monde	PROPN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
+17	Monde	monde	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	wordform=monde
 18	de	de	ADP	_	_	14	udep	_	_
-19	Voltige	Voltige	PROPN	_	_	18	comp:obj	_	SpaceAfter=No
+19	Voltige	voltige	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No|wordform=voltige
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01553
