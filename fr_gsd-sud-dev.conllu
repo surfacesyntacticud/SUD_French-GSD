@@ -6605,7 +6605,7 @@
 21	«	«	PUNCT	_	_	24	punct	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 23	plus	plus	ADV	_	_	24	mod	_	_
-24	ancien	ancien	NOUN	_	Gender=Masc|Number=Sing	19	conj:appos	_	_
+24	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	19	conj:appos	_	_
 25-26	des	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	24	udep	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
@@ -19597,7 +19597,7 @@
 12	même	même	ADV	_	_	15	mod	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 14	plus	plus	ADV	_	_	15	mod	_	_
-15	hostiles	hostile	NOUN	_	Gender=Masc|Number=Plur	19	subj	_	_
+15	hostiles	hostile	ADJ	_	Gender=Masc|Number=Plur	19	subj	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	15	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
