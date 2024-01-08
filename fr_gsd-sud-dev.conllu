@@ -12068,8 +12068,8 @@
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	20	det	_	_
 20	développement	développement	NOUN	_	Gender=Masc|Number=Sing	14	subj	_	_
 21	et	et	CCONJ	_	_	24	cc	_	_
-22	de	de	ADP	_	_	24	det	_	_
-23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	conj:dicto	_	_
+22	de	de	ADP	_	_	21	unk@scrap	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	dynamique	dynamique	NOUN	_	Gender=Fem|Number=Sing	20	conj:coord	_	_
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	Shared=No	24	udep	_	_
@@ -15084,8 +15084,8 @@
 24	en	en	ADP	_	_	19	mod	_	_
 25	opposition	opposition	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 26	à	à	ADP	_	_	25	udep	_	_
-27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	conj:dicto	_	SpaceAfter=No
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	unk@scrap	_	_
+28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
 29	orthodoxie	orthodoxie	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
 30	chalcédonienne	chalcédonien	ADJ	_	Gender=Fem|Number=Sing	29	mod	_	_
 31	largement	largement	ADV	_	_	32	mod	_	_
@@ -23871,23 +23871,23 @@
 
 # sent_id = fr-ud-dev_00862
 # text = Créé en 1964 par Pierre Billon, Sifca est est alors le premier groupe privé Ivoirien.
-1	Créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	mod	_	Subject=Instantiated|wordform=créé
+1	Créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	mod	_	Subject=Instantiated|wordform=créé
 2	en	en	ADP	_	_	1	mod	_	_
 3	1964	1964	NUM	_	Number=Plur	2	comp:obj	_	_
 4	par	par	ADP	_	_	1	comp:obl@agent	_	_
 5	Pierre	Pierre	PROPN	_	_	4	comp:obj	_	_
 6	Billon	Billon	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
-8	Sifca	Sifca	PROPN	_	_	10	subj	_	_
+8	Sifca	Sifca	PROPN	_	_	9	subj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	_
-11	alors	alors	ADV	_	_	10	mod	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	unk@scrap	_	_
+11	alors	alors	ADV	_	_	9	mod	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	premier	premier	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
-14	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
+14	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	9	comp:pred	_	_
 15	privé	privé	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 16	Ivoirien	ivoirien	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	SpaceAfter=No|wordform=ivoirien
-17	.	.	PUNCT	_	_	10	punct	_	_
+17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_00863
 # text = La question suivante est : Peut-on y prendre épouse ?
@@ -33871,7 +33871,7 @@
 # text = À vouloir tous être anglo-saxons, il ne faut pas s'étonner que ce soient les anglo-saxons qui gagnent ».
 1	À	à	ADP	_	_	9	mod	_	wordform=à
 2	vouloir	vouloir	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=Generic
-3	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	4	mod	_	_
+3	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	4	subj	_	_
 4	être	être	AUX	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 5	anglo-saxons	anglo-saxon	ADJ	_	Gender=Masc|Number=Plur	4	comp:pred	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
