@@ -9203,9 +9203,9 @@
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	architecture	architecture	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	--	--	PUNCT	_	Shared=Yes	27	punct	_	SpaceAfter=No
-25	c'est-à-dire	c'est-à-dire	ADV	_	_	27	mod	_	_
+25	c'est-à-dire	c'est-à-dire	CCONJ	_	_	27	cc	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	27	det	_	_
-27	nature	nature	NOUN	_	Gender=Fem|Number=Sing	23	conj:appos	_	SpaceAfter=No
+27	nature	nature	NOUN	_	Gender=Fem|Number=Sing	23	conj:coord	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	contenu	contenu	NOUN	_	Gender=Masc|Number=Sing	27	conj:coord	_	_
@@ -29942,7 +29942,7 @@
 54-55	des	_	_	_	_	_	_	_	_
 54	de	de	ADP	_	_	53	udep	_	_
 55	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	56	det	_	_
-56	Sciences	Sciences	PROPN	_	Number=Plur	54	comp:obj	_	_
+56	Sciences	science	NOUN	_	Gender=Fem|Number=Plur	54	comp:obj	_	wordform=sciences
 57	en	en	ADP	_	Shared=No	49	udep	_	_
 58	1982	1982	NUM	_	Number=Plur	57	comp:obj	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	19	punct	_	_
