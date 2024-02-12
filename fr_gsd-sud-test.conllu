@@ -8211,7 +8211,7 @@
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 19	bien	bien	ADV	_	_	20	mod	_	InIdiom=Yes
-20	sûr	sûr	ADV	_	ExtPos=ADV	18	mod	_	Idiom=Yes
+20	sûr	sûr	ADJ	_	ExtPos=ADV|Gender=Masc|Number=Sing	18	mod	_	Idiom=Yes
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	cas	cas	NOUN	_	Gender=Masc|Number=Sing	18	comp:pred	_	_
 23-24	des	_	_	_	_	_	_	_	_

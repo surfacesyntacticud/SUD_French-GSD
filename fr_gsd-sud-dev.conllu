@@ -17322,8 +17322,8 @@
 # sent_id = fr-ud-dev_00623
 # text = Mis à part les vestiaires qui viennent d'être rénovés, toute la zone aquatique aurait besoin d'un bon rafraichissement, tout comme l'espace principal avec les machines de fitness, clairement 90's avec une peinture bleue saturée qui a fait son temps.
 1	Mis	mettre	VERB	_	ExtPos=ADP|Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	16	mod	_	Idiom=Yes|wordform=mis
-2	à	à	ADP	_	_	1	unk	_	InIdiom=Yes
-3	part	part	NOUN	_	Gender=Fem|Number=Sing	2	unk	_	InIdiom=Yes
+2	à	à	ADP	_	_	1	comp:obl	_	InIdiom=Yes
+3	part	part	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	InIdiom=Yes
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	vestiaires	vestiaire	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 6	qui	qui	PRON	_	PronType=Rel	7	subj	_	_
@@ -24262,7 +24262,7 @@
 13	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj@expl	_	wordform=il
 14	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	comp@expl	_	SpaceAfter=No
 15	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
-16	bel	bel	ADV	_	ExtPos=ADV	15	mod	_	Idiom=Yes
+16	bel	beau	ADJ	_	ExtPos=ADV|Gender=Masc|Number=Sing	15	mod	_	Idiom=Yes
 17	et	et	CCONJ	_	_	18	cc	_	InIdiom=Yes
 18	bien	bien	ADV	_	_	16	conj:coord	_	InIdiom=Yes
 19	de	de	ADP	_	_	15	comp:obl	_	_
