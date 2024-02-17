@@ -33302,10 +33302,10 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	chanson	chanson	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 6	"	"	PUNCT	_	Shared=No	7	punct	_	SpaceAfter=No
-7	Não	Não	PROPN	_	Foreign=Yes	5	conj:appos	_	Lang=pt
+7	Não	Não	X	_	Foreign=Yes	5	conj:appos	_	Lang=pt
 8	me	me	X	_	Foreign=Yes	7	flat@foreign	_	Lang=pt
-9	Deixe	Deixe	PROPN	_	Foreign=Yes	8	flat@foreign	_	Lang=pt
-10	Só	Só	PROPN	_	Foreign=Yes	9	flat@foreign	_	Lang=pt|SpaceAfter=No
+9	Deixe	Deixe	X	_	Foreign=Yes	8	flat@foreign	_	Lang=pt
+10	Só	Só	X	_	Foreign=Yes	9	flat@foreign	_	Lang=pt|SpaceAfter=No
 11	"	"	PUNCT	_	_	7	punct	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
 13	connut	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	mod@relcl	_	_
