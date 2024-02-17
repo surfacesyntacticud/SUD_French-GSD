@@ -36888,8 +36888,8 @@
 22	,	,	PUNCT	_	_	4	punct	_	_
 23	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	relier	relier	VERB	_	VerbForm=Inf	23	comp:obj	_	Subject=SubjRaising
-25	à	à	ADP	_	_	24	mod	_	_
-26	terme	terme	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
+25	à	à	ADP	_	ExtPos=ADV	24	mod	_	Idiom=Yes
+26	terme	terme	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	InIdiom=Yes
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	28	det	_	SpaceAfter=No
 28	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 29	A1	A1	X	_	ExtPos=PROPN	28	conj:appos	_	_
