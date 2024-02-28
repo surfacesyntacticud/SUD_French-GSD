@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = fr-ud-test_00001
 # text = Je sens qu'entre ça et les films de médecins et scientifiques fous que nous avons déjà vus, nous pourrions emprunter un autre chemin pour l'origine.
 1	Je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	wordform=je
@@ -900,7 +899,7 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	DGSE	DGSE	PROPN	_	Gender=Fem|Number=Sing	14	subj	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	Direction	Direction	PROPN	_	Gender=Fem|Number=Sing	4	conj:appos	_	_
+6	Direction	direction	NOUN	_	Gender=Fem|Number=Sing	4	conj:appos	_	wordform=direction
 7	générale	général	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
 8	de	de	ADP	_	_	6	udep	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
