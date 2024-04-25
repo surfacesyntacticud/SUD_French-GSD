@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = fr-ud-test_00001
 # text = Je sens qu'entre ça et les films de médecins et scientifiques fous que nous avons déjà vus, nous pourrions emprunter un autre chemin pour l'origine.
 1	Je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	wordform=je

@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = fr-ud-dev_00001
 # text = Aviator, un film sur la vie de Hughes.
 1	Aviator	Aviator	PROPN	_	_	0	root	_	SpaceAfter=No
