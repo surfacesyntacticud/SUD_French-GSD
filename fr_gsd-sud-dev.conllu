@@ -33043,25 +33043,27 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01198
-# text = En 2008, Falleron comptait (soit une augmentation de 28% par rapport à 1999).
+# text = En 2008, Falleron comptait 1 461 habitants (soit une augmentation de 28% par rapport à 1999).
 1	En	en	ADP	_	_	5	mod	_	wordform=en
 2	2008	2008	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	Falleron	Falleron	PROPN	_	_	5	subj	_	_
 5	comptait	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-7	soit	soit	ADV	_	_	9	mod	_	_
-8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	5	parataxis	_	_
-10	de	de	ADP	_	_	9	udep	_	_
-11	28	28	NUM	_	Number=Plur	12	det	_	SpaceAfter=No
-12	%	%	SYM	_	ExtPos=NOUN|Number=Plur	10	comp:obj	_	_
-13	par	par	ADP	_	_	9	udep	_	_
-14	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
-15	à	à	ADP	_	_	14	udep	_	_
-16	1999	1999	NUM	_	Number=Plur	15	comp:obj	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	5	punct	_	_
+6	1 461	1 461	NUM	_	Number=Plur	7	det	_	_
+7	habitants	habitants	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
+8	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+9	soit	soit	ADV	_	_	11	mod	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	7	conj:appos	_	_
+12	de	de	ADP	_	_	11	udep	_	_
+28	28	28	NUM	_	Number=Plur	14	det	_	SpaceAfter=No
+14	%	%	SYM	_	ExtPos=NOUN|Number=Plur	12	comp:obj	_	_
+15	par	par	ADP	_	_	11	udep	_	_
+16	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
+17	à	à	ADP	_	_	16	udep	_	_
+18	1999	1999	NUM	_	Number=Plur	17	comp:obj	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_01199
 # text = Profitant du combat entre le gorille et un serpent géant, Jack réussit à délivrer Duane.
