@@ -37775,7 +37775,7 @@
 30	plus	plus	ADV	_	_	31	mod	_	_
 31	proche	proche	ADJ	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 32-33	du	_	_	_	_	_	_	_	_
-32	de	de	ADP	_	_	31	udep	_	_
+32	de	de	ADP	_	_	31	comp:obl	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	vilebrequin	vilebrequin	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	_
 35	mais	mais	CCONJ	_	_	36	cc	_	_
