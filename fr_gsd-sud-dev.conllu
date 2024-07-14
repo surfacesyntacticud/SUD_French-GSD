@@ -15070,7 +15070,7 @@
 9	s'	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	10	comp:obl	_	SpaceAfter=No
 10	aliène	aliéner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	12	det	_	SpaceAfter=No
-12	Église	Église	PROPN	_	Number=Sing	10	comp:obj	_	_
+12	Église	église	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	wordform=église
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	12	conj:coord	_	_
@@ -33564,7 +33564,7 @@
 11	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 12	de	de	ADP	_	_	7	udep	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
-14	Église	Église	PROPN	_	Number=Sing	12	comp:obj	_	_
+14	Église	église	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	wordform=église
 15	d'	de	ADP	_	_	14	udep	_	SpaceAfter=No
 16	Écosse	Écosse	PROPN	_	_	15	comp:obj	_	_
 17	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	mod	_	_

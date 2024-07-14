@@ -2055,7 +2055,7 @@
 1	Que	que	PRON	_	PronType=Int	2	comp:obj	_	wordform=que
 2	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	Eglise	Eglise	PROPN	_	Number=Sing	2	subj	_	_
+4	Eglise	église	NOUN	_	Gender=Fem|Number=Sing	2	subj	_	wordform=église
 5	sur	sur	ADP	_	_	2	mod	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	point	point	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -8705,7 +8705,7 @@
 
 # sent_id = fr-ud-dev_01500
 # text = Eglise Saint Denis (XIIIe, XIVe, XVIe, XVIIIe siècles).
-1	Eglise	Eglise	PROPN	_	_	0	root	_	_
+1	Eglise	église	NOUN	_	Gender=Fem|Number=Sing	0	root	_	wordform=église
 2	Saint	Saint	PROPN	_	_	1	conj:appos	_	_
 3	Denis	Denis	PROPN	_	_	2	flat@name	_	_
 4	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
