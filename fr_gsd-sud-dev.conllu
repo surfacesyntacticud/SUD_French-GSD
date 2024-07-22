@@ -33056,7 +33056,7 @@
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	7	conj:appos	_	_
 12	de	de	ADP	_	_	11	udep	_	_
-28	28	28	NUM	_	Number=Plur	14	det	_	SpaceAfter=No
+13	28	28	NUM	_	Number=Plur	14	det	_	SpaceAfter=No
 14	%	%	SYM	_	ExtPos=NOUN|Number=Plur	12	comp:obj	_	_
 15	par	par	ADP	_	_	11	udep	_	_
 16	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
