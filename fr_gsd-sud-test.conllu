@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = fr-ud-test_00001
 # text = Je sens qu'entre ça et les films de médecins et scientifiques fous que nous avons déjà vus, nous pourrions emprunter un autre chemin pour l'origine.
 1	Je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	wordform=je
@@ -4778,21 +4779,23 @@
 
 # sent_id = fr-ud-test_00158
 # text = Comme chaque soir à 18h40, il tranche, malmène et détourne l'actualité.
-1	Comme	comme	SCONJ	_	Shared=Yes	8	mod	_	wordform=comme
+1	Comme	comme	SCONJ	_	Shared=Yes	10	mod	_	wordform=comme
 2	chaque	chaque	DET	_	Number=Sing|PronType=Ind	3	det	_	_
 3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	à	à	ADP	_	_	3	udep	_	_
-5	18h40	18h40	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	1	punct	_	_
-7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	8	subj	_	_
-8	tranche	trancher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
-10	malmène	malmener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
-11	et	et	CCONJ	_	_	12	cc	_	_
-12	détourne	détourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
-13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
-14	actualité	actualité	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	12	comp:obj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	8	punct	_	_
+5	18	18	NUM	_	Number=Plur	6	det	_	SpaceAfter=No
+6	h	h	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	SpaceAfter=No|wordform=18h40
+7	40	40	NUM	_	Number=Plur	6	mod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	10	subj	_	_
+10	tranche	trancher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	malmène	malmener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
+13	et	et	CCONJ	_	_	14	cc	_	_
+14	détourne	détourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:coord	_	_
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	actualité	actualité	NOUN	_	Gender=Fem|Number=Sing|Shared=Yes	14	comp:obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00159
 # text = Côté organisation, la municipalité va apporter son soutien logistique au président de la Boule Canéjanaise, Richard Juzanx, tandis que les 80 bénévoles canéjanais sont en plein dans les préparatifs et s'apprêtent à vivre un moment exceptionnel dans l'histoire du club.
@@ -7322,8 +7325,9 @@
 4	tennis	tennis	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	ferment	fermer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	à	à	ADP	_	_	5	mod	_	_
-7	18h	18h	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
-8	!	!	PUNCT	_	_	5	punct	_	_
+7	18	18	NUM	_	Number=Plur	8	det	_	SpaceAfter=No
+8	h	h	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	wordform=18h
+9	!	!	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00262
 # text = Leur chocolat chaud est divin !

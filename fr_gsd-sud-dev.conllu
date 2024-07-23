@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = fr-ud-dev_00001
 # text = Aviator, un film sur la vie de Hughes.
 1	Aviator	Aviator	PROPN	_	_	0	root	_	SpaceAfter=No
@@ -1636,16 +1637,17 @@
 5	soir	soir	NOUN	_	Gender=Masc|Number=Sing	4	mod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	vers	vers	ADP	_	_	3	mod	_	_
-8	23h	23h	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	7	punct	_	_
-10-11	au	_	_	_	_	_	_	_	_
-10	à	à	ADP	_	_	3	comp:obl	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	HD	HD	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-13	de	de	ADP	_	_	12	udep	_	_
-14	Saint	Saint	PROPN	_	_	13	comp:obj	_	_
-15	Michel	Michel	PROPN	_	_	14	flat@name	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	2	punct	_	_
+8	23	23	NUM	_	Number=Plur	9	det	_	SpaceAfter=No
+9	h	h	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	SpaceAfter=No|wordform=23h
+10	)	)	PUNCT	_	_	7	punct	_	_
+11-12	au	_	_	_	_	_	_	_	_
+11	à	à	ADP	_	_	3	comp:obl	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	HD	HD	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
+14	de	de	ADP	_	_	13	udep	_	_
+15	Saint	Saint	PROPN	_	_	14	comp:obj	_	_
+16	Michel	Michel	PROPN	_	_	15	flat@name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00062
 # text = Par la suite, le château fut démantelé durant la Guerre de Trente Ans.
@@ -10890,39 +10892,41 @@
 
 # sent_id = fr-ud-dev_00394
 # text = A 14h25, je retourne le voir en salle et le remercie ironiquemmnt de nous avoir aidé si gentillement, mais qu'il ferait mieux de s'abstenir de promettre l'impossible.
-1	A	à	ADP	_	Shared=Yes	5	mod	_	wordform=à
-2	14h25	14h25	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
-4	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs|Shared=Yes	5	subj	_	_
-5	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
-7	voir	voir	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
-8	en	en	ADP	_	_	5	mod	_	_
-9	salle	salle	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
-10	et	et	CCONJ	_	_	12	cc	_	_
-11	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	_
-12	remercie	remercier	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj:coord	_	_
-13	ironiquemmnt	ironiquement	ADV	_	Typo=Yes	12	mod	_	CorrectForm=ironiquement
-14	de	de	ADP	_	_	12	comp:obl	_	_
-15	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	17	comp:obj	_	_
-16	avoir	avoir	AUX	_	VerbForm=Inf	14	comp:obj	_	Subject=ObjRaising
-17	aidé	aider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Act	16	comp:aux@tense	_	CorrectForm=aidés|CorrectNumber=Plur
-18	si	si	ADV	_	_	19	mod	_	_
-19	gentillement	gentillement	ADV	_	Typo=Yes	16	mod	_	CorrectForm=gentiment|SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
-21	mais	mais	CCONJ	_	_	22	cc	_	_
-22	qu'	que	SCONJ	_	_	12	conj:coord	_	SpaceAfter=No
-23	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	subj	_	_
-24	ferait	faire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
-25	mieux	mieux	ADV	_	_	24	mod	_	_
-26	de	de	ADP	_	_	24	comp:obl	_	_
-27	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	28	comp@expl	_	SpaceAfter=No
-28	abstenir	abstenir	VERB	_	VerbForm=Inf	26	comp:obj	_	Subject=SubjRaising
-29	de	de	ADP	_	_	28	comp:obl	_	_
-30	promettre	promettre	VERB	_	VerbForm=Inf	29	comp:obj	_	Subject=SubjRaising
-31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
-32	impossible	impossible	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	5	punct	_	_
+1	A	à	ADP	_	Shared=Yes	7	mod	_	wordform=à
+2	14	14	NUM	_	Number=Plur	3	det	_	SpaceAfter=No
+3	h	h	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No|wordform=14h25
+4	25	25	NUM	_	Number=Plur	3	mod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs|Shared=Yes	7	subj	_	_
+7	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	_
+9	voir	voir	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
+10	en	en	ADP	_	_	7	mod	_	_
+11	salle	salle	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
+12	et	et	CCONJ	_	_	14	cc	_	_
+13	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	_
+14	remercie	remercier	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj:coord	_	_
+15	ironiquemmnt	ironiquement	ADV	_	Typo=Yes	14	mod	_	CorrectForm=ironiquement
+16	de	de	ADP	_	_	14	comp:obl	_	_
+17	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	19	comp:obj	_	_
+18	avoir	avoir	AUX	_	VerbForm=Inf	16	comp:obj	_	Subject=ObjRaising
+19	aidé	aider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Act	18	comp:aux@tense	_	CorrectForm=aidés|CorrectNumber=Plur
+20	si	si	ADV	_	_	21	mod	_	_
+21	gentillement	gentillement	ADV	_	Typo=Yes	18	mod	_	CorrectForm=gentiment|SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	mais	mais	CCONJ	_	_	24	cc	_	_
+24	qu'	que	SCONJ	_	_	14	conj:coord	_	SpaceAfter=No
+25	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	subj	_	_
+26	ferait	faire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
+27	mieux	mieux	ADV	_	_	26	mod	_	_
+28	de	de	ADP	_	_	26	comp:obl	_	_
+29	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	30	comp@expl	_	SpaceAfter=No
+30	abstenir	abstenir	VERB	_	VerbForm=Inf	28	comp:obj	_	Subject=SubjRaising
+31	de	de	ADP	_	_	30	comp:obl	_	_
+32	promettre	promettre	VERB	_	VerbForm=Inf	31	comp:obj	_	Subject=SubjRaising
+33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	impossible	impossible	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00395
 # text = Plus tard, le Croatia Airlines rejoint les négociations.
@@ -14417,8 +14421,9 @@
 17	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	comp:aux@tense	_	_
 18	jusqu'	jusque	ADP	_	_	16	mod	_	SpaceAfter=No
 19	à	à	ADP	_	_	18	comp:obj	_	_
-20	22h	22h	NUM	_	Number=Plur	19	comp:obj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	1	punct	_	_
+20	22	22	NUM	_	Number=Plur	21	det	_	SpaceAfter=No
+21	h	h	NUM	_	Number=Plur	19	comp:obj	_	SpaceAfter=No|wordform=22h
+22	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_00519
 # text = Dans la chanson "Nigivir", toujours en grand provocateur, Francky Vincent règle ses comptes.
@@ -37477,7 +37482,7 @@
 
 # sent_id = fr-ud-dev_01351
 # text = Pour le premier numéro de la saison qui sera diffusé le lundi 13 septembre à 20h40, "Un oeil sur la planète" s'est invité en Suède.
-1	Pour	pour	ADP	_	_	26	mod	_	wordform=pour
+1	Pour	pour	ADP	_	_	28	mod	_	wordform=pour
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	premier	premier	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
 4	numéro	numéro	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -37492,21 +37497,23 @@
 13	13	13	NUM	_	Number=Plur	12	mod	_	_
 14	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
 15	à	à	ADP	_	_	9	mod	_	_
-16	20h40	20h40	NUM	_	Number=Plur	15	comp:obj	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	1	punct	_	_
-18	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
-19	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	InTitle=Yes|wordform=un
-20	oeil	œil	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Sing|Typo=Yes	26	subj	_	CorrectForm=œil|Title=Yes
-21	sur	sur	ADP	_	_	20	udep	_	InTitle=Yes
-22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	InTitle=Yes
-23	planète	planète	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	InTitle=Yes|SpaceAfter=No
-24	"	"	PUNCT	_	_	20	punct	_	_
-25	s'	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	27	comp:obj	_	SpaceAfter=No
-26	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-27	invité	inviter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	26	comp:aux@tense	_	_
-28	en	en	ADP	_	_	26	mod	_	_
-29	Suède	Suède	PROPN	_	_	28	comp:obj	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	26	punct	_	_
+16	20	20	NUM	_	Number=Plur	17	det	_	SpaceAfter=No
+17	h	h	NUM	_	Number=Plur	15	comp:obj	_	SpaceAfter=No|wordform=20h40
+18	40	40	NUM	_	Number=Plur	17	mod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	1	punct	_	_
+20	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	InTitle=Yes|wordform=un
+22	oeil	œil	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Sing|Typo=Yes	28	subj	_	CorrectForm=œil|Title=Yes
+23	sur	sur	ADP	_	_	22	udep	_	InTitle=Yes
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	InTitle=Yes
+25	planète	planète	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	InTitle=Yes|SpaceAfter=No
+26	"	"	PUNCT	_	_	22	punct	_	_
+27	s'	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	29	comp:obj	_	SpaceAfter=No
+28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	invité	inviter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	28	comp:aux@tense	_	_
+30	en	en	ADP	_	_	28	mod	_	_
+31	Suède	Suède	PROPN	_	_	30	comp:obj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	28	punct	_	_
 
 # sent_id = fr-ud-dev_01352
 # text = Mais on nous avait prévenu avant.
