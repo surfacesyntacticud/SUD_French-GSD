@@ -10020,13 +10020,17 @@
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	urnes	urne	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
 12	de	de	ADP	_	_	7	mod	_	_
-13	12H30	12H30	NUM	_	Number=Plur	12	comp:obj	_	_
-14	GMT	GMT	X	_	ExtPos=PROPN	13	mod	_	_
-15	à	à	ADP	_	_	12	comp:obl	_	_
-16	00H30	00H30	NUM	_	Number=Plur	15	comp:obj	_	_
-17	GMT	GMT	X	_	ExtPos=PROPN	16	mod	_	_
-18	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	7	punct	_	_
+13	12	12	NUM	_	Number=Plur	14	det	_	SpaceAfter=No
+14	H	H	NUM	_	Number=Plur	12	comp:obj	_	SpaceAfter=No|wordform=12H30
+15	30	30	NUM	_	Number=Plur	14	mod	_	_
+16	GMT	GMT	X	_	ExtPos=PROPN	14	mod	_	_
+17	à	à	ADP	_	_	12	comp:obl	_	_
+18	00	00	NUM	_	Number=Plur	19	det	_	SpaceAfter=No
+19	H	H	NUM	_	Number=Plur	17	comp:obj	_	SpaceAfter=No|wordform=00H30
+20	30	30	NUM	_	Number=Plur	19	mod	_	_
+21	GMT	GMT	X	_	ExtPos=PROPN	19	mod	_	_
+22	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00362
 # text = Ardent défenseur de son pays et luttant contre les pillages, il donne de nombreuses conférences.
