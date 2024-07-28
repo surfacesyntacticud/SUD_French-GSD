@@ -7588,7 +7588,7 @@
 33	tue	tuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	comp:obj	_	_
 34	chez	chez	ADP	_	_	33	mod	_	_
 35	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	comp:obj	_	_
-36	?	?	PUNCT	_	_	19	punct	_	_
+36	?	?	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-dev_00270
 # text = En outre les salles sont très belles ce qui ne gâte rien.
@@ -31613,7 +31613,7 @@
 19	ou	ou	CCONJ	_	_	21	cc	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	démocratie	démocratie	NOUN	_	Gender=Fem|Number=Sing	18	conj:coord	_	_
-22	?	?	PUNCT	_	_	17	punct	_	_
+22	?	?	PUNCT	_	_	18	punct	_	_
 
 # sent_id = fr-ud-dev_01140
 # text = La présence courante d'un autel, leur situation au cœur de cimetières, leur faible disposions a éclairer le voisinage immédiat, tendent a montrer que la dernière proposition soit la bonne.
