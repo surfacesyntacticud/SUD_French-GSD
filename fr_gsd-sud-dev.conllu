@@ -7588,7 +7588,7 @@
 33	tue	tuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	comp:obj	_	_
 34	chez	chez	ADP	_	_	33	mod	_	_
 35	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	comp:obj	_	_
-36	?	?	PUNCT	_	_	25	punct	_	_
+36	?	?	PUNCT	_	_	19	punct	_	_
 
 # sent_id = fr-ud-dev_00270
 # text = En outre les salles sont très belles ce qui ne gâte rien.
@@ -23421,7 +23421,7 @@
 43	à	à	ADP	_	_	42	mod	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	crématoire	crématoire	NOUN	_	Gender=Masc|Number=Sing	43	comp:obj	_	_
-46	?	?	PUNCT	_	_	7	punct	_	_
+46	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00848
 # text = Un travail de renseignement qui a permis l'anéantissement de plusieurs dangereux chefs terroristes en Algérie.
