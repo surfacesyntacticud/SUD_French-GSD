@@ -18407,6 +18407,7 @@
 
 # sent_id = fr-ud-dev_00663
 # text = En 1986, Alain Passard achète le restaurant de son ancien mentor Alain Senderens L'Archestrate (trois étoiles), et le rebaptise L'Arpège.
+# source = https://fr.wikipedia.org/wiki/Foin_de_Crau
 1	En	en	ADP	_	Shared=Yes	6	mod	_	wordform=en
 2	1986	1986	NUM	_	Number=Plur	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -18421,8 +18422,8 @@
 12	mentor	mentor	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 13	Alain	Alain	PROPN	_	_	12	conj:appos	_	_
 14	Senderens	Senderens	PROPN	_	_	13	flat@name	_	_
-15	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	flat@name	_	SpaceAfter=No|wordform=l'
-16	Archestrate	Archestrate	PROPN	_	_	15	flat@name	_	_
+15	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No|wordform=l'
+16	Archestrate	Archestrate	PROPN	_	_	8	conj:appos	_	_
 17	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 18	trois	trois	NUM	_	Number=Plur	19	det	_	_
 19	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur	8	conj:appos	_	SpaceAfter=No
@@ -24048,6 +24049,7 @@
 
 # sent_id = fr-ud-dev_00871
 # text = La première recette française, rédigée en vers par Gace de La Bigne, mentionne dans un même pâté trois gros perdreaux, six grosses cailles et une douzaine d'alouettes.
+# source = https://fr.wikipedia.org/wiki/P%C3%A2t%C3%A9
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	wordform=la
 2	première	premier	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	_
 3	recette	recette	NOUN	_	Gender=Fem|Number=Sing	15	subj	_	_
@@ -24058,8 +24060,8 @@
 8	vers	vers	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	par	par	ADP	_	_	8	udep	_	_
 10	Gace	Gace	PROPN	_	_	9	comp:obj	_	_
-11	de	de	ADP	_	_	10	flat@name	_	_
-12	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	flat@name	_	wordform=la
+11	de	de	PROPN	_	_	10	flat@name	_	_
+12	La	La	PROPN	_	_	11	flat@name	_	_
 13	Bigne	Bigne	PROPN	_	_	12	flat@name	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	6	punct	_	_
 15	mentionne	mentionner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -28123,6 +28125,7 @@
 
 # sent_id = fr-ud-dev_01011
 # text = Plusieurs de ces propositions seront reprises dans le cadre de la correction des eaux du Jura, en particulier le projet du grison Richard La Nicca de détourner le cours de l'Aar dans le lac de Bienne.
+# source = https://franco.wiki/fr/Johann_Rudolf_Schneider.html
 1	Plusieurs	plusieurs	PRON	_	Number=Plur|Person=3|PronType=Ind	5	subj@pass	_	wordform=plusieurs
 2	de	de	ADP	_	_	1	udep	_	_
 3	ces	ce	DET	_	Number=Plur|PronType=Dem	4	det	_	_
@@ -28153,7 +28156,7 @@
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	grison	grison	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
 27	Richard	Richard	PROPN	_	_	26	conj:appos	_	_
-28	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	flat@name	_	wordform=la
+28	La	La	PROPN	_	_	27	flat@name	_	_
 29	Nicca	Nicca	PROPN	_	_	28	flat@name	_	_
 30	de	de	ADP	_	_	23	udep	_	_
 31	détourner	détourner	VERB	_	VerbForm=Inf	30	comp:obj	_	Subject=Generic
@@ -38801,13 +38804,11 @@
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	Jeanne	Jeanne	PROPN	_	_	18	conj:coord	_	_
 31	Charlotte	Charlotte	PROPN	_	Shared=No	30	flat@name	_	_
-32	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	flat@name	_	wordform=le
+32	Le	Le	PROPN	_	_	31	flat@name	_	_
 33	Gris	gris	NOUN	_	Gender=Masc|Number=Sing	32	flat@name	_	wordform=gris
-34-35	du	_	_	_	_	_	_	_	_
-34	de	de	ADP	_	_	33	flat@name	_	_
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	flat@name	_	_
-36	Clos	Clos	PROPN	_	_	35	flat@name	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	14	punct	_	_
+34	du	du	PROPN	_	_	33	flat@name	_	_
+35	Clos	Clos	PROPN	_	_	34	flat@name	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-dev_01398
 # text = Les animaux qui peuplent le terrain, à mesure que les eaux se retirent sont plus évolués.
