@@ -5648,7 +5648,7 @@
 16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	4422	4422	NUM	_	Number=Plur	14	comp:pred	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	17	punct	_	_
-19	Jarre	Jarre	PROPN	_	_	17	flat@name	_	_
+19	Jarre	Jarre	PROPN	_	_	17	conj:appos	_	_
 20	»	»	PUNCT	_	_	17	punct	_	_
 21	en	en	ADP	_	_	13	mod	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
@@ -26421,7 +26421,7 @@
 19	à	à	ADP	_	_	4	conj:coord	_	_
 20	St.	saint	NOUN	_	Gender=Masc|Number=Sing|Shared=No	19	comp:obj	_	wordform=st.
 21	Silas	Silas	PROPN	_	_	20	flat@name	_	_
-22	Church	Church	X	_	Foreign=Yes	21	flat@name	_	Lang=en
+22	Church	Church	PROPN	_	Foreign=Yes	21	flat@name	_	Lang=en
 23	à	à	ADP	_	_	20	udep	_	_
 24	Londres	Londres	PROPN	_	_	23	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
@@ -34398,7 +34398,7 @@
 14	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	de	de	ADP	_	_	14	udep	_	_
 16	heavy	heavy	X	_	ExtPos=PROPN|Foreign=Yes	15	comp:obj	_	Lang=en
-17	metal	metal	X	_	Foreign=Yes	16	flat@name	_	Lang=en|SpaceAfter=No
+17	metal	metal	X	_	Foreign=Yes	16	flat@foreign	_	Lang=en|SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01240
@@ -38137,7 +38137,7 @@
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	entomologiste	entomologiste	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	Carl	Carl	PROPN	_	_	8	conj:appos	_	_
-10	von	von	X	_	_	9	flat@name	_	_
+10	von	von	PROPN	_	_	9	flat@name	_	_
 11	Linné	Linné	PROPN	_	_	10	flat@name	_	_
 12	en	en	ADP	_	_	3	mod	_	_
 13	1758	1758	NUM	_	Number=Plur	12	comp:obj	_	_
@@ -38784,7 +38784,7 @@
 9	François	François	PROPN	_	_	8	flat@name	_	_
 10	Sylvestre	Sylvestre	PROPN	_	_	9	flat@name	_	_
 11	Denis	Denis	PROPN	_	_	10	flat@name	_	_
-12	de	de	ADP	_	_	11	flat@name	_	_
+12	de	de	PROPN	_	_	11	flat@name	_	_
 13	Trobriand	Trobriand	PROPN	_	_	12	flat@name	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -38805,7 +38805,7 @@
 30	Jeanne	Jeanne	PROPN	_	_	18	conj:coord	_	_
 31	Charlotte	Charlotte	PROPN	_	Shared=No	30	flat@name	_	_
 32	Le	Le	PROPN	_	_	31	flat@name	_	_
-33	Gris	gris	NOUN	_	Gender=Masc|Number=Sing	32	flat@name	_	wordform=gris
+33	Gris	gris	PROPN	_	Gender=Masc|Number=Sing	32	flat@name	_	wordform=gris
 34	du	du	PROPN	_	_	33	flat@name	_	_
 35	Clos	Clos	PROPN	_	_	34	flat@name	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	14	punct	_	_
