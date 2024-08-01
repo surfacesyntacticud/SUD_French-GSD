@@ -5744,7 +5744,7 @@
 35	Guerrero	Guerrero	PROPN	_	_	34	flat@name	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
 37	Cristóbal	Cristóbal	PROPN	_	_	34	conj:coord	_	_
-38	de	de	ADP	_	Shared=No	37	flat@name	_	_
+38	de	de	PROPN	_	Shared=No	37	flat@name	_	_
 39	Morales	Morales	PROPN	_	_	38	flat@name	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -10111,7 +10111,7 @@
 3	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	Gayoso	Gayoso	PROPN	_	_	8	subj	_	_
-6	de	de	ADP	_	_	5	flat@name	_	_
+6	de	de	PROPN	_	_	5	flat@name	_	_
 7	Lemos	Lemos	PROPN	_	_	6	flat@name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	établi	établir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	comp:aux@tense	_	_
@@ -10793,7 +10793,7 @@
 # sent_id = fr-ud-dev_00390
 # text = Henry de Lesquen a annoncé peu après la suppression de l'émission, suite au licenciement de Martin Peltier.
 1	Henry	Henry	PROPN	_	_	4	subj	_	_
-2	de	de	ADP	_	_	1	flat@name	_	_
+2	de	de	PROPN	_	_	1	flat@name	_	_
 3	Lesquen	Lesquen	PROPN	_	_	2	flat@name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	_
@@ -17264,7 +17264,7 @@
 1	En	en	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|wordform=en
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
 3	Emma	Emma	PROPN	_	_	6	subj	_	_
-4	de	de	ADP	_	_	3	flat@name	_	_
+4	de	de	PROPN	_	_	3	flat@name	_	_
 5	Rouillé	Rouillé	PROPN	_	_	4	flat@name	_	_
 6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	épousé	épouser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	comp:aux@tense	_	_
@@ -20638,7 +20638,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	reine	reine	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	Catherine	Catherine	PROPN	_	_	6	conj:appos	_	_
-8	de	de	ADP	_	_	7	flat@name	_	_
+8	de	de	PROPN	_	_	7	flat@name	_	_
 9	Médicis	Médicis	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
 11	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	12	subj	_	_
@@ -21115,7 +21115,7 @@
 # sent_id = fr-ud-dev_00766
 # text = Robert de Joly, découvreur de l'Aven d'Orgnac, y mènera par la suite plusieurs campagnes dans les années 1930 puis 1940.
 1	Robert	Robert	PROPN	_	_	13	subj	_	_
-2	de	de	ADP	_	_	1	flat@name	_	_
+2	de	de	PROPN	_	_	1	flat@name	_	_
 3	Joly	Joly	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	découvreur	découvreur	NOUN	_	Gender=Masc|Number=Sing	1	conj:appos	_	_
@@ -21520,7 +21520,7 @@
 8	à	à	ADP	_	_	7	udep	_	_
 9	saint	saint	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	Jean	Jean	PROPN	_	_	9	flat@name	_	_
-11	de	de	ADP	_	_	10	flat@name	_	_
+11	de	de	PROPN	_	_	10	flat@name	_	_
 12	Maurienne	Maurienne	PROPN	_	_	11	flat@name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -26297,7 +26297,7 @@
 # sent_id = fr-ud-dev_00950
 # text = Hyacinthe de Cavallère est un des héros de la série de bandes dessinées Donjon écrite par Lewis Trondheim et Joann Sfar.
 1	Hyacinthe	Hyacinthe	PROPN	_	_	4	subj	_	_
-2	de	de	ADP	_	_	1	flat@name	_	_
+2	de	de	PROPN	_	_	1	flat@name	_	_
 3	Cavallère	Cavallère	PROPN	_	_	2	flat@name	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	comp:pred	_	_
@@ -38855,7 +38855,7 @@
 # sent_id = fr-ud-dev_01400
 # text = Bartolomeo de Benincà est un enlumineur et un peintre italien de miniatures du XVe siècle, dont l'œuvre se situe entre la fin de la période gothique et le début de la première Renaissance.
 1	Bartolomeo	Bartolomeo	PROPN	_	_	4	subj	_	_
-2	de	de	ADP	_	_	1	flat@name	_	_
+2	de	de	PROPN	_	_	1	flat@name	_	_
 3	Benincà	Benincà	PROPN	_	_	2	flat@name	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	6	det	_	_
@@ -39201,7 +39201,7 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	père	père	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 16	Antonio	Antonio	PROPN	_	_	15	conj:appos	_	_
-17	de	de	ADP	_	_	16	flat@name	_	_
+17	de	de	PROPN	_	_	16	flat@name	_	_
 18	Sedella	Sedella	PROPN	_	_	17	flat@name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	mod	_	_
