@@ -627,7 +627,7 @@
 3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Secrétaire	Secrétaire	PROPN	_	Gender=Masc|Number=Sing	13	subj@pass	_	_
+6	Secrétaire	secrétaire	NOUN	_	Gender=Masc|Number=Sing	13	subj@pass	_	wordform=secrétaire
 7	général	général	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	de	de	ADP	_	_	6	udep	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -6577,7 +6577,7 @@
 8	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	comp:obj	_	_
 9	à	à	ADP	_	_	7	mod	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Gare	Gare	PROPN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
+11	Gare	gare	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	wordform=gare
 12	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00226

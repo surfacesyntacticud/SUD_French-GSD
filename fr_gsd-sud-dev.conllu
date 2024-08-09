@@ -7853,7 +7853,7 @@
 28	Milan	Milan	PROPN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
 29	4-3	4-3	NUM	_	Number=Plur	25	conj:appos	_	_
 30	en	en	ADP	_	_	25	udep	_	_
-31	Serie	Serie	PROPN	_	_	30	comp:obj	_	_
+31	Serie	série	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	wordform=série
 32	A	A	PROPN	_	_	31	conj:appos	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	14	punct	_	_
 34	et	et	CCONJ	_	_	35	cc	_	_
@@ -13657,7 +13657,7 @@
 3	de	de	ADP	_	_	2	mod	_	_
 4	toute	tout	DET	_	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
 5	façon	façon	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-6	Réseau	Réseau	PROPN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
+6	Réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	wordform=réseau
 7	ferré	ferré	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
 8	de	de	ADP	_	_	6	udep	_	_
 9	France	France	PROPN	_	_	8	comp:obj	_	_
@@ -14702,7 +14702,7 @@
 # sent_id = fr-ud-dev_00529
 # text = Le Suédois Marcus Allbäck inscrit le but de l'histoire de la coupe du monde à la minute de la rencontre contre les Anglais.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	Suédois	Suédois	PROPN	_	Gender=Masc|Number=Sing	5	subj	_	_
+2	Suédois	suédois	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	wordform=suédois
 3	Marcus	Marcus	PROPN	_	_	2	conj:appos	_	_
 4	Allbäck	Allbäck	PROPN	_	_	3	flat@name	_	_
 5	inscrit	inscrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18860,7 +18860,7 @@
 6	expositions	exposition	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 7	personnelles	personnel	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
 8	(	(	PUNCT	_	Shared=Yes	9	punct	_	SpaceAfter=No
-9	Galerie	Galerie	PROPN	_	_	7	mod	_	_
+9	Galerie	galerie	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	wordform=galerie
 10	de	de	ADP	_	_	9	udep	_	_
 11	France	France	PROPN	_	_	10	comp:obj	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
@@ -18960,12 +18960,12 @@
 5	revues	revoir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	_
 6	par	par	ADP	_	_	5	comp:obl@agent	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Bureau	Bureau	PROPN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+8	Bureau	bureau	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	wordform=bureau
 9	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
-10	Asile	Asile	PROPN	_	_	9	comp:obj	_	_
+10	Asile	asile	NOUN	_	_	9	comp:obj	_	wordform=asile
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	de	de	ADP	_	_	9	conj:coord	_	_
-13	Refuge	Refuge	PROPN	_	Shared=No	12	comp:obj	_	_
+13	Refuge	refuge	NOUN	_	Shared=No	12	comp:obj	_	wordform=refuge
 14	qui	qui	PRON	_	PronType=Rel	18	subj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	probablement	probablement	ADV	_	_	18	mod	_	SpaceAfter=No
@@ -19321,7 +19321,7 @@
 9	formation	formation	NOUN	_	Gender=Fem|Number=Sing	8	conj:appos	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	Agence	Agence	PROPN	_	Number=Sing	10	comp:obj	_	_
+12	Agence	agence	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	wordform=agence
 13	pour	pour	ADP	_	_	12	udep	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
@@ -25508,7 +25508,7 @@
 31	contenter	contenter	VERB	_	VerbForm=Inf	28	comp:obj	_	Subject=SubjRaising
 32	de	de	ADP	_	_	31	comp:obl	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	Coupe	Coupe	PROPN	_	Gender=Fem|Number=Sing	32	comp:obj	_	_
+34	Coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	wordform=coupe
 35	Intertoto	Intertoto	PROPN	_	_	34	conj:appos	_	_
 36	2008	2008	NUM	_	Number=Plur	35	mod	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	28	punct	_	_
@@ -32824,12 +32824,12 @@
 31	classant	classer	VERB	_	Tense=Pres|VerbForm=Part	6	mod	_	Subject=Instantiated
 32	derrière	derrière	ADP	_	_	31	mod	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	34	det	_	_
-34	Danois	Danois	PROPN	_	Gender=Masc|Number=Sing	32	comp:obj	_	_
+34	Danois	danois	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	wordform=danois
 35	Wilson	Wilson	PROPN	_	_	34	conj:appos	_	_
 36	Kipketer	Kipketer	PROPN	_	_	35	flat@name	_	_
 37	et	et	CCONJ	_	_	39	cc	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	Cubain	Cubain	PROPN	_	Gender=Masc|Number=Sing	34	conj:coord	_	_
+39	Cubain	cubain	NOUN	_	Gender=Masc|Number=Sing	34	conj:coord	_	wordform=cubain
 40	Norberto	Norberto	PROPN	_	Shared=No	39	conj:appos	_	_
 41	Téllez	Téllez	PROPN	_	_	40	flat@name	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	6	punct	_	_
@@ -32958,7 +32958,7 @@
 4	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	_
 5	par	par	ADP	_	_	4	comp:obl@agent	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Présidence	Présidence	PROPN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
+7	Présidence	présidence	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No|wordform=présidence
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01194
@@ -39807,7 +39807,7 @@
 25	siège	siège	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	21	punct	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	Villa	Villa	PROPN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
+28	Villa	villa	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	wordform=villa
 29	Louvigny	Louvigny	PROPN	_	_	28	conj:appos	_	_
 30	dans	dans	ADP	_	_	28	udep	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
