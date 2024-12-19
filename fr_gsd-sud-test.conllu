@@ -2254,7 +2254,7 @@
 # sent_id = fr-ud-test_00080
 # text = Je me demande s'il y a une loi chez nous qui peut condamner des citoyens pour des rêves illégaux ?
 1	Je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	wordform=je
-2	me	soi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	comp@expl	_	_
+2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	comp@expl	_	_
 3	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Interrogative-Polar-Direct|CxnElt=3:Interrogative-Polar-Direct.Clause
 4	s'	si	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No
 5	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
