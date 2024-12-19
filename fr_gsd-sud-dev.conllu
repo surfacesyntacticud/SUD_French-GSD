@@ -3794,10 +3794,10 @@
 19	intellectuels	intellectuel	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
 20	antifascistes	antifasciste	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
 21	de	de	ADP	_	_	14	udep	_	_
-22	l'	le	DET	_	Definite=Def|ExtPos=PROPN|Number=Sing|PronType=Art	21	comp:obj	_	Idiom=Yes|SpaceAfter=No
-23	entre	entre	ADP	_	_	22	unk	_	InIdiom=Yes
-24	deux	deux	NUM	_	Number=Plur	23	unk	_	InIdiom=Yes
-25	guerres	guerre	NOUN	_	Gender=Fem|Number=Plur	24	unk	_	InIdiom=Yes|SpaceAfter=No
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	Idiom=Yes|SpaceAfter=No
+23	entre	entre-deux-guerres	NOUN	_	Number=Sing|Typo=Yes	21	comp:obj	_	CorrectForm=entre-deux-guerres
+24	deux	_	X	_	_	23	goeswith	_	_
+25	guerres	_	X	_	_	23	goeswith	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	1	punct	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
