@@ -11566,7 +11566,7 @@
 12	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
 13	été	été	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 14	quatre	quatre	NUM	_	Number=Plur	15	det	_	_
-15	ans	an	NOUN	_	Gender=Masc|Number=Plur	13	conj:appos	_	_
+15	ans	an	NOUN	_	Gender=Masc|Number=Plur	9	mod	_	_
 16	plus	plus	ADV	_	_	17	mod	_	_
 17	tard	tard	ADV	_	_	15	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -12848,7 +12848,7 @@
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	élections	élection	NOUN	_	Gender=Fem|Number=Plur	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
-5	1980	1980	NUM	_	Number=Plur	4	comp:obj	_	SpaceAfter=No
+5	1980	1980	NUM	_	ExtPos=PROPN|Number=Plur	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	8	subj	_	_
 8	améliora	améliorer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
