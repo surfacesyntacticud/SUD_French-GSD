@@ -19379,7 +19379,7 @@
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	Finances	Finances	PROPN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Unknown
+13	Finances	finance	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Unknown
 14	de	de	ADP	_	_	10	udep	_	_
 15	Slovénie	Slovénie	PROPN	_	_	14	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
