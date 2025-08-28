@@ -3915,7 +3915,7 @@
 # sent_id = fr-ud-test_00128
 # text = De quoi inciter à une certaine prudence.
 1	De	de	ADP	_	_	3	mod	_	wordform=de
-2	quoi	quoi	PRON	_	Person=3|PronType=Ind	1	comp:obj	_	_
+2	quoi	quoi	PRON	_	Person=3|PronType=Rel	1	comp:obj	_	_
 3	inciter	inciter	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -6833,7 +6833,7 @@
 20	....	....	PUNCT	_	_	21	punct	_	_
 21	N'	ne	ADV	_	ExtPos=PRON|Polarity=Neg	3	parataxis	_	Idiom=Yes|SpaceAfter=No|wordform=n'
 22	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	unk	_	InIdiom=Yes
-23	quoi	quoi	PRON	_	Person=3|PronType=Ind	22	unk	_	InIdiom=Yes|SpaceAfter=No
+23	quoi	quoi	PRON	_	Person=3|PronType=Int	22	unk	_	InIdiom=Yes|SpaceAfter=No
 24	...	...	PUNCT	_	_	29	punct	_	_
 25	Par	par	ADP	_	ExtPos=ADV	29	mod	_	Idiom=Yes|wordform=par
 26	contre	contre	NOUN	_	_	25	comp:obj	_	InIdiom=Yes|SpaceAfter=No
