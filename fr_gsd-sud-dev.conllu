@@ -35762,7 +35762,7 @@
 16	dont	dont	PRON	_	PronType=Rel	18	udep	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Sud	sud	NOUN	_	Number=Sing	19	subj	_	Gender[lex]=Masc|wordform=sud
-19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	mod@relcl	_	_
+19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	mod@relcl	_	_
 20	de	de	ADP	_	_	19	comp:pred	_	_
 21	droit	droit	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc
 22	«	«	PUNCT	_	_	23	punct	_	_
@@ -35771,7 +35771,7 @@
 25	et	et	CCONJ	_	_	28	cc	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	nord	nord	NOUN	_	Number=Sing	28	orphan	_	Gender[lex]=Masc
-28	de	de	ADP	_	_	19	conj:coord@gapping	_	_
+28	de	de	ADP	_	_	20	conj:coord	_	_
 29	droit	droit	NOUN	_	Number=Sing|Shared=No	28	comp:obj	_	Gender[lex]=Masc
 30	coutumier	coutumier	ADJ	_	Gender=Masc|Number=Sing	29	mod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
