@@ -425,7 +425,7 @@
 1	Comprenant	comprendre	VERB	_	VerbForm=Part	18	mod	_	Subject=Instantiated|Tense[denom]=Pres|wordform=comprenant
 2	six	six	NUM	_	ExtPos=DET	3	det	_	Number[lex]=Plur
 3	sommets	sommet	NOUN	_	Number=Plur	1	comp:obj	_	Gender[lex]=Masc
-4	dont	dont	CCONJ	_	PronType=Rel|Shared=Yes	6	udep	_	_
+4	dont	dont	CCONJ	_	Shared=Yes	6	cc	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	6	det	_	_
 6	point	point	NOUN	_	Number=Sing	3	conj:appos	_	Gender[lex]=Masc
 7	culminant	culminer	VERB	_	VerbForm=Part	6	mod	_	Tense[denom]=Pres
@@ -4028,7 +4028,7 @@
 15	de	de	ADP	_	Shared=No	14	udep	_	_
 16	plantes	plante	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	dont	dont	CCONJ	_	PronType=Rel	20	udep	_	_
+18	dont	dont	CCONJ	_	_	20	cc	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Flora	Flora	PROPN	_	Gender=Fem|Number=Sing	16	conj:appos	_	_
 21	Femsionensis	Femsionensis	PROPN	_	_	20	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -9959,7 +9959,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	monde	monde	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	dont	dont	CCONJ	_	PronType=Rel	11	udep	_	_
+10	dont	dont	CCONJ	_	_	11	cc	_	_
 11	trois	trois	NUM	_	ExtPos=PRON	5	conj:appos	_	Number[lex]=Plur
 12	principaux	principal	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
 13	en	en	ADP	_	_	11	udep	_	_
@@ -13197,7 +13197,7 @@
 19	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	20	det	_	_
 20	prérogatives	prérogative	NOUN	_	Number=Plur	16	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
-22	dont	dont	CCONJ	_	PronType=Rel	24	udep	_	_
+22	dont	dont	CCONJ	_	_	24	cc	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	droit	droit	NOUN	_	Number=Sing	20	conj:appos	_	Gender[lex]=Masc
 25	de	de	ADP	_	_	24	udep	_	_
@@ -17996,7 +17996,7 @@
 28	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	30	det	_	_
 29	autres	autre	ADJ	_	Number=Plur	30	mod	_	Gender[ctxt]=Masc
 30	pays	pays	NOUN	_	Shared=No	27	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
-31	dont	dont	CCONJ	_	PronType=Rel|Shared=Yes	33	udep	_	_
+31	dont	dont	CCONJ	_	Shared=Yes	33	cc	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	33	det	_	_
 33	Canada	Canada	PROPN	_	Gender=Masc|Number=Sing	30	conj:appos	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
@@ -22173,7 +22173,7 @@
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	groupe	groupe	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
-29	dont	dont	CCONJ	_	PronType=Rel	30	udep	_	_
+29	dont	dont	CCONJ	_	_	30	cc	_	_
 30	neuf	neuf	NUM	_	ExtPos=PRON	6	conj:appos	_	Number[lex]=Plur
 31	sorties	sortir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	30	mod	_	Tense[denom]=Past
 32	en	en	ADP	_	_	31	mod	_	_
@@ -22215,7 +22215,7 @@
 68	en	en	ADP	_	_	66	mod	_	_
 69	2002	2002	NUM	_	ExtPos=PROPN	68	comp:obj	_	Number[lex]=Sing|SpaceAfter=No
 70	,	,	PUNCT	_	_	72	punct	_	_
-71	dont	dont	CCONJ	_	PronType=Rel	72	udep	_	_
+71	dont	dont	CCONJ	_	_	72	cc	_	_
 72	dix	dix	NUM	_	ExtPos=PRON	50	conj:appos	_	Number[lex]=Plur
 73	issues	issu	ADJ	_	Gender=Fem|Number=Plur	72	mod	_	_
 74	de	de	ADP	_	_	73	comp:obl	_	_
@@ -27686,7 +27686,7 @@
 21	11	11	NUM	_	ExtPos=DET	22	det	_	Number[lex]=Plur
 22	saisons	saison	NOUN	_	Number=Plur	16	conj:appos	_	Gender[lex]=Fem
 23	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-24	dont	dont	CCONJ	_	PronType=Rel	25	udep	_	_
+24	dont	dont	CCONJ	_	_	25	cc	_	_
 25	2	2	NUM	_	ExtPos=PRON	22	conj:appos	_	Number[lex]=Plur
 26	en	en	ADP	_	_	25	udep	_	_
 27	2e	2e	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	_

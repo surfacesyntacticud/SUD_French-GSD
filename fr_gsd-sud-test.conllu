@@ -4973,7 +4973,7 @@
 8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 9	blessées	blesser	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 10	,	,	PUNCT	_	_	12	punct	_	_
-11	dont	dont	CCONJ	_	PronType=Rel	12	udep	_	_
+11	dont	dont	CCONJ	_	_	12	cc	_	_
 12	une	un	NUM	_	ExtPos=PRON|Gender=Fem	1	conj:appos	_	Number[lex]=Plur
 13	grièvement	grièvement	ADV	_	_	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
