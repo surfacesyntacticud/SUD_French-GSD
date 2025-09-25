@@ -1637,7 +1637,7 @@
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	vers	vers	ADP	_	_	3	mod	_	_
 8	23	23	NUM	_	ExtPos=PROPN	9	det	_	Number[lex]=Sing|SpaceAfter=No
-9	h	h	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No|wordform=23h
+9	h	h	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 10	)	)	PUNCT	_	_	7	punct	_	_
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	3	comp:obl	_	_
@@ -10021,12 +10021,12 @@
 11	urnes	urne	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Fem
 12	de	de	ADP	_	_	7	mod	_	_
 13	12	12	NUM	_	ExtPos=PROPN	14	det	_	Number[lex]=Sing|SpaceAfter=No
-14	H	H	NOUN	_	Number=Plur	12	comp:obj	_	SpaceAfter=No|wordform=12H30
+14	H	h	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 15	30	30	NUM	_	ExtPos=PROPN	14	mod	_	Number[lex]=Sing
 16	GMT	GMT	X	_	ExtPos=PROPN	14	mod	_	_
 17	à	à	ADP	_	_	12	comp:obl	_	_
 18	00	00	NUM	_	ExtPos=PROPN	19	det	_	Number[lex]=Sing|SpaceAfter=No
-19	H	H	NOUN	_	Number=Plur	17	comp:obj	_	SpaceAfter=No|wordform=00H30
+19	H	h	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 20	30	30	NUM	_	ExtPos=PROPN	19	mod	_	Number[lex]=Sing
 21	GMT	GMT	X	_	ExtPos=PROPN	19	mod	_	_
 22	dimanche	dimanche	NOUN	_	Number=Sing	7	mod	_	Gender[lex]=Masc|SpaceAfter=No
@@ -10897,7 +10897,7 @@
 # text = A 14h25, je retourne le voir en salle et le remercie ironiquemmnt de nous avoir aidé si gentillement, mais qu'il ferait mieux de s'abstenir de promettre l'impossible.
 1	A	à	ADP	_	Shared=Yes	7	mod	_	wordform=à
 2	14	14	NUM	_	ExtPos=PROPN	3	det	_	Number[lex]=Sing|SpaceAfter=No
-3	h	h	NOUN	_	Number=Plur	1	comp:obj	_	SpaceAfter=No|wordform=14h25
+3	h	h	NOUN	_	Number=Plur	1	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 4	25	25	NUM	_	ExtPos=PROPN	3	mod	_	Number[lex]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs|Shared=Yes	7	subj	_	_
@@ -14425,7 +14425,7 @@
 18	jusqu'	jusque	ADP	_	_	16	mod	_	SpaceAfter=No
 19	à	à	ADP	_	_	18	comp:obj	_	_
 20	22	22	NUM	_	ExtPos=PROPN	21	det	_	Number[lex]=Sing|SpaceAfter=No
-21	h	h	NOUN	_	Number=Plur	19	comp:obj	_	SpaceAfter=No|wordform=22h
+21	h	h	NOUN	_	Number=Plur	19	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_00519
@@ -18962,10 +18962,10 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Bureau	bureau	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc|wordform=bureau
 9	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
-10	Asile	asile	NOUN	_	_	9	comp:obj	_	wordform=asile
+10	Asile	asile	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Masc|wordform=asile
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	de	de	ADP	_	_	9	conj:coord	_	_
-13	Refuge	refuge	NOUN	_	Shared=No	12	comp:obj	_	wordform=refuge
+13	Refuge	refuge	NOUN	_	Number=Sing|Shared=No	12	comp:obj	_	Gender[lex]=Masc|wordform=refuge
 14	qui	qui	PRON	_	PronType=Rel	18	subj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	probablement	probablement	ADV	_	_	18	mod	_	SpaceAfter=No
@@ -37504,7 +37504,7 @@
 14	septembre	septembre	NOUN	_	Number=Sing	13	mod	_	Gender[lex]=Masc
 15	à	à	ADP	_	_	9	mod	_	_
 16	20	20	NUM	_	ExtPos=PROPN	17	det	_	Number[lex]=Sing|SpaceAfter=No
-17	h	h	NOUN	_	Number=Plur	15	comp:obj	_	SpaceAfter=No|wordform=20h40
+17	h	h	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 18	40	40	NUM	_	ExtPos=PROPN	17	mod	_	Number[lex]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	1	punct	_	_
 20	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
