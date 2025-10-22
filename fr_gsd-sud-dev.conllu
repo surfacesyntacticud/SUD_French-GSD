@@ -10748,7 +10748,7 @@
 12	entre	entre	ADP	_	_	8	mod	_	_
 13	X	X	NUM	_	ExtPos=PROPN	12	comp:obj	_	Number[lex]=Sing
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	Zero	Zero	NUM	_	ExtPos=PROPN	13	conj:coord	_	Number[lex]=Sing|SpaceAfter=No|wordform=zero
+15	Zero	Zero	PROPN	_	_	13	conj:coord	_	Number[lex]=Unknown|SpaceAfter=No|wordform=zero
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00389
@@ -25773,7 +25773,7 @@
 # sent_id = fr-ud-dev_00929
 # text = D'abord médecin, sa carrière en médecine fut difficile et peu brillante.
 1	D'	de	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes|SpaceAfter=No|wordform=d'
-2	abord	abord	ADV	_	_	1	comp:obj	_	InIdiom=Yes
+2	abord	abord	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
 3	médecin	médecin	NOUN	_	Number=Sing	9	mod	_	Gender[lex]=Masc|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
