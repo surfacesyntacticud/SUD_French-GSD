@@ -1681,8 +1681,8 @@
 7	plus	plus	ADV	_	ExtPos=PRON	6	comp:obj	_	_
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	dix	dix	NUM	_	ExtPos=DET	12	det	_	Number[lex]=Plur
-10	quinze	quinze	NUM	_	Number=Plur	9	flat	_	_
-11	mille	mille	NUM	_	Number=Plur	10	flat	_	_
+10	quinze	quinze	NUM	_	_	9	flat	_	Number[lex]=Plur
+11	mille	mille	NUM	_	_	10	flat	_	Number[lex]=Plur
 12	personnes	personne	NOUN	_	Number=Plur	8	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -11037,23 +11037,21 @@
 14	altitudes	altitude	NOUN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Fem
 15	tandis	tandis	ADV	_	ExtPos=SCONJ	3	mod	_	Idiom=Yes
 16	qu'	que	SCONJ	_	_	15	unk	_	InIdiom=Yes|SpaceAfter=No
-17-18	au	_	_	_	_	_	_	_	_
-17	à	au-dessus	ADV	_	Typo=Yes	26	mod	_	CorrectForm=au-dessus
-18	le	_	X	_	_	17	goeswith	_	_
-19	dessus	_	X	_	_	17	goeswith	_	_
-20	de	de	ADP	_	_	17	comp:obl	_	_
-21	1 000	1 000	NUM	_	ExtPos=DET	22	det	_	Number[lex]=Plur
-22	mètres	mètre	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
-23	,	,	PUNCT	_	_	17	punct	_	_
-24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-25	papillons	papillon	NOUN	_	Number=Plur	26	subj	_	Gender[lex]=Masc
-26	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
-27	visibles	visible	ADJ	_	Number=Plur	26	comp:pred	_	Gender[ctxt]=Masc
-28	vers	vers	ADP	_	_	26	mod	_	_
-29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	début	début	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Masc
-31	juillet	juillet	NOUN	_	Number=Sing	30	mod	_	Gender[lex]=Masc|SpaceAfter=No
-32	.	.	PUNCT	_	_	3	punct	_	_
+17	au	au-dessus	ADV	_	Typo=Yes	25	mod	_	CorrectForm=au-dessus
+18	dessus	_	X	_	_	17	goeswith	_	_
+19	de	de	ADP	_	_	17	comp:obl	_	_
+20	1 000	1 000	NUM	_	ExtPos=DET	21	det	_	Number[lex]=Plur
+21	mètres	mètre	NOUN	_	Number=Plur	19	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+22	,	,	PUNCT	_	_	17	punct	_	_
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+24	papillons	papillon	NOUN	_	Number=Plur	25	subj	_	Gender[lex]=Masc
+25	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
+26	visibles	visible	ADJ	_	Number=Plur	25	comp:pred	_	Gender[ctxt]=Masc
+27	vers	vers	ADP	_	_	25	mod	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	début	début	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc
+30	juillet	juillet	NOUN	_	Number=Sing	29	mod	_	Gender[lex]=Masc|SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01580
 # text = Le pré salé dans son dernier méandre avant l'océan fait l'objet d'un inventaire ZNIEFF de type 1 en 1990.
