@@ -53,7 +53,7 @@
 8	dans	dans	ADP	_	_	22	mod	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	milieu	milieu	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc
-11	où	où	PRON	_	PronType=Rel	12	mod	_	_
+11	où	où	ADV	_	PronType=Rel	12	mod	_	_
 12	règne	régner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	14	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 14	obscurité	obscurité	NOUN	_	Number=Sing	12	subj	_	Gender[lex]=Fem
@@ -3267,7 +3267,7 @@
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 9	rares	rare	ADJ	_	Number=Plur	10	mod	_	Gender[ctxt]=Fem
 10	communes	commune	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Fem
-11	où	où	PRON	_	PronType=Rel	20	mod	_	_
+11	où	où	ADV	_	PronType=Rel	20	mod	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	cohabitation	cohabitation	NOUN	_	Number=Sing	20	subj	_	Gender[lex]=Fem
 14	ente	entre	ADP	_	_	13	udep	_	_
@@ -3958,7 +3958,7 @@
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	position	position	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Fem
 32	hybride	hybride	ADJ	_	Number=Sing	31	mod	_	Gender[ctxt]=Fem
-33	où	où	PRON	_	PronType=Rel|Shared=Yes	36	mod	_	_
+33	où	où	ADV	_	PronType=Rel|Shared=Yes	36	mod	_	_
 34	Matthews	Matthews	PROPN	_	Shared=Yes	36	subj	_	Gender[lex]=Unknown
 35	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	36	comp@expl	_	_
 36	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	mod@relcl	_	_
@@ -4226,7 +4226,7 @@
 23	apprentissage	apprentissage	NOUN	_	Number=Sing	9	conj:coord	_	Gender[lex]=Masc
 24	non-supervisé	non-superviser	VERB	_	Gender=Masc|Number=Sing|Shared=No|VerbForm=Part|Voice=Pass	23	mod	_	Tense[denom]=Past
 25	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-26	où	où	PRON	_	PronType=Rel	32	mod	_	_
+26	où	où	ADV	_	PronType=Rel	32	mod	_	_
 27	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	28	det	_	_
 28	étiquette	étiquette	NOUN	_	Number=Sing	32	subj@pass	_	Gender[lex]=Fem
 29	de	de	ADP	_	_	28	udep	_	_
@@ -10785,7 +10785,7 @@
 29	de	de	ADP	_	_	28	udep	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 31	établissement	établissement	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Masc
-32	où	où	PRON	_	PronType=Rel	35	comp:obl	_	_
+32	où	où	ADV	_	PronType=Rel	35	comp:obl	_	_
 33	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj@pass	_	_
 34	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	35	comp@expl	_	_
 35	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	mod@relcl	_	SpaceAfter=No
@@ -12591,7 +12591,7 @@
 14	capitale	capitale	NOUN	_	Number=Sing	11	conj:appos	_	Gender[lex]=Fem
 15	russe	russe	ADJ	_	Number=Sing	14	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
-17	où	où	PRON	_	PronType=Rel	19	mod	_	_
+17	où	où	ADV	_	PronType=Rel	19	mod	_	_
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
 19	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 20	persuader	persuader	VERB	_	VerbForm=Inf	19	comp:obj	_	Subject=SubjRaising
@@ -13420,7 +13420,7 @@
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	silence	silence	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc
 4	médiatique	médiatique	ADJ	_	Number=Sing	3	mod	_	Gender[ctxt]=Masc
-5	où	où	PRON	_	PronType=Rel	12	mod	_	_
+5	où	où	ADV	_	PronType=Rel	12	mod	_	_
 6	seuls	seul	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	articles	article	NOUN	_	Number=Plur	12	subj	_	Gender[lex]=Masc
@@ -13529,7 +13529,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	futur	futur	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	où	où	PRON	_	PronType=Rel	17	mod	_	_
+15	où	où	ADV	_	PronType=Rel	17	mod	_	_
 16	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
 17	sert	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 18	à	à	ADP	_	_	17	comp:obl	_	_
@@ -13552,7 +13552,7 @@
 9	école	école	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
 10	de	de	ADP	_	_	9	udep	_	_
 11	Sakurajosui	Sakurajosui	PROPN	_	_	10	comp:obj	_	Gender[lex]=Unknown
-12	où	où	PRON	_	PronType=Rel	15	mod	_	_
+12	où	où	ADV	_	PronType=Rel	15	mod	_	_
 13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
 14	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 15	être	être	AUX	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
@@ -14275,7 +14275,7 @@
 14	de	de	ADP	_	_	13	udep	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	chasse	chasse	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
-17	ou	où	PRON	_	PronType=Rel|Typo=Yes	19	mod	_	CorrectForm=où
+17	ou	où	ADV	_	PronType=Rel|Typo=Yes	19	mod	_	CorrectForm=où
 18	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
 19	excellait	exceller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	mod@relcl	_	_
 20	de	de	ADP	_	_	10	mod	_	_
@@ -17643,7 +17643,7 @@
 19	ministère	ministère	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Masc
 20	à	à	ADP	_	_	14	mod	_	_
 21	Sceaux	Sceaux	PROPN	_	_	20	comp:obj	_	Gender[lex]=Unknown
-22	où	où	PRON	_	PronType=Rel	24	mod	_	_
+22	où	où	ADV	_	PronType=Rel	24	mod	_	_
 23	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	subj	_	_
 24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	mod@relcl	_	_
 25	vicaire	vicaire	NOUN	_	Number=Sing	24	comp:pred	_	Gender[lex]=Masc
@@ -17748,7 +17748,7 @@
 7	dans	dans	ADP	_	_	6	mod	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	endroit	endroit	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc
-10	où	où	PRON	_	PronType=Rel	13	mod	_	_
+10	où	où	ADV	_	PronType=Rel	13	mod	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 12	hygiène	hygiène	NOUN	_	Number=Sing	13	subj	_	Gender[lex]=Fem
 13	laisse	laisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
@@ -18532,7 +18532,7 @@
 22	No	No	PROPN	_	_	21	conj:appos	_	Gender[lex]=Unknown
 23	Mercy	Mercy	PROPN	_	_	22	flat@name	_	Gender[lex]=Unknown
 24	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-25	où	où	PRON	_	PronType=Rel	27	mod	_	_
+25	où	où	ADV	_	PronType=Rel	27	mod	_	_
 26	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	subj	_	_
 27	adapte	adapter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -21177,7 +21177,7 @@
 31	terrain	terrain	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc
 32	politique	politique	ADJ	_	Number=Sing	31	mod	_	Gender[ctxt]=Masc
 33	vierge	vierge	ADJ	_	Number=Sing	31	mod	_	Gender[ctxt]=Masc
-34	où	où	PRON	_	PronType=Rel	39	mod	_	_
+34	où	où	ADV	_	PronType=Rel	39	mod	_	_
 35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
 36	mauvaises	mauvais	ADJ	_	Gender=Fem|Number=Plur	37	mod	_	_
 37	herbes	herbe	NOUN	_	Number=Plur	38	subj	_	Gender[lex]=Fem
@@ -22125,7 +22125,7 @@
 20	de	de	ADP	_	_	19	udep	_	_
 21	Marne-la-Vallée	Marne-la-Vallée	PROPN	_	_	20	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
-23	où	où	PRON	_	PronType=Rel	25	mod	_	_
+23	où	où	ADV	_	PronType=Rel	25	mod	_	_
 24	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	subj	_	_
 25	crée	créer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -26766,7 +26766,7 @@
 33	de	de	ADP	_	_	29	udep	_	_
 34	Francesco	Francesco	PROPN	_	_	33	comp:obj	_	Gender[lex]=Unknown
 35	Moriero	Moriero	PROPN	_	_	34	flat@name	_	Gender[lex]=Unknown
-36	où	où	PRON	_	PronType=Rel	41	mod	_	_
+36	où	où	ADV	_	PronType=Rel	41	mod	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	milieu	milieu	NOUN	_	Number=Sing	41	subj	_	Gender[lex]=Masc
 39	de	de	ADP	_	_	38	udep	_	_
@@ -26947,7 +26947,7 @@
 16	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	_
 17	pays	pays	NOUN	_	_	15	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	natal	natal	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	_
-19	où	où	PRON	_	PronType=Rel	21	mod	_	_
+19	où	où	ADV	_	PronType=Rel	21	mod	_	_
 20	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	subj	_	_
 21	évolue	évoluer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	_
 22	11	11	NUM	_	ExtPos=DET|Shared=No	23	det	_	Number[lex]=Plur
@@ -27330,7 +27330,7 @@
 1	De	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	wordform=de
 2	nombreux	nombreux	ADJ	_	Gender=Masc	3	mod	_	Number[ctxt]=Plur
 3	pays	pays	NOUN	_	_	8	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
-4	où	où	PRON	_	PronType=Rel	7	mod	_	_
+4	où	où	ADV	_	PronType=Rel	7	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	maladie	maladie	NOUN	_	Number=Sing	7	subj	_	Gender[lex]=Fem
 7	sévit	sévir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
@@ -27621,7 +27621,7 @@
 9	dans	dans	ADP	_	_	8	mod	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	villes	ville	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Fem
-12	où	où	PRON	_	PronType=Rel	16	mod	_	_
+12	où	où	ADV	_	PronType=Rel	16	mod	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	femme	femme	NOUN	_	Number=Sing	16	subj	_	Gender[lex]=Fem
 15	particulière	particulier	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	_
@@ -27674,7 +27674,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	SCO	SCO	PROPN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	Angers	Angers	PROPN	_	_	9	flat@name	_	Gender[lex]=Unknown
-11	où	où	PRON	_	PronType=Rel	13	mod	_	_
+11	où	où	ADV	_	PronType=Rel	13	mod	_	_
 12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	joue	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 14	entre	entre	ADP	_	_	13	mod	_	_
@@ -30294,7 +30294,7 @@
 10	à	à	ADP	_	_	9	comp:obl	_	_
 11	Lagoa	Lagoa	PROPN	_	_	10	comp:obj	_	Gender[lex]=Unknown
 12	Santa	Santa	PROPN	_	_	11	flat@name	_	Gender[lex]=Unknown
-13	où	où	PRON	_	PronType=Rel	15	comp:obl	_	_
+13	où	où	ADV	_	PronType=Rel	15	comp:obl	_	_
 14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
 15	demeure	demeurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 16	jusqu'	jusque	ADP	_	_	15	mod	_	SpaceAfter=No
@@ -30362,7 +30362,7 @@
 20	à	à	ADP	_	_	16	mod	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	moment	moment	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc
-23	où	où	PRON	_	PronType=Rel	25	mod	_	_
+23	où	où	ADV	_	PronType=Rel	25	mod	_	_
 24	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	subj	_	_
 25	tentait	tenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	mod@relcl	_	_
 26	de	de	ADP	_	_	25	comp:obj	_	_
@@ -31917,7 +31917,7 @@
 13	lyonnaise	lyonnais	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 14	également	également	ADV	_	_	11	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
-16	où	où	PRON	_	PronType=Rel	20	mod	_	_
+16	où	où	ADV	_	PronType=Rel	20	mod	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	rayon	rayon	NOUN	_	Number=Sing	20	subj@pass	_	Gender[lex]=Masc
 19	culture	culture	NOUN	_	Number=Sing	18	mod	_	Gender[lex]=Fem
@@ -33193,7 +33193,7 @@
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	sol	sol	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 32	,	,	PUNCT	_	_	37	punct	_	_
-33	où	où	PRON	_	PronType=Rel	37	comp:obl	_	_
+33	où	où	ADV	_	PronType=Rel	37	comp:obl	_	_
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 35	autre	autre	ADJ	_	Number=Sing	36	mod	_	Gender[ctxt]=Masc
 36	conduit	conduit	NOUN	_	Number=Sing	37	subj	_	Gender[lex]=Masc
@@ -34450,7 +34450,7 @@
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	87e	87e	ADJ	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
-21	où	où	PRON	_	PronType=Rel	23	mod	_	_
+21	où	où	ADV	_	PronType=Rel	23	mod	_	_
 22	Marjewski	Marjewski	PROPN	_	_	23	subj	_	Gender[lex]=Unknown
 23	inscrit	inscrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -34927,7 +34927,7 @@
 9	Europe	Europe	PROPN	_	_	8	comp:obj	_	Gender[lex]=Unknown
 10	de	de	ADP	_	_	7	udep	_	_
 11	Paris	Paris	PROPN	_	_	10	comp:obj	_	Gender[lex]=Unknown
-12	où	où	PRON	_	PronType=Rel	18	mod	_	_
+12	où	où	ADV	_	PronType=Rel	18	mod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Britannique	britannique	NOUN	_	Number=Sing	18	subj	_	Gender[lex]=Masc|wordform=britannique
 15	Donald	Donald	PROPN	_	_	14	conj:appos	_	Gender[lex]=Unknown
@@ -36561,7 +36561,7 @@
 8	à	à	ADP	_	_	2	mod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	moment	moment	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc
-11	où	où	PRON	_	PronType=Rel	17	mod	_	_
+11	où	où	ADV	_	PronType=Rel	17	mod	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 13	autres	autre	ADJ	_	Number=Plur	14	mod	_	Gender[ctxt]=Fem
 14	économies	économie	NOUN	_	Number=Plur	17	subj	_	Gender[lex]=Fem
@@ -38168,7 +38168,7 @@
 12	de	de	ADP	_	_	11	udep	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Mississippi	Mississippi	PROPN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
-15	où	où	PRON	_	PronType=Rel	21	mod	_	_
+15	où	où	ADV	_	PronType=Rel	21	mod	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Mississippi	Mississippi	PROPN	_	Gender=Masc|Number=Sing	21	subj	_	_
 18	Freedom	Freedom	PROPN	_	_	17	flat@name	_	Gender[lex]=Unknown
@@ -40274,7 +40274,7 @@
 4	en	en	ADP	_	_	3	mod	_	_
 5	Suisse	Suisse	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
-7	où	où	PRON	_	PronType=Rel	9	mod	_	_
+7	où	où	ADV	_	PronType=Rel	9	mod	_	_
 8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
 9	donna	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	mod@relcl	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -40287,7 +40287,7 @@
 17	en	en	ADP	_	_	4	conj:coord	_	_
 18	Angleterre	Angleterre	PROPN	_	Shared=No	17	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 19	,	,	PUNCT	_	_	23	punct	_	_
-20	où	où	PRON	_	PronType=Rel	23	mod	_	_
+20	où	où	ADV	_	PronType=Rel	23	mod	_	_
 21	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
 22	se	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	23	comp:obj	_	_
 23	lia	lier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	mod@relcl	_	_
@@ -40355,7 +40355,7 @@
 9	études	étude	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Fem
 10	secondaires	secondaire	ADJ	_	Number=Plur	9	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
-12	où	où	PRON	_	PronType=Rel	14	mod	_	_
+12	où	où	ADV	_	PronType=Rel	14	mod	_	_
 13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
 14	enseigna	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	mod@relcl	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	16	det	_	_
