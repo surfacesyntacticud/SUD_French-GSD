@@ -2445,7 +2445,7 @@
 33	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	35	comp:obj	_	_
 34	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	comp:obj	_	_
 35	vus	voir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	34	comp:aux@tense	_	Tense[denom]=Past
-36	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	37	mod	_	_
+36	tous	tous	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	37	mod	_	_
 37	unis	uni	ADJ	_	Gender=Masc|Number=Plur	35	comp:pred	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	main	main	NOUN	_	Number=Sing	37	mod	_	Gender[lex]=Fem
