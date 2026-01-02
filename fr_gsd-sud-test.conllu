@@ -7671,8 +7671,8 @@
 50	pour	pour	ADP	_	_	54	orphan	_	_
 51	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	52	det	_	Gender[ctxt]=Masc
 52	ami	ami	NOUN	_	Number=Sing	50	comp:obj	_	Gender[lex]=Masc
-53	quelque	quelque	DET	_	PronType=Ind	54	det	_	InIdiom=Yes|Number[lex]=Sing
-54	chose	chose	NOUN	_	ExtPos=PRON|Number=Sing	32	conj:coord	_	Gender[lex]=Fem|Idiom=Yes
+53	quelque	quelque	DET	_	PronType=Ind	54	det	_	Number[lex]=Sing
+54	chose	chose	NOUN	_	Number=Sing	32	conj:coord	_	Gender[lex]=Fem
 55	d'	de	ADP	_	Shared=No	54	mod	_	SpaceAfter=No
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	InIdiom=Yes
 57	peu	peu	NOUN	_	ExtPos=ADV	58	mod	_	Idiom=Yes

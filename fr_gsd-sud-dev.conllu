@@ -4112,8 +4112,8 @@
 14	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
 15	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 16	toujours	toujours	ADV	_	_	15	mod	_	_
-17	quelque	quelque	DET	_	PronType=Ind	18	det	_	InIdiom=Yes|Number[lex]=Sing
-18	chose	chose	NOUN	_	ExtPos=PRON|Number=Sing	15	comp:obj	_	Gender[lex]=Fem|Idiom=Yes
+17	quelque	quelque	DET	_	PronType=Ind	18	det	_	Number[lex]=Sing
+18	chose	chose	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Fem
 19	à	à	ADP	_	_	18	udep	_	_
 20	offrir	offrir	VERB	_	VerbForm=Inf	19	comp:obj	_	SpaceAfter=No|Subject=Generic
 21	,	,	PUNCT	_	_	23	punct	_	_
