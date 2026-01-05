@@ -2953,7 +2953,7 @@
 52	si	si	SCONJ	_	_	56	mod	_	CxnElt=56:Conditional-NeutralEpistemic.Protasis@f
 53	possible	possible	ADJ	_	Number=Sing	52	comp:obj	_	Gender[ctxt]=Masc|SpaceAfter=No
 54	--	--	PUNCT	_	_	52	punct	_	SpaceAfter=No
-55	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	56	comp:obj	_	_
+55	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	56	comp:obj	_	_
 56	relie	relier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	conj:coord	_	Cxn=Conditional-NeutralEpistemic|CxnElt=56:Conditional-NeutralEpistemic.Apodosis@p
 57	à	à	ADP	_	Shared=No	56	comp:obl	_	_
 58	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	59	det	_	_
@@ -4476,7 +4476,7 @@
 14	de	de	ADP	_	_	12	comp:pred	_	_
 15	nature	nature	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
 16	à	à	ADP	_	_	15	udep	_	_
-17	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	18	comp:obj	_	_
+17	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	18	comp:obj	_	_
 18	calmer	calmer	VERB	_	VerbForm=Inf	16	comp:obj	_	SpaceAfter=No|Subject=Generic
 19	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -7715,11 +7715,11 @@
 28	organismes	organisme	NOUN	_	Number=Plur	25	comp:obj@agent	_	Gender[lex]=Masc
 29	internationaux	international	ADJ	_	Gender=Masc|Number=Plur	28	mod	_	_
 30	qui	qui	PRON	_	PronType=Rel	32	subj	_	_
-31	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	32	comp:obl	_	_
+31	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	32	comp:obl	_	_
 32	offre	offrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	document	document	NOUN	_	Number=Sing	32	comp:obj	_	Gender[lex]=Masc
-35	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	36	comp:obl	_	_
+35	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	36	comp:obl	_	_
 36	permettant	permettre	VERB	_	VerbForm=Part	34	mod	_	Tense[denom]=Pres
 37	de	de	ADP	_	_	36	comp:obj	_	_
 38	quitter	quitter	VERB	_	VerbForm=Inf	37	comp:obj	_	Subject=OblRaising
@@ -8111,7 +8111,7 @@
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	adaptés	adapter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	conj:coord	_	Tense[denom]=Past
 7	par	par	ADP	_	Shared=No	6	comp:obl@agent	_	_
-8	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	SpaceAfter=No
+8	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	M10	M10	NOUN	_	Number=Sing	12	subj	_	Gender[lex]=Masc
@@ -8700,7 +8700,7 @@
 26	appareillage	appareillage	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Masc
 27	que	que	PRON	_	PronType=Rel	30	comp:obj	_	_
 28	Priore	Priore	PROPN	_	_	30	subj	_	Gender[lex]=Unknown
-29	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	30	comp:obl	_	_
+29	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	30	comp:obl	_	_
 30	décrit	décrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	_
 31	confusément	confusément	ADV	_	_	30	mod	_	_
 32	dans	dans	ADP	_	_	30	mod	_	_
@@ -8856,7 +8856,7 @@
 13	pour	pour	ADP	_	_	12	comp:obl	_	_
 14	effet	effet	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc
 15	de	de	ADP	_	_	12	comp:obj	_	_
-16	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
+16	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
 17	niveler	niveler	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=Generic
 18	avec	avec	ADP	_	_	17	comp:obl	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -9552,7 +9552,7 @@
 22	que	que	PRON	_	PronType=Int	26	comp:obj	_	_
 23	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis:insert	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=23:Interrogative-WHInfo-Direct.Clause|SpaceAfter=No
 24	-vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	23	subj	_	wordform=vous
-25	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	26	comp:obl	_	_
+25	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	26	comp:obl	_	_
 26	apporter	apporter	VERB	_	VerbForm=Inf	23	comp:obj	_	CxnElt=23:Interrogative-WHInfo-Direct.WHWord|Subject=SubjRaising
 27	?	?	PUNCT	_	_	23	punct	_	SpaceAfter=No
 28	"	"	PUNCT	_	_	15	punct	_	_
@@ -14753,7 +14753,7 @@
 19	serais	être	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	comp:obj	_	Cxn=Interrogative-Polar-Indirect|CxnElt=19:Interrogative-Polar-Indirect.Clause
 20	prêt	prêt	ADJ	_	Gender=Masc|Number=Sing	19	comp:pred	_	_
 21	à	à	ADP	_	_	20	comp:obl	_	_
-22	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	23	comp:obj	_	_
+22	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	23	comp:obj	_	_
 23	rejoindre	rejoindre	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=SubjRaising
 24	sur	sur	ADP	_	_	23	mod	_	_
 25	scène	scène	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -20903,7 +20903,7 @@
 # sent_id = fr-ud-dev_00758
 # text = Il les emmène à Washington mais ceux-ci, habitués à la campagne ont du mal à se faire à cette nouvelle vie avec un père qui ne sait pas comment s'y prendre.
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	3	subj	_	wordform=il
-2	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs|Shared=No	3	comp:obj	_	_
+2	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs|Shared=No	3	comp:obj	_	_
 3	emmène	emmener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	Washington	Washington	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown
@@ -21244,7 +21244,7 @@
 14	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 15	concession	concession	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem
 16	pour	pour	ADP	_	_	6	mod	_	_
-17	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	18	comp:obj	_	_
+17	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	18	comp:obj	_	_
 18	porter	porter	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
 19-20	au	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	18	comp:obl	_	_
@@ -23662,7 +23662,7 @@
 10	Echo	Echo	X	_	Foreign=Yes	9	flat@name	_	Lang=en
 11	Echo	Echo	X	_	Foreign=Yes	10	flat@name	_	Lang=en
 12	pour	pour	ADP	_	_	7	mod	_	_
-13	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	_
+13	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	_
 14	terrasser	terrasser	VERB	_	VerbForm=Inf	12	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 15	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -28876,7 +28876,7 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	américains	américain	NOUN	_	Number=Plur	5	subj	_	Gender[lex]=Masc
 3	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
-4	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	_
+4	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	_
 5	rejoindront	rejoindre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 6	que	que	ADV	_	Polarity=Neg	8	mod	_	_
 7	quatre	quatre	NUM	_	ExtPos=DET	8	det	_	Number[lex]=Plur
@@ -30415,7 +30415,7 @@
 13	chouans	chouan	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Masc
 14	afin	afin	ADV	_	_	5	mod	_	_
 15	de	de	ADP	_	_	14	comp:obj	_	_
-16	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
+16	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
 17	enlever	enlever	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 18	de	de	ADP	_	_	17	mod	_	_
 19	vive	vif	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	_
@@ -32783,7 +32783,7 @@
 9	musique	musique	NOUN	_	Number=Sing	7	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	voire	voire	CCONJ	_	_	13	cc	_	_
-12	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	_
+12	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	_
 13	arranger	arranger	VERB	_	VerbForm=Inf	4	conj:coord	_	SpaceAfter=No|Subject=SubjRaising
 14	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -32868,7 +32868,7 @@
 # sent_id = fr-ud-dev_01190
 # text = On les retrouve au Kann Al Loar, à Yaouank et régulièrement sur Paris.
 1	On	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	wordform=on
-2	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	_
+2	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	_
 3	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	3	mod	_	_
@@ -38509,7 +38509,7 @@
 16	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	_
 17	dirigeants	dirigeant	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Masc
 18	en	en	ADP	_	_	5	mod	_	_
-19	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	20	comp:obj	_	_
+19	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	20	comp:obj	_	_
 20	obligeant	obliger	VERB	_	VerbForm=Part	18	comp:obj	_	Tense[denom]=Pres
 21	à	à	ADP	_	_	20	comp:obl	_	_
 22	déclarer	déclarer	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=ObjRaising

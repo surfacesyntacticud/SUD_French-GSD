@@ -1773,7 +1773,7 @@
 16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 17	permis	permettre	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	16	comp:aux@tense	_	Tense[denom]=Past
 18	de	de	ADP	_	_	17	comp:obj	_	_
-19	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	20	comp:obj	_	_
+19	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	20	comp:obj	_	_
 20	traiter	traiter	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
 21	en	en	ADP	_	ExtPos=ADP	20	mod	_	Idiom=Yes
 22	tant	tant	ADV	_	_	21	unk	_	InIdiom=Yes
@@ -1783,7 +1783,7 @@
 26	»	»	PUNCT	_	_	25	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	en	en	ADP	_	_	16	mod	_	_
-29	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	30	comp:obj	_	_
+29	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	30	comp:obj	_	_
 30	agressant	agresser	VERB	_	VerbForm=Part	28	comp:obj	_	Tense[denom]=Pres
 31	à	à	ADP	_	ExtPos=ADV	30	mod	_	Idiom=Yes
 32	propos	propos	NOUN	_	_	31	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
@@ -2623,7 +2623,7 @@
 23	que	que	SCONJ	_	_	22	comp:obj	_	_
 24	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
 25	travail	travail	NOUN	_	Number=Sing	27	subj	_	Gender[lex]=Masc
-26	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	28	comp:obl	_	_
+26	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	28	comp:obl	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
 28	permis	permettre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	27	comp:aux@tense	_	Tense[denom]=Past
 29	d'	de	ADP	_	_	28	comp:obj	_	SpaceAfter=No
@@ -3371,7 +3371,7 @@
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 20	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	_
 21	d'	de	ADP	_	_	20	udep	_	SpaceAfter=No
-22	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	comp:obj	_	SpaceAfter=No
+22	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00115
@@ -8058,7 +8058,7 @@
 15	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	14	comp:aux@tense	_	Tense[denom]=Past
 16	appel	appel	NOUN	_	Number=Sing	15	comp:obj@lvc	_	Gender[lex]=Masc
 17	à	à	ADP	_	_	16	comp:obl	_	_
-18	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
+18	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
 19	car	car	CCONJ	_	_	22	cc	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	avis	avis	NOUN	_	_	22	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
