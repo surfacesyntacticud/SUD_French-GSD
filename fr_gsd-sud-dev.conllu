@@ -8368,8 +8368,8 @@
 43	ou	ou	CCONJ	_	_	45	cc	_	_
 44	encore	encore	ADV	_	_	45	mod	_	_
 45	Jehanequin	Jehanequin	PROPN	_	_	42	conj:coord@emb	_	Gender[lex]=Unknown|SpaceAfter=No
-46	)	)	PUNCT	_	_	45	punct	_	_
-47	en	en	ADP	_	Shared=Yes	45	orphan	_	_
+46	)	)	PUNCT	_	_	38	punct	_	_
+47	en	en	ADP	_	Shared=Yes	35	orphan	_	_
 48	1388	1388	NUM	_	ExtPos=PROPN	47	comp:obj	_	Number[lex]=Sing|SpaceAfter=No
 49	.	.	PUNCT	_	_	6	punct	_	_
 
