@@ -3795,7 +3795,7 @@
 19	intellectuels	intellectuel	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Masc
 20	antifascistes	antifasciste	ADJ	_	Number=Plur	19	mod	_	Gender[ctxt]=Masc
 21	de	de	ADP	_	_	14	udep	_	_
-22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	Idiom=Yes|SpaceAfter=No
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	entre	entre-deux-guerres	NOUN	_	Typo=Yes	21	comp:obj	_	CorrectForm=entre-deux-guerres|Number[ctxt]=Sing
 24	deux	_	X	_	_	23	goeswith	_	_
 25	guerres	_	X	_	_	23	goeswith	_	SpaceAfter=No
@@ -32432,7 +32432,7 @@
 
 # sent_id = fr-ud-dev_01175
 # text = Pourquoi pas un tournage dans notre capitale puisque dans le dernier épisode Andy, Silas et Shane ont pris l'avion pour Paris.
-1	Pourquoi	pourquoi	ADV	_	PronType=Int	4	mod	_	CxnElt=4:Interrogative-WHInfo-Indirect.WHWord|Idiom=Yes|wordform=pourquoi
+1	Pourquoi	pourquoi	ADV	_	ExtPos=ADV|PronType=Int	4	mod	_	CxnElt=4:Interrogative-WHInfo-Indirect.WHWord|Idiom=Yes|wordform=pourquoi
 2	pas	pas	ADV	_	_	1	mod	_	InIdiom=Yes
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	tournage	tournage	NOUN	_	Number=Sing	0	root	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=4:Interrogative-WHInfo-Indirect.Clause|Gender[lex]=Masc
