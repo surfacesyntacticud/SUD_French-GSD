@@ -673,7 +673,7 @@
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	de	de	ADP	_	_	14	conj:coord	_	_
 19	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	20	det	_	_
-20	enfants	enfant	NOUN	_	Number=Plur|Shared=No	18	comp:obj	_	SpaceAfter=No
+20	enfants	enfant	NOUN	_	Number=Plur|Shared=No	18	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 21	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-test_00022
@@ -4336,7 +4336,7 @@
 17	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	18	comp@expl	_	SpaceAfter=No
 18	éclatera	éclater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	comp:obj	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	InIdiom=Yes
-20	peu	peu	NOUN	_	ExtPos=ADV	21	mod	_	Idiom=Yes
+20	peu	peu	NOUN	_	ExtPos=ADV	21	mod	_	Gender[lex]=Masc|Idiom=Yes
 21	plus	plus	ADV	_	_	18	mod	_	SpaceAfter=No
 22	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	3	punct	_	_
@@ -5466,7 +5466,7 @@
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	8	comp:aux@tense	_	Tense[denom]=Past
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
-11	peu	peu	NOUN	_	ExtPos=ADV	12	mod	_	Idiom=Yes
+11	peu	peu	NOUN	_	ExtPos=ADV	12	mod	_	Gender[lex]=Masc|Idiom=Yes
 12	moins	moins	ADV	_	_	13	mod	_	_
 13	mortelle	mortel	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 14	que	que	SCONJ	_	_	12	comp:obj	_	_
@@ -7358,7 +7358,7 @@
 2	de	de	ADP	_	_	1	udep	_	_
 3	chaussures	chaussure	NOUN	_	Number=Plur	2	comp:obj	_	Gender[lex]=Fem
 4	pour	pour	ADP	_	_	3	udep	_	_
-5	enfants	enfant	NOUN	_	Number=Plur	4	comp:obj	_	SpaceAfter=No
+5	enfants	enfant	NOUN	_	Number=Plur	4	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 6	/	/	SYM	_	ExtPos=CCONJ	7	cc	_	SpaceAfter=No
 7	adolescents	adolescent	NOUN	_	Number=Plur	5	conj:coord	_	Gender[lex]=Masc
 8	très	très	ADV	_	_	9	mod	_	_
@@ -7675,7 +7675,7 @@
 54	chose	chose	NOUN	_	Number=Sing	32	conj:coord	_	Gender[lex]=Fem
 55	d'	de	ADP	_	Shared=No	54	mod	_	SpaceAfter=No
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	InIdiom=Yes
-57	peu	peu	NOUN	_	ExtPos=ADV	58	mod	_	Idiom=Yes
+57	peu	peu	NOUN	_	ExtPos=ADV	58	mod	_	Gender[lex]=Masc|Idiom=Yes
 58	plus	plus	ADV	_	_	59	mod	_	_
 59	classique	classique	ADJ	_	Number=Sing	55	comp:obj	_	Gender[ctxt]=Masc|SpaceAfter=No
 60	.	.	PUNCT	_	_	7	punct	_	_
@@ -7853,7 +7853,7 @@
 2	d'	de	ADP	_	_	1	udep	_	SpaceAfter=No
 3	attente	attente	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
-5	peu	peu	NOUN	_	ExtPos=ADV	6	mod	_	Idiom=Yes
+5	peu	peu	NOUN	_	ExtPos=ADV	6	mod	_	Gender[lex]=Masc|Idiom=Yes
 6	long	long	ADJ	_	Gender=Masc|Number=Sing	1	mod	_	_
 7	mais	mais	CCONJ	_	_	9	cc	_	_
 8	peut-être	peut-être	ADV	_	_	9	mod	_	_
@@ -7920,7 +7920,7 @@
 8	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	comp:obj	_	_
 9	prouver	prouver	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
-11	peu	peu	NOUN	_	ExtPos=ADV	9	mod	_	Idiom=Yes
+11	peu	peu	NOUN	_	ExtPos=ADV	9	mod	_	Gender[lex]=Masc|Idiom=Yes
 12	que	que	SCONJ	_	_	9	comp:obj	_	_
 13	Mendes	Mendes	PROPN	_	_	14	subj	_	Gender[lex]=Unknown
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
@@ -9223,7 +9223,7 @@
 14	dures	dur	ADJ	_	Gender=Fem|Number=Plur|Shared=No	11	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	InIdiom=Yes
-17	peu	peu	NOUN	_	ExtPos=ADV	18	mod	_	Idiom=Yes
+17	peu	peu	NOUN	_	ExtPos=ADV	18	mod	_	Gender[lex]=Masc|Idiom=Yes
 18	rougeâtres	rougeâtre	ADJ	_	Number=Plur|Shared=No	11	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20-21	des	_	_	_	_	_	_	_	_
@@ -10292,7 +10292,7 @@
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	tueur	tueur	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc
 23	d'	de	ADP	_	_	22	udep	_	SpaceAfter=No
-24	enfants	enfant	NOUN	_	Number=Plur	23	comp:obj	_	SpaceAfter=No
+24	enfants	enfant	NOUN	_	Number=Plur	23	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_01556

@@ -1502,7 +1502,7 @@
 32	qui	qui	PRON	_	PronType=Rel	33	subj	_	_
 33	restera	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Fut|VerbForm=Fin	28	mod@relcl	_	_
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	InIdiom=Yes
-35	peu	peu	NOUN	_	ExtPos=ADV	33	mod	_	Idiom=Yes
+35	peu	peu	NOUN	_	ExtPos=ADV	33	mod	_	Gender[lex]=Masc|Idiom=Yes
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	grand-père	grand-père	NOUN	_	Number=Sing	33	comp:pred	_	Gender[lex]=Masc
 38	de	de	ADP	_	_	37	udep	_	_
@@ -4980,7 +4980,7 @@
 10	bien	bien	ADV	_	ExtPos=SCONJ	3	mod	_	Idiom=Yes
 11	qu'	que	SCONJ	_	_	10	unk	_	InIdiom=Yes|SpaceAfter=No
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	InIdiom=Yes
-13	peu	peu	NOUN	_	ExtPos=ADV	14	mod	_	Idiom=Yes
+13	peu	peu	NOUN	_	ExtPos=ADV	14	mod	_	Gender[lex]=Masc|Idiom=Yes
 14	petites	petit	ADJ	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
 15	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16	mais	mais	CCONJ	_	_	18	cc	_	_
@@ -7537,7 +7537,7 @@
 7	fois	fois	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 8	dans	dans	ADP	_	_	2	mod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	n°	n°	SYM	_	ExtPos=NOUN|Number=Sing	8	comp:obj	_	Gender[lex]=Masc
+10	n°	n°	SYM	_	ExtPos=NOUN|Number=Sing	8	comp:obj	_	_
 11	1107	1107	NUM	_	ExtPos=PROPN	10	mod	_	Number[lex]=Sing
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	10	udep	_	_
@@ -8718,7 +8718,7 @@
 5-6	aux	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	enfants	enfant	NOUN	_	Number=Plur	5	comp:obj	_	_
+7	enfants	enfant	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Unknown
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	spectacle	spectacle	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc
 10	de	de	ADP	_	_	9	udep	_	_
@@ -9043,7 +9043,7 @@
 15	films	film	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Masc
 16	pour	pour	ADP	_	_	15	udep	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	enfants	enfant	NOUN	_	Number=Plur	16	comp:obj	_	_
+18	enfants	enfant	NOUN	_	Number=Plur	16	comp:obj	_	Gender[lex]=Unknown
 19	et	et	CCONJ	_	_	20	cc	_	_
 20	pour	pour	ADP	_	_	16	conj:coord	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
@@ -9112,7 +9112,7 @@
 # text = Encore un peu plus introspectif, Souchon nous rappelle que la société ne lui va toujours pas (Putain ça penche, En collant l'oreille sur l'appareil), et poursuit son questionnement métaphysique (Et si en plus y'a personne).
 1	Encore	encore	ADV	_	_	4	mod	_	wordform=encore
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
-3	peu	peu	NOUN	_	ExtPos=ADV	4	mod	_	Idiom=Yes
+3	peu	peu	NOUN	_	ExtPos=ADV	4	mod	_	Gender[lex]=Masc|Idiom=Yes
 4	plus	plus	ADV	_	_	5	mod	_	_
 5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing|Shared=Yes	9	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -10749,7 +10749,7 @@
 12	entre	entre	ADP	_	_	8	mod	_	_
 13	X	X	NUM	_	ExtPos=PROPN	12	comp:obj	_	Number[lex]=Sing
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	Zero	Zero	PROPN	_	_	13	conj:coord	_	SpaceAfter=No|wordform=zero
+15	Zero	Zero	PROPN	_	_	13	conj:coord	_	Gender[lex]=Unknown|SpaceAfter=No|wordform=zero
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00389
@@ -11751,7 +11751,7 @@
 17	qui	qui	PRON	_	PronType=Rel	18	subj	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	InIdiom=Yes
-20	peu	peu	NOUN	_	ExtPos=ADV	21	mod	_	Idiom=Yes
+20	peu	peu	NOUN	_	ExtPos=ADV	21	mod	_	Gender[lex]=Masc|Idiom=Yes
 21	jaloux	jaloux	ADJ	_	Gender=Masc	18	comp:pred	_	Number[ctxt]=Sing
 22	de	de	ADP	_	_	21	comp:obl	_	_
 23	voir	voir	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
@@ -13194,7 +13194,7 @@
 15	de	de	ADP	_	_	13	comp:obj	_	_
 16	réaffirmer	réaffirmer	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
-18	peu	peu	NOUN	_	ExtPos=ADV	16	mod	_	Idiom=Yes
+18	peu	peu	NOUN	_	ExtPos=ADV	16	mod	_	Gender[lex]=Masc|Idiom=Yes
 19	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	20	det	_	_
 20	prérogatives	prérogative	NOUN	_	Number=Plur	16	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
@@ -13630,7 +13630,7 @@
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	enfants	enfant	NOUN	_	Number=Plur	7	comp:obj	_	_
+9	enfants	enfant	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Unknown
 10	sur	sur	ADP	_	_	6	udep	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	gestes	geste	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Masc
@@ -16952,7 +16952,7 @@
 25	auteurs	auteur	NOUN	_	Number=Plur	24	comp:obj	_	Gender[lex]=Masc
 26	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	28	det	_	_
 27	propres	propre	ADJ	_	Number=Plur	28	mod	_	Gender[ctxt]=Masc
-28	enfants	enfant	NOUN	_	Number=Plur	23	comp:obj	_	SpaceAfter=No
+28	enfants	enfant	NOUN	_	Number=Plur	23	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	31	det	_	_
 31	fille	fille	NOUN	_	Number=Sing	28	conj:appos	_	Gender[lex]=Fem
@@ -21001,7 +21001,7 @@
 9	activités	activité	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Fem
 10	que	que	PRON	_	PronType=Rel	14	comp:obj	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	enfants	enfant	NOUN	_	Number=Plur	13	subj	_	_
+12	enfants	enfant	NOUN	_	Number=Plur	13	subj	_	Gender[lex]=Unknown
 13	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 14	apprécier	apprécier	VERB	_	VerbForm=Inf	13	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 15	.	.	PUNCT	_	_	3	punct	_	_
@@ -25338,7 +25338,7 @@
 13	vous	vous	PRON	_	Emph=Yes|Number=Plur|Person=2|PronType=Prs	12	comp:obj	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	16	det	_	_
-16	enfants	enfant	NOUN	_	Number=Plur	13	conj:coord	_	_
+16	enfants	enfant	NOUN	_	Number=Plur	13	conj:coord	_	Gender[lex]=Unknown
 17	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_00915
@@ -28034,7 +28034,7 @@
 11	qui	qui	PRON	_	PronType=Rel	12	subj@caus	_	_
 12	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	InIdiom=Yes
-14	peu	peu	NOUN	_	ExtPos=ADV	15	mod	_	Idiom=Yes
+14	peu	peu	NOUN	_	ExtPos=ADV	15	mod	_	Gender[lex]=Masc|Idiom=Yes
 15	penser	penser	VERB	_	Shared=No|VerbForm=Inf	12	comp:aux@caus	_	Subject=Generic
 16	à	à	ADP	_	_	15	comp:obl	_	_
 17	Knock	Knock	PROPN	_	_	16	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -31015,7 +31015,7 @@
 8	décision	décision	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	DC	DC	X	_	ExtPos=PROPN	8	conj:appos	_	_
-11	n°	n°	SYM	_	ExtPos=NOUN|Number=Sing	10	mod	_	Gender[lex]=Masc
+11	n°	n°	SYM	_	ExtPos=NOUN|Number=Sing	10	mod	_	_
 12	2010-626	2010-626	NUM	_	ExtPos=PROPN	10	mod	_	Number[lex]=Sing|SpaceAfter=No
 13	)	)	PUNCT	_	_	10	punct	_	_
 14-15	du	_	_	_	_	_	_	_	_
@@ -35204,7 +35204,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	aussi	aussi	ADV	_	_	3	mod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
-6	peu	peu	NOUN	_	ExtPos=ADV	7	mod	_	Idiom=Yes
+6	peu	peu	NOUN	_	ExtPos=ADV	7	mod	_	Gender[lex]=Masc|Idiom=Yes
 7	plus	plus	ADV	_	_	8	mod	_	_
 8	épaisse	épais	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
 9	à	à	ADP	_	_	8	mod	_	_
