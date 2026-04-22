@@ -1419,7 +1419,7 @@
 21	garde	garde	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem
 22	pour	pour	ADP	_	Shared=No	16	mod	_	_
 23	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	24	det	_	_
-24	enfant	enfant	NOUN	_	Number=Sing	22	comp:obj	_	SpaceAfter=No
+24	enfant	enfant	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00053
@@ -3796,7 +3796,7 @@
 20	antifascistes	antifasciste	ADJ	_	Number=Plur	19	mod	_	Gender[ctxt]=Masc
 21	de	de	ADP	_	_	14	udep	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
-23	entre	entre-deux-guerres	NOUN	_	Typo=Yes	21	comp:obj	_	CorrectForm=entre-deux-guerres|Number[ctxt]=Sing
+23	entre	entre-deux-guerres	NOUN	_	Typo=Yes	21	comp:obj	_	CorrectForm=entre-deux-guerres|Gender[lex]=Masc|Number[ctxt]=Sing
 24	deux	_	X	_	_	23	goeswith	_	_
 25	guerres	_	X	_	_	23	goeswith	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -4838,7 +4838,7 @@
 
 # sent_id = fr-ud-dev_00177
 # text = Suite à ces déclarations, le candidat républicain à l'élection présidentielle, Mitt Romney, lui demande de se retirer de la course.
-1	Suite	suite	NOUN	_	ExtPos=ADV	18	mod	_	wordform=suite
+1	Suite	suite	NOUN	_	ExtPos=ADV	18	mod	_	Gender[lex]=Fem|wordform=suite
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	ces	ce	DET	_	Number=Plur|PronType=Dem	4	det	_	_
 4	déclarations	déclaration	NOUN	_	Number=Plur	2	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -7049,7 +7049,7 @@
 8	par	par	ADP	_	_	7	comp:obl@agent	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	chasseurs	chasseur	NOUN	_	Number=Plur	8	comp:obj	_	Gender[lex]=Masc
-11	grâce	grâce	NOUN	_	ExtPos=ADV	4	mod	_	_
+11	grâce	grâce	NOUN	_	ExtPos=ADV	4	mod	_	Gender[lex]=Fem
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 14	ange	ange	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -7750,7 +7750,7 @@
 
 # sent_id = fr-ud-dev_00276
 # text = Face à l'explosion de la demande de numéros liée à la démocratisation du fax et de la téléphonie mobile, France Télécom développa un nouveau plan, mis en œuvre le 18 octobre 1996 à 23 heures.
-1	Face	face	NOUN	_	ExtPos=ADV	25	mod	_	wordform=face
+1	Face	face	NOUN	_	ExtPos=ADV	25	mod	_	Gender[lex]=Fem|wordform=face
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 4	explosion	explosion	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
@@ -10806,7 +10806,7 @@
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 12	émission	émission	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	suite	suite	NOUN	_	ExtPos=ADV	4	mod	_	_
+14	suite	suite	NOUN	_	ExtPos=ADV	4	mod	_	Gender[lex]=Fem
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	14	comp:obl	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -12497,7 +12497,7 @@
 
 # sent_id = fr-ud-dev_00451
 # text = Grâce à la chance et à sa force de caractère, il est aujourd'hui tétraplégique incomplet.
-1	Grâce	grâce	NOUN	_	ExtPos=ADV	13	mod	_	wordform=grâce
+1	Grâce	grâce	NOUN	_	ExtPos=ADV	13	mod	_	Gender[lex]=Fem|wordform=grâce
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	chance	chance	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
@@ -14847,7 +14847,7 @@
 4	de	de	ADP	_	_	2	comp:obj@agent	_	_
 5	voler	voler	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=Generic
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	gens	gens	NOUN	_	Number=Plur	5	comp:obj	_	_
+7	gens	gens	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Unknown
 8	ainsi	ainsi	ADV	_	_	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	12	subj	_	_
@@ -16140,7 +16140,7 @@
 31	développement	développement	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Masc
 32	de	de	ADP	_	_	31	udep	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
-34	enfant	enfant	NOUN	_	Number=Sing	32	comp:obj	_	SpaceAfter=No
+34	enfant	enfant	NOUN	_	Number=Sing	32	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 35	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00577
@@ -17065,7 +17065,7 @@
 24	mesures	mesure	NOUN	_	Number=Plur	21	comp:obj	_	Gender[lex]=Fem
 25	à	à	ADP	_	_	24	udep	_	_
 26	adopter	adopter	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=Generic
-27	face	face	NOUN	_	ExtPos=ADV	26	mod	_	_
+27	face	face	NOUN	_	ExtPos=ADV	26	mod	_	Gender[lex]=Fem
 28-29	aux	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	_	27	comp:obl	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
@@ -17694,7 +17694,7 @@
 
 # sent_id = fr-ud-dev_00637
 # text = Grâce à notre résistance contre la réaction religieuse, sans compromis et sans relâche, grâce à notre position ferme et courageuse face à cette réaction, nous sauvons la société arabe de la mutilation que serait pour elle l'athéisme.
-1	Grâce	grâce	NOUN	_	ExtPos=ADV	29	mod	_	wordform=grâce
+1	Grâce	grâce	NOUN	_	ExtPos=ADV	29	mod	_	Gender[lex]=Fem|wordform=grâce
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	résistance	résistance	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
@@ -17709,14 +17709,14 @@
 13	sans	sans	ADP	_	_	10	conj:coord	_	_
 14	relâche	relâche	NOUN	_	Number=Sing|Shared=No	13	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	grâce	grâce	NOUN	_	ExtPos=ADV	1	conj:coord	_	_
+16	grâce	grâce	NOUN	_	ExtPos=ADV	1	conj:coord	_	Gender[lex]=Fem
 17	à	à	ADP	_	Shared=No	16	comp:obl	_	_
 18	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
 19	position	position	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
 20	ferme	ferme	ADJ	_	Number=Sing	19	mod	_	Gender[ctxt]=Fem
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	courageuse	courageux	ADJ	_	Gender=Fem|Number=Sing	20	conj:coord	_	_
-23	face	face	NOUN	_	ExtPos=ADV	19	mod	_	_
+23	face	face	NOUN	_	ExtPos=ADV	19	mod	_	Gender[lex]=Fem
 24	à	à	ADP	_	_	23	comp:obl	_	_
 25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
 26	réaction	réaction	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -18294,7 +18294,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	film	film	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 9	documentaire	documentaire	ADJ	_	Number=Sing	8	mod	_	Gender[ctxt]=Masc
-10	Enfants	enfant	NOUN	_	ExtPos=PROPN|Number=Plur	8	conj:appos	_	Title=Yes|wordform=enfants
+10	Enfants	enfant	NOUN	_	ExtPos=PROPN|Number=Plur	8	conj:appos	_	Gender[lex]=Unknown|Title=Yes|wordform=enfants
 11	de	de	ADP	_	_	10	udep	_	InTitle=Yes
 12	boches	boche	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Masc|InTitle=Yes
 13	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	mod	_	Tense[denom]=Past
@@ -20495,7 +20495,7 @@
 9	quotidien	quotidien	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc
 10	«	«	PUNCT	_	_	12	punct	_	_
 11	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No|wordform=l'
-12	Economiste	économiste	NOUN	_	Number=Sing	9	conj:appos	_	wordform=économiste
+12	Economiste	économiste	NOUN	_	Number=Sing	9	conj:appos	_	Gender[lex]=Unknown|wordform=économiste
 13	»	»	PUNCT	_	_	12	punct	_	_
 14	de	de	ADP	_	_	9	udep	_	_
 15	31	31	NUM	_	ExtPos=PROPN	14	comp:obj	_	Number[lex]=Sing
@@ -20661,7 +20661,7 @@
 27	mais	mais	CCONJ	_	_	28	cc	_	_
 28	demeure	demeurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:coord	_	_
 29	implacable	implacable	ADJ	_	Number=Sing|Shared=No	28	comp:pred	_	Gender[ctxt]=Masc
-30	face	face	NOUN	_	ExtPos=ADV	29	mod	_	_
+30	face	face	NOUN	_	ExtPos=ADV	29	mod	_	Gender[lex]=Fem
 31-32	aux	_	_	_	_	_	_	_	_
 31	à	à	ADP	_	_	30	comp:obl	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
@@ -21022,7 +21022,7 @@
 11	exprimé	exprimer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Tense[denom]=Past
 12	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	Gender[ctxt]=Fem
 13	indignation	indignation	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
-14	suite	suite	NOUN	_	ExtPos=ADV	10	mod	_	_
+14	suite	suite	NOUN	_	ExtPos=ADV	10	mod	_	Gender[lex]=Fem
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	14	comp:obl	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -23451,7 +23451,7 @@
 2	demi-finale	demi-finale	NOUN	_	Number=Sing|Shared=No	9	subj	_	Gender[lex]=Fem
 3	de	de	ADP	_	_	2	udep	_	_
 4	conférence	conférence	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
-5	face	face	NOUN	_	ExtPos=ADV	2	mod	_	_
+5	face	face	NOUN	_	ExtPos=ADV	2	mod	_	Gender[lex]=Fem
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -26282,7 +26282,7 @@
 19	réelle	réel	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	_
 20	dimension	dimension	NOUN	_	Number=Sing|Shared=No	17	comp:obj	_	Gender[lex]=Fem
 21	dramatique	dramatique	ADJ	_	Number=Sing	20	mod	_	Gender[ctxt]=Fem
-22	grâce	grâce	NOUN	_	ExtPos=ADV	10	mod	_	_
+22	grâce	grâce	NOUN	_	ExtPos=ADV	10	mod	_	Gender[lex]=Fem
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	22	comp:obl	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -28644,7 +28644,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	ajoute	ajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
-4	face	face	NOUN	_	ExtPos=ADV	11	mod	_	_
+4	face	face	NOUN	_	ExtPos=ADV	11	mod	_	Gender[lex]=Fem
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	corruption	corruption	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Fem
@@ -29394,7 +29394,7 @@
 10	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	travail	travail	NOUN	_	Number=Sing|Shared=No	8	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	suite	suite	NOUN	_	ExtPos=ADV|Shared=No	8	mod	_	_
+13	suite	suite	NOUN	_	ExtPos=ADV|Shared=No	8	mod	_	Gender[lex]=Fem
 14	à	à	ADP	_	_	13	comp:obl	_	_
 15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	_
 16	déception	déception	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
@@ -30168,7 +30168,7 @@
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 17	élément	élément	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Masc
 18	thallium	thallium	NOUN	_	Number=Sing	17	conj:appos	_	Gender[lex]=Masc
-19	grâce	grâce	NOUN	_	ExtPos=ADV|Shared=No	12	mod	_	_
+19	grâce	grâce	NOUN	_	ExtPos=ADV|Shared=No	12	mod	_	Gender[lex]=Fem
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -30594,7 +30594,7 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	dark	dark	X	_	ExtPos=NOUN|Foreign=Yes	8	comp:obj	_	Lang=en
 11	match	match	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en
-12	face	face	NOUN	_	ExtPos=ADV	7	mod	_	_
+12	face	face	NOUN	_	ExtPos=ADV	7	mod	_	Gender[lex]=Fem
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	Elijah	Elijah	PROPN	_	_	13	comp:obj	_	Gender[lex]=Unknown
 15	Burke	Burke	PROPN	_	_	14	flat@name	_	Gender[lex]=Unknown
@@ -33277,7 +33277,7 @@
 7	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 8	en	en	ADP	_	_	7	comp:obj	_	_
 9	2002	2002	NUM	_	ExtPos=PROPN	8	comp:obj	_	Number[lex]=Sing
-10	face	face	NOUN	_	ExtPos=ADV	3	mod	_	_
+10	face	face	NOUN	_	ExtPos=ADV	3	mod	_	Gender[lex]=Fem
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	ministre	ministre	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
@@ -34331,7 +34331,7 @@
 21	cri	cri	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc
 22	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No
 23	alerte	alerte	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Fem
-24	face	face	NOUN	_	ExtPos=ADV	21	mod	_	_
+24	face	face	NOUN	_	ExtPos=ADV	21	mod	_	Gender[lex]=Fem
 25-26	au	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	24	comp:obl	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -35514,7 +35514,7 @@
 
 # sent_id = fr-ud-dev_01279
 # text = Grâce à certaines inscriptions nous savons presque certainement que la cité s'élève aujourd'hui dans la zone du quartier Colli Aniene.
-1	Grâce	grâce	NOUN	_	ExtPos=ADV	6	mod	_	wordform=grâce
+1	Grâce	grâce	NOUN	_	ExtPos=ADV	6	mod	_	Gender[lex]=Fem|wordform=grâce
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	certaines	certains	DET	_	Gender=Fem|PronType=Ind	4	det	_	Number[lex]=Plur
 4	inscriptions	inscription	NOUN	_	Number=Plur	2	comp:obj	_	Gender[lex]=Fem
@@ -36485,7 +36485,7 @@
 5	un	un	NUM	_	ExtPos=PROPN	4	mod	_	Number[lex]=Sing
 6	à	à	ADP	_	_	5	udep	_	_
 7	zéro	zéro	NUM	_	ExtPos=PROPN	6	comp:obj	_	Number[lex]=Sing
-8	grâce	grâce	NOUN	_	ExtPos=ADV	4	mod	_	_
+8	grâce	grâce	NOUN	_	ExtPos=ADV	4	mod	_	Gender[lex]=Fem
 9	à	à	ADP	_	_	8	comp:obl	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	énième	énième	ADJ	_	Number=Sing	12	mod	_	Gender[ctxt]=Fem
@@ -39168,7 +39168,7 @@
 3	compléta	compléter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	podium	podium	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
-6	grâce	grâce	NOUN	_	ExtPos=ADV	3	mod	_	_
+6	grâce	grâce	NOUN	_	ExtPos=ADV	3	mod	_	Gender[lex]=Fem
 7	à	à	ADP	_	_	6	comp:obl	_	_
 8	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	_
 9	victoire	victoire	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
@@ -39538,7 +39538,7 @@
 8	Cup	Cup	PROPN	_	_	7	flat@name	_	Gender[lex]=Unknown
 9	en	en	ADP	_	_	5	mod	_	_
 10	1988	1988	NUM	_	ExtPos=PROPN	9	comp:obj	_	Number[lex]=Sing
-11	face	face	NOUN	_	ExtPos=ADV	5	mod	_	_
+11	face	face	NOUN	_	ExtPos=ADV	5	mod	_	Gender[lex]=Fem
 12-13	aux	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -39786,7 +39786,7 @@
 3	novembre	novembre	NOUN	_	Number=Sing	2	mod	_	Gender[lex]=Masc
 4	1932	1932	NUM	_	ExtPos=PROPN	3	mod	_	Number[lex]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	suite	suite	NOUN	_	ExtPos=ADV	19	mod	_	_
+6	suite	suite	NOUN	_	ExtPos=ADV	19	mod	_	Gender[lex]=Fem
 7	à	à	ADP	_	_	6	comp:obl	_	_
 8	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	_
 9	création	création	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No

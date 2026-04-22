@@ -2516,7 +2516,7 @@
 14	1975	1975	NUM	_	ExtPos=PROPN	13	comp:obj	_	Number[lex]=Sing
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	1979	1979	NUM	_	ExtPos=PROPN	14	conj:coord	_	Number[lex]=Sing
-17	suite	suite	NOUN	_	ExtPos=ADV	7	mod	_	_
+17	suite	suite	NOUN	_	ExtPos=ADV	7	mod	_	Gender[lex]=Fem
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	17	comp:obl	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -4111,7 +4111,7 @@
 31	en	en	ADP	_	_	30	mod	_	InIdiom=Yes
 32	plus	plus	ADV	_	_	31	comp:obj	_	InIdiom=Yes
 33	pied	pied	NOUN	_	Number=Sing	28	comp:obj@lvc	_	Gender[lex]=Masc
-34	face	face	NOUN	_	ExtPos=ADV	28	mod	_	_
+34	face	face	NOUN	_	ExtPos=ADV	28	mod	_	Gender[lex]=Fem
 35-36	au	_	_	_	_	_	_	_	_
 35	à	à	ADP	_	_	34	comp:obl	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -5172,7 +5172,7 @@
 
 # sent_id = fr-ud-test_00173
 # text = Grâce à une plate-forme logicielle intégrée aux capacités reconnues dans la gestion des emails et la fusion entrant/sortant, les équipes marketing accroissent rapidement leur efficacité et leur impact sur le chiffre d'affaires.
-1	Grâce	grâce	NOUN	_	ExtPos=ADV	27	mod	_	wordform=grâce
+1	Grâce	grâce	NOUN	_	ExtPos=ADV	27	mod	_	Gender[lex]=Fem|wordform=grâce
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	plate-forme	plate-forme	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
@@ -6558,7 +6558,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	inventer	inventer	VERB	_	VerbForm=Inf	8	conj:coord	_	SpaceAfter=No|Subject=Generic
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	grâce	grâce	NOUN	_	ExtPos=ADV	2	mod	_	_
+12	grâce	grâce	NOUN	_	ExtPos=ADV	2	mod	_	Gender[lex]=Fem
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	matériel	matériel	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc
@@ -6611,7 +6611,7 @@
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	pro	professionnel	ADJ	_	Gender=Masc|Number=Sing	8	conj:coord	_	_
 11	survivra	survivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	comp:obj	_	_
-12	face	face	NOUN	_	ExtPos=ADV	11	mod	_	_
+12	face	face	NOUN	_	ExtPos=ADV	11	mod	_	Gender[lex]=Fem
 13-14	aux	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -6837,7 +6837,7 @@
 23	quoi	quoi	PRON	_	Person=3|PronType=Int	22	unk	_	InIdiom=Yes|SpaceAfter=No
 24	...	...	PUNCT	_	_	29	punct	_	_
 25	Par	par	ADP	_	ExtPos=ADV	29	mod	_	Idiom=Yes|wordform=par
-26	contre	contre	NOUN	_	_	25	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+26	contre	contre	NOUN	_	_	25	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 27	,	,	PUNCT	_	_	25	punct	_	_
 28	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	subj	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
@@ -7517,7 +7517,7 @@
 # sent_id = fr-ud-test_00272
 # text = Par contre, si vous êtes nombreux passez votre chemin c'est relativement étroit !
 1	Par	par	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes|wordform=par
-2	contre	contre	NOUN	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	contre	contre	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	si	si	SCONJ	_	_	8	mod	_	CxnElt=8:Conditional-NeutralEpistemic.Protasis@f
 5	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	6	subj	_	Polite=No
@@ -7535,7 +7535,7 @@
 # sent_id = fr-ud-test_00273
 # text = Par contre l'accueil est impeccable et très chaleureux, la propreté parfaite et le petit jardin très reposant...
 1	Par	par	ADP	_	ExtPos=ADV|Shared=Yes	5	mod	_	Idiom=Yes|wordform=par
-2	contre	contre	NOUN	_	_	1	comp:obj	_	InIdiom=Yes
+2	contre	contre	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 4	accueil	accueil	NOUN	_	Number=Sing|Shared=No	5	subj	_	Gender[lex]=Masc
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
