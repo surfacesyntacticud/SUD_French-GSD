@@ -2839,7 +2839,7 @@
 32	ou	ou	CCONJ	_	_	34	cc	_	_
 33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	sœur	sœur	NOUN	_	Number=Sing	31	conj:coord	_	Gender[lex]=Fem
-35	compatible	compatible	ADJ	_	Number=Sing|Shared=Yes	34	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
+35	compatible	compatible	ADJ	_	Number=Sing|Shared=Yes	34	mod	_	Gender[ctxt]=Masc|SpaceAfter=No
 36	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_00103
@@ -38806,7 +38806,7 @@
 30	Jeanne	Jeanne	PROPN	_	_	18	conj:coord	_	Gender[lex]=Unknown
 31	Charlotte	Charlotte	PROPN	_	Shared=No	30	flat@name	_	Gender[lex]=Unknown
 32	Le	Le	PROPN	_	_	31	flat@name	_	Gender[lex]=Unknown
-33	Gris	gris	PROPN	_	Number=Sing	32	flat@name	_	Gender[lex]=Masc|wordform=gris
+33	Gris	Gris	PROPN	_	Number=Sing	32	flat@name	_	Gender[lex]=Masc|wordform=gris
 34	du	du	PROPN	_	_	33	flat@name	_	Gender[lex]=Unknown
 35	Clos	Clos	PROPN	_	_	34	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 36	.	.	PUNCT	_	_	14	punct	_	_
