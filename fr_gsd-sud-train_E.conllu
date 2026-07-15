@@ -805,7 +805,7 @@
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	notamment	notamment	ADV	_	_	23	mod	_	_
 32	lors	lors	ADV	_	_	23	mod	_	_
-33	de	de	ADP	_	_	32	comp:obj	_	_
+33	de	de	ADP	_	_	32	comp:obl	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 35	haute	haut	ADJ	_	Gender=Fem|Number=Sing	36	mod	_	_
 36	saison	saison	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Fem
@@ -1237,7 +1237,7 @@
 2	qualités	qualité	NOUN	_	Number=Plur	8	subj	_	Gender[lex]=Fem
 3	développées	développer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	2	mod	_	Tense[denom]=Past
 4	lors	lors	ADV	_	_	3	mod	_	_
-5	de	de	ADP	_	_	4	comp:obj	_	_
+5	de	de	ADP	_	_	4	comp:obl	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 7	entraînement	entraînement	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2666,7 +2666,7 @@
 # sent_id = fr-ud-train_11728
 # text = Lors de la mise en place du Royaume, l'Islande était sous le contrôle de la couronne danoise depuis 1380, bien qu'elle ait été formellement une possession norvégienne jusqu'en 1814.
 1	Lors	lors	ADV	_	_	13	mod	_	wordform=lors
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	mise	mise	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 5	en	en	ADP	_	_	4	udep	_	_
@@ -3119,7 +3119,7 @@
 12	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp@pass	_	_
 13	matérialiser	matérialiser	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 14	afin	afin	ADV	_	_	13	mod	_	_
-15	de	de	ADP	_	_	14	comp:obj	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
 16	former	former	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	19	det	_	SpaceAfter=No
 18	horribles	horrible	ADJ	_	Number=Plur	19	mod	_	Gender[ctxt]=Masc
@@ -3561,7 +3561,7 @@
 4	défaite	défaite	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem
 5	lors	lors	ADV	_	_	4	mod	_	_
 6-7	du	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	5	comp:obj	_	_
+6	de	de	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	second	second	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 9	tour	tour	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -5573,7 +5573,7 @@
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Garenne	Garenne	PROPN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Fem
 27	afin	afin	ADV	_	_	4	mod	_	_
-28	de	de	ADP	_	_	27	comp:obj	_	_
+28	de	de	ADP	_	_	27	comp:obl	_	_
 29	procéder	procéder	VERB	_	VerbForm=Inf	28	comp:obj	_	Subject=SubjRaising
 30	à	à	ADP	_	_	29	comp:obl	_	_
 31	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
@@ -5948,7 +5948,7 @@
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	fosse	fosse	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Fem
 16	avant	avant	ADV	_	_	8	mod	_	_
-17	d'	de	ADP	_	_	16	comp:obj	_	SpaceAfter=No
+17	d'	de	ADP	_	_	16	comp:obl	_	SpaceAfter=No
 18	emmener	emmener	VERB	_	VerbForm=Inf	17	comp:obj	_	Subject=SubjRaising
 19	Lavinia	Lavinia	PROPN	_	_	18	comp:obj	_	Gender[lex]=Unknown
 20	dans	dans	ADP	_	_	18	comp:obl	_	_
@@ -6496,7 +6496,7 @@
 29	remis	remettre	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	28	comp:aux@tense	_	Tense[denom]=Past
 30	juste	juste	ADV	_	_	31	mod	_	_
 31	avant	avant	ADV	_	_	28	mod	_	_
-32	de	de	ADP	_	_	31	comp:obj	_	_
+32	de	de	ADP	_	_	31	comp:obl	_	_
 33	mourir	mourir	VERB	_	VerbForm=Inf	32	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 34	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -8904,7 +8904,7 @@
 # sent_id = fr-ud-train_11949
 # text = Lors de sa première saison, il inscrit 82 points en 47 matchs.
 1	Lors	lors	ADV	_	_	8	mod	_	wordform=lors
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	_
 4	première	premier	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 5	saison	saison	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -9258,7 +9258,7 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	règles	règle	NOUN	_	Number=Plur	8	comp:obj	_	Gender[lex]=Fem
 10	afin	afin	ADV	_	_	3	mod	_	_
-11	de	de	ADP	_	_	10	comp:obj	_	_
+11	de	de	ADP	_	_	10	comp:obl	_	_
 12	s'	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	13	comp:obj	_	SpaceAfter=No
 13	assurer	assurer	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 14	de	de	ADP	_	_	13	comp:obl	_	_
@@ -9421,7 +9421,7 @@
 10	jurassien	jurassien	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 11	lors	lors	ADV	_	_	3	mod	_	_
 12-13	du	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	11	comp:obj	_	_
+12	de	de	ADP	_	_	11	comp:obl	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	second	second	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
 15	tour	tour	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc
@@ -10911,7 +10911,7 @@
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj@expl	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 9	lors	lors	ADV	_	_	8	comp:pred	_	_
-10	de	de	ADP	_	_	9	comp:obj	_	_
+10	de	de	ADP	_	_	9	comp:obl	_	_
 11	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	voyage	voyage	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 13	qu'	que	SCONJ	_	_	8	comp:cleft	_	SpaceAfter=No
@@ -10964,7 +10964,7 @@
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Russie	Russie	PROPN	_	Number=Sing	21	subj	_	Gender[lex]=Fem
 16	lors	lors	ADV	_	_	21	mod	_	_
-17	de	de	ADP	_	_	16	comp:obj	_	_
+17	de	de	ADP	_	_	16	comp:obl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	_
 20	journée	journée	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
@@ -12522,7 +12522,7 @@
 5	en	en	ADP	_	_	2	mod	_	_
 6	2004	2004	NUM	_	ExtPos=PROPN	5	comp:obj	_	Number[lex]=Sing
 7	lors	lors	ADV	_	_	2	mod	_	_
-8	de	de	ADP	_	_	7	comp:obj	_	_
+8	de	de	ADP	_	_	7	comp:obl	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	création	création	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
 11-12	du	_	_	_	_	_	_	_	_
@@ -13040,7 +13040,7 @@
 5	Argentine	Argentine	PROPN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Unknown
 6	lors	lors	ADV	_	_	2	mod	_	_
 7-8	des	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	6	comp:obj	_	_
+7	de	de	ADP	_	_	6	comp:obl	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	championnats	championnat	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Masc
 10-11	du	_	_	_	_	_	_	_	_
@@ -13687,7 +13687,7 @@
 22	--	--	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	lors	lors	ADV	_	_	20	mod	_	_
 24-25	des	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	23	comp:obj	_	_
+24	de	de	ADP	_	_	23	comp:obl	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	élections	élection	NOUN	_	Number=Plur	24	comp:obj	_	Gender[lex]=Fem
 27	anticipées	anticiper	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	26	mod	_	Tense[denom]=Past
@@ -13936,7 +13936,7 @@
 4	ronde	ronde	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 5	lors	lors	ADV	_	_	1	mod	_	_
 6-7	du	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	5	comp:obj	_	_
+6	de	de	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	repêchage	repêchage	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 9	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
@@ -14862,7 +14862,7 @@
 6	Meurthe-et-Moselle	Meurthe-et-Moselle	PROPN	_	_	5	comp:obj	_	Gender[lex]=Unknown
 7	lors	lors	ADV	_	_	1	mod	_	_
 8-9	des	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	7	comp:obj	_	_
+8	de	de	ADP	_	_	7	comp:obl	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	élections	élection	NOUN	_	Number=Plur	8	comp:obj	_	Gender[lex]=Fem
 11	législatives	législatif	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	_
@@ -16453,7 +16453,7 @@
 28	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj:coord	_	_
 29	indemne	indemne	ADJ	_	Number=Sing|Shared=No	28	comp:pred	_	Gender[ctxt]=Masc
 30	lors	lors	ADV	_	Shared=No	28	mod	_	_
-31	de	de	ADP	_	_	30	comp:obj	_	_
+31	de	de	ADP	_	_	30	comp:obl	_	_
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 33	intervention	intervention	NOUN	_	Number=Sing	31	comp:obj	_	Gender[lex]=Fem
 34-35	des	_	_	_	_	_	_	_	_
@@ -17035,7 +17035,7 @@
 13	4	4	NUM	_	ExtPos=DET	14	mod	_	Number[lex]=Plur
 14	chevaliers	chevalier	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Masc
 15	afin	afin	ADV	_	_	2	mod	_	_
-16	d'	de	ADP	_	_	15	comp:obj	_	SpaceAfter=No
+16	d'	de	ADP	_	_	15	comp:obl	_	SpaceAfter=No
 17	empêcher	empêcher	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=Generic
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	progression	progression	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem
@@ -18373,7 +18373,7 @@
 14	trop	trop	ADV	_	ExtPos=PRON	13	comp:obj	_	_
 15	d'	de	ADP	_	_	14	comp:obl	_	SpaceAfter=No
 16	erreurs	erreur	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Fem
-17	pour	pour	ADP	_	_	14	comp:obj	_	_
+17	pour	pour	ADP	_	_	14	comp:obl	_	_
 18	espérer	espérer	VERB	_	VerbForm=Inf	17	comp:obj	_	Subject=SubjRaising
 19	inquiéter	inquiéter	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
@@ -20142,7 +20142,7 @@
 20	espoirs	espoir	NOUN	_	Number=Plur	18	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	avant	avant	ADV	_	_	17	mod	_	_
-23	de	de	ADP	_	_	22	comp:obj	_	_
+23	de	de	ADP	_	_	22	comp:obl	_	_
 24	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	comp:obj	_	_
 25	voir	voir	VERB	_	VerbForm=Inf	23	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 26	,	,	PUNCT	_	_	28	punct	_	_
@@ -21963,7 +21963,7 @@
 11	âges	âge	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Masc
 12	relatifs	relatif	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
-14	à	à	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
+14	à	à	ADP	_	ExtPos=CCONJ	17	cc	_	Idiom=Yes
 15	savoir	savoir	VERB	_	VerbForm=Inf	14	comp:obj	_	InIdiom=Yes
 16	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	_
 17	ordre	ordre	NOUN	_	Number=Sing	11	conj:appos	_	Gender[lex]=Masc
@@ -23722,7 +23722,7 @@
 # sent_id = fr-ud-train_12484
 # text = Lors de la tournée sur gazon, elle atteint la finale du tournoi de Bois-le-Duc où elle s'incline en trois sets contre Justine Henin.
 1	Lors	lors	ADV	_	_	9	mod	_	wordform=lors
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	tournée	tournée	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 5	sur	sur	ADP	_	_	4	udep	_	_
@@ -23941,7 +23941,7 @@
 30	points	point	NOUN	_	Number=Plur	28	comp:obj	_	Gender[lex]=Masc
 31	acquis	acquérir	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	30	mod	_	Tense[denom]=Past
 32	lors	lors	ADV	_	_	31	mod	_	_
-33	de	de	ADP	_	_	32	comp:obj	_	_
+33	de	de	ADP	_	_	32	comp:obl	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 35	première	premier	ADJ	_	Gender=Fem|Number=Sing	36	mod	_	_
 36	phase	phase	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -24185,7 +24185,7 @@
 17	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	18	comp@expl	_	_
 18	déplaçant	déplacer	VERB	_	VerbForm=Part	16	mod	_	Tense[denom]=Pres
 19	hors	hors	ADV	_	_	18	mod	_	_
-20	de	de	ADP	_	_	19	comp:obj	_	_
+20	de	de	ADP	_	_	19	comp:obl	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	zone	zone	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem
 23	de	de	ADP	_	_	22	udep	_	_
@@ -24955,7 +24955,7 @@
 5	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	6	comp@pass	_	_
 6	dispute	disputer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	lors	lors	ADV	_	_	6	mod	_	_
-8	de	de	ADP	_	_	7	comp:obj	_	_
+8	de	de	ADP	_	_	7	comp:obl	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	saison	saison	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
 11	1995-1996	1995-1996	NUM	_	ExtPos=PROPN	10	mod	_	Number[lex]=Sing|SpaceAfter=No
@@ -26462,7 +26462,7 @@
 # sent_id = fr-ud-train_12576
 # text = Afin de réaliser rapidement les derniers ajustements, ils furent délégués à des équipes séparées.
 1	Afin	afin	ADV	_	_	10	mod	_	wordform=afin
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	réaliser	réaliser	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=Generic
 4	rapidement	rapidement	ADV	_	_	3	mod	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -26909,7 +26909,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	lors	lors	ADV	_	_	21	mod	_	_
 6-7	des	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	5	comp:obj	_	_
+6	de	de	ADP	_	_	5	comp:obl	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Jeux	jeu	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Masc|wordform=jeux
 9	olympiques	olympique	ADJ	_	Number=Plur	8	mod	_	Gender[ctxt]=Masc
@@ -28331,7 +28331,7 @@
 11	logiciel	logiciel	NOUN	_	Number=Sing	10	conj:appos	_	Gender[lex]=Masc
 12	standard	standard	ADJ	_	_	10	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
 13	afin	afin	ADV	_	_	8	mod	_	_
-14	de	de	ADP	_	_	13	comp:obj	_	_
+14	de	de	ADP	_	_	13	comp:obl	_	_
 15	gérer	gérer	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=Generic
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	de	de	ADP	_	_	14	conj:coord	_	_
@@ -29495,7 +29495,7 @@
 12	Burn	Burn	PROPN	_	Shared=No	11	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	avant	avant	ADV	_	_	2	mod	_	_
-15	de	de	ADP	_	_	14	comp:obj	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
 16	fonder	fonder	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	Hermano	Hermano	PROPN	_	_	16	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
@@ -30274,7 +30274,7 @@
 17	mont	mont	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Masc
 18	Arden	Arden	PROPN	_	_	17	conj:appos	_	Gender[lex]=Unknown
 19	avant	avant	ADV	_	Shared=No	9	mod	_	_
-20	d'	de	ADP	_	_	19	comp:obj	_	SpaceAfter=No
+20	d'	de	ADP	_	_	19	comp:obl	_	SpaceAfter=No
 21	explorer	explorer	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	région	région	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Fem
@@ -30738,7 +30738,7 @@
 28	chevaucher	chevaucher	VERB	_	VerbForm=Inf	26	comp:pred	_	SpaceAfter=No|Subject=ObjRaising
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	avant	avant	ADV	_	_	26	mod	_	_
-31	d'	de	ADP	_	_	30	comp:obj	_	SpaceAfter=No
+31	d'	de	ADP	_	_	30	comp:obl	_	SpaceAfter=No
 32	échapper	échapper	VERB	_	VerbForm=Inf	31	comp:obj	_	Subject=SubjRaising
 33-34	au	_	_	_	_	_	_	_	_
 33	à	à	ADP	_	_	32	comp:obl	_	_
@@ -31513,7 +31513,7 @@
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	menacé	menacer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	comp:aux@tense	_	Tense[denom]=Past
 14	avant	avant	ADV	_	_	12	mod	_	_
-15	de	de	ADP	_	_	14	comp:obj	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
 16	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	comp@expl	_	SpaceAfter=No
 17	enfuir	enfuir	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 18	avec	avec	ADP	_	_	17	mod	_	_
@@ -31942,7 +31942,7 @@
 30	locale	local	ADJ	_	Gender=Fem|Number=Sing	29	mod	_	_
 31	convertible	convertible	ADJ	_	Number=Sing	29	mod	_	Gender[ctxt]=Fem
 32	afin	afin	ADV	_	_	12	mod	_	_
-33	de	de	ADP	_	_	32	comp:obj	_	_
+33	de	de	ADP	_	_	32	comp:obl	_	_
 34	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	35	comp:obl	_	_
 35	faciliter	faciliter	VERB	_	VerbForm=Inf	33	comp:obj	_	Subject=Generic
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
@@ -32507,7 +32507,7 @@
 # sent_id = fr-ud-train_12788
 # text = Avant d'être abattu par Tracy, ce responsable--lui-même artificiel--explique vouloir remplacer les hommes importants par des machines afin de créer un monde plus stable.
 1	Avant	avant	ADV	_	_	14	mod	_	wordform=avant
-2	d'	de	ADP	_	_	1	comp:obj	_	SpaceAfter=No
+2	d'	de	ADP	_	_	1	comp:obl	_	SpaceAfter=No
 3	être	être	AUX	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 4	abattu	abattre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
 5	par	par	ADP	_	_	4	comp:obl@agent	_	_
@@ -32529,7 +32529,7 @@
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	machines	machine	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Fem
 23	afin	afin	ADV	_	_	16	mod	_	_
-24	de	de	ADP	_	_	23	comp:obj	_	_
+24	de	de	ADP	_	_	23	comp:obl	_	_
 25	créer	créer	VERB	_	VerbForm=Inf	24	comp:obj	_	Subject=Generic
 26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	monde	monde	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Masc
@@ -33838,7 +33838,7 @@
 39	6	6	NUM	_	ExtPos=PROPN|Shared=No	17	mod	_	Number[lex]=Sing
 40	octobre	octobre	NOUN	_	Number=Sing	39	mod	_	Gender[lex]=Masc
 41	lors	lors	ADV	_	Shared=No	17	mod	_	_
-42	de	de	ADP	_	_	41	comp:obj	_	_
+42	de	de	ADP	_	_	41	comp:obl	_	_
 43	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 44	deuxième	deuxième	ADJ	_	Number=Sing	45	mod	_	Gender[ctxt]=Fem
 45	manche	manche	NOUN	_	Number=Sing	42	comp:obj	_	Gender[lex]=Fem
@@ -34970,7 +34970,7 @@
 12	moulins	moulin	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	afin	afin	ADV	_	_	10	mod	_	_
-15	de	de	ADP	_	_	14	comp:obj	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
 16	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
 17	démolir	démolir	VERB	_	VerbForm=Inf	15	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 18	.	.	PUNCT	_	_	8	punct	_	_
@@ -35314,7 +35314,7 @@
 18	et	et	CCONJ	_	_	20	cc	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	dessous	dessous	NOUN	_	_	17	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Plur
-21	pour	pour	ADP	_	_	15	comp:obj	_	_
+21	pour	pour	ADP	_	_	15	comp:obl	_	_
 22	être	être	AUX	_	VerbForm=Inf	21	comp:obj	_	Subject=SubjRaising
 23	surpris	surprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	22	comp:aux@pass	_	Tense[denom]=Past
 24	par	par	ADP	_	_	23	comp:obl@agent	_	_
@@ -35764,7 +35764,7 @@
 # text = Hors du Sud de la France, cette variété de fraise pose problème, car du fait du transport elle arrive aux étalages soit très chère, soit abîmée, soit enfin elle est récoltée avant sa pleine maturité pour en faciliter le transport, ce qui ne laisse pas le temps au fruit de développer ses saveurs spécifiques.
 1	Hors	hors	ADV	_	Shared=Yes	13	mod	_	wordform=hors
 2-3	du	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Sud	sud	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc|wordform=sud
 5	de	de	ADP	_	_	4	udep	_	_
@@ -36321,7 +36321,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	comme	comme	SCONJ	_	_	2	mod	_	_
 16	lors	lors	ADV	_	_	15	comp:obj	_	_
-17	de	de	ADP	_	_	16	comp:obj	_	_
+17	de	de	ADP	_	_	16	comp:obl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	Grande	grand	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	wordform=grande
 20	Charte	charte	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem|wordform=charte
@@ -37972,7 +37972,7 @@
 7	doublée	doubler	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Tense[denom]=Past
 8	lors	lors	ADV	_	_	4	mod	_	_
 9-10	des	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	8	comp:obj	_	_
+9	de	de	ADP	_	_	8	comp:obl	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	travaux	travail	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
@@ -38280,7 +38280,7 @@
 27	nid-de-pie	nid-de-pie	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	afin	afin	ADV	_	_	21	mod	_	_
-30	d'	de	ADP	_	_	29	comp:obj	_	SpaceAfter=No
+30	d'	de	ADP	_	_	29	comp:obl	_	SpaceAfter=No
 31	attirer	attirer	VERB	_	VerbForm=Inf	30	comp:obj	_	Subject=Generic
 32	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	33	det	_	_
 33	attention	attention	NOUN	_	Number=Sing	31	comp:obj	_	Gender[lex]=Fem
@@ -41432,7 +41432,7 @@
 4	réunions	réunion	NOUN	_	Number=Plur	2	comp:obj	_	Gender[lex]=Fem
 5	officielles	officiel	ADJ	_	Gender=Fem|Number=Plur	4	mod	_	_
 6	afin	afin	ADV	_	_	2	mod	_	_
-7	de	de	ADP	_	_	6	comp:obj	_	_
+7	de	de	ADP	_	_	6	comp:obl	_	_
 8	mesurer	mesurer	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=Generic
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	10	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 10	étendue	étendue	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
@@ -42379,7 +42379,7 @@
 16	de	de	ADP	_	_	12	udep	_	_
 17	Potchefstroom	Potchefstroom	PROPN	_	_	16	comp:obj	_	Gender[lex]=Unknown
 18	avant	avant	ADV	_	_	2	mod	_	_
-19	d'	de	ADP	_	_	18	comp:obj	_	SpaceAfter=No
+19	d'	de	ADP	_	_	18	comp:obl	_	SpaceAfter=No
 20	entreprendre	entreprendre	VERB	_	VerbForm=Inf	19	comp:obj	_	Subject=SubjRaising
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	études	étude	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Fem
@@ -44755,7 +44755,7 @@
 # sent_id = fr-ud-train_13202
 # text = Lors de cette dernière édition, il est sacré meilleur gardien du tournoi et a sa place dans l'équipe type du tournoi.
 1	Lors	lors	ADV	_	Shared=Yes	8	mod	_	wordform=lors
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 4	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 5	édition	édition	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -44954,7 +44954,7 @@
 # text = Lors du Grand Prix de Detroit, Keke Rosberg, parti cinquième, prend la tête de la course et remporte l'épreuve.
 1	Lors	lors	ADV	_	Shared=Yes	15	mod	_	wordform=lors
 2-3	du	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	wordform=grand
 5	Prix	prix	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|wordform=prix
@@ -45403,7 +45403,7 @@
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	députés	député	NOUN	_	Number=Plur	22	comp:obj	_	Gender[lex]=Masc
 25	afin	afin	ADV	_	_	16	mod	_	_
-26	d'	de	ADP	_	_	25	comp:obj	_	SpaceAfter=No
+26	d'	de	ADP	_	_	25	comp:obl	_	SpaceAfter=No
 27	instaurer	instaurer	VERB	_	VerbForm=Inf	26	comp:obj	_	Subject=Generic
 28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	pointage	pointage	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc
@@ -45445,7 +45445,7 @@
 23	dira	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	parataxis:insert	_	SpaceAfter=No
 24	-t-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	wordform=il
 25	avant	avant	ADV	_	_	23	mod	_	_
-26	de	de	ADP	_	_	25	comp:obj	_	_
+26	de	de	ADP	_	_	25	comp:obl	_	_
 27	se	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	28	comp:obj	_	_
 28	lancer	lancer	VERB	_	VerbForm=Inf	26	comp:obj	_	Subject=SubjRaising
 29	sur	sur	ADP	_	_	28	mod	_	_
@@ -45807,7 +45807,7 @@
 9	été	été	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc
 10	1982	1982	NUM	_	ExtPos=PROPN	9	mod	_	Number[lex]=Sing
 11	avant	avant	ADV	_	_	3	mod	_	_
-12	de	de	ADP	_	_	11	comp:obj	_	_
+12	de	de	ADP	_	_	11	comp:obl	_	_
 13	retourner	retourner	VERB	_	VerbForm=Inf	12	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -48247,7 +48247,7 @@
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	hors	hors	ADV	_	_	25	comp:obl	_	_
 31-32	du	_	_	_	_	_	_	_	_
-31	de	de	ADP	_	_	30	comp:obj	_	_
+31	de	de	ADP	_	_	30	comp:obl	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	Cotentin	Cotentin	PROPN	_	Number=Sing	31	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
@@ -48446,7 +48446,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	bien	bien	ADV	_	ExtPos=SCONJ	12	mod	_	Idiom=Yes
 7	que	que	SCONJ	_	_	6	unk	_	InIdiom=Yes
-8	de	de	ADP	_	_	6	comp:obj	_	_
+8	de	de	ADP	_	_	6	comp:obl	_	_
 9	taille	taille	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem
 10	modeste	modeste	ADJ	_	Number=Sing	9	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
@@ -49260,7 +49260,7 @@
 17	particulière	particulier	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	_
 18	lors	lors	ADV	_	_	14	mod	_	_
 19-20	du	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	18	comp:obj	_	_
+19	de	de	ADP	_	_	18	comp:obl	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	phénomène	phénomène	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 22	.	.	PUNCT	_	_	7	punct	_	_
@@ -50033,7 +50033,7 @@
 30	de	de	ADP	_	_	29	udep	_	_
 31	Lee	Lee	PROPN	_	_	30	comp:obj	_	Gender[lex]=Unknown
 32	lors	lors	ADV	_	Shared=Yes	20	mod	_	_
-33	de	de	ADP	_	_	32	comp:obj	_	_
+33	de	de	ADP	_	_	32	comp:obl	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	bataille	bataille	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Fem
 36	d'	de	ADP	_	_	35	udep	_	SpaceAfter=No
@@ -51490,7 +51490,7 @@
 23	Royaume-Uni	Royaume-Uni	PROPN	_	Number=Sing|Shared=No	21	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	avant	avant	ADV	_	Shared=No	12	mod	_	_
-26	de	de	ADP	_	_	25	comp:obj	_	_
+26	de	de	ADP	_	_	25	comp:obl	_	_
 27	revenir	revenir	VERB	_	VerbForm=Inf	26	comp:obj	_	Subject=SubjRaising
 28-29	au	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	_	27	comp:obl	_	_
@@ -52103,7 +52103,7 @@
 45	jeune	jeune	ADJ	_	Number=Sing	44	mod	_	Gender[ctxt]=Masc
 46	surtout	surtout	ADV	_	_	47	mod	_	_
 47	lors	lors	ADV	_	_	31	mod	_	_
-48	d'	de	ADP	_	_	47	comp:obj	_	SpaceAfter=No
+48	d'	de	ADP	_	_	47	comp:obl	_	SpaceAfter=No
 49	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	effort	effort	NOUN	_	Number=Sing	48	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 51	.	.	PUNCT	_	_	30	punct	_	_
@@ -52934,7 +52934,7 @@
 30	dépaysement	dépaysement	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Masc
 31	total	total	ADJ	_	Gender=Masc|Number=Sing	30	mod	_	_
 32	lors	lors	ADV	_	_	28	mod	_	_
-33	de	de	ADP	_	_	32	comp:obj	_	_
+33	de	de	ADP	_	_	32	comp:obl	_	_
 34	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	35	det	_	_
 35	séjour	séjour	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Masc
 36	à	à	ADP	_	_	35	udep	_	_
@@ -53572,7 +53572,7 @@
 21	actifs	actif	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
 22	lors	lors	ADV	_	_	13	mod	_	_
 23-24	des	_	_	_	_	_	_	_	_
-23	de	de	ADP	_	_	22	comp:obj	_	_
+23	de	de	ADP	_	_	22	comp:obl	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	playoffs	playoff	NOUN	_	Number=Plur	23	comp:obj	_	Gender[lex]=Masc
 26	ces	ce	DET	_	Number=Plur|PronType=Dem	28	det	_	_
@@ -54570,7 +54570,7 @@
 11	de	de	ADP	_	_	8	udep	_	_
 12	football	football	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc
 13	lors	lors	ADV	_	_	5	mod	_	_
-14	de	de	ADP	_	_	13	comp:obj	_	_
+14	de	de	ADP	_	_	13	comp:obl	_	_
 15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	_
 16	participation	participation	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem
 17	à	à	ADP	_	_	16	udep	_	_
@@ -55574,12 +55574,12 @@
 20	population	population	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	lors	lors	ADV	_	_	2	mod	_	_
-23	d'	de	ADP	_	_	22	comp:obj	_	SpaceAfter=No
+23	d'	de	ADP	_	_	22	comp:obl	_	SpaceAfter=No
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	sondage	sondage	NOUN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	afin	afin	ADV	_	_	2	mod	_	_
-28	d'	de	ADP	_	_	27	comp:obj	_	SpaceAfter=No
+28	d'	de	ADP	_	_	27	comp:obl	_	SpaceAfter=No
 29	en	en	PRON	_	Emph=No|Person=3|PronType=Prs	32	udep	_	_
 30	déduire	déduire	VERB	_	VerbForm=Inf	28	comp:obj	_	Subject=Generic
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
@@ -56297,7 +56297,7 @@
 11	garage	garage	NOUN	_	Number=Sing|Shared=No	10	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	avant	avant	ADV	_	_	3	mod	_	_
-14	de	de	ADP	_	_	13	comp:obj	_	_
+14	de	de	ADP	_	_	13	comp:obl	_	_
 15	devenir	devenir	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	dépôt	dépôt	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Masc
@@ -56312,7 +56312,7 @@
 26	1992	1992	NUM	_	ExtPos=PROPN	25	comp:obj	_	Number[lex]=Sing|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	lors	lors	ADV	_	_	15	mod	_	_
-29	de	de	ADP	_	_	28	comp:obj	_	_
+29	de	de	ADP	_	_	28	comp:obl	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	guerre	guerre	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Fem
 32-33	du	_	_	_	_	_	_	_	_
@@ -56350,7 +56350,7 @@
 15	péri	périr	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	14	comp:aux@tense	_	Tense[denom]=Past
 16	lors	lors	ADV	_	_	14	mod	_	_
 17-18	du	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	16	comp:obj	_	_
+17	de	de	ADP	_	_	16	comp:obl	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	crash	crash	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Masc
 20	d'	de	ADP	_	_	19	udep	_	SpaceAfter=No
@@ -58516,7 +58516,7 @@
 10	408	408	NUM	_	ExtPos=PROPN	9	comp:obj	_	Number[lex]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	avant	avant	ADV	_	_	2	mod	_	_
-13	de	de	ADP	_	_	12	comp:obj	_	_
+13	de	de	ADP	_	_	12	comp:obl	_	_
 14	conquérir	conquérir	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 16	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	17	mod	_	_
@@ -62430,7 +62430,7 @@
 # text = Lors des événements qui ont éclaté dimanche après-midi, à Tunis, à l'occasion de la projection du film "Ni Allah ni maître" à l'Africart, sept jeunes ont été arrêtés par la police.
 1	Lors	lors	ADV	_	_	35	mod	_	wordform=lors
 2-3	des	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	événements	événement	NOUN	_	Number=Plur	2	comp:obj	_	Gender[lex]=Masc
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
@@ -62585,7 +62585,7 @@
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	martyre	martyre	NOUN	_	Number=Sing|Shared=No	29	comp:obj	_	Gender[lex]=Masc
 32	lors	lors	ADV	_	Shared=No	29	mod	_	_
-33	de	de	ADP	_	_	32	comp:obj	_	_
+33	de	de	ADP	_	_	32	comp:obl	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	persécution	persécution	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Fem
 36	de	de	ADP	_	_	35	udep	_	_
@@ -66570,7 +66570,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	lors	lors	ADV	_	_	27	mod	_	_
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	3	comp:obj	_	_
+4	de	de	ADP	_	_	3	comp:obl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	passage	passage	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc
 7	de	de	ADP	_	_	6	udep	_	_
@@ -70969,7 +70969,7 @@
 2	infirmière	infirmière	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
 3	hors	hors	ADV	_	_	2	mod	_	_
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	3	comp:obj	_	_
+4	de	de	ADP	_	_	3	comp:obl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	commun	commun	ADJ	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	car	car	CCONJ	_	Shared=Yes	15	cc	_	_
@@ -72209,7 +72209,7 @@
 9	imprimerie	imprimerie	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	avant	avant	ADV	_	_	2	mod	_	_
-12	d'	de	ADP	_	_	11	comp:obj	_	SpaceAfter=No
+12	d'	de	ADP	_	_	11	comp:obl	_	SpaceAfter=No
 13	en	en	PRON	_	Emph=No|Person=3|PronType=Prs	15	udep	_	_
 14	ouvrir	ouvrir	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 15	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	14	comp:obj	_	_
@@ -72660,7 +72660,7 @@
 # text = Lors des deux saisons suivantes, Quackenbush totalise plus de vingt points pour seulement dix et huit minutes de pénalité.
 1	Lors	lors	ADV	_	_	9	mod	_	wordform=lors
 2-3	des	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 4	deux	deux	NUM	_	ExtPos=DET	5	mod	_	Number[lex]=Plur
 5	saisons	saison	NOUN	_	Number=Plur	2	comp:obj	_	Gender[lex]=Fem
@@ -73595,7 +73595,7 @@
 10	noyaient	noyer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj:coord	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	avant	avant	ADV	_	Shared=Yes	10	mod	_	_
-13	de	de	ADP	_	_	12	comp:obj	_	_
+13	de	de	ADP	_	_	12	comp:obl	_	_
 14	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	comp@expl	_	_
 15	moquer	moquer	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
 16	de	de	ADP	_	_	15	comp:obl	_	_
@@ -73698,7 +73698,7 @@
 # sent_id = fr-ud-train_14231
 # text = Avant de me rendre dans les camps, j'ai rencontré un représentant du Front Polisario à Londres qui m'a dit : « les camps sont l'un des endroits les plus sûrs de cette planète ».
 1	Avant	avant	ADV	_	_	10	mod	_	wordform=avant
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	comp@expl	_	_
 4	rendre	rendre	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 5	dans	dans	ADP	_	_	4	comp:obl	_	_
@@ -75184,7 +75184,7 @@
 7	19	19	NUM	_	ExtPos=DET	8	det	_	Number[lex]=Plur
 8	ans	an	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Masc
 9	avant	avant	ADV	_	_	2	mod	_	_
-10	de	de	ADP	_	_	9	comp:obj	_	_
+10	de	de	ADP	_	_	9	comp:obl	_	_
 11	connaître	connaître	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	parenthèse	parenthèse	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
@@ -75655,7 +75655,7 @@
 6	date	date	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem
 7	1114	1114	NUM	_	ExtPos=PROPN	6	mod	_	Number[lex]=Sing
 8	lors	lors	ADV	_	_	3	mod	_	_
-9	d'	de	ADP	_	_	8	comp:obj	_	SpaceAfter=No
+9	d'	de	ADP	_	_	8	comp:obl	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	restauration	restauration	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Fem
 12	en	en	ADP	_	_	11	udep	_	_
@@ -76194,7 +76194,7 @@
 6	film	film	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	lors	lors	ADV	_	_	3	mod	_	_
-9	de	de	ADP	_	_	8	comp:obj	_	_
+9	de	de	ADP	_	_	8	comp:obl	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
 11	sortie	sortie	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Fem
 12	ou	ou	CCONJ	_	_	13	cc	_	_
@@ -76364,7 +76364,7 @@
 14	Nagi	Nagi	PROPN	_	_	13	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	afin	afin	ADV	_	_	13	mod	_	_
-17	de	de	ADP	_	_	16	comp:obj	_	_
+17	de	de	ADP	_	_	16	comp:obl	_	_
 18	punir	punir	VERB	_	VerbForm=Inf	17	comp:obj	_	Subject=Generic
 19	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	20	det	_	_
 20	malhonnêteté	malhonnêteté	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -77156,7 +77156,7 @@
 8	à	à	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
 9	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	8	comp:obj	_	InIdiom=Yes
 10	lors	lors	ADV	_	_	7	mod	_	_
-11	d'	de	ADP	_	_	10	comp:obj	_	SpaceAfter=No
+11	d'	de	ADP	_	_	10	comp:obl	_	SpaceAfter=No
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	écrasante	écrasant	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	_
 14	victoire	victoire	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
@@ -77619,7 +77619,7 @@
 # sent_id = fr-ud-train_14370
 # text = Afin de limiter les risques d'accident du cheval et de son cavalier, certains équipements sont obligatoires tandis que d'autres sont conseillés.
 1	Afin	afin	ADV	_	_	18	mod	_	wordform=afin
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	limiter	limiter	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=Generic
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	risques	risque	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Masc
@@ -78991,7 +78991,7 @@
 9	rivière	rivière	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Fem
 10	Margaree	Margaree	PROPN	_	_	9	conj:appos	_	Gender[lex]=Unknown
 11	avant	avant	ADV	_	_	4	mod	_	_
-12	de	de	ADP	_	_	11	comp:obj	_	_
+12	de	de	ADP	_	_	11	comp:obl	_	_
 13	longer	longer	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Lac	Lac	PROPN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc
@@ -79133,7 +79133,7 @@
 # text = Lors du match retour 2/2 disputé au stade d'Highbury, un doublé de Cantona, répond à l'ouverture du score par Paul Gascoigne, permettant aux espoirs français d'obtenir un match nul et la qualification.
 1	Lors	lors	ADV	_	_	21	mod	_	wordform=lors
 2-3	du	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	match	match	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc
 5	retour	retour	NOUN	_	Number=Sing	4	mod	_	Gender[lex]=Masc
@@ -80300,7 +80300,7 @@
 # sent_id = fr-ud-train_14463
 # text = Lors de sa discussion avec Ryan Murphy, il admet qu'il avait envisagé de quitter l'aventure depuis un certain temps ;
 1	Lors	lors	ADV	_	_	10	mod	_	wordform=lors
-2	de	de	ADP	_	_	1	comp:obj	_	_
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	4	det	_	_
 4	discussion	discussion	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 5	avec	avec	ADP	_	_	4	udep	_	_
@@ -81013,7 +81013,7 @@
 21	Italie	Italie	PROPN	_	_	20	comp:obj	_	Gender[lex]=Unknown
 22	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	mod	_	Tense[denom]=Past
 23	lors	lors	ADV	_	_	22	mod	_	_
-24	de	de	ADP	_	_	23	comp:obj	_	_
+24	de	de	ADP	_	_	23	comp:obl	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	saison	saison	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Fem
 27	2003-2004	2003-2004	NUM	_	ExtPos=PROPN	26	mod	_	Number[lex]=Sing
@@ -82344,7 +82344,7 @@
 1	Formé	former	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	mod	_	Subject=Instantiated|Tense[denom]=Past|wordform=formé
 2	lors	lors	ADV	_	_	1	mod	_	_
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	2	comp:obj	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	déclin	déclin	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
 6-7	du	_	_	_	_	_	_	_	_
@@ -82579,7 +82579,7 @@
 11	relative	relatif	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
 12	lors	lors	ADV	_	_	8	mod	_	_
 13-14	des	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	12	comp:obj	_	_
+13	de	de	ADP	_	_	12	comp:obl	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	législatives	législative	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Fem
 16	de	de	ADP	_	_	15	udep	_	_
