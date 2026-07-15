@@ -13330,7 +13330,7 @@
 3	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	4	mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	vu	voir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Tense[denom]=Past
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	unk@scrap	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	unk	_	Scrap=Yes
 7	«	«	PUNCT	_	_	9	punct	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	univers	univers	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -30745,7 +30745,7 @@
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	contrôle	contrôle	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Masc
 36	de	de	ADP	_	_	35	udep	_	_
-37	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	36	comp:obj@scrap	_	_
+37	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	36	comp:obj	_	Scrap=Yes
 38	ou	ou	CCONJ	_	_	39	cc	_	_
 39	de	de	ADP	_	_	36	conj:coord	_	_
 40	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	41	det	_	_
@@ -58239,7 +58239,7 @@
 8	qu'	que	SCONJ	_	_	7	comp:obj	_	SpaceAfter=No
 9	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
 10	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
-11	se	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	10	unk@scrap	_	_
+11	se	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	10	unk	_	Scrap=Yes
 12	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 13	tombée	tomber	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	12	comp:aux@tense	_	Tense[denom]=Past
 14	amoureuse	amoureux	ADJ	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
@@ -63095,7 +63095,7 @@
 2	assemblée	assemblée	NOUN	_	Number=Sing|Shared=Yes	3	subj@pass	_	Gender[lex]=Fem
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	convoquée	convoquer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
-5	et	et	CCONJ	_	_	4	unk@scrap	_	_
+5	et	et	CCONJ	_	_	4	unk	_	Scrap=Yes
 6	par	par	ADP	_	_	4	comp:obl@agent	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	roi	roi	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc

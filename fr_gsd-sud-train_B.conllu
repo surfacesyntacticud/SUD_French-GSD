@@ -31243,7 +31243,7 @@
 # text = Beneš part pour à Londres où il fonde en 1940 le gouvernement tchécoslovaque en exil, et en assume la présidence.
 1	Beneš	Beneš	PROPN	_	_	2	subj	_	Gender[lex]=Unknown
 2	part	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pour	pour	ADP	_	_	2	unk@scrap	_	_
+3	pour	pour	ADP	_	_	2	unk	_	Scrap=Yes
 4	à	à	ADP	_	_	2	comp:obl	_	_
 5	Londres	Londres	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown
 6	où	où	ADV	_	PronType=Rel|Shared=Yes	8	mod	_	_
@@ -64581,7 +64581,7 @@
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	circonscription	circonscription	NOUN	_	Number=Sing	14	subj	_	Gender[lex]=Fem
-14	comprend	comprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	_
+14	comprend	comprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Scrap=Yes
 15	:	:	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-train_05224

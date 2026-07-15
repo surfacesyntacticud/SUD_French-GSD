@@ -43789,7 +43789,7 @@
 7	SG-1	SG-1	PROPN	_	_	8	subj	_	Gender[lex]=Unknown
 8	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
 9	dans	dans	ADP	_	_	8	comp:obl	_	_
-10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	unk@scrap	_	_
+10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	unk	_	Scrap=Yes
 11	ces	ce	DET	_	Number=Plur|PronType=Dem	12	det	_	_
 12	vaisseaux	vaisseau	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 13	,	,	PUNCT	_	_	1	punct	_	_
@@ -46419,8 +46419,8 @@
 4	ainsi	ainsi	ADV	_	ExtPos=ADP	2	mod	_	Idiom=Yes
 5	qu'	que	SCONJ	_	_	4	unk	_	InIdiom=Yes|SpaceAfter=No
 6	Arboleda	Arboleda	PROPN	_	_	4	comp:obj	_	Gender[lex]=Unknown
-7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	unk@scrap	_	_
-8	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	7	unk@scrap	_	Tense[denom]=Past
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	unk	_	Scrap=Yes
+8	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	7	unk	_	Scrap=Yes|Tense[denom]=Past
 9	jugé	juger	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
 10	par	par	ADP	_	_	9	comp:obl@agent	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -76875,7 +76875,7 @@
 25	sortait	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	comp:obj	_	_
 26	sous	sous	ADP	_	_	25	mod	_	_
 27-28	du	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	26	unk@scrap	_	_
+27	de	de	ADP	_	_	26	unk	_	Scrap=Yes
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	milieu	milieu	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Masc
 30-31	du	_	_	_	_	_	_	_	_

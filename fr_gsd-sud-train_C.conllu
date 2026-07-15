@@ -1147,7 +1147,7 @@
 11	Cruise	Cruise	PROPN	_	_	10	flat@name	_	Gender[lex]=Unknown
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	comp:aux@tense	_	Tense[denom]=Past
-14	se	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	13	unk@scrap	_	_
+14	se	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	13	unk	_	Scrap=Yes
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 16	grande	grand	ADJ	_	Gender=Fem|Number=Sing	17	mod	_	_
 17	partie	partie	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Fem
@@ -25122,7 +25122,7 @@
 39	de	de	ADP	_	_	38	udep	_	_
 40	Livonie	Livonie	PROPN	_	_	39	comp:obj	_	Gender[lex]=Unknown
 41	et	et	CCONJ	_	_	43	cc	_	_
-42	de	de	ADP	_	_	41	unk@scrap	_	_
+42	de	de	ADP	_	_	41	unk	_	Scrap=Yes
 43	d'	de	ADP	_	_	39	conj:coord	_	SpaceAfter=No
 44	Estonie	Estonie	PROPN	_	Shared=No	43	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 45	--	--	PUNCT	_	_	47	punct	_	SpaceAfter=No
@@ -42009,7 +42009,7 @@
 3	de	de	ADP	_	_	2	udep	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	vallée	vallée	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem
-6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	_
+6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Scrap=Yes
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	nom	nom	NOUN	_	Number=Sing	6	parataxis	_	Gender[lex]=Masc
 9	frioulan	frioulan	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
@@ -52763,7 +52763,7 @@
 # text = On y voit :
 1	On	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	wordform=on
 2	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	3	mod	_	_
-3	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	_
+3	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Scrap=Yes
 4	:	:	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_07674
@@ -62837,7 +62837,7 @@
 15	fonde	fonder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	Filler=mod
 16	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	19	det	_	_
 17	première	premier	ADJ	_	Gender=Fem|Number=Sing|Shared=No	19	mod	_	_
-18	un	un	X	_	_	17	unk@scrap	_	_
+18	un	un	X	_	_	17	unk	_	Scrap=Yes
 19	institution	institution	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
