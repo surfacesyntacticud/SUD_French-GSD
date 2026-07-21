@@ -1488,7 +1488,7 @@
 28	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs|Shared=No	29	comp:obl	_	_
 29	fournissait	fournir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	parataxis	_	_
 30	sans	sans	ADP	_	ExtPos=ADV	29	mod	_	Idiom=Yes
-31	doute	doute	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+31	doute	doute	NOUN	_	Number=Sing	30	comp	_	Gender[lex]=Masc|InIdiom=Yes
 32	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	33	det	_	_
 33	produits	produit	NOUN	_	Number=Plur	29	comp:obj	_	Gender[lex]=Masc
 34	agricoles	agricole	ADJ	_	Number=Plur	33	mod	_	Gender[ctxt]=Masc
@@ -2465,7 +2465,7 @@
 17	Meurthe-et-Moselle	Meurthe-et-Moselle	PROPN	_	Number=Sing	15	comp	_	Gender[lex]=Fem
 18	et	et	CCONJ	_	_	19	cc	_	_
 19	à	à	ADP	_	ExtPos=ADV	9	conj:coord	_	Idiom=Yes
-20	proximité	proximité	NOUN	_	Number=Sing|Shared=No	19	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+20	proximité	proximité	NOUN	_	Number=Sing|Shared=No	19	comp	_	Gender[lex]=Fem|InIdiom=Yes
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	Shared=No	20	comp:obl	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
@@ -2953,7 +2953,7 @@
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Wallonie	Wallonie	PROPN	_	Number=Sing|Shared=No	14	subj	_	Gender[lex]=Fem
 11	en	en	ADP	_	ExtPos=ADV|Shared=No	14	mod	_	Idiom=Yes
-12	effet	effet	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+12	effet	effet	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Masc|InIdiom=Yes
 13	n'	ne	ADV	_	Polarity=Neg|Shared=No	14	mod	_	SpaceAfter=No
 14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
 15	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	16	det	_	_
@@ -2992,7 +2992,7 @@
 4	retardé	retarder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
 5	principalement	principalement	ADV	_	_	6	mod	_	_
 6	en	en	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-7	raison	raison	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+7	raison	raison	NOUN	_	Number=Sing	6	comp	_	Gender[lex]=Fem|InIdiom=Yes
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 10	inclusion	inclusion	NOUN	_	Number=Sing	8	comp	_	Gender[lex]=Fem
@@ -5801,7 +5801,7 @@
 11	étrangers	étranger	ADJ	_	Gender=Masc|Number=Plur	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	24	punct	_	_
 13	par	par	ADP	_	ExtPos=ADV	24	mod	_	Idiom=Yes
-14	exemple	exemple	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+14	exemple	exemple	NOUN	_	Number=Sing	13	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	13	punct	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	tiare	tiare	NOUN	_	Number=Sing	24	subj@pass	_	Gender[lex]=Fem
@@ -5864,7 +5864,7 @@
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	ExtPos=NOUN	13	comp:obj	_	Idiom=Yes
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	InIdiom=Yes
-16	milieu	milieu	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+16	milieu	milieu	NOUN	_	Number=Sing	14	comp	_	Gender[lex]=Masc|InIdiom=Yes
 17	de	de	ADP	_	_	16	comp:obl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	autrefois	autrefois	ADV	_	_	20	mod	_	_
@@ -7226,7 +7226,7 @@
 # sent_id = fr-ud-train_08960
 # text = En effet ces deux villes proches ont le même code postal et on retrouve dans les deux villes une rue faidherbe.
 1	En	en	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 3	ces	ce	DET	_	Number=Plur|PronType=Dem	5	det	_	_
 4	deux	deux	NUM	_	ExtPos=DET	5	mod	_	Number[lex]=Plur
 5	villes	ville	NOUN	_	Number=Plur|Shared=No	7	subj	_	Gender[lex]=Fem
@@ -8835,7 +8835,7 @@
 16	centre	centre	NOUN	_	Number=Sing	14	comp	_	Gender[lex]=Masc
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 18	en	en	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
-19	fait	fait	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+19	fait	fait	NOUN	_	Number=Sing	18	comp	_	Gender[lex]=Masc|InIdiom=Yes
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	double	double	ADJ	_	Number=Sing	22	mod	_	Gender[ctxt]=Masc
 22	portail	portail	NOUN	_	Number=Sing	17	comp:pred	_	Gender[lex]=Masc|SpaceAfter=No
@@ -9041,7 +9041,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	juste	juste	ADV	_	_	4	mod	_	_
 4	à	à	ADP	_	ExtPos=ADV	2	comp:pred	_	Idiom=Yes
-5	côté	côté	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+5	côté	côté	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Masc|InIdiom=Yes
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	gare	gare	NOUN	_	Number=Sing	6	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -9173,7 +9173,7 @@
 5	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@pass	_	_
 6	caractérise	caractériser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	d'	de	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|SpaceAfter=No
-8	abord	abord	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+8	abord	abord	NOUN	_	Number=Sing	7	comp	_	Gender[lex]=Masc|InIdiom=Yes
 9	par	par	ADP	_	_	6	comp:obl	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
 11	diversité	diversité	NOUN	_	Number=Sing	9	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -9232,7 +9232,7 @@
 41-42	au	_	_	_	_	_	_	_	_
 41	à	à	ADP	_	ExtPos=ADV	37	mod	_	Idiom=Yes
 42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	InIdiom=Yes
-43	lieu	lieu	NOUN	_	Number=Sing	41	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+43	lieu	lieu	NOUN	_	Number=Sing	41	comp	_	Gender[lex]=Masc|InIdiom=Yes
 44	d'	de	ADP	_	_	43	comp:obl	_	SpaceAfter=No
 45	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	moyenne	moyenne	NOUN	_	Number=Sing	44	comp	_	Gender[lex]=Fem
@@ -10052,7 +10052,7 @@
 # sent_id = fr-ud-train_09065
 # text = En fait, le chercheur s'attache à décrypter les images que les individus se font de la réalité.
 1	En	en	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|wordform=en
-2	fait	fait	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	fait	fait	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	chercheur	chercheur	NOUN	_	Number=Sing	7	subj	_	Gender[lex]=Masc
@@ -12091,7 +12091,7 @@
 14	assiette	assiette	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Fem
 15	tout	tout	ADV	_	_	16	mod	_	_
 16	d'	de	ADP	_	ExtPos=ADV	14	mod	_	Idiom=Yes|SpaceAfter=No
-17	abord	abord	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+17	abord	abord	NOUN	_	Number=Sing	16	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	mais	mais	CCONJ	_	_	21	cc	_	_
 20	également	également	ADV	_	_	21	mod	_	_
@@ -12579,7 +12579,7 @@
 16-17	du	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	ExtPos=ADV|Shared=No	13	mod	_	Idiom=Yes
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
-18	fait	fait	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+18	fait	fait	NOUN	_	Number=Sing	16	comp	_	Gender[lex]=Masc|InIdiom=Yes
 19	de	de	ADP	_	_	18	comp:obl	_	_
 20	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	21	det	_	_
 21	compétences	compétence	NOUN	_	Number=Plur	19	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -13055,7 +13055,7 @@
 2	assure	assurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	de	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	InIdiom=Yes
-5	fait	fait	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+5	fait	fait	NOUN	_	Number=Sing	3	comp	_	Gender[lex]=Masc|InIdiom=Yes
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 7	approvisionnement	approvisionnement	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc
 8-9	du	_	_	_	_	_	_	_	_
@@ -14258,7 +14258,7 @@
 # sent_id = fr-ud-train_09213
 # text = En général on utilise un débusqueur pour les grumes d'une taille supérieure à 6 mètres.
 1	En	en	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes|wordform=en
-2	général	général	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+2	général	général	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	utilise	utiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -14628,7 +14628,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	financé	financer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	Tense[denom]=Past
 4	à	à	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-5	part	part	NOUN	_	Number=Sing|Typo=Yes	4	comp:obj	_	CorrectForm=parts|CorrectNumber=Plur|Gender[lex]=Fem|InIdiom=Yes
+5	part	part	NOUN	_	Number=Sing|Typo=Yes	4	comp	_	CorrectForm=parts|CorrectNumber=Plur|Gender[lex]=Fem|InIdiom=Yes
 6	égale	égal	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	5	mod	_	CorrectForm=égales|CorrectNumber=Plur|InIdiom=Yes
 7	par	par	ADP	_	_	3	comp:obl@agent	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	9	det	_	Gender[ctxt]=Masc|SpaceAfter=No
@@ -14653,7 +14653,7 @@
 # sent_id = fr-ud-train_09229
 # text = De fait, elles ne respectent pas toujours les frontières anciennes.
 1	De	de	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|wordform=de
-2	fait	fait	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	fait	fait	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	subj	_	_
 5	ne	ne	ADV	_	Polarity=Neg	6	mod	_	_
@@ -14763,7 +14763,7 @@
 # sent_id = fr-ud-train_09234
 # text = De temps en temps ils font des démos privées en magasin, il faut s'inscrire sur le site, je suis pas encore allée mais ça a l'air génial !
 1	De	de	ADP	_	ExtPos=ADV|Shared=No	6	mod	_	Idiom=Yes|wordform=de
-2	temps	temps	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
+2	temps	temps	NOUN	_	_	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 3	en	en	ADP	_	_	2	udep	_	InIdiom=Yes
 4	temps	temps	NOUN	_	_	3	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	6	subj	_	_
@@ -14824,7 +14824,7 @@
 11	certains	certains	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	12	subj	_	_
 12	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
 13	par	par	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
-14	exemple	exemple	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+14	exemple	exemple	NOUN	_	Number=Sing	13	comp	_	Gender[lex]=Masc|InIdiom=Yes
 15	offrir	offrir	VERB	_	Shared=No|VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 17	Lexique	lexique	NOUN	_	Number=Sing|Typo=Yes	15	comp:obj	_	CorrectForm=lexiques|CorrectNumber=Plur|Gender[lex]=Masc
@@ -14943,7 +14943,7 @@
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
-9	total	total	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+9	total	total	NOUN	_	Number=Sing	7	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	_
 11	11	11	NUM	_	ExtPos=DET	12	det	_	Number[lex]=Plur
 12	matches	match	NOUN	_	Number=Plur	3	parataxis	_	Gender[lex]=Masc
@@ -15011,7 +15011,7 @@
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	casque	casque	NOUN	_	Number=Sing	26	conj:coord	_	Gender[lex]=Masc
 33	en	en	ADP	_	ExtPos=ADV	32	mod	_	Idiom=Yes
-34	tête	tête	NOUN	_	Number=Sing	33	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|SpaceAfter=No
+34	tête	tête	NOUN	_	Number=Sing	33	comp	_	Gender[lex]=Fem|InIdiom=Yes|SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 37	écu	écu	NOUN	_	Number=Sing	32	conj:coord	_	Gender[lex]=Masc
@@ -15878,7 +15878,7 @@
 2	créant	créer	VERB	_	VerbForm=Part	1	comp	_	Tense[denom]=Pres
 3	à	à	ADP	_	ExtPos=ADV|Shared=Yes	7	mod	_	Idiom=Yes
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
-5	fois	fois	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+5	fois	fois	NOUN	_	_	3	comp	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	7	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 7	intégralité	intégralité	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 8-9	des	_	_	_	_	_	_	_	_
@@ -16603,7 +16603,7 @@
 30	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	subj	_	_
 31	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	comp	_	_
 32	en	en	ADP	_	ExtPos=ADV	31	mod	_	Idiom=Yes
-33	fait	fait	NOUN	_	Number=Sing	32	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+33	fait	fait	NOUN	_	Number=Sing	32	comp	_	Gender[lex]=Masc|InIdiom=Yes
 34	être	être	AUX	_	VerbForm=Inf	31	comp:obj	_	Subject=SubjRaising
 35	exfiltré	exfiltrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	34	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 36	.	.	PUNCT	_	_	3	punct	_	_
@@ -16884,14 +16884,14 @@
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 8	État	État	NOUN	_	Number=Sing	6	comp	_	Gender[lex]=Masc|wordform=état
 9	en	en	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-10	général	général	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+10	général	général	NOUN	_	Number=Sing	9	comp	_	Gender[lex]=Masc|InIdiom=Yes
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	de	de	ADP	_	_	3	conj:coord	_	_
 13	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	14	det	_	_
 14	politiques	politique	NOUN	_	Number=Plur|Shared=No	12	comp	_	Gender[lex]=Fem
 15	sociales	social	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	_
 16	en	en	ADP	_	ExtPos=ADV|Shared=No	12	mod	_	Idiom=Yes
-17	particulier	particulier	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+17	particulier	particulier	NOUN	_	Number=Sing	16	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	2	punct	_	_
 19	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	comp@expl	_	_
 20	préparent	préparer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -17842,7 +17842,7 @@
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	ExtPos=ADV	18	mod	_	Idiom=Yes
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	InIdiom=Yes
-22	contraire	contraire	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+22	contraire	contraire	NOUN	_	Number=Sing	20	comp	_	Gender[lex]=Masc|InIdiom=Yes
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	tatouage	tatouage	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc
 25	invisible	invisible	ADJ	_	Number=Sing	24	mod	_	Gender[ctxt]=Masc|SpaceAfter=No
@@ -18103,7 +18103,7 @@
 # sent_id = fr-ud-train_09348
 # text = En fait l'entrée de la ferme se situe tout en haut de la côte du Pavillon à environ 700 mètres sur la droite (une grille rouge).
 1	En	en	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes|wordform=en
-2	fait	fait	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+2	fait	fait	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 4	entrée	entrée	NOUN	_	Number=Sing	9	subj@pass	_	Gender[lex]=Fem
 5	de	de	ADP	_	_	4	udep	_	_
@@ -18113,7 +18113,7 @@
 9	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	tout	tout	ADV	_	_	11	mod	_	_
 11	en	en	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes
-12	haut	haut	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+12	haut	haut	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Masc|InIdiom=Yes
 13	de	de	ADP	_	_	12	comp:obl	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	côte	côte	NOUN	_	Number=Sing	13	comp	_	Gender[lex]=Fem
@@ -20942,7 +20942,7 @@
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	InIdiom=Yes
-29	fait	fait	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+29	fait	fait	NOUN	_	Number=Sing	27	comp	_	Gender[lex]=Masc|InIdiom=Yes
 30	que	que	SCONJ	_	_	29	comp:obj	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
 32	promoteurs	promoteur	NOUN	_	Number=Plur	36	subj	_	Gender[lex]=Masc
@@ -21565,7 +21565,7 @@
 # sent_id = fr-ud-train_09480
 # text = En effet, l'Afrique du Sud reconnaît depuis 2004 la RASD et lui apporte un soutien politique important.
 1	En	en	ADP	_	ExtPos=ADV|Shared=Yes	9	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Afrique	Afrique	PROPN	_	Number=Sing|Shared=Yes	9	subj	_	Gender[lex]=Unknown
@@ -21905,7 +21905,7 @@
 9	encore	encore	ADV	_	_	8	mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	en	en	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
-12	particulier	particulier	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+12	particulier	particulier	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Masc|InIdiom=Yes
 13	à	à	ADP	_	_	8	mod	_	_
 14	Padoue	Padoue	PROPN	_	_	13	comp	_	Gender[lex]=Unknown
 15	et	et	CCONJ	_	_	16	cc	_	_
@@ -22330,7 +22330,7 @@
 # sent_id = fr-ud-train_09509
 # text = En raison de la Première Guerre mondiale, de la Révolution russe et de ses conséquences, Boris et son frère aîné Sacha sont restés chez leur grand-mère maternelle russe, de 1914 à 1921.
 1	En	en	ADP	_	ExtPos=ADV	24	mod	_	Idiom=Yes|wordform=en
-2	raison	raison	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+2	raison	raison	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Fem|InIdiom=Yes
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	Première	premier	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	wordform=première
@@ -22716,7 +22716,7 @@
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	InIdiom=Yes
-30	fait	fait	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+30	fait	fait	NOUN	_	Number=Sing	28	comp	_	Gender[lex]=Masc|InIdiom=Yes
 31	qu'	que	SCONJ	_	_	30	comp:obj	_	SpaceAfter=No
 32	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	subj	_	_
 33	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	comp	_	_
@@ -22754,7 +22754,7 @@
 17	matin	matin	NOUN	_	Number=Sing	16	mod	_	Gender[lex]=Masc|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	sans	sans	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
-20	doute	doute	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+20	doute	doute	NOUN	_	Number=Sing	19	comp	_	Gender[lex]=Masc|InIdiom=Yes
 21	pour	pour	ADP	_	_	5	mod	_	_
 22	ne	ne	ADV	_	Polarity=Neg	24	mod	_	_
 23	pas	pas	ADV	_	Polarity=Neg	24	mod	_	_
@@ -22980,7 +22980,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	démissionné	démissionner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Tense[denom]=Past
 4	en	en	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
-5	raison	raison	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+5	raison	raison	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Fem|InIdiom=Yes
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 8	opposition	opposition	NOUN	_	Number=Sing	6	comp	_	Gender[lex]=Fem
@@ -23395,7 +23395,7 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	MIT	MIT	PROPN	_	Number=Sing	31	comp:obj	_	Gender[lex]=Masc
 34	en	en	ADP	_	ExtPos=ADV|Shared=No	27	mod	_	Idiom=Yes
-35	raison	raison	NOUN	_	Number=Sing	34	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+35	raison	raison	NOUN	_	Number=Sing	34	comp	_	Gender[lex]=Fem|InIdiom=Yes
 36	d'	de	ADP	_	_	35	comp:obl	_	SpaceAfter=No
 37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	échec	échec	NOUN	_	Number=Sing	36	comp	_	Gender[lex]=Masc
@@ -24746,7 +24746,7 @@
 18	ainsi	ainsi	ADV	_	ExtPos=CCONJ	22	cc	_	Idiom=Yes
 19	qu'	que	SCONJ	_	_	18	unk	_	InIdiom=Yes|SpaceAfter=No
 20	à	à	ADP	_	ExtPos=ADV	22	orphan	_	Idiom=Yes
-21	proximité	proximité	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+21	proximité	proximité	NOUN	_	Number=Sing	20	comp	_	Gender[lex]=Fem|InIdiom=Yes
 22	par	par	ADP	_	_	4	conj:coord	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	lignes	ligne	NOUN	_	Number=Plur|Shared=No	22	comp	_	Gender[lex]=Fem
@@ -25206,7 +25206,7 @@
 # sent_id = fr-ud-train_09614
 # text = En effet, il court sur le circuit de course au large en Class 40, comme sur la Transat Jacques-Vabre en 2011 où il termine (avec son co-équipier) 2e, ou sur La Route du Rhum (10e) en 2010.
 1	En	en	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 5	court	courir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -26489,7 +26489,7 @@
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	ExtPos=ADV	18	mod	_	Idiom=Yes
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	InIdiom=Yes
-25	lieu	lieu	NOUN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+25	lieu	lieu	NOUN	_	Number=Sing	23	comp	_	Gender[lex]=Masc|InIdiom=Yes
 26	de	de	ADP	_	_	25	comp:obl	_	_
 27	10	10	NUM	_	ExtPos=PRON	26	comp	_	Number[lex]=Plur|SpaceAfter=No
 28	.	.	PUNCT	_	_	7	punct	_	_
@@ -26806,7 +26806,7 @@
 # sent_id = fr-ud-train_09672
 # text = Par exemple, c'est à Béthanie que Saint Luc place la dernière apparition du Christ à ses apôtres : Eduxit autem eos foras in Bethaniam, et, elevatis manibus suis, benedixit eis ;
 1	Par	par	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=par
-2	exemple	exemple	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	exemple	exemple	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj@expl	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -27665,7 +27665,7 @@
 34-35	au	_	_	_	_	_	_	_	_
 34	à	à	ADP	_	ExtPos=ADV|Shared=No	30	mod	_	Idiom=Yes
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	InIdiom=Yes
-36	contraire	contraire	NOUN	_	Number=Sing	34	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+36	contraire	contraire	NOUN	_	Number=Sing	34	comp	_	Gender[lex]=Masc|InIdiom=Yes
 37	sur	sur	ADP	_	_	32	udep	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
 39	personnes	personne	NOUN	_	Number=Plur	37	comp	_	Gender[lex]=Fem
@@ -27935,7 +27935,7 @@
 # sent_id = fr-ud-train_09712
 # text = En effet, comment peut-il l'être dans un processus où il est maintenant certain qu'il n'a été conçu que pour une seule finalité du Marketing politique.
 1	En	en	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	comment	comment	ADV	_	PronType=Int	5	mod	_	CxnElt=5:Interrogative-WHInfo-Indirect.WHWord
 5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=5:Interrogative-WHInfo-Indirect.Clause|SpaceAfter=No
@@ -28738,7 +28738,7 @@
 34	suspension	suspension	NOUN	_	Number=Sing	33	comp	_	Gender[lex]=Fem|SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	_
 36	par	par	ADP	_	ExtPos=ADV	28	mod	_	Idiom=Yes
-37	exemple	exemple	NOUN	_	Number=Sing	36	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+37	exemple	exemple	NOUN	_	Number=Sing	36	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 38	,	,	PUNCT	_	_	36	punct	_	_
 39	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 40	d'	de	ADP	_	_	39	comp:obj	_	SpaceAfter=No
@@ -28997,7 +28997,7 @@
 23-24	du	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	InIdiom=Yes
-25	fait	fait	NOUN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+25	fait	fait	NOUN	_	Number=Sing	23	comp	_	Gender[lex]=Masc|InIdiom=Yes
 26	de	de	ADP	_	_	25	comp:obl	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 28	intensité	intensité	NOUN	_	Number=Sing	26	comp	_	Gender[lex]=Fem
@@ -29044,7 +29044,7 @@
 4	tout	tout	ADV	_	_	5	mod	_	_
 5	à	à	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	InIdiom=Yes
-7	fois	fois	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+7	fois	fois	NOUN	_	_	5	comp	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	grand	grand	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
 10	nombre	nombre	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc
@@ -29602,7 +29602,7 @@
 16	linéaire	linéaire	ADJ	_	Number=Sing	14	mod	_	Gender[ctxt]=Fem
 17	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 18	par	par	ADP	_	ExtPos=ADV|Shared=Yes	20	udep	_	Idiom=Yes
-19	exemple	exemple	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+19	exemple	exemple	NOUN	_	Number=Sing	18	comp	_	Gender[lex]=Masc|InIdiom=Yes
 20	A5	A5	X	_	ExtPos=PROPN	5	conj:appos	_	SpaceAfter=No
 21	/	/	SYM	_	ExtPos=CCONJ	22	cc	_	SpaceAfter=No
 22	1	1	NUM	_	ExtPos=PROPN	20	conj:coord	_	Number[lex]=Sing
@@ -29887,7 +29887,7 @@
 14	période	période	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Fem|SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	en	en	ADP	_	ExtPos=ADV|Shared=Yes	19	mod	_	Idiom=Yes
-17	particulier	particulier	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+17	particulier	particulier	NOUN	_	Number=Sing	16	comp	_	Gender[lex]=Masc|InIdiom=Yes
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	19	det	_	_
 19	vel	vel	X	_	Foreign=Yes|Shared=Yes	7	conj:appos	_	Lang=ta
 20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
@@ -29970,7 +29970,7 @@
 # sent_id = fr-ud-train_09774
 # text = En raison de problèmes de conception, Daniel a aussi été invité à faire l'intérieur de la pochette, une tâche qu'il a accompli en moins d'une semaine.
 1	En	en	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes|wordform=en
-2	raison	raison	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+2	raison	raison	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Fem|InIdiom=Yes
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	problèmes	problème	NOUN	_	Number=Plur	3	comp	_	Gender[lex]=Masc
 5	de	de	ADP	_	_	4	udep	_	_
@@ -30243,7 +30243,7 @@
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
-5	contraire	contraire	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+5	contraire	contraire	NOUN	_	Number=Sing	3	comp	_	Gender[lex]=Masc|InIdiom=Yes
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	7	det	_	_
 7	dynamisme	dynamisme	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
@@ -30417,7 +30417,7 @@
 6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	en	en	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
-9	effet	effet	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+9	effet	effet	NOUN	_	Number=Sing	8	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	affiché	afficher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	comp:aux@tense	_	SpaceAfter=No|Tense[denom]=Past
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -31107,7 +31107,7 @@
 2	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	3	comp:obl	_	Polite=Unknown
 3	conseillons	conseiller	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	en	en	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-5	effet	effet	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+5	effet	effet	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Masc|InIdiom=Yes
 6	de	de	ADP	_	_	3	comp:obj	_	_
 7	souscrire	souscrire	VERB	_	VerbForm=Inf	6	comp	_	Subject=OblRaising
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -31582,7 +31582,7 @@
 1	Ceci	ceci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	wordform=ceci
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
-4	particulier	particulier	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+4	particulier	particulier	NOUN	_	Number=Sing	3	comp	_	Gender[lex]=Masc|InIdiom=Yes
 5	lié	lier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	comp:pred	_	Tense[denom]=Past
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -31764,7 +31764,7 @@
 # sent_id = fr-ud-train_09843
 # text = De fait, les thermes étaient situés juste au-dessous des réservoirs ce qui nous amène à penser qu'ils pourvoyaient aussi en eau les installations thermales.
 1	De	de	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|wordform=de
-2	fait	fait	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	fait	fait	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	thermes	thermes	NOUN	_	Number=Plur	6	subj	_	Gender[lex]=Masc
@@ -33393,7 +33393,7 @@
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	InIdiom=Yes
-22	fait	fait	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+22	fait	fait	NOUN	_	Number=Sing	20	comp	_	Gender[lex]=Masc|InIdiom=Yes
 23	de	de	ADP	_	_	22	comp:obl	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 25	internement	internement	NOUN	_	Number=Sing	23	comp	_	Gender[lex]=Masc
@@ -33402,7 +33402,7 @@
 28	famille	famille	NOUN	_	Number=Sing	26	comp	_	Gender[lex]=Fem|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	en	en	ADP	_	ExtPos=ADV	25	mod	_	Idiom=Yes
-31	raison	raison	NOUN	_	Number=Sing	30	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+31	raison	raison	NOUN	_	Number=Sing	30	comp	_	Gender[lex]=Fem|InIdiom=Yes
 32	de	de	ADP	_	_	31	comp:obl	_	_
 33	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	34	det	_	_
 34	origines	origine	NOUN	_	Number=Plur	32	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -34083,7 +34083,7 @@
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	admis	admettre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Tense[denom]=Past
 8	par	par	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
-9	conséquent	conséquent	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+9	conséquent	conséquent	NOUN	_	Number=Sing	8	comp	_	Gender[lex]=Masc|InIdiom=Yes
 10	que	que	SCONJ	_	_	7	comp:obj	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	situation	situation	NOUN	_	Number=Sing	17	subj	_	Gender[lex]=Fem
@@ -34324,7 +34324,7 @@
 14	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:coord	_	_
 15	accueillir	accueillir	VERB	_	Shared=No|VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16	à	à	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
-17	terme	terme	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+17	terme	terme	NOUN	_	Number=Sing	16	comp	_	Gender[lex]=Masc|InIdiom=Yes
 18	quelque	quelque	DET	_	PronType=Ind|Typo=Yes	19	det	_	CorrectForm=quelques|CorrectNumber=Plur|Number[lex]=Sing
 19	étudiants	étudiant	NOUN	_	Number=Plur	15	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
@@ -34902,7 +34902,7 @@
 6	provoquerait	provoquer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp	_	_
 7	à	à	ADP	_	ExtPos=ADV|Shared=Yes	11	mod	_	Idiom=Yes
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
-9	fois	fois	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+9	fois	fois	NOUN	_	_	7	comp	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	11	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 11	encerclement	encerclement	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 12-13	des	_	_	_	_	_	_	_	_
@@ -35195,7 +35195,7 @@
 # sent_id = fr-ud-train_09969
 # text = En effet, depuis longtemps Gandalf incarnait le seul véritable membre actif de cet Ordre, Saroumane ayant trahi la mission qui lui avait été confié en ralliant Sauron, les Ithryn Luin ou « Mages bleus » Alatar et Pallando ayant depuis longtemps disparu à l'Est et Radagast ayant préféré se consacrer aux animaux.
 1	En	en	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	depuis	depuis	ADP	_	_	7	mod	_	_
 5	longtemps	longtemps	ADV	_	_	4	comp	_	_
@@ -36494,7 +36494,7 @@
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	mod@relcl	_	_
 12	sans	sans	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes
-13	doute	doute	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+13	doute	doute	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Masc|InIdiom=Yes
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	piédestal	piédestal	NOUN	_	Number=Sing	11	comp:pred	_	Gender[lex]=Masc
 16	d'	de	ADP	_	_	15	udep	_	SpaceAfter=No
@@ -36768,7 +36768,7 @@
 # sent_id = fr-ud-train_10027
 # text = Par exemple, S55 signifie Shōwa 55.
 1	Par	par	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=par
-2	exemple	exemple	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	exemple	exemple	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	S55	S55	X	_	ExtPos=PROPN	5	subj	_	_
 5	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -37276,7 +37276,7 @@
 # text = De ce fait, l'aire urbaine d'Alès est considérée comme une des 241 « grandes aires urbaines » de France.
 1	De	de	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes|wordform=de
 2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	InIdiom=Yes
-3	fait	fait	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+3	fait	fait	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 6	aire	aire	NOUN	_	Number=Sing	10	subj@pass	_	Gender[lex]=Fem
@@ -38318,7 +38318,7 @@
 # sent_id = fr-ud-train_10085
 # text = En effet il est prévu que la carte puisse contenir un certificat d'authentification et un certificat de signature de document de son titulaire.
 1	En	en	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	prévu	prévoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	Tense[denom]=Past
@@ -38955,7 +38955,7 @@
 # sent_id = fr-ud-train_10109
 # text = Par exemple, les pages d'index d'un livre reprennent (parfois) les termes significatifs apparaissant dans le livre, et les relient aux pages du livre où ces termes (ou leurs synonymes) apparaissent.
 1	Par	par	ADP	_	ExtPos=ADV|Shared=Yes	11	mod	_	Idiom=Yes|wordform=par
-2	exemple	exemple	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	exemple	exemple	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	pages	page	NOUN	_	Number=Plur|Shared=Yes	11	subj	_	Gender[lex]=Fem
@@ -39403,7 +39403,7 @@
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	à	à	ADP	_	ExtPos=NOUN	11	conj:coord	_	Idiom=Yes
-15	propos	propos	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
+15	propos	propos	NOUN	_	_	14	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 18	avis	avis	NOUN	_	_	14	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -39736,7 +39736,7 @@
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	ExtPos=ADV	22	mod	_	Idiom=Yes
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	InIdiom=Yes
-26	contraire	contraire	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+26	contraire	contraire	NOUN	_	Number=Sing	24	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	29	comp:obj	_	SpaceAfter=No
 29	attaquer	attaquer	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
@@ -40222,7 +40222,7 @@
 5	développa	développer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	à	à	ADP	_	ExtPos=ADV|Shared=Yes	9	mod	_	Idiom=Yes
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
-8	fois	fois	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+8	fois	fois	NOUN	_	_	6	comp	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 9	en	en	ADP	_	_	5	mod	_	_
 10	ouvrant	ouvrir	VERB	_	VerbForm=Part	9	comp	_	Tense[denom]=Pres
 11	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
@@ -40245,7 +40245,7 @@
 6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	d'	de	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|SpaceAfter=No
-9	abord	abord	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+9	abord	abord	NOUN	_	Number=Sing	8	comp	_	Gender[lex]=Masc|InIdiom=Yes
 10	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Tense[denom]=Past
 11	comme	comme	ADP	_	_	7	mod	_	_
 12	pigiste	pigiste	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Masc
@@ -41794,7 +41794,7 @@
 25	français	français	ADJ	_	Gender=Masc	22	mod	_	Number[ctxt]=Sing
 26	et	et	CCONJ	_	_	29	cc	_	_
 27	en	en	ADP	_	ExtPos=ADV	29	mod	_	Idiom=Yes
-28	particulier	particulier	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+28	particulier	particulier	NOUN	_	Number=Sing	27	comp	_	Gender[lex]=Masc|InIdiom=Yes
 29	par	par	ADP	_	_	20	conj:coord	_	_
 30	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	33	det	_	_
 31	désormais	désormais	ADV	_	_	32	mod	_	_
@@ -42320,7 +42320,7 @@
 17	auparavant	auparavant	ADV	_	_	16	mod	_	_
 18	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	comp	_	_
 19	en	en	ADP	_	ExtPos=ADV	18	comp:pred	_	Idiom=Yes
-20	raison	raison	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+20	raison	raison	NOUN	_	Number=Sing	19	comp	_	Gender[lex]=Fem|InIdiom=Yes
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
@@ -42482,7 +42482,7 @@
 # sent_id = fr-ud-train_10245
 # text = En effet, pour eux, il y a une réelle logique : pourquoi payer alors que tout est en libre accès ?
 1	En	en	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	pour	pour	ADP	_	_	9	mod	_	_
 5	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	comp	_	SpaceAfter=No
@@ -42639,7 +42639,7 @@
 5	Evidian	Evidian	PROPN	_	_	2	conj:appos	_	Gender[lex]=Unknown
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	par	par	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
-8	exemple	exemple	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+8	exemple	exemple	NOUN	_	Number=Sing	7	comp	_	Gender[lex]=Masc|InIdiom=Yes
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	spécialiste	spécialiste	NOUN	_	Number=Sing	6	comp:pred	_	Gender[lex]=Masc
 11-12	des	_	_	_	_	_	_	_	_
@@ -43066,7 +43066,7 @@
 # sent_id = fr-ud-train_10271
 # text = Par conséquent, ajoute-t-il, il suffit de se référer à ces principes pour établir un diagnostic de la situation des droits de l'homme.
 1	Par	par	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes|wordform=par
-2	conséquent	conséquent	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	conséquent	conséquent	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	ajoute	ajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis:insert	_	SpaceAfter=No
 5	-t-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	SpaceAfter=No|wordform=il
@@ -43288,7 +43288,7 @@
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	InIdiom=Yes
-14	long	long	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+14	long	long	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Masc|InIdiom=Yes
 15	adossée	adossé	ADJ	_	Gender=Fem|Number=Sing	10	comp:pred	_	_
 16	à	à	ADP	_	_	15	comp:obl	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -43953,7 +43953,7 @@
 # sent_id = fr-ud-train_10307
 # text = De fait, la moitié seulement des bacheliers généraux s'inscrivent en licence ;
 1	De	de	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes|wordform=de
-2	fait	fait	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	fait	fait	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	moitié	moitié	NOUN	_	Number=Sing	12	subj	_	Gender[lex]=Fem
@@ -44444,7 +44444,7 @@
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	perd	perdre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	en	en	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
-8	effet	effet	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+8	effet	effet	NOUN	_	Number=Sing	7	comp	_	Gender[lex]=Masc|InIdiom=Yes
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 10	usage	usage	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 11	d'	de	ADP	_	_	10	udep	_	SpaceAfter=No
@@ -44826,7 +44826,7 @@
 27	plus	plus	ADV	_	_	28	mod	_	_
 28	importants	important	ADJ	_	Gender=Masc|Number=Plur	24	mod	_	_
 29	à	à	ADP	_	ExtPos=ADV	28	mod	_	Idiom=Yes
-30	mesure	mesure	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+30	mesure	mesure	NOUN	_	Number=Sing	29	comp	_	Gender[lex]=Fem|InIdiom=Yes
 31	que	que	SCONJ	_	_	30	comp:obj	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
 33	agences	agence	NOUN	_	Number=Plur	36	subj	_	Gender[lex]=Fem
@@ -44852,7 +44852,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	tout	tout	ADV	_	_	8	mod	_	_
 8	d'	de	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|SpaceAfter=No
-9	abord	abord	NOUN	_	Number=Sing	8	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+9	abord	abord	NOUN	_	Number=Sing	8	comp	_	Gender[lex]=Masc|InIdiom=Yes
 10	moral	moral	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -45274,7 +45274,7 @@
 18	,	,	PUNCT	_	_	22	punct	_	_
 19	tout	tout	ADV	_	_	20	mod	_	_
 20	d'	de	ADP	_	ExtPos=ADV	22	mod	_	Idiom=Yes|SpaceAfter=No
-21	abord	abord	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+21	abord	abord	NOUN	_	Number=Sing	20	comp	_	Gender[lex]=Masc|InIdiom=Yes
 22	comme	comme	ADP	_	_	11	mod	_	_
 23	professeur	professeur	NOUN	_	Number=Sing	22	comp	_	Gender[lex]=Masc
 24	de	de	ADP	_	_	23	udep	_	_
@@ -45319,7 +45319,7 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
-3	total	total	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+3	total	total	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 4	quelque	quelque	ADV	_	_	5	mod	_	_
 5	trente	trente	NUM	_	ExtPos=DET	6	det	_	Number[lex]=Plur
 6	institutions	institution	NOUN	_	Number=Plur	8	subj	_	Gender[lex]=Fem
@@ -45356,7 +45356,7 @@
 2	belles	beau	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	_
 3	choses	chose	NOUN	_	Number=Plur	6	subj@pass	_	Gender[lex]=Fem
 4	en	en	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
-5	général	général	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+5	général	général	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Masc|InIdiom=Yes
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	appelées	appeler	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	Tense[denom]=Past
 8	«	«	PUNCT	_	_	9	punct	_	_
@@ -46368,7 +46368,7 @@
 15	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	comp@expl	_	_
 16	trouvent	trouver	VERB	_	Mood=Ind|Number=Plur|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
 17	en	en	ADP	_	ExtPos=ADV	16	comp:obl	_	Idiom=Yes
-18	face	face	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+18	face	face	NOUN	_	Number=Sing	17	comp	_	Gender[lex]=Fem|InIdiom=Yes
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	18	comp:obl	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -46570,7 +46570,7 @@
 25-26	aux	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	InIdiom=Yes
-27	côtés	côté	NOUN	_	Number=Plur	25	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+27	côtés	côté	NOUN	_	Number=Plur	25	comp	_	Gender[lex]=Masc|InIdiom=Yes
 28	de	de	ADP	_	_	27	comp:obl	_	_
 29	Ronald	Ronald	PROPN	_	_	28	comp	_	Gender[lex]=Unknown
 30	D.	D.	PROPN	_	_	29	flat@name	_	Gender[lex]=Unknown
@@ -47459,7 +47459,7 @@
 24	Galles	Galles	PROPN	_	_	23	comp	_	Gender[lex]=Unknown
 25	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 26	par	par	ADP	_	ExtPos=ADV	25	mod	_	Idiom=Yes
-27	contre	contre	NOUN	_	_	26	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+27	contre	contre	NOUN	_	_	26	comp	_	Gender[lex]=Masc|InIdiom=Yes
 28	absents	absent	ADJ	_	Gender=Masc|Number=Plur	25	comp:pred	_	_
 29-30	du	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	28	comp:obl	_	_
@@ -47557,7 +47557,7 @@
 13-14	aux	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	InIdiom=Yes
-15	côtés	côté	NOUN	_	Number=Plur	13	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+15	côtés	côté	NOUN	_	Number=Plur	13	comp	_	Gender[lex]=Masc|InIdiom=Yes
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 18	ex	ex	ADV	_	_	19	mod	_	_
@@ -47570,7 +47570,7 @@
 25-26	aux	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	ExtPos=ADV	13	conj:coord	_	Idiom=Yes
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	InIdiom=Yes
-27	côtés	côté	NOUN	_	Number=Plur|Shared=No	25	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+27	côtés	côté	NOUN	_	Number=Plur|Shared=No	25	comp	_	Gender[lex]=Masc|InIdiom=Yes
 28	de	de	ADP	_	Shared=No	27	comp:obl	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=Yes	30	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 30	acteur	acteur	NOUN	_	Number=Sing	28	comp	_	Gender[lex]=Masc
@@ -47788,7 +47788,7 @@
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	comme	comme	ADP	_	_	21	udep	_	_
 39	par	par	ADP	_	ExtPos=ADV	42	mod	_	Idiom=Yes
-40	exemple	exemple	NOUN	_	Number=Sing	39	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+40	exemple	exemple	NOUN	_	Number=Sing	39	comp	_	Gender[lex]=Masc|InIdiom=Yes
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	fichier	fichier	NOUN	_	Number=Sing	38	comp	_	Gender[lex]=Masc
 43	Tulard	Tulard	PROPN	_	_	42	conj:appos	_	Gender[lex]=Unknown
@@ -48347,7 +48347,7 @@
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	désertent	déserter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
 13	en	en	ADP	_	ExtPos=ADV|Shared=No	12	mod	_	Idiom=Yes
-14	raison	raison	NOUN	_	Number=Sing	13	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+14	raison	raison	NOUN	_	Number=Sing	13	comp	_	Gender[lex]=Fem|InIdiom=Yes
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	dureté	dureté	NOUN	_	Number=Sing	15	comp	_	Gender[lex]=Fem
@@ -50149,7 +50149,7 @@
 # sent_id = fr-ud-train_10539
 # text = A force de discuter avec lui de l'actualité cinématographique lors de mes (trop rares) visites, Hervé est devenu un ami !
 1	A	à	ADP	_	ExtPos=ADV	21	mod	_	Idiom=Yes|wordform=à
-2	force	force	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+2	force	force	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Fem|InIdiom=Yes
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	discuter	discuter	VERB	_	VerbForm=Inf	3	comp	_	Subject=SubjRaising
 5	avec	avec	ADP	_	_	4	comp:obl	_	_
@@ -50371,7 +50371,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	situé	situer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	comp:pred	_	Tense[denom]=Past
 4	à	à	ADP	_	ExtPos=ADV	3	comp:obl	_	Idiom=Yes
-5	proximité	proximité	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+5	proximité	proximité	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Fem|InIdiom=Yes
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -50527,7 +50527,7 @@
 # sent_id = fr-ud-train_10554
 # text = En général, des processus et des techniques sont disponibles pour identifier et mesurer les habilités et les traits requis dans la sélection et le placement du personnel.
 1	En	en	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes|wordform=en
-2	général	général	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	général	général	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	5	det	_	_
 5	processus	processus	NOUN	_	_	9	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
@@ -50752,7 +50752,7 @@
 # sent_id = fr-ud-train_10561
 # text = Par exemple, le 10 février 1956 on relevait −21,4 °C alors que la température minimum moyenne est de l'ordre de −1 °C.
 1	Par	par	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes|wordform=par
-2	exemple	exemple	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	exemple	exemple	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	10	10	NUM	_	ExtPos=PROPN	9	mod	_	Number[lex]=Sing
@@ -50846,7 +50846,7 @@
 # sent_id = fr-ud-train_10565
 # text = En effet, dans sa jeunesse, Toshi souhaitait faire des études de médecine.
 1	En	en	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	dans	dans	ADP	_	_	9	mod	_	_
 5	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
@@ -51013,7 +51013,7 @@
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Guardian	Guardian	PROPN	_	Number=Sing	19	comp	_	Gender[lex]=Masc
 22	à	à	ADP	_	ExtPos=ADV	18	mod	_	Idiom=Yes
-23	propos	propos	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
+23	propos	propos	NOUN	_	_	22	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 24	de	de	ADP	_	_	23	comp:obl	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	tarification	tarification	NOUN	_	Number=Sing	24	comp	_	Gender[lex]=Fem
@@ -52654,7 +52654,7 @@
 8	en	en	ADP	_	_	3	conj:coord	_	_
 9	psychologie	psychologie	NOUN	_	Number=Sing|Shared=No	8	comp	_	Gender[lex]=Fem
 10	en	en	ADP	_	ExtPos=ADV|Shared=No	8	mod	_	Idiom=Yes
-11	général	général	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+11	général	général	NOUN	_	Number=Sing	10	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	8	punct	_	_
 13	utilise	utiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	différentes	différents	DET	_	Gender=Fem|PronType=Ind	15	det	_	Number[lex]=Plur
@@ -54347,7 +54347,7 @@
 # sent_id = fr-ud-train_10700
 # text = En effet lors de son décès, son entourage ignore que Simon a été excommunié par le pape le 17 décembre 1138, et son corps est déposé dans l'église de la collégiale de Saint-Dié, mais celle-ci est frappée d'interdit.
 1	En	en	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 3	lors	lors	ADV	_	Shared=Yes	10	mod	_	_
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
@@ -55122,7 +55122,7 @@
 # sent_id = fr-ud-train_10723
 # text = En effet, lors d'un essai de traction sur ces derniers, du vide se forme au sein des chaînes, d'où une augmentation du volume total.
 1	En	en	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	lors	lors	ADV	_	_	17	mod	_	_
 5	d'	de	ADP	_	_	4	comp:obl	_	SpaceAfter=No
@@ -55170,7 +55170,7 @@
 8	en	en	ADP	_	_	2	mod	_	_
 9	partie	partie	NOUN	_	Number=Sing	8	comp	_	Gender[lex]=Fem
 10	à	à	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
-11	cause	cause	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+11	cause	cause	NOUN	_	Number=Sing	10	comp	_	Gender[lex]=Fem|InIdiom=Yes
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	désertion	désertion	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Fem
@@ -55488,7 +55488,7 @@
 30	Essex	Essex	PROPN	_	Number=Sing	28	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 31	,	,	PUNCT	_	_	34	punct	_	_
 32	en	en	ADP	_	ExtPos=ADV	34	mod	_	Idiom=Yes
-33	particulier	particulier	NOUN	_	Number=Sing	32	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+33	particulier	particulier	NOUN	_	Number=Sing	32	comp	_	Gender[lex]=Masc|InIdiom=Yes
 34	à	à	ADP	_	_	30	udep	_	_
 35	Hammerwood	Hammerwood	PROPN	_	_	34	comp	_	Gender[lex]=Unknown
 36	Park	Park	PROPN	_	_	35	flat@name	_	Gender[lex]=Unknown
@@ -55534,7 +55534,7 @@
 27-28	au	_	_	_	_	_	_	_	_
 27	à	à	ADP	_	ExtPos=ADV	46	mod	_	Idiom=Yes
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	InIdiom=Yes
-29	lieu	lieu	NOUN	_	Number=Sing	27	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+29	lieu	lieu	NOUN	_	Number=Sing	27	comp	_	Gender[lex]=Masc|InIdiom=Yes
 30	d'	de	ADP	_	_	29	comp:obl	_	SpaceAfter=No
 31	utiliser	utiliser	VERB	_	VerbForm=Inf	30	comp	_	Subject=Generic
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	33	det	_	_
@@ -56413,7 +56413,7 @@
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	États-Unis	États-Unis	PROPN	_	Number=Plur	9	comp	_	Gender[lex]=Unknown
 12	à	à	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
-13	cause	cause	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+13	cause	cause	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Fem|InIdiom=Yes
 14	de	de	ADP	_	_	13	comp:obl	_	_
 15	discriminations	discrimination	NOUN	_	Number=Plur	14	comp	_	Gender[lex]=Fem
 16	religieuses	religieux	ADJ	_	Gender=Fem|Number=Plur	15	mod	_	SpaceAfter=No
@@ -57592,7 +57592,7 @@
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	localisées	localiser	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Tense[denom]=Past
 10	d'	de	ADP	_	ExtPos=ADV|Shared=No	12	mod	_	Idiom=Yes|SpaceAfter=No
-11	abord	abord	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+11	abord	abord	NOUN	_	Number=Sing	10	comp	_	Gender[lex]=Masc|InIdiom=Yes
 12	dans	dans	ADP	_	_	9	comp:obl	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	mitochondrie	mitochondrie	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Fem
@@ -58688,7 +58688,7 @@
 # sent_id = fr-ud-train_10852
 # text = À cause de ces catastrophes, la cathédrale, dans les nombreuses reconstructions et réfections a amalgamé tous les styles architecturaux que se sont superposés au cours des siècles et les récentes restaurations ont montré des considérables portions de ses structures originales.
 1	À	à	ADP	_	ExtPos=ADV|Shared=No	16	mod	_	Idiom=Yes|wordform=à
-2	cause	cause	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+2	cause	cause	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Fem|InIdiom=Yes
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	ces	ce	DET	_	Number=Plur|PronType=Dem	5	det	_	_
 5	catastrophes	catastrophe	NOUN	_	Number=Plur	3	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -58765,7 +58765,7 @@
 # sent_id = fr-ud-train_10854
 # text = En fait, il semble que la situation soit très diverse selon les endroits, de l'abondance à la rareté.
 1	En	en	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=en
-2	fait	fait	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	fait	fait	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 5	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -59029,7 +59029,7 @@
 1	Cybergun	Cybergun	PROPN	_	_	2	subj	_	Gender[lex]=Unknown
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
-4	effet	effet	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+4	effet	effet	NOUN	_	Number=Sing	3	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	grâce	grâce	NOUN	_	ExtPos=ADV	2	mod	_	Gender[lex]=Fem
 7	à	à	ADP	_	_	6	comp:obl	_	_
@@ -60427,7 +60427,7 @@
 24	de	de	ADP	_	_	23	udep	_	_
 25	Ratisbonne	Ratisbonne	PROPN	_	_	24	comp	_	Gender[lex]=Unknown
 26	par	par	ADP	_	ExtPos=ADV	23	mod	_	Idiom=Yes
-27	exemple	exemple	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+27	exemple	exemple	NOUN	_	Number=Sing	26	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 28	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -60623,7 +60623,7 @@
 33	destiné	destiner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	31	mod	_	Tense[denom]=Past
 34	à	à	ADP	_	ExtPos=ADV|Shared=Yes	37	mod	_	Idiom=Yes
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	InIdiom=Yes
-36	fois	fois	NOUN	_	_	34	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+36	fois	fois	NOUN	_	_	34	comp	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 37	à	à	ADP	_	_	33	comp:obl	_	_
 38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	supervision	supervision	NOUN	_	Number=Sing	37	comp	_	Gender[lex]=Fem
@@ -60799,7 +60799,7 @@
 35	Bosc	Bosc	PROPN	_	Number=Sing	33	comp	_	Gender[lex]=Masc
 36	et	et	CCONJ	_	_	39	cc	_	_
 37	en	en	ADP	_	ExtPos=ADV	39	mod	_	Idiom=Yes
-38	particulier	particulier	NOUN	_	Number=Sing	37	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+38	particulier	particulier	NOUN	_	Number=Sing	37	comp	_	Gender[lex]=Masc|InIdiom=Yes
 39	à	à	ADP	_	_	33	conj:coord@emb	_	_
 40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	Balue	Balue	PROPN	_	Number=Sing|Shared=No	39	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -61447,7 +61447,7 @@
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
 2	équipe	équipe	NOUN	_	Number=Sing	9	subj	_	Gender[lex]=Fem
 3	en	en	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
-4	tête	tête	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+4	tête	tête	NOUN	_	Number=Sing	3	comp	_	Gender[lex]=Fem|InIdiom=Yes
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	chaque	chaque	DET	_	Number=Sing|PronType=Ind	7	det	_	_
 7	poule	poule	NOUN	_	Number=Sing	5	comp	_	Gender[lex]=Fem
@@ -61710,7 +61710,7 @@
 19	à	à	ADP	_	Shared=No	18	udep	_	InTitle=Yes
 20	cames	came	NOUN	_	Number=Plur	19	comp	_	Gender[lex]=Fem|InTitle=Yes
 21	en	en	ADP	_	ExtPos=ADV|Shared=No	18	mod	_	Idiom=Yes|InTitle=Yes
-22	tête	tête	NOUN	_	Number=Sing	21	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|InTitle=Yes
+22	tête	tête	NOUN	_	Number=Sing	21	comp	_	Gender[lex]=Fem|InIdiom=Yes|InTitle=Yes
 23	»	»	PUNCT	_	_	18	punct	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	mais	mais	CCONJ	_	_	27	cc	_	_
@@ -61797,7 +61797,7 @@
 7	thés	thé	NOUN	_	Number=Plur	5	comp	_	Gender[lex]=Masc
 8	servis	servir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	mod	_	Tense[denom]=Past
 9	en	en	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
-10	général	général	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+10	général	général	NOUN	_	Number=Sing	9	comp	_	Gender[lex]=Masc|InIdiom=Yes
 11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 12	4,5	4,5	NUM	_	ExtPos=DET	13	det	_	Number[lex]=Plur
 13	€	€	SYM	_	ExtPos=NOUN|Number=Plur	3	parataxis	_	SpaceAfter=No
@@ -62640,7 +62640,7 @@
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
 8	terres	terre	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Fem
 9	en	en	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
-10	face	face	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+10	face	face	NOUN	_	Number=Sing	9	comp	_	Gender[lex]=Fem|InIdiom=Yes
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -62669,7 +62669,7 @@
 14	n'	ne	ADV	_	Polarity=Neg	15	mod	_	SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp	_	_
 16	en	en	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
-17	fait	fait	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+17	fait	fait	NOUN	_	Number=Sing	16	comp	_	Gender[lex]=Masc|InIdiom=Yes
 18	qu'	que	ADV	_	Polarity=Neg|Shared=No	20	mod	_	SpaceAfter=No
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	20	det	_	_
 20	sorte	sorte	NOUN	_	Number=Sing	15	comp:pred	_	Gender[lex]=Fem
@@ -62898,7 +62898,7 @@
 # sent_id = fr-ud-train_11006
 # text = En effet, le Galactica allait être désarmé et ne possédait donc que peu de munitions.
 1	En	en	ADP	_	ExtPos=ADV|Shared=Yes	6	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Galactica	Galactica	PROPN	_	Number=Sing|Shared=Yes	6	subj	_	Gender[lex]=Masc
@@ -63574,7 +63574,7 @@
 13	retirée	retirer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	SpaceAfter=No|Tense[denom]=Past
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	en	en	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
-16	raison	raison	NOUN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+16	raison	raison	NOUN	_	Number=Sing	15	comp	_	Gender[lex]=Fem|InIdiom=Yes
 17	de	de	ADP	_	_	16	comp:obl	_	_
 18	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	multicentricité	multicentricité	NOUN	_	Number=Sing	17	comp	_	Gender[lex]=Fem
@@ -63819,7 +63819,7 @@
 16	vie	vie	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	en	en	ADP	_	ExtPos=ADV	21	mod	_	Idiom=Yes
-19	fait	fait	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+19	fait	fait	NOUN	_	Number=Sing	18	comp	_	Gender[lex]=Masc|InIdiom=Yes
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	vertus	vertu	NOUN	_	Number=Plur	10	conj:appos	_	Gender[lex]=Fem
 22	cardinales	cardinal	ADJ	_	Gender=Fem|Number=Plur	21	mod	_	_
@@ -64469,7 +64469,7 @@
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	et	et	CCONJ	_	_	27	cc	_	_
 25	par	par	ADP	_	ExtPos=ADV	27	mod	_	Idiom=Yes
-26	suite	suite	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+26	suite	suite	NOUN	_	Number=Sing	25	comp	_	Gender[lex]=Fem|InIdiom=Yes
 27	de	de	ADP	_	_	7	conj:coord	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 29	italien	italien	ADJ	_	Gender=Masc|Number=Sing|Shared=No	27	comp	_	_
@@ -65482,7 +65482,7 @@
 # sent_id = fr-ud-train_11106
 # text = En effet, les articles L2323-6 et L2323-15 du code du travail précise que l'employeur doit informer et consulter le comité d'entreprise sur tout projet de restructuration et de compressions des effectifs.
 1	En	en	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	articles	article	NOUN	_	Number=Plur	15	subj	_	Gender[lex]=Masc
@@ -65881,7 +65881,7 @@
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	InIdiom=Yes
-19	fait	fait	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+19	fait	fait	NOUN	_	Number=Sing	17	comp	_	Gender[lex]=Masc|InIdiom=Yes
 20	de	de	ADP	_	_	19	comp:obl	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	fatigue	fatigue	NOUN	_	Number=Sing	20	comp	_	Gender[lex]=Fem
@@ -66119,7 +66119,7 @@
 4	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
 5	cas	cas	NOUN	_	_	3	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	d'	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes|SpaceAfter=No
-7	abord	abord	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+7	abord	abord	NOUN	_	Number=Sing	6	comp	_	Gender[lex]=Masc|InIdiom=Yes
 8	que	que	SCONJ	_	_	2	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	sous	sous	ADP	_	_	19	mod	_	_
@@ -67991,7 +67991,7 @@
 17	expérience	expérience	NOUN	_	Number=Sing	15	comp	_	Gender[lex]=Fem
 18	:	:	PUNCT	_	_	38	punct	_	_
 19	en	en	ADP	_	ExtPos=ADV|Shared=Yes	38	mod	_	Idiom=Yes
-20	effet	effet	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+20	effet	effet	NOUN	_	Number=Sing	19	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 21	,	,	PUNCT	_	_	19	punct	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	douleur	douleur	NOUN	_	Number=Sing|Shared=Yes	38	subj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -68115,7 +68115,7 @@
 31-32	aux	_	_	_	_	_	_	_	_
 31	à	à	ADP	_	ExtPos=ADV	30	mod	_	Idiom=Yes
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	InIdiom=Yes
-33	côtés	côté	NOUN	_	Number=Plur	31	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+33	côtés	côté	NOUN	_	Number=Plur	31	comp	_	Gender[lex]=Masc|InIdiom=Yes
 34	de	de	ADP	_	_	33	comp:obl	_	_
 35	Scarlett	Scarlett	PROPN	_	_	34	comp	_	Gender[lex]=Unknown
 36	Johansson	Johansson	PROPN	_	_	35	flat@name	_	Gender[lex]=Unknown
@@ -68181,7 +68181,7 @@
 7	État-région	État-région	PROPN	_	_	6	conj:appos	_	Gender[lex]=Unknown
 8	entrent	entrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	en	en	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
-10	effet	effet	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+10	effet	effet	NOUN	_	Number=Sing	9	comp	_	Gender[lex]=Masc|InIdiom=Yes
 11	dans	dans	ADP	_	_	8	comp:obl	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	cadre	cadre	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Masc
@@ -68876,7 +68876,7 @@
 # sent_id = fr-ud-train_11220
 # text = Par conséquent les algériens sont directement concernés par le soutien de ce pays.
 1	Par	par	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=par
-2	conséquent	conséquent	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+2	conséquent	conséquent	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	algériens	algérien	NOUN	_	Number=Plur	5	subj@pass	_	Gender[lex]=Masc
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -68930,7 +68930,7 @@
 2	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	ExtPos=ADV|Shared=Yes	6	mod	_	Idiom=Yes
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
-5	fois	fois	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+5	fois	fois	NOUN	_	_	3	comp	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 6	dans	dans	ADP	_	_	2	comp:obl	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	préparation	préparation	NOUN	_	Number=Sing	6	comp	_	Gender[lex]=Fem
@@ -69809,7 +69809,7 @@
 23	haïtienne	haïtien	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
 24	à	à	ADP	_	ExtPos=ADV	27	mod	_	Idiom=Yes
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	InIdiom=Yes
-26	fois	fois	NOUN	_	_	24	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+26	fois	fois	NOUN	_	_	24	comp	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 27	sur	sur	ADP	_	_	18	udep	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	29	det	_	_
 29	individus	individu	NOUN	_	Number=Plur	27	comp	_	Gender[lex]=Masc
@@ -70133,7 +70133,7 @@
 9	peut-être	peut-être	ADV	_	_	8	mod	_	_
 10	placé	placer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Tense[denom]=Past
 11	à	à	ADP	_	ExtPos=ADV	10	comp:obl	_	Idiom=Yes
-12	coté	côté	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+12	coté	côté	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Masc|InIdiom=Yes
 13	de	de	ADP	_	_	12	comp:obl	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	grande	grand	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	_
@@ -70216,7 +70216,7 @@
 16	dell'abate	dell'abate	X	_	_	15	flat@name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	à	à	ADP	_	ExtPos=ADV	15	udep	_	Idiom=Yes
-19	côté	côté	NOUN	_	Number=Sing	18	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+19	côté	côté	NOUN	_	Number=Sing	18	comp	_	Gender[lex]=Masc|InIdiom=Yes
 20	de	de	ADP	_	_	19	comp:obl	_	_
 21	Montalcino	Montalcino	PROPN	_	_	20	comp	_	Gender[lex]=Unknown
 22	non	non	ADV	_	Polarity=Neg	23	mod	_	_
@@ -70978,7 +70978,7 @@
 21	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	22	subj	_	_
 22	savons	savoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=22:Conditional-NeutralEpistemic.Apodosis@p
 23	par	par	ADP	_	ExtPos=ADV	22	mod	_	Idiom=Yes
-24	contre	contre	NOUN	_	_	23	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+24	contre	contre	NOUN	_	_	23	comp	_	Gender[lex]=Masc|InIdiom=Yes
 25	que	que	SCONJ	_	_	22	comp:obj	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 27	germes	germe	NOUN	_	Number=Plur	31	subj	_	Gender[lex]=Masc
@@ -71285,7 +71285,7 @@
 # sent_id = fr-ud-train_11308
 # text = D'abord élève d'une petite pension de la ville de Vouziers, il entra au collège de Reims où il remporta dès la première année neuf prix.
 1	D'	de	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes|SpaceAfter=No|wordform=d'
-2	abord	abord	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+2	abord	abord	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 3	élève	élève	NOUN	_	Number=Sing	15	mod	_	Gender[lex]=Masc
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -71551,7 +71551,7 @@
 1	Cuisine	cuisine	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem|wordform=cuisine
 2	à	à	ADP	_	ExtPos=ADV|Shared=Yes	5	mod	_	Idiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	InIdiom=Yes
-4	fois	fois	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+4	fois	fois	NOUN	_	_	2	comp	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 5	conviviale	convivial	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
 7	raffinée	raffiné	ADJ	_	Gender=Fem|Number=Sing	5	conj:coord	_	_
@@ -71618,7 +71618,7 @@
 21	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
 22	voulut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj:coord	_	_
 23	d'	de	ADP	_	ExtPos=ADV	25	mod	_	Idiom=Yes|SpaceAfter=No
-24	abord	abord	NOUN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+24	abord	abord	NOUN	_	Number=Sing	23	comp	_	Gender[lex]=Masc|InIdiom=Yes
 25	prendre	prendre	VERB	_	Shared=No|VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 27	avis	avis	NOUN	_	_	25	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -72024,7 +72024,7 @@
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	ExtPos=ADV	23	mod	_	Idiom=Yes
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	InIdiom=Yes
-26	sujet	sujet	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+26	sujet	sujet	NOUN	_	Number=Sing	24	comp	_	Gender[lex]=Masc|InIdiom=Yes
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	26	comp:obl	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
@@ -72280,7 +72280,7 @@
 12	à	à	ADP	_	_	5	comp:obl	_	_
 13	elle-même	lui-même	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	comp	_	_
 14	d'	de	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes|SpaceAfter=No
-15	abord	abord	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+15	abord	abord	NOUN	_	Number=Sing	14	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
 18-19	au	_	_	_	_	_	_	_	_
@@ -72619,7 +72619,7 @@
 3	vaudois	vaudois	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	par	par	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
-6	exemple	exemple	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+6	exemple	exemple	NOUN	_	Number=Sing	5	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 9	très	très	ADV	_	_	10	mod	_	_
@@ -72818,7 +72818,7 @@
 # sent_id = fr-ud-train_11357
 # text = Par exemple le récit de Caïn et Abel : en effet, le meurtre d'Abel a des conséquences pour la terre entière, pour tous les habitants qui peinent désormais à en tirer leur nourriture.
 1	Par	par	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes|wordform=par
-2	exemple	exemple	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+2	exemple	exemple	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	récit	récit	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
 5	de	de	ADP	_	_	4	udep	_	_
@@ -72827,7 +72827,7 @@
 8	Abel	Abel	PROPN	_	_	6	conj:coord	_	Gender[lex]=Unknown
 9	:	:	PUNCT	_	_	17	punct	_	_
 10	en	en	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
-11	effet	effet	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+11	effet	effet	NOUN	_	Number=Sing	10	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	meurtre	meurtre	NOUN	_	Number=Sing	17	subj	_	Gender[lex]=Masc
@@ -73144,7 +73144,7 @@
 52	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	53	subj	_	_
 53	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	mod@relcl	_	_
 54	à	à	ADP	_	ExtPos=ADV	53	mod	_	Idiom=Yes
-55	côté	côté	NOUN	_	Number=Sing	54	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+55	côté	côté	NOUN	_	Number=Sing	54	comp	_	Gender[lex]=Masc|InIdiom=Yes
 56-57	des	_	_	_	_	_	_	_	_
 56	de	de	ADP	_	_	55	comp:obl	_	_
 57	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	58	det	_	_
@@ -73275,7 +73275,7 @@
 5	musique	musique	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	en	en	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes
-8	particulier	particulier	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+8	particulier	particulier	NOUN	_	Number=Sing	7	comp	_	Gender[lex]=Masc|InIdiom=Yes
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	chant	chant	NOUN	_	Number=Sing	5	conj:coord	_	Gender[lex]=Masc
 11	et	et	CCONJ	_	_	16	cc	_	SpaceAfter=No
@@ -73863,7 +73863,7 @@
 2	France	France	PROPN	_	_	1	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	par	par	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes
-5	exemple	exemple	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+5	exemple	exemple	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 8	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	9	comp:obl	_	_
@@ -74426,7 +74426,7 @@
 8	rencontres	rencontre	NOUN	_	Number=Plur	6	comp	_	Gender[lex]=Fem|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	en	en	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
-11	raison	raison	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+11	raison	raison	NOUN	_	Number=Sing	10	comp	_	Gender[lex]=Fem|InIdiom=Yes
 12	d'	de	ADP	_	_	11	comp:obl	_	SpaceAfter=No
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	blessure	blessure	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Fem
@@ -75674,7 +75674,7 @@
 30	de	de	ADP	_	_	29	udep	_	_
 31	reconnaissance	reconnaissance	NOUN	_	Number=Sing	30	comp	_	Gender[lex]=Fem
 32	à	à	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
-33	condition	condition	NOUN	_	Number=Sing	32	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+33	condition	condition	NOUN	_	Number=Sing	32	comp	_	Gender[lex]=Fem|InIdiom=Yes
 34	de	de	ADP	_	_	33	comp:obl	_	_
 35	rallumer	rallumer	VERB	_	VerbForm=Inf	34	comp	_	Subject=Generic
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -75810,7 +75810,7 @@
 3	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	par	par	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes
-6	contre	contre	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+6	contre	contre	NOUN	_	_	5	comp	_	Gender[lex]=Masc|InIdiom=Yes
 7	facturé	facturer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Tense[denom]=Past
 8	sans	sans	ADP	_	_	4	mod	_	_
 9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	10	det	_	_
@@ -76616,7 +76616,7 @@
 49	baroque	baroque	ADJ	_	Number=Sing	48	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
 50	,	,	PUNCT	_	_	54	punct	_	_
 51	en	en	ADP	_	ExtPos=ADV	54	mod	_	Idiom=Yes
-52	particulier	particulier	NOUN	_	Number=Sing	51	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+52	particulier	particulier	NOUN	_	Number=Sing	51	comp	_	Gender[lex]=Masc|InIdiom=Yes
 53	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
 54	musique	musique	NOUN	_	Number=Sing	37	conj:coord	_	Gender[lex]=Fem
 55	pour	pour	ADP	_	Shared=No	54	udep	_	_
@@ -76807,7 +76807,7 @@
 # sent_id = fr-ud-train_11492
 # text = Par exemple, le capitaine du vaisseau spatial ne remarquera pas la station spatiale, à laquelle il n'est plus censé faire attention.
 1	Par	par	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes|wordform=par
-2	exemple	exemple	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	exemple	exemple	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	capitaine	capitaine	NOUN	_	Number=Sing	11	subj	_	Gender[lex]=Masc
@@ -78001,7 +78001,7 @@
 # sent_id = fr-ud-train_11538
 # text = Par contre c'est le Musée national de Varsovie, architecture néo-classique caractéristique de l'Entre-deux-guerres dans la capitale polonaise, qui représente l'Institut de la jeunesse hitlérienne à Braunschweig.
 1	Par	par	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes|wordform=par
-2	contre	contre	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+2	contre	contre	NOUN	_	_	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj@expl	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -78127,7 +78127,7 @@
 # sent_id = fr-ud-train_11542
 # text = Par contre, la négation ou l'implication ne conserve pas le caractère diophantien.
 1	Par	par	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes|wordform=par
-2	contre	contre	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	contre	contre	NOUN	_	_	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	5	det	_	_
 5	négation	négation	NOUN	_	Number=Sing	10	subj	_	Gender[lex]=Fem
@@ -78167,7 +78167,7 @@
 21	de	de	ADP	_	_	15	conj:coord	_	_
 22	différencier	différencier	VERB	_	Shared=No|VerbForm=Inf	21	comp	_	Subject=Generic
 23	par	par	ADP	_	ExtPos=ADV	22	mod	_	Idiom=Yes
-24	exemple	exemple	NOUN	_	Number=Sing	23	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+24	exemple	exemple	NOUN	_	Number=Sing	23	comp	_	Gender[lex]=Masc|InIdiom=Yes
 25	entre	entre	ADP	_	_	22	mod	_	_
 26	pergélisol	pergélisol	NOUN	_	Number=Sing	25	comp	_	Gender[lex]=Masc
 27	continu	continu	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
@@ -79382,7 +79382,7 @@
 # sent_id = fr-ud-train_11582
 # text = Par conséquent, les élections sont perdues pour lui.
 1	Par	par	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|wordform=par
-2	conséquent	conséquent	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	conséquent	conséquent	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	élections	élection	NOUN	_	Number=Plur	6	subj@pass	_	Gender[lex]=Fem
@@ -80413,7 +80413,7 @@
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	attribue	attribuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 12	d'	de	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes|SpaceAfter=No
-13	abord	abord	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+13	abord	abord	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Masc|InIdiom=Yes
 14	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
 15	pratique	pratique	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
 16-17	du	_	_	_	_	_	_	_	_

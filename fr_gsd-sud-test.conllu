@@ -37,7 +37,7 @@
 3	toujours	toujours	ADV	_	_	2	mod	_	_
 4	parler	parler	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 5	à	à	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes
-6	propos	propos	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
+6	propos	propos	NOUN	_	_	5	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 7	d'	de	ADP	_	_	6	comp:obl	_	SpaceAfter=No
 8	Averroès	Averroès	PROPN	_	_	7	comp	_	Gender[lex]=Unknown
 9	de	de	ADP	_	_	4	comp:obl	_	_
@@ -1085,7 +1085,7 @@
 # sent_id = fr-ud-test_00043
 # text = En effet, la contre attaque a été massive et a touché pas moins de 174 sites appartenant pour la plupart au gouvernement et à des entreprises du royaume marocain.
 1	En	en	ADP	_	ExtPos=ADV|Shared=Yes	7	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	contre	contre-attaque	NOUN	_	Number=Sing|Shared=Yes|Typo=Yes	7	subj	_	CorrectForm=contre-attaque|Gender[lex]=Fem
@@ -1785,7 +1785,7 @@
 29	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	30	comp:obj	_	_
 30	agressant	agresser	VERB	_	VerbForm=Part	28	comp	_	Tense[denom]=Pres
 31	à	à	ADP	_	ExtPos=ADV	30	mod	_	Idiom=Yes
-32	propos	propos	NOUN	_	_	31	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
+32	propos	propos	NOUN	_	_	31	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 33	d'	de	ADP	_	_	32	comp:obl	_	SpaceAfter=No
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	match	match	NOUN	_	Number=Sing	33	comp	_	Gender[lex]=Masc
@@ -2293,7 +2293,7 @@
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	InIdiom=Yes
-16	vu	vu	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+16	vu	vu	NOUN	_	Number=Sing	14	comp	_	Gender[lex]=Masc|InIdiom=Yes
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	comp:obl	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
@@ -2972,7 +2972,7 @@
 2	résultat	résultat	NOUN	_	Number=Sing	3	subj	_	Gender[lex]=Masc
 3	provient	provenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-5	hauteur	hauteur	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes
+5	hauteur	hauteur	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Fem|InIdiom=Yes
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	18,5	18,5	NUM	_	ExtPos=DET	8	det	_	Number[lex]=Plur
 8	ME	ME	NOUN	_	Number=Plur	6	comp	_	Gender[lex]=Masc
@@ -3456,7 +3456,7 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	ExtPos=ADV|Shared=Yes	10	mod	_	Idiom=Yes
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
-3	sein	sein	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+3	sein	sein	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	équipe	équipe	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Fem
@@ -6376,7 +6376,7 @@
 10	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	11	comp:obl	_	Polite=Unknown
 11	permettra	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 12	sans	sans	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes
-13	doute	doute	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+13	doute	doute	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Masc|InIdiom=Yes
 14	de	de	ADP	_	_	11	comp:obj	_	_
 15	trouver	trouver	VERB	_	VerbForm=Inf	14	comp	_	Subject=OblRaising
 16	bien	bien	ADV	_	_	17	mod	_	_
@@ -6476,7 +6476,7 @@
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp	_	_
 10	à	à	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
-12	fois	fois	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+12	fois	fois	NOUN	_	_	10	comp	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 13	futuriste	futuriste	ADJ	_	Number=Sing	9	comp:pred	_	Gender[ctxt]=Masc
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	romantique	romantique	ADJ	_	Number=Sing	13	conj:coord	_	Gender[ctxt]=Masc|SpaceAfter=No
@@ -6836,7 +6836,7 @@
 23	quoi	quoi	PRON	_	Person=3|PronType=Int	22	unk	_	InIdiom=Yes|SpaceAfter=No
 24	...	...	PUNCT	_	_	29	punct	_	_
 25	Par	par	ADP	_	ExtPos=ADV	29	mod	_	Idiom=Yes|wordform=par
-26	contre	contre	NOUN	_	_	25	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+26	contre	contre	NOUN	_	_	25	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 27	,	,	PUNCT	_	_	25	punct	_	_
 28	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	subj	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
@@ -7516,7 +7516,7 @@
 # sent_id = fr-ud-test_00272
 # text = Par contre, si vous êtes nombreux passez votre chemin c'est relativement étroit !
 1	Par	par	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes|wordform=par
-2	contre	contre	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	contre	contre	NOUN	_	_	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	si	si	SCONJ	_	_	8	mod	_	CxnElt=8:Conditional-NeutralEpistemic.Protasis@f
 5	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	6	subj	_	Polite=No
@@ -7534,7 +7534,7 @@
 # sent_id = fr-ud-test_00273
 # text = Par contre l'accueil est impeccable et très chaleureux, la propreté parfaite et le petit jardin très reposant...
 1	Par	par	ADP	_	ExtPos=ADV|Shared=Yes	5	mod	_	Idiom=Yes|wordform=par
-2	contre	contre	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+2	contre	contre	NOUN	_	_	1	comp	_	Gender[lex]=Masc|InIdiom=Yes
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 4	accueil	accueil	NOUN	_	Number=Sing|Shared=No	5	subj	_	Gender[lex]=Masc
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7980,7 +7980,7 @@
 9	serrures	serrure	NOUN	_	Number=Plur	7	comp:obj	_	Gender[lex]=Fem
 10	à	à	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
-12	fois	fois	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+12	fois	fois	NOUN	_	_	10	comp	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 13	à	à	ADP	_	_	6	mod	_	_
 14	titre	titre	NOUN	_	Number=Sing	13	comp	_	Gender[lex]=Masc
 15	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
@@ -9345,7 +9345,7 @@
 22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
 23	retards	retard	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Masc
 24	en	en	ADP	_	ExtPos=ADV	20	mod	_	Idiom=Yes
-25	raison	raison	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Fem|InIdiom=Yes|SpaceAfter=No
+25	raison	raison	NOUN	_	Number=Sing	24	comp	_	Gender[lex]=Fem|InIdiom=Yes|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	entre	entre	ADP	_	_	24	mod	_	_
 28	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	27	comp	_	_
@@ -9364,7 +9364,7 @@
 40-41	au	_	_	_	_	_	_	_	_
 40	à	à	ADP	_	ExtPos=ADV	32	mod	_	Idiom=Yes
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	InIdiom=Yes
-42	sujet	sujet	NOUN	_	Number=Sing	40	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+42	sujet	sujet	NOUN	_	Number=Sing	40	comp	_	Gender[lex]=Masc|InIdiom=Yes
 43-44	du	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	42	comp:obl	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
@@ -10647,7 +10647,7 @@
 36	christianisme	christianisme	NOUN	_	Number=Sing	37	subj	_	Gender[lex]=Masc
 37	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	comp	_	_
 38	en	en	ADP	_	ExtPos=ADV	37	mod	_	Idiom=Yes
-39	fait	fait	NOUN	_	Number=Sing	38	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+39	fait	fait	NOUN	_	Number=Sing	38	comp	_	Gender[lex]=Masc|InIdiom=Yes
 40	à	à	ADP	_	_	37	mod	_	_
 41	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	42	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 42	origine	origine	NOUN	_	Number=Sing	40	comp	_	Gender[lex]=Fem
@@ -10690,7 +10690,7 @@
 # sent_id = fr-ud-dev_01568
 # text = En effet, dans le cadre de la théorie néoclassique, l'agent économique cherche à maximiser son utilité et lorsqu'il est amené à faire un arbitrage entre consommation et épargne, il va considérer ce que lui rapportera l'épargne, autrement dit, il va considérer le taux d'intérêt.
 1	En	en	ADP	_	ExtPos=ADV|Shared=No	15	mod	_	Idiom=Yes|wordform=en
-2	effet	effet	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+2	effet	effet	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	dans	dans	ADP	_	Shared=No	15	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -11295,7 +11295,7 @@
 7	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	_
 8	siège	siège	NOUN	_	Number=Sing	6	comp:obj	_	Gender[lex]=Masc
 9	à	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
-10	côté	côté	NOUN	_	Number=Sing	9	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes
+10	côté	côté	NOUN	_	Number=Sing	9	comp	_	Gender[lex]=Masc|InIdiom=Yes
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	maison	maison	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Fem
