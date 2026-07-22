@@ -36720,14 +36720,16 @@
 
 # sent_id = fr-ud-dev_01328
 # text = Le Funtenseealma été actif jusqu'en 1964.
+# source = https://fr.wikipedia.org/wiki/Lac_Funten
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	Funtenseealma	Funtenseealma	PROPN	_	Number=Sing	3	subj	_	Gender[lex]=Masc
-3	été	être	AUX	_	Gender=Masc|Number=Sing|Typo=Yes|VerbForm=Part	0	root	_	CorrectForm=était|CorrectGender=none|CorrectPerson=3|CorrectTense=Imp|CorrectVerbForm=Fin|Tense[denom]=Past
-4	actif	actif	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
-5	jusqu'	jusque	ADP	_	_	3	mod	_	SpaceAfter=No
-6	en	en	ADP	_	_	5	comp	_	_
-7	1964	1964	NUM	_	ExtPos=PROPN	6	comp	_	Number[lex]=Sing|SpaceAfter=No
-8	.	.	PUNCT	_	_	3	punct	_	_
+2	Funtenseealm	Funtenseealm	PROPN	_	Number=Sing	3	subj	_	CorrectSpaceAfter=Yes|Gender[lex]=Masc|SpaceAfter=No
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Tense[denom]=Past
+4	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	3	comp:aux@tense	_	CorrectForm=était|CorrectGender=none|CorrectPerson=3|CorrectTense=Imp|CorrectVerbForm=Fin|Tense[denom]=Past
+5	actif	actif	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
+6	jusqu'	jusque	ADP	_	_	3	mod	_	SpaceAfter=No
+7	en	en	ADP	_	_	6	comp	_	_
+8	1964	1964	NUM	_	ExtPos=PROPN	7	comp	_	Number[lex]=Sing|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01329
 # text = Il rapporta les plans du palais abbasside de Badgad, et, après avoir persuadé l'empereur Théophile de l'en charger, supervisa la construction d'un édifice semblable, le palais de Bryas, « à la ressemblance des architectures sarrasines », dans la banlieue asiatique de Constantinople.
