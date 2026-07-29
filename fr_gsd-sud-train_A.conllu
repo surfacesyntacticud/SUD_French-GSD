@@ -7129,7 +7129,7 @@
 17	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	_
 18	débit	débit	NOUN	_	Number=Sing	16	comp	_	Gender[lex]=Masc|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	vu	vu	VERB	_	ExtPos=ADP	12	mod	_	_
+20	vu	voir	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	12	mod	_	Tense[denom]=Past
 21	que	que	SCONJ	_	_	20	comp	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	en	en	ADP	_	_	40	mod	_	_
@@ -76970,7 +76970,7 @@
 # sent_id = fr-ud-train_02733
 # text = Cependant vu l'âge du condamné, et ses états de service durant la Première Guerre mondiale, Philippe Pétain voit sa peine commuée en réclusion à perpétuité.
 1	Cependant	cependant	ADV	_	_	22	mod	_	wordform=cependant
-2	vu	vu	VERB	_	ExtPos=ADP	22	mod	_	_
+2	vu	voir	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	22	mod	_	Tense[denom]=Past
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	4	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 4	âge	âge	NOUN	_	Number=Sing	2	comp	_	Gender[lex]=Masc
 5-6	du	_	_	_	_	_	_	_	_
