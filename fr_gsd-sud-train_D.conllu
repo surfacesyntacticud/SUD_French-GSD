@@ -23298,7 +23298,7 @@
 57	cauchemardesque	cauchemardesque	ADJ	_	Number=Sing	53	mod	_	Gender[ctxt]=Fem|SpaceAfter=No
 58	,	,	PUNCT	_	_	60	punct	_	_
 59	et	et	CCONJ	_	_	60	cc	_	_
-60	vu	voir	VERB	_	ExtPos=ADP	51	conj:coord	_	_
+60	vu	voir	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	51	conj:coord	_	Tense[denom]=Past
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
 62	contexte	contexte	NOUN	_	Number=Sing|Shared=No	60	comp	_	Gender[lex]=Masc
 63	économique	économique	ADJ	_	Number=Sing	62	mod	_	Gender[ctxt]=Masc
