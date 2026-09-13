@@ -67,12 +67,12 @@
 24	communauté	communauté	NOUN	_	Number=Sing	22	comp	_	Gender[lex]=Fem
 25	juive	juif	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	_
 26	en	en	ADP	_	ExtPos=ADV	24	mod	_	Idiom=Yes
-27	générale	général	ADJ	_	Gender=Fem|Number=Sing	26	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+27	générale	général	ADJ	_	Gender=Fem|Number=Sing	26	comp	_	InIdiom=Yes|SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	américaine	américain	ADJ	_	Gender=Fem|Number=Sing	25	conj:coord	_	_
 31	en	en	ADP	_	ExtPos=ADV|Shared=No	30	mod	_	Idiom=Yes
-32	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	31	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+32	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	31	comp	_	InIdiom=Yes|SpaceAfter=No
 33	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_00004
@@ -299,7 +299,7 @@
 16	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	comp@pass	_	_
 17	pratiquaient	pratiquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	mod@relcl	_	_
 18	d'	de	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes|SpaceAfter=No
-19	ailleurs	ailleurs	ADV	_	_	18	comp:obj	_	InIdiom=Yes
+19	ailleurs	ailleurs	ADV	_	_	18	comp	_	InIdiom=Yes
 20	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 21	nombreux	nombreux	ADJ	_	Gender=Masc	22	mod	_	Number[ctxt]=Plur
 22	échanges	échange	NOUN	_	Number=Plur	17	subj@pass	_	Gender[lex]=Masc
@@ -920,7 +920,7 @@
 # sent_id = fr-ud-train_00040
 # text = De plus l'appartenance à l'ordre équestre était nécessaire pour accéder aux postes d'officier dans l'armée.
 1	De	de	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes|wordform=de
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 4	appartenance	appartenance	NOUN	_	Number=Sing	9	subj	_	Gender[lex]=Fem
 5	à	à	ADP	_	_	4	udep	_	_
@@ -1385,7 +1385,7 @@
 51	triangle	triangle	NOUN	_	Number=Sing	50	comp	_	Gender[lex]=Masc|SpaceAfter=No
 52	,	,	PUNCT	_	_	56	punct	_	_
 53	de	de	ADP	_	ExtPos=ADV	56	mod	_	Idiom=Yes
-54	plus	plus	ADV	_	_	53	comp:obj	_	InIdiom=Yes
+54	plus	plus	ADV	_	_	53	comp	_	InIdiom=Yes
 55	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	56	subj	_	_
 56	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	parataxis	_	_
 57	en	en	ADP	_	_	56	comp:pred	_	_
@@ -1816,7 +1816,7 @@
 # sent_id = fr-ud-train_00073
 # text = À partir du XXIe siècle, les recensements réels des communes de moins de 10 000 habitants ont lieu tous les cinq ans.
 1	À	à	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes|wordform=à
-2	partir	partir	VERB	_	VerbForm=Inf	1	comp:obj	_	InIdiom=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	1	comp	_	InIdiom=Yes
 3	du	du	ADP	_	_	2	comp:obl	_	_
 4	XXIe	XXIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	5	mod	_	_
 5	siècle	siècle	NOUN	_	Number=Sing	3	comp	_	Gender[lex]=Masc|SpaceAfter=No
@@ -4186,7 +4186,7 @@
 # sent_id = fr-ud-train_00156
 # text = De plus le codage de Huffman impose d'utiliser un nombre entier de bit pour un symbole source, ce qui peut s'avérer peu efficace.
 1	De	de	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|wordform=de
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	codage	codage	NOUN	_	Number=Sing	7	subj	_	Gender[lex]=Masc
 5	de	de	ADP	_	_	4	udep	_	_
@@ -4710,7 +4710,7 @@
 52	probiotiques	probiotique	ADJ	_	Gender=Fem|Number=Plur	51	mod	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	54	punct	_	_
 54	en	en	ADP	_	ExtPos=ADV	44	mod	_	Idiom=Yes
-55	plus	plus	ADV	_	_	54	comp:obj	_	InIdiom=Yes
+55	plus	plus	ADV	_	_	54	comp	_	InIdiom=Yes
 56	des	de	ADP	_	_	44	comp:obl	_	_
 57	bactéries	bactérie	NOUN	_	Number=Plur	56	comp	_	Gender[lex]=Fem
 58	naturellement	naturellement	ADV	_	_	59	mod	_	_
@@ -5039,7 +5039,7 @@
 2	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	3	mod	_	_
 3	gagne	gagner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	comp:obj	_	InIdiom=Yes
+5	ailleurs	ailleurs	ADV	_	_	4	comp	_	InIdiom=Yes
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	prix	prix	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	du	du	ADP	_	_	7	udep	_	_
@@ -5361,7 +5361,7 @@
 7	tragi-comique	tragi-comique	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
 8	improvisée	improviser	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	mod	_	Tense[denom]=Past
 9	à	à	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
-10	partir	partir	VERB	_	VerbForm=Inf	9	comp:obj	_	InIdiom=Yes
+10	partir	partir	VERB	_	VerbForm=Inf	9	comp	_	InIdiom=Yes
 11	d'	de	ADP	_	_	10	comp:obl	_	SpaceAfter=No
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	thème	thème	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Masc
@@ -5555,7 +5555,7 @@
 # sent_id = fr-ud-train_00200
 # text = À partir de 1977, les actions de sabotage de cette dernière sont plus nombreux et certains d'entre eux, meurtriers.
 1	À	à	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes|wordform=à
-2	partir	partir	VERB	_	VerbForm=Inf	1	comp:obj	_	InIdiom=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	1	comp	_	InIdiom=Yes
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	1977	1977	NUM	_	ExtPos=PROPN	3	comp	_	Number[lex]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
@@ -6426,7 +6426,7 @@
 40	n'	ne	ADV	_	Polarity=Neg	41	mod	_	SpaceAfter=No
 41	augmente	augmenter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	comp	_	_
 42	à	à	ADP	_	ExtPos=ADV	41	mod	_	Idiom=Yes
-43	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	42	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+43	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	42	comp	_	InIdiom=Yes|SpaceAfter=No
 44	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = fr-ud-train_00233
@@ -6914,7 +6914,7 @@
 7	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	transporter	transporter	VERB	_	VerbForm=Inf	7	comp:aux@caus	_	Subject=ObjRaising
 9	de	de	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
-10	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	9	comp:obj	_	InIdiom=Yes
+10	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	9	comp	_	InIdiom=Yes
 11	à	à	ADP	_	_	7	mod	_	_
 12	Houston	Houston	PROPN	_	_	11	comp	_	Gender[lex]=Unknown
 13	où	où	ADV	_	PronType=Rel	15	mod	_	_
@@ -7094,7 +7094,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	falaise	falaise	NOUN	_	Number=Sing	9	comp	_	Gender[lex]=Fem
 12	à	à	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-13	partir	partir	VERB	_	VerbForm=Inf	12	comp:obj	_	InIdiom=Yes
+13	partir	partir	VERB	_	VerbForm=Inf	12	comp	_	InIdiom=Yes
 14	d'	de	ADP	_	_	13	comp:obl	_	SpaceAfter=No
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	temple	temple	NOUN	_	Number=Sing	14	comp	_	Gender[lex]=Masc
@@ -9120,7 +9120,7 @@
 44	albums	album	NOUN	_	Number=Plur	40	comp	_	Gender[lex]=Masc|SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	_
 46	en	en	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
-47	plus	plus	ADV	_	_	46	comp:obj	_	InIdiom=Yes
+47	plus	plus	ADV	_	_	46	comp	_	InIdiom=Yes
 48	d'	de	ADP	_	_	47	comp:obl	_	SpaceAfter=No
 49	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
 50	large	large	ADJ	_	Number=Sing	51	mod	_	Gender[ctxt]=Fem
@@ -9164,7 +9164,7 @@
 # sent_id = fr-ud-train_00329
 # text = Par ailleurs, il choisit de se surnommer Alucard, en opposition à Dracula (le mot Alucard étant l'opposé exact, l'anacyclique du mot Dracula).
 1	Par	par	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=par
-2	ailleurs	ailleurs	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 5	choisit	choisir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9974,7 +9974,7 @@
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	vie	vie	NOUN	_	Number=Sing|Shared=No	12	comp:obj	_	Gender[lex]=Fem
 15	en	en	ADP	_	ExtPos=ADV	14	mod	_	Idiom=Yes
-16	commun	commun	ADJ	_	Gender=Masc|Number=Sing	15	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+16	commun	commun	ADJ	_	Gender=Masc|Number=Sing	15	comp	_	InIdiom=Yes|SpaceAfter=No
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_00361
@@ -11527,7 +11527,7 @@
 # sent_id = fr-ud-train_00420
 # text = Pour autant, il se révèle incapable d'identifier les auteurs des libelles haineux répandus contre la favorite.
 1	Pour	pour	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|wordform=pour
-2	autant	autant	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	autant	autant	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 5	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@expl	_	_
@@ -11781,7 +11781,7 @@
 2	chant	chant	NOUN	_	Number=Sing	3	subj	_	Gender[lex]=Masc
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	par	par	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-5	ailleurs	ailleurs	ADV	_	_	4	comp:obj	_	InIdiom=Yes
+5	ailleurs	ailleurs	ADV	_	_	4	comp	_	InIdiom=Yes
 6	baissé	baisser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Tense[denom]=Past
 7	en	en	ADP	_	_	6	mod	_	_
 8	fréquence	fréquence	NOUN	_	Number=Sing	7	comp	_	Gender[lex]=Fem
@@ -12912,7 +12912,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
-4	outre	outre	ADV	_	_	3	comp:obj	_	InIdiom=Yes
+4	outre	outre	ADV	_	_	3	comp	_	InIdiom=Yes
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	particularité	particularité	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 7	de	de	ADP	_	_	6	udep	_	_
@@ -13552,7 +13552,7 @@
 6	couteux	coûteux	ADJ	_	Gender=Masc	4	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	en	en	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes
-9	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	8	comp:obj	_	InIdiom=Yes
+9	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	8	comp	_	InIdiom=Yes
 10	pour	pour	ADP	_	_	4	mod	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	nation	nation	NOUN	_	Number=Sing	10	comp	_	Gender[lex]=Fem
@@ -14907,7 +14907,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	affirme	affirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
-4	outre	outre	ADV	_	_	3	comp:obj	_	InIdiom=Yes
+4	outre	outre	ADV	_	_	3	comp	_	InIdiom=Yes
 5	que	que	SCONJ	_	_	2	comp:obj	_	_
 6	Claire	Claire	PROPN	_	Shared=Yes	11	subj	_	Gender[lex]=Unknown
 7	Thibout	Thibout	PROPN	_	_	6	flat@name	_	Gender[lex]=Unknown
@@ -14917,7 +14917,7 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp	_	_
 12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	_
 13	du	du	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
-14	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	comp:obj	_	InIdiom=Yes
+14	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	comp	_	InIdiom=Yes
 15	rétractée	rétracter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	11	comp:aux@tense	_	Tense[denom]=Past
 16	»	»	PUNCT	_	_	11	punct	_	_
 17	mais	mais	CCONJ	_	_	18	cc	_	_
@@ -15279,7 +15279,7 @@
 # sent_id = fr-ud-train_00562
 # text = De plus, les prix sont très attractifs...
 1	De	de	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|wordform=de
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	prix	prix	NOUN	_	_	6	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
@@ -15806,7 +15806,7 @@
 # sent_id = fr-ud-train_00581
 # text = Pour autant les différents partis composant la majorité de gauche voient leur poids modifié.
 1	Pour	pour	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes|wordform=pour
-2	autant	autant	ADV	_	_	1	comp:obj	_	InIdiom=Yes
+2	autant	autant	ADV	_	_	1	comp	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 4	différents	différent	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
 5	partis	parti	NOUN	_	Number=Plur	11	subj	_	Gender[lex]=Masc
@@ -15977,7 +15977,7 @@
 # sent_id = fr-ud-train_00587
 # text = En plus de posséder ces armes, le marine se doit constamment de trouver des munitions pour chacune d'entre elles.
 1	En	en	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes|wordform=en
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	posséder	posséder	VERB	_	VerbForm=Inf	3	comp	_	Subject=SubjRaising
 5	ces	ce	DET	_	Number=Plur|PronType=Dem	6	det	_	_
@@ -16004,7 +16004,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
 2	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes
+4	ailleurs	ailleurs	ADV	_	_	3	comp	_	InIdiom=Yes
 5	qu'	que	SCONJ	_	_	2	comp:obj	_	SpaceAfter=No
 6	au	au	ADP	_	_	16	mod	_	_
 7	IVe	IVe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	mod	_	_
@@ -22845,7 +22845,7 @@
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	fois	fois	NOUN	_	_	4	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 7	de	de	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
-8	plus	plus	ADV	_	_	7	comp:obj	_	InIdiom=Yes
+8	plus	plus	ADV	_	_	7	comp	_	InIdiom=Yes
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	détails	détail	NOUN	_	Number=Plur	4	comp:obj	_	Gender[lex]=Masc
 11	concrets	concret	ADJ	_	Gender=Masc|Number=Plur	10	mod	_	_
@@ -24572,7 +24572,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	du	du	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes
-6	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	comp:obj	_	InIdiom=Yes
+6	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	comp	_	InIdiom=Yes
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	8	det	_	_
 8	bar	bar	NOUN	_	Number=Sing	3	comp:pred	_	Gender[lex]=Masc|SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
@@ -24670,7 +24670,7 @@
 # sent_id = fr-ud-train_00913
 # text = En tout 10 pays seront représentés.
 1	En	en	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=en
-2	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	comp:obj	_	InIdiom=Yes
+2	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	comp	_	InIdiom=Yes
 3	10	10	NUM	_	ExtPos=DET	4	det	_	Number[lex]=Plur
 4	pays	pays	NOUN	_	_	5	subj@pass	_	Gender[lex]=Masc|Number[ctxt]=Plur
 5	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -26230,7 +26230,7 @@
 5	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	mod@relcl	_	_
 6	retrouver	retrouver	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	à	à	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
-8	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes
+8	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	7	comp	_	InIdiom=Yes
 9	Jon	Jon	PROPN	_	_	6	comp:obj	_	Gender[lex]=Unknown
 10	Favreau	Favreau	PROPN	_	_	9	flat@name	_	Gender[lex]=Unknown
 11	dans	dans	ADP	_	_	6	mod	_	_
@@ -26359,7 +26359,7 @@
 1	Elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=elle
 2	cultive	cultiver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes
+4	ailleurs	ailleurs	ADV	_	_	3	comp	_	InIdiom=Yes
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	ambiguïté	ambiguïté	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 7	sur	sur	ADP	_	_	2	mod	_	_
@@ -26828,7 +26828,7 @@
 13	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	cars	car	NOUN	_	Number=Plur	11	comp:obj	_	CxnElt=11:Existential-HavePred-ItExpl-ThereExpl.Pivot@f|Gender[lex]=Masc
 15	du	du	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
-16	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+16	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	comp	_	InIdiom=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	11	punct	_	SpaceAfter=No
 18	"	"	PUNCT	_	_	11	punct	_	_
 19	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	21	comp@expl	_	SpaceAfter=No
@@ -27124,7 +27124,7 @@
 23	académiques	académique	ADJ	_	Number=Plur	22	mod	_	Gender[ctxt]=Masc|SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	en	en	ADP	_	ExtPos=ADV	27	mod	_	Idiom=Yes
-26	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	25	comp:obj	_	InIdiom=Yes
+26	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	25	comp	_	InIdiom=Yes
 27	contre	contre	ADP	_	_	22	udep	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	théorie	théorie	NOUN	_	Number=Sing	27	comp	_	Gender[lex]=Fem
@@ -28768,7 +28768,7 @@
 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No|wordform=c'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes
+4	ailleurs	ailleurs	ADV	_	_	3	comp	_	InIdiom=Yes
 5	à	à	ADP	_	_	2	comp:pred	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	style	style	NOUN	_	Number=Sing	5	comp	_	Gender[lex]=Masc
@@ -30693,7 +30693,7 @@
 19	de	de	ADP	_	_	18	udep	_	_
 20	suite	suite	NOUN	_	Number=Sing	19	comp	_	Gender[lex]=Fem
 21	à	à	ADP	_	ExtPos=ADV	16	mod	_	Idiom=Yes
-22	partir	partir	VERB	_	VerbForm=Inf	21	comp:obj	_	InIdiom=Yes
+22	partir	partir	VERB	_	VerbForm=Inf	21	comp	_	InIdiom=Yes
 23	de	de	ADP	_	_	22	comp:obl	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	mesure	mesure	NOUN	_	Number=Sing	23	comp	_	Gender[lex]=Fem
@@ -31155,7 +31155,7 @@
 # sent_id = fr-ud-train_01150
 # text = En plus de ses nominations aux Oliviers et à l'ADISQ, Sylvain Larocque a remporté plusieurs prix :
 1	En	en	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes|wordform=en
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	_
 5	nominations	nomination	NOUN	_	Number=Plur	3	comp	_	Gender[lex]=Fem
@@ -31727,7 +31727,7 @@
 7	produits	produit	NOUN	_	Number=Plur	5	comp:pred	_	Gender[lex]=Masc
 8	manufacturés	manufacturer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	mod	_	Tense[denom]=Past
 9	à	à	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
-10	partir	partir	VERB	_	VerbForm=Inf	9	comp:obj	_	InIdiom=Yes
+10	partir	partir	VERB	_	VerbForm=Inf	9	comp	_	InIdiom=Yes
 11	des	de	ADP	_	_	10	comp:obl	_	_
 12	matières	matière	NOUN	_	Number=Plur	11	comp	_	Gender[lex]=Fem
 13	préalablement	préalablement	ADV	_	_	14	mod	_	_
@@ -35354,7 +35354,7 @@
 25	,	,	PUNCT	_	_	30	punct	_	_
 26	et	et	CCONJ	_	_	30	cc	_	_
 27	en	en	ADP	_	ExtPos=ADV	30	mod	_	Idiom=Yes
-28	plus	plus	ADV	_	_	27	comp:obj	_	InIdiom=Yes
+28	plus	plus	ADV	_	_	27	comp	_	InIdiom=Yes
 29	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	30	subj@pass	_	SpaceAfter=No
 30	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	conj:coord	_	_
 31	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	30	comp:aux@tense	_	Tense[denom]=Past
@@ -35472,7 +35472,7 @@
 15	Paris	Paris	PROPN	_	_	14	comp	_	Gender[lex]=Unknown
 16	où	où	ADV	_	PronType=Rel|Shared=Yes	22	mod	_	_
 17	à	à	ADP	_	ExtPos=ADV|Shared=Yes	22	mod	_	Idiom=Yes
-18	partir	partir	VERB	_	VerbForm=Inf	17	comp:obj	_	InIdiom=Yes
+18	partir	partir	VERB	_	VerbForm=Inf	17	comp	_	InIdiom=Yes
 19	de	de	ADP	_	_	18	comp:obl	_	_
 20	1847	1847	NUM	_	ExtPos=PROPN	19	comp	_	Number[lex]=Sing
 21	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	22	subj	_	_
@@ -35847,7 +35847,7 @@
 4	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 5	craignait	craindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	d'	de	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|SpaceAfter=No
-7	ailleurs	ailleurs	ADV	_	_	6	comp:obj	_	InIdiom=Yes
+7	ailleurs	ailleurs	ADV	_	_	6	comp	_	InIdiom=Yes
 8	que	que	SCONJ	_	_	5	comp:obj	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	cinéma	cinéma	NOUN	_	Number=Sing	13	subj	_	Gender[lex]=Masc
@@ -36506,7 +36506,7 @@
 37	groupe	groupe	NOUN	_	Number=Sing|Shared=No	35	comp:obj	_	Gender[lex]=Masc
 38	CDU	CDU	PROPN	_	_	37	conj:appos	_	Gender[lex]=Unknown
 39	à	à	ADP	_	ExtPos=ADV|Shared=No	35	mod	_	Idiom=Yes
-40	compter	compter	VERB	_	VerbForm=Inf	39	comp:obj	_	InIdiom=Yes
+40	compter	compter	VERB	_	VerbForm=Inf	39	comp	_	InIdiom=Yes
 41	de	de	ADP	_	_	40	comp:obl	_	_
 42	1947	1947	NUM	_	ExtPos=PROPN	41	comp	_	Number[lex]=Sing|SpaceAfter=No
 43	.	.	PUNCT	_	_	2	punct	_	_
@@ -38085,7 +38085,7 @@
 4	positifs	positif	ADJ	_	Gender=Masc|Number=Plur	2	mod	_	_
 5	activent	activer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	en	en	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
-7	outre	outre	ADV	_	_	6	comp:obj	_	InIdiom=Yes
+7	outre	outre	ADV	_	_	6	comp	_	InIdiom=Yes
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	régions	région	NOUN	_	Number=Plur	5	comp:obj	_	Gender[lex]=Fem
 10	du	du	ADP	_	_	9	udep	_	_
@@ -39240,7 +39240,7 @@
 # sent_id = fr-ud-train_01462
 # text = De plus, Alain Touizer peut vous proposer un coaching pour le développement personnel
 1	De	de	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|wordform=de
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	Alain	Alain	PROPN	_	_	6	subj	_	Gender[lex]=Unknown
 5	Touizer	Touizer	PROPN	_	_	4	flat@name	_	Gender[lex]=Unknown
@@ -39325,7 +39325,7 @@
 # sent_id = fr-ud-train_01466
 # text = De plus, l'emploi des termes « Fascists » et « Nazism », qui n'existaient pas en 1871, démontre selon les historiens qu'il s'agit d'un faux.
 1	De	de	ADP	_	ExtPos=ADV	23	mod	_	Idiom=Yes|wordform=de
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 5	emploi	emploi	NOUN	_	Number=Sing	23	subj	_	Gender[lex]=Masc
@@ -39509,7 +39509,7 @@
 7	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
 8	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	d'	de	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes|SpaceAfter=No
-10	ailleurs	ailleurs	ADV	_	_	9	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+10	ailleurs	ailleurs	ADV	_	_	9	comp	_	InIdiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	en	en	ADP	_	_	8	mod	_	_
 13	couverture	couverture	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Fem|SpaceAfter=No
@@ -40889,7 +40889,7 @@
 40	et	et	CCONJ	_	_	41	cc	_	_
 41	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
 42	par	par	ADP	_	ExtPos=ADV|Shared=No	41	mod	_	Idiom=Yes
-43	ailleurs	ailleurs	ADV	_	_	42	comp:obj	_	InIdiom=Yes
+43	ailleurs	ailleurs	ADV	_	_	42	comp	_	InIdiom=Yes
 44	état	état	NOUN	_	Number=Sing|Shared=No	41	comp:obj@lvc	_	Gender[lex]=Masc
 45	d'	de	ADP	_	Shared=No	41	comp:obl	_	SpaceAfter=No
 46	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
@@ -42014,7 +42014,7 @@
 12	deuxième	deuxième	ADJ	_	Number=Sing	13	mod	_	Gender[ctxt]=Fem
 13	fois	fois	NOUN	_	Shared=No	9	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14	d'	de	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes|SpaceAfter=No
-15	affilée	affiler	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	comp:obj	_	InIdiom=Yes|Tense[denom]=Past
+15	affilée	affiler	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	comp	_	InIdiom=Yes|Tense[denom]=Past
 16	après	après	ADP	_	_	13	udep	_	_
 17	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	_
 18	blessure	blessure	NOUN	_	Number=Sing	16	comp	_	Gender[lex]=Fem
@@ -42645,7 +42645,7 @@
 42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	nom	nom	NOUN	_	Number=Sing	41	comp:obj	_	Gender[lex]=Masc
 44	à	à	ADP	_	ExtPos=ADV	41	mod	_	Idiom=Yes
-45	partir	partir	VERB	_	VerbForm=Inf	44	comp:obj	_	InIdiom=Yes
+45	partir	partir	VERB	_	VerbForm=Inf	44	comp	_	InIdiom=Yes
 46	de	de	ADP	_	_	45	comp:obl	_	_
 47	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 48	expression	expression	NOUN	_	Number=Sing	46	comp	_	Gender[lex]=Fem
@@ -43521,7 +43521,7 @@
 8	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
 9	accusèrent	accuser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:obj	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=9:Interrogative-WHInfo-Indirect.Clause
 10	au	au	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes
-11	juste	juste	ADJ	_	Number=Sing	10	comp:obj	_	Gender[ctxt]=Masc|InIdiom=Yes|SpaceAfter=No
+11	juste	juste	ADJ	_	Number=Sing	10	comp	_	Gender[ctxt]=Masc|InIdiom=Yes|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_01618
@@ -44325,7 +44325,7 @@
 10	typiques	typique	ADJ	_	Number=Plur	9	mod	_	Gender[ctxt]=Masc|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	en	en	ADP	_	ExtPos=ADV	15	udep	_	Idiom=Yes
-13	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	12	comp:obj	_	InIdiom=Yes
+13	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	12	comp	_	InIdiom=Yes
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	arancini	arancini	X	_	ExtPos=NOUN	9	conj:appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -44421,7 +44421,7 @@
 # sent_id = fr-ud-train_01650
 # text = D'ailleurs plusieurs d'entres eux sont rédigés comme une infopub...
 1	D'	de	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|SpaceAfter=No|wordform=d'
-2	ailleurs	ailleurs	ADV	_	_	1	comp:obj	_	InIdiom=Yes
+2	ailleurs	ailleurs	ADV	_	_	1	comp	_	InIdiom=Yes
 3	plusieurs	plusieurs	PRON	_	Number=Plur|Person=3|PronType=Ind	7	subj@pass	_	_
 4	d'	de	ADP	_	ExtPos=ADP	3	udep	_	Idiom=Yes|SpaceAfter=No
 5	entres	entre	ADP	_	Typo=Yes	4	unk	_	CorrectForm=entre|InIdiom=Yes
@@ -45575,7 +45575,7 @@
 33	,	,	PUNCT	_	_	31	punct	_	_
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 35	de	de	ADP	_	ExtPos=ADV	34	mod	_	Idiom=Yes
-36	plus	plus	ADV	_	_	35	comp:obj	_	InIdiom=Yes
+36	plus	plus	ADV	_	_	35	comp	_	InIdiom=Yes
 37	en	en	ADP	_	_	36	mod	_	InIdiom=Yes
 38	plus	plus	ADV	_	_	37	comp	_	InIdiom=Yes
 39	difficile	difficile	ADJ	_	Number=Sing	34	comp:pred	_	Gender[ctxt]=Fem
@@ -45731,7 +45731,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	demandé	demander	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Tense[denom]=Past
 5	à	à	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes
-6	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	5	comp:obj	_	InIdiom=Yes
+6	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	5	comp	_	InIdiom=Yes
 7	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
 8	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	10	subj	_	_
 9	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	10	comp:obj	_	_
@@ -45983,7 +45983,7 @@
 8	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	convertir	convertir	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 10	au	au	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
-11	moins	moins	ADV	_	_	10	comp:obj	_	InIdiom=Yes
+11	moins	moins	ADV	_	_	10	comp	_	InIdiom=Yes
 12	5	5	NUM	_	ExtPos=DET	13	det	_	Number[lex]=Plur|SpaceAfter=No
 13	%	%	SYM	_	ExtPos=NOUN|Number=Plur	9	comp:obj	_	_
 14	de	de	ADP	_	_	13	udep	_	_
@@ -46004,7 +46004,7 @@
 29	)	)	PUNCT	_	_	26	punct	_	_
 30	d'	de	ADP	_	_	23	udep	_	SpaceAfter=No
 31	au	au	ADP	_	ExtPos=ADV	33	mod	_	Idiom=Yes
-32	moins	moins	ADV	_	_	31	comp:obj	_	InIdiom=Yes
+32	moins	moins	ADV	_	_	31	comp	_	InIdiom=Yes
 33	60	60	NUM	_	ExtPos=DET	34	det	_	Number[lex]=Plur|SpaceAfter=No
 34	%	%	SYM	_	ExtPos=NOUN|Number=Plur	30	comp	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	8	punct	_	_
@@ -46031,7 +46031,7 @@
 6	de	de	ADP	_	_	5	udep	_	_
 7	transport	transport	NOUN	_	Number=Sing	6	comp	_	Gender[lex]=Masc
 8	en	en	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
-9	commun	commun	ADJ	_	Gender=Masc|Number=Sing	8	comp:obj	_	InIdiom=Yes
+9	commun	commun	ADJ	_	Gender=Masc|Number=Sing	8	comp	_	InIdiom=Yes
 10	desservant	desservir	VERB	_	VerbForm=Part	5	mod	_	Tense[denom]=Pres
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	villes	ville	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Fem
@@ -46995,7 +46995,7 @@
 15	Taddeo	Taddeo	PROPN	_	_	14	comp	_	Gender[lex]=Unknown
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	de	de	ADP	_	ExtPos=ADV	16	mod	_	Idiom=Yes
-18	plus	plus	ADV	_	_	17	comp:obj	_	InIdiom=Yes
+18	plus	plus	ADV	_	_	17	comp	_	InIdiom=Yes
 19	élu	élire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	comp:aux@pass	_	Tense[denom]=Past
 20	meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	_
 21	entraîneur	entraîneur	NOUN	_	Number=Sing	19	comp:pred	_	Gender[lex]=Masc
@@ -47036,7 +47036,7 @@
 9	accidents	accident	NOUN	_	Number=Plur	6	comp	_	Gender[lex]=Masc|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	en	en	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
-12	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	11	comp:obj	_	InIdiom=Yes
+12	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	11	comp	_	InIdiom=Yes
 13	chez	chez	ADP	_	_	4	mod	_	_
 14	Ferrari	Ferrari	PROPN	_	_	13	comp	_	Gender[lex]=Unknown
 15	où	où	ADV	_	PronType=Rel	23	mod	_	SpaceAfter=No
@@ -47331,7 +47331,7 @@
 # sent_id = fr-ud-train_01761
 # text = D'ailleurs la ville a garder son souk enhassine (marché du cuivre) dans le médina.
 1	D'	de	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|SpaceAfter=No|wordform=d'
-2	ailleurs	ailleurs	ADV	_	_	1	comp:obj	_	InIdiom=Yes
+2	ailleurs	ailleurs	ADV	_	_	1	comp	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	ville	ville	NOUN	_	Number=Sing	5	subj	_	Gender[lex]=Fem
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -47500,7 +47500,7 @@
 13	Homergitur	Homergitur	PROPN	_	_	12	flat@name	_	Gender[lex]=Unknown
 14	et	et	CCONJ	_	_	17	cc	_	_
 15	à	à	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
-16	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	15	comp:obj	_	InIdiom=Yes
+16	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	15	comp	_	InIdiom=Yes
 17	dans	dans	ADP	_	_	11	conj:coord	_	_
 18	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	wordform=le
 19	Retour	retour	NOUN	_	Number=Sing|Shared=No	17	comp	_	Gender[lex]=Masc|wordform=retour
@@ -47961,7 +47961,7 @@
 42	qui	qui	PRON	_	PronType=Rel	49	subj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	42	punct	_	_
 44	à	à	ADP	_	ExtPos=ADV	49	mod	_	Idiom=Yes
-45	partir	partir	VERB	_	VerbForm=Inf	44	comp:obj	_	InIdiom=Yes
+45	partir	partir	VERB	_	VerbForm=Inf	44	comp	_	InIdiom=Yes
 46	de	de	ADP	_	_	45	comp:obl	_	_
 47	1483	1483	NUM	_	ExtPos=PROPN	46	comp	_	Number[lex]=Sing|SpaceAfter=No
 48	,	,	PUNCT	_	_	46	punct	_	_
@@ -49149,7 +49149,7 @@
 18	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	tableaux	tableau	NOUN	_	Number=Plur	17	comp:obj	_	Gender[lex]=Masc
 20	à	à	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
-21	partir	partir	VERB	_	VerbForm=Inf	20	comp:obj	_	InIdiom=Yes
+21	partir	partir	VERB	_	VerbForm=Inf	20	comp	_	InIdiom=Yes
 22	d'	de	ADP	_	_	21	comp:obl	_	SpaceAfter=No
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	construction	construction	NOUN	_	Number=Sing	22	comp	_	Gender[lex]=Fem
@@ -49432,7 +49432,7 @@
 1	Sébastien	Sébastien	PROPN	_	_	2	subj	_	Gender[lex]=Unknown
 2	remercie	remercier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes
+4	ailleurs	ailleurs	ADV	_	_	3	comp	_	InIdiom=Yes
 5	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	_
 7	quatre	quatre	NUM	_	ExtPos=DET	8	mod	_	Number[lex]=Plur
@@ -49880,7 +49880,7 @@
 # sent_id = fr-ud-train_01856
 # text = De plus, les opérations « Pierres précieuses » lui ont porté des coups sérieux.
 1	De	de	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes|wordform=de
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	opérations	opération	NOUN	_	Number=Plur	11	subj	_	Gender[lex]=Fem
@@ -49973,7 +49973,7 @@
 21	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	22	comp@expl	_	SpaceAfter=No
 22	approchait	approcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj:coord	_	_
 23	de	de	ADP	_	ExtPos=ADV	22	mod	_	Idiom=Yes
-24	plus	plus	ADV	_	_	23	comp:obj	_	InIdiom=Yes
+24	plus	plus	ADV	_	_	23	comp	_	InIdiom=Yes
 25	en	en	ADP	_	_	24	mod	_	InIdiom=Yes
 26	plus	plus	ADV	_	_	25	comp	_	InIdiom=Yes|SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
@@ -50035,7 +50035,7 @@
 4	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	en	en	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
-7	outre	outre	ADV	_	_	6	comp:obj	_	InIdiom=Yes
+7	outre	outre	ADV	_	_	6	comp	_	InIdiom=Yes
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 9	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	5	comp:pred	_	_
 10	des	de	ADP	_	_	9	udep	_	_
@@ -50548,7 +50548,7 @@
 # sent_id = fr-ud-train_01881
 # text = De plus le PRV était déjà certifié aux normes anti-pollution aux États-Unis.
 1	De	de	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=de
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	PRV	PRV	NOUN	_	Number=Sing	5	subj@pass	_	Gender[lex]=Masc
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -51055,7 +51055,7 @@
 # sent_id = fr-ud-train_01902
 # text = À partir de 1991, Rick Manning devient commentateur des matches des Cleveland Indians sur les chaines de telévision cablée.
 1	À	à	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes|wordform=à
-2	partir	partir	VERB	_	VerbForm=Inf	1	comp:obj	_	InIdiom=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	1	comp	_	InIdiom=Yes
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	1991	1991	NUM	_	ExtPos=PROPN	3	comp	_	Number[lex]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
@@ -51554,7 +51554,7 @@
 3	exploite	exploiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	en	en	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-6	plus	plus	ADV	_	_	5	comp:obj	_	InIdiom=Yes
+6	plus	plus	ADV	_	_	5	comp	_	InIdiom=Yes
 7	des	de	ADP	_	_	6	comp:obl	_	_
 8	chemins	chemin	NOUN	_	Number=Plur	7	comp	_	Gender[lex]=Masc
 9	de	de	ADP	_	_	8	udep	_	_
@@ -51913,7 +51913,7 @@
 # sent_id = fr-ud-train_01935
 # text = Par ailleurs, c'est à Cali que fut fondée en 1923 la compagnie « Colombia Film », afin de réaliser des films demandant davantage d'exigences techniques.
 1	Par	par	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes|wordform=par
-2	ailleurs	ailleurs	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj@expl	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -52155,7 +52155,7 @@
 22	bagages	bagage	NOUN	_	Number=Plur	20	comp:obj	_	Gender[lex]=Masc
 23	qu'	que	ADV	_	Polarity=Neg	24	mod	_	SpaceAfter=No
 24	à	à	ADP	_	ExtPos=ADV	20	mod	_	Idiom=Yes
-25	partir	partir	VERB	_	VerbForm=Inf	24	comp:obj	_	InIdiom=Yes
+25	partir	partir	VERB	_	VerbForm=Inf	24	comp	_	InIdiom=Yes
 26	de	de	ADP	_	_	25	comp:obl	_	_
 27	16	16	NUM	_	ExtPos=PROPN	28	det	_	Number[lex]=Sing|SpaceAfter=No
 28	h	h	NOUN	_	Number=Plur	26	comp	_	Gender[lex]=Fem
@@ -52341,7 +52341,7 @@
 # sent_id = fr-ud-train_01951
 # text = À partir de 1916, il escorta des convois à travers l'Atlantique.
 1	À	à	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|wordform=à
-2	partir	partir	VERB	_	VerbForm=Inf	1	comp:obj	_	InIdiom=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	1	comp	_	InIdiom=Yes
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	1916	1916	NUM	_	ExtPos=PROPN	3	comp	_	Number[lex]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
@@ -53324,7 +53324,7 @@
 74	celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	75	subj	_	_
 75	intervient	intervenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	73	comp	_	_
 76	à	à	ADP	_	ExtPos=ADV	75	mod	_	Idiom=Yes
-77	partir	partir	VERB	_	VerbForm=Inf	76	comp:obj	_	InIdiom=Yes
+77	partir	partir	VERB	_	VerbForm=Inf	76	comp	_	InIdiom=Yes
 78	d'	de	ADP	_	_	77	comp:obl	_	SpaceAfter=No
 79	octobre	octobre	NOUN	_	Number=Sing	78	comp	_	Gender[lex]=Masc|SpaceAfter=No
 80	)	)	PUNCT	_	_	66	punct	_	SpaceAfter=No
@@ -53655,7 +53655,7 @@
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	champ	champ	NOUN	_	Number=Sing	15	comp	_	Gender[lex]=Masc
 18	à	à	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes
-19	partir	partir	VERB	_	VerbForm=Inf	18	comp:obj	_	InIdiom=Yes
+19	partir	partir	VERB	_	VerbForm=Inf	18	comp	_	InIdiom=Yes
 20	d'	de	ADP	_	_	19	comp:obl	_	SpaceAfter=No
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	théorie	théorie	NOUN	_	Number=Sing	20	comp	_	Gender[lex]=Fem
@@ -54174,7 +54174,7 @@
 12	nouvelles	nouveau	ADJ	_	Gender=Fem|Number=Plur	13	mod	_	_
 13	écluses	écluse	NOUN	_	Number=Plur	19	subj	_	Gender[lex]=Fem
 14	de	de	ADP	_	ExtPos=ADV	18	mod	_	Idiom=Yes
-15	plus	plus	ADV	_	_	14	comp:obj	_	InIdiom=Yes
+15	plus	plus	ADV	_	_	14	comp	_	InIdiom=Yes
 16	en	en	ADP	_	_	15	mod	_	InIdiom=Yes
 17	plus	plus	ADV	_	_	16	comp	_	InIdiom=Yes
 18	longues	long	ADJ	_	Gender=Fem|Number=Plur	13	mod	_	_
@@ -55294,7 +55294,7 @@
 33	Pennsylvanie	Pennsylvanie	PROPN	_	Number=Sing	31	comp	_	Gender[lex]=Fem|SpaceAfter=No
 34	,	,	PUNCT	_	_	37	punct	_	_
 35	en	en	ADP	_	ExtPos=ADV	37	mod	_	Idiom=Yes
-36	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	35	comp:obj	_	InIdiom=Yes
+36	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	35	comp	_	InIdiom=Yes
 37	pendant	pendant	ADP	_	_	28	conj:coord	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	raid	raid	NOUN	_	Number=Sing|Shared=No	37	comp	_	Gender[lex]=Masc
@@ -57084,7 +57084,7 @@
 # sent_id = fr-ud-train_02130
 # text = En outre, les examens dans les universités et les écoles ont été reportés jusqu'à nouvel ordre.
 1	En	en	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes|wordform=en
-2	outre	outre	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	outre	outre	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	examens	examen	NOUN	_	Number=Plur	12	subj@pass	_	Gender[lex]=Masc
@@ -59109,7 +59109,7 @@
 2	cantons	canton	NOUN	_	Number=Plur	7	subj	_	Gender[lex]=Masc|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	en	en	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
-5	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+5	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	4	comp	_	InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	pourraient	pouvoir	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	comprendre	comprendre	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
@@ -60382,7 +60382,7 @@
 # sent_id = fr-ud-train_02254
 # text = En outre, seulement 9% des entreprises interrogées font appel au cryptage pour sécuriser les périphériques de stockage amovibles, comme les clés USB.
 1	En	en	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes|wordform=en
-2	outre	outre	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	outre	outre	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	seulement	seulement	ADV	_	_	5	mod	_	_
 5	9	9	NUM	_	ExtPos=DET	6	det	_	Number[lex]=Plur|SpaceAfter=No
@@ -61344,7 +61344,7 @@
 27	voudrait	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
 28	joindre	joindre	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=SubjRaising
 29	à	à	ADP	_	ExtPos=ADV	28	mod	_	Idiom=Yes
-30	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	29	comp:obj	_	InIdiom=Yes
+30	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	29	comp	_	InIdiom=Yes
 31	Airliners.net	Airliners.net	PROPN	_	_	28	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 32	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -61367,7 +61367,7 @@
 # sent_id = fr-ud-train_02290
 # text = De plus cet entrepreneur fait preuve de malhonnêteté et ne connaît pas l'adjectif "responsable".
 1	De	de	ADP	_	ExtPos=ADV|Shared=Yes	5	mod	_	Idiom=Yes|wordform=de
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes
 3	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	entrepreneur	entrepreneur	NOUN	_	Number=Sing|Shared=Yes	5	subj	_	Gender[lex]=Masc
 5	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -62820,7 +62820,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
 2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes
+4	ailleurs	ailleurs	ADV	_	_	3	comp	_	InIdiom=Yes
 5	beaucoup	beaucoup	ADV	_	ExtPos=PRON	2	comp:obj@agent	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	types	type	NOUN	_	Number=Plur	6	comp	_	Gender[lex]=Masc
@@ -64209,7 +64209,7 @@
 3	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	comp@pass	_	_
 4	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	d'	de	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes|SpaceAfter=No
-6	ailleurs	ailleurs	ADV	_	_	5	comp:obj	_	InIdiom=Yes
+6	ailleurs	ailleurs	ADV	_	_	5	comp	_	InIdiom=Yes
 7	ironiquement	ironiquement	ADV	_	_	4	mod	_	_
 8	sur	sur	ADP	_	_	4	mod	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -64403,7 +64403,7 @@
 18	troupe	troupe	NOUN	_	Number=Sing	16	comp:obj	_	Gender[lex]=Fem
 19	d'	de	ADP	_	_	16	mod	_	SpaceAfter=No
 20	au	au	ADP	_	ExtPos=ADV	22	mod	_	Idiom=Yes
-21	moins	moins	ADV	_	_	20	comp:obj	_	InIdiom=Yes
+21	moins	moins	ADV	_	_	20	comp	_	InIdiom=Yes
 22	2000	2000	NUM	_	ExtPos=DET	23	det	_	Number[lex]=Plur
 23	cavaliers	cavalier	NOUN	_	Number=Plur	19	comp	_	Gender[lex]=Masc
 24	pour	pour	ADP	_	_	16	mod	_	_
@@ -65240,7 +65240,7 @@
 2	y	y	PRON	_	Emph=No|Person=3|PronType=Prs|Shared=No	3	comp:obl	_	_
 3	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	au	au	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
-5	moins	moins	ADV	_	_	4	comp:obj	_	InIdiom=Yes
+5	moins	moins	ADV	_	_	4	comp	_	InIdiom=Yes
 6	une	un	NUM	_	ExtPos=DET|Gender=Fem	7	det	_	Number[lex]=Plur
 7	fois	fois	NOUN	_	_	3	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 8	tous	tout	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
@@ -65587,7 +65587,7 @@
 16	d'	de	ADP	_	Shared=No	15	comp:obj	_	SpaceAfter=No
 17	explorer	explorer	VERB	_	VerbForm=Inf	16	comp	_	Subject=OblRaising
 18	au	au	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes
-19	delà	delà	ADV	_	_	18	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+19	delà	delà	ADV	_	_	18	comp	_	InIdiom=Yes|SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_02445
@@ -66004,7 +66004,7 @@
 14	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	18	comp:obl	_	SpaceAfter=No
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
 16	de	de	ADP	_	ExtPos=ADV|Shared=No	15	mod	_	Idiom=Yes
-17	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	16	comp:obj	_	InIdiom=Yes
+17	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	16	comp	_	InIdiom=Yes
 18	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Shared=No|VerbForm=Part|Voice=Act	15	comp:aux@tense	_	SpaceAfter=No|Tense[denom]=Past
 19	...	...	PUNCT	_	_	20	punct	_	_
 20	sans	sans	ADP	_	Shared=No	15	mod	_	_
@@ -67222,7 +67222,7 @@
 # sent_id = fr-ud-train_02506
 # text = De nouveau doublure de Fabien Barthez, il accepte cette fois de disputer le dernier match du premier tour, sans réel enjeu, contre les Pays-Bas.
 1	De	de	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes|wordform=de
-2	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
+2	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	1	comp	_	InIdiom=Yes
 3	doublure	doublure	NOUN	_	Number=Sing	9	mod	_	Gender[lex]=Fem
 4	de	de	ADP	_	_	3	udep	_	_
 5	Fabien	Fabien	PROPN	_	_	4	comp	_	Gender[lex]=Unknown
@@ -67376,7 +67376,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	fonde	fonder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes
+4	ailleurs	ailleurs	ADV	_	_	3	comp	_	InIdiom=Yes
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	6	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 6	association	association	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
 7	«	«	PUNCT	_	_	8	punct	_	_
@@ -68566,7 +68566,7 @@
 5	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	arrêter	arrêter	VERB	_	VerbForm=Inf	5	comp:aux@pass	_	Subject=Generic
 7	à	à	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
-8	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes
+8	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	7	comp	_	InIdiom=Yes
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	subj@pass	_	_
 11	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj:coord	_	_
@@ -69719,7 +69719,7 @@
 7	sujet	sujet	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 8	et	et	CCONJ	_	_	13	cc	_	_
 9	de	de	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes
-10	plus	plus	ADV	_	_	9	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+10	plus	plus	ADV	_	_	9	comp	_	InIdiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	13	subj	_	_
 13	partagez	partager	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
@@ -71455,7 +71455,7 @@
 26	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	subj	_	_
 27	occupera	occuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	mod@relcl	_	_
 28	de	de	ADP	_	ExtPos=ADV	27	mod	_	Idiom=Yes
-29	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	28	comp:obj	_	InIdiom=Yes
+29	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	28	comp	_	InIdiom=Yes
 30	de	de	ADP	_	_	27	mod	_	_
 31	1851	1851	NUM	_	ExtPos=PROPN	30	comp	_	Number[lex]=Sing
 32	à	à	ADP	_	_	30	comp:obl	_	_
@@ -71896,7 +71896,7 @@
 # sent_id = fr-ud-train_02679
 # text = De plus, il fait -5° dehors et le chauffage ne marche ni dans la chambre ni dans la salle de bain.
 1	De	de	ADP	_	ExtPos=ADV|Shared=Yes	5	mod	_	Idiom=Yes|wordform=de
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	5	subj	_	_
 5	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -72330,7 +72330,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	wordform=il
 2	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	par	par	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
-4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes
+4	ailleurs	ailleurs	ADV	_	_	3	comp	_	InIdiom=Yes
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	statistiques	statistique	NOUN	_	Number=Plur	2	comp:obj	_	Gender[lex]=Fem
 7	de	de	ADP	_	_	6	udep	_	_
@@ -73905,7 +73905,7 @@
 # sent_id = fr-ud-train_02758
 # text = De plus, la République Arabe Sahraouie Démocratique est membre de l'UA et elle est reconnue par le mali en tant que'Etat indépendant.
 1	De	de	ADP	_	ExtPos=ADV|Shared=Yes	9	mod	_	Idiom=Yes|wordform=de
-2	plus	plus	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	plus	plus	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	République	république	NOUN	_	Number=Sing|Shared=No	9	subj	_	Gender[lex]=Fem|wordform=république
@@ -74717,7 +74717,7 @@
 5	piètre	piètre	ADJ	_	Number=Sing	6	mod	_	Gender[ctxt]=Fem
 6	qualité	qualité	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Fem
 7	par	par	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes
-8	ailleurs	ailleurs	ADV	_	_	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+8	ailleurs	ailleurs	ADV	_	_	7	comp	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	Tense[denom]=Past
@@ -75965,7 +75965,7 @@
 30	ayant	avoir	VERB	_	VerbForm=Part	22	mod	_	Tense[denom]=Pres
 31	même	même	ADV	_	_	30	mod	_	_
 32	au	au	ADP	_	ExtPos=ADV	34	mod	_	Idiom=Yes
-33	moins	moins	ADV	_	_	32	comp:obj	_	InIdiom=Yes
+33	moins	moins	ADV	_	_	32	comp	_	InIdiom=Yes
 34	19	19	NUM	_	ExtPos=DET	35	det	_	Number[lex]=Plur
 35	ans	an	NOUN	_	Number=Plur	30	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 36	.	.	PUNCT	_	_	2	punct	_	_
@@ -76662,7 +76662,7 @@
 # sent_id = fr-ud-train_02857
 # text = Au demeurant, il n'a pas de prise sur les affaires diplomatiques de son pays, gérées depuis l'Elysée par Jean-David Levitte et Claudé Guéant.
 1	Au	au	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|wordform=au
-2	demeurant	demeurer	VERB	_	VerbForm=Part	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No|Tense[denom]=Pres
+2	demeurant	demeurer	VERB	_	VerbForm=Part	1	comp	_	InIdiom=Yes|SpaceAfter=No|Tense[denom]=Pres
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
@@ -77338,7 +77338,7 @@
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	par	par	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes
-7	ailleurs	ailleurs	ADV	_	_	6	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+7	ailleurs	ailleurs	ADV	_	_	6	comp	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	exposé	exposer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Tense[denom]=Past
 10	au	au	ADP	_	_	9	comp:obl	_	_
