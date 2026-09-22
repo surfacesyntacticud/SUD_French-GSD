@@ -1632,7 +1632,7 @@
 9	Thinet	Thinet	PROPN	_	_	8	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	comme	comme	SCONJ	_	ExtPos=ADV	7	mod	_	Idiom=Yes
-12	si	si	SCONJ	_	_	11	comp:obj	_	InIdiom=Yes
+12	si	si	SCONJ	_	_	11	comp	_	InIdiom=Yes
 13	de	de	ADP	_	_	16	subj	_	InIdiom=Yes
 14	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	13	comp	_	InIdiom=Yes
 15	n'	ne	ADV	_	Polarity=Neg	16	mod	_	InIdiom=Yes|SpaceAfter=No
@@ -13571,7 +13571,7 @@
 # text = À vrai dire, peu se soucient des colonies à l'intérieur du territoire français, et l'on ne manqua pas de se demander sérieusement « À quoi bon les colonies ?
 1	À	à	ADP	_	ExtPos=ADV|Shared=No	7	mod	_	Idiom=Yes|wordform=à
 2	vrai	vrai	ADV	_	_	3	mod	_	InIdiom=Yes
-3	dire	dire	VERB	_	VerbForm=Inf	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+3	dire	dire	VERB	_	VerbForm=Inf	1	comp	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	peu	peu	ADV	_	ExtPos=PRON|Shared=No	7	subj	_	_
 6	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes|Shared=No	7	comp@expl	_	_
@@ -48015,13 +48015,13 @@
 24	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_13399
-# text = J'apprécie particulièrement l'originalité des ces créations florales.
+# text = J'apprécie particulièrement l'originalité de ces créations florales.
 1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|wordform=j'
 2	apprécie	apprécier	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	particulièrement	particulièrement	ADV	_	_	2	mod	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 5	originalité	originalité	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Fem
-6	des	de	ADP	_	Typo=Yes	5	udep	_	CorrectForm=de
+6	de	de	ADP	_	_	5	udep	_	_
 7	ces	ce	DET	_	Number=Plur|PronType=Dem	8	det	_	_
 8	créations	création	NOUN	_	Number=Plur	6	comp	_	Gender[lex]=Fem
 9	florales	floral	ADJ	_	Gender=Fem|Number=Plur	8	mod	_	SpaceAfter=No
@@ -50544,8 +50544,8 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_13492
-# text = Au temps préhistoriques, les terres du canton étaient habitées par les gens de la culture de Pfyn.
-1	Au	au	ADP	_	_	9	mod	_	wordform=au
+# text = Aux temps préhistoriques, les terres du canton étaient habitées par les gens de la culture de Pfyn.
+1	Aux	au	ADP	_	_	9	mod	_	wordform=aux
 2	temps	temps	NOUN	_	_	1	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 3	préhistoriques	préhistorique	ADJ	_	Number=Plur	2	mod	_	Gender[ctxt]=Masc|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -76319,7 +76319,7 @@
 2	remorquage	remorquage	NOUN	_	Number=Sing	7	subj	_	Gender[lex]=Masc
 3	à	à	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
 4	proprement	proprement	ADV	_	_	5	mod	_	InIdiom=Yes
-5	parler	parler	VERB	_	VerbForm=Inf	3	comp:obj	_	InIdiom=Yes
+5	parler	parler	VERB	_	VerbForm=Inf	3	comp	_	InIdiom=Yes
 6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp@expl	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	très	très	ADV	_	_	9	mod	_	_
@@ -77517,7 +77517,7 @@
 # text = Pour un peu, l'on se croirait revenu dans les années 50-60, au plus fort des mouvements de libération nationale en Afrique et dans le monde.
 1	Pour	pour	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|wordform=pour
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
-3	peu	peu	ADV	_	_	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+3	peu	peu	ADV	_	_	1	comp	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	l'on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	wordform=on
 6	se	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	7	comp:obj	_	_
@@ -77530,7 +77530,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	au	au	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 15	plus	plus	ADV	_	_	16	mod	_	InIdiom=Yes
-16	fort	fort	ADJ	_	Gender=Masc|Number=Sing	14	comp:obj	_	InIdiom=Yes
+16	fort	fort	ADJ	_	Gender=Masc|Number=Sing	14	comp	_	InIdiom=Yes
 17	des	de	ADP	_	_	16	comp:obl	_	_
 18	mouvements	mouvement	NOUN	_	Number=Plur	17	comp	_	Gender[lex]=Masc
 19	de	de	ADP	_	_	18	udep	_	_

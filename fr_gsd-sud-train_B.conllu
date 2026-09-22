@@ -9094,7 +9094,7 @@
 18	par	par	ADP	_	_	17	comp:obl@agent	_	_
 19	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	23	det	_	_
 20	5e	5e	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	23	mod	_	_
-21	-	-	PUNCT	_	_	22	cc	_	_
+21	-	-	PUNCT	_	_	22	punct	_	_
 22	6e	6e	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	20	conj:coord	_	_
 23	place	place	NOUN	_	Number=Sing	18	comp	_	Gender[lex]=Fem
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
@@ -71226,7 +71226,7 @@
 10	minutes	minute	NOUN	_	Number=Plur	8	comp	_	Gender[lex]=Fem
 11	à	à	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes
 12	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	comp:obj	_	InIdiom=Yes
-13	casser	casser	VERB	_	VerbForm=Inf	11	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+13	casser	casser	VERB	_	VerbForm=Inf	11	comp	_	InIdiom=Yes|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
@@ -71417,7 +71417,7 @@
 12	second	second	NOUN	_	Number=Sing	14	subj	_	Gender[lex]=Masc
 13	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp@expl	_	SpaceAfter=No
 14	approche	approcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
-15	au	au	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	14	mod	_	Idiom=Yes
+15	au	au	ADP	_	ExtPos=ADV	14	mod	_	Idiom=Yes
 16	plus	plus	ADV	_	_	15	unk	_	InIdiom=Yes
 17	près	près	ADV	_	ExtPos=PRON	15	comp	_	_
 18	des	de	ADP	_	_	17	comp:obl	_	_

@@ -20938,12 +20938,12 @@
 30	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-train_00772
-# text = Les points sont attribués au 15 premiers de chaque Grand Prix.
+# text = Les points sont attribués aux 15 premiers de chaque Grand Prix.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	points	point	NOUN	_	Number=Plur	3	subj@pass	_	Gender[lex]=Masc
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	attribués	attribuer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Tense[denom]=Past
-5	au	au	ADP	_	_	4	comp:obl	_	_
+5	aux	au	ADP	_	_	4	comp:obl	_	_
 6	15	15	NUM	_	ExtPos=PRON	7	mod	_	Number[lex]=Plur
 7	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	5	comp	_	_
 8	de	de	ADP	_	_	7	udep	_	_
@@ -34678,7 +34678,7 @@
 18	deux	deux	NUM	_	ExtPos=DET	19	det	_	Number[lex]=Plur
 19	semaines	semaine	NOUN	_	Number=Plur	17	comp	_	Gender[lex]=Fem|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	au	au	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	17	mod	_	Idiom=Yes
+21	au	au	ADP	_	ExtPos=ADP	17	mod	_	Idiom=Yes
 22	plus	plus	ADV	_	_	21	unk	_	InIdiom=Yes
 23	tard	tard	ADV	_	_	21	comp	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
@@ -42171,7 +42171,7 @@
 17	Blaye	Blaye	PROPN	_	_	16	comp	_	Gender[lex]=Unknown
 18	et	et	CCONJ	_	_	19	cc	_	_
 19	longeant	longer	VERB	_	VerbForm=Part	15	conj:coord	_	Tense[denom]=Pres
-20	au	au	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	19	mod	_	Idiom=Yes
+20	au	au	ADP	_	ExtPos=ADP	19	mod	_	Idiom=Yes
 21	plus	plus	ADV	_	_	20	unk	_	InIdiom=Yes
 22	près	près	ADV	_	_	20	comp	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	Gender[ctxt]=Masc|SpaceAfter=No

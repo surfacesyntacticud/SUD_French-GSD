@@ -27339,7 +27339,7 @@
 18	1870	1870	NUM	_	ExtPos=PROPN	17	mod	_	Number[lex]=Sing
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	1-1	1-1	NUM	_	ExtPos=PROPN	16	parataxis	_	Number[lex]=Sing
-21	au	au	ADP	_	_	20	udep	_	_
+21	au	au	ADP	_	_	20	udep	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	Kennington	Kennington	PROPN	_	Number=Sing	21	comp	_	Gender[lex]=Masc
 24	Oval	Oval	PROPN	_	_	23	flat@name	_	Gender[lex]=Unknown
@@ -31815,12 +31815,12 @@
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01213
-# text = Pour accompagner le lancement des ses différents Macintosh, Apple a fait appel de manière récurrente à la publicité.
+# text = Pour accompagner le lancement de ses différents Macintosh, Apple a fait appel de manière récurrente à la publicité.
 1	Pour	pour	ADP	_	_	11	mod	_	wordform=pour
 2	accompagner	accompagner	VERB	_	VerbForm=Inf	1	comp	_	Subject=SubjRaising
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	lancement	lancement	NOUN	_	Number=Sing	2	comp:obj	_	Gender[lex]=Masc
-5	des	de	ADP	_	Typo=Yes	4	udep	_	CorrectForm=de
+5	de	de	ADP	_	_	4	udep	_	_
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	_
 7	différents	différent	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 8	Macintosh	Macintosh	PROPN	_	Number=Plur	5	comp	_	Gender[lex]=Masc|SpaceAfter=No

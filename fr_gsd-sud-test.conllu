@@ -2308,7 +2308,7 @@
 18	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	comp	_	_
 19	tout	tout	PRON	_	ExtPos=ADV|Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	mod	_	Idiom=Yes
 20	au	au	ADP	_	_	19	unk	_	InIdiom=Yes
-21	mieux	mieux	NOUN	_	_	20	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
+21	mieux	mieux	NOUN	_	_	20	unk	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 23	5	5	NUM	_	ExtPos=DET	24	mod	_	Number[lex]=Plur|SpaceAfter=No
 24	%	%	SYM	_	ExtPos=NOUN|Gender=Masc|Number=Sing	18	comp:pred	_	SpaceAfter=No

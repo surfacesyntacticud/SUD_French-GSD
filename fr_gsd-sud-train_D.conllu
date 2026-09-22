@@ -14697,7 +14697,7 @@
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_09258
-# text = Selon Kuhlthau (1993, 15), les théories de l'apprentissage constructivistes, s'opposant au théories de type behavioriste, enrichissent la compréhension du processus de recherche d'information selon le point de vue de l'utilisateur.
+# text = Selon Kuhlthau (1993, 15), les théories de l'apprentissage constructivistes, s'opposant aux théories de type behavioriste, enrichissent la compréhension du processus de recherche d'information selon le point de vue de l'utilisateur.
 1	Selon	selon	ADP	_	_	24	mod	_	wordform=selon
 2	Kuhlthau	Kuhlthau	PROPN	_	_	1	comp	_	Gender[lex]=Unknown
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -14715,7 +14715,7 @@
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	comp@expl	_	SpaceAfter=No
 17	opposant	opposer	VERB	_	VerbForm=Part	10	mod	_	Tense[denom]=Pres
-18	au	au	ADP	_	_	17	comp:obl	_	_
+18	aux	au	ADP	_	_	17	comp:obl	_	_
 19	théories	théorie	NOUN	_	Number=Plur	18	comp	_	Gender[lex]=Fem
 20	de	de	ADP	_	_	19	udep	_	_
 21	type	type	NOUN	_	Number=Sing	20	comp	_	Gender[lex]=Masc
@@ -22126,7 +22126,7 @@
 # text = A vrai dire, l'intérêt de Gourcuff pour l'OL n'est pas une surprise tant son nom a circulé cet été du côté de Gerland, tant le montant de sa clause de sortie fixée à 26,5 millions d'euros a aussi fait débat au sortir d'une Coupe du monde cauchemardesque, et vu le contexte économique actuel.
 1	A	à	ADP	_	ExtPos=ADV	13	mod	_	Idiom=Yes|wordform=à
 2	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes
-3	dire	dire	VERB	_	VerbForm=Inf	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+3	dire	dire	VERB	_	VerbForm=Inf	1	comp	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 6	intérêt	intérêt	NOUN	_	Number=Sing	13	subj	_	Gender[lex]=Masc
@@ -23675,7 +23675,7 @@
 2	championnat	championnat	NOUN	_	Number=Sing	6	subj@pass	_	Gender[lex]=Masc
 3	à	à	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
 4	proprement	proprement	ADV	_	_	5	mod	_	InIdiom=Yes
-5	parler	parler	VERB	_	VerbForm=Inf	3	comp:obj	_	InIdiom=Yes
+5	parler	parler	VERB	_	VerbForm=Inf	3	comp	_	InIdiom=Yes
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	disputé	disputer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	Tense[denom]=Past
 8	par	par	ADP	_	_	7	comp:obl@agent	_	_
@@ -29617,7 +29617,7 @@
 49	"	"	PUNCT	_	_	48	punct	_	_
 50	prenne	prendre	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	comp	_	_
 51	connaissance	connaissance	NOUN	_	Number=Sing	50	comp:obj@lvc	_	Gender[lex]=Fem
-52	au	au	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	50	mod	_	Idiom=Yes
+52	au	au	ADP	_	ExtPos=ADP	50	mod	_	Idiom=Yes
 53	plus	plus	ADV	_	_	52	unk	_	InIdiom=Yes
 54	près	près	ADV	_	_	52	comp	_	_
 55	de	de	ADP	_	_	51	comp:obl	_	_
@@ -50125,6 +50125,7 @@
 24	Lily	Lily	PROPN	_	_	21	conj:coord	_	Gender[lex]=Unknown
 25	Tomlin	Tomlin	PROPN	_	_	24	flat@name	_	Gender[lex]=Unknown
 26	et	et	CCONJ	_	_	27	cc	_	_
+27	Dabney	Dabney	PROPN	_	_	24	conj:coord	_	Gender[lex]=Unknown
 27	Dabney	Dabney	PROPN	_	_	24	conj:coord	_	Gender[lex]=Unknown
 28	Coleman	Coleman	PROPN	_	Shared=No	27	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 29	.	.	PUNCT	_	_	4	punct	_	_
