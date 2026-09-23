@@ -66118,8 +66118,8 @@
 17	nom	nom	NOUN	_	Number=Sing	10	conj:appos	_	Gender[lex]=Masc
 18	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	mod	_	Tense[denom]=Past
 19	tout	tout	ADV	_	_	20	mod	_	_
-20	au	au	ADP	_	_	18	mod	_	_
-21	long	long	NOUN	_	ExtPos=ADV|Number=Sing	20	comp	_	Gender[lex]=Masc|Idiom=Yes
+20	au	au	ADP	_	_	18	mod	_	Idiom=Yes
+21	long	long	NOUN	_	ExtPos=ADV|Number=Sing	20	comp	_	Gender[lex]=Masc|InIdiom=Yes
 22	de	de	ADP	_	_	21	comp:obl	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	période	période	NOUN	_	Number=Sing	22	comp	_	Gender[lex]=Fem
@@ -74113,8 +74113,8 @@
 48	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 49	musique	musique	NOUN	_	Number=Sing|Shared=No	47	comp	_	Gender[lex]=Fem
 50	tout	tout	ADV	_	_	51	mod	_	_
-51	au	au	ADP	_	Shared=No	35	mod	_	_
-52	long	long	NOUN	_	ExtPos=ADV|Number=Sing	51	comp	_	Gender[lex]=Masc|Idiom=Yes
+51	au	au	ADP	_	Shared=No	35	mod	_	Idiom=Yes
+52	long	long	NOUN	_	ExtPos=ADV|Number=Sing	51	comp	_	Gender[lex]=Masc|InIdiom=Yes
 53	du	du	ADP	_	_	52	comp:obl	_	_
 54	siècle	siècle	NOUN	_	Number=Sing	53	comp	_	Gender[lex]=Masc
 55	des	de	ADP	_	_	54	udep	_	_
