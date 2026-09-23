@@ -25322,8 +25322,8 @@
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	poissons	poisson	NOUN	_	Number=Plur	4	comp:obj	_	Gender[lex]=Masc
 8	tout	tout	ADV	_	_	9	mod	_	_
-9	au	au	ADP	_	_	4	mod	_	Idiom=Yes
-10	long	long	NOUN	_	ExtPos=ADV|Number=Sing	9	comp	_	Gender[lex]=Masc|InIdiom=Yes
+9	au	au	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes
+10	long	long	NOUN	_	Number=Sing	9	comp	_	Gender[lex]=Masc|InIdiom=Yes
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 13	année	année	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Fem|SpaceAfter=No

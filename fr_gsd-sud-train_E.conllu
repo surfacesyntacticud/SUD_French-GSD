@@ -46937,8 +46937,8 @@
 9	baisse	baisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	graduellement	graduellement	ADV	_	_	9	mod	_	_
 11	tout	tout	ADV	_	_	12	mod	_	_
-12	au	au	ADP	_	_	9	mod	_	Idiom=Yes
-13	long	long	NOUN	_	ExtPos=ADV|Number=Sing	12	comp	_	Gender[lex]=Masc|InIdiom=Yes
+12	au	au	ADP	_	ExtPos=ADV	9	mod	_	Idiom=Yes
+13	long	long	NOUN	_	Number=Sing	12	comp	_	Gender[lex]=Masc|InIdiom=Yes
 14	du	du	ADP	_	_	13	comp:obl	_	_
 15	printemps	printemps	NOUN	_	_	14	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
@@ -67361,8 +67361,8 @@
 # sent_id = fr-ud-train_14124
 # text = Tout au long de ma lecture, je me demandais bien comment l'auteur allais se sortir de cette histoire.
 1	Tout	tout	ADV	_	_	2	mod	_	wordform=tout
-2	au	au	ADP	_	_	10	mod	_	Idiom=Yes
-3	long	long	NOUN	_	ExtPos=ADV|Number=Sing	2	comp	_	Gender[lex]=Masc|InIdiom=Yes
+2	au	au	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes
+3	long	long	NOUN	_	Number=Sing	2	comp	_	Gender[lex]=Masc|InIdiom=Yes
 4	de	de	ADP	_	_	3	comp:obl	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	_
 6	lecture	lecture	NOUN	_	Number=Sing	4	comp	_	Gender[lex]=Fem|SpaceAfter=No

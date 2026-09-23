@@ -3903,8 +3903,8 @@
 6	très	très	ADV	_	_	7	mod	_	_
 7	absent	absent	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 8	tout	tout	ADV	_	_	9	mod	_	_
-9	au	au	ADP	_	_	7	mod	_	Idiom=Yes
-10	long	long	NOUN	_	ExtPos=ADV|Number=Sing	9	comp	_	Gender[lex]=Masc|InIdiom=Yes
+9	au	au	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
+10	long	long	NOUN	_	Number=Sing	9	comp	_	Gender[lex]=Masc|InIdiom=Yes
 11	du	du	ADP	_	_	10	comp:obl	_	_
 12	roman	roman	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Masc|SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_

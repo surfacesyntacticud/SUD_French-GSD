@@ -2745,8 +2745,8 @@
 10	50	50	NUM	_	ExtPos=DET	11	det	_	Number[lex]=Plur
 11	ans	an	NOUN	_	Number=Plur	9	comp	_	Gender[lex]=Masc
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	au	au	ADP	_	_	6	mod	_	Idiom=Yes
-14	long	long	NOUN	_	ExtPos=ADV|Number=Sing	13	comp	_	Gender[lex]=Masc|InIdiom=Yes
+13	au	au	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes
+14	long	long	NOUN	_	Number=Sing	13	comp	_	Gender[lex]=Masc|InIdiom=Yes
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	période	période	NOUN	_	Number=Sing	15	comp	_	Gender[lex]=Fem
@@ -61121,8 +61121,8 @@
 10	pays	pays	NOUN	_	_	8	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	tout	tout	ADV	_	Shared=No	13	mod	_	_
-13	au	au	ADP	_	_	2	udep	_	Idiom=Yes
-14	long	long	NOUN	_	ExtPos=ADV|Number=Sing	13	comp	_	Gender[lex]=Masc|InIdiom=Yes
+13	au	au	ADP	_	ExtPos=ADV	2	udep	_	Idiom=Yes
+14	long	long	NOUN	_	Number=Sing	13	comp	_	Gender[lex]=Masc|InIdiom=Yes
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	frontière	frontière	NOUN	_	Number=Sing	15	comp	_	Gender[lex]=Fem
