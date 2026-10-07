@@ -2120,7 +2120,7 @@
 22	vendredis	vendredi	NOUN	_	Number=Plur	12	mod	_	Gender[lex]=Masc|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	à	à	ADP	_	_	12	mod	_	_
-25	19	19	NUM	_	ExtPos=PROPN	26	det	_	Number[lex]=Sing
+25	19	19	NUM	_	ExtPos=PROPN	26	mod	_	Number[lex]=Sing
 26	heures	heure	NOUN	_	Number=Plur	24	comp	_	Gender[lex]=Fem|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	à	à	ADP	_	_	12	mod	_	_
@@ -20096,13 +20096,13 @@
 20	apres	après-midi	NOUN	_	Number=Sing|Typo=Yes	19	mod	_	CorrectForm=après-midi|Gender[lex]=Masc
 21	midi	_	X	_	_	20	goeswith	_	_
 22	à	à	ADP	_	_	19	udep	_	_
-23	14	14	NUM	_	ExtPos=PROPN	24	det	_	Number[lex]=Sing|SpaceAfter=No
+23	14	14	NUM	_	ExtPos=PROPN	24	mod	_	Number[lex]=Sing|SpaceAfter=No
 24	h	h	NOUN	_	Number=Plur	22	comp	_	Gender[lex]=Fem|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	intervention	intervention	NOUN	_	Number=Sing	2	conj:appos	_	Gender[lex]=Fem
 27	rapide	rapide	ADJ	_	Number=Sing	26	mod	_	Gender[ctxt]=Fem
 28	à	à	ADP	_	_	26	udep	_	_
-29	17	17	NUM	_	ExtPos=PROPN	30	det	_	Number[lex]=Sing|SpaceAfter=No
+29	17	17	NUM	_	ExtPos=PROPN	30	mod	_	Number[lex]=Sing|SpaceAfter=No
 30	h	h	NOUN	_	Number=Plur	28	comp	_	Gender[lex]=Fem
 31	et	et	CCONJ	_	_	32	cc	_	_
 32	avec	avec	ADP	_	_	28	conj:coord	_	_
@@ -54784,7 +54784,7 @@
 15	janvier	janvier	NOUN	_	Number=Sing	14	mod	_	Gender[lex]=Masc
 16	1992	1992	NUM	_	ExtPos=PROPN	15	mod	_	Number[lex]=Sing
 17	à	à	ADP	_	_	11	mod	_	_
-18	19	19	NUM	_	ExtPos=PROPN|Shared=No	19	det	_	Number[lex]=Sing|SpaceAfter=No
+18	19	19	NUM	_	ExtPos=PROPN|Shared=No	19	mod	_	Number[lex]=Sing|SpaceAfter=No
 19	h	h	NOUN	_	Number=Plur	17	comp	_	Gender[lex]=Fem|SpaceAfter=No
 20	20	20	NUM	_	ExtPos=DET	21	det	_	Number[lex]=Plur
 21	min	min	NOUN	_	_	19	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur
@@ -54794,7 +54794,7 @@
 25	française	français	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	23	punct	_	_
 27	soit	soit	CCONJ	_	Shared=Yes	29	mod	_	_
-28	18	18	NUM	_	ExtPos=PROPN|Shared=No	29	det	_	Number[lex]=Sing|SpaceAfter=No
+28	18	18	NUM	_	ExtPos=PROPN|Shared=No	29	mod	_	Number[lex]=Sing|SpaceAfter=No
 29	h	h	NOUN	_	Number=Plur|Shared=Yes	21	conj:appos	_	Gender[lex]=Fem|SpaceAfter=No
 30	20	20	NUM	_	ExtPos=DET	31	det	_	Number[lex]=Plur
 31	min	min	NOUN	_	_	29	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur
@@ -59312,7 +59312,7 @@
 19	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	_
 20	1	1	NUM	_	ExtPos=DET	21	det	_	Number[lex]=Plur|SpaceAfter=No
 21	h	h	NOUN	_	Number=Plur	19	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
-22	30	30	NUM	_	ExtPos=PRON	21	mod	_	Number[lex]=Plur|SpaceAfter=No
+22	30	30	NUM	_	ExtPos=PROPN	21	mod	_	Number[lex]=Plur|SpaceAfter=No
 23	/	/	SYM	_	ExtPos=CCONJ	25	cc	_	SpaceAfter=No
 24	2	2	NUM	_	ExtPos=DET	25	det	_	Number[lex]=Plur|SpaceAfter=No
 25	h	h	NOUN	_	Number=Plur	21	conj:coord	_	Gender[lex]=Fem
@@ -62436,11 +62436,11 @@
 10	Park	Park	PROPN	_	_	9	conj:appos	_	Gender[lex]=Unknown
 11	Koultoury	Koultoury	PROPN	_	_	10	flat@name	_	Gender[lex]=Unknown
 12	à	à	ADP	_	_	5	mod	_	_
-13	08	08	NUM	_	ExtPos=PROPN	14	det	_	Number[lex]=Sing|SpaceAfter=No
+13	08	08	NUM	_	ExtPos=PROPN	14	mod	_	Number[lex]=Sing|SpaceAfter=No
 14	H	h	NOUN	_	Number=Plur	12	comp	_	Gender[lex]=Fem|SpaceAfter=No
 15	36	36	NUM	_	ExtPos=PROPN	14	mod	_	Number[lex]=Sing
 16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
-17	04	04	NUM	_	ExtPos=PROPN	18	det	_	Number[lex]=Sing|SpaceAfter=No
+17	04	04	NUM	_	ExtPos=PROPN	18	mod	_	Number[lex]=Sing|SpaceAfter=No
 18	H	h	NOUN	_	Number=Plur	14	conj:appos	_	Gender[lex]=Fem|SpaceAfter=No
 19	36	36	NUM	_	ExtPos=PROPN	18	mod	_	Number[lex]=Sing
 20	GMT	GMT	X	_	ExtPos=PROPN	18	mod	_	SpaceAfter=No
@@ -67086,11 +67086,11 @@
 24	de	de	ADP	_	_	23	udep	_	_
 25	Montpellier	Montpellier	PROPN	_	_	24	comp	_	Gender[lex]=Unknown
 26	de	de	ADP	_	_	20	mod	_	_
-27	10	10	NUM	_	ExtPos=PROPN	28	det	_	Number[lex]=Sing|SpaceAfter=No
+27	10	10	NUM	_	ExtPos=PROPN	28	mod	_	Number[lex]=Sing|SpaceAfter=No
 28	h	h	NOUN	_	Number=Plur	26	comp	_	Gender[lex]=Fem|SpaceAfter=No
 29	30	30	NUM	_	ExtPos=PROPN	28	mod	_	Number[lex]=Sing
 30	à	à	ADP	_	_	26	comp:obl	_	_
-31	18	18	NUM	_	ExtPos=PROPN	32	det	_	Number[lex]=Sing|SpaceAfter=No
+31	18	18	NUM	_	ExtPos=PROPN	32	mod	_	Number[lex]=Sing|SpaceAfter=No
 32	h	h	NOUN	_	Number=Plur	30	comp	_	Gender[lex]=Fem
 33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	34	det	_	_
 34	samedi	samedi	NOUN	_	Number=Sing	20	mod	_	Gender[lex]=Masc
@@ -69427,10 +69427,10 @@
 15	samedi	samedi	NOUN	_	Number=Sing	14	comp	_	Gender[lex]=Masc|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	de	de	ADP	_	_	11	comp:obl	_	_
-18	20	20	NUM	_	ExtPos=PROPN	19	det	_	Number[lex]=Sing|SpaceAfter=No
+18	20	20	NUM	_	ExtPos=PROPN	19	mod	_	Number[lex]=Sing|SpaceAfter=No
 19	h	h	NOUN	_	Number=Plur	17	comp	_	Gender[lex]=Fem
 20	à	à	ADP	_	_	17	comp:obl	_	_
-21	23	23	NUM	_	ExtPos=PROPN	22	det	_	Number[lex]=Sing|SpaceAfter=No
+21	23	23	NUM	_	ExtPos=PROPN	22	mod	_	Number[lex]=Sing|SpaceAfter=No
 22	h	h	NOUN	_	Number=Plur	20	comp	_	Gender[lex]=Fem|SpaceAfter=No
 23	30	30	NUM	_	ExtPos=PROPN	22	mod	_	Number[lex]=Sing|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
@@ -77610,7 +77610,7 @@
 # text = À 3h45, des éléments de la 2e division attaquèrent à l'est du village, espérant percer la ligne Hindenburg et s'emparer d'Hendecourt-lès-Cagnicourt tandis la 62e division britannique tentait de s'emparer de Bullecourt même.
 # source = https://fr.wikipedia.org/wiki/Bataille_d'Arras_(1917)
 1	À	à	ADP	_	_	12	mod	_	wordform=à
-2	3	3	NUM	_	ExtPos=PROPN	3	det	_	Number[lex]=Sing|SpaceAfter=No
+2	3	3	NUM	_	ExtPos=PROPN	3	mod	_	Number[lex]=Sing|SpaceAfter=No
 3	h	h	NOUN	_	Number=Plur	1	comp	_	Gender[lex]=Fem|SpaceAfter=No
 4	45	45	NUM	_	ExtPos=PROPN	3	mod	_	Number[lex]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_

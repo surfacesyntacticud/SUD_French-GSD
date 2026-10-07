@@ -11771,7 +11771,7 @@
 16	,	,	PUNCT	_	_	8	punct	_	_
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-19	1	1	NUM	_	ExtPos=PROPN	20	det	_	Number[lex]=Sing|SpaceAfter=No
+19	1	1	NUM	_	ExtPos=PROPN	20	mod	_	Number[lex]=Sing|SpaceAfter=No
 20	h	h	NOUN	_	Number=Sing	18	comp:pred	_	Gender[lex]=Fem|SpaceAfter=No
 21	.	.	PUNCT	_	_	18	punct	_	_
 
@@ -19951,7 +19951,7 @@
 5	samedi	samedi	NOUN	_	Number=Sing	3	mod	_	Gender[lex]=Masc
 6	soir	soir	NOUN	_	Number=Sing	5	mod	_	Gender[lex]=Masc|SpaceAfter=No
 7	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
-8	20	20	NUM	_	ExtPos=PROPN	9	det	_	Number[lex]=Sing|SpaceAfter=No
+8	20	20	NUM	_	ExtPos=PROPN	9	mod	_	Number[lex]=Sing|SpaceAfter=No
 9	h	h	NOUN	_	Number=Plur	5	mod	_	Gender[lex]=Fem|SpaceAfter=No
 10	)	)	PUNCT	_	_	5	punct	_	_
 11	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
@@ -29335,7 +29335,7 @@
 # text = Bref, deux heures formidables pour apprécier les monuments de Paris et pour diner tranquillement.
 1	Bref	bref	INTJ	_	_	4	discourse	_	SpaceAfter=No|wordform=bref
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	deux	deux	NUM	_	ExtPos=PROPN	4	det	_	Number[lex]=Sing
+3	deux	deux	NUM	_	ExtPos=DET	4	det	_	Number[lex]=Sing
 4	heures	heure	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Fem
 5	formidables	formidable	ADJ	_	Number=Plur	4	mod	_	Gender[ctxt]=Fem
 6	pour	pour	ADP	_	_	4	udep	_	_
@@ -32914,11 +32914,11 @@
 1	Censé	censé	ADJ	_	Gender=Masc|Number=Sing	0	root	_	wordform=censé
 2	fermer	fermer	VERB	_	VerbForm=Inf	1	comp:pred	_	Subject=SubjRaising
 3	à	à	ADP	_	_	2	mod	_	_
-4	23	23	NUM	_	ExtPos=PROPN	5	det	_	Number[lex]=Sing|SpaceAfter=No
+4	23	23	NUM	_	ExtPos=PROPN	5	mod	_	Number[lex]=Sing|SpaceAfter=No
 5	H	h	NOUN	_	Number=Plur	3	comp	_	Gender[lex]=Fem
 6	mais	mais	CCONJ	_	_	12	cc	_	_
 7	dès	dès	ADP	_	_	12	mod	_	_
-8	22	22	NUM	_	ExtPos=PROPN	9	det	_	Number[lex]=Sing|SpaceAfter=No
+8	22	22	NUM	_	ExtPos=PROPN	9	mod	_	Number[lex]=Sing|SpaceAfter=No
 9	h	h	NOUN	_	Number=Plur	7	comp	_	Gender[lex]=Fem
 10	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj@caus	_	_
 11	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	12	comp:obj@agent	_	_
@@ -33922,7 +33922,7 @@
 26	Kiviuq	Kiviuq	PROPN	_	_	25	comp	_	Gender[lex]=Unknown
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	de	de	ADP	_	_	25	conj:coord	_	_
-29	90377	90377	NUM	_	ExtPos=PROPN	30	det	_	Number[lex]=Sing
+29	90377	90377	NUM	_	ExtPos=PROPN	30	mod	_	Number[lex]=Sing
 30	Sedna	Sedna	PROPN	_	Number=Plur|Shared=No	28	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -48640,11 +48640,11 @@
 38	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	mod@relcl	_	_
 39	ouvert	ouvrir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	38	comp:aux@tense	_	Tense[denom]=Past
 40	à	à	ADP	_	_	38	mod	_	_
-41	8	8	NUM	_	ExtPos=PROPN	42	det	_	Number[lex]=Sing|SpaceAfter=No
+41	8	8	NUM	_	ExtPos=PROPN	42	mod	_	Number[lex]=Sing|SpaceAfter=No
 42	h	h	NOUN	_	Number=Plur	40	comp	_	Gender[lex]=Fem
 43	locales	local	ADJ	_	Gender=Fem|Number=Plur	42	mod	_	_
 44	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
-45	6	6	NUM	_	ExtPos=PROPN	46	det	_	Number[lex]=Sing|SpaceAfter=No
+45	6	6	NUM	_	ExtPos=PROPN	46	mod	_	Number[lex]=Sing|SpaceAfter=No
 46	h	h	NOUN	_	Number=Plur	42	conj:appos	_	Gender[lex]=Fem
 47	GMT	GMT	X	_	ExtPos=PROPN	46	mod	_	SpaceAfter=No
 48	)	)	PUNCT	_	_	46	punct	_	_
@@ -48652,11 +48652,11 @@
 50	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	conj:coord	_	_
 51	fermer	fermer	VERB	_	Shared=No|VerbForm=Inf	50	comp:obj	_	Subject=SubjRaising
 52	à	à	ADP	_	_	51	mod	_	_
-53	19	19	NUM	_	ExtPos=PROPN	54	det	_	Number[lex]=Sing|SpaceAfter=No
+53	19	19	NUM	_	ExtPos=PROPN	54	mod	_	Number[lex]=Sing|SpaceAfter=No
 54	h	h	NOUN	_	Number=Plur	52	comp	_	Gender[lex]=Fem
 55	locales	local	ADJ	_	Gender=Fem|Number=Plur	54	mod	_	_
 56	(	(	PUNCT	_	_	58	punct	_	SpaceAfter=No
-57	17	17	NUM	_	ExtPos=PROPN	58	det	_	Number[lex]=Sing|SpaceAfter=No
+57	17	17	NUM	_	ExtPos=PROPN	58	mod	_	Number[lex]=Sing|SpaceAfter=No
 58	h	h	NOUN	_	Number=Plur	54	conj:appos	_	Gender[lex]=Fem
 59	GMT	GMT	X	_	ExtPos=PROPN	58	mod	_	SpaceAfter=No
 60	)	)	PUNCT	_	_	58	punct	_	SpaceAfter=No
@@ -52157,7 +52157,7 @@
 24	à	à	ADP	_	ExtPos=ADV	20	mod	_	Idiom=Yes
 25	partir	partir	VERB	_	VerbForm=Inf	24	comp	_	InIdiom=Yes
 26	de	de	ADP	_	_	25	comp:obl	_	_
-27	16	16	NUM	_	ExtPos=PROPN	28	det	_	Number[lex]=Sing|SpaceAfter=No
+27	16	16	NUM	_	ExtPos=PROPN	28	mod	_	Number[lex]=Sing|SpaceAfter=No
 28	h	h	NOUN	_	Number=Plur	26	comp	_	Gender[lex]=Fem
 
 # sent_id = fr-ud-train_01945
@@ -56034,7 +56034,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	diminutif	diminutif	NOUN	_	Number=Sing|Shared=No	6	comp:obj	_	Gender[lex]=Masc
 10	de	de	ADP	_	_	9	udep	_	_
-11	.270	.270	NUM	_	ExtPos=PROPN	12	det	_	Number[lex]=Sing
+11	.270	.270	NUM	_	ExtPos=PROPN	12	mod	_	Number[lex]=Sing
 12	Win	Win	PROPN	_	Number=Plur	10	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -59568,7 +59568,7 @@
 1	Hier	hier	ADV	_	_	9	mod	_	wordform=hier
 2	matin	matin	NOUN	_	Number=Sing	1	mod	_	Gender[lex]=Masc
 3	à	à	ADP	_	_	2	udep	_	_
-4	9	9	NUM	_	ExtPos=PROPN	5	det	_	Number[lex]=Sing|SpaceAfter=No
+4	9	9	NUM	_	ExtPos=PROPN	5	mod	_	Number[lex]=Sing|SpaceAfter=No
 5	h	h	NOUN	_	Number=Plur	3	comp	_	Gender[lex]=Fem|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -68899,7 +68899,7 @@
 # text = Il est 7 H 17 du matin.
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	7	7	NUM	_	ExtPos=PROPN	4	det	_	Number[lex]=Sing
+3	7	7	NUM	_	ExtPos=PROPN	4	mod	_	Number[lex]=Sing
 4	H	heure	NOUN	_	Number=Plur	2	comp:pred	_	Gender[lex]=Fem
 5	17	17	NUM	_	ExtPos=PROPN	4	mod	_	Number[lex]=Sing
 6	du	du	ADP	_	_	4	udep	_	_
@@ -69813,7 +69813,7 @@
 18	décembre	décembre	NOUN	_	Number=Sing	17	mod	_	Gender[lex]=Masc
 19	2009	2009	NUM	_	ExtPos=PROPN	18	mod	_	Number[lex]=Sing
 20	vers	vers	ADP	_	_	13	mod	_	_
-21	19	19	NUM	_	ExtPos=PROPN	22	det	_	Number[lex]=Sing|SpaceAfter=No
+21	19	19	NUM	_	ExtPos=PROPN	22	mod	_	Number[lex]=Sing|SpaceAfter=No
 22	h	h	NOUN	_	ExtPos=PROPN|Number=Plur	20	comp	_	Gender[lex]=Fem|SpaceAfter=No
 23	00	00	NUM	_	ExtPos=PROPN	22	mod	_	Number[lex]=Sing
 24	!	!	PUNCT	_	_	2	punct	_	_

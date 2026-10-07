@@ -1558,7 +1558,7 @@
 5	soir	soir	NOUN	_	Number=Sing	4	mod	_	Gender[lex]=Masc
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	vers	vers	ADP	_	_	3	mod	_	_
-8	23	23	NUM	_	ExtPos=PROPN	9	det	_	Number[lex]=Sing|SpaceAfter=No
+8	23	23	NUM	_	ExtPos=PROPN	9	mod	_	Number[lex]=Sing|SpaceAfter=No
 9	h	h	NOUN	_	Number=Plur	7	comp	_	Gender[lex]=Fem|SpaceAfter=No
 10	)	)	PUNCT	_	_	7	punct	_	_
 11	au	au	ADP	_	_	3	comp:obl	_	_
@@ -2105,7 +2105,7 @@
 15	29	29	NUM	_	ExtPos=PROPN|Shared=No	14	mod	_	Number[lex]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	à	à	ADP	_	_	10	udep	_	_
-18	20	20	NUM	_	ExtPos=PROPN	19	det	_	Number[lex]=Sing|SpaceAfter=No
+18	20	20	NUM	_	ExtPos=PROPN	19	mod	_	Number[lex]=Sing|SpaceAfter=No
 19	h	h	NOUN	_	Number=Plur	17	comp	_	Gender[lex]=Fem|SpaceAfter=No
 20	30	30	NUM	_	ExtPos=PROPN	19	mod	_	Number[lex]=Sing
 21	;	;	PUNCT	_	_	2	punct	_	_
@@ -3113,7 +3113,7 @@
 
 # sent_id = fr-ud-dev_00118
 # text = 2000 OK67 mesure environ 160km de diamètre.
-1	2000	2000	NUM	_	ExtPos=PROPN	2	det	_	Number[lex]=Sing
+1	2000	2000	NUM	_	ExtPos=PROPN	2	mod	_	Number[lex]=Sing
 2	OK67	OK67	X	_	ExtPos=PROPN	3	subj	_	_
 3	mesure	mesurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	environ	environ	ADV	_	_	5	mod	_	_
@@ -6259,7 +6259,7 @@
 11	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	vers	vers	ADP	_	_	8	mod	_	SpaceAfter=No
-14	-365	-365	NUM	_	ExtPos=PROPN	15	det	_	Number[lex]=Sing
+14	-365	-365	NUM	_	ExtPos=PROPN	15	mod	_	Number[lex]=Sing
 15	Ma	Ma	PROPN	_	Number=Plur	13	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	avec	avec	ADP	_	_	8	mod	_	_
@@ -7385,7 +7385,7 @@
 34	octobre	octobre	NOUN	_	Number=Sing	33	mod	_	Gender[lex]=Masc
 35	1996	1996	NUM	_	ExtPos=PROPN	34	mod	_	Number[lex]=Sing
 36	à	à	ADP	_	_	29	mod	_	_
-37	23	23	NUM	_	ExtPos=PROPN	38	det	_	Number[lex]=Sing
+37	23	23	NUM	_	ExtPos=PROPN	38	mod	_	Number[lex]=Sing
 38	heures	heure	NOUN	_	Number=Plur	36	comp	_	Gender[lex]=Fem|SpaceAfter=No
 39	.	.	PUNCT	_	_	24	punct	_	_
 
@@ -9522,12 +9522,12 @@
 9	aux	au	ADP	_	_	8	comp:obl	_	_
 10	urnes	urne	NOUN	_	Number=Plur	9	comp	_	Gender[lex]=Fem
 11	de	de	ADP	_	_	7	mod	_	_
-12	12	12	NUM	_	ExtPos=PROPN	13	det	_	Number[lex]=Sing|SpaceAfter=No
+12	12	12	NUM	_	ExtPos=PROPN	13	mod	_	Number[lex]=Sing|SpaceAfter=No
 13	H	h	NOUN	_	Number=Plur	11	comp	_	Gender[lex]=Fem|SpaceAfter=No
 14	30	30	NUM	_	ExtPos=PROPN	13	mod	_	Number[lex]=Sing
 15	GMT	GMT	X	_	ExtPos=PROPN	13	mod	_	_
 16	à	à	ADP	_	_	11	comp:obl	_	_
-17	00	00	NUM	_	ExtPos=PROPN	18	det	_	Number[lex]=Sing|SpaceAfter=No
+17	00	00	NUM	_	ExtPos=PROPN	18	mod	_	Number[lex]=Sing|SpaceAfter=No
 18	H	h	NOUN	_	Number=Plur	16	comp	_	Gender[lex]=Fem|SpaceAfter=No
 19	30	30	NUM	_	ExtPos=PROPN	18	mod	_	Number[lex]=Sing
 20	GMT	GMT	X	_	ExtPos=PROPN	18	mod	_	_
@@ -10370,7 +10370,7 @@
 # sent_id = fr-ud-dev_00394
 # text = A 14h25, je retourne le voir en salle et le remercie ironiquemmnt de nous avoir aidé si gentillement, mais qu'il ferait mieux de s'abstenir de promettre l'impossible.
 1	A	à	ADP	_	Shared=Yes	7	mod	_	wordform=à
-2	14	14	NUM	_	ExtPos=PROPN	3	det	_	Number[lex]=Sing|SpaceAfter=No
+2	14	14	NUM	_	ExtPos=PROPN	3	mod	_	Number[lex]=Sing|SpaceAfter=No
 3	h	h	NOUN	_	Number=Plur	1	comp	_	Gender[lex]=Fem|SpaceAfter=No
 4	25	25	NUM	_	ExtPos=PROPN	3	mod	_	Number[lex]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
@@ -11836,7 +11836,7 @@
 27	à	à	ADP	_	ExtPos=ADV	10	conj:coord	_	Idiom=Yes
 28	partir	partir	VERB	_	Shared=No|VerbForm=Inf	27	comp	_	InIdiom=Yes
 29	de	de	ADP	_	Shared=No	28	comp:obl	_	_
-30	onze	onze	NUM	_	ExtPos=PROPN	31	det	_	Number[lex]=Sing
+30	onze	onze	NUM	_	ExtPos=PROPN	31	mod	_	Number[lex]=Sing
 31	heures	heure	NOUN	_	Number=Plur	29	comp	_	Gender[lex]=Fem
 32	du	du	ADP	_	_	31	udep	_	_
 33	soir	soir	NOUN	_	Number=Sing	32	comp	_	Gender[lex]=Masc
@@ -13718,7 +13718,7 @@
 17	joué	jouer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	16	comp:aux@tense	_	Tense[denom]=Past
 18	jusqu'	jusque	ADP	_	_	16	mod	_	SpaceAfter=No
 19	à	à	ADP	_	_	18	comp	_	_
-20	22	22	NUM	_	ExtPos=PROPN	21	det	_	Number[lex]=Sing|SpaceAfter=No
+20	22	22	NUM	_	ExtPos=PROPN	21	mod	_	Number[lex]=Sing|SpaceAfter=No
 21	h	h	NOUN	_	Number=Plur	19	comp	_	Gender[lex]=Fem|SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -28518,14 +28518,14 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	matin	matin	NOUN	_	Number=Sing	2	mod	_	Gender[lex]=Masc
 5	vers	vers	ADP	_	_	4	udep	_	_
-6	8	8	NUM	_	ExtPos=PROPN	7	det	_	Number[lex]=Sing
+6	8	8	NUM	_	ExtPos=PROPN	7	mod	_	Number[lex]=Sing
 7	heures	heure	NOUN	_	Number=Plur	5	comp	_	Gender[lex]=Fem
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	rentrais	rentrer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	conj:coord	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	soir	soir	NOUN	_	Number=Sing|Shared=No	9	mod	_	Gender[lex]=Masc
 12	vers	vers	ADP	_	_	11	udep	_	_
-13	20	20	NUM	_	ExtPos=PROPN	14	det	_	Number[lex]=Sing
+13	20	20	NUM	_	ExtPos=PROPN	14	mod	_	Number[lex]=Sing
 14	heures	heure	NOUN	_	Number=Plur	12	comp	_	Gender[lex]=Fem|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -34869,7 +34869,7 @@
 # source = https://fr.wikipedia.org/wiki/Lac_Funten
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Funtenseealm	Funtenseealm	PROPN	_	Number=Sing	3	subj	_	CorrectSpaceAfter=Yes|Gender[lex]=Masc|SpaceAfter=No
-3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Tense[denom]=Past
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	3	comp:aux@tense	_	CorrectForm=était|CorrectGender=none|CorrectPerson=3|CorrectTense=Imp|CorrectVerbForm=Fin|Tense[denom]=Past
 5	actif	actif	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 6	jusqu'	jusque	ADP	_	_	3	mod	_	SpaceAfter=No
@@ -35597,7 +35597,7 @@
 13	13	13	NUM	_	ExtPos=PROPN	12	mod	_	Number[lex]=Sing
 14	septembre	septembre	NOUN	_	Number=Sing	13	mod	_	Gender[lex]=Masc
 15	à	à	ADP	_	_	9	mod	_	_
-16	20	20	NUM	_	ExtPos=PROPN	17	det	_	Number[lex]=Sing|SpaceAfter=No
+16	20	20	NUM	_	ExtPos=PROPN	17	mod	_	Number[lex]=Sing|SpaceAfter=No
 17	h	h	NOUN	_	Number=Plur	15	comp	_	Gender[lex]=Fem|SpaceAfter=No
 18	40	40	NUM	_	ExtPos=PROPN	17	mod	_	Number[lex]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	1	punct	_	_
@@ -37254,7 +37254,7 @@
 # sent_id = fr-ud-dev_01411
 # text = Ainsi 3 fois 5 s'écrivait-il 3 in 5.
 1	Ainsi	ainsi	ADV	_	_	6	mod	_	wordform=ainsi
-2	3	3	NUM	_	ExtPos=PROPN	3	det	_	Number[lex]=Sing
+2	3	3	NUM	_	ExtPos=DET	3	det	_	Number[lex]=Sing
 3	fois	fois	NOUN	_	_	6	subj@pass	_	Gender[lex]=Fem|Number[ctxt]=Plur
 4	5	5	NUM	_	ExtPos=PROPN	3	mod	_	Number[lex]=Sing
 5	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@pass	_	SpaceAfter=No
